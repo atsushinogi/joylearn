@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>あそびと学びの部屋</title>
+  <meta name="description" content="手のひらの地球儀と、天下統一クイズへの入り口です。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F7F3EA;
+      --card: #FFFDF8;
+      --ink: #2B2722;
+      --ink-soft: #6B6358;
+      --line: #E6DDCB;
+      --sea: #2F6FA3;
+      --sea-tint: #DCEAF5;
+      --land: #5E9A6B;
+      --vermillion: #A8433D;
+      --gold: #C7983A;
+      --quiz-tint: #F6E5DF;
+      --shadow: 0 1px 2px rgb(40 30 20 / .06), 0 8px 24px rgb(40 30 20 / .08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #1C1A17;
+        --card: #26231F;
+        --ink: #EFE9DE;
+        --ink-soft: #ADA493;
+        --line: #3A352E;
+        --sea: #6FA8D6;
+        --sea-tint: #1F3346;
+        --land: #7DBB8A;
+        --vermillion: #D9776F;
+        --gold: #E0B75E;
+        --quiz-tint: #3A2724;
+        --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 24px rgb(0 0 0 / .3);
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #1C1A17;
+      --card: #26231F;
+      --ink: #EFE9DE;
+      --ink-soft: #ADA493;
+      --line: #3A352E;
+      --sea: #6FA8D6;
+      --sea-tint: #1F3346;
+      --land: #7DBB8A;
+      --vermillion: #D9776F;
+      --gold: #E0B75E;
+      --quiz-tint: #3A2724;
+      --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 24px rgb(0 0 0 / .3);
+    }
+
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Zen Maru Gothic", system-ui, sans-serif;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 56px 16px 40px;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 6vw, 40px);
+      font-weight: 900;
+      letter-spacing: .04em;
+    }
+    .lead { margin: 8px 0 0; color: var(--ink-soft); font-size: 16px; }
+
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .app {
+      display: flex;
+      flex-direction: column;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      color: inherit;
+      text-decoration: none;
+      overflow: hidden;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .app:hover, .app:focus-visible { transform: translateY(-4px); }
+    .app:focus-visible { outline: 3px solid var(--sea); outline-offset: 3px; }
+    .art {
+      display: grid;
+      place-items: center;
+      height: 220px;
+    }
+    .globe .art { background: var(--sea-tint); }
+    .quiz .art { background: var(--quiz-tint); }
+    .art svg { width: 180px; height: 180px; }
+    .body { padding: 20px 24px 24px; display: flex; flex-direction: column; flex: 1; }
+    .tag {
+      align-self: flex-start;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 999px;
+      border: 1px solid currentColor;
+    }
+    .globe .tag { color: var(--sea); }
+    .quiz .tag { color: var(--vermillion); }
+    h2 { margin: 10px 0 6px; font-size: 22px; font-weight: 900; }
+    .body p { margin: 0 0 16px; color: var(--ink-soft); font-size: 15px; }
+    .body ul { margin: 0 0 20px; padding-left: 1.2em; font-size: 14px; color: var(--ink-soft); }
+    .go {
+      margin-top: auto;
+      align-self: flex-start;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 8px 18px;
+      border-radius: 999px;
+      color: #fff;
+    }
+    .globe .go { background: var(--sea); }
+    .quiz .go { background: var(--vermillion); }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) .go { color: #1C1A17; }
+    }
+    :root[data-theme="dark"] .go { color: #1C1A17; }
+
+    /* イラストの動き */
+    .spin { animation: spin 18s linear infinite; transform-origin: 90px 90px; }
+    .bob { animation: bob 3s ease-in-out infinite; }
+    @keyframes spin { to { transform: translateX(-120px); } }
+    @keyframes bob { 50% { transform: translateY(-6px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .spin, .bob, .app { animation: none; transition: none; }
+    }
+
+    footer { margin-top: 48px; text-align: center; color: var(--ink-soft); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>あそびと学びの部屋</h1>
+      <p class="lead">さわって楽しい、ふたつのアプリ。好きなほうから選んでね。</p>
+    </header>
+
+    <section class="apps">
+      <a class="app globe" href="globe/index.html">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 180 180">
+            <defs>
+              <clipPath id="ball"><circle cx="90" cy="90" r="62"/></clipPath>
+            </defs>
+            <!-- 台座 -->
+            <path d="M90 160 v-6" stroke="var(--ink-soft)" stroke-width="6" stroke-linecap="round"/>
+            <ellipse cx="90" cy="166" rx="34" ry="7" fill="var(--ink-soft)"/>
+            <!-- 子午線の輪 -->
+            <path d="M34 128 A70 70 0 1 1 146 52" fill="none" stroke="var(--gold)" stroke-width="5" stroke-linecap="round"/>
+            <!-- 海 -->
+            <circle cx="90" cy="90" r="62" fill="var(--sea)"/>
+            <!-- 大陸（横に流れる） -->
+            <g clip-path="url(#ball)">
+              <g class="spin" fill="var(--land)">
+                <g id="lands">
+                  <path d="M40 58 q14 -10 30 -2 q8 10 -2 18 q-10 4 -8 16 q-6 12 -16 6 q-10 -14 -4 -38z"/>
+                  <path d="M88 44 q18 -6 30 6 q6 12 -6 16 q-14 0 -18 10 q-10 -4 -10 -16 q0 -10 4 -16z"/>
+                  <path d="M96 92 q14 -4 20 8 q4 18 -8 30 q-10 6 -14 -6 q-6 -16 2 -32z"/>
+                  <path d="M60 112 q10 -2 14 8 q-2 10 -12 10 q-8 -6 -2 -18z"/>
+                </g>
+                <use href="#lands" x="120"/>
+              </g>
+            </g>
+            <!-- ハイライト -->
+            <ellipse cx="68" cy="62" rx="16" ry="10" fill="#fff" opacity=".25" transform="rotate(-30 68 62)"/>
+          </svg>
+        </div>
+        <div class="body">
+          <span class="tag">ちきゅうぎ</span>
+          <h2>TERRA — 手のひらの地球儀</h2>
+          <p>本物の海岸線をたどれる、くるくる回せる地球儀です。ドラッグして世界を旅してみよう。</p>
+          <ul>
+            <li>地軸ごと自由に回転</li>
+            <li>インターネットなしでも動く</li>
+          </ul>
+          <span class="go">地球儀をひらく →</span>
+        </div>
+      </a>
+
+      <a class="app quiz" href="quiz/social-studies-2-lesson7/index.html">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 180 180">
+            <!-- 城 -->
+            <g class="bob">
+              <rect x="50" y="118" width="80" height="34" rx="3" fill="var(--ink-soft)"/>
+              <path d="M40 120 h100 l-12 -14 h-76z" fill="var(--vermillion)"/>
+              <rect x="62" y="84" width="56" height="24" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="3"/>
+              <path d="M48 88 h84 l-14 -16 h-56z" fill="var(--vermillion)"/>
+              <rect x="74" y="56" width="32" height="18" fill="var(--card)" stroke="var(--ink-soft)" stroke-width="3"/>
+              <path d="M62 60 h56 l-12 -16 h-32z" fill="var(--vermillion)"/>
+              <path d="M78 44 q-6 -4 -8 -10 M102 44 q6 -4 8 -10" stroke="var(--gold)" stroke-width="4" stroke-linecap="round" fill="none"/>
+              <rect x="84" y="132" width="12" height="20" rx="6" fill="var(--card)"/>
+            </g>
+            <!-- はてなの吹き出し -->
+            <g>
+              <circle cx="146" cy="40" r="22" fill="var(--gold)"/>
+              <path d="M132 56 l-8 10 l14 -4z" fill="var(--gold)"/>
+              <text x="146" y="50" text-anchor="middle" font-size="28" font-weight="900" fill="#fff" font-family="Zen Maru Gothic, sans-serif">?</text>
+            </g>
+          </svg>
+        </div>
+        <div class="body">
+          <span class="tag">しゃかい・れきし</span>
+          <h2>天下統一クイズ</h2>
+          <p>社会 第7回「安土・桃山時代」の4択クイズ。信長・秀吉の時代のできごとを楽しくおさらいしよう。</p>
+          <ul>
+            <li>全50問の4択問題</li>
+            <li>ときどき、おもしろい選択肢がまぎれているかも？</li>
+          </ul>
+          <span class="go">クイズにちょうせん →</span>
+        </div>
+      </a>
+    </section>
+
+    <footer>カードをクリックするとアプリがひらきます</footer>
+  </main>
+</body>
+</html>
