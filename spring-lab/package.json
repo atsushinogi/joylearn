@@ -1,0 +1,1 @@
+{"name":"spring-lab","private":true,"type":"module","scripts":{"check":"node --check dist/app.js && node --check dist/physics.js && node verify.mjs"}}

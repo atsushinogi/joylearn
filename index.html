@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>あそびと学びの部屋</title>
-  <meta name="description" content="手のひらの地球儀と、天下統一クイズへの入り口です。">
+  <meta name="description" content="地球儀、歴史クイズ、ばねラボ。さわって楽しく学べるアプリと開発記録への入り口です。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -104,6 +104,7 @@
     }
     .globe .art { background: var(--sea-tint); }
     .quiz .art { background: var(--quiz-tint); }
+    .spring .art { background: var(--sea-tint); }
     .art svg { width: 180px; height: 180px; }
     .body { padding: 20px 24px 24px; display: flex; flex-direction: column; flex: 1; }
     .tag {
@@ -116,6 +117,7 @@
     }
     .globe .tag { color: var(--sea); }
     .quiz .tag { color: var(--vermillion); }
+    .spring .tag { color: var(--land); }
     h2 { margin: 10px 0 6px; font-size: 22px; font-weight: 900; }
     .body p { margin: 0 0 16px; color: var(--ink-soft); font-size: 15px; }
     .body ul { margin: 0 0 20px; padding-left: 1.2em; font-size: 14px; color: var(--ink-soft); }
@@ -130,6 +132,19 @@
     }
     .globe .go { background: var(--sea); }
     .quiz .go { background: var(--vermillion); }
+    .spring .go { background: var(--land); }
+    .documents {
+      margin-top: 28px;
+      padding: 22px 24px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+    .documents h2 { margin: 0 0 6px; font-size: 18px; }
+    .documents p { margin: 0 0 14px; color: var(--ink-soft); font-size: 14px; }
+    .document-links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .document-links a { color: var(--sea); font-size: 14px; font-weight: 700; }
+    .document-links a:focus-visible { outline: 3px solid var(--sea); outline-offset: 3px; }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) .go { color: #1C1A17; }
     }
@@ -151,7 +166,7 @@
   <main>
     <header>
       <h1>あそびと学びの部屋</h1>
-      <p class="lead">さわって楽しい、ふたつのアプリ。好きなほうから選んでね。</p>
+      <p class="lead">さわって楽しい、学びのアプリ。好きなものから選んでね。</p>
     </header>
 
     <section class="apps">
@@ -229,6 +244,38 @@
           <span class="go">クイズにちょうせん →</span>
         </div>
       </a>
+
+      <a class="app spring" href="spring-lab/dist/index.html">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 180 180">
+            <path d="M32 28 h116" fill="none" stroke="var(--ink-soft)" stroke-width="7" stroke-linecap="round"/>
+            <path d="M60 30 v12 l-12 7 24 10 -24 10 24 10 -24 10 24 10 -12 7 v16 M120 30 v12 l-12 7 24 10 -24 10 24 10 -24 10 24 10 -12 7 v16" fill="none" stroke="var(--land)" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M50 122 h80 M90 122 v14" fill="none" stroke="var(--ink-soft)" stroke-width="4" stroke-linecap="round"/>
+            <path d="M68 137 h44 l7 27 h-58z" fill="var(--land)"/>
+            <text x="90" y="156" text-anchor="middle" font-size="14" font-weight="700" fill="var(--card)">100 g</text>
+            <path d="M138 62 h15 M146 62 v57 M138 119 h15" fill="none" stroke="var(--gold)" stroke-width="3"/>
+          </svg>
+        </div>
+        <div class="body">
+          <span class="tag">りか・ばね</span>
+          <h2>ばねラボ</h2>
+          <p>おもりを変えて、つなぎ方を変えて。ばねが支える力とのびの関係を、さわって発見しよう。</p>
+          <ul>
+            <li>1本・直列・並列・途中のおもりを実験</li>
+            <li>グラフとミニ問題で理解をチェック</li>
+          </ul>
+          <span class="go">ばねを実験する →</span>
+        </div>
+      </a>
+    </section>
+
+    <section class="documents" aria-labelledby="documents-title">
+      <h2 id="documents-title">ばねラボの開発セッション記録</h2>
+      <p>参考にした教材、アプリの仕様、物理モデル、検証結果、今後の拡張案をまとめました。</p>
+      <div class="document-links">
+        <a href="spring-lab/docs/SESSION_DOCUMENT.docx" download>Word文書をダウンロード</a>
+        <a href="spring-lab/docs/SESSION_DOCUMENT.md" download>Markdown版をダウンロード</a>
+      </div>
     </section>
 
     <footer>カードをクリックするとアプリがひらきます</footer>
