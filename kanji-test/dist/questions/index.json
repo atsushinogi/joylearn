@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "name": "01-school.txt",
+      "title": "学校と学び — 小学5年生（15問）",
+      "count": 15,
+      "path": "./01-school.txt"
+    },
+    {
+      "name": "02-nature.txt",
+      "title": "自然と科学 — 小学5年生（15問）",
+      "count": 15,
+      "path": "./02-nature.txt"
+    },
+    {
+      "name": "03-society.txt",
+      "title": "社会とくらし — 小学5年生（15問）",
+      "count": 15,
+      "path": "./03-society.txt"
+    },
+    {
+      "name": "04-challenge.txt",
+      "title": "ことばの力 — 小学5年生（15問）",
+      "count": 15,
+      "path": "./04-challenge.txt"
+    }
+  ]
+}

@@ -6,9 +6,13 @@
 
 | コンテンツ | 内容 | ファイル |
 | --- | --- | --- |
+| かんじのテスト室 | 問題集を複数選び、指定数をランダム出題。手書き・キーボードで回答し、採点と間違いの復習ができます。小学5年生のサンプル60問入り。 | [kanji-test/dist/index.html](kanji-test/dist/index.html) |
+| もじのアトリエ | 漢字・ひらがな・カタカナを1文字ずつ手書きして認識。候補を選んでテキストに追加できます。外部通信なしで動作。 | [handwriting/dist/index.html](handwriting/dist/index.html) |
 | TERRA — 手のひらの地球儀 | 本物の海岸線をたどりながら、ドラッグで地軸ごと自由に回せる地球儀。アプリ本体はインターネット接続なしでも動作します。 | [globe/dist/index.html](globe/dist/index.html) |
 | 天下統一クイズ | 社会 第7回「安土・桃山時代」を復習する全50問の4択クイズ。信長・秀吉の時代のできごとを学べます。 | [quiz/social-studies-2-lesson7/index.html](quiz/social-studies-2-lesson7/index.html) |
 | ばねラボ | おもりやばねのつなぎ方を変えて、力とのびの関係を調べる実験アプリ。1本・直列・並列・途中のおもりを扱い、グラフとミニ問題で理解を確認できます。 | [spring-lab/dist/index.html](spring-lab/dist/index.html) |
+
+漢字テストの問題ファイルの追加方法と形式は [kanji-test/README.md](kanji-test/README.md) にまとめています。
 
 ばねラボの教材・仕様・物理モデル・検証結果・拡張案は、開発セッション記録の[Markdown版](spring-lab/docs/SESSION_DOCUMENT.md)と[Word版](spring-lab/docs/SESSION_DOCUMENT.docx)にまとめています。
 
@@ -47,15 +51,11 @@ python3 ftp-sync.py --upload
 
 ### 転送対象と除外ルール
 
-次のファイル・ディレクトリは転送しません。
+HTML（`.html`・`.htm`）、JavaScript（`.js`）、CSS（`.css`）を転送します。これらのファイル内のリテラルなパスから参照される画像・フォント・音声・動画・JSON・WebAssembly・JavaScriptモジュール（`.mjs`）・テキスト（`.txt`、問題ファイルやライセンス）なども対象です。外部URLは対象外で、動的に組み立てるパスは自動検出できません。
 
-- ドットで始まるファイル・ディレクトリ（`.git`、`.env`、`.openai`、`.venv`など）
-- `__pycache__` 以下のファイル
-- シンボリックリンクのファイル
-- `ftp-sync.py`、`FTP-SYNC.md`、`AGENTS.md`
-- 拡張子が `.pem`、`.key`、`.p12`、`.pfx` のファイル
+ドットで始まるファイル・ディレクトリ、`__pycache__`、シンボリックリンクは除外します。README、Markdown・Word文書、Python・CommonJSの開発用スクリプト、未参照のJSONなどは転送しません。開発セッション記録（Word・Markdown）も対象外です。
 
-転送対象はGitの追跡状況や `.gitignore` とは独立して決まります。`dist/` 内のHTMLや、この `README.md`、開発用スクリプト・文書も、上記の除外条件に該当しなければ転送されます。`.htaccess` もドットで始まるため対象外です。アップロード前に一覧を確認してください。
+転送対象はGitの追跡状況や `.gitignore` とは独立して決まります。`dist/` 内の公開用ファイルも転送します。アップロード前に一覧を確認してください。
 
 ### FTPSを使う場合
 
