@@ -1,0 +1,824 @@
+<title>平安絵巻クイズ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #F6EFDD;
+    --bg-deep: #EEE3C6;
+    --paper: #FFFBF1;
+    --ink: #2E2620;
+    --ink-soft: #6E5F4E;
+    --accent: #4B3868;
+    --accent-tint: #6B5490;
+    --vermillion: #A8433D;
+    --vermillion-tint: #C96A5E;
+    --gold: #B98B2E;
+    --gold-tint: #D9B25C;
+    --green: #4C7A5E;
+    --green-tint: #DCE9DE;
+    --red: #A8433D;
+    --red-tint: #F3DEDB;
+    --thread: #C96A5E;
+    --shadow: 20 15% 20%;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #201A2B;
+      --bg-deep: #171320;
+      --paper: #FFFBF1;
+      --ink: #2E2620;
+      --ink-soft: #6E5F4E;
+      --accent: #B8A3DE;
+      --accent-tint: #9884C4;
+      --vermillion: #E08477;
+      --vermillion-tint: #C96A5E;
+      --gold: #E7C671;
+      --gold-tint: #D9B25C;
+      --green: #86C7A1;
+      --green-tint: #234A38;
+      --red: #E38F86;
+      --red-tint: #4A2422;
+      --thread: #E08477;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #201A2B;
+    --bg-deep: #171320;
+    --paper: #FFFBF1;
+    --ink: #2E2620;
+    --ink-soft: #6E5F4E;
+    --accent: #B8A3DE;
+    --accent-tint: #9884C4;
+    --vermillion: #E08477;
+    --vermillion-tint: #C96A5E;
+    --gold: #E7C671;
+    --gold-tint: #D9B25C;
+    --green: #86C7A1;
+    --green-tint: #234A38;
+    --red: #E38F86;
+    --red-tint: #4A2422;
+    --thread: #E08477;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body { height: 100%; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+      radial-gradient(ellipse at 15% -10%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 55%),
+      radial-gradient(ellipse at 110% 10%, color-mix(in srgb, var(--vermillion) 12%, transparent), transparent 50%),
+      var(--bg);
+    color: var(--ink);
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 28px 16px 60px;
+    position: relative;
+    isolation: isolate;
+    overflow-x: hidden;
+  }
+
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .backdrop svg { width: 100%; height: 100%; display: block; }
+
+  .stage {
+    width: 100%;
+    max-width: 720px;
+    position: relative;
+  }
+
+  .masthead {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  .masthead .kicker {
+    font-size: 12.5px;
+    letter-spacing: .18em;
+    color: var(--ink-soft);
+    font-weight: 700;
+  }
+
+  .masthead h1 {
+    font-family: "Yuji Syuku", "Hiragino Mincho ProN", serif;
+    font-size: clamp(28px, 7vw, 38px);
+    margin: 4px 0 2px;
+    color: var(--accent);
+    text-wrap: balance;
+    letter-spacing: .02em;
+  }
+
+  .masthead .sub {
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+
+  .tabs {
+    display: flex;
+    gap: 4px;
+    background: color-mix(in srgb, var(--ink-soft) 14%, transparent);
+    padding: 4px;
+    border-radius: 99px;
+    margin: 20px 0 0;
+  }
+
+  .tab {
+    flex: 1;
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--ink-soft);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 13.5px;
+    padding: 10px 10px;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: background .18s ease, color .18s ease, box-shadow .18s ease;
+  }
+
+  .tab.active {
+    background: var(--paper);
+    color: var(--accent);
+    box-shadow: 0 2px 8px hsl(var(--shadow) / .22);
+  }
+
+  .tab:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .hud {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 18px 0 14px;
+  }
+
+  .progress-track {
+    flex: 1;
+    height: 8px;
+    border-radius: 99px;
+    background: color-mix(in srgb, var(--ink-soft) 18%, transparent);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .progress-fill {
+    height: 100%;
+    border-radius: 99px;
+    background: linear-gradient(90deg, var(--thread), var(--gold));
+    transition: width .45s cubic-bezier(.4,0,.2,1);
+  }
+
+  .score-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 99px;
+    padding: 6px 12px 6px 8px;
+    box-shadow: 0 1px 2px hsl(var(--shadow) / .15), 0 4px 10px hsl(var(--shadow) / .10);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .score-chip svg { width: 18px; height: 18px; flex: none; }
+
+  .scroll-card {
+    background: var(--paper);
+    border-radius: 22px;
+    padding: 28px 24px 26px;
+    box-shadow: 0 1px 2px hsl(var(--shadow) / .18), 0 18px 34px -14px hsl(var(--shadow) / .35);
+    position: relative;
+    color: var(--ink);
+  }
+
+  .scroll-card::before,
+  .scroll-card::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    height: 12px;
+    border-radius: 99px;
+    background: linear-gradient(180deg, var(--gold-tint), var(--gold));
+    box-shadow: 0 2px 4px hsl(var(--shadow) / .25);
+  }
+  .scroll-card::before { top: -6px; }
+  .scroll-card::after { bottom: -6px; }
+
+  .q-index {
+    font-family: "Yuji Syuku", serif;
+    font-size: 13px;
+    color: var(--vermillion);
+    letter-spacing: .08em;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+
+  .q-text {
+    font-size: clamp(17px, 4.6vw, 20px);
+    line-height: 1.7;
+    font-weight: 700;
+    text-wrap: balance;
+    min-height: 3.4em;
+  }
+
+  .options {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .opt {
+    appearance: none;
+    border: 2px solid color-mix(in srgb, var(--ink-soft) 22%, transparent);
+    background: var(--bg-deep);
+    border-radius: 20px;
+    padding: 14px 14px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--ink);
+    text-align: center;
+    transition: transform .15s ease, border-color .15s ease, background .15s ease, box-shadow .15s ease;
+  }
+
+  .opt:hover:not(:disabled) {
+    transform: translateY(-3px);
+    border-color: var(--accent-tint);
+    box-shadow: 0 10px 20px -10px hsl(var(--shadow) / .4);
+  }
+  .opt:hover:not(:disabled) .badge { transform: scale(1.03); }
+
+  .opt:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .opt:disabled { cursor: default; }
+
+  .badge {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 148px;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    flex: none;
+    box-shadow:
+      inset 0 0 0 3px var(--gold-tint),
+      inset 0 0 0 5px color-mix(in srgb, var(--ink) 12%, transparent),
+      0 6px 14px -8px hsl(var(--shadow) / .45);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+
+  .badge svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .opt-label {
+    font-weight: 700;
+    font-size: 15.5px;
+    line-height: 1.3;
+  }
+
+  .opt-furi {
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    letter-spacing: .02em;
+    margin-top: -6px;
+  }
+
+  .opt.correct {
+    border-color: var(--green);
+    background: var(--green-tint);
+  }
+  .opt.correct .badge {
+    box-shadow:
+      inset 0 0 0 3px var(--paper),
+      inset 0 0 0 6px var(--green),
+      0 6px 14px -8px hsl(var(--shadow) / .45);
+  }
+
+  .opt.wrong {
+    border-color: var(--red);
+    background: var(--red-tint);
+  }
+  .opt.wrong .badge {
+    box-shadow:
+      inset 0 0 0 3px var(--paper),
+      inset 0 0 0 6px var(--red),
+      0 6px 14px -8px hsl(var(--shadow) / .45);
+  }
+
+  .opt.dim { opacity: .5; }
+  .opt.dim .badge { transform: scale(.97); }
+
+  @keyframes pop {
+    0% { transform: scale(1); }
+    35% { transform: scale(1.06); }
+    100% { transform: scale(1); }
+  }
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-6px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(3px); }
+  }
+  .opt.correct.pulse { animation: pop .38s ease; }
+  .opt.wrong.pulse { animation: shake .38s ease; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .opt, .progress-fill, .feedback, .opt.correct.pulse, .opt.wrong.pulse { animation: none !important; transition: none !important; }
+  }
+
+  .feedback {
+    margin-top: 18px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 14.5px;
+  }
+
+  .feedback .msg { color: var(--ink-soft); }
+  .feedback .msg.is-correct { color: var(--green); }
+  .feedback .msg.is-wrong { color: var(--red); }
+
+  .next-btn {
+    appearance: none;
+    border: none;
+    border-radius: 99px;
+    padding: 10px 20px;
+    background: var(--accent);
+    color: var(--paper);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px -4px hsl(var(--shadow) / .5);
+    opacity: 0;
+    transform: translateY(4px);
+    pointer-events: none;
+    transition: opacity .2s ease, transform .2s ease, background .15s ease;
+  }
+  .next-btn.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+  .next-btn:hover { background: var(--accent-tint); }
+  .next-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+  .summary {
+    text-align: center;
+    padding: 10px 6px 4px;
+  }
+  .summary .big {
+    font-family: "Yuji Syuku", serif;
+    font-size: clamp(30px, 9vw, 44px);
+    color: var(--accent);
+    margin: 6px 0 2px;
+  }
+  .summary .line {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .restart-btn {
+    appearance: none;
+    border: none;
+    border-radius: 99px;
+    padding: 12px 26px;
+    background: linear-gradient(90deg, var(--vermillion), var(--gold));
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 6px 16px -6px hsl(var(--shadow) / .5);
+  }
+  .restart-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .footer-note {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    opacity: .8;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .gitem {
+    background: var(--paper);
+    border-radius: 18px;
+    padding: 18px 18px 20px;
+    box-shadow: 0 1px 2px hsl(var(--shadow) / .15), 0 10px 22px -16px hsl(var(--shadow) / .32);
+  }
+
+  .gitem-num {
+    display: inline-block;
+    font-family: "Yuji Syuku", serif;
+    font-size: 12.5px;
+    color: var(--vermillion);
+    letter-spacing: .06em;
+    margin-bottom: 6px;
+  }
+
+  .gitem-q {
+    margin: 0 0 14px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.6;
+    text-wrap: balance;
+  }
+
+  .gitem-opts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .gopt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    padding: 8px 6px;
+    border-radius: 14px;
+    border: 2px solid transparent;
+  }
+
+  .gbadge {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 92px;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--ink) 14%, transparent);
+  }
+  .gbadge svg { width: 100%; height: 100%; display: block; }
+
+  .gopt-label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .gopt-furi {
+    font-size: 9.5px;
+    color: var(--ink-soft);
+  }
+
+  .gopt.correct {
+    border-color: var(--green);
+    background: var(--green-tint);
+  }
+  .gopt.correct .gbadge {
+    box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 4px var(--green);
+  }
+
+  .check-flag {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px hsl(var(--shadow) / .35);
+  }
+  .check-flag svg { width: 13px; height: 13px; }
+
+  @media (min-width: 560px) {
+    .gitem-opts { grid-template-columns: repeat(4, 1fr); }
+  }
+
+  [hidden] { display: none !important; }
+
+  @media (max-width: 480px) {
+    .options { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .badge { max-width: 108px; border-radius: 14px; }
+    .opt { padding: 10px 8px 12px; gap: 8px; }
+    .opt-label { font-size: 14px; }
+  }
+
+  @media (min-width: 481px) and (max-width: 620px) {
+    .badge { max-width: 128px; }
+  }
+</style>
+
+<div class="backdrop" aria-hidden="true">
+  <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+    <path style="fill:var(--gold)" opacity=".10"
+      d="M -100,80 C 200,20 400,140 700,70 C 1000,10 1200,120 1540,60 L 1540,220 C 1200,280 1000,170 700,230 C 400,300 200,180 -100,240 Z" />
+    <path style="fill:var(--vermillion)" opacity=".07"
+      d="M -100,260 C 250,330 450,220 750,300 C 1050,370 1250,250 1540,320 L 1540,430 C 1250,480 1050,380 750,420 C 450,460 250,400 -100,440 Z" />
+    <path style="fill:var(--accent)" opacity=".08"
+      d="M0,900 L0,820 L140,760 L280,800 L420,740 L600,790 L760,730 L940,780 L1100,750 L1260,800 L1440,760 L1440,900 Z" />
+    <path style="fill:var(--accent)" opacity=".14"
+      d="M0,900 L0,850 L120,860 L200,800 L320,840 L400,790 L520,830 L680,800 L800,840 L900,780 L1040,830 L1180,800 L1300,850 L1440,830 L1440,900 Z" />
+    <g style="fill:var(--gold)" opacity=".22">
+      <rect x="392" y="742" width="10" height="52" />
+      <rect x="448" y="742" width="10" height="52" />
+      <rect x="380" y="736" width="90" height="8" />
+    </g>
+    <g style="fill:var(--vermillion)" opacity=".20">
+      <polygon points="1020,830 1060,830 1075,806 1005,806" />
+      <polygon points="1028,806 1052,806 1062,786 1018,786" />
+      <polygon points="1034,786 1046,786 1040,770" />
+      <rect x="1037" y="830" width="6" height="20" />
+    </g>
+  </svg>
+</div>
+
+<div class="stage">
+  <header class="masthead">
+    <div class="kicker">社会 第4回・一行問題 4択クイズ</div>
+    <h1>平安絵巻クイズ</h1>
+    <div class="sub">～貴族のくらしと日本風の文化～</div>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab active" id="tabQuiz" role="tab" aria-selected="true" type="button">クイズに挑戦</button>
+    <button class="tab" id="tabGallery" role="tab" aria-selected="false" type="button">問題を全部見る</button>
+  </div>
+
+  <div id="quizPane">
+    <div class="hud">
+      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      <div class="score-chip">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l2.4 5.1 5.6.6-4.2 3.8 1.2 5.5L12 15.8 6.9 18l1.2-5.5L4 8.7l5.6-.6L12 3z" fill="currentColor"/></svg>
+        <span id="scoreText">0 / 0</span>
+      </div>
+    </div>
+
+    <main class="scroll-card">
+      <div id="quizView">
+        <div class="q-index" id="qIndex">問 1 / 45</div>
+        <div class="q-text" id="qText">読み込み中…</div>
+        <div class="options" id="options"></div>
+        <div class="feedback">
+          <span class="msg" id="feedbackMsg"></span>
+          <button class="next-btn" id="nextBtn">次の問題 →</button>
+        </div>
+      </div>
+
+      <div id="summaryView" class="summary" hidden>
+        <div class="kicker">全45問終了</div>
+        <div class="big" id="summaryScore">0 / 45</div>
+        <div class="line" id="summaryLine">お疲れさまでした！</div>
+        <button class="restart-btn" id="restartBtn">もう一度挑戦する</button>
+      </div>
+    </main>
+
+    <p class="footer-note">選択肢と出題順はクリックのたびにランダムに変わります。「問題を全部見る」では全45問を順番に、正解つきで確認できます。</p>
+  </div>
+
+  <section id="galleryView" class="gallery" hidden></section>
+</div>
+
+<script src="quiz-data.js"></script>
+<script src="icons.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  const TOTAL = QUIZ_DATA.length;
+  let order = shuffle([...Array(TOTAL).keys()]);
+  let pos = 0;
+  let correctCount = 0;
+  let answered = 0;
+  let locked = false;
+
+  const qIndexEl = document.getElementById("qIndex");
+  const qTextEl = document.getElementById("qText");
+  const optionsEl = document.getElementById("options");
+  const feedbackMsgEl = document.getElementById("feedbackMsg");
+  const nextBtn = document.getElementById("nextBtn");
+  const progressFill = document.getElementById("progressFill");
+  const scoreText = document.getElementById("scoreText");
+  const quizView = document.getElementById("quizView");
+  const summaryView = document.getElementById("summaryView");
+  const summaryScore = document.getElementById("summaryScore");
+  const summaryLine = document.getElementById("summaryLine");
+  const tabQuiz = document.getElementById("tabQuiz");
+  const tabGallery = document.getElementById("tabGallery");
+  const quizPane = document.getElementById("quizPane");
+  const galleryView = document.getElementById("galleryView");
+
+  function iconMarkup(key) {
+    const svg = (typeof ICONS !== "undefined" && ICONS[key]) ? ICONS[key] : null;
+    if (svg) return svg;
+    return '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="#EFE3C4"/></svg>';
+  }
+
+  const CHECK_FLAG =
+    '<span class="check-flag"><svg viewBox="0 0 24 24" fill="none">' +
+    '<path d="M5 13l4 4 10-10" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>' +
+    "</svg></span>";
+
+  let galleryBuilt = false;
+
+  function buildGallery() {
+    if (galleryBuilt) return;
+    galleryBuilt = true;
+    const frag = document.createDocumentFragment();
+
+    QUIZ_DATA.forEach((item, qi) => {
+      const article = document.createElement("article");
+      article.className = "gitem";
+
+      const optsHtml = item.options
+        .map((o) => {
+          return (
+            '<div class="gopt' + (o.correct ? " correct" : "") + '">' +
+            '<span class="gbadge">' +
+            iconMarkup(o.icon) +
+            (o.correct ? CHECK_FLAG : "") +
+            "</span>" +
+            '<span class="gopt-label">' + o.label + "</span>" +
+            (o.furigana ? '<span class="gopt-furi">' + o.furigana + "</span>" : "") +
+            "</div>"
+          );
+        })
+        .join("");
+
+      article.innerHTML =
+        '<div class="gitem-num">問 ' + (qi + 1) + "</div>" +
+        '<p class="gitem-q">' + item.q + "</p>" +
+        '<div class="gitem-opts">' + optsHtml + "</div>";
+
+      frag.appendChild(article);
+    });
+
+    galleryView.appendChild(frag);
+  }
+
+  function showQuizPane() {
+    quizPane.hidden = false;
+    galleryView.hidden = true;
+    tabQuiz.classList.add("active");
+    tabQuiz.setAttribute("aria-selected", "true");
+    tabGallery.classList.remove("active");
+    tabGallery.setAttribute("aria-selected", "false");
+  }
+
+  function showGalleryPane() {
+    buildGallery();
+    quizPane.hidden = true;
+    galleryView.hidden = false;
+    tabGallery.classList.add("active");
+    tabGallery.setAttribute("aria-selected", "true");
+    tabQuiz.classList.remove("active");
+    tabQuiz.setAttribute("aria-selected", "false");
+  }
+
+  tabQuiz.addEventListener("click", showQuizPane);
+  tabGallery.addEventListener("click", showGalleryPane);
+
+  function updateHud() {
+    progressFill.style.width = (answered / TOTAL * 100) + "%";
+    scoreText.textContent = correctCount + " / " + answered;
+  }
+
+  function renderQuestion() {
+    locked = false;
+    feedbackMsgEl.textContent = "";
+    feedbackMsgEl.className = "msg";
+    nextBtn.classList.remove("show");
+
+    const qi = order[pos];
+    const item = QUIZ_DATA[qi];
+    qIndexEl.textContent = "問 " + (pos + 1) + " / " + TOTAL;
+    qTextEl.textContent = item.q;
+
+    const opts = shuffle(item.options);
+    optionsEl.innerHTML = "";
+
+    opts.forEach((opt) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "opt";
+      btn.innerHTML =
+        '<span class="badge">' + iconMarkup(opt.icon) + "</span>" +
+        '<span class="opt-label">' + opt.label + "</span>" +
+        (opt.furigana ? '<span class="opt-furi">' + opt.furigana + "</span>" : "");
+      btn.addEventListener("click", () => handleAnswer(btn, opt, opts));
+      optionsEl.appendChild(btn);
+    });
+  }
+
+  function handleAnswer(btn, opt, opts) {
+    if (locked) return;
+    locked = true;
+    answered++;
+    if (opt.correct) correctCount++;
+
+    const buttons = Array.from(optionsEl.children);
+    buttons.forEach((b, i) => {
+      b.disabled = true;
+      const o = opts[i];
+      if (o.correct) {
+        b.classList.add("correct");
+        if (b === btn) b.classList.add("pulse");
+      } else if (b === btn) {
+        b.classList.add("wrong", "pulse");
+      } else {
+        b.classList.add("dim");
+      }
+    });
+
+    if (opt.correct) {
+      feedbackMsgEl.textContent = "正解！";
+      feedbackMsgEl.className = "msg is-correct";
+    } else {
+      const correctOpt = opts.find((o) => o.correct);
+      feedbackMsgEl.textContent = "不正解… 正解は「" + correctOpt.label + "」";
+      feedbackMsgEl.className = "msg is-wrong";
+    }
+
+    updateHud();
+    nextBtn.classList.add("show");
+    nextBtn.focus();
+  }
+
+  function goNext() {
+    pos++;
+    if (pos >= TOTAL) {
+      showSummary();
+      return;
+    }
+    renderQuestion();
+  }
+
+  function showSummary() {
+    quizView.hidden = true;
+    summaryView.hidden = false;
+    summaryScore.textContent = correctCount + " / " + TOTAL;
+    const rate = correctCount / TOTAL;
+    let line = "お疲れさまでした！";
+    if (rate === 1) line = "満点！平安時代マスターだね！";
+    else if (rate >= 0.8) line = "すごい！よく覚えているね！";
+    else if (rate >= 0.5) line = "いい調子！もう一度で満点をねらおう。";
+    else line = "文字起こしを読み返して、もう一度挑戦してみよう。";
+    summaryLine.textContent = line;
+  }
+
+  function restart() {
+    order = shuffle([...Array(TOTAL).keys()]);
+    pos = 0;
+    correctCount = 0;
+    answered = 0;
+    updateHud();
+    summaryView.hidden = true;
+    quizView.hidden = false;
+    renderQuestion();
+  }
+
+  nextBtn.addEventListener("click", goNext);
+  document.getElementById("restartBtn").addEventListener("click", restart);
+
+  updateHud();
+  renderQuestion();
+})();
+</script>
