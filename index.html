@@ -74,7 +74,7 @@
       line-height: 1.7;
     }
     main {
-      max-width: 960px;
+      max-width: 1280px;
       margin: 0 auto;
       padding: 56px 16px 40px;
     }
@@ -89,8 +89,14 @@
 
     .apps {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 24px;
+    }
+    @media (max-width: 1099px) {
+      .apps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 639px) {
+      .apps { grid-template-columns: 1fr; }
     }
     .app {
       display: flex;
@@ -163,7 +169,6 @@
     }
 
     footer { margin-top: 48px; text-align: center; color: var(--ink-soft); font-size: 13px; }
-    footer p { margin: 0; }
     .visit-counter {
       display: inline-flex;
       align-items: center;
@@ -172,6 +177,7 @@
       padding: 4px 10px;
       border: 1px solid var(--line);
       border-radius: 999px;
+      color: var(--ink-soft);
       font-size: 11px;
       line-height: 1.4;
       letter-spacing: .04em;
@@ -188,6 +194,10 @@
     <header>
       <h1>あそびと学びの部屋</h1>
       <p class="lead">さわって楽しい、学びのアプリ。好きなものから選んでね。</p>
+      <div class="visit-counter">
+        <span>訪問数</span>
+        <img src="https://cgi.asahi-net.or.jp/cgi-bin/Count.cgi?df=joylearn.dat&amp;dd=D&amp;prgb=6b6358&amp;tr=Y&amp;ft=0&amp;pad=N" alt="アクセスカウンターの数字">
+      </div>
     </header>
 
     <section class="apps">
@@ -375,13 +385,7 @@
       </a>
     </section>
 
-    <footer>
-      <p>カードをクリックするとアプリがひらきます</p>
-      <div class="visit-counter">
-        <span>訪問数</span>
-        <img src="https://cgi.asahi-net.or.jp/cgi-bin/Count.cgi?df=joylearn.dat&amp;dd=D&amp;prgb=6b6358&amp;tr=Y&amp;ft=0&amp;pad=N" alt="アクセスカウンターの数字">
-      </div>
-    </footer>
+    <footer>カードをクリックするとアプリがひらきます</footer>
   </main>
 </body>
 </html>
