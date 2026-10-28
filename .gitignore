@@ -221,3 +221,13 @@ __marimo__/
 
 # Local environment
 /.env
+
+# Generated Poketyping image assets and archives
+/poketyping/chibi_samples/
+/poketyping/pokemon_chibi_svg/
+/poketyping/pokemon_images/
+/poketyping/pokemon_svg/
+/poketyping/pokemon_svg_69/
+/poketyping/pokemon_svg_color_256/
+/poketyping/*_preview.png
+/poketyping/pokemon_*.zip
