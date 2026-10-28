@@ -2,21 +2,21 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Lilita+One&family=Nunito:wght@700;800;900&display=swap">
 <style>
 /* Layout: one full-bleed canvas; menus are flat Poki-style panels stacked over it. */
 :root{
   --bg:#2862aa; --bar:#22498f; --card:#3374c0; --card-edge:#5592d8;
   --green:#3aac3e; --green-d:#22792a; --purple:#5e40a8; --purple-d:#3f277d;
   --red:#e2433b; --red-d:#a52a24; --gold:#ffcd3c; --ink:#ffffff; --ink-dim:#cfe0f6; --shade:#0f1a33;
-  --display:'Lilita One','Arial Rounded MT Bold','Trebuchet MS',system-ui,sans-serif;
-  --body:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --display:'M PLUS Rounded 1c','Hiragino Maru Gothic ProN','Lilita One','Arial Rounded MT Bold',system-ui,sans-serif;
+  --body:'M PLUS Rounded 1c','Hiragino Maru Gothic ProN','Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;
   color-scheme: dark;
 }
 html,body{height:100%;margin:0;background:#16121f;color:var(--ink);overflow:hidden;font-family:var(--body);-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
 #app{position:fixed;inset:0;overflow:hidden;background:#16121f}
 #game{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;outline:none}
-button{font-family:var(--display);cursor:pointer;border:0;color:var(--ink)}
+button{font-family:var(--display);font-weight:900;cursor:pointer;border:0;color:var(--ink)}
 button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .screen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;background:var(--bg);
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
@@ -31,7 +31,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .coin{width:24px;height:24px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff3a8 0 18%,#ffd23f 19% 62%,#e5a218 63%);box-shadow:inset 0 0 0 2px #c88a10}
 .shop-btn{height:40px;padding:0 14px;border-radius:8px;background:#f2a422;box-shadow:inset 0 -3px 0 #c27a10,0 0 0 2px #1c3f80;font-size:18px;display:flex;align-items:center;gap:6px}
 .shop-btn svg{width:22px;height:22px;fill:#fff}
-.title{font-family:var(--display);font-weight:400;font-size:clamp(38px,8.5vw,84px);margin:calc(88px + env(safe-area-inset-top,0px)) 0 0;letter-spacing:.01em;text-align:center;line-height:1;
+.title{font-family:var(--display);font-weight:900;font-size:clamp(38px,8.5vw,84px);margin:calc(88px + env(safe-area-inset-top,0px)) 0 0;letter-spacing:.01em;text-align:center;line-height:1;
   color:#fff;text-shadow:0 4px 0 #18366e,0 0 0 #000;-webkit-text-stroke:2px #18366e;paint-order:stroke fill;text-wrap:balance}
 .cards{display:flex;gap:clamp(18px,5vw,56px);margin-top:clamp(20px,5vh,46px);flex-wrap:wrap;justify-content:center;padding-bottom:28px}
 .card{position:relative;width:clamp(140px,22vw,200px);display:flex;flex-direction:column;align-items:center;cursor:pointer;background:none;padding:0}
@@ -52,7 +52,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 /* Panels */
 .dim{position:absolute;inset:0;background:rgba(10,14,30,.55);display:flex;align-items:center;justify-content:center;padding:16px;box-sizing:border-box}
 .panel{background:var(--bg);border:3px solid #1b3f80;border-radius:10px;box-shadow:0 8px 0 rgba(0,0,0,.25);padding:22px 22px 24px;display:flex;flex-direction:column;align-items:center;gap:16px;min-width:min(320px,100%);max-width:100%;box-sizing:border-box}
-.panel h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,5vw,44px);margin:0;-webkit-text-stroke:2px #18366e;paint-order:stroke fill;text-shadow:0 3px 0 #18366e;text-align:center;text-wrap:balance}
+.panel h2{font-family:var(--display);font-weight:900;font-size:clamp(30px,5vw,44px);margin:0;-webkit-text-stroke:2px #18366e;paint-order:stroke fill;text-shadow:0 3px 0 #18366e;text-align:center;text-wrap:balance}
 .panel h2.win{color:#fff}
 .panel .sub{font-weight:800;color:var(--ink-dim);margin:0;text-align:center}
 .row{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
@@ -66,6 +66,27 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .small{font-size:15px;height:40px;padding:0 16px}
 
 /* Shop */
+#guide .wrap{display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:calc(76px + env(safe-area-inset-top,0px));width:min(1120px,100%);padding-bottom:28px}
+.guide-btn{background:#3d8fe0;box-shadow:inset 0 -3px 0 #2a6cb6,0 0 0 2px #1c3f80}
+.shop-btn{white-space:nowrap}
+@media (max-width:440px){.topbar .grp{gap:7px}.shop-btn{padding:0 9px;font-size:15px;gap:4px}.shop-btn svg{width:18px;height:18px}.pill{padding:0 10px 0 5px;font-size:17px}}
+.gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:12px;width:100%}
+.gcard{background:var(--card);border:2px solid var(--card-edge);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:9px;min-width:0;box-sizing:border-box}
+.ghead{display:flex;align-items:center;gap:12px}
+.ghead canvas{width:92px;height:auto;aspect-ratio:200/130;flex:none;background:#2a65ad;border-radius:6px;display:block}
+.gname{font-family:var(--display);font-weight:900;font-size:22px;line-height:1.1}
+.gattr{display:inline-block;margin-top:4px;padding:1px 8px;border-radius:9px;background:linear-gradient(90deg,#ffe27a,#fff6d0,#ffe27a);color:#5a3e00;font-family:var(--display);font-weight:900;font-size:12px}
+.gprice{display:flex;align-items:center;gap:5px;font-weight:900;color:#ffe07a;font-size:14px;margin-top:3px}
+.gprice .coin{width:15px;height:15px}
+.grow{display:grid;grid-template-columns:64px 1fr;gap:8px;align-items:start}
+.gtag{font-family:var(--display);font-weight:900;font-size:12px;padding:3px 0;border-radius:10px;text-align:center}
+.gtag.atk{background:#163a78}.gtag.sk{background:#e4ef3c;color:#2a2f10}.gtag.su{background:#46dcff;color:#0f2b45}
+.gdesc{font-weight:800;font-size:13.5px;line-height:1.55;color:#eaf2fc;min-width:0}
+.gdesc b{color:#fff;font-size:15px;font-weight:900}
+.gcd{display:inline-block;margin-left:6px;color:var(--ink-dim);font-size:12px}
+.gnotes{width:100%;background:#1f4d92;border-radius:8px;padding:12px 16px;box-sizing:border-box;font-weight:800;font-size:13.5px;line-height:1.7}
+.gnotes h3{margin:0 0 4px;font-family:var(--display);font-weight:900;font-size:17px}
+.gnotes ul{margin:0;padding-left:1.2em}
 #shop .wrap{width:min(940px,100%);margin-top:calc(70px + env(safe-area-inset-top,0px));display:flex;flex-direction:column;gap:14px;padding-bottom:24px}
 .tabs{display:flex;gap:8px}
 .tab{height:42px;padding:0 20px;border-radius:6px 6px 0 0;background:#1f4d92;font-size:18px;color:var(--ink-dim)}
@@ -73,7 +94,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;background:var(--card);padding:14px;border-radius:0 8px 8px 8px}
 .item{background:#2a65ad;border:2px solid #4a85cc;border-radius:6px;display:flex;flex-direction:column;align-items:center;padding:8px 8px 10px;gap:6px;min-width:0}
 .item.eq{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold)}
-.item canvas{width:100%;aspect-ratio:1/0.85;display:block}
+.item canvas{width:100%;height:auto;min-height:0;flex:none;aspect-ratio:200/170;display:block}
 .item .nm{font-family:var(--display);font-size:17px;text-align:center}
 .item .st{font-weight:800;font-size:12px;color:var(--ink-dim);text-align:center;min-height:1.2em}
 .item button{width:100%;height:36px;border-radius:5px;font-size:15px;display:flex;align-items:center;justify-content:center;gap:6px}
@@ -81,13 +102,25 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .item button[disabled]{filter:grayscale(.8) brightness(.8);cursor:default}
 
 /* 2P select */
-#sel .wrap{display:flex;flex-direction:column;align-items:center;gap:18px;margin-top:calc(80px + env(safe-area-inset-top,0px));width:min(760px,100%);padding-bottom:24px}
+#sel .wrap,#tsel .wrap,#psel .wrap{display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:calc(76px + env(safe-area-inset-top,0px));width:min(1120px,100%);padding-bottom:24px}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px;width:100%}
+.wtile{position:relative;background:#2a65ad;border:2px solid #4a85cc;border-radius:6px;padding:4px 4px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0;font-size:13px;line-height:1.1;text-align:center}
+.wtile canvas{width:100%;height:auto;min-height:0;flex:none;aspect-ratio:200/130;display:block}
+.wtile[aria-pressed="true"]{background:#3d82d6;border-color:var(--sel);box-shadow:0 0 0 2px var(--sel)}
+.wtile[aria-pressed="true"]::after{content:"\2713";position:absolute;top:3px;right:5px;width:18px;height:18px;border-radius:50%;background:var(--sel);color:#14284d;font-size:12px;line-height:18px}
+.wtile.locked{filter:grayscale(.75) brightness(.72);cursor:not-allowed}
+.wtile .price{display:flex;align-items:center;gap:4px;font-size:12px;color:#ffe07a}
+.wtile .coin{width:13px;height:13px}
+.wtile:not(.locked):hover{border-color:#8fbdf0}
+.selname{font-family:var(--display);font-weight:900;font-size:22px}
+.pill,.lvl,.tab,.item .nm,.wtile,.reward,.toggle,.kc,.shop-btn{font-weight:900}
+.wtile .long2{font-size:10.5px;letter-spacing:-0.03em;line-height:1.15}
+.nm,.selname,.gname,.wtile span{word-break:keep-all;overflow-wrap:anywhere}
+.wtile .long{font-size:10px;letter-spacing:-0.04em;white-space:nowrap}
+
 .sides{display:flex;gap:18px;width:100%;flex-wrap:wrap;justify-content:center}
 .side{flex:1 1 260px;min-width:0;background:var(--card);border:2px solid var(--card-edge);border-radius:8px;padding:14px;display:flex;flex-direction:column;align-items:center;gap:10px}
-.side h3{margin:0;font-family:var(--display);font-weight:400;font-size:26px}
-.side .pick{display:flex;align-items:center;gap:10px;width:100%;justify-content:center}
-.side canvas{width:min(200px,60%);aspect-ratio:1/0.85}
-.arrow{width:44px;height:44px;border-radius:50%;font-size:22px;display:grid;place-items:center;padding:0}
+.side h3{margin:0;font-family:var(--display);font-weight:900;font-size:26px}
 .side .wn{font-family:var(--display);font-size:22px}
 .keys{font-weight:800;font-size:13px;color:var(--ink-dim);text-align:center}
 .kc{display:inline-block;min-width:20px;padding:1px 5px;border-radius:4px;background:#fff;color:#22324d;font-family:var(--display);font-size:13px;box-shadow:0 2px 0 #9aa8bf;margin:0 1px}
@@ -96,42 +129,47 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 </style>
 
 <div id="app">
-  <canvas id="game" tabindex="0" aria-label="Stickman Battle game"></canvas>
+  <canvas id="game" tabindex="0" aria-label="Stickman Battle"></canvas>
 
   <div id="menu" class="screen">
     <div class="topbar">
       <div class="grp">
-        <div class="pill" title="Coins"><span class="coin"></span><span id="coinTxt">0</span></div>
-        <button id="shopBtn" class="shop-btn" aria-label="Shop"><svg viewBox="0 0 24 24"><path d="M14.7 3.3l6 6-1.4 1.4-1.6-1.6-6.4 6.4 1.4 1.4-1.4 1.4-1.6-1.6-3.5 3.5a1.5 1.5 0 01-2.1-2.1l3.5-3.5-1.6-1.6 1.4-1.4 1.4 1.4 6.4-6.4-1.6-1.6z"/></svg>Shop</button>
+        <div class="pill" title="コイン"><span class="coin"></span><span id="coinTxt">0</span></div>
+        <button id="shopBtn" class="shop-btn" aria-label="ショップ"><svg viewBox="0 0 24 24"><path d="M14.7 3.3l6 6-1.4 1.4-1.6-1.6-6.4 6.4 1.4 1.4-1.4 1.4-1.6-1.6-3.5 3.5a1.5 1.5 0 01-2.1-2.1l3.5-3.5-1.6-1.6 1.4-1.4 1.4 1.4 6.4-6.4-1.6-1.6z"/></svg>ショップ</button>
+        <button id="guideBtn" class="shop-btn guide-btn" aria-label="一覧表"><svg viewBox="0 0 24 24"><path d="M4 5h3v3H4zm5 0h11v3H9zM4 10.5h3v3H4zm5 0h11v3H9zM4 16h3v3H4zm5 0h11v3H9z"/></svg>一覧表</button>
       </div>
-      <button id="gearBtn" class="icon-btn" aria-label="Settings"><svg viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 000-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 00-1.7-1L15 3.3h-4l-.4 2.6a7.4 7.4 0 00-1.7 1l-2.5-1-2 3.5L6.6 11a7.5 7.5 0 000 2l-2.1 1.6 2 3.5 2.5-1a7.4 7.4 0 001.7 1l.4 2.6h4l.4-2.6a7.4 7.4 0 001.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 110-7 3.5 3.5 0 010 7z" transform="translate(-1 0)"/></svg></button>
+      <button id="gearBtn" class="icon-btn" aria-label="設定"><svg viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 000-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 00-1.7-1L15 3.3h-4l-.4 2.6a7.4 7.4 0 00-1.7 1l-2.5-1-2 3.5L6.6 11a7.5 7.5 0 000 2l-2.1 1.6 2 3.5 2.5-1a7.4 7.4 0 001.7 1l.4 2.6h4l.4-2.6a7.4 7.4 0 001.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 110-7 3.5 3.5 0 010 7z" transform="translate(-1 0)"/></svg></button>
     </div>
-    <h1 class="title">Stickman Battle</h1>
+    <h1 class="title" style="font-family:'Lilita One','Arial Rounded MT Bold',sans-serif;font-weight:400">Stickman Battle</h1>
     <div class="cards">
-      <button class="card" id="card1" aria-label="1 Player">
-        <span class="lvl" id="lvlBadge">Level 1</span>
+      <button class="card" id="card1" aria-label="1人で遊ぶ">
+        <span class="lvl" id="lvlBadge">レベル 1</span>
         <span class="art"><canvas id="icon1" width="240" height="220"></canvas></span>
-        <span class="big green" style="display:flex;align-items:center;justify-content:center">1 Player</span>
+        <span class="big green" style="display:flex;align-items:center;justify-content:center">1人で遊ぶ</span>
       </button>
-      <button class="card" id="card2" aria-label="2 Players">
+      <button class="card" id="card2" aria-label="2人で対戦">
         <span class="art"><canvas id="icon2" width="240" height="220"></canvas></span>
-        <span class="big purple" style="display:flex;align-items:center;justify-content:center">2 Players</span>
+        <span class="big purple" style="display:flex;align-items:center;justify-content:center">2人で対戦</span>
+      </button>
+      <button class="card" id="card3" aria-label="トレーニング">
+        <span class="art"><canvas id="icon3" width="240" height="220"></canvas></span>
+        <span class="big orange" style="display:flex;align-items:center;justify-content:center">トレーニング</span>
       </button>
     </div>
-    <p class="hint">P1: WASD · E skill · Space super &nbsp;|&nbsp; P2: Arrows · Shift skill · Enter super</p>
+    <p class="hint">1P：WASDで移動・Eでスキル・スペースでスーパー &nbsp;｜&nbsp; 2P：矢印キーで移動・シフトでスキル・エンターでスーパー</p>
   </div>
 
   <div id="shop" class="screen" hidden>
     <div class="topbar">
       <div class="grp">
-        <button id="shopBack" class="icon-btn" aria-label="Back"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button>
+        <button id="shopBack" class="icon-btn" aria-label="もどる"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button>
         <div class="pill"><span class="coin"></span><span id="coinTxt2">0</span></div>
       </div>
     </div>
     <div class="wrap">
       <div class="tabs" role="tablist">
-        <button class="tab" role="tab" id="tabW" aria-selected="true">Weapons</button>
-        <button class="tab" role="tab" id="tabC" aria-selected="false">Colors</button>
+        <button class="tab" role="tab" id="tabW" aria-selected="true">武器</button>
+        <button class="tab" role="tab" id="tabC" aria-selected="false">色</button>
       </div>
       <div class="grid" id="shopGrid"></div>
     </div>
@@ -139,37 +177,97 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 
   <div id="sel" class="screen" hidden>
     <div class="topbar">
-      <div class="grp"><button id="selBack" class="icon-btn" aria-label="Back"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button></div>
+      <div class="grp"><button id="selBack" class="icon-btn" aria-label="もどる"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button></div>
     </div>
     <div class="wrap">
-      <h1 class="title" style="margin-top:0;font-size:clamp(32px,6vw,56px)">Choose Weapons</h1>
+      <h1 class="title" style="margin-top:0;font-size:clamp(32px,6vw,56px)">武器をえらぼう</h1>
       <div class="sides">
         <div class="side">
-          <h3 style="color:#7fd3ff">Player 1</h3>
-          <div class="pick"><button class="arrow blue" data-p="0" data-d="-1" aria-label="Previous weapon for player 1">&#9664;</button><canvas id="selC0" width="240" height="204"></canvas><button class="arrow blue" data-p="0" data-d="1" aria-label="Next weapon for player 1">&#9654;</button></div>
-          <div class="wn" id="selN0">Sword</div>
+          <h3 style="color:#7fd3ff">1P</h3>
+          <div class="wgrid" id="grid0" role="group" aria-label="1Pの武器"></div>
+          <div class="selname" id="selN0">剣</div>
           <div class="keys" id="selI0"></div>
-          <div class="keys"><span class="kc">A</span> <span class="kc">D</span> to change</div>
+          <div class="keys">クリックで選択 ・ <span class="kc">A</span> <span class="kc">D</span> でも変更</div>
         </div>
         <div class="side">
-          <h3 style="color:#ff8a80">Player 2</h3>
-          <div class="pick"><button class="arrow red" data-p="1" data-d="-1" aria-label="Previous weapon for player 2">&#9664;</button><canvas id="selC1" width="240" height="204"></canvas><button class="arrow red" data-p="1" data-d="1" aria-label="Next weapon for player 2">&#9654;</button></div>
-          <div class="wn" id="selN1">Sword</div>
+          <h3 style="color:#ff8a80">2P</h3>
+          <div class="wgrid" id="grid1" role="group" aria-label="2Pの武器"></div>
+          <div class="selname" id="selN1">剣</div>
           <div class="keys" id="selI1"></div>
-          <div class="keys"><span class="kc">&larr;</span> <span class="kc">&rarr;</span> to change</div>
+          <div class="keys">クリックで選択 ・ <span class="kc">&larr;</span> <span class="kc">&rarr;</span> でも変更</div>
         </div>
       </div>
-      <p class="sub" style="margin:0;font-weight:800;color:var(--ink-dim)">First to 3 round wins takes the match</p>
-      <button class="btn green" id="selGo" style="min-width:220px">Fight!</button>
+      <p class="sub" style="margin:0;font-weight:800;color:var(--ink-dim)">先に3ラウンド勝ったほうの勝ち</p>
+      <button class="btn green" id="selGo" style="min-width:220px">バトル開始！</button>
+    </div>
+  </div>
+
+  <div id="guide" class="screen" hidden>
+    <div class="topbar">
+      <div class="grp"><button id="guideBack" class="icon-btn" aria-label="もどる"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button></div>
+    </div>
+    <div class="wrap">
+      <h1 class="title" style="margin-top:0;font-size:clamp(32px,6vw,56px)">一覧表</h1>
+      <p class="sub" style="margin:0;text-wrap:balance">それぞれの武器の通常攻撃・スキル・スーパー（数字はダメージの目安）</p>
+      <div class="gcards" id="guideList"></div>
+      <div class="gnotes">
+        <h3>共通ルール</h3>
+        <ul>
+          <li>スキルは E（2Pはシフト）、スーパーはスペース（2Pはエンター）。</li>
+          <li>スーパーは発動中ずっと無敵。ゲージは時間でゆっくり溜まり、敵にダメージを与えるとさらに溜まる。トレーニングでは常に満タン。</li>
+          <li>凍った敵を攻撃すると氷が割れてダメージ1.3倍。</li>
+          <li>スキルの待ち時間は基本値。1人用とトレーニングでは自分だけ15%短い。</li>
+          <li>1人用の敵はレベルに合わせて、表より弱めのダメージになる。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="psel" class="screen" hidden>
+    <div class="topbar">
+      <div class="grp"><button id="pselBack" class="icon-btn" aria-label="もどる"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button></div>
+    </div>
+    <div class="wrap">
+      <h1 class="title" style="margin-top:0;font-size:clamp(32px,6vw,56px)" id="pselTitle">レベル 1</h1>
+      <div class="sides">
+        <div class="side" style="max-width:720px">
+          <h3 style="color:#7fd3ff">使う武器</h3>
+          <div class="wgrid" id="gridP" role="group" aria-label="1人用の武器"></div>
+          <div class="selname" id="pselN">剣</div>
+          <div class="keys" id="pselI"></div>
+          <div class="keys">暗い武器はショップで買えます ・ <span class="kc">A</span> <span class="kc">D</span> でも変更</div>
+        </div>
+      </div>
+      <button class="btn green" id="pselGo" style="min-width:220px">スタート</button>
+    </div>
+  </div>
+
+  <div id="tsel" class="screen" hidden>
+    <div class="topbar">
+      <div class="grp"><button id="tselBack" class="icon-btn" aria-label="もどる"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button></div>
+    </div>
+    <div class="wrap">
+      <h1 class="title" style="margin-top:0;font-size:clamp(32px,6vw,56px)">トレーニング</h1>
+      <div class="sides">
+        <div class="side" style="max-width:720px">
+          <h3 style="color:#7fd3ff">使う武器</h3>
+          <div class="wgrid" id="gridT" role="group" aria-label="トレーニングの武器"></div>
+          <div class="selname" id="tselN">剣</div>
+          <div class="keys" id="tselI"></div>
+          <div class="keys">クリックで選択 ・ <span class="kc">A</span> <span class="kc">D</span> でも変更</div>
+        </div>
+      </div>
+      <p class="sub" style="margin:0;font-weight:800;color:var(--ink-dim)">CPUは動かず、倒れても1秒で復活します</p>
+      <button class="btn green" id="tselGo" style="min-width:220px">スタート</button>
     </div>
   </div>
 
   <div id="pause" class="dim" hidden>
     <div class="panel">
-      <h2>Paused</h2>
+      <h2>一時停止</h2>
       <div class="row">
-        <button class="btn blue" id="pHome" aria-label="Home"><svg viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg>Home</button>
-        <button class="btn green" id="pResume" aria-label="Resume"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg>Resume</button>
+        <button class="btn blue" id="pHome" aria-label="ホーム"><svg viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg>ホーム</button>
+        <button class="btn green" id="pResume" aria-label="つづける"><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg>つづける</button>
       </div>
       <p class="sub errInfo" hidden style="font-size:12px;max-width:44ch;word-break:break-all"></p>
     </div>
@@ -177,25 +275,25 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 
   <div id="result" class="dim" hidden>
     <div class="panel">
-      <h2 id="resTitle">Level Complete!</h2>
+      <h2 id="resTitle">クリア！</h2>
       <p class="sub" id="resSub"></p>
       <div class="reward" id="resReward"><span class="coin"></span><span id="resCoins">+0</span></div>
       <div class="row">
-        <button class="btn blue" id="rHome"><svg viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg>Home</button>
-        <button class="btn green" id="rNext">Next</button>
+        <button class="btn blue" id="rHome"><svg viewBox="0 0 24 24"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg>ホーム</button>
+        <button class="btn green" id="rNext">次へ</button>
       </div>
     </div>
   </div>
 
   <div id="settings" class="dim" hidden>
     <div class="panel" style="min-width:min(340px,100%)">
-      <h2>Settings</h2>
-      <div class="toggle"><span>Sound</span><button class="switch" id="sndSw" role="switch" aria-checked="true" aria-label="Sound"></button></div>
-      <div class="toggle"><span>Screen shake</span><button class="switch" id="shkSw" role="switch" aria-checked="true" aria-label="Screen shake"></button></div>
-      <div class="row" id="resetRow"><button class="btn red small" id="resetBtn">Reset progress</button></div>
-      <div class="row" id="resetConfirm" hidden><span class="sub">Erase coins, items and level?</span><button class="btn red small" id="resetYes">Erase</button><button class="btn blue small" id="resetNo">Keep</button></div>
+      <h2>設定</h2>
+      <div class="toggle"><span>効果音</span><button class="switch" id="sndSw" role="switch" aria-checked="true" aria-label="効果音"></button></div>
+      <div class="toggle"><span>画面のゆれ</span><button class="switch" id="shkSw" role="switch" aria-checked="true" aria-label="画面のゆれ"></button></div>
+      <div class="row" id="resetRow"><button class="btn red small" id="resetBtn">データをリセット</button></div>
+      <div class="row" id="resetConfirm" hidden><span class="sub">コイン・武器・レベルを消しますか？</span><button class="btn red small" id="resetYes">消す</button><button class="btn blue small" id="resetNo">やめる</button></div>
       <p class="sub errInfo" hidden style="font-size:12px;max-width:44ch;word-break:break-all"></p>
-      <button class="btn green" id="setClose">Close</button>
+      <button class="btn green" id="setClose">とじる</button>
     </div>
   </div>
 </div>
@@ -241,40 +339,47 @@ function persist() { try { localStorage.setItem(SAVE_KEY, JSON.stringify(save));
 
 /* ---------------- Data ---------------- */
 const WEAPONS = {
-  sword:  { name: 'Sword',      type: 'swing',  dmg: 14, reach: 62, len: 62, speed: 1.0,  kb: 330, skill: 'dash',  price: 0 },
-  knife:  { name: 'Knife',      type: 'swing',  dmg: 9,  reach: 40, len: 34, speed: 1.7,  kb: 230, skill: 'throw', price: 80 },
-  katana: { name: 'Katana',     type: 'swing',  dmg: 13, reach: 72, len: 78, speed: 1.35, kb: 290, skill: 'dash',  price: 180 },
-  axe:    { name: 'Axe',        type: 'swing',  dmg: 21, reach: 58, len: 58, speed: 0.78, kb: 450, skill: 'spin',  price: 260 },
-  spear:  { name: 'Spear',      type: 'thrust', dmg: 16, reach: 92, len: 98, speed: 0.95, kb: 340, skill: 'throw', price: 320 },
-  pistol: { name: 'Pistol',     type: 'gun',    dmg: 9,  reach: 640, len: 30, speed: 1,   kb: 170, skill: 'burst', price: 380, rate: 0.8, bullet: '#ffe36b' },
-  hammer: { name: 'Hammer',     type: 'swing',  dmg: 26, reach: 62, len: 64, speed: 0.62, kb: 600, skill: 'spin',  price: 450 },
-  candy:  { name: 'Candy Cane', type: 'swing',  dmg: 15, reach: 60, len: 62, speed: 1.1,  kb: 500, skill: 'spin',  price: 520 },
-  guitar: { name: 'Guitar',     type: 'swing',  dmg: 19, reach: 68, len: 74, speed: 0.82, kb: 560, skill: 'spin',  price: 680 },
+  sword:  { name: '剣',      type: 'swing',  dmg: 14, reach: 62, len: 62, speed: 1.0,  kb: 330, skill: 'dash',  price: 0 },
+  katana: { name: '刀',     type: 'swing',  dmg: 13, reach: 72, len: 78, speed: 1.35, kb: 290, skill: 'dash',  price: 180 },
+  axe:    { name: 'オノ',        type: 'swing',  dmg: 21, reach: 58, len: 58, speed: 0.78, kb: 450, skill: 'spin',  price: 260 },
+  spear:  { name: '槍',      type: 'thrust', dmg: 13, reach: 92, len: 98, speed: 0.95, kb: 340, skill: 'throw', price: 320 },
+  pistol: { name: 'ピストル',     type: 'gun',    dmg: 9,  reach: 640, len: 30, speed: 1,   kb: 170, skill: 'burst', price: 380, rate: 0.8, bullet: '#ffe36b' },
+  hammer: { name: 'ハンマー',     type: 'swing',  dmg: 26, reach: 62, len: 64, speed: 0.62, kb: 600, skill: 'spin',  price: 450 },
+  candy:  { name: 'キャンディケイン', type: 'swing',  dmg: 15, reach: 60, len: 62, speed: 1.1,  kb: 500, skill: 'spin',  price: 520 },
+  guitar: { name: 'ギター',     type: 'swing',  dmg: 19, reach: 68, len: 74, speed: 0.82, kb: 560, skill: 'spin',  price: 680 },
+  staff:  { name: '氷の杖', type: 'swing', dmg: 13, reach: 70, len: 76, speed: 1.0,  kb: 320, price: 760 },
+  whip:   { name: '雷のムチ', type: 'swing', dmg: 12, reach: 96, len: 98, speed: 1.15, kb: 260, price: 880 },
+  bomb:   { name: '爆弾',       type: 'swing',  dmg: 15, reach: 50, len: 30, speed: 0.95, kb: 420, price: 950 },
+  arceus: { name: 'アルセウス・ブレイカー', type: 'swing', dmg: 18, reach: 74, len: 80, speed: 1.1, kb: 420, price: 2000, attr: '神属性' },
 };
 /* every weapon gets its own Skill (E / Shift) and Super (Space / Enter) */
 const MOVES = {
-  sword: ['dash', 'crescent'], knife: ['fan', 'knifering'], katana: ['iai', 'thousand'], axe: ['boomerang', 'tornado'], spear: ['dive', 'spearrain'],
+  sword: ['dash', 'crescent'], katana: ['iai', 'thousand'], axe: ['boomerang', 'tornado'], spear: ['dive', 'spearrain'],
   pistol: ['burst', 'barrage'], hammer: ['slam', 'quake'], candy: ['spin', 'candybomb'], guitar: ['sound', 'concert'],
+  staff: ['icebolt', 'blizzard'], whip: ['hook', 'thunder'], bomb: ['bomb', 'bomber'], arceus: ['rainbow', 'genesis'],
 };
 for (const id in MOVES) { WEAPONS[id].skill = MOVES[id][0]; WEAPONS[id].sup = MOVES[id][1]; }
-const SKILL_CD = { dash: 3.0, iai: 3.4, fan: 2.8, boomerang: 3.2, dive: 3.6, burst: 3.4, slam: 4.0, spin: 4.2, sound: 3.8 };
-const SKILL_RANGE = { dash: 330, iai: 320, fan: 520, boomerang: 520, dive: 240, burst: 480, slam: 150, spin: 120, sound: 210 };
-const SUPER_NAME = { crescent: 'Crescent Storm', thousand: 'Thousand Cuts', knifering: 'Blade Ring', spearrain: 'Spear Rain', tornado: 'Axe Tornado', quake: 'Earthquake', candybomb: 'Candy Bomb', concert: 'Rock Concert', barrage: 'Bullet Barrage' };
+const SKILL_CD = { dash: 3.0, iai: 3.4, boomerang: 3.2, dive: 3.6, burst: 3.4, slam: 4.0, spin: 4.2, sound: 3.8, icebolt: 3.6, hook: 3.0, bomb: 2.6, rainbow: 3.2 };
+const SKILL_RANGE = { dash: 330, iai: 320, boomerang: 520, dive: 240, burst: 480, slam: 150, spin: 120, sound: 210, icebolt: 560, hook: 380, bomb: 520, rainbow: 600 };
+const SUPER_NAME = { crescent: '三日月の嵐', thousand: '千本斬り', spearrain: '槍の雨', tornado: 'オノの竜巻', quake: '大地震', candybomb: 'キャンディ爆弾', concert: 'ライブ', barrage: '連射', blizzard: '吹雪', thunder: '連鎖する雷', bomber: 'ボマー', genesis: 'アルティメット・ジェネシス' };
+const THOUSAND_R = 860; // Thousand Cuts radius
+const QUAKE_R = 560; // Earthquake radius
 const WEAPON_ORDER = Object.keys(WEAPONS);
-// drop items that no longer exist (e.g. the removed Blaster) from older saves
+// drop items that no longer exist (the removed Blaster and Knife) from older saves
 save.owned = save.owned.filter(id => WEAPONS[id]); if (!save.owned.includes('sword')) save.owned.unshift('sword');
 if (!WEAPONS[save.weapon]) save.weapon = 'sword';
 save.p2w = (save.p2w || []).map(id => WEAPONS[id] ? id : 'sword'); while (save.p2w.length < 2) save.p2w.push('sword');
-const SKILL_INFO = { dash: 'Dash Slash', iai: 'Iaido Strike', fan: 'Knife Fan', boomerang: 'Boomerang', dive: 'Plunge', burst: 'Spread Shot', slam: 'Ground Slam', spin: 'Whirlwind', sound: 'Power Chord' };
+if (!WEAPONS[save.tw]) save.tw = save.weapon || 'sword';
+const SKILL_INFO = { dash: '突進斬り', iai: '居合斬り', boomerang: 'ブーメラン', dive: '急降下突き', burst: '拡散ショット', slam: '地面たたき', spin: '回転斬り', sound: '音波', icebolt: '氷の矢', hook: 'フック', bomb: '爆弾', rainbow: 'レインボースラッシュ' };
 const COLORS = {
-  blue:   { name: 'Blue',   hex: '#22aaf2', price: 0 },
-  green:  { name: 'Lime',   hex: '#43c84e', price: 120 },
-  yellow: { name: 'Yellow', hex: '#f7c21f', price: 150 },
-  orange: { name: 'Orange', hex: '#ff8a26', price: 180 },
-  purple: { name: 'Violet', hex: '#9a5cf0', price: 220 },
-  pink:   { name: 'Pink',   hex: '#ff5fae', price: 260 },
-  black:  { name: 'Shadow', hex: '#2d2c3a', price: 400 },
-  white:  { name: 'Ghost',  hex: '#eef3f5', price: 400 },
+  blue:   { name: '青',   hex: '#22aaf2', price: 0 },
+  green:  { name: '黄緑',   hex: '#43c84e', price: 120 },
+  yellow: { name: '黄色', hex: '#f7c21f', price: 150 },
+  orange: { name: 'オレンジ', hex: '#ff8a26', price: 180 },
+  purple: { name: 'むらさき', hex: '#9a5cf0', price: 220 },
+  pink:   { name: 'ピンク',   hex: '#ff5fae', price: 260 },
+  black:  { name: '黒', hex: '#2d2c3a', price: 400 },
+  white:  { name: '白',  hex: '#eef3f5', price: 400 },
 };
 const ENEMY_RED = '#e8322f';
 const P2_RED = '#ec3a33';
@@ -285,6 +390,7 @@ const THEMES = {
   castle:  { sky: ['#1d285b', '#36498f'], far: '#2a3a7a', mid: '#222f66', near: '#1a2452', bat: '#0f1638', platTop: '#86d4ff', platBody: '#151a34', edge: '#86d4ff', wall: '#151a34' },
   sunset:  { sky: ['#f7b061', '#e0603f'], far: '#c95a43', mid: '#9e3d3b', near: '#6f2836', bat: '#4a1626', platTop: '#ffe9c4', platBody: '#3a1d2a', edge: '#ffe9c4', wall: '#3a1d2a' },
 };
+THEMES.train = { sky: ['#4a5a73', '#4a5a73'], far: '#4a5a73', mid: '#4a5a73', near: '#4a5a73', bat: '#4a5a73', platTop: '#a7b3c6', platBody: '#232a36', edge: '#a7b3c6', wall: '#232a36' };
 const THEME_ORDER = ['pumpkin', 'grave', 'castle', 'sunset'];
 
 /* Level layouts (1P). plats: [x,y,w,(h)]; acid: [x,y,w,h]; spikes: [x,w] (on floor or y given); bumpers: [x,y,r]; saws: [x1,y1,x2,y2,r,speed] */
@@ -368,6 +474,12 @@ const Audio = {
       case 'boom': this.tone('sine', 120, 30, 0.45, 0.6); this.noiseBurst(900, 120, 0.4, 0.45, 0.6); break;
       case 'slash': this.noiseBurst(3000, 6000, 0.12, 0.25, 3); this.tone('sine', 2400, 1800, 0.12, 0.05); break;
       case 'chord': [110, 165, 220, 277].forEach(f => this.tone('sawtooth', f, f * 0.99, 0.5, 0.05)); this.noiseBurst(400, 2000, 0.2, 0.15, 1); break;
+      case 'freeze': this.tone('sine', 2200, 900, 0.25, 0.12); this.noiseBurst(6000, 3000, 0.2, 0.18, 2); break;
+      case 'shatter': this.noiseBurst(5000, 1800, 0.28, 0.35, 1.5); [2637, 3136, 3520].forEach((f, i) => this.tone('triangle', f, f * 0.9, 0.12, 0.06, i * 0.03)); break;
+      case 'thunder': this.noiseBurst(2500, 90, 0.55, 0.55, 0.5); this.tone('sawtooth', 90, 40, 0.4, 0.12); break;
+      case 'fuse': this.noiseBurst(4000, 7000, 0.25, 0.12, 3); this.tone('square', 600, 900, 0.06, 0.04); break;
+      case 'holy': [523, 659, 784, 1047, 1319, 1568].forEach((f, i) => this.tone('sine', f, f, 0.9, 0.07, i * 0.06)); this.noiseBurst(3000, 9000, 0.8, 0.12, 0.8); break;
+      case 'hook': this.tone('square', 300, 900, 0.12, 0.06); this.noiseBurst(1500, 3000, 0.1, 0.15, 2); break;
       case 'round': this.tone('triangle', 784, 784, 0.12, 0.15); this.tone('triangle', 1175, 1175, 0.25, 0.15, 0.12); break;
     } } catch (e) { reportErr(e); }
   }
@@ -396,20 +508,23 @@ addEventListener('keydown', e => {
   if (G.state === 'play' && (e.code === 'Escape' || e.code === 'KeyP')) pauseGame();
   else if (G.state === 'paused' && (e.code === 'Escape' || e.code === 'KeyP')) resumeGame();
   if (G.state === 'select') selKey(e.code);
+  if (G.state === 'guide' && e.code === 'Escape') setState('menu');
+  if (G.state === 'pselect') { if (e.code === 'KeyA' || e.code === 'ArrowLeft') cyclePsel(-1); else if (e.code === 'KeyD' || e.code === 'ArrowRight') cyclePsel(1); else if (e.code === 'Enter' || e.code === 'Space') { e.preventDefault(); startLevel(save.level); } }
+  if (G.state === 'tselect') { if (e.code === 'KeyA' || e.code === 'ArrowLeft') cycleTsel(-1); else if (e.code === 'KeyD' || e.code === 'ArrowRight') cycleTsel(1); else if (e.code === 'Enter' || e.code === 'Space') { e.preventDefault(); startTraining(); } }
   Audio.init();
 });
 addEventListener('keyup', e => keys.delete(e.code));
 addEventListener('blur', () => { keys.clear(); });
-const blankInput = () => ({ left: false, right: false, up: false, down: false, upP: false, skillP: false, superP: false });
+const blankInput = () => ({ left: false, right: false, up: false, down: false, upP: false, downP: false, skillP: false, superP: false });
 /* touch */
-const touch = { used: false, sticks: [null, null], btnLatch: [{}, {}], prevUp: [false, false] };
+const touch = { used: false, sticks: [null, null], btnLatch: [{}, {}], prevUp: [false, false], prevDown: [false, false] };
 const pointers = new Map();
 
 /* ---------------- Game state ---------------- */
 const G = {
   state: 'menu', mode: '1p', fighters: [], projs: [], parts: [], fx: [], texts: [], arena: null, theme: THEMES.grave, themeName: 'grave',
   cam: { x: 0, y: 0, sc: 1 }, time: 0, hitstop: 0, slow: 1, slowT: 0, shake: 0, level: 1, toSpawn: 0, maxAlive: 2, spawnT: 0,
-  scores: [0, 0], round: 1, overT: -1, banner: null, hintT: 0, coinsRun: 0, kills: 0, pendingEnd: null, arenaIdx: 0, bats: [], later: [], dimT: 0,
+  scores: [0, 0], round: 1, overT: -1, banner: null, hintT: 0, coinsRun: 0, kills: 0, pendingEnd: null, arenaIdx: 0, bats: [], later: [], respawns: [], dimT: 0, snowT: 0, flashT: 0, genesis: null,
 };
 
 /* ---------------- Ragdoll ---------------- */
@@ -473,7 +588,7 @@ class Fighter {
     this.alive = true; this.deadT = 0; this.stunT = 0; this.invT = 0; this.shieldT = 0; this.flashT = 0; this.hazCD = 0; this.acidT = 0;
     this.atk = { phase: 0, t: 0, from: 0, to: 0, start: 0, aim: 0, hit: new Set(), s: 1 };
     this.atkCD = 0.5; this.skillCD = 1.2; this.superC = 0; this.dashT = 0; this.dashA = 0; this.spinT = 0; this.spinTick = 0; this.superT = 0; this.superQ = []; this.superE = 0;
-    this.iaiT = 0; this.diveT = 0; this.diveAge = 0; this.slamT = 0; this.sup = ''; this.weaponOut = false; this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
+    this.iaiT = 0; this.diveT = 0; this.diveAge = 0; this.slamT = 0; this.frozenT = 0; this.zip = null; this.bombHeld = false; this.sup = ''; this.weaponOut = false; this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
     this.wa = this.facing > 0 ? 1.2 : Math.PI - 1.2; this.ext = 0.88; this.prevTip = null; this.trail = []; this.input = blankInput();
     this.runPhase = 0; this.target = null; this.gunCD = 0.6; this.recoil = 0; this.landT = 0;
     this.hw = 11 * this.s; this.hh = 48 * this.s;
@@ -482,22 +597,39 @@ class Fighter {
     this.rag = new Ragdoll(this); this.pose(0); this.rag.snap(this.T);
   }
   get W() { return WEAPONS[this.weapon] || WEAPONS.sword; }
-  skillMax() { return SKILL_CD[this.W.skill]; }
-  busy() { return this.dashT > 0 || this.spinT > 0 || this.superT > 0 || this.iaiT > 0 || this.diveT > 0 || this.slamT > 0; }
+  // the player's skill recharges 15% faster in 1 Player and Training (2 Players and enemies keep the base time)
+  skillMax() { const b = SKILL_CD[this.W.skill]; return (G.mode !== '2p' && !this.ai && !this.dummy) ? b * 0.85 : b; }
+  busy() { return !!this.zip || this.dashT > 0 || this.spinT > 0 || this.superT > 0 || this.iaiT > 0 || this.diveT > 0 || this.slamT > 0; }
   shoulder() { return { x: this.x + this.facing * 1.5 * this.s, y: this.y - 26 * this.s }; }
   handPos() { const sh = this.shoulder(); const r = 36 * this.s * this.ext; return { x: sh.x + Math.cos(this.wa) * r, y: sh.y + Math.sin(this.wa) * r }; }
   tipPos() { const h = this.handPos(); const L = this.W.len * this.s; return { x: h.x + Math.cos(this.wa) * L, y: h.y + Math.sin(this.wa) * L }; }
   center() { const p = this.rag.p; return { x: (p[1].x + p[2].x) / 2, y: (p[1].y + p[2].y) / 2 }; }
 
   update(dt) {
-    if (!this.alive) { this.deadT += dt; this.rag.stepDead(dt, G.arena.solids); this.trail.length = 0; return; }
+    if (!this.alive) {
+      this.deadT += dt; this.trail.length = 0;
+      if (this.erased) { for (const p of this.rag.p) { p.px = p.x; p.py = p.y; p.y -= 70 * dt; } if (Math.random() < 0.4) { const p = pick(this.rag.p); G.parts.push({ k: 'dot', x: p.x, y: p.y, vx: rand(-30, 30), vy: rand(-140, -60), life: 0.7, max: 0.7, col: pick(['#fff6d0', '#ffe27a']), size: rand(2, 4), g: 0 }); } }
+      else this.rag.stepDead(dt, G.arena.solids);
+      return;
+    }
     for (const k of ['stunT', 'invT', 'shieldT', 'flashT', 'atkCD', 'skillCD', 'hazCD', 'gunCD', 'coyote', 'landT']) if (this[k] > 0) this[k] -= dt;
     this.recoil *= Math.exp(-14 * dt);
+    if (this.frozenT > 0) {
+      // frozen in a block of ice: only falls / slides, no input or attacks
+      this.frozenT -= dt; this.vx *= Math.exp(-3 * dt); this.vy = Math.min(this.vy + 2300 * dt, 1500);
+      const ox = this.x, oy = this.y; this.moveCollide(dt);
+      const dx = this.x - ox, dy = this.y - oy; for (const p of this.rag.p) { p.x += dx; p.y += dy; p.px = p.x; p.py = p.y; }
+      this.trail.length = 0;
+      if (this.frozenT <= 0) { const c = this.center(); iceBurst(c.x, c.y, 14); Audio.play('shatter'); }
+      return;
+    }
     if (!this.ai || this.boss) this.superC = Math.min(100, this.superC + dt * (this.ai ? 4 : 2.5));
+    if (G.mode === 'train' && !this.dummy) this.superC = 100; // training: super always ready
     this.target = nearestFoe(this);
     if (this.ai) this.think(dt);
     const I = this.input;
-    if (I.skillP && this.skillCD <= 0 && !this.busy() && this.stunT <= 0.05) this.useSkill();
+    if (this.W.skill === 'bomb') this.bombInput(I);
+    else if (I.skillP && this.skillCD <= 0 && !this.busy() && this.stunT <= 0.05) this.useSkill();
     if (I.superP && this.superC >= 100 && this.superT <= 0 && this.iaiT <= 0) { this.diveT = 0; this.slamT = 0; this.spinT = 0; this.dashT = 0; this.useSuper(); }
 
     const mv = (I.right ? 1 : 0) - (I.left ? 1 : 0);
@@ -506,6 +638,12 @@ class Fighter {
     if (this.dashT > 0) {
       this.dashT -= dt;
       if (this.dashT <= 0) { this.vx *= 0.3; this.vy *= 0.3; this.atk.hit.clear(); }
+    } else if (this.zip) {
+      // grapple zip: reel in along the chain to each waypoint, collisions still apply
+      const z = this.zip, q = z.pts[z.i]; z.t += dt;
+      const dx = q.x - this.x, dy = q.y - this.y, d = Math.hypot(dx, dy), stepD = 1350 * dt;
+      if (d <= stepD) { this.vx = dx / dt; this.vy = dy / dt; z.i++; } else { this.vx = dx / d * 1350; this.vy = dy / d * 1350; }
+      if (z.i >= z.pts.length || z.t > 0.9) { this.zip = null; if (z.i >= z.pts.length) { this.vx = this.facing * 60; this.vy = 0; } }
     } else if (this.iaiT > 0) {
       // iaido stance: freeze, then flash-step through the enemy line
       this.iaiT -= dt; this.vx = 0; this.vy = Math.min(this.vy + 400 * dt, 100);
@@ -583,6 +721,7 @@ class Fighter {
 
   combat(dt) {
     const W = this.W, t = this.target, sh = this.shoulder();
+    if (this.dummy) { if (t) this.facing = Math.sign(t.x - this.x) || this.facing; this.wa = lerpAngle(this.wa, this.idleAngle(), 1 - Math.exp(-10 * dt)); this.ext = 0.88; return; }
     let aimA = 0, dist = 1e9;
     if (t) { const c = t.center(); aimA = Math.atan2(c.y - sh.y, c.x - sh.x); dist = Math.hypot(c.x - sh.x, c.y - sh.y); }
     if (this.dashT > 0) {
@@ -618,7 +757,10 @@ class Fighter {
     }
     if (this.superT > 0) {
       const sp = this.sup;
-      if (sp === 'barrage' || sp === 'candybomb') { this.wa = lerpAngle(this.wa, t ? aimA : (this.facing > 0 ? 0 : Math.PI), 1 - Math.exp(-18 * dt)); if (t) this.facing = Math.cos(aimA) >= 0 ? 1 : -1; this.ext = 0.95 - this.recoil * 0.15; return; }
+      if (sp === 'genesis') { this.wa = lerpAngle(this.wa, -Math.PI / 2, 1 - Math.exp(-14 * dt)); this.ext = 1.1; return; }
+      if (sp === 'bomber') { this.wa = lerpAngle(this.wa, -Math.PI / 2 - this.facing * 0.3, 1 - Math.exp(-16 * dt)); this.ext = 0.9; return; }
+      if (sp === 'blizzard') { this.wa = lerpAngle(this.wa, -Math.PI / 2 + this.facing * 0.15, 1 - Math.exp(-16 * dt)); this.ext = 1; return; }
+      if (sp === 'barrage' || sp === 'candybomb' || sp === 'thunder') { this.wa = lerpAngle(this.wa, t ? aimA : (this.facing > 0 ? 0 : Math.PI), 1 - Math.exp(-18 * dt)); if (t) this.facing = Math.cos(aimA) >= 0 ? 1 : -1; this.ext = 0.95 - this.recoil * 0.15; return; }
       if (sp === 'thousand') { this.wa = lerpAngle(this.wa, this.facing > 0 ? 2.5 : Math.PI - 2.5, 1 - Math.exp(-14 * dt)); this.ext = 0.55; return; }
       if (sp === 'concert') { this.wa = (this.facing > 0 ? 0.45 : Math.PI - 0.45) + Math.sin(G.time * 34) * 0.12; this.ext = 0.7; return; }
       if (sp === 'quake') { this.wa = lerpAngle(this.wa, this.quakeDown ? (this.facing > 0 ? 1.1 : Math.PI - 1.1) : -Math.PI / 2 - this.facing * 0.5, 1 - Math.exp(-20 * dt)); this.ext = 1; if (this.quakeDown) this.pushTrail(); return; }
@@ -690,12 +832,20 @@ class Fighter {
     this.prevTip = tip;
   }
 
+  freeze(t) {
+    if (!this.alive || this.invT > 0 || this.shieldT > 0) return false;
+    this.frozenT = Math.max(this.frozenT, t); this.zip = null; this.atk.phase = 0; this.dashT = this.spinT = this.iaiT = this.diveT = this.slamT = 0;
+    this.vx *= 0.3; const c = this.center(); iceBurst(c.x, c.y, 10); ring(c.x, c.y, 'rgba(190,240,255,0.9)', 55 * this.s);
+    return true;
+  }
   hurt(dmg, kx, ky, from, hx, hy) {
     if (!this.alive || this.invT > 0) return false;
     if (this.shieldT > 0) {
       Audio.play('block'); for (let i = 0; i < 6; i++) spark(hx, hy, '#ffd36b');
       this.vx = kx * 0.3; this.vy = Math.min(this.vy, ky * 0.2); return false;
     }
+    this.zip = null;
+    if (this.frozenT > 0) { this.frozenT = 0; dmg *= 1.3; const c = this.center(); iceBurst(c.x, c.y, 18); Audio.play('shatter'); }
     this.hp -= dmg; this.flashT = 0.1; this.stunT = Math.max(this.stunT, 0.16 + Math.hypot(kx, ky) / 3200);
     this.vx = kx; this.vy = ky; if (this.onGround && this.vy > -220) this.vy = -220; this.onGround = false;
     this.atk.phase = 0; this.rag.impulse(hx, hy, kx * 0.9, ky * 0.9);
@@ -716,8 +866,15 @@ class Fighter {
     Audio.play('hit');
     if (this.hp <= 0) this.die(null, kx, ky);
   }
+  erase(by) {
+    if (!this.alive) return;
+    this.erased = true; this.shieldT = 0; this.invT = 0; this.frozenT = 0; this.superT = 0; this.zip = null;
+    const c = this.center();
+    for (let i = 0; i < 30; i++) { const a = rand(0, TAU), v = rand(60, 320); G.parts.push({ k: 'dot', x: c.x + rand(-20, 20), y: c.y + rand(-50, 40), vx: Math.cos(a) * v, vy: Math.sin(a) * v - 160, life: rand(0.6, 1.2), max: 1.2, col: pick(['#fff6d0', '#ffe27a', '#ffffff', '#c9f3ff']), size: rand(2, 5), g: -120 }); }
+    this.hp = 0; this.die(by, 0, -120);
+  }
   die(from, kx, ky) {
-    this.alive = false; this.hp = 0; this.deadT = 0;
+    this.alive = false; this.hp = 0; this.deadT = 0; this.bombHeld = false;
     for (const p of this.rag.p) { p.px = p.x - (this.vx * 1.15) / 120; p.py = p.y - (this.vy * 1.15) / 120; }
     for (let i = 0; i < 16; i++) blob(this.x, this.y - 10, this.color, kx * 1.3, ky * 1.3);
     ring(this.x, this.y, 'rgba(255,255,255,0.9)', 60 * this.s);
@@ -725,6 +882,30 @@ class Fighter {
     onKill(this, from);
   }
 
+  /* Bomb: E picks a bomb up, E again throws it; S / Down places it, S / Down again (or an enemy touching it) sets it off */
+  bombInput(I) {
+    if (I.skillP) {
+      if (this.bombHeld) this.throwBomb();
+      else if (this.skillCD <= 0 && !this.busy() && this.stunT <= 0.05) { this.bombHeld = true; Audio.play('fuse'); }
+    }
+    if (I.downP) {
+      const m = G.projs.find(q => q.k === 'mine' && q.owner === this && q.life > 0 && !q.exploded);
+      if (m) blast(m);
+      else if (this.bombHeld) this.placeMine();
+    }
+  }
+  throwBomb() {
+    const t = this.target, h = this.tipPos(), g = 1000, T = 0.75; // flight time to the target
+    let tx = this.x + this.facing * 360, ty = this.y;
+    if (t && Math.hypot(t.x - this.x, t.y - this.y) < 750) { const c = t.center(); tx = c.x; ty = c.y; }
+    const vx = clamp((tx - h.x) / T, -850, 850), vy = clamp((ty - h.y - 0.5 * g * T * T) / T, -1000, 600);
+    G.projs.push({ k: 'tbomb', wid: 'bomb', x: h.x, y: h.y, vx, vy, g, rot: 0, spin: 10 * this.facing, team: this.team, owner: this, dmg: 26 * this.dmgMul, kb: 650, life: 1.6, r: 10, hit: new Set(), age: 0, self: true });
+    this.bombHeld = false; this.skillCD = this.skillMax(); Audio.play('swing');
+  }
+  placeMine() {
+    G.projs.push({ k: 'mine', wid: 'bomb', x: this.x + this.facing * 16, y: this.y + this.hh - 12, vx: 0, vy: 0, g: 1400, rot: 0, spin: 0, team: this.team, owner: this, dmg: 32 * this.dmgMul, kb: 760, life: 25, r: 12, hit: new Set(), age: 0, self: true });
+    this.bombHeld = false; this.skillCD = this.skillMax(); Audio.play('land');
+  }
   useSkill() {
     const W = this.W, t = this.target; this.skillCD = this.skillMax(); Audio.play('skill');
     let ang = this.facing > 0 ? 0 : Math.PI, dist = 1e9;
@@ -743,12 +924,6 @@ class Fighter {
       this.iaiDir = t && dist < 700 ? (t.x >= this.x ? 1 : -1) : this.facing; this.facing = this.iaiDir;
       this.iaiT = 0.17; this.vx = 0; this.invT = Math.max(this.invT, 0.5);
       ring(this.x, this.y - 10, 'rgba(255,255,255,0.9)', 36 * this.s); Audio.play('slash');
-    } else if (sk === 'fan') {
-      // Knife: three knives in a fan
-      if (!t || dist > 800) ang = this.facing > 0 ? -0.05 : Math.PI + 0.05;
-      const h = this.handPos();
-      for (const da of [-0.18, 0, 0.18]) throwWeapon(this, 'weapon', h.x, h.y, ang + da, 1080, W.dmg * 1.5, W.kb * 1.1, { spin: 24 * this.facing, g: 380 });
-      this.recoil = 1;
     } else if (sk === 'boomerang') {
       // Axe: spinning boomerang that comes back
       if (!t || dist > 650) ang = this.facing > 0 ? 0 : Math.PI;
@@ -768,7 +943,45 @@ class Fighter {
       ring(this.x, this.y, this.energy(true, 0.8), 70 * this.s);
     } else if (sk === 'sound') {
       // Guitar: power chord sound blast
-      soundBlast(this, this.x, this.y - 15 * this.s, 230 * this.s, W.dmg * 1.1, 820, 3, 0.45);
+      soundBlast(this, this.x, this.y - 15 * this.s, 230 * this.s, W.dmg * 1.1, 820, 2, 0.45);
+    } else if (sk === 'icebolt') {
+      // Frost Staff: ice bolt that freezes the first enemy it hits
+      if (!t || dist > 800) ang = this.facing > 0 ? 0 : Math.PI;
+      // fire from the shoulder (the staff tip can be inside the floor when idle) and point the staff along the shot
+      const sh = this.shoulder(); this.wa = ang; this.ext = 0.95; this.atkCD = Math.max(this.atkCD, 0.2);
+      const tip = { x: sh.x + Math.cos(ang) * 26 * this.s, y: sh.y + Math.sin(ang) * 26 * this.s };
+      G.projs.push({ k: 'icebolt', wid: 'staff', x: tip.x, y: tip.y, vx: Math.cos(ang) * 1050, vy: Math.sin(ang) * 1050, rot: ang, team: this.team, owner: this, dmg: 12 * this.dmgMul, kb: 140, life: 0.9, r: 10, g: 0, hit: new Set(), age: 0 });
+      Audio.play('freeze');
+    } else if (sk === 'hook') {
+      // Thunder Whip: grapple hook pulls an enemy to you, or pulls you to a wall / platform
+      const h = this.handPos();
+      let zip = null;
+      if (!t || dist > 400) {
+        // no enemy in reach: hook the nearest ledge corner above and zip up onto it
+        let bs = 1e9; const S = G.arena.solids;
+        const clear = (x1, y1, x2, y2) => { for (let i = 1; i <= 14; i++) { const x = lerp(x1, x2, i / 14), y = lerp(y1, y2, i / 14); if (S.some(q => x + this.hw > q.x && x - this.hw < q.x + q.w && y + this.hh > q.y && y - this.hh < q.y + q.h)) return false; } return true; };
+        for (const q of S) {
+          if (q.k !== 'plat') continue;
+          for (const out of [-1, 1]) {
+            const cx = out < 0 ? q.x : q.x + q.w;
+            const wp = { x: cx + out * (this.hw + 8), y: q.y - this.hh - 6 }, dest = { x: cx - out * 34, y: q.y - this.hh - 2 };
+            const dx = wp.x - this.x, dy = wp.y - this.y, d = Math.hypot(dx, dy);
+            if (dy > -60 || d > 470 || wp.x < 10 || wp.x > G.arena.w - 10) continue;
+            if (!clear(this.x, this.y - 2, wp.x, wp.y)) continue;
+            const sc = d - (Math.sign(dx) === this.facing ? 160 : 0);
+            if (sc < bs) { bs = sc; zip = { pts: [wp, dest], aim: { x: cx - out * 4, y: q.y + 5 } }; }
+          }
+        }
+        ang = zip ? Math.atan2(zip.aim.y - h.y, zip.aim.x - h.x) : (this.facing > 0 ? -0.75 : Math.PI + 0.75);
+      }
+      G.projs.push({ k: 'hook', wid: 'whip', x: h.x, y: h.y, vx: Math.cos(ang) * 1400, vy: Math.sin(ang) * 1400, rot: ang, team: this.team, owner: this, dmg: 8 * this.dmgMul, kb: 0, life: zip ? 0.38 : 0.29, r: 8, g: 0, hit: new Set(), age: 0, zip });
+      Audio.play('hook');
+    } else if (sk === 'rainbow') {
+      // Arceus Breaker: send a rainbow crescent flying forward; it passes through enemies and terrain
+      const dir = t && Math.abs(t.x - this.x) < 700 ? (Math.sign(t.x - this.x) || this.facing) : this.facing; this.facing = dir;
+      this.wa = dir > 0 ? 0.1 : Math.PI - 0.1; this.ext = 1; this.atkCD = Math.max(this.atkCD, 0.2);
+      G.projs.push({ k: 'rslash', wid: 'arceus', x: this.x + dir * 40, y: this.y - 14 * this.s, vx: dir * 950, vy: 0, g: 0, rot: 0, team: this.team, owner: this, dmg: 24 * this.dmgMul, kb: 520, life: 0.6, r: 40, hit: new Set(), age: 0, pass: true });
+      Audio.play('slash'); Audio.play('skill');
     } else if (sk === 'burst') {
       // Pistol: spread shot
       const tip = this.tipPos();
@@ -829,16 +1042,17 @@ class Fighter {
   foesNear(R) { return G.fighters.filter(o => o.alive && o.team !== this.team && Math.hypot(o.x - this.x, o.y - this.y) < R); }
   useSuper() {
     const sp = this.W.sup; this.sup = sp; this.superC = 0; this.superE = 0; this.superN = 0; this.atk.phase = 0;
-    const D = { crescent: 1.0, thousand: 1.2, knifering: 0.7, spearrain: 1.0, tornado: 1.5, quake: 1.6, candybomb: 0.55, concert: 1.05, barrage: 1.2 }[sp];
+    const D = { crescent: 1.0, thousand: 1.2, spearrain: 1.0, tornado: 1.5, quake: 1.6, candybomb: 0.55, blizzard: 1.25, thunder: 1.0, bomber: 0.9, genesis: 1.7, concert: 1.05, barrage: 1.2 }[sp];
     this.superT = D; this.invT = Math.max(this.invT, D + 0.05);
     this.superQ = ({
-      crescent: [0.02, 0.3, 0.58], thousand: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0], knifering: [0.05, 0.35], spearrain: [0.1, 0.26, 0.42, 0.58, 0.74],
-      tornado: [], quake: [], candybomb: [0.18], concert: [0.05, 0.3, 0.55, 0.8], barrage: Array.from({ length: 10 }, (_, i) => 0.12 + i * 0.1),
+      crescent: [0.02, 0.3, 0.58], thousand: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0], spearrain: [0.1, 0.26, 0.42, 0.58, 0.74],
+      tornado: [], quake: [], candybomb: [0.18], blizzard: [0.12, 1.1], thunder: [0.12, 0.45, 0.78], bomber: [0.42], genesis: [0.3, 1.0], concert: [0.05, 0.3, 0.55, 0.8], barrage: Array.from({ length: 10 }, (_, i) => 0.12 + i * 0.1),
     })[sp].slice();
     this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
     if (sp === 'quake') { this.vy = -1050; this.vx *= 0.3; this.onGround = false; this.quakeArm = true; }
     else if (sp !== 'tornado') { this.vx *= 0.2; this.vy = -180; }
     if (sp === 'thousand') { G.dimT = 1.25; Audio.play('slash'); }
+    if (sp === 'bomber') { this.bombHeld = false; G.fx.push({ k: 'orbit', f: this, life: 0.42, max: 0.42 }); Audio.play('fuse'); }
     Audio.play('super'); G.slow = 0.45; G.slowT = 0.35; addShake(8);
     ring(this.x, this.y, this.energy(true, 0.9), 120 * this.s);
   }
@@ -867,11 +1081,11 @@ class Fighter {
   doQuake() {
     this.quakeArm = false; this.superT = Math.min(this.superT, 0.2);
     const fy = this.y + this.hh; addShake(18); Audio.play('boom'); Audio.play('ko');
-    for (let i = -8; i <= 8; i++) dust(this.x + i * 55, fy, 3);
-    ring(this.x, fy, 'rgba(255,255,255,0.9)', 220); ring(this.x, fy, this.energy(true, 0.9), 400);
+    for (let i = -6; i <= 6; i++) dust(this.x + i * 50, fy, 3);
+    ring(this.x, fy, 'rgba(255,255,255,0.9)', 180); ring(this.x, fy, this.energy(true, 0.9), QUAKE_R * 0.55);
     G.fx.push({ k: 'quake', x: this.x, y: fy, life: 0.6, max: 0.6 });
-    for (const o of this.foesNear(800)) {
-      const k = 1 - Math.abs(o.x - this.x) / 800; const c = o.center();
+    for (const o of this.foesNear(QUAKE_R)) {
+      const k = 1 - Math.abs(o.x - this.x) / QUAKE_R; const c = o.center();
       o.hurt((14 + 20 * k) * this.dmgMul, (Math.sign(o.x - this.x) || 1) * 320, -700 - 500 * k, this, c.x, c.y);
     }
   }
@@ -885,7 +1099,7 @@ class Fighter {
       Audio.play('swing'); addShake(9);
     } else if (sp === 'thousand') {
       const last = n >= 6;
-      for (const o of this.foesNear(720)) {
+      for (const o of this.foesNear(THOUSAND_R * this.s)) {
         const c = o.center();
         for (let i = 0; i < (last ? 2 : 1); i++) { const a = last ? (i ? 0.7 : -0.7) : rand(0, Math.PI); const L = last ? 110 : 80; G.fx.push({ k: 'line', x1: c.x - Math.cos(a) * L, y1: c.y - Math.sin(a) * L, x2: c.x + Math.cos(a) * L, y2: c.y + Math.sin(a) * L, w: last ? 7 : 4, life: 0.3, max: 0.3, col: '#ffffff' }); }
         if (last) o.hurt(16 * this.dmgMul, (Math.sign(o.x - this.x) || 1) * 720, -560, this, c.x, c.y);
@@ -893,9 +1107,6 @@ class Fighter {
       }
       Audio.play(last ? 'ko' : 'slash'); addShake(last ? 14 : 4);
       if (last) { this.wa = this.facing > 0 ? 0.1 : Math.PI - 0.1; G.dimT = Math.min(G.dimT, 0.25); }
-    } else if (sp === 'knifering') {
-      for (let i = 0; i < 14; i++) { const a = i / 14 * TAU + n * 0.22; throwWeapon(this, 'weapon', cx, cy, a, 980, W.dmg * 1.4, 320, { spin: 24, g: 0, life: 0.9 }); }
-      ring(cx, cy, this.energy(true, 0.9), 90); Audio.play('swing');
     } else if (sp === 'spearrain') {
       const drop = (x, y) => throwWeapon(this, 'weapon', x, y - 640, Math.PI / 2, 1600, 14, 280, { spin: 0, g: 0, pass: true, life: 0.8, rot: Math.PI / 2 });
       for (const o of this.foesNear(1700)) { const c = o.center(); drop(c.x + rand(-25, 25), c.y); drop(c.x + rand(-80, 80), c.y); }
@@ -912,6 +1123,38 @@ class Fighter {
       soundBlast(this, cx, cy, 330 * this.s, 9, 640, 2, 0.6);
     } else if (sp === 'barrage') {
       const tip = this.tipPos(); fireBullet(this, tip.x, tip.y, aim() + rand(-0.07, 0.07), W.dmg * 0.9, 220, false); this.recoil = 1;
+    } else if (sp === 'blizzard') {
+      if (n === 0) {
+        // freeze every enemy nearby, then shatter them all at once
+        G.snowT = 1.5; this.blizList = [];
+        for (const o of this.foesNear(1100)) if (o.freeze(1.6)) this.blizList.push(o);
+        ring(cx, cy, 'rgba(190,240,255,0.95)', 280); iceBurst(cx, cy, 24); Audio.play('freeze');
+      } else {
+        for (const o of this.blizList || []) if (o.alive && o.frozenT > 0) { const c = o.center(); o.hurt(28 * this.dmgMul, (Math.sign(o.x - this.x) || 1) * 480, -620, this, c.x, c.y); }
+        this.blizList = []; addShake(12);
+      }
+    } else if (sp === 'genesis') {
+      if (n === 0) {
+        // light spreads out from the sword over the whole stage
+        G.genesis = { x: this.x, y: this.y - 60 * this.s, t: 0, max: 1.9 };
+        G.banner = { txt: 'アルティメット・ジェネシス', col: '#fff3b0', t: 1.8, max: 1.8 };
+        Audio.play('holy'); addShake(6);
+      } else {
+        // every opponent is returned to nothing (ignores shields, freezing and invincibility), then the user is fully healed
+        for (const o of G.fighters) if (o.alive && o.team !== this.team) o.erase(this);
+        this.hp = this.hpMax; this.frozenT = 0;
+        floatText(this.x, this.y - 90, '全回復！', '#9dffb0'); ring(this.x, this.y, 'rgba(150,255,180,0.9)', 90);
+        Audio.play('super'); addShake(14); G.flashT = 0.12;
+      }
+    } else if (sp === 'bomber') {
+      // throw all 12 bombs out in a ring
+      for (let i = 0; i < 12; i++) {
+        const a = i / 12 * TAU + 0.13, sp2 = 760;
+        G.projs.push({ k: 'sbomb', wid: 'bomb', x: cx + Math.cos(a) * 34, y: cy + Math.sin(a) * 34, vx: Math.cos(a) * sp2, vy: Math.sin(a) * sp2 - 160, g: 900, rot: a, spin: 12, team: this.team, owner: this, dmg: 22 * this.dmgMul, kb: 600, life: 1.1, r: 10, hit: new Set(), age: 0, self: false });
+      }
+      ring(cx, cy, 'rgba(255,190,90,0.9)', 110); Audio.play('swing'); addShake(6);
+    } else if (sp === 'thunder') {
+      chainLightning(this, n === 0 ? 20 : 16);
     }
   }
 
@@ -959,7 +1202,7 @@ class Fighter {
 
   think(dt) {
     const I = this.input, st = this.ai_, t = this.target;
-    I.upP = I.skillP = I.superP = false;
+    I.upP = I.downP = I.skillP = I.superP = false;
     st.t -= dt;
     if (!t) { I.left = I.right = I.up = I.down = false; return; }
     const dx = t.x - this.x, dy = t.y - this.y, adx = Math.abs(dx), dist = Math.hypot(dx, dy);
@@ -983,6 +1226,7 @@ class Fighter {
       I.down = dy > 140 && !this.onGround;
       const skR = SKILL_RANGE[W.skill];
       if (this.skillCD <= 0 && this.aiSkill > 0.25 && dist < skR && Math.random() < 0.18 + this.aiSkill * 0.25) I.skillP = true;
+      if (this.bombHeld && dist < 560 && Math.random() < 0.3) I.skillP = true;
       if (this.boss && this.superC >= 100 && dist < 190) I.superP = true;
     }
     I.left = st.dir < 0; I.right = st.dir > 0;
@@ -1043,6 +1287,49 @@ function soundBlast(o, x, y, R, dmg, kb, rings, life) {
   }
   Audio.play('chord'); addShake(7);
 }
+function iceBurst(x, y, n) {
+  for (let i = 0; i < n; i++) { const a = rand(0, TAU), v = rand(150, 520); G.parts.push({ k: 'shard', x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 120, life: rand(0.4, 0.7), max: 0.7, col: pick(['#d8f6ff', '#9fe3ff', '#ffffff']), size: rand(3, 7), g: 1300, rot: rand(0, TAU) }); }
+}
+function hookPull(o, f) {
+  if (!f.alive || !o.alive) return;
+  const side = Math.sign(f.x - o.x) || o.facing; const dx = o.x + side * 45 - f.x, dy = o.y - f.y;
+  f.vx = clamp(dx * 3.3, -1400, 1400); f.vy = clamp(dy * 3.3 - 360, -1300, 900); f.onGround = false; f.stunT = Math.max(f.stunT, 0.45);
+  G.fx.push({ k: 'tether', a: o, b: f, life: 0.22, max: 0.22 });
+}
+function chainLightning(o, dmg) {
+  const h = o.handPos(); let from = { x: h.x, y: h.y }; const hit = new Set(); let range = 900;
+  for (let i = 0; i < 6; i++) {
+    let best = null, bd = range;
+    for (const f of G.fighters) { if (!f.alive || f.team === o.team || hit.has(f)) continue; const c = f.center(); const d = Math.hypot(c.x - from.x, c.y - from.y); if (d < bd) { bd = d; best = f; } }
+    if (!best) break;
+    const c = best.center(); hit.add(best);
+    G.fx.push({ k: 'bolt', x1: from.x, y1: from.y, x2: c.x, y2: c.y, life: 0.28, max: 0.28 });
+    best.hurt(dmg * o.dmgMul * (i ? 0.8 : 1), (Math.sign(c.x - from.x) || 1) * 200, -380, o, c.x, c.y);
+    if (best.alive) best.stunT = Math.max(best.stunT, 0.35);
+    for (let k = 0; k < 8; k++) spark(c.x, c.y, '#ffe36b');
+    from = c; range = 480;
+  }
+  if (!hit.size) G.fx.push({ k: 'bolt', x1: h.x, y1: h.y, x2: o.x + o.facing * 260, y2: o.y + o.hh, life: 0.25, max: 0.25 });
+  G.flashT = 0.08; Audio.play('thunder'); addShake(8);
+}
+function blast(p) {
+  if (p.exploded) return; p.exploded = true; p.life = 0;
+  const A = p.k === 'sbomb' ? 135 : 160;
+  for (const f of G.fighters) {
+    if (!f.alive) continue;
+    const self = f === p.owner;
+    if (f.team === p.team && !(self && p.self)) continue;
+    const c = f.center(), dx = c.x - p.x, dy = c.y - p.y, d = Math.hypot(dx, dy);
+    if (d < A) { const k = 1 - d / A * 0.5, nx = dx / (d || 1), ny = dy / (d || 1); f.hurt(p.dmg * k * (self ? 0.6 : 1), nx * p.kb, Math.min(ny * p.kb, 0) - 380, self ? null : p.owner, c.x, c.y); }
+  }
+  // chain reaction: nearby bombs go off a moment later
+  for (const q of G.projs) if (q !== p && !q.exploded && (q.k === 'mine' || q.k === 'tbomb' || q.k === 'sbomb') && Math.hypot(q.x - p.x, q.y - p.y) < A * 0.8) G.later.push({ t: 0.08, f: () => blast(q) });
+  for (let i = 0; i < 26; i++) { const a = rand(0, TAU), v = rand(150, 650); G.parts.push({ k: 'dot', x: p.x, y: p.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 150, life: rand(0.3, 0.6), max: 0.6, col: pick(['#ffdd55', '#ff9a2e', '#ff5a1f', '#ffffff']), size: rand(3, 6), g: 900 }); }
+  for (let i = 0; i < 10; i++) G.parts.push({ k: 'puff', x: p.x + rand(-30, 30), y: p.y + rand(-30, 20), vx: rand(-120, 120), vy: rand(-180, -40), life: rand(0.5, 0.9), max: 0.9, col: 'rgba(55,50,60,0.55)', size: rand(12, 22), g: 0 });
+  ring(p.x, p.y, 'rgba(255,240,200,0.95)', A * 0.7); ring(p.x, p.y, 'rgba(255,140,40,0.9)', A);
+  G.fx.push({ k: 'boom', x: p.x, y: p.y, r: A, life: 0.4, max: 0.4, pal: 'fire' });
+  addShake(p.k === 'sbomb' ? 7 : 12); Audio.play('boom');
+}
 function explode(p) {
   const A = 250; p.life = 0; p.exploded = true;
   for (const f of G.fighters) {
@@ -1054,7 +1341,7 @@ function explode(p) {
   for (let i = 0; i < 26; i++) { const a = rand(0, TAU), v = rand(250, 800); G.parts.push({ k: 'candy', x: p.x, y: p.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 200, life: rand(0.7, 1.1), max: 1.1, col: pick(['#ff4f8b', '#7fe0ff', '#ffe36b', '#9cff6a']), size: rand(6, 9), g: 1100, rot: rand(0, TAU) }); }
   ring(p.x, p.y, 'rgba(255,255,255,0.95)', 160); ring(p.x, p.y, 'rgba(255,90,150,0.95)', 270); ring(p.x, p.y, 'rgba(255,227,107,0.9)', 210);
   G.fx.push({ k: 'boom', x: p.x, y: p.y, r: A, life: 0.5, max: 0.5 });
-  G.texts.push({ x: p.x, y: p.y - 40, txt: 'POP!', col: '#ff8fc4', life: 0.8, max: 0.8 });
+  G.texts.push({ x: p.x, y: p.y - 40, txt: 'ポン！', col: '#ff8fc4', life: 0.8, max: 0.8 });
   addShake(15); Audio.play('boom');
 }
 function spark(x, y, col) { const a = rand(0, TAU), v = rand(250, 750); G.parts.push({ k: 'spark', x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: rand(0.12, 0.25), max: 0.25, col, size: rand(2, 3.5), g: 600 }); }
@@ -1104,9 +1391,9 @@ function startLevel(n) {
   initBats(); setState('play');
 }
 function enemyPool(n) {
-  const pool = ['knife', 'sword'];
+  const pool = ['sword'];
   if (n >= 2) pool.push('axe'); if (n >= 3) pool.push('spear'); if (n >= 5) pool.push('hammer', 'katana');
-  if (n >= 7) pool.push('pistol'); if (n >= 9) pool.push('guitar', 'candy');
+  if (n >= 7) pool.push('pistol'); if (n >= 9) pool.push('guitar', 'candy'); if (n >= 8) pool.push('bomb'); if (n >= 10) pool.push('staff', 'whip');
   return pool;
 }
 function spawnEnemy() {
@@ -1124,7 +1411,30 @@ function spawnEnemy() {
   G.fighters.push(e); G.toSpawn--;
   for (let i = 0; i < 14; i++) G.parts.push({ k: 'puff', x: sp.x + rand(-26, 26), y: sp.y + rand(-50, 40), vx: rand(-90, 90), vy: rand(-90, 30), life: rand(0.4, 0.7), max: 0.7, col: 'rgba(30,20,40,0.6)', size: rand(10, 20), g: 0 });
   ring(sp.x, sp.y, 'rgba(255,90,80,0.9)', 70 * e.s); Audio.play('spawn');
-  if (boss) { G.banner = { txt: 'BOSS!', col: '#ff5a4f', t: 1.6, max: 1.6 }; }
+  if (boss) { G.banner = { txt: 'ボス出現！', col: '#ff5a4f', t: 1.6, max: 1.6 }; }
+}
+/* ---------- Training: flat floor, a dummy that never moves or attacks and respawns 1s after going down ---------- */
+const TRAIN_ARENA = { w: 1300, h: 620, plats: [] };
+function startTraining() {
+  G.mode = 'train'; resetWorld();
+  G.themeName = 'train'; G.theme = THEMES.train; G.arena = buildArena(TRAIN_ARENA, 'train');
+  spawnTrain('player'); spawnTrain('dummy');
+  G.cam.x = TRAIN_ARENA.w / 2; G.cam.y = TRAIN_ARENA.h / 2; G.hintT = 8; G.bats = [];
+  setState('play');
+}
+function spawnTrain(who) {
+  const A = TRAIN_ARENA;
+  if (who === 'player') {
+    G.fighters = G.fighters.filter(f => f.team !== 0);
+    const p = new Fighter({ x: 420, y: A.h - 48, team: 0, color: COLORS[save.color].hex, weapon: save.tw, ctrl: 0, hpMax: 120, facing: 1 });
+    p.invT = 0.6; G.fighters.push(p); G.player = p;
+  } else {
+    G.fighters = G.fighters.filter(f => f.team !== 1);
+    const d = new Fighter({ x: 880, y: A.h - 48, team: 1, color: ENEMY_RED, weapon: 'sword', dummy: true, mask: true, hpMax: 150, facing: -1 });
+    G.fighters.push(d);
+    for (let i = 0; i < 12; i++) G.parts.push({ k: 'puff', x: d.x + rand(-24, 24), y: d.y + rand(-40, 40), vx: rand(-80, 80), vy: rand(-80, 20), life: rand(0.35, 0.6), max: 0.6, col: 'rgba(30,20,40,0.5)', size: rand(10, 18), g: 0 });
+    ring(d.x, d.y, 'rgba(255,90,80,0.9)', 70); Audio.play('spawn');
+  }
 }
 function start2P() {
   G.mode = '2p'; G.scores = [0, 0]; G.round = 1; G.arenaIdx = 0; setupRound(); setState('play'); G.hintT = 8;
@@ -1136,16 +1446,17 @@ function setupRound() {
   const a = new Fighter({ x: L.spawn[0][0], y: L.spawn[0][1], team: 0, color: '#22aaf2', weapon: save.p2w[0], ctrl: 0, facing: 1 });
   const b = new Fighter({ x: L.spawn[1][0], y: L.spawn[1][1], team: 1, color: P2_RED, weapon: save.p2w[1], ctrl: 1, facing: -1 });
   G.fighters.push(a, b); G.cam.x = L.w / 2; G.cam.y = L.h / 2;
-  G.banner = { txt: 'ROUND ' + G.round, col: '#ffffff', t: 1.3, max: 1.3 }; Audio.play('round');
+  G.banner = { txt: 'ラウンド ' + G.round, col: '#ffffff', t: 1.3, max: 1.3 }; Audio.play('round');
   initBats();
 }
 function resetWorld() {
-  G.fighters = []; G.projs = []; G.parts = []; G.fx = []; G.texts = []; G.hitstop = 0; G.slow = 1; G.slowT = 0; G.shake = 0; G.overT = -1; G.pendingEnd = null; G.banner = null; G.later = []; G.dimT = 0;
+  G.fighters = []; G.projs = []; G.parts = []; G.fx = []; G.texts = []; G.hitstop = 0; G.slow = 1; G.slowT = 0; G.shake = 0; G.overT = -1; G.pendingEnd = null; G.banner = null; G.later = []; G.respawns = []; G.dimT = 0; G.snowT = 0; G.flashT = 0; G.genesis = null;
   touch.sticks = [null, null];
 }
 function initBats() { G.bats = []; for (let i = 0; i < 7; i++) G.bats.push({ x: rand(0, 1), y: rand(0.05, 0.5), sp: rand(0.012, 0.03) * (Math.random() < 0.5 ? 1 : -1), ph: rand(0, TAU), sz: rand(0.6, 1.2) }); }
 
 function onKill(f, from) {
+  if (G.mode === 'train') { G.respawns.push({ t: 1.0, who: f.team === 0 ? 'player' : 'dummy' }); return; }
   if (G.mode === '1p') {
     if (f.team === 1) {
       const c = f.boss ? 60 : 10; G.coinsRun += c; G.kills++; floatText(f.x, f.y - 70, '+' + c, '#ffd23f'); setTimeout(() => Audio.play('coin'), 120);
@@ -1155,7 +1466,7 @@ function onKill(f, from) {
   } else {
     if (G.overT >= 0) return;
     const w = f.team === 0 ? 1 : 0; G.scores[w]++; G.overT = 2.3; G.slow = 0.3; G.slowT = 0.9;
-    G.banner = { txt: (w === 0 ? 'BLUE' : 'RED') + ' +1', col: w === 0 ? '#48c4ff' : '#ff5a4f', t: 2.1, max: 2.1 };
+    G.banner = { txt: (w === 0 ? '1P' : '2P') + ' +1', col: w === 0 ? '#48c4ff' : '#ff5a4f', t: 2.1, max: 2.1 };
   }
 }
 
@@ -1163,7 +1474,7 @@ function onKill(f, from) {
 function readInputs() {
   for (const f of G.fighters) {
     if (f.ai || f.ctrl < 0 || !f.alive) continue;
-    const maps = G.mode === '1p' ? [KEYMAP[0], KEYMAP[1]] : [KEYMAP[f.ctrl]];
+    const maps = G.mode !== '2p' ? [KEYMAP[0], KEYMAP[1]] : [KEYMAP[f.ctrl]];
     const held = n => maps.some(m => m[n].some(c => keys.has(c)));
     const lat = n => maps.some(m => m[n].some(c => latch.has(c)));
     const I = f.input, st = touch.sticks[f.ctrl], bl = touch.btnLatch[f.ctrl];
@@ -1173,12 +1484,13 @@ function readInputs() {
     I.up = held('up') || tu || ju;
     I.upP = I.upP || lat('up') || (tu && !touch.prevUp[f.ctrl]) || !!bl.jump;
     touch.prevUp[f.ctrl] = tu;
+    I.downP = I.downP || lat('down') || (td && !touch.prevDown[f.ctrl]); touch.prevDown[f.ctrl] = td;
     I.skillP = I.skillP || lat('skill') || !!bl.skill; I.superP = I.superP || lat('super') || !!bl.super;
     bl.jump = bl.skill = bl.super = false;
   }
   latch.clear();
 }
-function clearPressed() { for (const f of G.fighters) if (!f.ai) { f.input.upP = f.input.skillP = f.input.superP = false; } }
+function clearPressed() { for (const f of G.fighters) if (!f.ai) { f.input.upP = f.input.downP = f.input.skillP = f.input.superP = false; } }
 
 function step(dt) {
   G.time += dt;
@@ -1188,6 +1500,7 @@ function step(dt) {
   for (const s of A.saws) { s.ph += dt * s.sp * 2; const k = (Math.sin(s.ph) + 1) / 2; s.x = lerp(s.x1, s.x2, k); s.y = lerp(s.y1, s.y2, k); s.rot += dt * 14; }
   for (const p of A.pickups) { p.bob += dt * 2.4; if (!p.on) { p.t -= dt; if (p.t <= 0) { p.on = true; ring(p.x, p.y, 'rgba(255,255,255,0.8)', 30); } } }
   for (const f of G.fighters) { try { f.update(dt); } catch (e) { reportErr(e); } }
+  if (G.mode === 'train') { for (const r of G.respawns) { r.t -= dt; if (r.t <= 0 && !r.done) { r.done = true; spawnTrain(r.who); } } G.respawns = G.respawns.filter(r => !r.done); }
   safe(() => hazards(dt));
   // fighter vs fighter soft push
   for (let i = 0; i < G.fighters.length; i++) for (let j = i + 1; j < G.fighters.length; j++) {
@@ -1208,7 +1521,35 @@ function step(dt) {
       if (Math.random() < 0.5) G.parts.push({ k: 'puff', x: p.x, y: p.y, vx: 0, vy: 0, life: 0.2, max: 0.2, col: 'rgba(255,255,255,0.35)', size: 8, g: 0 });
     }
     p.vy += p.g * dt; const ox = p.x, oy = p.y; p.x += p.vx * dt; p.y += p.vy * dt;
+    if (p.k === 'mine' || p.k === 'tbomb' || p.k === 'sbomb') {
+      if (p.k === 'mine') {
+        // rest on the first surface below, then wait for a trigger
+        for (const r of A.solids) if (p.x > r.x && p.x < r.x + r.w && p.y + p.r > r.y && oy + p.r <= r.y + 1) { p.y = r.y - p.r; p.vy = 0; }
+        if (p.age > 0.25) for (const o of G.fighters) {
+          if (!o.alive || o.team === p.team) continue;
+          if (Math.abs(o.x - p.x) < o.hw + p.r + 4 && o.y + o.hh > p.y - p.r && o.y - o.hh < p.y + p.r) { blast(p); break; }
+        }
+        if (p.life <= 0 && !p.exploded) { p.exploded = true; dust(p.x, p.y, 6); }
+        continue;
+      }
+      p.rot += p.spin * dt;
+      if (Math.random() < 0.6) G.parts.push({ k: 'dot', x: p.x + rand(-3, 3), y: p.y - p.r, vx: rand(-60, 60), vy: rand(-120, -30), life: 0.25, max: 0.25, col: pick(['#ffe36b', '#ff9a2e']), size: rand(1.5, 3), g: 0 });
+      let boom = p.life <= 0;
+      if (!boom) for (const r of A.solids) if (p.x > r.x && p.x < r.x + r.w && p.y > r.y && p.y < r.y + r.h) { p.x = ox; p.y = oy; boom = true; break; }
+      if (!boom) for (const o of G.fighters) { if (!o.alive || o.team === p.team) continue; const c = o.center(); if (Math.hypot(c.x - p.x, c.y - p.y) < 34 + p.r) { boom = true; break; } }
+      if (boom) blast(p);
+      continue;
+    }
     if (p.k === 'weapon' || p.k === 'boomer' || p.k === 'bomb') p.rot = p.spin ? p.rot + p.spin * dt : Math.atan2(p.vy, p.vx);
+    if (p.k === 'rslash') {
+      for (const o of G.fighters) {
+        if (!o.alive || o.team === p.team || p.hit.has(o)) continue;
+        const c = o.center();
+        if (Math.abs(c.x - p.x) < 46 && Math.abs(c.y - p.y) < 72) { p.hit.add(o); o.hurt(p.dmg, Math.sign(p.vx) * p.kb, -320, p.owner, c.x, c.y); }
+      }
+      if (Math.random() < 0.8) G.parts.push({ k: 'dot', x: p.x - Math.sign(p.vx) * 20 + rand(-6, 6), y: p.y + rand(-40, 40), vx: -p.vx * 0.1, vy: rand(-40, 40), life: 0.35, max: 0.35, col: `hsl(${(G.time * 600 + rand(0, 360)) % 360},100%,70%)`, size: rand(2, 4), g: 0 });
+      continue;
+    }
     if (p.k === 'gwave') {
       if (p.x < 10 || p.x > A.w - 10) p.life = 0;
       if (Math.random() < 0.8) G.parts.push({ k: 'dot', x: p.x + rand(-10, 10), y: p.y - 4, vx: rand(-80, 80), vy: rand(-420, -180), life: 0.45, max: 0.45, col: pick(['#cfc6b8', '#9b8f80', '#ffffff']), size: rand(2.5, 5), g: 1400 });
@@ -1220,6 +1561,16 @@ function step(dt) {
     }
     if (!p.pass && p.k !== 'boomer') for (const r of A.solids) if (p.x > r.x && p.x < r.x + r.w && p.y > r.y && p.y < r.y + r.h) {
       if (p.k === 'bomb') { p.x = ox; p.y = oy; explode(p); break; }
+      if (p.k === 'hook') {
+        const o = p.owner;
+        if (o && o.alive) {
+          if (p.zip) { o.zip = { pts: p.zip.pts, i: 0, t: 0 }; o.vx = o.vy = 0; o.onGround = false; G.fx.push({ k: 'tether', a: o, pt: { x: ox, y: oy }, life: 0.4, max: 0.4 }); }
+          else { const dx = ox - o.x, dy = oy - (o.y - 30); o.vx = clamp(dx * 3.0, -1300, 1300); o.vy = clamp(dy * 3.0 - 300, -1350, 700); o.onGround = false; G.fx.push({ k: 'tether', a: o, pt: { x: ox, y: oy }, life: 0.22, max: 0.22 }); }
+          o.jumpsLeft = 1; dust(ox, oy, 4);
+        }
+        p.life = 0; break;
+      }
+      if (p.k === 'icebolt') { p.life = 0; iceBurst(ox, oy, 8); break; }
       p.life = 0; for (let i = 0; i < 5; i++) spark(ox, oy, p.col || '#ffffff'); break;
     }
     if (p.k === 'bomb' && p.life <= 0 && !p.exploded) { p.exploded = true; explode(p); }
@@ -1233,8 +1584,10 @@ function step(dt) {
       const hit = bodyHit(o, ox - hx, oy - hy, p.x + hx, p.y + hy);
       if (hit) {
         p.hit.add(o); const dir = Math.sign(p.vx) || 1;
-        o.hurt(p.dmg, dir * p.kb, -p.kb * 0.45 - 100, p.owner, hit.x, hit.y);
-        if (p.k === 'bullet') p.life = 0;
+        const landed = o.hurt(p.dmg, dir * p.kb, -p.kb * 0.45 - 100, p.owner, hit.x, hit.y);
+        if (p.k === 'bullet' || p.k === 'icebolt' || p.k === 'hook') p.life = 0;
+        if (landed && p.k === 'icebolt') o.freeze(1.5);
+        if (landed && p.k === 'hook') hookPull(p.owner, o);
       }
     }
   }
@@ -1243,6 +1596,9 @@ function step(dt) {
   for (const l of G.later) { l.t -= dt; if (l.t <= 0 && !l.done) { l.done = true; l.f(); } }
   G.later = G.later.filter(l => !l.done);
   if (G.dimT > 0) G.dimT -= dt;
+  if (G.snowT > 0) G.snowT -= dt;
+  if (G.flashT > 0) G.flashT -= dt;
+  if (G.genesis) { G.genesis.t += dt; if (G.genesis.t > G.genesis.max) G.genesis = null; }
   // particles
   for (const p of G.parts) { p.life -= dt; p.vy += p.g * dt; p.x += p.vx * dt; p.y += p.vy * dt; if (p.k === 'puff') { p.vx *= 0.94; p.vy *= 0.94; } }
   G.parts = G.parts.filter(p => p.life > 0); if (G.parts.length > 700) G.parts.splice(0, G.parts.length - 700);
@@ -1251,7 +1607,7 @@ function step(dt) {
   for (const t of G.texts) { t.life -= dt; t.y -= 50 * dt; }
   G.texts = G.texts.filter(t => t.life > 0);
   // remove long-dead
-  G.fighters = G.fighters.filter(f => f.alive || f.deadT < 3.2 || (G.mode === '2p'));
+  G.fighters = G.fighters.filter(f => f.alive || f.deadT < 3.2 || (G.mode !== '1p'));
   // spawning
   if (G.mode === '1p' && G.player && G.player.alive && G.toSpawn > 0) {
     G.spawnT -= dt;
@@ -1303,8 +1659,8 @@ function hazards(dt) {
       const pyb = p.y + Math.sin(p.bob) * 6;
       if (Math.hypot(p.x - f.x, pyb - f.y) < 40 * f.s) {
         p.on = false; p.t = 12; Audio.play('pickup');
-        if (p.type === 'heart') { f.hp = Math.min(f.hpMax, f.hp + f.hpMax * 0.35); floatText(f.x, f.y - 70, '+HP', '#6bff7a'); }
-        else { f.shieldT = 6; floatText(f.x, f.y - 70, 'SHIELD', '#ffcf5a'); }
+        if (p.type === 'heart') { f.hp = Math.min(f.hpMax, f.hp + f.hpMax * 0.35); floatText(f.x, f.y - 70, '回復！', '#6bff7a'); }
+        else { f.shieldT = 6; floatText(f.x, f.y - 70, 'シールド', '#ffcf5a'); }
         for (let i = 0; i < 12; i++) G.parts.push({ k: 'dot', x: p.x, y: pyb, vx: rand(-200, 200), vy: rand(-260, 60), life: 0.5, max: 0.5, col: p.type === 'heart' ? '#ff5d6c' : '#ffcf5a', size: rand(2, 4), g: 500 });
       }
     }
@@ -1314,7 +1670,7 @@ function hazards(dt) {
 /* ---------------- Camera ---------------- */
 function updateCamera(dt) {
   const A = G.arena; if (!A) return;
-  if (G.mode === '2p') {
+  if (G.mode !== '1p') {
     G.cam.sc = Math.min(VW / (A.w + 40), VH / (A.h + 40)); G.cam.x = A.w / 2; G.cam.y = A.h / 2;
   } else {
     const p = G.player; const sc = Math.min(VH / 800, VW / 1050); G.cam.sc = sc;
@@ -1331,6 +1687,7 @@ function W2S(x, y) { return { x: (x - G.cam.x) * G.cam.sc + VW / 2, y: (y - G.ca
 
 function drawBackground() {
   const th = G.theme, name = G.themeName, sc = G.cam.sc, A = G.arena;
+  if (name === 'train') { ctx.fillStyle = th.sky[0]; ctx.fillRect(0, 0, VW, VH); return; }
   const gr = ctx.createLinearGradient(0, 0, 0, VH); gr.addColorStop(0, th.sky[0]); gr.addColorStop(1, th.sky[1]);
   ctx.fillStyle = gr; ctx.fillRect(0, 0, VW, VH);
   const floorS = W2S(0, A.h).y; // screen y of the floor
@@ -1519,7 +1876,7 @@ function drawAcid() {
 }
 
 /* ----- Weapons art: drawn along +x from the grip ----- */
-function drawWeaponShape(c, id, s = 1) {
+function drawWeaponShape(c, id, s = 1, lit = false) {
   const W = WEAPONS[id]; if (!W) return; const L = W.len;
   c.save(); c.scale(s, s); c.lineJoin = 'round';
   switch (id) {
@@ -1558,15 +1915,30 @@ function drawWeaponShape(c, id, s = 1) {
       c.strokeStyle = '#7f8f9b'; c.lineWidth = 0.8; c.beginPath(); c.moveTo(B, -2.6); c.quadraticCurveTo(E * 0.58, -4.4, E - 9, -6.3); c.lineTo(E, -6.9); c.stroke();
       break;
     }
-    case 'knife':
-      c.fillStyle = '#26262e'; c.fillRect(-9, -2.6, 12, 5.2); c.fillStyle = '#9aa4ad'; c.fillRect(3, -4.5, 3, 9);
-      c.fillStyle = '#eef3f6'; c.beginPath(); c.moveTo(6, -3.2); c.lineTo(L - 6, -3.2); c.lineTo(L, 0.5); c.lineTo(L - 4, 3.2); c.lineTo(6, 3.2); c.fill();
+    case 'axe': {
+      // wooden haft with a leather grip, iron head with a back poll, wide flared bit with a bright curved edge
+      const hx = L - 10;                                   // centre of the head along the haft
+      c.fillStyle = '#9a6a3a'; c.fillRect(-12, -2.8, L + 2, 5.6);
+      c.fillStyle = '#7a5029'; c.fillRect(-12, 0.6, L + 2, 1.2);  // wood grain
+      c.fillStyle = '#3b2a1c'; c.fillRect(-12, -3.2, 15, 6.4);     // leather grip
+      c.fillStyle = '#5a4130'; for (let x = -10; x < 3; x += 4) c.fillRect(x, -3.2, 1.4, 6.4);
+      // blade (bit), flaring away from the haft
+      c.fillStyle = '#b7c1cb';
+      c.beginPath(); c.moveTo(hx - 6, 4); c.lineTo(hx - 9, 12);
+      c.quadraticCurveTo(hx - 17, 18, hx - 17, 27);              // back horn
+      c.quadraticCurveTo(hx + 1, 33, hx + 17, 25);                // curved cutting edge
+      c.quadraticCurveTo(hx + 13, 16, hx + 7, 11);                // front horn back to the head
+      c.lineTo(hx + 6, 4); c.closePath(); c.fill();
+      c.strokeStyle = '#8b96a1'; c.lineWidth = 1.2; c.stroke();
+      // bright bevel along the edge
+      c.strokeStyle = '#f2f6f9'; c.lineWidth = 3.2; c.lineCap = 'round';
+      c.beginPath(); c.moveTo(hx - 15, 25.5); c.quadraticCurveTo(hx + 1, 30.5, hx + 15, 23.5); c.stroke();
+      // iron head (eye) wrapping the haft, and the short poll on the back
+      c.fillStyle = '#6d7782'; c.fillRect(hx - 7, -6.5, 14, 13);
+      c.fillStyle = '#58616b'; c.fillRect(hx - 5, -11, 10, 5);
+      c.fillStyle = 'rgba(255,255,255,0.25)'; c.fillRect(hx - 6, -5.5, 3, 11);
       break;
-    case 'axe':
-      c.fillStyle = '#b8352c'; c.fillRect(-12, -2.6, L - 4, 5.2); c.fillStyle = '#7e221b'; c.fillRect(-12, -2.6, 6, 5.2);
-      c.fillStyle = '#e8edf0'; c.beginPath(); c.moveTo(L - 22, -3); c.lineTo(L - 4, -3); c.quadraticCurveTo(L + 6, 8, L - 2, 22); c.quadraticCurveTo(L - 12, 14, L - 18, 3); c.closePath(); c.fill();
-      c.fillStyle = '#9fa9b1'; c.fillRect(L - 24, -5, 8, 10);
-      break;
+    }
     case 'hammer':
       c.fillStyle = '#8a5a2b'; c.fillRect(-12, -2.8, L - 8, 5.6);
       c.fillStyle = '#6c7682'; c.fillRect(L - 20, -16, 22, 32); c.fillStyle = '#98a3ae'; c.fillRect(L - 20, -16, 22, 7); c.fillStyle = '#4c545e'; c.fillRect(L - 2, -16, 3, 32);
@@ -1577,11 +1949,27 @@ function drawWeaponShape(c, id, s = 1) {
       c.fillStyle = '#e4eaee'; c.beginPath(); c.moveTo(L - 26, -6); c.lineTo(L, 0); c.lineTo(L - 26, 6); c.closePath(); c.fill();
       c.fillStyle = '#b4c2cb'; c.fillRect(L - 26, -0.8, 20, 1.6);
       break;
-    case 'candy':
-      c.lineCap = 'round'; c.lineWidth = 7.5; c.strokeStyle = '#ffffff';
-      c.beginPath(); c.moveTo(-10, 0); c.lineTo(L - 14, 0); c.arc(L - 14, 9, 9, -Math.PI / 2, Math.PI / 2 * 0.25, false); c.stroke();
-      c.strokeStyle = '#e8232f'; c.setLineDash([5, 5]); c.stroke(); c.setLineDash([]);
+    case 'candy': {
+      // Christmas candy cane: thick white cane with slanted red bands + thin green pinstripes
+      const R0 = 9, hx = L - 15, W2 = 4.6, pts = [];
+      for (let x = -12; x < hx; x += 3) pts.push([x, 0]);
+      for (let a = -Math.PI / 2; a <= Math.PI * 0.8; a += 0.15) pts.push([hx + Math.cos(a) * R0, R0 + Math.sin(a) * R0]);
+      const path = () => { c.beginPath(); c.moveTo(pts[0][0], pts[0][1]); for (const q of pts) c.lineTo(q[0], q[1]); };
+      c.lineCap = 'round'; c.lineJoin = 'round';
+      path(); c.strokeStyle = '#fffaf2'; c.lineWidth = W2 * 2; c.stroke();
+      // clip to the cane body (offset outline) and paint parallel diagonal stripes across it
+      const lf = [], rt = [];
+      for (let i = 0; i < pts.length; i++) {
+        const p0 = pts[Math.max(0, i - 1)], p1 = pts[Math.min(pts.length - 1, i + 1)];
+        const dx = p1[0] - p0[0], dy = p1[1] - p0[1], d = Math.hypot(dx, dy) || 1, nx = -dy / d, ny = dx / d;
+        lf.push([pts[i][0] + nx * W2, pts[i][1] + ny * W2]); rt.push([pts[i][0] - nx * W2, pts[i][1] - ny * W2]);
+      }
+      c.save(); c.beginPath(); c.moveTo(lf[0][0], lf[0][1]); for (const q of lf) c.lineTo(q[0], q[1]); for (let i = rt.length - 1; i >= 0; i--) c.lineTo(rt[i][0], rt[i][1]); c.closePath(); c.clip();
+      const band = (x0, w, col) => { c.fillStyle = col; c.beginPath(); c.moveTo(x0, -30); c.lineTo(x0 + w, -30); c.lineTo(x0 + w + 33, 30); c.lineTo(x0 + 33, 30); c.closePath(); c.fill(); };
+      for (let k = -60; k < L + 20; k += 15) { band(k, 6, '#e3202c'); band(k + 9.5, 2, '#1f9d48'); }
+      c.restore();
       break;
+    }
     case 'guitar':
       c.fillStyle = '#3a2618'; c.fillRect(-16, -4, 8, 8);
       c.fillStyle = '#6b4325'; c.fillRect(-10, -2.4, L - 34, 4.8);
@@ -1590,6 +1978,44 @@ function drawWeaponShape(c, id, s = 1) {
       c.fillStyle = '#fff1e0'; c.beginPath(); c.ellipse(L - 14, 6, 7, 4, 0.4, 0, TAU); c.fill();
       c.fillStyle = '#1f1410'; c.beginPath(); c.arc(L - 22, 0, 4.5, 0, TAU); c.fill(); c.fillRect(L - 8, -5, 3, 10);
       c.strokeStyle = 'rgba(255,255,255,0.7)'; c.lineWidth = 0.6; for (const yy of [-1.2, 0, 1.2]) { c.beginPath(); c.moveTo(-10, yy); c.lineTo(L - 7, yy); c.stroke(); }
+      break;
+    case 'arceus': {
+      // divine sword: gold winged guard, rainbow gem, white-gold blade with a rainbow edge and a soft glow
+      c.save(); c.shadowColor = '#fff1a8'; c.shadowBlur = 14;
+      const bl = c.createLinearGradient(8, 0, L, 0); bl.addColorStop(0, '#fffdf2'); bl.addColorStop(1, '#ffe9a8');
+      c.fillStyle = bl; c.beginPath(); c.moveTo(8, -5); c.lineTo(L - 12, -4); c.lineTo(L + 2, 0); c.lineTo(L - 12, 4); c.lineTo(8, 5); c.closePath(); c.fill();
+      c.shadowBlur = 0;
+      const rb = c.createLinearGradient(8, 0, L, 0); ['#ff4b4b', '#ff9d2e', '#ffe23b', '#4be06a', '#3fb6ff', '#9a6bff'].forEach((cl, i) => rb.addColorStop(i / 5, cl));
+      c.strokeStyle = rb; c.lineWidth = 1.5; c.stroke();
+      c.fillStyle = '#e6b93a'; c.fillRect(10, -0.8, L - 26, 1.6);
+      c.restore();
+      c.fillStyle = '#f6f0ff'; c.fillRect(-12, -2.7, 13, 5.4);
+      c.fillStyle = '#d9a63a'; for (let x = -10; x < 1; x += 4) c.fillRect(x, -2.9, 1.3, 5.8);
+      c.fillStyle = '#ffd34d'; c.strokeStyle = '#b8860b'; c.lineWidth = 0.9;
+      for (const d of [-1, 1]) { c.beginPath(); c.moveTo(2, d * 2); c.quadraticCurveTo(-3, d * 12, 9, d * 15); c.quadraticCurveTo(5, d * 8, 10, d * 3); c.closePath(); c.fill(); c.stroke(); }
+      c.beginPath(); c.arc(-14, 0, 3.4, 0, TAU); c.fill(); c.stroke();
+      const gm = c.createLinearGradient(2, -3, 8, 3); gm.addColorStop(0, '#ff6fd8'); gm.addColorStop(0.5, '#6fe3ff'); gm.addColorStop(1, '#b8ff6f');
+      c.fillStyle = gm; c.beginPath(); c.arc(5.5, 0, 3.2, 0, TAU); c.fill();
+      c.fillStyle = '#ffffff'; for (const [sx, sy, sr] of [[L - 18, -9, 1.6], [L - 34, 8, 1.2], [L + 4, -6, 1.3]]) { c.beginPath(); c.moveTo(sx, sy - sr * 2); c.lineTo(sx + sr * 0.5, sy); c.lineTo(sx, sy + sr * 2); c.lineTo(sx - sr * 0.5, sy); c.closePath(); c.fill(); c.beginPath(); c.moveTo(sx - sr * 2, sy); c.lineTo(sx, sy + sr * 0.5); c.lineTo(sx + sr * 2, sy); c.lineTo(sx, sy - sr * 0.5); c.closePath(); c.fill(); }
+      break;
+    }
+    case 'bomb':
+      drawBomb(c, 16, 0, 13, 0, lit, false);
+      break;
+    case 'staff':
+      c.fillStyle = '#6b4a2b'; c.fillRect(-14, -2.6, L - 12, 5.2);
+      c.fillStyle = '#4a321c'; for (let i = -8; i < L - 30; i += 14) c.fillRect(i, -2.9, 3, 5.8);
+      c.fillStyle = '#b9c6d2'; for (const d of [-1, 1]) { c.beginPath(); c.moveTo(L - 28, d * 2.5); c.lineTo(L - 15, d * 10); c.lineTo(L - 19, d * 2.5); c.closePath(); c.fill(); }
+      c.shadowColor = '#7fe6ff'; c.shadowBlur = 12; c.fillStyle = '#9fefff';
+      c.beginPath(); c.moveTo(L - 22, 0); c.lineTo(L - 10, -8); c.lineTo(L + 2, 0); c.lineTo(L - 10, 8); c.closePath(); c.fill(); c.shadowBlur = 0;
+      c.fillStyle = '#ffffff'; c.beginPath(); c.moveTo(L - 16, 0); c.lineTo(L - 10, -4); c.lineTo(L - 7, 0); c.closePath(); c.fill();
+      break;
+    case 'whip':
+      c.fillStyle = '#3b2a1c'; c.fillRect(-12, -3, 18, 6); c.fillStyle = '#c79a2c'; c.fillRect(4, -3.5, 3, 7);
+      c.lineCap = 'round'; c.strokeStyle = '#5a3a22'; c.lineWidth = 3.4;
+      c.beginPath(); c.moveTo(7, 0); c.bezierCurveTo(L * 0.35, -11, L * 0.62, 11, L, 2); c.stroke();
+      c.strokeStyle = '#ffe36b'; c.lineWidth = 1.3; c.setLineDash([3, 5]); c.stroke(); c.setLineDash([]);
+      c.shadowColor = '#ffe36b'; c.shadowBlur = 10; c.fillStyle = '#fff6b0'; c.beginPath(); c.arc(L, 2, 3, 0, TAU); c.fill(); c.shadowBlur = 0;
       break;
     case 'pistol':
       c.fillStyle = '#353a42'; c.beginPath(); c.moveTo(-4, -2); c.lineTo(4, -2); c.lineTo(6, 12); c.lineTo(-2, 12); c.closePath(); c.fill();
@@ -1612,7 +2038,9 @@ function drawFighter(f) {
   let alpha = f.alive ? 1 : clamp(1 - (f.deadT - 2.2), 0, 1);
   if (alpha <= 0) return;
   ctx.save(); ctx.globalAlpha = alpha;
+  if (!f.alive && f.erased) { col = '#fff3c4'; alpha = clamp(1 - f.deadT * 1.4, 0, 1); if (alpha <= 0) { ctx.restore(); return; } ctx.globalAlpha = alpha; }
   if (f.flashT > 0 && f.alive) col = mixColor(f.color, '#ffffff', 0.6);
+  if (f.alive && f.frozenT > 0) col = mixColor(f.color, '#cdefff', 0.55);
   if (f.invT > 0 && f.alive && f.superT <= 0 && f.dashT <= 0 && Math.floor(G.time * 20) % 2 === 0) ctx.globalAlpha = alpha * 0.55;
   ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = col; ctx.lineWidth = 6.4 * s;
   const line = (...ids) => { ctx.beginPath(); ctx.moveTo(P[ids[0]].x, P[ids[0]].y); for (let i = 1; i < ids.length; i++) ctx.lineTo(P[ids[i]].x, P[ids[i]].y); ctx.stroke(); };
@@ -1620,7 +2048,7 @@ function drawFighter(f) {
   line(1, 5, 6); line(2, 9, 10); line(1, 2); line(2, 7, 8);
   // weapon
   const wa = f.alive ? f.wa : Math.atan2(P[4].y - P[3].y, P[4].x - P[3].x);
-  if (!f.weaponOut) { ctx.save(); ctx.translate(P[4].x, P[4].y); ctx.rotate(wa); if (Math.cos(wa) < 0) ctx.scale(1, -1); drawWeaponShape(ctx, f.weapon, s); ctx.restore(); }
+  if (!f.weaponOut && !f.dummy) { ctx.save(); ctx.translate(P[4].x, P[4].y); ctx.rotate(wa); if (Math.cos(wa) < 0) ctx.scale(1, -1); drawWeaponShape(ctx, f.weapon, s, f.alive && f.bombHeld); ctx.restore(); }
   ctx.strokeStyle = col; ctx.lineWidth = 6.4 * s; line(1, 3, 4);
   // head
   const hr = 10.6 * s; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(P[0].x, P[0].y, hr, 0, TAU); ctx.fill();
@@ -1647,6 +2075,17 @@ function drawFighter(f) {
     const c = f.center(); ctx.strokeStyle = 'rgba(225,240,250,0.55)'; ctx.lineWidth = 4;
     for (let i = 0; i < 5; i++) { const yy = c.y + 50 * s - i * 26 * s, rx = (26 + i * 13) * s; const a0 = G.time * 18 + i; ctx.beginPath(); ctx.ellipse(c.x, yy, rx, rx * 0.28, 0, a0, a0 + 4); ctx.stroke(); }
   }
+  // ice block
+  if (f.alive && f.frozenT > 0) {
+    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9; for (const q of P) { x0 = Math.min(x0, q.x); y0 = Math.min(y0, q.y); x1 = Math.max(x1, q.x); y1 = Math.max(y1, q.y); }
+    const pad = 13 * s; x0 -= pad; x1 += pad; y0 -= pad + 3 * s; y1 += 6 * s;
+    const blink = f.frozenT < 0.4 && Math.floor(G.time * 14) % 2 === 0;
+    ctx.globalAlpha = alpha * (blink ? 0.55 : 1);
+    roundRect(x0, y0, x1 - x0, y1 - y0, 8 * s); ctx.fillStyle = 'rgba(165,225,255,0.5)'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(235,250,255,0.95)'; ctx.stroke();
+    ctx.strokeStyle = 'rgba(255,255,255,0.85)'; ctx.lineWidth = 4 * s; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(x0 + 8 * s, y0 + 24 * s); ctx.lineTo(x0 + 22 * s, y0 + 9 * s); ctx.moveTo(x0 + 9 * s, y0 + 38 * s); ctx.lineTo(x0 + 15 * s, y0 + 32 * s); ctx.stroke();
+    ctx.globalAlpha = alpha;
+  }
   // shield bubble
   if (f.alive && f.shieldT > 0) {
     const c = f.center(); const blink = f.shieldT < 1.5 && Math.floor(G.time * 10) % 2 === 0;
@@ -1654,7 +2093,7 @@ function drawFighter(f) {
   }
   ctx.restore();
   // HP bar
-  if (f.alive && G.mode !== '2p') {
+  if (f.alive && G.mode === '1p') {
     const w = 40 * Math.max(1, s * 0.9), h = 5, x = P[0].x - w / 2, y = Math.min(P[0].y, f.y - 44 * s) - 26 * s;
     ctx.fillStyle = '#e5352d'; ctx.fillRect(x, y, w, h);
     ctx.fillStyle = '#45e05e'; ctx.fillRect(x, y, w * clamp(f.hp / f.hpMax, 0, 1), h);
@@ -1666,8 +2105,53 @@ function drawTrail(f) {
   for (let i = 1; i < t.length; i++) {
     const a = t[i - 1], b = t[i]; const k = b.life / 0.11;
     const m1 = 0.35, ax0 = lerp(a.hx, a.tx, m1), ay0 = lerp(a.hy, a.ty, m1), bx0 = lerp(b.hx, b.tx, m1), by0 = lerp(b.hy, b.ty, m1);
-    ctx.fillStyle = isEnergy ? f.energy(true, 0.55 * k) : `rgba(255,255,255,${0.5 * k})`;
+    ctx.fillStyle = isEnergy ? f.energy(true, 0.55 * k) : f.weapon === 'arceus' ? `hsla(${(i * 32 + G.time * 500) % 360},100%,72%,${0.6 * k})` : `rgba(255,255,255,${0.5 * k})`;
     ctx.beginPath(); ctx.moveTo(ax0, ay0); ctx.lineTo(a.tx, a.ty); ctx.lineTo(b.tx, b.ty); ctx.lineTo(bx0, by0); ctx.closePath(); ctx.fill();
+  }
+}
+function drawBomb(c, x, y, r, rot, lit, blink) {
+  c.save(); c.translate(x, y); c.rotate(rot);
+  c.fillStyle = '#23222b'; c.beginPath(); c.arc(0, 0, r, 0, TAU); c.fill();
+  c.fillStyle = 'rgba(255,255,255,0.35)'; c.beginPath(); c.arc(-r * 0.35, -r * 0.35, r * 0.28, 0, TAU); c.fill();
+  c.fillStyle = '#5a5866'; c.fillRect(-r * 0.32, -r * 1.12, r * 0.64, r * 0.36);
+  c.strokeStyle = '#c8a36a'; c.lineWidth = Math.max(1.5, r * 0.14); c.lineCap = 'round';
+  c.beginPath(); c.moveTo(0, -r * 1.1); c.quadraticCurveTo(r * 0.4, -r * 1.55, r * 0.15, -r * 1.85); c.stroke();
+  if (lit) {
+    const f = 0.7 + Math.sin(G.time * 40) * 0.3; c.shadowColor = '#ffb347'; c.shadowBlur = 10;
+    c.fillStyle = '#ffe36b'; c.beginPath(); c.arc(r * 0.15, -r * 1.9, r * 0.28 * f + 1.5, 0, TAU); c.fill(); c.shadowBlur = 0;
+  }
+  if (blink && Math.floor(G.time * 6) % 2 === 0) { c.fillStyle = '#ff3b30'; c.shadowColor = '#ff3b30'; c.shadowBlur = 10; c.beginPath(); c.arc(0, 0, r * 0.3, 0, TAU); c.fill(); c.shadowBlur = 0; }
+  c.restore();
+}
+function drawChain(x1, y1, x2, y2) {
+  ctx.save(); ctx.lineCap = 'round';
+  ctx.strokeStyle = '#2e333c'; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+  ctx.strokeStyle = '#c9d2dc'; ctx.lineWidth = 2.5; ctx.setLineDash([6, 4]); ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+  ctx.restore();
+}
+function drawGenesis() {
+  const g = G.genesis, k = g.t / g.max, o = W2S(g.x, g.y), maxR = Math.hypot(VW, VH) * 1.1;
+  const R = maxR * easeOut(clamp(k * 2.2, 0, 1));
+  const a = k < 0.55 ? clamp(k * 2.4, 0, 1) : clamp(1 - (k - 0.55) / 0.45, 0, 1);
+  // rotating rays
+  ctx.save(); ctx.translate(o.x, o.y); ctx.rotate(g.t * 0.6); ctx.globalAlpha = 0.55 * a;
+  for (let i = 0; i < 16; i++) { ctx.rotate(TAU / 16); ctx.fillStyle = i % 2 ? 'rgba(255,240,170,0.8)' : 'rgba(255,255,255,0.8)'; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(maxR, -maxR * 0.06); ctx.lineTo(maxR, maxR * 0.06); ctx.closePath(); ctx.fill(); }
+  ctx.restore();
+  // expanding wash of light
+  const gr = ctx.createRadialGradient(o.x, o.y, 0, o.x, o.y, Math.max(1, R));
+  gr.addColorStop(0, `rgba(255,255,255,${0.95 * a})`); gr.addColorStop(0.6, `rgba(255,246,205,${0.8 * a})`); gr.addColorStop(1, 'rgba(255,230,150,0)');
+  ctx.fillStyle = gr; ctx.fillRect(0, 0, VW, VH);
+  // halo ring around the source
+  ctx.globalAlpha = a; ctx.strokeStyle = 'rgba(255,215,90,0.9)'; ctx.lineWidth = 6; ctx.beginPath(); ctx.arc(o.x, o.y, 60 + 40 * Math.sin(g.t * 6), 0, TAU); ctx.stroke();
+  ctx.globalAlpha = 1;
+}
+function drawSnow() {
+  const a = clamp(G.snowT * 2, 0, 1); ctx.fillStyle = `rgba(185,225,255,${0.24 * a})`; ctx.fillRect(0, 0, VW, VH);
+  const rnd = mulberry(99); ctx.fillStyle = `rgba(255,255,255,${0.9 * a})`;
+  for (let i = 0; i < 110; i++) {
+    const sp = 120 + rnd() * 160, r0 = 1.5 + rnd() * 2.5;
+    const x = ((rnd() * VW + Math.sin(G.time * 2 + i) * 24 + G.time * 60) % VW + VW) % VW, y = (rnd() * VH + G.time * sp) % VH;
+    ctx.beginPath(); ctx.arc(x, y, r0, 0, TAU); ctx.fill();
   }
 }
 function drawFx(fx) {
@@ -1700,9 +2184,32 @@ function drawFx(fx) {
     const pr = 1 + Math.sin(G.time * 14) * 0.12; ctx.globalAlpha = 0.9; ctx.strokeStyle = '#ff5fa8'; ctx.lineWidth = 5; ctx.setLineDash([14, 10]);
     ctx.beginPath(); ctx.arc(fx.x, fx.y, 70 * pr, G.time * 2, G.time * 2 + TAU); ctx.stroke(); ctx.setLineDash([]);
     ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(fx.x - 26, fx.y); ctx.lineTo(fx.x + 26, fx.y); ctx.moveTo(fx.x, fx.y - 26); ctx.lineTo(fx.x, fx.y + 26); ctx.stroke();
+  } else if (fx.k === 'bolt') {
+    // jagged lightning, re-randomised every frame so it flickers
+    const n = Math.max(4, Math.round(Math.hypot(fx.x2 - fx.x1, fx.y2 - fx.y1) / 26));
+    const nx = -(fx.y2 - fx.y1), ny = fx.x2 - fx.x1, l = Math.hypot(nx, ny) || 1;
+    ctx.beginPath();
+    for (let i = 0; i <= n; i++) { const k = i / n, off = (i === 0 || i === n) ? 0 : rand(-20, 20); ctx.lineTo(lerp(fx.x1, fx.x2, k) + nx / l * off, lerp(fx.y1, fx.y2, k) + ny / l * off); }
+    ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.globalAlpha = Math.min(1, t * 2.5);
+    ctx.shadowColor = '#ffe36b'; ctx.shadowBlur = 20; ctx.strokeStyle = 'rgba(255,227,107,0.85)'; ctx.lineWidth = 10; ctx.stroke();
+    ctx.shadowBlur = 0; ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 3.5; ctx.stroke();
+  } else if (fx.k === 'range') {
+    // Thousand Cuts area: dashed ring that follows the katana user
+    const f = fx.f, c = f.alive ? f.center() : { x: f.x, y: f.y }, grow = easeOut(clamp((fx.max - fx.life) / 0.2, 0, 1));
+    ctx.globalAlpha = Math.min(1, t * 4);
+    ctx.fillStyle = 'rgba(200,240,255,0.07)'; ctx.beginPath(); ctx.arc(c.x, c.y, fx.r * grow, 0, TAU); ctx.fill();
+    ctx.setLineDash([22, 14]); ctx.lineDashOffset = -G.time * 60; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(220,245,255,0.85)';
+    ctx.beginPath(); ctx.arc(c.x, c.y, fx.r * grow, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+  } else if (fx.k === 'orbit') {
+    // the 12 bombs circling the player before they are thrown
+    const f = fx.f, c = f.alive ? f.center() : { x: f.x, y: f.y }, k = 1 - t, R = 30 + 40 * easeOut(Math.min(1, k * 2));
+    for (let i = 0; i < 12; i++) { const a = i / 12 * TAU + G.time * 6; drawBomb(ctx, c.x + Math.cos(a) * R, c.y + Math.sin(a) * R, 9, a, true, false); }
+  } else if (fx.k === 'tether') {
+    const h = fx.a.handPos(); const e = fx.b ? fx.b.center() : fx.pt; ctx.globalAlpha = Math.min(1, t * 3); drawChain(h.x, h.y, e.x, e.y);
   } else if (fx.k === 'boom') {
     ctx.globalAlpha = t; const g = ctx.createRadialGradient(fx.x, fx.y, 0, fx.x, fx.y, fx.r * (1.1 - t * 0.4));
-    g.addColorStop(0, 'rgba(255,255,255,0.95)'); g.addColorStop(0.4, 'rgba(255,120,180,0.7)'); g.addColorStop(1, 'rgba(255,80,140,0)');
+    if (fx.pal === 'fire') { g.addColorStop(0, 'rgba(255,255,230,0.95)'); g.addColorStop(0.35, 'rgba(255,180,60,0.85)'); g.addColorStop(1, 'rgba(255,80,20,0)'); }
+    else { g.addColorStop(0, 'rgba(255,255,255,0.95)'); g.addColorStop(0.4, 'rgba(255,120,180,0.7)'); g.addColorStop(1, 'rgba(255,80,140,0)'); }
     ctx.fillStyle = g; ctx.beginPath(); ctx.arc(fx.x, fx.y, fx.r * (1.1 - t * 0.4), 0, TAU); ctx.fill();
   }
   ctx.restore();
@@ -1736,6 +2243,33 @@ function drawProjectiles() {
       ctx.fillStyle = 'rgba(255,255,255,0.8)'; ctx.beginPath(); ctx.arc(-6, -7, 4, 0, TAU); ctx.fill();
       ctx.restore();
       if (Math.random() < 0.6) G.parts.push({ k: 'dot', x: p.x + rand(-10, 10), y: p.y + rand(-10, 10), vx: rand(-60, 60), vy: rand(-60, 60), life: 0.45, max: 0.45, col: pick(['#ff9ac8', '#ffffff', '#ffe36b']), size: rand(3, 5), g: 0 });
+    } else if (p.k === 'icebolt') {
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(Math.atan2(p.vy, p.vx));
+      ctx.shadowColor = '#7fe6ff'; ctx.shadowBlur = 18; ctx.fillStyle = '#bff3ff';
+      ctx.beginPath(); ctx.moveTo(20, 0); ctx.lineTo(0, -9); ctx.lineTo(-26, 0); ctx.lineTo(0, 9); ctx.closePath(); ctx.fill(); ctx.shadowBlur = 0;
+      ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.moveTo(14, 0); ctx.lineTo(2, -4); ctx.lineTo(-8, 0); ctx.closePath(); ctx.fill();
+      ctx.restore();
+      if (Math.random() < 0.7) G.parts.push({ k: 'dot', x: p.x + rand(-6, 6), y: p.y + rand(-6, 6), vx: -p.vx * 0.08 + rand(-40, 40), vy: -p.vy * 0.08 + rand(-40, 40), life: 0.35, max: 0.35, col: pick(['#ffffff', '#bff3ff']), size: rand(2, 4), g: 0 });
+    } else if (p.k === 'hook') {
+      const h = p.owner.handPos(); drawChain(h.x, h.y, p.x, p.y);
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(Math.atan2(p.vy, p.vx));
+      ctx.strokeStyle = '#d5dde6'; ctx.lineWidth = 4; ctx.lineCap = 'round'; ctx.beginPath(); ctx.arc(-2, 6, 9, -Math.PI / 2, Math.PI * 0.9); ctx.stroke();
+      ctx.fillStyle = '#d5dde6'; ctx.beginPath(); ctx.moveTo(-12, 9); ctx.lineTo(-6, 3); ctx.lineTo(-14, 2); ctx.closePath(); ctx.fill();
+      ctx.restore();
+    } else if (p.k === 'tbomb' || p.k === 'sbomb') {
+      drawBomb(ctx, p.x, p.y, p.r, p.rot, true, false);
+    } else if (p.k === 'mine') {
+      drawBomb(ctx, p.x, p.y, p.r, 0, true, true);
+      if (p.owner && p.owner.ctrl >= 0 && !touch.used) { ctx.font = `800 13px ${FONT}`; ctx.textAlign = 'center'; ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(20,16,40,0.7)'; const k = p.owner.ctrl === 1 ? '\u2193' : 'S'; ctx.strokeText(k + '：爆発', p.x, p.y - p.r - 26); ctx.fillStyle = '#ffd36b'; ctx.fillText(k + '：爆発', p.x, p.y - p.r - 26); }
+    } else if (p.k === 'rslash') {
+      // rainbow crescent: six coloured bands with a white core
+      const d = Math.sign(p.vx) || 1, k = clamp(p.life / 0.6, 0, 1), R = 46 + (1 - k) * 14;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.scale(d, 1); ctx.globalAlpha = Math.min(1, k * 2.5);
+      ctx.shadowColor = '#ffffff'; ctx.shadowBlur = 16; ctx.lineCap = 'round';
+      const cols = ['#ff4b4b', '#ff9d2e', '#ffe23b', '#4be06a', '#3fb6ff', '#9a6bff'];
+      cols.forEach((cl, i) => { ctx.strokeStyle = cl; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(-R * 0.6, 0, R - i * 4.2, -1.15, 1.15); ctx.stroke(); });
+      ctx.shadowBlur = 0; ctx.strokeStyle = 'rgba(255,255,255,0.95)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(-R * 0.6, 0, R + 3, -1.0, 1.0); ctx.stroke();
+      ctx.restore();
     } else if (p.k === 'gwave') {
       const k = clamp(p.life / 0.55, 0, 1); ctx.fillStyle = `rgba(214,204,190,${0.5 + k * 0.5})`; ctx.strokeStyle = 'rgba(90,80,70,0.8)'; ctx.lineWidth = 2;
       const d = Math.sign(p.vx);
@@ -1751,23 +2285,24 @@ function drawParticles() {
     if (p.k === 'dot') { ctx.fillStyle = p.col; ctx.globalAlpha = Math.min(1, k * 2); ctx.beginPath(); ctx.arc(p.x, p.y, p.size * (0.5 + k * 0.5), 0, TAU); ctx.fill(); }
     else if (p.k === 'spark') { ctx.strokeStyle = p.col; ctx.globalAlpha = Math.min(1, k * 2); ctx.lineWidth = p.size; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * 0.025, p.y - p.vy * 0.025); ctx.stroke(); }
     else if (p.k === 'puff') { ctx.fillStyle = p.col; ctx.globalAlpha = k; ctx.beginPath(); ctx.arc(p.x, p.y, p.size * (1.6 - k * 0.6), 0, TAU); ctx.fill(); }
-    else if (p.k === 'note') { ctx.globalAlpha = Math.min(1, k * 2); ctx.font = `${Math.round(p.size)}px ${FONT}`; ctx.textAlign = 'center'; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(20,16,40,0.8)'; ctx.strokeText(p.ch, p.x, p.y); ctx.fillStyle = p.col; ctx.fillText(p.ch, p.x, p.y); }
+    else if (p.k === 'note') { ctx.globalAlpha = Math.min(1, k * 2); ctx.font = `800 ${Math.round(p.size)}px ${FONT}`; ctx.textAlign = 'center'; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(20,16,40,0.8)'; ctx.strokeText(p.ch, p.x, p.y); ctx.fillStyle = p.col; ctx.fillText(p.ch, p.x, p.y); }
+    else if (p.k === 'shard') { ctx.globalAlpha = Math.min(1, k * 2); ctx.save(); ctx.translate(p.x, p.y); ctx.rotate((p.rot += 0.15)); ctx.fillStyle = p.col; ctx.beginPath(); ctx.moveTo(0, -p.size); ctx.lineTo(p.size * 0.45, 0); ctx.lineTo(0, p.size); ctx.lineTo(-p.size * 0.45, 0); ctx.closePath(); ctx.fill(); ctx.restore(); }
     else if (p.k === 'candy') { ctx.globalAlpha = Math.min(1, k * 2); ctx.save(); ctx.translate(p.x, p.y); ctx.rotate((p.rot += 0.2)); ctx.fillStyle = p.col; ctx.fillRect(-p.size, -p.size * 0.4, p.size * 2, p.size * 0.8); ctx.fillStyle = '#ffffff'; ctx.fillRect(-p.size * 0.3, -p.size * 0.4, p.size * 0.6, p.size * 0.8); ctx.restore(); }
     else if (p.k === 'ring') { ctx.strokeStyle = p.col; ctx.globalAlpha = k; ctx.lineWidth = 4 * k + 1; ctx.beginPath(); ctx.arc(p.x, p.y, p.size * (1.15 - k * 0.7), 0, TAU); ctx.stroke(); }
   }
   ctx.globalAlpha = 1;
   ctx.textAlign = 'center';
-  for (const t of G.texts) { const k = t.life / t.max; ctx.globalAlpha = Math.min(1, k * 2); ctx.font = `26px ${FONT}`; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(0,0,0,0.45)'; ctx.strokeText(t.txt, t.x, t.y); ctx.fillStyle = t.col; ctx.fillText(t.txt, t.x, t.y); }
+  for (const t of G.texts) { const k = t.life / t.max; ctx.globalAlpha = Math.min(1, k * 2); ctx.font = `800 26px ${FONT}`; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(0,0,0,0.45)'; ctx.strokeText(t.txt, t.x, t.y); ctx.fillStyle = t.col; ctx.fillText(t.txt, t.x, t.y); }
   ctx.globalAlpha = 1;
 }
 
 /* ---------------- HUD ---------------- */
-const FONT = '"Lilita One","Arial Rounded MT Bold",sans-serif';
+const FONT = '"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Lilita One",sans-serif';
 let HUDB = { pause: null, btns: [] };
 function hudLayout() {
   const m = Math.min(VW, VH); const r = clamp(m * 0.062, 25, 40);
   const L = { pause: { x: VW - 26 - 20, y: 26 + 20, r: 22 }, btns: [] };
-  if (G.mode === '1p') {
+  if (G.mode !== '2p') {
     if (touch.used) {
       L.btns.push({ p: 0, k: 'jump', x: VW - r * 1.7, y: VH - r * 1.8, r: r * 1.15 });
       L.btns.push({ p: 0, k: 'skill', x: VW - r * 4.3, y: VH - r * 1.5, r });
@@ -1803,36 +2338,40 @@ function drawHUD() {
   }
   // top info
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-  if (G.mode === '1p') {
+  if (G.mode === 'train') {
+    ctx.font = `800 24px ${FONT}`; outlineText('トレーニング', VW / 2, 30, '#ffffff');
+    const d = G.fighters.find(f => f.dummy);
+    ctx.font = `800 15px ${FONT}`; outlineText(d && d.alive ? 'CPUの体力 ' + Math.ceil(d.hp) + ' / ' + d.hpMax : 'CPUは1秒で復活', VW / 2, 56, 'rgba(255,255,255,0.85)');
+  } else if (G.mode === '1p') {
     const aliveE = G.fighters.filter(f => f.team === 1 && f.alive).length; const left = aliveE + G.toSpawn;
-    ctx.font = `22px ${FONT}`; outlineText('Level ' + G.level, VW / 2, 30, '#ffffff');
+    ctx.font = `800 22px ${FONT}`; outlineText('レベル ' + G.level, VW / 2, 30, '#ffffff');
     // enemy heads
     const n = Math.min(left, 12), sz = 9, gap = 22, x0 = VW / 2 - (n - 1) * gap / 2;
     for (let i = 0; i < n; i++) { const x = x0 + i * gap, y = 58; ctx.fillStyle = ENEMY_RED; ctx.beginPath(); ctx.arc(x, y, sz, 0, TAU); ctx.fill(); ctx.fillStyle = '#16141c'; ctx.fillRect(x - sz, y - 3, sz * 2, 4.5); }
-    if (left > 12) { ctx.font = `16px ${FONT}`; outlineText('+' + (left - 12), x0 + 12 * gap + 4, 58, '#fff'); }
+    if (left > 12) { ctx.font = `800 16px ${FONT}`; outlineText('+' + (left - 12), x0 + 12 * gap + 4, 58, '#fff'); }
     // coins
-    ctx.textAlign = 'left'; ctx.font = `22px ${FONT}`;
+    ctx.textAlign = 'left'; ctx.font = `800 22px ${FONT}`;
     const cx = 24 + Math.max(0, 0); coinIcon(cx + 2, 30, 11); outlineText(String(save.coins + G.coinsRun), cx + 20, 31, '#ffe07a', 'left');
   } else {
     const cx = VW / 2, y = 34;
     ctx.fillStyle = 'rgba(0,0,0,0.25)'; roundRect(cx - 78, y - 22, 156, 44, 22); ctx.fill();
     ctx.fillStyle = '#22aaf2'; ctx.beginPath(); ctx.arc(cx - 52, y, 16, 0, TAU); ctx.fill();
     ctx.fillStyle = P2_RED; ctx.beginPath(); ctx.arc(cx + 52, y, 16, 0, TAU); ctx.fill();
-    ctx.font = `28px ${FONT}`; outlineText(String(G.scores[0]), cx - 22, y + 1, '#fff'); outlineText(String(G.scores[1]), cx + 22, y + 1, '#fff'); outlineText(':', cx, y, '#fff');
-    ctx.font = `13px ${FONT}`; outlineText('FIRST TO 3', cx, y + 34, 'rgba(255,255,255,0.85)');
+    ctx.font = `800 28px ${FONT}`; outlineText(String(G.scores[0]), cx - 22, y + 1, '#fff'); outlineText(String(G.scores[1]), cx + 22, y + 1, '#fff'); outlineText(':', cx, y, '#fff');
+    ctx.font = `800 13px ${FONT}`; outlineText('3本先取', cx, y + 34, 'rgba(255,255,255,0.85)');
   }
   // hints
   if (G.hintT > 0 && !touch.used) {
     ctx.globalAlpha = clamp(G.hintT, 0, 1);
-    if (G.mode === '1p') drawKeyHint(VW * 0.39, VH - 70, ['W', 'A', 'S', 'D'], ['Hold W - Jump', 'Space - Super', 'E - Skill']);
-    else { drawKeyHint(VW * 0.14, VH - 70, ['W', 'A', 'S', 'D'], ['Hold W - Jump', 'Space - Super', 'E - Skill']); drawKeyHint(VW * 0.7, VH - 70, ['↑', '←', '↓', '→'], ['Hold ↑ - Jump', 'Enter - Super', 'Shift - Skill']); }
+    if (G.mode !== '2p') drawKeyHint(VW * 0.39, VH - 70, ['W', 'A', 'S', 'D'], ['W長押し：ジャンプ', 'スペース：スーパー', 'E：スキル']);
+    else { drawKeyHint(VW * 0.14, VH - 70, ['W', 'A', 'S', 'D'], ['W長押し：ジャンプ', 'スペース：スーパー', 'E：スキル']); drawKeyHint(VW * 0.7, VH - 70, ['↑', '←', '↓', '→'], ['上キー長押し：ジャンプ', 'エンター：スーパー', 'シフト：スキル']); }
     ctx.globalAlpha = 1;
   }
   // banner
   if (G.banner) {
     const b = G.banner; const k = b.t / b.max; const appear = clamp((1 - k) * 6, 0, 1); const sc = 0.6 + appear * 0.4 + (k < 0.15 ? (0.15 - k) * 2 : 0);
     ctx.save(); ctx.globalAlpha = clamp(k * 5, 0, 1); ctx.translate(VW / 2, VH * 0.36); ctx.scale(sc, sc);
-    ctx.font = `${Math.round(clamp(VW * 0.08, 40, 84))}px ${FONT}`; ctx.textAlign = 'center'; ctx.lineWidth = 10; ctx.strokeStyle = '#18234a'; ctx.strokeText(b.txt, 0, 0); ctx.fillStyle = b.col; ctx.fillText(b.txt, 0, 0);
+    ctx.font = `800 ${Math.round(clamp(VW * 0.08, 40, 84))}px ${FONT}`; const bw = ctx.measureText(b.txt).width; if (bw * sc > VW * 0.88) { const f = VW * 0.88 / (bw * sc); ctx.scale(f, f); } ctx.textAlign = 'center'; ctx.lineWidth = 10; ctx.strokeStyle = '#18234a'; ctx.strokeText(b.txt, 0, 0); ctx.fillStyle = b.col; ctx.fillText(b.txt, 0, 0);
     ctx.restore();
   }
   // touch sticks
@@ -1858,21 +2397,21 @@ function drawAbilityButton(b, f) {
     const oy = y - r * 0.18; const g = ctx.createRadialGradient(x - 3, oy - 3, 1, x, oy, r * 0.32); g.addColorStop(0, '#ffffff'); g.addColorStop(0.5, '#6ee6ff'); g.addColorStop(1, '#2182d8');
     ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, oy, r * 0.3, 0, TAU); ctx.fill();
     ctx.strokeStyle = 'rgba(160,240,255,0.9)'; ctx.lineWidth = 2; for (let i = 0; i < 4; i++) { const a = G.time * 2 + i * Math.PI / 2; ctx.beginPath(); ctx.arc(x, oy, r * 0.42, a, a + 0.6); ctx.stroke(); }
-    ctx.globalAlpha = 1; label = 'Super'; key = f.ctrl === 1 ? '↵' : '␣';
+    ctx.globalAlpha = 1; label = 'スーパー'; key = f.ctrl === 1 ? '↵' : '␣';
   } else if (b.k === 'skill') {
     const cd = clamp(f.skillCD / f.skillMax(), 0, 1); const ready = cd <= 0;
     ctx.lineWidth = 4; ctx.strokeStyle = ready ? '#e4ef3c' : 'rgba(255,255,255,0.25)'; ctx.beginPath(); ctx.arc(x, y, r - 2, 0, TAU); ctx.stroke();
     if (!ready) { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.moveTo(x, y); ctx.arc(x, y, r - 4, -Math.PI / 2, -Math.PI / 2 + TAU * cd); ctx.closePath(); ctx.fill(); }
     ctx.globalAlpha = ready ? 1 : 0.5;
     skillIcon(f.W.skill, x, y - r * 0.15, r * 0.42);
-    ctx.globalAlpha = 1; label = 'Skill'; key = f.ctrl === 1 ? 'Shift' : 'E';
+    ctx.globalAlpha = 1; label = f.bombHeld ? 'なげる' : 'スキル'; key = f.ctrl === 1 ? 'シフト' : 'E';
   } else {
     ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(255,255,255,0.5)'; ctx.beginPath(); ctx.arc(x, y, r - 2, 0, TAU); ctx.stroke();
     ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.moveTo(x, y - r * 0.45); ctx.lineTo(x + r * 0.38, y + r * 0.05); ctx.lineTo(x + r * 0.14, y + r * 0.05); ctx.lineTo(x + r * 0.14, y + r * 0.4); ctx.lineTo(x - r * 0.14, y + r * 0.4); ctx.lineTo(x - r * 0.14, y + r * 0.05); ctx.lineTo(x - r * 0.38, y + r * 0.05); ctx.closePath(); ctx.fill();
   }
-  if (label) { ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = `${Math.round(r * 0.32)}px ${FONT}`; outlineText(label, x, y + r * 0.5, '#fff'); }
+  if (label) { ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.font = `800 ${Math.round(r * 0.32)}px ${FONT}`; outlineText(label, x, y + r * 0.5, '#fff'); }
   if (key && !touch.used) {
-    ctx.font = `${key.length > 1 ? 9 : 12}px ${FONT}`; const kw = Math.max(16, ctx.measureText(key).width + 8);
+    ctx.font = `800 ${key.length > 1 ? 9 : 12}px ${FONT}`; const kw = Math.max(16, ctx.measureText(key).width + 8);
     const kx = x + r * 0.62, ky = y - r * 0.85;
     ctx.fillStyle = '#9aa3b5'; roundRect(kx - kw / 2, ky - 8, kw, 16, 3); ctx.fill(); ctx.fillStyle = '#3c4458'; ctx.textAlign = 'center'; ctx.fillText(key, kx, ky + 1);
   }
@@ -1890,8 +2429,6 @@ function skillIcon(kind, x, y, s) {
     ctx.strokeStyle = cyan; ctx.lineWidth = 2; ctx.lineCap = 'round'; for (let i = 0; i < 3; i++) { ctx.beginPath(); ctx.moveTo(-s * 1.1, -s * 0.5 + i * s * 0.5); ctx.lineTo(-s * 0.4, -s * 0.5 + i * s * 0.5); ctx.stroke(); }
     ctx.strokeStyle = '#fff'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(-s * 0.3, s * 0.35); ctx.quadraticCurveTo(s * 0.4, s * 0.1, s * 1.1, -s * 0.45); ctx.stroke();
     ctx.fillStyle = '#c79a2c'; ctx.beginPath(); ctx.ellipse(-s * 0.35, s * 0.38, 2.2, 5, 0.5, 0, TAU); ctx.fill();
-  } else if (kind === 'fan') {
-    for (const a of [-0.45, 0, 0.45]) { ctx.save(); ctx.rotate(a - 0.4); ctx.translate(s * 0.2, 0); blade(s * 1.3, 2.2); ctx.restore(); }
   } else if (kind === 'boomerang') {
     ctx.strokeStyle = cyan; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(0, 0, s * 0.95, -2.6, 1.6); ctx.stroke();
     ctx.fillStyle = cyan; ctx.beginPath(); ctx.moveTo(-s * 0.45, s * 0.95); ctx.lineTo(0, s * 0.7); ctx.lineTo(-s * 0.05, s * 1.2); ctx.fill();
@@ -1904,8 +2441,20 @@ function skillIcon(kind, x, y, s) {
   } else if (kind === 'slam') {
     ctx.fillStyle = '#8a5a2b'; ctx.save(); ctx.rotate(0.6); ctx.fillRect(-2, -s * 0.9, 4, s * 1.1); ctx.fillStyle = '#98a3ae'; ctx.fillRect(-s * 0.45, -s * 1.1, s * 0.9, s * 0.5); ctx.restore();
     ctx.fillStyle = cyan; for (const d of [-1, 1]) { ctx.beginPath(); ctx.moveTo(d * s * 0.4, s * 0.95); ctx.lineTo(d * s * 0.75, s * 0.35); ctx.lineTo(d * s * 1.05, s * 0.95); ctx.fill(); }
+  } else if (kind === 'rainbow') {
+    ['#ff4b4b', '#ff9d2e', '#ffe23b', '#4be06a', '#3fb6ff', '#9a6bff'].forEach((cl, i) => { ctx.strokeStyle = cl; ctx.lineWidth = 2.4; ctx.beginPath(); ctx.arc(-s * 0.5, 0, s * 1.05 - i * s * 0.12, -1.1, 1.1); ctx.stroke(); });
+  } else if (kind === 'bomb') {
+    drawBomb(ctx, 0, s * 0.25, s * 0.75, 0, true, false);
+  } else if (kind === 'icebolt') {
+    ctx.shadowColor = '#7fe6ff'; ctx.shadowBlur = 8; ctx.fillStyle = '#bff3ff';
+    ctx.beginPath(); ctx.moveTo(0, -s * 1.1); ctx.lineTo(s * 0.5, 0); ctx.lineTo(0, s * 1.1); ctx.lineTo(-s * 0.5, 0); ctx.closePath(); ctx.fill(); ctx.shadowBlur = 0;
+    ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(-s, 0); ctx.lineTo(s, 0); ctx.moveTo(-s * 0.7, -s * 0.7); ctx.lineTo(s * 0.7, s * 0.7); ctx.moveTo(s * 0.7, -s * 0.7); ctx.lineTo(-s * 0.7, s * 0.7); ctx.stroke();
+  } else if (kind === 'hook') {
+    ctx.strokeStyle = '#c9d2dc'; ctx.lineWidth = 2.5; ctx.setLineDash([4, 3]); ctx.beginPath(); ctx.moveTo(-s * 1.1, s * 0.9); ctx.lineTo(s * 0.2, -s * 0.3); ctx.stroke(); ctx.setLineDash([]);
+    ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 3.5; ctx.lineCap = 'round'; ctx.beginPath(); ctx.arc(s * 0.45, -s * 0.15, s * 0.5, -Math.PI * 0.9, Math.PI * 0.7); ctx.stroke();
+    ctx.fillStyle = cyan; ctx.beginPath(); ctx.moveTo(s * 0.05, s * 0.25); ctx.lineTo(-s * 0.15, -s * 0.15); ctx.lineTo(s * 0.3, s * 0.1); ctx.fill();
   } else if (kind === 'sound') {
-    ctx.fillStyle = '#ffe36b'; ctx.font = `${Math.round(s * 1.7)}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText('♫', -s * 0.25, 0);
+    ctx.fillStyle = '#ffe36b'; ctx.font = `800 ${Math.round(s * 1.7)}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText('♫', -s * 0.25, 0);
     ctx.strokeStyle = cyan; ctx.lineWidth = 2.5; for (let i = 1; i <= 2; i++) { ctx.beginPath(); ctx.arc(-s * 0.2, 0, s * (0.55 + i * 0.32), -0.7, 0.7); ctx.stroke(); }
   } else {
     ctx.fillStyle = '#ffe36b'; for (let i = -1; i <= 1; i++) { ctx.save(); ctx.rotate(i * 0.35); ctx.beginPath(); ctx.ellipse(s * 0.2, 0, s * 0.7, s * 0.16, 0, 0, TAU); ctx.fill(); ctx.restore(); }
@@ -1914,9 +2463,9 @@ function skillIcon(kind, x, y, s) {
 }
 function drawKeyHint(x, y, k, lines) {
   const s = clamp(Math.min(VW, VH) / 520, 0.7, 1.15); ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
-  const cap = (cx, cy, t) => { ctx.fillStyle = '#ffffff'; roundRect(cx - 12, cy - 12, 24, 24, 3); ctx.fill(); ctx.fillStyle = '#c4cad6'; ctx.fillRect(cx - 12, cy + 9, 24, 3); ctx.fillStyle = '#2b3245'; ctx.font = `15px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(t, cx, cy); };
+  const cap = (cx, cy, t) => { ctx.fillStyle = '#ffffff'; roundRect(cx - 12, cy - 12, 24, 24, 3); ctx.fill(); ctx.fillStyle = '#c4cad6'; ctx.fillRect(cx - 12, cy + 9, 24, 3); ctx.fillStyle = '#2b3245'; ctx.font = `800 15px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(t, cx, cy); };
   cap(0, -14, k[0]); cap(-28, 14, k[1]); cap(0, 14, k[2]); cap(28, 14, k[3]);
-  ctx.textAlign = 'left'; ctx.font = `15px ${FONT}`;
+  ctx.textAlign = 'left'; ctx.font = `800 15px ${FONT}`;
   lines.forEach((l, i) => outlineText(l, 52, -18 + i * 18, '#ffffff', 'left'));
   ctx.restore();
 }
@@ -1940,8 +2489,11 @@ function render() {
   guarded(drawAcid);
   guarded(drawParticles);
   ctx.restore();
+  if (G.genesis) guarded(drawGenesis);
+  if (G.snowT > 0) guarded(drawSnow);
+  if (G.flashT > 0) { ctx.fillStyle = `rgba(255,255,235,${clamp(G.flashT * 5, 0, 0.45)})`; ctx.fillRect(0, 0, VW, VH); }
   drawHUD();
-  if (G.mode === '2p') drawVsBars();
+  if (G.mode === '2p' || G.mode === 'train') drawVsBars();
 }
 /* 2P health bars: drawn in screen space above the HUD so buttons never cover them */
 function drawVsBars() {
@@ -1955,8 +2507,8 @@ function drawVsBars() {
     ctx.fillStyle = '#e5352d'; ctx.fillRect(x, y, w, h);
     ctx.fillStyle = k > 0.3 ? '#45e05e' : '#ffd23f'; ctx.fillRect(x, y, w * k, h);
     ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.fillRect(x, y, w * k, 3 * u);
-    ctx.font = `${Math.round(19 * u)}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
-    const tag = f.team === 0 ? 'P1' : 'P2';
+    ctx.font = `800 ${Math.round(19 * u)}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
+    const tag = f.dummy ? 'CPU' : f.team === 0 ? '1P' : '2P';
     ctx.lineWidth = 5; ctx.lineJoin = 'round'; ctx.strokeStyle = '#141a2e'; ctx.strokeText(tag, x + w / 2, y - 7);
     ctx.fillStyle = f.team === 0 ? '#7fd3ff' : '#ff9a90'; ctx.fillText(tag, x + w / 2, y - 7);
   }
@@ -1969,7 +2521,7 @@ function reportErr(e) {
   const m = String((e && (e.message || e)) || 'unknown');
   if (m === lastErr) return; lastErr = m; console.warn('[Stickman Battle]', e);
   const where = e && e.stack ? ' @ ' + (String(e.stack).split('\n')[1] || '').trim() : '';
-  document.querySelectorAll('.errInfo').forEach(el => { el.textContent = 'Last error: ' + m + where; el.hidden = false; });
+  document.querySelectorAll('.errInfo').forEach(el => { el.textContent = '最後のエラー：' + m + where; el.hidden = false; });
 }
 function safe(fn) { try { fn(); } catch (e) { reportErr(e); } }
 function guarded(fn) { ctx.save(); try { fn(); } catch (e) { reportErr(e); } ctx.restore(); }
@@ -2057,23 +2609,23 @@ const screens = ['menu', 'shop', 'sel', 'pause', 'result', 'settings'];
 function show(id, on = true) { $(id).hidden = !on; }
 function setState(s) {
   G.state = s;
-  show('menu', s === 'menu'); show('shop', s === 'shop'); show('sel', s === 'select'); show('pause', s === 'paused'); show('result', s === 'result');
+  show('menu', s === 'menu'); show('shop', s === 'shop'); show('sel', s === 'select'); show('tsel', s === 'tselect'); show('psel', s === 'pselect'); show('guide', s === 'guide'); show('pause', s === 'paused'); show('result', s === 'result');
   if (s === 'play') { cv.focus({ preventScroll: true }); lastT = performance.now(); acc = 0; }
   if (s === 'menu') { refreshMenu(); }
 }
 function pauseGame() { if (G.state !== 'play') return; setState('paused'); keys.clear(); Audio.play('click'); }
 function resumeGame() { setState('play'); Audio.play('click'); }
 function refreshMenu() {
-  $('coinTxt').textContent = save.coins; $('coinTxt2').textContent = save.coins; $('lvlBadge').textContent = 'Level ' + save.level;
+  $('coinTxt').textContent = save.coins; $('coinTxt2').textContent = save.coins; $('lvlBadge').textContent = 'レベル ' + save.level;
   drawMenuIcons();
 }
 function finishLevel(win) {
   const earned = G.coinsRun + (win ? 25 + G.level * 5 : 0);
   save.coins += earned; G.coinsRun = 0; if (win) save.level = Math.max(save.level, G.level + 1); persist();
-  $('resTitle').textContent = win ? `Level ${G.level} Complete!` : 'Defeated';
-  $('resSub').textContent = win ? `${G.kills} enemies down` : `Level ${G.level} · ${G.kills} of ${G.totalEnemies} enemies down`;
+  $('resTitle').textContent = win ? `レベル ${G.level} クリア！` : 'やられた…';
+  $('resSub').textContent = win ? `${G.kills}体たおした` : `レベル ${G.level} ・ ${G.totalEnemies}体中 ${G.kills}体たおした`;
   $('resCoins').textContent = '+' + earned; $('resReward').hidden = false;
-  $('rNext').textContent = win ? 'Next' : 'Retry';
+  $('rNext').textContent = win ? '次へ' : 'もう一度';
   $('rNext').onclick = () => { Audio.play('click'); startLevel(win ? G.level + 1 : G.level); };
   $('rHome').onclick = () => { Audio.play('click'); G.arena = null; setState('menu'); };
   Audio.play(win ? 'win' : 'lose');
@@ -2081,10 +2633,10 @@ function finishLevel(win) {
 }
 function showMatchResult() {
   const w = G.scores[0] > G.scores[1] ? 0 : 1;
-  $('resTitle').textContent = (w === 0 ? 'Blue' : 'Red') + ' Wins!';
+  $('resTitle').textContent = (w === 0 ? '1P' : '2P') + 'の勝ち！';
   $('resTitle').style.color = w === 0 ? '#7fd3ff' : '#ff9a90';
-  $('resSub').textContent = `Final score ${G.scores[0]} : ${G.scores[1]}`; $('resReward').hidden = true;
-  $('rNext').textContent = 'Rematch';
+  $('resSub').textContent = `最終スコア ${G.scores[0]} : ${G.scores[1]}`; $('resReward').hidden = true;
+  $('rNext').textContent = '再戦';
   $('rNext').onclick = () => { Audio.play('click'); $('resTitle').style.color = ''; start2P(); };
   $('rHome').onclick = () => { Audio.play('click'); $('resTitle').style.color = ''; G.arena = null; setState('menu'); };
   Audio.play('win'); setState('result');
@@ -2102,7 +2654,7 @@ function previewStick(c, w, h, color, weapon, opts = {}) {
   if (pose === 'run') { seg(neck, P(-12, -16), P(-26, -10)); seg(hip, P(-12, 22), P(-28, 34)); seg(neck, hip); seg(hip, P(12, 22), P(16, 46)); }
   else { seg(neck, P(-12, -16), P(-18, -2)); seg(hip, P(-8, 24), P(-16, 46)); seg(neck, hip); seg(hip, P(10, 24), P(14, 46)); }
   const ang = opts.ang ?? -0.9; const hand = P(24, -20);
-  c.save(); c.translate(hand[0], hand[1]); const a = f > 0 ? ang : Math.PI - ang; c.rotate(a); if (Math.cos(a) < 0) c.scale(1, -1); drawWeaponShape(c, weapon, s); c.restore();
+  if (weapon) { c.save(); c.translate(hand[0], hand[1]); const a = f > 0 ? ang : Math.PI - ang; c.rotate(a); if (Math.cos(a) < 0) c.scale(1, -1); drawWeaponShape(c, weapon, s); c.restore(); }
   c.strokeStyle = color; c.lineWidth = 6.4 * s; seg(P(3, -27), P(16, -14), hand);
   c.fillStyle = color; c.beginPath(); c.arc(head[0], head[1], 10.6 * s, 0, TAU); c.fill();
   if (opts.mask) { c.fillStyle = '#16141c'; c.fillRect(head[0] - 11 * s, head[1] - 3.5 * s, 22 * s, 5 * s); }
@@ -2120,14 +2672,93 @@ function drawMenuIcons() {
   const c2 = $('icon2').getContext('2d'); c2.clearRect(0, 0, 240, 220);
   previewStick(c2, 240, 220, '#40b4f4', 'sword', { s: 1.2, x: 70, y: 140, ang: -0.95, pose: 'run' });
   previewStick(c2, 240, 220, '#f6c21f', 'sword', { s: 1.2, x: 172, y: 140, ang: -0.95, f: -1, pose: 'run' });
+  const c3 = $('icon3').getContext('2d'); c3.clearRect(0, 0, 240, 220);
+  previewStick(c3, 240, 220, '#40b4f4', 'sword', { s: 1.2, x: 70, y: 140, ang: -0.6, pose: 'run' });
+  previewStick(c3, 240, 220, '#e8322f', null, { s: 1.2, x: 175, y: 140, f: -1, mask: true });
+  c3.strokeStyle = 'rgba(255,255,255,0.8)'; c3.lineWidth = 3; c3.beginPath(); c3.arc(168, 112, 30, 0, TAU); c3.moveTo(168, 72); c3.lineTo(168, 152); c3.moveTo(128, 112); c3.lineTo(208, 112); c3.stroke();
 }
 drawMenuIcons(); refreshMenu();
 document.fonts && document.fonts.ready.then(() => drawMenuIcons());
 
 /* --- menu wiring --- */
-$('card1').onclick = () => { Audio.init(); Audio.play('click'); startLevel(save.level); };
+/* names like アルセウス・ブレイカー may only wrap after the ・ */
+function setName(el, name) { el.textContent = ''; name.split('・').forEach((part, i, a) => { el.append(part + (i < a.length - 1 ? '・' : '')); if (i < a.length - 1) el.append(document.createElement('wbr')); }); }
+/* weapon list used by every weapon-select screen */
+function weaponGrid(el, o) {
+  el.innerHTML = '';
+  for (const id of WEAPON_ORDER) {
+    const W = WEAPONS[id], lock = o.locked ? o.locked(id) : false;
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'wtile' + (lock ? ' locked' : '');
+    b.setAttribute('aria-pressed', String(id === o.sel)); b.style.setProperty('--sel', o.accent || '#ffcd3c');
+    b.title = `${W.name} ― スキル：${SKILL_INFO[W.skill]} ・ スーパー：${SUPER_NAME[W.sup]}`;
+    const cv = document.createElement('canvas'); cv.width = 200; cv.height = 130; b.appendChild(cv);
+    const nm = document.createElement('span'); setName(nm, W.name); if (W.name.length > 9) nm.className = 'long2'; else if (W.name.length > 6) nm.className = 'long'; b.appendChild(nm);
+    if (lock) { const pr = document.createElement('span'); pr.className = 'price'; pr.innerHTML = `<span class="coin"></span>${W.price}`; b.appendChild(pr); b.setAttribute('aria-label', `${W.name}（未購入・ショップで${W.price}コイン）`); }
+    b.onclick = () => { Audio.init(); if (lock) { Audio.play('block'); return; } o.onPick(id); Audio.play('click'); };
+    el.appendChild(b);
+    // draw the weapon itself, large and centred, tilted like it is being held up
+    drawWeaponIcon(cv.getContext('2d'), id);
+  }
+}
+function moveInList(list, cur, d) { const i = Math.max(0, list.indexOf(cur)); return list[(i + d + list.length) % list.length]; }
+// 1 Player: pick from owned weapons before each level
+function openPsel() { if (!save.owned.includes(save.weapon)) save.weapon = 'sword'; $('pselTitle').textContent = 'レベル ' + save.level; setState('pselect'); renderPsel(); }
+function renderPsel() {
+  const W = WEAPONS[save.weapon]; setName($('pselN'), W.name); $('pselI').textContent = `スキル：${SKILL_INFO[W.skill]} ・ スーパー：${SUPER_NAME[W.sup]}`;
+  weaponGrid($('gridP'), { sel: save.weapon, color: COLORS[save.color].hex, accent: '#ffcd3c', locked: id => !save.owned.includes(id), onPick: id => { save.weapon = id; persist(); renderPsel(); } });
+}
+function cyclePsel(d) { save.weapon = moveInList(WEAPON_ORDER.filter(id => save.owned.includes(id)), save.weapon, d); persist(); renderPsel(); Audio.play('click'); }
+$('pselGo').onclick = () => { Audio.play('click'); startLevel(save.level); };
+$('pselBack').onclick = () => { Audio.play('click'); setState('menu'); };
+$('card1').onclick = () => { Audio.init(); Audio.play('click'); openPsel(); };
 $('card2').onclick = () => { Audio.init(); Audio.play('click'); openSelect(); };
+$('card3').onclick = () => { Audio.init(); Audio.play('click'); setState('tselect'); renderTsel(); };
+$('tselBack').onclick = () => { Audio.play('click'); setState('menu'); };
+$('tselGo').onclick = () => { Audio.play('click'); startTraining(); };
+function cycleTsel(d) { const i = Math.max(0, WEAPON_ORDER.indexOf(save.tw)); save.tw = WEAPON_ORDER[(i + d + WEAPON_ORDER.length) % WEAPON_ORDER.length]; persist(); renderTsel(); Audio.play('click'); }
+function renderTsel() {
+  const W = WEAPONS[save.tw]; setName($('tselN'), W.name); $('tselI').textContent = `スキル：${SKILL_INFO[W.skill]} ・ スーパー：${SUPER_NAME[W.sup]}`;
+  weaponGrid($('gridT'), { sel: save.tw, color: COLORS[save.color].hex, accent: '#ffcd3c', onPick: id => { save.tw = id; persist(); renderTsel(); } });
+}
 $('shopBtn').onclick = () => { Audio.init(); Audio.play('click'); openShop('w'); };
+/* weapon picture used by the weapon lists and the 一覧表 page (canvas 200 x 130) */
+function drawWeaponIcon(c, id) {
+  const L = WEAPONS[id].len, sc = clamp(178 / (L + 34), 1.6, 2.8);
+  c.save(); c.translate(100, 68); c.rotate(-0.35); c.scale(sc, sc); c.translate(-(L - 14) / 2, id === 'candy' ? -6 : 0); drawWeaponShape(c, id, 1); c.restore();
+}
+/* ---------- 一覧表: each weapon's normal attack, skill and super ---------- */
+const GUIDE = {
+  sword:  { atk: '14・標準的な速さとリーチ', skill: '狙った方向へ素早く突進して斬る（約22）。突進中は無敵', sup: '周りに大きな三日月の斬撃を3回（各24）' },
+  katana: { atk: '13・攻撃が速い', skill: '一瞬構え、前方を一閃。通り抜けた敵に少し遅れて斬撃（約31）', sup: '画面が暗くなり、広い範囲の敵全員を連続で斬る（計46）' },
+  axe:    { atk: '21・重いがゆっくり', skill: 'オノを投げると戻ってくる（行きと帰りで各約27）。戻るまで手ぶら', sup: '回転しながら敵へ前進し、近くの敵を吸い込んで連続ヒット（1回7）' },
+  spear:  { atk: '13・リーチが長い突き', skill: '跳び上がって真下に突き刺す（約20）＋着地の衝撃で周りにダメージ（約17）', sup: '敵の頭上と周りに槍が5回降る（1本14）' },
+  pistol: { atk: '9・遠くの敵を自動で撃つ（0.8秒に1発）', skill: '3発を扇状に撃つ（各約12）', sup: '敵めがけて10発連射（各約8）' },
+  hammer: { atk: '26・最も重い一撃、遅い', skill: '振り下ろして前の敵を打ち上げ（約31）、左右に地面の衝撃波（約29）', sup: '大ジャンプから叩きつけ、周りの敵を打ち上げる（中心ほど強く14〜34）' },
+  candy:  { atk: '15・吹っ飛ばしが強い', skill: '約0.75秒回転して何度も斬る（1回約11）', sup: '大きなキャンディを投げ、着弾で大爆発（最大32）' },
+  guitar: { atk: '19・吹っ飛ばしが強い', skill: '周りに音波を出して吹き飛ばす（約21）', sup: '大きな音波を4連発（各9）' },
+  staff:  { atk: '13・標準', skill: '当たった敵を1.5秒凍らせる（12）', sup: '周りの敵をまとめて凍らせ、約1秒後に一斉に砕く（約36）' },
+  whip:   { atk: '12・全武器でいちばん長いリーチ', skill: '敵を手元へ引き寄せる（8）。敵がいないときは上の足場に引っかけて登る', sup: '雷が敵から敵へ最大6人まで連鎖（20／16前後）。3回落ちる' },
+  arceus: { atk: '18・攻撃が速く、虹色の軌跡が出る', skill: '前方へ虹色の斬撃を飛ばす。敵も地形も貫通して進む（24）', sup: 'ステージ全体に光が広がり、神の力で相手を無に帰す（シールドや無敵も関係なく倒す）。発動後、自分のHPが全回復' },
+  bomb:   { atk: '15・持った爆弾で殴る', skill: 'Eで火をつけ、もう一度Eで投げる（26）。S／↓で足元に置き、敵が触るかもう一度S／↓で爆発（32）。自分も6割のダメージ。近くの爆弾は誘爆', sup: '爆弾12個を四方八方に投げる（各22）。自分には当たらない' },
+};
+function renderGuide() {
+  const list = $('guideList'); list.innerHTML = '';
+  const esc = t => String(t).replace(/[&<>]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[ch]);
+  for (const id of WEAPON_ORDER) {
+    const W = WEAPONS[id], g = GUIDE[id] || { atk: '', skill: '', sup: '' };
+    const card = document.createElement('article'); card.className = 'gcard';
+    card.innerHTML = `<div class="ghead"><canvas width="200" height="130"></canvas><div><div class="gname">${esc(W.name).replace('・', '・<wbr>')}</div>`
+      + (W.attr ? `<div class="gattr">${esc(W.attr)}</div>` : '')
+      + `<div class="gprice">${W.price ? `<span class="coin"></span>${W.price}` : '最初から持っている'}</div></div></div>`
+      + `<div class="grow"><span class="gtag atk">通常攻撃</span><div class="gdesc">${esc(g.atk)}</div></div>`
+      + `<div class="grow"><span class="gtag sk">スキル</span><div class="gdesc"><b>${esc(SKILL_INFO[W.skill])}</b><span class="gcd">待ち時間 ${SKILL_CD[W.skill].toFixed(1)}秒</span><br>${esc(g.skill)}</div></div>`
+      + `<div class="grow"><span class="gtag su">スーパー</span><div class="gdesc"><b>${esc(SUPER_NAME[W.sup])}</b><br>${esc(g.sup)}</div></div>`;
+    list.appendChild(card);
+    drawWeaponIcon(card.querySelector('canvas').getContext('2d'), id);
+  }
+}
+$('guideBtn').onclick = () => { Audio.init(); Audio.play('click'); setState('guide'); renderGuide(); $('guide').scrollTop = 0; };
+$('guideBack').onclick = () => { Audio.play('click'); setState('menu'); };
 $('shopBack').onclick = () => { Audio.play('click'); setState('menu'); };
 $('gearBtn').onclick = () => { Audio.init(); Audio.play('click'); syncSettings(); show('settings'); };
 $('setClose').onclick = () => { Audio.play('click'); show('settings', false); };
@@ -2155,14 +2786,14 @@ function renderShop() {
     const eq = shopTab === 'w' ? save.weapon === it.id : save.color === it.id;
     const el = document.createElement('div'); el.className = 'item' + (eq ? ' eq' : '');
     const cvs = document.createElement('canvas'); cvs.width = 200; cvs.height = 170; el.appendChild(cvs);
-    const nm = document.createElement('div'); nm.className = 'nm'; nm.textContent = it.name; el.appendChild(nm);
+    const nm = document.createElement('div'); nm.className = 'nm'; setName(nm, it.name); el.appendChild(nm);
     const st = document.createElement('div'); st.className = 'st';
-    st.textContent = shopTab === 'w' ? `Skill: ${SKILL_INFO[it.skill]} · Super: ${SUPER_NAME[it.sup]}` : '';
+    st.textContent = shopTab === 'w' ? (it.attr ? it.attr + ' ・ ' : '') + `スキル：${SKILL_INFO[it.skill]} ・ スーパー：${SUPER_NAME[it.sup]}` : '';
     el.appendChild(st);
     const b = document.createElement('button');
-    if (eq) { b.className = 'blue'; b.textContent = 'Equipped'; b.disabled = true; }
-    else if (owned) { b.className = 'green'; b.textContent = 'Equip'; }
-    else { b.className = 'orange'; b.innerHTML = `<span class="coin"></span>${it.price}`; if (save.coins < it.price) b.disabled = true; b.setAttribute('aria-label', `Buy ${it.name} for ${it.price} coins`); }
+    if (eq) { b.className = 'blue'; b.textContent = '装備中'; b.disabled = true; }
+    else if (owned) { b.className = 'green'; b.textContent = '装備する'; }
+    else { b.className = 'orange'; b.innerHTML = `<span class="coin"></span>${it.price}`; if (save.coins < it.price) b.disabled = true; b.setAttribute('aria-label', `${it.name}を${it.price}コインで買う`); }
     b.onclick = () => {
       if (!owned) { if (save.coins < it.price) return; save.coins -= it.price; (shopTab === 'w' ? save.owned : save.ownedColors).push(it.id); Audio.play('coin'); }
       else Audio.play('click');
@@ -2184,14 +2815,12 @@ function openSelect() {
 function renderSel() {
   for (const p of [0, 1]) {
     const id = WEAPON_ORDER[selIdx[p]]; save.p2w[p] = id;
-    $('selN' + p).textContent = WEAPONS[id].name; $('selI' + p).textContent = `Skill: ${SKILL_INFO[WEAPONS[id].skill]} · Super: ${SUPER_NAME[WEAPONS[id].sup]}`;
-    const c = $('selC' + p).getContext('2d'); c.clearRect(0, 0, 240, 204);
-    previewStick(c, 240, 204, p === 0 ? '#22aaf2' : P2_RED, id, { s: 1.35, x: p === 0 ? 100 : 140, y: 128, f: p === 0 ? 1 : -1 });
+    setName($('selN' + p), WEAPONS[id].name); $('selI' + p).textContent = `スキル：${SKILL_INFO[WEAPONS[id].skill]} ・ スーパー：${SUPER_NAME[WEAPONS[id].sup]}`;
+    weaponGrid($('grid' + p), { sel: id, color: p === 0 ? '#22aaf2' : P2_RED, accent: p === 0 ? '#7fd3ff' : '#ff8a80', onPick: w => { selIdx[p] = WEAPON_ORDER.indexOf(w); renderSel(); } });
   }
   persist();
 }
 function cycleSel(p, d) { selIdx[p] = (selIdx[p] + d + WEAPON_ORDER.length) % WEAPON_ORDER.length; renderSel(); Audio.play('click'); }
-document.querySelectorAll('.arrow').forEach(b => b.onclick = () => { Audio.init(); cycleSel(+b.dataset.p, +b.dataset.d); });
 function selKey(code) {
   if (code === 'KeyA') cycleSel(0, -1); else if (code === 'KeyD') cycleSel(0, 1);
   else if (code === 'ArrowLeft') cycleSel(1, -1); else if (code === 'ArrowRight') cycleSel(1, 1);
