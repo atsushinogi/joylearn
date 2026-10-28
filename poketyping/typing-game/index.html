@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Typing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Fredoka:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bg-gallery"></div>
+    <div class="app-container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h1 class="game-title">POKEMON TYPING</h1>
+            <p class="subtitle">Can you catch them all?</p>
+            <button id="start-btn" class="btn primary-btn">START GAME</button>
+            <div class="options-container">
+                <label class="toggle-label">
+                    <input type="checkbox" id="show-name-toggle" checked>
+                    <span class="checkbox-custom"></span>
+                    <span class="label-text">なまえをひょうじする</span>
+                </label>
+            </div>
+            <!-- Input Modes Removed -->
+            <button id="reset-progress-btn" class="btn secondary-btn"
+                style="margin-top: 20px; font-size: 1rem; padding: 10px 20px;">リセット</button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="score-box">
+                    <span class="label">SCORE</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="score-box">
+                    <span class="label">CAUGHT</span>
+                    <span id="caught-count">0 / 0</span>
+                </div>
+                <div class="timer-box">
+                    <span class="label">TIME</span>
+                    <span id="timer">60</span>
+                </div>
+            </div>
+
+            <div id="game-area" class="game-area">
+                <!-- Pokemon elements will be spawned here -->
+                <div class="lane" style="top: 20%;"></div>
+                <div class="lane" style="top: 50%;"></div>
+                <div class="lane" style="top: 80%;"></div>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="type-input" placeholder="ここになまえをいれてね" autocomplete="off" autofocus>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <h2>GAME OVER</h2>
+            <div class="final-score-container">
+                <p>FINAL SCORE</p>
+                <span id="final-score">0</span>
+            </div>
+            <button id="restart-btn" class="btn secondary-btn">PLAY AGAIN</button>
+        </div>
+    </div>
+    <button id="imeSink" tabindex="-1" style="position:fixed; left:-9999px; top:-9999px;">.</button>
+    <script src="pokemon-data.js?v=color-256"></script>
+    <script src="romaji.js"></script>
+    <script src="input_converter.js"></script>
+    <script src="script.js?v=final-n"></script>
+</body>
+
+</html>

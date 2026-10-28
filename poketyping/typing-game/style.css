@@ -1,0 +1,361 @@
+:root {
+    --primary-color: #ffcb05;
+    /* Pokemon Yellow */
+    --secondary-color: #3b4cca;
+    /* Pokemon Blue */
+    --accent-color: #ff0000;
+    /* Pokeball Red */
+    --bg-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --text-color: #333;
+    --font-english: 'Fredoka', sans-serif;
+    --font-japanese: 'M PLUS Rounded 1c', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-english);
+    background: var(--bg-gradient);
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+}
+
+/* Background Gallery */
+#bg-gallery {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /* Behind everything */
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(26, 1fr);
+    /* No gap, borders on cells instead */
+    pointer-events: none;
+    /* Iterate interact through it */
+}
+
+.gallery-cell {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery-cell::before {
+    content: attr(data-number);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.2);
+    font-family: monospace;
+    z-index: 0;
+}
+
+#bg-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    /* Cover value */
+}
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.screen.active {
+    display: flex;
+    opacity: 1;
+}
+
+/* Typography */
+.game-title {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-shadow: 4px 4px 0px var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.options-container {
+    margin-top: 30px;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background 0.2s;
+}
+
+.toggle-label:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.toggle-label input {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--primary-color);
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* Buttons */
+.btn {
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: var(--font-english);
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.secondary-btn {
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Game Screen */
+.game-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.score-box,
+.timer-box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.label {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+#score,
+#timer {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.game-area {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /* Move game area up slightly to make room for input */
+    height: calc(100% - 100px);
+}
+
+/* Input Area */
+.input-container {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    z-index: 20;
+}
+
+#type-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px 25px;
+    font-size: 2rem;
+    border-radius: 50px;
+    border: 4px solid var(--primary-color);
+    background: rgba(255, 255, 255, 0.9);
+    font-family: var(--font-japanese);
+    text-align: center;
+    color: var(--text-color);
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#type-input:focus {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px var(--primary-color);
+    border-color: var(--accent-color);
+}
+
+/* Pokemon Card */
+.pokemon-card {
+    position: absolute;
+    top: 50%;
+    /* Will be dynamically set */
+    left: 0;
+    /* Will animate to 100% or calc(100% + width) */
+    transform: translateY(-50%);
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 10px;
+    width: 220px;
+    /* Slight increase */
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.pokemon-card.success {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 30px var(--primary-color);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.pokemon-card.active {
+    border-color: var(--primary-color);
+    transform: translateY(-50%) scale(1.1);
+    z-index: 100;
+    box-shadow: 0 0 20px var(--primary-color);
+}
+
+.pokemon-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.pokemon-name-kana {
+    font-family: var(--font-japanese);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 5px 0;
+    transition: opacity 0.5s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.pokemon-name-kana.hidden {
+    opacity: 0;
+}
+
+.pokemon-name-kana.reveal {
+    opacity: 1;
+    color: #ff5722;
+    /* Warning color to indicate it's almost gone */
+}
+
+.pokemon-name-kana.success-text {
+    opacity: 1 !important;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px var(--secondary-color);
+    transform: scale(1.2);
+}
+
+.pokemon-name-romaji {
+    font-family: var(--font-english);
+    color: #888;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.char-typed {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.char-target {
+    color: var(--accent-color);
+    font-weight: 800;
+}
+
+/* Result Screen */
+#result-screen h2 {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.final-score-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 60px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.final-score-container p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#final-score {
+    font-size: 5rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}

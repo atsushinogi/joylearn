@@ -57,12 +57,8 @@ HTML（`.html`・`.htm`）、JavaScript（`.js`）、CSS（`.css`）を転送し
 
 転送対象はGitの追跡状況や `.gitignore` とは独立して決まります。`dist/` 内の公開用ファイルも転送します。アップロード前に一覧を確認してください。
 
-### FTPSを使う場合
+### 接続方式と1ファイルだけの更新
 
-通常のFTPでは認証情報と転送内容が暗号化されません。サーバーが明示的FTPSに対応している場合は、次のように `--tls` を追加できます。サーバーの対応状況は未確認です。
+この接続先では通常のFTPを使用します。2026年10月28日に確認したところ、明示的FTPSの `AUTH TLS` は `502 Command not implemented` で利用できませんでした。通常のFTPでは認証情報と転送内容が暗号化されません。
 
-```sh
-python3 ftp-sync.py --upload --tls
-```
-
-既存の簡易手順は [FTP-SYNC.md](FTP-SYNC.md) にもあります。
+トップページの `index.html` だけを更新する場合は、[FTP-SYNC.md](FTP-SYNC.md) の個別アップロード手順を使います。`ftp-sync.py --upload` は対象ファイルをすべて転送します。

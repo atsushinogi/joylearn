@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Preview or upload website files. Remote files are never deleted."""
+"""Preview or upload website files, with optional Pokemon PNG cleanup."""
 import argparse
 import ftplib
 import getpass
@@ -34,6 +34,13 @@ def public_files(root):
         source = pending.pop()
         if source.suffix.lower() not in WEB_EXTENSIONS | {".mjs", ".svg", ".json", ".webmanifest"}:
             continue
+        if source.parent in {
+            root / "poketyping/pokemon_svg",
+            root / "poketyping/pokemon_chibi_svg",
+            root / "poketyping/pokemon_svg_69",
+            root / "poketyping/pokemon_svg_color_256",
+        }:
+            continue  # Generated SVGs are self-contained and have no linked assets.
         # Read literal paths in HTML attributes, JS strings and CSS url().
         references = re.findall(r'''["']([^"'\n<>]+)["']|url\(\s*([^\s)"']+)\s*\)''',
                                 source.read_text(encoding="utf-8"))
@@ -58,12 +65,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--upload", action="store_true", help="connect and upload files")
     parser.add_argument("--tls", action="store_true", help="use explicit FTPS if supported")
+    parser.add_argument("--delete-obsolete-pokemon-png", action="store_true",
+                        help="after upload, delete old Pokemon PNGs replaced by local WebP files")
+    parser.add_argument("--delete-obsolete-pokemon-raster", action="store_true",
+                        help="after SVG upload, delete matching old Pokemon PNG and WebP files")
     args = parser.parse_args()
+    if (args.delete_obsolete_pokemon_png or args.delete_obsolete_pokemon_raster) and not args.upload:
+        parser.error("Pokemon image cleanup requires --upload")
     files = public_files(ROOT)
     print(f"Destination: {HOST}/{REMOTE}/")
     for path in files:
         print(f"  {path.relative_to(ROOT).as_posix()} ({path.stat().st_size} bytes)")
-    print(f"{len(files)} files. Remote files will not be deleted.")
+    print(f"{len(files)} files. Remote files will not be deleted by default.")
     if not args.upload:
         print("Preview only. Run with --upload to transfer these files.")
         return
@@ -76,6 +89,18 @@ def main():
             ftp.prot_p()
         ftp.cwd(REMOTE)
         base = ftp.pwd()
+        old_pokemon_rasters = set()
+        if args.delete_obsolete_pokemon_png or args.delete_obsolete_pokemon_raster:
+            try:
+                ftp.cwd("poketyping/pokemon_images")
+            except ftplib.error_perm:
+                pass  # The image directory may not exist on a first upload.
+            else:
+                old_pokemon_rasters = {
+                    Path(name).name for name in ftp.nlst()
+                    if name.lower().endswith((".png", ".webp"))
+                }
+                ftp.cwd(base)
         for path in files:
             relative = path.relative_to(ROOT)
             ftp.cwd(base)
@@ -88,6 +113,25 @@ def main():
             with path.open("rb") as source:
                 ftp.storbinary(f"STOR {relative.name}", source)
             print(f"Uploaded: {relative.as_posix()}")
+            if (args.delete_obsolete_pokemon_png
+                    and path.parent == ROOT / "poketyping/pokemon_images"
+                    and path.suffix == ".webp"):
+                old_name = path.with_suffix(".png").name
+                if old_name in old_pokemon_rasters:
+                    ftp.delete(old_name)
+                    print(f"Deleted obsolete: poketyping/pokemon_images/{old_name}")
+            if (args.delete_obsolete_pokemon_raster
+                    and path.parent == ROOT / "poketyping/pokemon_svg"
+                    and path.suffix == ".svg"):
+                old_names = [f"{path.stem}{suffix}" for suffix in (".png", ".webp")]
+                if any(name in old_pokemon_rasters for name in old_names):
+                    ftp.cwd(base)
+                    ftp.cwd("poketyping/pokemon_images")
+                    for old_name in old_names:
+                        if old_name in old_pokemon_rasters:
+                            ftp.delete(old_name)
+                            print(f"Deleted obsolete: poketyping/pokemon_images/{old_name}")
+                    ftp.cwd(base)
 
 
 if __name__ == "__main__":
