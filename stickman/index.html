@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stickman Battle</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -127,6 +132,8 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){ .switch::after{transition:none} }
 </style>
+</head>
+<body>
 
 <div id="app">
   <canvas id="game" tabindex="0" aria-label="Stickman Battle"></canvas>
@@ -3033,3 +3040,5 @@ $('selBack').onclick = () => { Audio.play('click'); setState('menu'); };
 // test hook
 window.__SB = { G, startLevel, start2P, save, WEAPONS };
 </script>
+</body>
+</html>
