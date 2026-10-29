@@ -1,8 +1,3 @@
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stickman Battle</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,8 +127,6 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){ .switch::after{transition:none} }
 </style>
-</head>
-<body>
 
 <div id="app">
   <canvas id="game" tabindex="0" aria-label="Stickman Battle"></canvas>
@@ -263,6 +256,12 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
           <div class="keys" id="tselI"></div>
           <div class="keys">クリックで選択 ・ <span class="kc">A</span> <span class="kc">D</span> でも変更</div>
         </div>
+        <div class="side" style="max-width:720px">
+          <h3 style="color:#ff8a7a">CPUの武器</h3>
+          <div class="wgrid" id="gridTD" role="group" aria-label="トレーニングのCPUの武器"></div>
+          <div class="selname" id="tselDN">素手</div>
+          <div class="keys">持たせるだけで、CPUは攻撃してきません</div>
+        </div>
       </div>
       <p class="sub" style="margin:0;font-weight:800;color:var(--ink-dim)">CPUは動かず、倒れても1秒で復活します</p>
       <button class="btn green" id="tselGo" style="min-width:220px">スタート</button>
@@ -357,19 +356,21 @@ const WEAPONS = {
   staff:  { name: '氷の杖', type: 'swing', dmg: 13, reach: 70, len: 76, speed: 1.0,  kb: 320, price: 760 },
   whip:   { name: '雷のムチ', type: 'swing', dmg: 12, reach: 96, len: 98, speed: 1.15, kb: 260, price: 880 },
   bomb:   { name: '爆弾',       type: 'swing',  dmg: 15, reach: 50, len: 30, speed: 0.95, kb: 420, price: 950 },
+  scythe: { name: '死神の鎌', type: 'swing', dmg: 17, reach: 82, len: 86, speed: 0.9, kb: 380, price: 2000 },
   arceus: { name: 'アルセウス・ブレイカー', type: 'swing', dmg: 18, reach: 74, len: 80, speed: 1.1, kb: 420, price: 2000, attr: '神属性' },
 };
 /* every weapon gets its own Skill (E / Shift) and Super (Space / Enter) */
 const MOVES = {
   sword: ['dash', 'crescent'], katana: ['iai', 'thousand'], axe: ['boomerang', 'tornado'], spear: ['dive', 'spearrain'],
   pistol: ['burst', 'barrage'], hammer: ['slam', 'quake'], candy: ['spin', 'candybomb'], guitar: ['sound', 'concert'],
-  staff: ['icebolt', 'blizzard'], whip: ['hook', 'thunder'], bomb: ['bomb', 'bomber'], arceus: ['rainbow', 'genesis'],
+  staff: ['icebolt', 'blizzard'], whip: ['hook', 'thunder'], bomb: ['bomb', 'bomber'], arceus: ['rainbow', 'genesis'], scythe: ['venom', 'reaper'],
 };
 for (const id in MOVES) { WEAPONS[id].skill = MOVES[id][0]; WEAPONS[id].sup = MOVES[id][1]; }
-const SKILL_CD = { dash: 3.0, iai: 3.4, boomerang: 3.2, dive: 3.6, burst: 3.4, slam: 4.0, spin: 4.2, sound: 3.8, icebolt: 3.6, hook: 3.0, bomb: 2.6, rainbow: 3.2 };
-const SKILL_RANGE = { dash: 330, iai: 320, boomerang: 520, dive: 240, burst: 480, slam: 150, spin: 120, sound: 210, icebolt: 560, hook: 380, bomb: 520, rainbow: 600 };
-const SUPER_NAME = { crescent: '三日月の嵐', thousand: '千本斬り', spearrain: '槍の雨', tornado: 'オノの竜巻', quake: '大地震', candybomb: 'キャンディ爆弾', concert: 'ライブ', barrage: '連射', blizzard: '吹雪', thunder: '連鎖する雷', bomber: 'ボマー', genesis: 'アルティメット・ジェネシス' };
+const SKILL_CD = { dash: 3.0, iai: 3.4, boomerang: 3.2, dive: 3.6, burst: 3.4, slam: 4.0, spin: 4.2, sound: 3.8, icebolt: 3.6, hook: 3.0, bomb: 2.6, rainbow: 3.2, venom: 4.0 };
+const SKILL_RANGE = { dash: 330, iai: 320, boomerang: 520, dive: 240, burst: 480, slam: 150, spin: 120, sound: 210, icebolt: 560, hook: 380, bomb: 520, rainbow: 600, venom: 450 };
+const SUPER_NAME = { crescent: '三日月の嵐', thousand: '千本斬り', spearrain: '槍の雨', tornado: 'オノの竜巻', quake: '大地震', candybomb: 'キャンディ爆弾', concert: 'ライブ', barrage: '連射', blizzard: '吹雪', thunder: '連鎖する雷', bomber: 'ボマー', genesis: 'アルティメット・ジェネシス', reaper: 'デス・サイズ・フルバースト' };
 const THOUSAND_R = 860; // Thousand Cuts radius
+const VENOM_R = 540; // Crescent Venom radius (smaller than Thousand Cuts)
 const QUAKE_R = 560; // Earthquake radius
 const WEAPON_ORDER = Object.keys(WEAPONS);
 // drop items that no longer exist (the removed Blaster and Knife) from older saves
@@ -377,7 +378,8 @@ save.owned = save.owned.filter(id => WEAPONS[id]); if (!save.owned.includes('swo
 if (!WEAPONS[save.weapon]) save.weapon = 'sword';
 save.p2w = (save.p2w || []).map(id => WEAPONS[id] ? id : 'sword'); while (save.p2w.length < 2) save.p2w.push('sword');
 if (!WEAPONS[save.tw]) save.tw = save.weapon || 'sword';
-const SKILL_INFO = { dash: '突進斬り', iai: '居合斬り', boomerang: 'ブーメラン', dive: '急降下突き', burst: '拡散ショット', slam: '地面たたき', spin: '回転斬り', sound: '音波', icebolt: '氷の矢', hook: 'フック', bomb: '爆弾', rainbow: 'レインボースラッシュ' };
+if (!WEAPONS[save.tdw]) save.tdw = 'none'; // training CPU's weapon ('none' = bare hands)
+const SKILL_INFO = { dash: '突進斬り', iai: '居合斬り', boomerang: 'ブーメラン', dive: '急降下突き', burst: '拡散ショット', slam: '地面たたき', spin: '回転斬り', sound: '音波', icebolt: '氷の矢', hook: 'フック', bomb: '爆弾', rainbow: 'レインボースラッシュ', venom: 'クレセント・ヴェノム' };
 const COLORS = {
   blue:   { name: '青',   hex: '#22aaf2', price: 0 },
   green:  { name: '黄緑',   hex: '#43c84e', price: 120 },
@@ -485,6 +487,7 @@ const Audio = {
       case 'shatter': this.noiseBurst(5000, 1800, 0.28, 0.35, 1.5); [2637, 3136, 3520].forEach((f, i) => this.tone('triangle', f, f * 0.9, 0.12, 0.06, i * 0.03)); break;
       case 'thunder': this.noiseBurst(2500, 90, 0.55, 0.55, 0.5); this.tone('sawtooth', 90, 40, 0.4, 0.12); break;
       case 'fuse': this.noiseBurst(4000, 7000, 0.25, 0.12, 3); this.tone('square', 600, 900, 0.06, 0.04); break;
+      case 'dread': this.tone('sawtooth', 80, 38, 1.4, 0.16); this.tone('sine', 55, 30, 1.6, 0.35); this.noiseBurst(400, 90, 1.2, 0.3, 0.6); break;
       case 'holy': [523, 659, 784, 1047, 1319, 1568].forEach((f, i) => this.tone('sine', f, f, 0.9, 0.07, i * 0.06)); this.noiseBurst(3000, 9000, 0.8, 0.12, 0.8); break;
       case 'hook': this.tone('square', 300, 900, 0.12, 0.06); this.noiseBurst(1500, 3000, 0.1, 0.15, 2); break;
       case 'round': this.tone('triangle', 784, 784, 0.12, 0.15); this.tone('triangle', 1175, 1175, 0.25, 0.15, 0.12); break;
@@ -531,7 +534,7 @@ const pointers = new Map();
 const G = {
   state: 'menu', mode: '1p', fighters: [], projs: [], parts: [], fx: [], texts: [], arena: null, theme: THEMES.grave, themeName: 'grave',
   cam: { x: 0, y: 0, sc: 1 }, time: 0, hitstop: 0, slow: 1, slowT: 0, shake: 0, level: 1, toSpawn: 0, maxAlive: 2, spawnT: 0,
-  scores: [0, 0], round: 1, overT: -1, banner: null, hintT: 0, coinsRun: 0, kills: 0, pendingEnd: null, arenaIdx: 0, bats: [], later: [], respawns: [], dimT: 0, snowT: 0, flashT: 0, genesis: null,
+  scores: [0, 0], round: 1, overT: -1, banner: null, hintT: 0, coinsRun: 0, kills: 0, pendingEnd: null, arenaIdx: 0, bats: [], later: [], respawns: [], dimT: 0, snowT: 0, flashT: 0, genesis: null, reaper: null,
 };
 
 /* ---------------- Ragdoll ---------------- */
@@ -595,7 +598,7 @@ class Fighter {
     this.alive = true; this.deadT = 0; this.stunT = 0; this.invT = 0; this.shieldT = 0; this.flashT = 0; this.hazCD = 0; this.acidT = 0;
     this.atk = { phase: 0, t: 0, from: 0, to: 0, start: 0, aim: 0, hit: new Set(), s: 1 };
     this.atkCD = 0.5; this.skillCD = 1.2; this.superC = 0; this.dashT = 0; this.dashA = 0; this.spinT = 0; this.spinTick = 0; this.superT = 0; this.superQ = []; this.superE = 0;
-    this.iaiT = 0; this.diveT = 0; this.diveAge = 0; this.slamT = 0; this.frozenT = 0; this.zip = null; this.bombHeld = false; this.sup = ''; this.weaponOut = false; this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
+    this.iaiT = 0; this.diveT = 0; this.diveAge = 0; this.slamT = 0; this.frozenT = 0; this.zip = null; this.bombHeld = false; this.poisonT = 0; this.poisonTick = 0; this.poisonDmg = 0; this.powerT = 0; this.sup = ''; this.weaponOut = false; this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
     this.wa = this.facing > 0 ? 1.2 : Math.PI - 1.2; this.ext = 0.88; this.prevTip = null; this.trail = []; this.input = blankInput();
     this.runPhase = 0; this.target = null; this.gunCD = 0.6; this.recoil = 0; this.landT = 0;
     this.hw = 11 * this.s; this.hh = 48 * this.s;
@@ -603,6 +606,8 @@ class Fighter {
     this.T = Array.from({ length: 11 }, () => ({ x: 0, y: 0 }));
     this.rag = new Ragdoll(this); this.pose(0); this.rag.snap(this.T);
   }
+  get dmgMul() { return (this._dm ?? 1) * (this.powerT > 0 ? 2 : 1); }
+  set dmgMul(v) { this._dm = v; }
   get W() { return WEAPONS[this.weapon] || WEAPONS.sword; }
   // the player's skill recharges 15% faster in 1 Player and Training (2 Players and enemies keep the base time)
   skillMax() { const b = SKILL_CD[this.W.skill]; return (G.mode !== '2p' && !this.ai && !this.dummy) ? b * 0.85 : b; }
@@ -615,12 +620,20 @@ class Fighter {
   update(dt) {
     if (!this.alive) {
       this.deadT += dt; this.trail.length = 0;
-      if (this.erased) { for (const p of this.rag.p) { p.px = p.x; p.py = p.y; p.y -= 70 * dt; } if (Math.random() < 0.4) { const p = pick(this.rag.p); G.parts.push({ k: 'dot', x: p.x, y: p.y, vx: rand(-30, 30), vy: rand(-140, -60), life: 0.7, max: 0.7, col: pick(['#fff6d0', '#ffe27a']), size: rand(2, 4), g: 0 }); } }
+      if (this.erased) { for (const p of this.rag.p) { p.px = p.x; p.py = p.y; p.y -= 70 * dt; } if (Math.random() < 0.4) { const p = pick(this.rag.p); G.parts.push({ k: 'dot', x: p.x, y: p.y, vx: rand(-30, 30), vy: rand(-140, -60), life: 0.7, max: 0.7, col: this.erased === 'dark' ? pick(['#2a1f3a', '#6b3fa8']) : pick(['#fff6d0', '#ffe27a']), size: rand(2, 4), g: 0 }); } }
       else this.rag.stepDead(dt, G.arena.solids);
       return;
     }
-    for (const k of ['stunT', 'invT', 'shieldT', 'flashT', 'atkCD', 'skillCD', 'hazCD', 'gunCD', 'coyote', 'landT']) if (this[k] > 0) this[k] -= dt;
+    for (const k of ['powerT', 'stunT', 'invT', 'shieldT', 'flashT', 'atkCD', 'skillCD', 'hazCD', 'gunCD', 'coyote', 'landT']) if (this[k] > 0) this[k] -= dt;
     this.recoil *= Math.exp(-14 * dt);
+    if (this.poisonT > 0) {
+      this.poisonT -= dt; this.poisonTick -= dt;
+      if (this.poisonTick <= 0) {
+        this.poisonTick = 0.5; this.hp -= this.poisonDmg; this.flashT = 0.06;
+        const c = this.center(); for (let i = 0; i < 4; i++) G.parts.push({ k: 'dot', x: c.x + rand(-12, 12), y: c.y + rand(-20, 20), vx: rand(-40, 40), vy: rand(-120, -40), life: 0.5, max: 0.5, col: pick(['#7dff6a', '#b06bff']), size: rand(2, 4), g: 0 });
+        if (this.hp <= 0) { this.poisonT = 0; this.die(this.poisonSrc && this.poisonSrc.alive !== undefined ? this.poisonSrc : null, 0, -200); return; }
+      }
+    }
     if (this.frozenT > 0) {
       // frozen in a block of ice: only falls / slides, no input or attacks
       this.frozenT -= dt; this.vx *= Math.exp(-3 * dt); this.vy = Math.min(this.vy + 2300 * dt, 1500);
@@ -764,6 +777,7 @@ class Fighter {
     }
     if (this.superT > 0) {
       const sp = this.sup;
+      if (sp === 'reaper') { this.wa = lerpAngle(this.wa, -Math.PI / 2 - this.facing * 0.5, 1 - Math.exp(-12 * dt)); this.ext = 1; return; }
       if (sp === 'genesis') { this.wa = lerpAngle(this.wa, -Math.PI / 2, 1 - Math.exp(-14 * dt)); this.ext = 1.1; return; }
       if (sp === 'bomber') { this.wa = lerpAngle(this.wa, -Math.PI / 2 - this.facing * 0.3, 1 - Math.exp(-16 * dt)); this.ext = 0.9; return; }
       if (sp === 'blizzard') { this.wa = lerpAngle(this.wa, -Math.PI / 2 + this.facing * 0.15, 1 - Math.exp(-16 * dt)); this.ext = 1; return; }
@@ -873,15 +887,15 @@ class Fighter {
     Audio.play('hit');
     if (this.hp <= 0) this.die(null, kx, ky);
   }
-  erase(by) {
+  erase(by, style = 'light') {
     if (!this.alive) return;
-    this.erased = true; this.shieldT = 0; this.invT = 0; this.frozenT = 0; this.superT = 0; this.zip = null;
+    this.erased = style; this.poisonT = 0; this.shieldT = 0; this.invT = 0; this.frozenT = 0; this.superT = 0; this.zip = null;
     const c = this.center();
-    for (let i = 0; i < 30; i++) { const a = rand(0, TAU), v = rand(60, 320); G.parts.push({ k: 'dot', x: c.x + rand(-20, 20), y: c.y + rand(-50, 40), vx: Math.cos(a) * v, vy: Math.sin(a) * v - 160, life: rand(0.6, 1.2), max: 1.2, col: pick(['#fff6d0', '#ffe27a', '#ffffff', '#c9f3ff']), size: rand(2, 5), g: -120 }); }
+    for (let i = 0; i < 30; i++) { const a = rand(0, TAU), v = rand(60, 320); G.parts.push({ k: 'dot', x: c.x + rand(-20, 20), y: c.y + rand(-50, 40), vx: Math.cos(a) * v, vy: Math.sin(a) * v - 160, life: rand(0.6, 1.2), max: 1.2, col: style === 'dark' ? pick(['#2a1f3a', '#6b3fa8', '#120c1a', '#b06bff']) : pick(['#fff6d0', '#ffe27a', '#ffffff', '#c9f3ff']), size: rand(2, 5), g: -120 }); }
     this.hp = 0; this.die(by, 0, -120);
   }
   die(from, kx, ky) {
-    this.alive = false; this.hp = 0; this.deadT = 0; this.bombHeld = false;
+    this.alive = false; this.hp = 0; this.deadT = 0; this.poisonT = 0; this.powerT = 0; this.bombHeld = false;
     for (const p of this.rag.p) { p.px = p.x - (this.vx * 1.15) / 120; p.py = p.y - (this.vy * 1.15) / 120; }
     for (let i = 0; i < 16; i++) blob(this.x, this.y - 10, this.color, kx * 1.3, ky * 1.3);
     ring(this.x, this.y, 'rgba(255,255,255,0.9)', 60 * this.s);
@@ -983,11 +997,24 @@ class Fighter {
       }
       G.projs.push({ k: 'hook', wid: 'whip', x: h.x, y: h.y, vx: Math.cos(ang) * 1400, vy: Math.sin(ang) * 1400, rot: ang, team: this.team, owner: this, dmg: 8 * this.dmgMul, kb: 0, life: zip ? 0.38 : 0.29, r: 8, g: 0, hit: new Set(), age: 0, zip });
       Audio.play('hook');
+    } else if (sk === 'venom') {
+      // Death's Scythe: a ring of venom crescents sweeps out; enemies inside take damage and 3s of poison
+      const R = VENOM_R * this.s, c0 = this.center();
+      G.fx.push({ k: 'venom', f: this, x: c0.x, y: c0.y, r: R, life: 0.55, max: 0.55 });
+      for (const o of G.fighters) {
+        if (!o.alive || o.team === this.team) continue;
+        const c = o.center(), d = Math.hypot(c.x - c0.x, c.y - c0.y);
+        if (d < R) {
+          const landed = o.hurt(16 * this.dmgMul, (Math.sign(c.x - c0.x) || 1) * 300, -260, this, c.x, c.y);
+          if (landed && o.alive) { o.poisonT = 3; o.poisonTick = 0.5; o.poisonDmg = 3 * this.dmgMul; o.poisonSrc = this; }
+        }
+      }
+      this.wa = this.facing > 0 ? -2.4 : Math.PI + 2.4; Audio.play('swing'); Audio.play('skill'); addShake(5);
     } else if (sk === 'rainbow') {
       // Arceus Breaker: send a rainbow crescent flying forward; it passes through enemies and terrain
       const dir = t && Math.abs(t.x - this.x) < 700 ? (Math.sign(t.x - this.x) || this.facing) : this.facing; this.facing = dir;
       this.wa = dir > 0 ? 0.1 : Math.PI - 0.1; this.ext = 1; this.atkCD = Math.max(this.atkCD, 0.2);
-      G.projs.push({ k: 'rslash', wid: 'arceus', x: this.x + dir * 40, y: this.y - 14 * this.s, vx: dir * 950, vy: 0, g: 0, rot: 0, team: this.team, owner: this, dmg: 24 * this.dmgMul, kb: 520, life: 0.6, r: 40, hit: new Set(), age: 0, pass: true });
+      G.projs.push({ k: 'rslash', wid: 'arceus', x: this.x + dir * 40, y: this.y - 14 * this.s, vx: dir * 950, vy: 0, g: 0, rot: 0, team: this.team, owner: this, dmg: 24 * this.dmgMul, kb: 520, life: 0.7, r: 90, hit: new Set(), age: 0, pass: true });
       Audio.play('slash'); Audio.play('skill');
     } else if (sk === 'burst') {
       // Pistol: spread shot
@@ -1049,11 +1076,11 @@ class Fighter {
   foesNear(R) { return G.fighters.filter(o => o.alive && o.team !== this.team && Math.hypot(o.x - this.x, o.y - this.y) < R); }
   useSuper() {
     const sp = this.W.sup; this.sup = sp; this.superC = 0; this.superE = 0; this.superN = 0; this.atk.phase = 0;
-    const D = { crescent: 1.0, thousand: 1.2, spearrain: 1.0, tornado: 1.5, quake: 1.6, candybomb: 0.55, blizzard: 1.25, thunder: 1.0, bomber: 0.9, genesis: 1.7, concert: 1.05, barrage: 1.2 }[sp];
+    const D = { crescent: 1.0, thousand: 1.2, spearrain: 1.0, tornado: 1.5, quake: 1.6, candybomb: 0.55, blizzard: 1.25, thunder: 1.0, bomber: 0.9, genesis: 1.7, reaper: 2.0, concert: 1.05, barrage: 1.2 }[sp];
     this.superT = D; this.invT = Math.max(this.invT, D + 0.05);
     this.superQ = ({
       crescent: [0.02, 0.3, 0.58], thousand: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0], spearrain: [0.1, 0.26, 0.42, 0.58, 0.74],
-      tornado: [], quake: [], candybomb: [0.18], blizzard: [0.12, 1.1], thunder: [0.12, 0.45, 0.78], bomber: [0.42], genesis: [0.3, 1.0], concert: [0.05, 0.3, 0.55, 0.8], barrage: Array.from({ length: 10 }, (_, i) => 0.12 + i * 0.1),
+      tornado: [], quake: [], candybomb: [0.18], blizzard: [0.12, 1.1], thunder: [0.12, 0.45, 0.78], bomber: [0.42], genesis: [0.3, 1.0], reaper: [0.25, 1.2], concert: [0.05, 0.3, 0.55, 0.8], barrage: Array.from({ length: 10 }, (_, i) => 0.12 + i * 0.1),
     })[sp].slice();
     this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
     if (sp === 'quake') { this.vy = -1050; this.vx *= 0.3; this.onGround = false; this.quakeArm = true; }
@@ -1140,17 +1167,37 @@ class Fighter {
         for (const o of this.blizList || []) if (o.alive && o.frozenT > 0) { const c = o.center(); o.hurt(28 * this.dmgMul, (Math.sign(o.x - this.x) || 1) * 480, -620, this, c.x, c.y); }
         this.blizList = []; addShake(12);
       }
+    } else if (sp === 'reaper') {
+      if (n === 0) {
+        // the whole stage goes dark and the avatar of death rises
+        G.reaper = { t: 0, max: 2.1, enemy: this.ai, owner: this };
+        godClashCheck(this, G.genesis);
+        G.banner = { txt: 'デス・サイズ・フルバースト', col: this.ai ? '#ff8a8a' : '#d7b4ff', t: 1.9, max: 1.9 };
+        Audio.play('dread'); addShake(6);
+      } else {
+        // the scythe sweeps across the stage
+        if (G.reaper && G.reaper.owner === this) G.reaper.struck = true;
+        if (this.godVoid) godClashFx(this); else godStrike(this, 'reaper');
+        if (!this.ai) {
+          this.powerT = 15; floatText(this.x, this.y - 90, '攻撃力2倍！', '#ff7aa8'); ring(this.x, this.y, 'rgba(255,90,150,0.9)', 90);
+        }
+        Audio.play('slash'); Audio.play('ko'); addShake(16); G.flashT = 0.1;
+      }
     } else if (sp === 'genesis') {
       if (n === 0) {
         // light spreads out from the sword over the whole stage
-        G.genesis = { x: this.x, y: this.y - 60 * this.s, t: 0, max: 1.9 };
-        G.banner = { txt: 'アルティメット・ジェネシス', col: '#fff3b0', t: 1.8, max: 1.8 };
+        G.genesis = { x: this.x, y: this.y - 60 * this.s, t: 0, max: 1.9, owner: this };
+        godClashCheck(this, G.reaper);
+        G.banner = { txt: 'アルティメット・ジェネシス', col: this.ai ? '#ffb0a8' : '#fff3b0', t: 1.8, max: 1.8 };
         Audio.play('holy'); addShake(6);
       } else {
         // every opponent is returned to nothing (ignores shields, freezing and invincibility), then the user is fully healed
-        for (const o of G.fighters) if (o.alive && o.team !== this.team) o.erase(this);
-        this.hp = this.hpMax; this.frozenT = 0;
-        floatText(this.x, this.y - 90, '全回復！', '#9dffb0'); ring(this.x, this.y, 'rgba(150,255,180,0.9)', 90);
+        if (G.genesis && G.genesis.owner === this) G.genesis.struck = true;
+        if (this.godVoid) godClashFx(this); else godStrike(this, 'genesis');
+        if (!this.ai) {
+          this.hp = this.hpMax; this.frozenT = 0;
+          floatText(this.x, this.y - 90, '全回復！', '#9dffb0'); ring(this.x, this.y, 'rgba(150,255,180,0.9)', 90);
+        }
         Audio.play('super'); addShake(14); G.flashT = 0.12;
       }
     } else if (sp === 'bomber') {
@@ -1234,7 +1281,7 @@ class Fighter {
       const skR = SKILL_RANGE[W.skill];
       if (this.skillCD <= 0 && this.aiSkill > 0.25 && dist < skR && Math.random() < 0.18 + this.aiSkill * 0.25) I.skillP = true;
       if (this.bombHeld && dist < 560 && Math.random() < 0.3) I.skillP = true;
-      if (this.boss && this.superC >= 100 && dist < 190) I.superP = true;
+      if (this.boss && this.superC >= 100 && (dist < 190 || W.sup === 'genesis' || W.sup === 'reaper')) I.superP = true;
     }
     I.left = st.dir < 0; I.right = st.dir > 0;
     if (st.want) { I.upP = true; st.want = false; st.holdT = 0.1 + Math.random() * 0.15; }
@@ -1357,6 +1404,32 @@ function dust(x, y, n) { for (let i = 0; i < n; i++) G.parts.push({ k: 'puff', x
 function ring(x, y, col, r) { G.parts.push({ k: 'ring', x, y, vx: 0, vy: 0, life: 0.35, max: 0.35, col, size: r, g: 0 }); }
 function impactPuff(x, y) { dust(x, y, 6); addShake(5); }
 function addShake(v) { if (save.shake) G.shake = Math.min(18, Math.max(G.shake, v)); }
+/* Ultimate Genesis / Death Scythe Full Burst.
+   - Player version erases every opponent; the level 50+ enemy version deals 40% of max HP instead.
+   - Resistances: the Death's Scythe resists Genesis and the Arceus Breaker resists the reaper -> the hit only takes half (50% of max HP, or 20% from the enemy version).
+   - Through shields, invincibility and freezing (no freeze bonus). */
+function godStrike(src, kind) {
+  const resist = kind === 'genesis' ? 'scythe' : 'arceus';
+  for (const o of G.fighters) {
+    if (!o.alive || o.team === src.team) continue;
+    let frac = src.ai ? 0.4 : 1;
+    const c = o.center();
+    if (o.weapon === resist) { frac *= 0.5; floatText(c.x, c.y - 80, '耐性！', kind === 'genesis' ? '#d7b4ff' : '#fff3b0'); ring(c.x, c.y, kind === 'genesis' ? 'rgba(180,120,255,0.9)' : 'rgba(255,240,170,0.9)', 80); }
+    if (frac >= 1) { o.erase(src, kind === 'genesis' ? 'light' : 'dark'); continue; }
+    o.invT = 0; o.shieldT = 0; o.frozenT = 0;
+    o.hurt(o.hpMax * frac, (Math.sign(o.x - src.x) || 1) * 380, -520, src, c.x, c.y);
+  }
+}
+// if Genesis and the reaper are on screen at the same time (from opposing sides, neither has struck yet) both strikes are cancelled
+function godClashCheck(f, other) {
+  f.godVoid = false;
+  if (other && !other.struck && other.owner && other.owner !== f && other.owner.team !== f.team) { f.godVoid = true; other.owner.godVoid = true; }
+}
+function godClashFx(f) {
+  f.godVoid = false;
+  floatText(f.x, f.y - 110, '相殺！', '#ffffff'); ring(f.x, f.y - 30, 'rgba(255,255,255,0.95)', 160);
+  for (let i = 0; i < 24; i++) { const a = rand(0, TAU), v = rand(120, 420); G.parts.push({ k: 'dot', x: f.x, y: f.y - 40, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: rand(0.5, 0.9), max: 0.9, col: pick(['#ffffff', '#fff3b0', '#b06bff']), size: rand(2, 5), g: 0 }); }
+}
 function floatText(x, y, txt, col) { G.texts.push({ x, y, txt, col, life: 1.1, max: 1.1 }); }
 
 /* ---------------- Arena building ---------------- */
@@ -1400,7 +1473,7 @@ function startLevel(n) {
 function enemyPool(n) {
   const pool = ['sword'];
   if (n >= 2) pool.push('axe'); if (n >= 3) pool.push('spear'); if (n >= 5) pool.push('hammer', 'katana');
-  if (n >= 7) pool.push('pistol'); if (n >= 9) pool.push('guitar', 'candy'); if (n >= 8) pool.push('bomb'); if (n >= 10) pool.push('staff', 'whip');
+  if (n >= 7) pool.push('pistol'); if (n >= 9) pool.push('guitar', 'candy'); if (n >= 8) pool.push('bomb'); if (n >= 10) pool.push('staff', 'whip'); if (n >= 50) pool.push('arceus', 'scythe');
   return pool;
 }
 function spawnEnemy() {
@@ -1410,7 +1483,7 @@ function spawnEnemy() {
   const boss = G.bossLevel && G.toSpawn === 1;
   const s = boss ? 1.35 : 1;
   const e = new Fighter({
-    x: sp.x, y: sp.y + 58 - 48 * s, team: 1, color: boss ? '#c41d2a' : ENEMY_RED, weapon: boss ? pick(['hammer', 'axe', 'guitar', 'katana']) : pick(enemyPool(n)), ai: true, mask: true, boss,
+    x: sp.x, y: sp.y + 58 - 48 * s, team: 1, color: boss ? '#c41d2a' : ENEMY_RED, weapon: boss ? (n >= 50 ? pick(['arceus', 'scythe']) : pick(['hammer', 'axe', 'guitar', 'katana'])) : pick(enemyPool(n)), ai: true, mask: true, boss,
     s: boss ? 1.35 : 1, hpMax: boss ? 260 + n * 14 : Math.min(55 + n * 6, 150), dmgMul: Math.min(0.55 + n * 0.035, 1.05) * (boss ? 1.2 : 1),
     aiSkill: clamp(0.2 + n * 0.06, 0.2, 0.95), facing: sp.x < p.x ? 1 : -1,
   });
@@ -1437,7 +1510,7 @@ function spawnTrain(who) {
     p.invT = 0.6; G.fighters.push(p); G.player = p;
   } else {
     G.fighters = G.fighters.filter(f => f.team !== 1);
-    const d = new Fighter({ x: 880, y: A.h - 48, team: 1, color: ENEMY_RED, weapon: 'sword', dummy: true, mask: true, hpMax: 150, facing: -1 });
+    const d = new Fighter({ x: 880, y: A.h - 48, team: 1, color: ENEMY_RED, weapon: save.tdw, dummy: true, mask: true, hpMax: 150, facing: -1 });
     G.fighters.push(d);
     for (let i = 0; i < 12; i++) G.parts.push({ k: 'puff', x: d.x + rand(-24, 24), y: d.y + rand(-40, 40), vx: rand(-80, 80), vy: rand(-80, 20), life: rand(0.35, 0.6), max: 0.6, col: 'rgba(30,20,40,0.5)', size: rand(10, 18), g: 0 });
     ring(d.x, d.y, 'rgba(255,90,80,0.9)', 70); Audio.play('spawn');
@@ -1457,7 +1530,7 @@ function setupRound() {
   initBats();
 }
 function resetWorld() {
-  G.fighters = []; G.projs = []; G.parts = []; G.fx = []; G.texts = []; G.hitstop = 0; G.slow = 1; G.slowT = 0; G.shake = 0; G.overT = -1; G.pendingEnd = null; G.banner = null; G.later = []; G.respawns = []; G.dimT = 0; G.snowT = 0; G.flashT = 0; G.genesis = null;
+  G.fighters = []; G.projs = []; G.parts = []; G.fx = []; G.texts = []; G.hitstop = 0; G.slow = 1; G.slowT = 0; G.shake = 0; G.overT = -1; G.pendingEnd = null; G.banner = null; G.later = []; G.respawns = []; G.dimT = 0; G.snowT = 0; G.flashT = 0; G.genesis = null; G.reaper = null;
   touch.sticks = [null, null];
 }
 function initBats() { G.bats = []; for (let i = 0; i < 7; i++) G.bats.push({ x: rand(0, 1), y: rand(0.05, 0.5), sp: rand(0.012, 0.03) * (Math.random() < 0.5 ? 1 : -1), ph: rand(0, TAU), sz: rand(0.6, 1.2) }); }
@@ -1552,9 +1625,9 @@ function step(dt) {
       for (const o of G.fighters) {
         if (!o.alive || o.team === p.team || p.hit.has(o)) continue;
         const c = o.center();
-        if (Math.abs(c.x - p.x) < 46 && Math.abs(c.y - p.y) < 72) { p.hit.add(o); o.hurt(p.dmg, Math.sign(p.vx) * p.kb, -320, p.owner, c.x, c.y); }
+        if (Math.abs(c.x - p.x) < 72 && Math.abs(c.y - p.y) < 115) { p.hit.add(o); o.hurt(p.dmg, Math.sign(p.vx) * p.kb, -320, p.owner, c.x, c.y); }
       }
-      if (Math.random() < 0.8) G.parts.push({ k: 'dot', x: p.x - Math.sign(p.vx) * 20 + rand(-6, 6), y: p.y + rand(-40, 40), vx: -p.vx * 0.1, vy: rand(-40, 40), life: 0.35, max: 0.35, col: `hsl(${(G.time * 600 + rand(0, 360)) % 360},100%,70%)`, size: rand(2, 4), g: 0 });
+      if (Math.random() < 0.8) G.parts.push({ k: 'dot', x: p.x - Math.sign(p.vx) * 20 + rand(-10, 10), y: p.y + rand(-95, 95), vx: -p.vx * 0.1, vy: rand(-40, 40), life: 0.35, max: 0.35, col: `hsl(${(G.time * 600 + rand(0, 360)) % 360},100%,70%)`, size: rand(2, 4), g: 0 });
       continue;
     }
     if (p.k === 'gwave') {
@@ -1605,6 +1678,7 @@ function step(dt) {
   if (G.dimT > 0) G.dimT -= dt;
   if (G.snowT > 0) G.snowT -= dt;
   if (G.flashT > 0) G.flashT -= dt;
+  if (G.reaper) { G.reaper.t += dt; if (G.reaper.t > G.reaper.max) G.reaper = null; }
   if (G.genesis) { G.genesis.t += dt; if (G.genesis.t > G.genesis.max) G.genesis = null; }
   // particles
   for (const p of G.parts) { p.life -= dt; p.vy += p.g * dt; p.x += p.vx * dt; p.y += p.vy * dt; if (p.k === 'puff') { p.vx *= 0.94; p.vy *= 0.94; } }
@@ -1986,6 +2060,21 @@ function drawWeaponShape(c, id, s = 1, lit = false) {
       c.fillStyle = '#1f1410'; c.beginPath(); c.arc(L - 22, 0, 4.5, 0, TAU); c.fill(); c.fillRect(L - 8, -5, 3, 10);
       c.strokeStyle = 'rgba(255,255,255,0.7)'; c.lineWidth = 0.6; for (const yy of [-1.2, 0, 1.2]) { c.beginPath(); c.moveTo(-10, yy); c.lineTo(L - 7, yy); c.stroke(); }
       break;
+    case 'scythe': {
+      // scythe: slightly bowed wooden snath with a side grip, metal collar, long curved blade at a right angle
+      c.lineCap = 'round';
+      c.strokeStyle = '#3a2a20'; c.lineWidth = 5; c.beginPath(); c.moveTo(-16, 0); c.quadraticCurveTo(L * 0.45, -6, L, 0); c.stroke();
+      c.strokeStyle = '#5c4331'; c.lineWidth = 1.3; c.beginPath(); c.moveTo(-14, -1.2); c.quadraticCurveTo(L * 0.45, -7.2, L - 3, -1.2); c.stroke();
+      c.strokeStyle = '#3a2a20'; c.lineWidth = 3.6; c.beginPath(); c.moveTo(L * 0.36, -4); c.lineTo(L * 0.36 + 3, -14); c.stroke();
+      c.fillStyle = '#6d6a78'; c.fillRect(L - 6, -4.5, 9, 9);
+      c.save(); c.shadowColor = '#b06bff'; c.shadowBlur = 10;
+      const bg = c.createLinearGradient(L, 0, L - 18, 58); bg.addColorStop(0, '#eeedf4'); bg.addColorStop(1, '#9486bd');
+      c.fillStyle = bg; c.beginPath(); c.moveTo(L + 3, -3); c.quadraticCurveTo(L + 11, 28, L - 16, 60); c.quadraticCurveTo(L - 5, 30, L - 5, 4); c.closePath(); c.fill();
+      c.restore();
+      c.strokeStyle = '#ffffff'; c.lineWidth = 1.2; c.beginPath(); c.moveTo(L - 16, 60); c.quadraticCurveTo(L - 5.6, 30, L - 5.5, 6); c.stroke();
+      c.strokeStyle = '#c38bff'; c.lineWidth = 0.9; c.beginPath(); c.moveTo(L + 3, -3); c.quadraticCurveTo(L + 11, 28, L - 16, 60); c.stroke();
+      break;
+    }
     case 'arceus': {
       // divine sword: gold winged guard, rainbow gem, white-gold blade with a rainbow edge and a soft glow
       c.save(); c.shadowColor = '#fff1a8'; c.shadowBlur = 14;
@@ -2045,8 +2134,9 @@ function drawFighter(f) {
   let alpha = f.alive ? 1 : clamp(1 - (f.deadT - 2.2), 0, 1);
   if (alpha <= 0) return;
   ctx.save(); ctx.globalAlpha = alpha;
-  if (!f.alive && f.erased) { col = '#fff3c4'; alpha = clamp(1 - f.deadT * 1.4, 0, 1); if (alpha <= 0) { ctx.restore(); return; } ctx.globalAlpha = alpha; }
+  if (!f.alive && f.erased) { col = f.erased === 'dark' ? '#241a33' : '#fff3c4'; alpha = clamp(1 - f.deadT * 1.4, 0, 1); if (alpha <= 0) { ctx.restore(); return; } ctx.globalAlpha = alpha; }
   if (f.flashT > 0 && f.alive) col = mixColor(f.color, '#ffffff', 0.6);
+  if (f.alive && f.poisonT > 0 && f.flashT <= 0) col = mixColor(f.color, '#7dff6a', 0.35);
   if (f.alive && f.frozenT > 0) col = mixColor(f.color, '#cdefff', 0.55);
   if (f.invT > 0 && f.alive && f.superT <= 0 && f.dashT <= 0 && Math.floor(G.time * 20) % 2 === 0) ctx.globalAlpha = alpha * 0.55;
   ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = col; ctx.lineWidth = 6.4 * s;
@@ -2055,7 +2145,7 @@ function drawFighter(f) {
   line(1, 5, 6); line(2, 9, 10); line(1, 2); line(2, 7, 8);
   // weapon
   const wa = f.alive ? f.wa : Math.atan2(P[4].y - P[3].y, P[4].x - P[3].x);
-  if (!f.weaponOut && !f.dummy) { ctx.save(); ctx.translate(P[4].x, P[4].y); ctx.rotate(wa); if (Math.cos(wa) < 0) ctx.scale(1, -1); drawWeaponShape(ctx, f.weapon, s, f.alive && f.bombHeld); ctx.restore(); }
+  if (!f.weaponOut && WEAPONS[f.weapon]) { ctx.save(); ctx.translate(P[4].x, P[4].y); ctx.rotate(wa); if (Math.cos(wa) < 0) ctx.scale(1, -1); drawWeaponShape(ctx, f.weapon, s, f.alive && f.bombHeld); ctx.restore(); }
   ctx.strokeStyle = col; ctx.lineWidth = 6.4 * s; line(1, 3, 4);
   // head
   const hr = 10.6 * s; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(P[0].x, P[0].y, hr, 0, TAU); ctx.fill();
@@ -2093,6 +2183,9 @@ function drawFighter(f) {
     ctx.beginPath(); ctx.moveTo(x0 + 8 * s, y0 + 24 * s); ctx.lineTo(x0 + 22 * s, y0 + 9 * s); ctx.moveTo(x0 + 9 * s, y0 + 38 * s); ctx.lineTo(x0 + 15 * s, y0 + 32 * s); ctx.stroke();
     ctx.globalAlpha = alpha;
   }
+  // poison: green-purple tint bubbles; attack x2: pulsing crimson aura
+  if (f.alive && f.poisonT > 0) { const c = f.center(); ctx.globalAlpha = alpha * 0.8; ctx.fillStyle = 'rgba(120,255,110,0.18)'; ctx.beginPath(); ctx.arc(c.x, c.y - 4, 34 * s, 0, TAU); ctx.fill(); if (Math.random() < 0.15) G.parts.push({ k: 'dot', x: c.x + rand(-14, 14), y: c.y + rand(-10, 20), vx: rand(-10, 10), vy: rand(-70, -30), life: 0.6, max: 0.6, col: pick(['#7dff6a', '#b06bff']), size: rand(2, 3.5), g: 0 }); ctx.globalAlpha = alpha; }
+  if (f.alive && f.powerT > 0) { const c = f.center(), pu = 0.6 + Math.sin(G.time * 10) * 0.25; ctx.globalAlpha = alpha * pu; ctx.strokeStyle = '#ff4f8a'; ctx.shadowColor = '#ff2f6d'; ctx.shadowBlur = 18; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(c.x, c.y - 2, 30 * s, 52 * s, 0, 0, TAU); ctx.stroke(); ctx.shadowBlur = 0; ctx.globalAlpha = alpha; }
   // shield bubble
   if (f.alive && f.shieldT > 0) {
     const c = f.center(); const blink = f.shieldT < 1.5 && Math.floor(G.time * 10) % 2 === 0;
@@ -2135,6 +2228,69 @@ function drawChain(x1, y1, x2, y2) {
   ctx.strokeStyle = '#2e333c'; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
   ctx.strokeStyle = '#c9d2dc'; ctx.lineWidth = 2.5; ctx.setLineDash([6, 4]); ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
   ctx.restore();
+}
+function drawReaper() {
+  const g = G.reaper, k = g.t / g.max;
+  const dark = k < 0.12 ? k / 0.12 : k > 0.82 ? (1 - k) / 0.18 : 1;
+  ctx.fillStyle = `rgba(6,2,14,${0.86 * dark})`; ctx.fillRect(0, 0, VW, VH);
+  // drifting wisps of darkness
+  const rnd = mulberry(13); ctx.fillStyle = `rgba(150,90,220,${0.25 * dark})`;
+  for (let i = 0; i < 40; i++) { const x = (rnd() * VW + G.time * 30 * (rnd() - 0.5)) % VW, y = (rnd() * VH - G.time * (20 + rnd() * 40)) % VH; ctx.beginPath(); ctx.arc((x + VW) % VW, (y + VH) % VH, 2 + rnd() * 5, 0, TAU); ctx.fill(); }
+  // the Grim Reaper rises in the middle of the screen
+  const rise = easeOut(clamp((k - 0.05) / 0.3, 0, 1)), S = Math.min(VW, VH) / 640;
+  const cx = VW / 2, cy = VH * 0.52 + (1 - rise) * 140 * S + Math.sin(g.t * 3) * 6 * S;
+  const swing = easeIn(clamp((k - 0.35) / 0.1, 0, 1)), ang = swing * 1.9;   // scythe swings clockwise, landing as the foes are erased
+  const pivot = { x: 0, y: 30 }, rot = (x, y) => { const dx = x - pivot.x, dy = y - pivot.y, c = Math.cos(ang), s2 = Math.sin(ang); return { x: pivot.x + dx * c - dy * s2, y: pivot.y + dx * s2 + dy * c }; };
+  const sA = { x: -120, y: 190 }, sB = { x: 95, y: -250 }, len = Math.hypot(sB.x - sA.x, sB.y - sA.y), th = Math.atan2(sB.y - sA.y, sB.x - sA.x);
+  const handAt = d => rot(sA.x + Math.cos(th) * d, sA.y + Math.sin(th) * d), h1 = handAt(len * 0.36), h2 = handAt(len * 0.63);
+  const eye = g.enemy ? '#ff3355' : '#d58bff';
+  ctx.save(); ctx.globalAlpha = rise * dark; ctx.translate(cx, cy); ctx.scale(S, S);
+  // tattered robe
+  ctx.shadowColor = '#7a3cff'; ctx.shadowBlur = 40;
+  const cg = ctx.createLinearGradient(0, -240, 0, 230); cg.addColorStop(0, '#2c2236'); cg.addColorStop(1, '#09060d');
+  ctx.fillStyle = cg; ctx.beginPath(); ctx.moveTo(0, -245);
+  ctx.quadraticCurveTo(60, -230, 78, -150); ctx.quadraticCurveTo(110, -120, 118, -80);
+  ctx.quadraticCurveTo(150, 60, 160, 220);
+  for (let i = 0; i <= 10; i++) ctx.lineTo(160 - i * 32, 220 + (i % 2 ? -42 : 6) + Math.sin(g.t * 5 + i) * 7);
+  ctx.quadraticCurveTo(-150, 60, -118, -80); ctx.quadraticCurveTo(-110, -120, -78, -150); ctx.quadraticCurveTo(-60, -230, 0, -245); ctx.fill();
+  ctx.shadowBlur = 0;
+  // deep hood opening
+  ctx.fillStyle = '#050307'; ctx.beginPath(); ctx.ellipse(0, -150, 50, 64, 0, 0, TAU); ctx.fill();
+  // skull
+  ctx.fillStyle = '#e6dfcf'; ctx.beginPath(); ctx.ellipse(0, -160, 33, 35, 0, 0, TAU); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(-21, -140); ctx.lineTo(21, -140); ctx.lineTo(17, -118); ctx.quadraticCurveTo(0, -110, -17, -118); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.ellipse(0, -186, 34, 14, 0, Math.PI, 0); ctx.fill();   // hood shadow on the brow
+  ctx.fillStyle = '#0b0710'; for (const d of [-1, 1]) { ctx.beginPath(); ctx.ellipse(d * 13, -160, 10, 12, d * 0.15, 0, TAU); ctx.fill(); }
+  ctx.beginPath(); ctx.moveTo(0, -150); ctx.lineTo(-5, -140); ctx.lineTo(5, -140); ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = '#0b0710'; ctx.lineWidth = 1.6; ctx.beginPath(); ctx.moveTo(-15, -128); ctx.lineTo(15, -128);
+  for (let x = -12; x <= 12; x += 6) { ctx.moveTo(x, -134); ctx.lineTo(x, -121); } ctx.stroke();
+  ctx.shadowColor = eye; ctx.shadowBlur = 18; ctx.fillStyle = eye;
+  for (const d of [-1, 1]) { ctx.beginPath(); ctx.arc(d * 13, -159, 3.6 + Math.sin(g.t * 6) * 0.8, 0, TAU); ctx.fill(); }
+  ctx.shadowBlur = 0;
+  // sleeves reaching to the hands on the shaft
+  ctx.strokeStyle = '#1c1525'; ctx.lineCap = 'round';
+  for (const [sh, hd] of [[{ x: -95, y: -95 }, h1], [{ x: 95, y: -100 }, h2]]) {
+    ctx.lineWidth = 40; ctx.beginPath(); ctx.moveTo(sh.x, sh.y); ctx.quadraticCurveTo((sh.x + hd.x) / 2, (sh.y + hd.y) / 2 + 30, hd.x, hd.y); ctx.stroke();
+  }
+  // the scythe (snath + long curved blade at a right angle), with bony hands gripping it
+  ctx.save(); ctx.translate(pivot.x, pivot.y); ctx.rotate(ang); ctx.translate(-pivot.x, -pivot.y);
+  ctx.translate(sA.x, sA.y); ctx.rotate(th);
+  ctx.strokeStyle = '#3a2a20'; ctx.lineWidth = 14; ctx.beginPath(); ctx.moveTo(0, 0); ctx.quadraticCurveTo(len * 0.5, -14, len, 0); ctx.stroke();
+  ctx.lineWidth = 9; ctx.beginPath(); ctx.moveTo(len * 0.5, -10); ctx.lineTo(len * 0.5 + 8, -38); ctx.stroke();
+  ctx.fillStyle = '#6d6a78'; ctx.fillRect(len - 18, -12, 24, 24);
+  ctx.shadowColor = '#b06bff'; ctx.shadowBlur = 34;
+  const bg = ctx.createLinearGradient(len, 0, len - 60, -170); bg.addColorStop(0, '#f1f0f6'); bg.addColorStop(1, '#8f80bd');
+  ctx.fillStyle = bg; ctx.beginPath(); ctx.moveTo(len + 8, 8); ctx.quadraticCurveTo(len + 34, -90, len - 50, -175); ctx.quadraticCurveTo(len - 16, -90, len - 14, -10); ctx.closePath(); ctx.fill();
+  ctx.shadowBlur = 0; ctx.strokeStyle = 'rgba(255,255,255,0.9)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(len - 50, -175); ctx.quadraticCurveTo(len - 17, -90, len - 15, -14); ctx.stroke();
+  ctx.fillStyle = '#e6dfcf'; ctx.strokeStyle = '#8d8478'; ctx.lineWidth = 2;
+  for (const d of [len * 0.36, len * 0.63]) { ctx.beginPath(); ctx.ellipse(d, 0, 16, 13, 0, 0, TAU); ctx.fill(); ctx.stroke(); ctx.beginPath(); for (let f = -9; f <= 9; f += 6) { ctx.moveTo(d + f, -12); ctx.lineTo(d + f, 12); } ctx.stroke(); }
+  ctx.restore();
+  ctx.restore();
+  // the sweeping slash across the whole screen
+  if (k > 0.42 && k < 0.66) {
+    const t2 = (k - 0.42) / 0.24; ctx.save(); ctx.globalAlpha = 1 - t2; ctx.strokeStyle = '#e9d7ff'; ctx.shadowColor = '#b06bff'; ctx.shadowBlur = 30; ctx.lineWidth = 18 * (1 - t2) + 4; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.ellipse(VW / 2, VH * 0.55, VW * 0.62, VH * 0.42, -0.25, Math.PI * 1.05, Math.PI * 1.05 + Math.PI * 1.1 * easeOut(Math.min(1, t2 * 2.5))); ctx.stroke(); ctx.restore();
+  }
 }
 function drawGenesis() {
   const g = G.genesis, k = g.t / g.max, o = W2S(g.x, g.y), maxR = Math.hypot(VW, VH) * 1.1;
@@ -2207,6 +2363,15 @@ function drawFx(fx) {
     ctx.fillStyle = 'rgba(200,240,255,0.07)'; ctx.beginPath(); ctx.arc(c.x, c.y, fx.r * grow, 0, TAU); ctx.fill();
     ctx.setLineDash([22, 14]); ctx.lineDashOffset = -G.time * 60; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(220,245,255,0.85)';
     ctx.beginPath(); ctx.arc(c.x, c.y, fx.r * grow, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+  } else if (fx.k === 'venom') {
+    // Crescent Venom: expanding poison ring with three spinning crescents
+    const kk = 1 - t, R = fx.r * easeOut(Math.min(1, kk * 1.6)), a0 = kk * 7;
+    ctx.globalAlpha = Math.min(1, t * 2.2);
+    const gr = ctx.createRadialGradient(fx.x, fx.y, R * 0.55, fx.x, fx.y, Math.max(1, R));
+    gr.addColorStop(0, 'rgba(120,60,200,0)'); gr.addColorStop(0.8, 'rgba(110,255,120,0.18)'); gr.addColorStop(1, 'rgba(150,80,255,0.35)');
+    ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(fx.x, fx.y, Math.max(1, R), 0, TAU); ctx.fill();
+    ctx.shadowColor = '#b06bff'; ctx.shadowBlur = 16;
+    for (let i = 0; i < 3; i++) { const a = a0 + i * TAU / 3, rr = Math.max(8, R * 0.85); ctx.fillStyle = i % 2 ? '#c38bff' : '#8cff7a'; ctx.beginPath(); ctx.arc(fx.x, fx.y, rr, a, a + 0.9); ctx.arc(fx.x, fx.y, rr * 0.86, a + 0.85, a + 0.05, true); ctx.closePath(); ctx.fill(); }
   } else if (fx.k === 'orbit') {
     // the 12 bombs circling the player before they are thrown
     const f = fx.f, c = f.alive ? f.center() : { x: f.x, y: f.y }, k = 1 - t, R = 30 + 40 * easeOut(Math.min(1, k * 2));
@@ -2270,12 +2435,12 @@ function drawProjectiles() {
       if (p.owner && p.owner.ctrl >= 0 && !touch.used) { ctx.font = `800 13px ${FONT}`; ctx.textAlign = 'center'; ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(20,16,40,0.7)'; const k = p.owner.ctrl === 1 ? '\u2193' : 'S'; ctx.strokeText(k + '：爆発', p.x, p.y - p.r - 26); ctx.fillStyle = '#ffd36b'; ctx.fillText(k + '：爆発', p.x, p.y - p.r - 26); }
     } else if (p.k === 'rslash') {
       // rainbow crescent: six coloured bands with a white core
-      const d = Math.sign(p.vx) || 1, k = clamp(p.life / 0.6, 0, 1), R = 46 + (1 - k) * 14;
+      const d = Math.sign(p.vx) || 1, k = clamp(p.life / 0.7, 0, 1), R = 104 + (1 - k) * 18;
       ctx.save(); ctx.translate(p.x, p.y); ctx.scale(d, 1); ctx.globalAlpha = Math.min(1, k * 2.5);
-      ctx.shadowColor = '#ffffff'; ctx.shadowBlur = 16; ctx.lineCap = 'round';
+      ctx.shadowColor = '#ffffff'; ctx.shadowBlur = 22; ctx.lineCap = 'round';
       const cols = ['#ff4b4b', '#ff9d2e', '#ffe23b', '#4be06a', '#3fb6ff', '#9a6bff'];
-      cols.forEach((cl, i) => { ctx.strokeStyle = cl; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(-R * 0.6, 0, R - i * 4.2, -1.15, 1.15); ctx.stroke(); });
-      ctx.shadowBlur = 0; ctx.strokeStyle = 'rgba(255,255,255,0.95)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(-R * 0.6, 0, R + 3, -1.0, 1.0); ctx.stroke();
+      cols.forEach((cl, i) => { ctx.strokeStyle = cl; ctx.lineWidth = 9; ctx.beginPath(); ctx.arc(-R * 0.6, 0, R - i * 8, -1.15, 1.15); ctx.stroke(); });
+      ctx.shadowBlur = 0; ctx.strokeStyle = 'rgba(255,255,255,0.95)'; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(-R * 0.6, 0, R + 5, -1.0, 1.0); ctx.stroke();
       ctx.restore();
     } else if (p.k === 'gwave') {
       const k = clamp(p.life / 0.55, 0, 1); ctx.fillStyle = `rgba(214,204,190,${0.5 + k * 0.5})`; ctx.strokeStyle = 'rgba(90,80,70,0.8)'; ctx.lineWidth = 2;
@@ -2345,6 +2510,7 @@ function drawHUD() {
   }
   // top info
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  if (G.mode !== '2p' && G.player && G.player.alive && G.player.powerT > 0) { ctx.font = `800 17px ${FONT}`; outlineText('攻撃力2倍 あと' + Math.ceil(G.player.powerT) + '秒', VW / 2, 84, '#ff7aa8'); }
   if (G.mode === 'train') {
     ctx.font = `800 24px ${FONT}`; outlineText('トレーニング', VW / 2, 30, '#ffffff');
     const d = G.fighters.find(f => f.dummy);
@@ -2377,7 +2543,7 @@ function drawHUD() {
   // banner
   if (G.banner) {
     const b = G.banner; const k = b.t / b.max; const appear = clamp((1 - k) * 6, 0, 1); const sc = 0.6 + appear * 0.4 + (k < 0.15 ? (0.15 - k) * 2 : 0);
-    ctx.save(); ctx.globalAlpha = clamp(k * 5, 0, 1); ctx.translate(VW / 2, VH * 0.36); ctx.scale(sc, sc);
+    ctx.save(); ctx.globalAlpha = clamp(k * 5, 0, 1); ctx.translate(VW / 2, G.reaper ? VH * 0.15 : VH * 0.36); ctx.scale(sc, sc);
     ctx.font = `800 ${Math.round(clamp(VW * 0.08, 40, 84))}px ${FONT}`; const bw = ctx.measureText(b.txt).width; if (bw * sc > VW * 0.88) { const f = VW * 0.88 / (bw * sc); ctx.scale(f, f); } ctx.textAlign = 'center'; ctx.lineWidth = 10; ctx.strokeStyle = '#18234a'; ctx.strokeText(b.txt, 0, 0); ctx.fillStyle = b.col; ctx.fillText(b.txt, 0, 0);
     ctx.restore();
   }
@@ -2448,6 +2614,9 @@ function skillIcon(kind, x, y, s) {
   } else if (kind === 'slam') {
     ctx.fillStyle = '#8a5a2b'; ctx.save(); ctx.rotate(0.6); ctx.fillRect(-2, -s * 0.9, 4, s * 1.1); ctx.fillStyle = '#98a3ae'; ctx.fillRect(-s * 0.45, -s * 1.1, s * 0.9, s * 0.5); ctx.restore();
     ctx.fillStyle = cyan; for (const d of [-1, 1]) { ctx.beginPath(); ctx.moveTo(d * s * 0.4, s * 0.95); ctx.lineTo(d * s * 0.75, s * 0.35); ctx.lineTo(d * s * 1.05, s * 0.95); ctx.fill(); }
+  } else if (kind === 'venom') {
+    ctx.fillStyle = '#c38bff'; ctx.beginPath(); ctx.arc(0, 0, s, -2.2, 0.9); ctx.arc(-s * 0.25, s * 0.08, s * 0.82, 0.85, -2.1, true); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = '#8cff7a'; ctx.beginPath(); ctx.moveTo(s * 0.35, -s * 0.15); ctx.quadraticCurveTo(s * 0.75, s * 0.45, s * 0.35, s * 0.6); ctx.quadraticCurveTo(-s * 0.05, s * 0.45, s * 0.35, -s * 0.15); ctx.fill();
   } else if (kind === 'rainbow') {
     ['#ff4b4b', '#ff9d2e', '#ffe23b', '#4be06a', '#3fb6ff', '#9a6bff'].forEach((cl, i) => { ctx.strokeStyle = cl; ctx.lineWidth = 2.4; ctx.beginPath(); ctx.arc(-s * 0.5, 0, s * 1.05 - i * s * 0.12, -1.1, 1.1); ctx.stroke(); });
   } else if (kind === 'bomb') {
@@ -2496,6 +2665,7 @@ function render() {
   guarded(drawAcid);
   guarded(drawParticles);
   ctx.restore();
+  if (G.reaper) guarded(drawReaper);
   if (G.genesis) guarded(drawGenesis);
   if (G.snowT > 0) guarded(drawSnow);
   if (G.flashT > 0) { ctx.fillStyle = `rgba(255,255,235,${clamp(G.flashT * 5, 0, 0.45)})`; ctx.fillRect(0, 0, VW, VH); }
@@ -2518,6 +2688,7 @@ function drawVsBars() {
     const tag = f.dummy ? 'CPU' : f.team === 0 ? '1P' : '2P';
     ctx.lineWidth = 5; ctx.lineJoin = 'round'; ctx.strokeStyle = '#141a2e'; ctx.strokeText(tag, x + w / 2, y - 7);
     ctx.fillStyle = f.team === 0 ? '#7fd3ff' : '#ff9a90'; ctx.fillText(tag, x + w / 2, y - 7);
+    if (f.powerT > 0) { ctx.font = `800 ${Math.round(14 * u)}px ${FONT}`; ctx.strokeText('攻撃×2 ' + Math.ceil(f.powerT), x + w / 2, y - 28 * u); ctx.fillStyle = '#ff7aa8'; ctx.fillText('攻撃×2 ' + Math.ceil(f.powerT), x + w / 2, y - 28 * u); }
   }
 }
 
@@ -2627,6 +2798,7 @@ function refreshMenu() {
   drawMenuIcons();
 }
 function finishLevel(win) {
+  G.reaper = null; G.genesis = null;
   const earned = G.coinsRun + (win ? 25 + G.level * 5 : 0);
   save.coins += earned; G.coinsRun = 0; if (win) save.level = Math.max(save.level, G.level + 1); persist();
   $('resTitle').textContent = win ? `レベル ${G.level} クリア！` : 'やられた…';
@@ -2639,6 +2811,7 @@ function finishLevel(win) {
   setState('result');
 }
 function showMatchResult() {
+  G.reaper = null; G.genesis = null;
   const w = G.scores[0] > G.scores[1] ? 0 : 1;
   $('resTitle').textContent = (w === 0 ? '1P' : '2P') + 'の勝ち！';
   $('resTitle').style.color = w === 0 ? '#7fd3ff' : '#ff9a90';
@@ -2693,6 +2866,15 @@ function setName(el, name) { el.textContent = ''; name.split('・').forEach((par
 /* weapon list used by every weapon-select screen */
 function weaponGrid(el, o) {
   el.innerHTML = '';
+  if (o.bare) {
+    // "bare hands" tile (training CPU only)
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'wtile';
+    b.setAttribute('aria-pressed', String(o.sel === 'none')); b.style.setProperty('--sel', o.accent || '#ffcd3c'); b.title = '素手（武器なし）';
+    const cv = document.createElement('canvas'); cv.width = 200; cv.height = 130; b.appendChild(cv);
+    const nm = document.createElement('span'); nm.textContent = '素手'; b.appendChild(nm);
+    b.onclick = () => { Audio.init(); o.onPick('none'); Audio.play('click'); };
+    el.appendChild(b); drawBareIcon(cv.getContext('2d'));
+  }
   for (const id of WEAPON_ORDER) {
     const W = WEAPONS[id], lock = o.locked ? o.locked(id) : false;
     const b = document.createElement('button'); b.type = 'button'; b.className = 'wtile' + (lock ? ' locked' : '');
@@ -2726,12 +2908,24 @@ function cycleTsel(d) { const i = Math.max(0, WEAPON_ORDER.indexOf(save.tw)); sa
 function renderTsel() {
   const W = WEAPONS[save.tw]; setName($('tselN'), W.name); $('tselI').textContent = `スキル：${SKILL_INFO[W.skill]} ・ スーパー：${SUPER_NAME[W.sup]}`;
   weaponGrid($('gridT'), { sel: save.tw, color: COLORS[save.color].hex, accent: '#ffcd3c', onPick: id => { save.tw = id; persist(); renderTsel(); } });
+  setName($('tselDN'), save.tdw === 'none' ? '素手' : WEAPONS[save.tdw].name);
+  weaponGrid($('gridTD'), { sel: save.tdw, accent: '#ff8a7a', bare: true, onPick: id => { save.tdw = id; persist(); renderTsel(); } });
 }
 $('shopBtn').onclick = () => { Audio.init(); Audio.play('click'); openShop('w'); };
+/* a plain clenched fist for the "bare hands" tile */
+function drawBareIcon(c) {
+  c.clearRect(0, 0, 200, 130); c.save(); c.translate(100, 66);
+  c.fillStyle = '#ffffff'; c.strokeStyle = '#14284d'; c.lineWidth = 5; c.lineJoin = 'round'; c.lineCap = 'round';
+  c.beginPath(); c.roundRect(-34, -30, 68, 58, 16); c.fill(); c.stroke();
+  c.beginPath(); for (const x of [-12, 5]) { c.moveTo(x, -30); c.lineTo(x, -8); } c.stroke();
+  c.beginPath(); c.moveTo(-34, -6); c.quadraticCurveTo(-6, -4, 6, 10); c.stroke();
+  c.restore();
+}
 /* weapon picture used by the weapon lists and the 一覧表 page (canvas 200 x 130) */
 function drawWeaponIcon(c, id) {
   const L = WEAPONS[id].len, sc = clamp(178 / (L + 34), 1.6, 2.8);
-  c.save(); c.translate(100, 68); c.rotate(-0.35); c.scale(sc, sc); c.translate(-(L - 14) / 2, id === 'candy' ? -6 : 0); drawWeaponShape(c, id, 1); c.restore();
+  const k2 = id === 'scythe' ? 0.78 : 1;
+  c.save(); c.translate(100, 68); c.rotate(id === 'scythe' ? -0.12 : -0.35); c.scale(sc * k2, sc * k2); c.translate(-(L - 14) / 2, id === 'candy' ? -6 : id === 'scythe' ? -28 : 0); drawWeaponShape(c, id, 1); c.restore();
 }
 /* ---------- 一覧表: each weapon's normal attack, skill and super ---------- */
 const GUIDE = {
@@ -2745,7 +2939,8 @@ const GUIDE = {
   guitar: { atk: '19・吹っ飛ばしが強い', skill: '周りに音波を出して吹き飛ばす（約21）', sup: '大きな音波を4連発（各9）' },
   staff:  { atk: '13・標準', skill: '当たった敵を1.5秒凍らせる（12）', sup: '周りの敵をまとめて凍らせ、約1秒後に一斉に砕く（約36）' },
   whip:   { atk: '12・全武器でいちばん長いリーチ', skill: '敵を手元へ引き寄せる（8）。敵がいないときは上の足場に引っかけて登る', sup: '雷が敵から敵へ最大6人まで連鎖（20／16前後）。3回落ちる' },
-  arceus: { atk: '18・攻撃が速く、虹色の軌跡が出る', skill: '前方へ虹色の斬撃を飛ばす。敵も地形も貫通して進む（24）', sup: 'ステージ全体に光が広がり、神の力で相手を無に帰す（シールドや無敵も関係なく倒す）。発動後、自分のHPが全回復' },
+  scythe: { atk: '17・リーチが長く重め', skill: '周りの広い範囲（刀の千本斬りより少し狭い）の敵にダメージ（16）＋3秒間の毒（0.5秒ごとに3、計18）', sup: 'ステージ全体が闇に包まれ、死神の化身が鎌を振るってステージの相手全員を一撃で倒す（シールドや無敵も関係なし）。発動後、自分の攻撃力が15秒間2倍。アルセウス・ブレイカーを持つ相手には耐性があり、HPを半分削るだけ。アルティメット・ジェネシスと重なるとお互いのダメージが無効。レベル50以上の敵が使うと、相手の最大HPの4割のダメージ（一撃では倒れない）' },
+  arceus: { atk: '18・攻撃が速く、虹色の軌跡が出る', skill: '前方へ大きな虹色の斬撃を飛ばす。上下に広く当たり、敵も地形も貫通して進む（24）', sup: 'ステージ全体に光が広がり、神の力で相手を無に帰す（シールドや無敵も関係なく倒す）。発動後、自分のHPが全回復。死神の鎌を持つ相手には耐性があり、HPを半分削るだけ。デス・サイズ・フルバーストと重なるとお互いのダメージが無効。レベル50以上の敵が使うと、相手の最大HPの4割のダメージ（一撃では倒れない）' },
   bomb:   { atk: '15・持った爆弾で殴る', skill: 'Eで火をつけ、もう一度Eで投げる（26）。S／↓で足元に置き、敵が触るかもう一度S／↓で爆発（32）。自分も6割のダメージ。近くの爆弾は誘爆', sup: '爆弾12個を四方八方に投げる（各22）。自分には当たらない' },
 };
 function renderGuide() {
@@ -2838,5 +3033,3 @@ $('selBack').onclick = () => { Audio.play('click'); setState('menu'); };
 // test hook
 window.__SB = { G, startLevel, start2P, save, WEAPONS };
 </script>
-</body>
-</html>
