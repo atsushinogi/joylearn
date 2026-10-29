@@ -299,10 +299,11 @@
     transition: transform .15s ease, box-shadow .15s ease;
   }
 
-  .badge svg {
+  .badge img {
     width: 100%;
     height: 100%;
     display: block;
+    object-fit: cover;
   }
 
   .opt-label {
@@ -492,7 +493,7 @@
     position: relative;
     box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--ink) 14%, transparent);
   }
-  .gbadge svg { width: 100%; height: 100%; display: block; }
+  .gbadge > img { width: 100%; height: 100%; display: block; object-fit: cover; }
 
   .gopt-label {
     font-size: 12px;
@@ -619,7 +620,7 @@
 </div>
 
 <script src="quiz-data.js"></script>
-<script src="icons.js"></script>
+<script src="choice-images.js"></script>
 <script>
 (function () {
   "use strict";
@@ -633,7 +634,15 @@
     return a;
   }
 
-  const TOTAL = QUIZ_DATA.length;
+  // Attach each image using the original positions before shuffling either list.
+  const questions = QUIZ_DATA.map((item, qi) => ({
+    ...item,
+    options: item.options.map((option, oi) => ({
+      ...option,
+      image: CHOICE_IMAGES[qi][oi]
+    }))
+  }));
+  const TOTAL = questions.length;
   let order = shuffle([...Array(TOTAL).keys()]);
   let pos = 0;
   let correctCount = 0;
@@ -656,10 +665,9 @@
   const quizPane = document.getElementById("quizPane");
   const galleryView = document.getElementById("galleryView");
 
-  function iconMarkup(key) {
-    const svg = (typeof ICONS !== "undefined" && ICONS[key]) ? ICONS[key] : null;
-    if (svg) return svg;
-    return '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="#EFE3C4"/></svg>';
+  function iconMarkup(option, lazy = false) {
+    return '<img src="' + option.image + '" alt="" width="148" height="148" decoding="async"' +
+      (lazy ? ' loading="lazy"' : '') + '>';
   }
 
   const CHECK_FLAG =
@@ -674,7 +682,7 @@
     galleryBuilt = true;
     const frag = document.createDocumentFragment();
 
-    QUIZ_DATA.forEach((item, qi) => {
+    questions.forEach((item, qi) => {
       const article = document.createElement("article");
       article.className = "gitem";
 
@@ -683,7 +691,7 @@
           return (
             '<div class="gopt' + (o.correct ? " correct" : "") + '">' +
             '<span class="gbadge">' +
-            iconMarkup(o.icon) +
+            iconMarkup(o, true) +
             (o.correct ? CHECK_FLAG : "") +
             "</span>" +
             '<span class="gopt-label">' + o.label + "</span>" +
@@ -738,7 +746,7 @@
     nextBtn.classList.remove("show");
 
     const qi = order[pos];
-    const item = QUIZ_DATA[qi];
+    const item = questions[qi];
     qIndexEl.textContent = "問 " + (pos + 1) + " / " + TOTAL;
     qTextEl.textContent = item.q;
 
@@ -750,7 +758,7 @@
       btn.type = "button";
       btn.className = "opt";
       btn.innerHTML =
-        '<span class="badge">' + iconMarkup(opt.icon) + "</span>" +
+        '<span class="badge">' + iconMarkup(opt) + "</span>" +
         '<span class="opt-label">' + opt.label + "</span>" +
         (opt.furigana ? '<span class="opt-furi">' + opt.furigana + "</span>" : "");
       btn.addEventListener("click", () => handleAnswer(btn, opt, opts));

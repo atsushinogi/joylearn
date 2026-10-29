@@ -231,3 +231,15 @@ __marimo__/
 /poketyping/pokemon_svg_color_256/
 /poketyping/*_preview.png
 /poketyping/pokemon_*.zip
+
+# Quiz PNG image assets
+/quiz/**/*.png
+
+# ZIP archives
+*.zip
+
+# JPG images
+*.jpg
+
+# WebP images
+*.webp

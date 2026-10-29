@@ -1,0 +1,4 @@
+interface:
+  display_name: "クイズ選択肢アイコン作成"
+  short_description: "imagegenで選択肢画像を生成し、全件照合・修正とPNG／WebPの書き出しまで行う"
+  default_prompt: "$quiz-choice-icons を使って、このクイズの問題と選択肢をもとに、試作からimagegenでアイコンを生成し、全件の整合性を確認・修正してPNGとWebPに書き出してください。"
