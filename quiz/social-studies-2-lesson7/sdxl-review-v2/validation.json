@@ -1,0 +1,18 @@
+{
+  "images_checked": 200,
+  "formats_checked": 600,
+  "revised_images": 161,
+  "original_images_preserved": 200,
+  "unique_large_pixel_hashes": 200,
+  "maximum_webp_mean_absolute_error": 8.14,
+  "review_status_counts": {
+    "aligned": 93,
+    "limited": 107,
+    "mismatch": 0
+  },
+  "metadata_matches_generation_prompts": true,
+  "question_and_all_four_choice_mappings_match_quiz_javascript": true,
+  "small_png_pixels_match_lanczos_resize": true,
+  "zip_crc_and_image_contents_match": true,
+  "limitations": "Mechanical validation does not establish historical accuracy or literal visual agreement with every prompt detail. See the individual visual observations."
+}

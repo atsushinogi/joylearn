@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q02_c",
+    "prompt": "Edit the provided image as the only edit target. Keep the Japanese regent, his tall BLACK BRIMLESS EBOSHI CAP, low writing desk and scroll. Change ONLY his robe to SIMPLE PLAIN DARK INDIGO SILK without any gold brocade, floral pattern, crests or ornamental print. Keep a natural color historical reenactment photograph. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q02_c.png"
+  },
+  {
+    "id": "q14_b",
+    "prompt": "Edit the provided image as the only edit target. Keep the aged Japanese legal manuscript, brush, inkstone and the four-diamond Takeda crest on the cloth. Change ONLY the ink writing on the paper: heavily defocus and blur the characters into faint soft gray vertical streaks. NO individual kanji, letter, number or word may remain recognizable. Paper grain, page edges and crest must remain sharp. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q14_b.png"
+  },
+  {
+    "id": "q14_c",
+    "prompt": "Edit the provided image as the only edit target. Keep the unrolled horizontal Japanese legal scroll, low wooden desk, brush and inkstone. Change ONLY the writing on the paper: strongly blur and defocus every ink character into faint soft gray vertical dashes, with absolutely no recognizable kanji, letters, numbers or readable words. Keep the paper grain, rollers, desk and brush sharp. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q14_c.png"
+  },
+  {
+    "id": "q14_d",
+    "prompt": "Edit the provided image as the only edit target. Pull the camera back a little so the ENTIRE OPEN BOOK, all four outer corners, covers and page edges are fully inside the square image with empty wooden desk margins on all sides. Preserve the flat printed Pikachu drawing on the left page and flat printed Bulbasaur drawing on the right page; neither character pops out of the paper. Preserve the illustrated book style. No words or letters. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q14_d.png"
+  },
+  {
+    "id": "q19_b",
+    "prompt": "Edit the provided image as the only edit target. Keep the unrolled Japanese law scroll, round war fan, brush, inkstone and wooden desk. Change ONLY the ink text on the scroll: heavily defocus it into faint soft gray vertical rows with no recognizable individual kanji, letters, numbers or words. Keep the scroll edges, fan and surrounding objects sharp. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q19_b.png"
+  },
+  {
+    "id": "q21_c",
+    "prompt": "Edit the provided image as the only edit target. Pull the camera back so BOTH COMPLETE buildings of Horyuji are fully in frame: the five-story wooden pagoda on the LEFT and the entire low wooden main hall on the RIGHT, including its far right roof edge and all outer corners. Leave clear sky or courtyard margins around both buildings. Preserve the architectural photograph, sunlight and natural colors. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q21_c.png"
+  },
+  {
+    "id": "q22_c",
+    "prompt": "Edit the provided image as the only edit target. Keep the open land survey ledger large in foreground, the writing brush, wooden measuring rods, rice field and historical workers. Remove ALL recognizable writing, kanji, Latin letters and numbers from the pages. Preserve the straight ruled record columns, but make every ink entry a faint, strongly blurred gray vertical mark that cannot be read as any character. Keep all other objects sharp. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q22_c.png"
+  },
+  {
+    "id": "q26_b",
+    "prompt": "Edit the provided raw silk photograph. Arrange the ivory raw silk as several clearly LONG TWISTED SKEINS on the wooden tray. Beside these skeins place EXACTLY TWO small CLOSED OVAL WHITE SILKWORM COCOONS with fine fibrous surfaces. Only these two separate objects should look like closed cocoons; every other silk object must be an elongated skein. Keep soft natural light, realistic silky texture and a simple textile product photograph. No text, no labels. Output one square 1024x1024 image.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/images-sdxl/q26_b.png"
+  },
+  {
+    "id": "q28_b",
+    "prompt": "Edit the provided image as the only edit target. Keep the horizontal legal scroll on the wooden desk with the brush and inkstone. Strongly defocus ONLY the written ink characters on the paper into soft faint gray vertical streaks. No individual kanji, Latin letter, number or readable word may remain recognizable. Preserve sharp paper grain and sharp surrounding artifacts. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q28_b.png"
+  },
+  {
+    "id": "q28_c",
+    "prompt": "Edit the provided image as the only edit target. Keep the Japanese official presenting a paper to the seated daimyo in the wooden palace. Change ONLY the writing on that held paper: make all ink marks faint and heavily out of focus, with absolutely no recognizable kanji, letters, numbers or words. Preserve the people, hands, clothes, paper edges and palace sharply. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q28_c.png"
+  },
+  {
+    "id": "q40_a",
+    "prompt": "Edit the provided image as the only edit target. Preserve Seville Torre del Oro watchtower, the Guadalquivir river and the Renaissance wooden sailing ship. REMOVE EVERY modern Spanish national flag from the ship and scene, leaving plain unflagged masts and ropes. Do not replace flags with other symbols or modern objects. Preserve the architecture, ship and natural color daylight photograph. Output exactly ONE square 1024x1024 image. Change only what is explicitly requested and preserve the other scene details.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q40_a.png"
+  },
+  {
+    "id": "q43_c",
+    "prompt": "Edit the provided Japanese seal photograph. Preserve the paper, red square border and EXACT existing four kanji, unchanged in shape and vertical order: right column 一 above 所, left column 懸 above 命. The complete phrase is 一所懸命. Add ONE wooden Japanese seal stamp block AND ONE traditional calligraphy brush in the empty space beside the paper, both clearly visible, without covering any of the four characters or the red border. Keep a realistic antique stationery photograph with soft natural lighting. No additional text or symbols. Output one square 1024x1024 image.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/images-sdxl/q43_c.png"
+  }
+]

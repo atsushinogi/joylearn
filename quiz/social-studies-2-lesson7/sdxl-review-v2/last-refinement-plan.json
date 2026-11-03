@@ -1,0 +1,12 @@
+[
+  {
+    "id": "q02_a",
+    "prompt": "Edit only the folding fan in the Japanese shogun photograph. FULLY CLOSE the folding fan so ALL its slats are stacked together as one narrow straight folded object, with no fan-shaped opening. Keep the same hand holding it in his lap. Preserve the man, black brimless eboshi cap, indigo robes, tatami, sheathed sword, room and lighting exactly as shown. One square 1024x1024 image.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q02_a.png"
+  },
+  {
+    "id": "q46_a",
+    "prompt": "Edit the river levee photograph. Remove the TALL CRANE-LIKE tripod, its suspended baskets, hanging ropes and construction workers. Replace the foreground timber barrier with a traditional Japanese SEIGYU river-training structure: a LOW triangular pyramid-like framework made of THREE PAIRS of heavy logs leaning together like joined roof trusses, connected by one horizontal ridge timber and low base timbers. Large stone-filled woven cylindrical baskets REST FIRMLY ON THE BASE of this timber framework as weights; they are NOT hanging in the air. The structure stands partly in shallow flowing water at the foot of the earthen levee. No crane, pulley, suspended load, concrete or machinery. Preserve the natural river, earthen embankment and mountain landscape. Photorealistic historical reconstruction, no labels or writing. One square 1024x1024 image.",
+    "source": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson7/sdxl-review-v2/imagegen-candidates/q46_a.png"
+  }
+]

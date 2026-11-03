@@ -1,0 +1,1041 @@
+{
+  "verified_utc": "2026-10-31T04:06:36.378554+00:00",
+  "http_verified": 205,
+  "webp_verified": 200,
+  "public_url": "https://www.asahi-net.or.jp/~fk5a-ng/quiz/social-studies-2-lesson9/",
+  "top_url": "https://www.asahi-net.or.jp/~fk5a-ng/",
+  "all_public_sha256_match_local": true,
+  "upload": {
+    "uploaded_utc": "2026-10-31T04:04:47.268117+00:00",
+    "files": 205,
+    "scope": "lesson9 WebP, scripts, application entry, then root index",
+    "deleted_files": 0
+  },
+  "files": [
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q01_a.webp",
+      "bytes": 8030,
+      "sha256": "f7939ccf61b73399333c43eb558f9aed4aa2f9a11039e0352fc82f46c6c0cc41"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q01_b.webp",
+      "bytes": 8472,
+      "sha256": "8ef5031812ac9f490b2e9141cb046367c2cd6ddf95f08746babd8b8535a67d79"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q01_c.webp",
+      "bytes": 9712,
+      "sha256": "66f5bcaa5085df9ef3aec5e688f9f587dbbb32593bb3b8babf18eaf5f48bcd7d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q01_d.webp",
+      "bytes": 6894,
+      "sha256": "5953250a8b2ea11456d376331521231847b994cc2ea016a809ef774bcac3df33"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q02_a.webp",
+      "bytes": 10064,
+      "sha256": "365e7913679b683f8089aa65673db31c3115d114de983bc673ca943547b289a9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q02_b.webp",
+      "bytes": 9586,
+      "sha256": "26af684528b43e10fc5a7980575be7dbfdc1b52608ccd31089bd5fad24cb8fcb"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q02_c.webp",
+      "bytes": 8904,
+      "sha256": "41e81c20cc1e52c586e19d429ea6b6436eb45c271fe3c6b3c0aeaadda6c4c268"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q02_d.webp",
+      "bytes": 9576,
+      "sha256": "a9293a8f2120f0058b7162b007042ed18f361ce2ee5100294b0ea225ad8357a7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q03_a.webp",
+      "bytes": 6674,
+      "sha256": "db663cbe9ab7a0bc92885818951796b2b7ff458e57b0afb5471fd36c09aacab7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q03_b.webp",
+      "bytes": 7730,
+      "sha256": "54efa69d9306b0f232b192bbb774b58c96b2f26e075b98380a68196f31c4b6c1"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q03_c.webp",
+      "bytes": 6328,
+      "sha256": "c45deceb4d988f4cf0adb11fc57c1a9c5cd44e93ff7f828a2406a6a96d7ceeac"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q03_d.webp",
+      "bytes": 9056,
+      "sha256": "6693cbf2b5144061b6beba7d2f662d7b601e7b7552939fe0587e484ed25f2eb6"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q04_a.webp",
+      "bytes": 8850,
+      "sha256": "ade122733580eea9c973e9c4910107c64696e8b2982a307de16d25fe5cde0277"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q04_b.webp",
+      "bytes": 10294,
+      "sha256": "3a877cb6a28bb6c6c2821d89c01a40dc53400c84fcffd8e1bbc1afa58cc9d90c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q04_c.webp",
+      "bytes": 7852,
+      "sha256": "5764a53e4e41fe6f0ec2fcbbbd9b31a05f6640a3e2182f22988763f24c4ac501"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q04_d.webp",
+      "bytes": 7734,
+      "sha256": "db21e3791f7679be791253083d3dcf1e091dc6445e06120eac98f6d5d7f0e997"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q05_a.webp",
+      "bytes": 7970,
+      "sha256": "ad89813e6cc0ec7efde46185316f40271ffbe39ffb391d1b820ff381a04787e6"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q05_b.webp",
+      "bytes": 7262,
+      "sha256": "c792ad586376d9b32b4cdb7424a165ef9cef434269b7c97a556049e96f61833e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q05_c.webp",
+      "bytes": 8506,
+      "sha256": "629ca329d54554823988120d531a750e00467c0394bf94049228857bc65a2b25"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q05_d.webp",
+      "bytes": 8072,
+      "sha256": "82fc9e8fdee18815d0d06f68720b818aa308ff86d18dc33749ed721e3ecd7ae6"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q06_a.webp",
+      "bytes": 7714,
+      "sha256": "f127c90a36a0d60393495a99834819d89e7a5270ba88b9e561b512e4ec7b847a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q06_b.webp",
+      "bytes": 7024,
+      "sha256": "49320dda7b55c3fb26a008a29db3dd169c5e418f777f156c489f663354e43f56"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q06_c.webp",
+      "bytes": 6318,
+      "sha256": "03f4f0fdfd33718cde3dbe638b967afa577b28438c6221491e50d0ad0d5c5920"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q06_d.webp",
+      "bytes": 9290,
+      "sha256": "0bbd691eb17662b3df637c5c2342f9a4765125a9ca3dceadb5a0f5dd34594380"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q07_a.webp",
+      "bytes": 11170,
+      "sha256": "33bbd9bc4255fc625ff47d25683f8220b4c9122aaefb401749d395f28602011c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q07_b.webp",
+      "bytes": 7558,
+      "sha256": "a852f060d2494b246a9441700fbf2ed784527c0ec8c790129f3fac194bb666a5"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q07_c.webp",
+      "bytes": 8556,
+      "sha256": "5dd4b73c97e8ffde0efe0be7124af79fbe317ec8192f9e0269aa0161a5e6a5c2"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q07_d.webp",
+      "bytes": 9202,
+      "sha256": "e934bad8b7d3d266af8fdc851f0e86f41f37c59b702c1df2b9553ea153bb31c2"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q08_a.webp",
+      "bytes": 10324,
+      "sha256": "69c74116723ae9dc28188a01feefdee29ee1f8be42a37b4082b4d4451280e60f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q08_b.webp",
+      "bytes": 9702,
+      "sha256": "674e12e3d0a59d30b40c7c746760092b3af6cbaaf04d9c066095e1370ff932ef"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q08_c.webp",
+      "bytes": 8766,
+      "sha256": "16c88b489989758816e4aaad72adc44ad7d052c088603909203d7e1f15caf47e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q08_d.webp",
+      "bytes": 8644,
+      "sha256": "e5e0a7ed072266de8d044f4e4ae05d855fd850d26e624d6608ff68fc4126cd4d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q09_a.webp",
+      "bytes": 9434,
+      "sha256": "c18793c5a5886dc6f05bc894275ab549c2f41079d1c4f58858b440cc818f46b2"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q09_b.webp",
+      "bytes": 7680,
+      "sha256": "4b591eab0355d6a0f14676e2ce2414f5a6fe0e6bc17d56408cb6e8f5137d0884"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q09_c.webp",
+      "bytes": 6432,
+      "sha256": "b64861f2e404b678b3395a30ca84ba640a291a74ebc7318ab0e08326bb93e78c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q09_d.webp",
+      "bytes": 7914,
+      "sha256": "59fd13927079969733c300781b8cc2b53bc10de481f5a1d53651cc19871099c1"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q10_a.webp",
+      "bytes": 8538,
+      "sha256": "96b23d911b0fe51b2d24add8d2a8bc96cb058b44822fae714bf10fc57478649e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q10_b.webp",
+      "bytes": 10176,
+      "sha256": "9a1038f6ea1f3b24e500fe5a7b573f567b6e13b05178e5edc2a0f6e14efbdcd1"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q10_c.webp",
+      "bytes": 7332,
+      "sha256": "2a6b96b366b0c60a4cf4752b6d18f55f26d815c5b088055507a027ae6c9d7a51"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q10_d.webp",
+      "bytes": 7250,
+      "sha256": "fdc29245cf5c7ef3c9427c3cba579c194d23879a9ea541693619c4b936dabad8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q11_a.webp",
+      "bytes": 9236,
+      "sha256": "bb1cb36d1e18ee303b93bf15cbbd7807fd6a589e44d8922496a5feecb976d0fd"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q11_b.webp",
+      "bytes": 8792,
+      "sha256": "561b4304d6702b3d76692da49fdb4d727931d7a7b1ac384f0f0a73d32673f9fd"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q11_c.webp",
+      "bytes": 7750,
+      "sha256": "8748b4e35662e9c65ed81c095de594d02a8425e4c24a69919589835b282ebf03"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q11_d.webp",
+      "bytes": 7788,
+      "sha256": "f91dbb305eb229df53bc17c1b2f5fd87532c25bcd416f78dc9b39c2a96f896da"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q12_a.webp",
+      "bytes": 9040,
+      "sha256": "6e8fc00d11b7cca8cc695302b5ce37fb8a8520b8df32ebad44c47541b56421ff"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q12_b.webp",
+      "bytes": 8598,
+      "sha256": "c3dcd39aa1af195f468b49e31f049f263b67637f305cf3f42a90666754d8fb41"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q12_c.webp",
+      "bytes": 8878,
+      "sha256": "40035047a8d0f26be31b911a5f2112521eb60f2d09f7247deb440f60b69e1a5a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q12_d.webp",
+      "bytes": 9826,
+      "sha256": "6db220a57f1c15129dfd5d7f8bde19779518164c459a416d5c6812d74c21995c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q13_a.webp",
+      "bytes": 9064,
+      "sha256": "1e23787f152ff5ae0142c087b7cb424c06b4cdbbd0f40643fe4394b241db1601"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q13_b.webp",
+      "bytes": 6718,
+      "sha256": "f578989680787ba57dde1338f38a4be89f8ef711c66f8d63cd56fe9858bdd055"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q13_c.webp",
+      "bytes": 8370,
+      "sha256": "2b053122dc39daf4ebc1b81240aaf602c60ad98834195534e31e75b5e47222cb"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q13_d.webp",
+      "bytes": 8028,
+      "sha256": "e89936d64493279420dcf12dd069c7e4ce1eec3883363afc85b787cd5afc8263"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q14_a.webp",
+      "bytes": 9118,
+      "sha256": "44b57ca04a35809599a96d5eb47978a28727135b906aca012589467010084a52"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q14_b.webp",
+      "bytes": 7880,
+      "sha256": "ecd6a6dba5348459ca204a6fb13c8e5855b328fa7737a32a28fe4ab10c0c1391"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q14_c.webp",
+      "bytes": 6174,
+      "sha256": "97328f7fd420453ded50df05602a678f4780dd89dd48a14a530d6df841695d61"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q14_d.webp",
+      "bytes": 7810,
+      "sha256": "7d8f78000382d169772b31fa98fed4f6b67ef41437a071d8210a6d541ad22a33"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q15_a.webp",
+      "bytes": 7420,
+      "sha256": "0797d50df96ffe777b736ef2e9bb43abfce24cba3cafc4249332176b81d97418"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q15_b.webp",
+      "bytes": 8380,
+      "sha256": "03bf487240c039e46e1e4d17b429ffcec0392307165247bd68029fed3e9614d6"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q15_c.webp",
+      "bytes": 7588,
+      "sha256": "998c12b6ca8a6d762ed547daa1b35b5854238ecb262afa866d39450b1fcc6a9e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q15_d.webp",
+      "bytes": 8062,
+      "sha256": "081143f76139203aa4d7be6edf3f2b8249f779e92026a77f8ad398939deb1cf8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q16_a.webp",
+      "bytes": 7872,
+      "sha256": "b8444fe10a5e6c7d7cee21b5b4f2933530421bcd935327d6105aede05fc730e7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q16_b.webp",
+      "bytes": 7554,
+      "sha256": "d2cc98fa9c1fc5955b04f5d13d5101265248e8da9f596bcf5ea0b90664169f17"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q16_c.webp",
+      "bytes": 8668,
+      "sha256": "f81396e78e387ca2bef298855aa3612a61d8cb4ab266c97ef4dbc59d7d973424"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q16_d.webp",
+      "bytes": 8904,
+      "sha256": "aa2b17bdf90e9497f6b89cb58b8d2f08981555961852066983f0a0f532a8d89e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q17_a.webp",
+      "bytes": 9304,
+      "sha256": "bdbdb52df576514d26e812bfd3025881e1d0393ad55a49fa19f8ebb30393ccd5"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q17_b.webp",
+      "bytes": 8314,
+      "sha256": "c258a5825ec22052e9e370691df9925df953bfe8749d63ffd41c221ae842021f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q17_c.webp",
+      "bytes": 8866,
+      "sha256": "17d7cdf1cd87bc6d4be303331a8a0977b944d1ab8404313a0d92e889052f9154"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q17_d.webp",
+      "bytes": 7428,
+      "sha256": "09b96b5d0448599667e429985e79cb58ad43bf9376e6e323f133fb956560eea4"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q18_a.webp",
+      "bytes": 8400,
+      "sha256": "95d75c17fe6385750b1eecc9ff1b47b55df6582fc794ee6f24de703155775e83"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q18_b.webp",
+      "bytes": 9126,
+      "sha256": "ce3a8ddab0642ca7bd7284e92327af0f7595022879bcd07345eb1e3006040d4f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q18_c.webp",
+      "bytes": 9562,
+      "sha256": "eb225e2c706d1d77720914f357299a945c472c446965806adcd5b6a7d25cd730"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q18_d.webp",
+      "bytes": 5880,
+      "sha256": "fe4d59a34c85c50f66cda906c857a96e594492a4212f93ccde9ed1e02c84569c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q19_a.webp",
+      "bytes": 9066,
+      "sha256": "93d63f95e8ee18719e16f3618495336162f9598032417f55f00f44144abe6193"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q19_b.webp",
+      "bytes": 8068,
+      "sha256": "6215e52599842a341fe3b95b7cdbf22815bf8a857fe9d85d1b4d68e86fc9295a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q19_c.webp",
+      "bytes": 8404,
+      "sha256": "ebde6db2bd483fecae4f3260a03f9edd728edc45a9ddee965f3f42c5af399bec"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q19_d.webp",
+      "bytes": 8728,
+      "sha256": "4c40b2d8a84e3c46a8d29afa369f2623637e70600f318929ef03488770a9796a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q20_a.webp",
+      "bytes": 9546,
+      "sha256": "ecc148c7fab6a76c8374ebd038ddd6ca6e9e246e099b304bea2201acf240e11a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q20_b.webp",
+      "bytes": 7450,
+      "sha256": "c1df4437d440c6b1e89f95404b401f38839fe5a0c74097f68ee43be45d570895"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q20_c.webp",
+      "bytes": 6360,
+      "sha256": "538f15928b506d7eacc4aa3041a4dedb6596423e816b7efa0fa162a6a51fe8fe"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q20_d.webp",
+      "bytes": 8352,
+      "sha256": "905874d29d8d46881d786f62090c705fededfd44e8d13d4137b7c9b9f6c4d4c9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q21_a.webp",
+      "bytes": 8672,
+      "sha256": "5befb1d3a2e4698ee8a9a5bdd4151f3601ea66688edf9f24ce6b945f0f7a173a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q21_b.webp",
+      "bytes": 9944,
+      "sha256": "91beea52fc0d9009ff10fd4a8a8ab8ffbff18b49da52534bf556a17146cbe7d4"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q21_c.webp",
+      "bytes": 7168,
+      "sha256": "5ef4a7a218d4d3201d80f08678e7be4b6475c4544585a4d85d03cfd2dd327420"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q21_d.webp",
+      "bytes": 6686,
+      "sha256": "12bec9fc60fdabf6bb293735c552efac8709ef541e241b4edc7d733ca1cda0d0"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q22_a.webp",
+      "bytes": 7682,
+      "sha256": "c31b1bae0e243b1b0f990ef9f7017ccab93d5f0214ff081c9629bf320e6f76ba"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q22_b.webp",
+      "bytes": 7954,
+      "sha256": "f43c6cf3336b46d744dc5318c710834c22128c766a9fb8703bbc9cc109e15cd3"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q22_c.webp",
+      "bytes": 7386,
+      "sha256": "3baa13620ca83ed2b1855fb78995b1515c0211e2aaaac1ae1450dc7fd21fce8b"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q22_d.webp",
+      "bytes": 9114,
+      "sha256": "39c0bb9ddfd538233dc585aaecbed5c90a28d1b290441e1bdb16d54fff09a580"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q23_a.webp",
+      "bytes": 6798,
+      "sha256": "950c0fe5d22604721aed9268edd421796812581ed44428e94ca1bde6f5696d49"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q23_b.webp",
+      "bytes": 7076,
+      "sha256": "ddee79ee310ef9cb67dd3a32ace0d04e4dba3c082870041e7a084ac6fe1de20a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q23_c.webp",
+      "bytes": 9616,
+      "sha256": "206ca4dca0b7f5db1d7c1d6a9ac8042d85cddd02be812f772fed4eba63cbf9f8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q23_d.webp",
+      "bytes": 8762,
+      "sha256": "ac9d9f17b1ece75ce00d64dbd3ffea9919079411dce54b7026c1cd0b88bf5196"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q24_a.webp",
+      "bytes": 9778,
+      "sha256": "86ba10a2db088b3615d323eebbe9a2f12a87c426411e52d548f6795b4f83c560"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q24_b.webp",
+      "bytes": 7098,
+      "sha256": "c452c8641947b962304374470ecb5fb9e1b4d5350e5174ae86472aaef8e9bb04"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q24_c.webp",
+      "bytes": 8538,
+      "sha256": "e1c9ac4a090535d56ad5095b84b311722345644ac2cac7851ef8ec96044d7953"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q24_d.webp",
+      "bytes": 6592,
+      "sha256": "da61f671b9cea9c7454afd4438079c1d4ae11eac613f9ba22ebbc43b1fc0a4bf"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q25_a.webp",
+      "bytes": 8554,
+      "sha256": "57478e1e9faae94172214611f2c23f345bd7eec8cb3ad239b89152b34d015ddf"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q25_b.webp",
+      "bytes": 8118,
+      "sha256": "e34b2c2153ca1f48b0e280e86fc8f3ba049538c3cdfa8bc13e954e5b9ede0220"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q25_c.webp",
+      "bytes": 10074,
+      "sha256": "25e88ecf63a3e7001c9c8704bccffda5c6c59f3a7184e0f69051c36e1cd10c18"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q25_d.webp",
+      "bytes": 8440,
+      "sha256": "e209f293ae1a648c28197707ba4c2433f2449177c803df4c80e0b81169a79d5d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q26_a.webp",
+      "bytes": 8964,
+      "sha256": "be8239a0bf5abf0a6c332fa2e7cf024715251fc7b08f91e8916eafa5fef19122"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q26_b.webp",
+      "bytes": 9158,
+      "sha256": "a5747374ed5598138e46729030c27300226660a0699a475e043c4a337f05b1d5"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q26_c.webp",
+      "bytes": 8424,
+      "sha256": "26213134d64573426a1555ed2ba0649ca18468f7f08e3f4f0bad6d1574a2610d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q26_d.webp",
+      "bytes": 8816,
+      "sha256": "dd5ff38a9be8812fa0639ce29e8afaa9c1edb3f402c0ebfd342d8a78cc0a8d3b"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q27_a.webp",
+      "bytes": 8246,
+      "sha256": "87b3458776ec52826bdf759ede4f4cbf725c9e02c5c3c3a3b6a0085c633bbced"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q27_b.webp",
+      "bytes": 8622,
+      "sha256": "2f72b6c0c1f4a808dd5a0b57bb15070967df9f0e23b48d9334650ada92538161"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q27_c.webp",
+      "bytes": 8044,
+      "sha256": "51dbda45305668dd23c98d2537a16f0677b77805c541a0f944bf0dd9010801b2"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q27_d.webp",
+      "bytes": 8488,
+      "sha256": "56d21d53862f69ff238935cd24692bf26b86dd2e5ecd2b7d0c614fdab3c3734d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q28_a.webp",
+      "bytes": 8290,
+      "sha256": "1aecc228c779bdba8aff3d428f98ef0617dea5a050a4d125404306002b4d38b8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q28_b.webp",
+      "bytes": 9238,
+      "sha256": "807f486343b35da173035fdc0dedfdf58e4860594424ecea11321c675e289558"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q28_c.webp",
+      "bytes": 11470,
+      "sha256": "e52dfcd6e7636c6bce4a234d22a6aa66978d1a16b0dd96fa2eb453a1e77b4723"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q28_d.webp",
+      "bytes": 8916,
+      "sha256": "0b8358b7760aa7d1273adb4906f15123164e32289f660a4e9b6d81036ea8bbd4"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q29_a.webp",
+      "bytes": 10166,
+      "sha256": "b4f103779bd08b848fdf65f7f88376c928e82153cd10ba1ce6591c506d8fedc9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q29_b.webp",
+      "bytes": 6638,
+      "sha256": "574957839471bbec6b47afc30aed137c2230f37d5d7ce5ca4e8a8f7ce06f4005"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q29_c.webp",
+      "bytes": 7152,
+      "sha256": "2a741f284a9777653fcc9135999e401ce1197aabfe96538f9d24ed94895d5f73"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q29_d.webp",
+      "bytes": 6802,
+      "sha256": "4c510c53b41ac94f6fb45bf26602b6a1b04f6747b393b29b1f2d024bacc78a64"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q30_a.webp",
+      "bytes": 11016,
+      "sha256": "55c1b6dc34c5992c3bd1b4bcdc631fe0c12c7ca192f5fa98295b3a27926f0c36"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q30_b.webp",
+      "bytes": 8732,
+      "sha256": "2de622bb3a64ed3129924242c4db3efcb9cab14af6a9b37eef2c997c049f1cf5"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q30_c.webp",
+      "bytes": 8220,
+      "sha256": "7a5235db54bae22c702a19a5ec5c74364d836287dc7750212f03a70bf26e5c2d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q30_d.webp",
+      "bytes": 9788,
+      "sha256": "4ac91db16ad5fdfb26372943da0189f6fa47911c3973a36f877e47253c3d2295"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q31_a.webp",
+      "bytes": 5972,
+      "sha256": "f54d37cc05340e6338d59d242a207da79c078094c67be2574046f62a51ef4ad2"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q31_b.webp",
+      "bytes": 8036,
+      "sha256": "f6e9bcdc080209f20246e507dd97170718a0e9da851f5ca3f490e6446b285eca"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q31_c.webp",
+      "bytes": 8146,
+      "sha256": "1e17094da38e537ffbcb84f1638201264d4c3bb1422324811b2ca7bb1a661aa9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q31_d.webp",
+      "bytes": 7232,
+      "sha256": "9484f0d32300857b6b589ada35142b577f0130c8b9523245a6688b72bdb692c8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q32_a.webp",
+      "bytes": 6878,
+      "sha256": "30f03a81d4d8e31fe48977fe5464dbd140b83199f7ed6382747bfa395020522f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q32_b.webp",
+      "bytes": 9638,
+      "sha256": "6a10a9167ac309bfff8f14bcbaff79fe2b8e6bc1e8b124d06feb5d1cdbc186d9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q32_c.webp",
+      "bytes": 8378,
+      "sha256": "f61f92cd2925104b7bcab86b3620926655ec3d9e0a36bd3c10098f228772832a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q32_d.webp",
+      "bytes": 7030,
+      "sha256": "f9e8798df7f9129b1975782bc06a5c065b84d2341ae8d86abc120126ad9b0d7f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q33_a.webp",
+      "bytes": 9724,
+      "sha256": "18eda44ee27a135f9b81eeca014ad5b4a3ce8971eb56e2c58b1a8bb292351a12"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q33_b.webp",
+      "bytes": 9776,
+      "sha256": "8387e66c2246ae0f98288983d9563ec41e7402d8e371df229b9bdfcc601b1f7c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q33_c.webp",
+      "bytes": 8864,
+      "sha256": "808f458bb74d789f66f27f3ed22722282c3ff3544a734453804f70a4e195b745"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q33_d.webp",
+      "bytes": 9310,
+      "sha256": "566703fc857dd732ec50510586cb3bbb75af9f7a763e24589069928943b26f9b"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q34_a.webp",
+      "bytes": 8566,
+      "sha256": "993d457b7b1b656821a23e9e31ecabf4b9f31dd6a7e5c4322acb5af529d76806"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q34_b.webp",
+      "bytes": 8088,
+      "sha256": "96df158e436508baa96a9606b68006f111649aa9b04f6de8ed9f469fc022be45"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q34_c.webp",
+      "bytes": 10774,
+      "sha256": "3b8e147449a16534c5b6e1b04723022e9f36652ff319d24ffb3d2195e3380361"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q34_d.webp",
+      "bytes": 8664,
+      "sha256": "0fe13275892cc323b0945824e35567e6a0fe1d7b02012696e69dc99f299fdaa9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q35_a.webp",
+      "bytes": 7542,
+      "sha256": "b49e55dfb84859424bbed365a6b6bee8a712b9fc537cdd76e1efda39ce3e335b"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q35_b.webp",
+      "bytes": 6848,
+      "sha256": "5194f21288643ed502550cf586368d888b048648d1b240ddb19021e2e78dcbac"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q35_c.webp",
+      "bytes": 10126,
+      "sha256": "7749e35f841ab37b88b8272dda62bc8d70956ae935e4e22b4b447f9f8e28afc1"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q35_d.webp",
+      "bytes": 6880,
+      "sha256": "988f342f14e2fb78cf2afe22b90de75efe0644d91cab90f881e451256cf7fe6f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q36_a.webp",
+      "bytes": 7624,
+      "sha256": "21b6b5abaa43b692c95014fd0a466f64bfa5823b4e092f51b1e477c12a508e1c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q36_b.webp",
+      "bytes": 7334,
+      "sha256": "840193ad5c637c7c3caec94280d5dcbbf306746323c73f37bfd51347290ae5e8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q36_c.webp",
+      "bytes": 8774,
+      "sha256": "4de86cfad7baa70ed4df5318fd404da465e55e4faed7b320efd372f1b8c4d35c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q36_d.webp",
+      "bytes": 6180,
+      "sha256": "78625112b451cf2ad23859ef8610686bffe412b1421714cf94c4dcae7808a593"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q37_a.webp",
+      "bytes": 10850,
+      "sha256": "a8e9d59eacc8db73043818b443e03593c61f0c403eda158be22edd5179bbf194"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q37_b.webp",
+      "bytes": 9456,
+      "sha256": "388fc24cd502c5018cf67ef4137e2b623e0b2251f1a1c9a82fcb89974507dd6a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q37_c.webp",
+      "bytes": 8656,
+      "sha256": "58f02a7c54583e9eb0e2d8b9b84699e1a113d2aec8b957e41b5c618a1034b17c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q37_d.webp",
+      "bytes": 9272,
+      "sha256": "9971f913418396faf2b95f46735d3078303f5e9a20ada6da71b6fdf34b375c31"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q38_a.webp",
+      "bytes": 8108,
+      "sha256": "62a3c09e28f39f275f5bb6a39003ff1c8cca6bd60302142b12638a22c6b90a1c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q38_b.webp",
+      "bytes": 7348,
+      "sha256": "0234586bdfdb0e20ec8206f87c8c133d8d49099e34b17dc603ae87268ccf1ecf"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q38_c.webp",
+      "bytes": 9638,
+      "sha256": "29b71a87df1f9e3755d1ac097452d5167afb857f96739c0cebf0f7619040f0fa"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q38_d.webp",
+      "bytes": 8938,
+      "sha256": "14b24744933315d4710be898ba63551f878910c8d16addb6043cf3c30affec75"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q39_a.webp",
+      "bytes": 8446,
+      "sha256": "9be2feafe300a7ca81b3c0e1c044ffaa2170998797484b543a89ef29ef295bf3"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q39_b.webp",
+      "bytes": 8716,
+      "sha256": "bc7fe779378db01b07049cac8a69547698e00f16d3b287fcdaf7c429f876d135"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q39_c.webp",
+      "bytes": 9124,
+      "sha256": "6d2c4f3f0c084043cb680b930963dcc78ef882a4eb7bd0e1a36a51128c9912dd"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q39_d.webp",
+      "bytes": 8058,
+      "sha256": "89cb0a919a9815b93c5cc09c898c210f935ffc6607bac2a0b579278e8b0f0f8b"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q40_a.webp",
+      "bytes": 7766,
+      "sha256": "3bbbec028c6419753c8a66131c85e306970056b2c60579780f8334cacf239090"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q40_b.webp",
+      "bytes": 6910,
+      "sha256": "15f04094257f0f1ec398b977dbb4430c421d72d3fee51858a8ae5a2d5e82a197"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q40_c.webp",
+      "bytes": 8312,
+      "sha256": "0cf05bf50ecd4e0e0e8e0630c66094fccf68a9f3b72b1db990a7fb20c7b8f30d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q40_d.webp",
+      "bytes": 7670,
+      "sha256": "2232c0314d0f1e8cc1d2687821e44b06425a26c50afb3d0f6dbd4198bcf82a81"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q41_a.webp",
+      "bytes": 6918,
+      "sha256": "421dc46073293def27dd9c752c0d16d9714f4c048d17a90ace07b48041e4bae1"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q41_b.webp",
+      "bytes": 8114,
+      "sha256": "17fe1e159708d05437ea0b68ba21895cbfcfe069ad534332ab6b15331dcbe1aa"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q41_c.webp",
+      "bytes": 7816,
+      "sha256": "3fd13b0989ddc2e099d622e75a17c7bf53b2d3c401e5db6e5fb816ec087e5bbb"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q41_d.webp",
+      "bytes": 8006,
+      "sha256": "e1ac314d7233ebe20462a68676f7bdc86b457dacf809541bace868afa4ad2b0e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q42_a.webp",
+      "bytes": 8016,
+      "sha256": "6b6e40db6d0ffbf7300ef86d981dfed285063a3084da996f960ca6c8597e9c49"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q42_b.webp",
+      "bytes": 8696,
+      "sha256": "531e4ce16f0b82ecf25e9398edeec2f05985dcf0d5ec00c8b3cdfa8c61c622fe"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q42_c.webp",
+      "bytes": 8058,
+      "sha256": "eab4475bbd657356c21a53a6001bd85bf45035b31e94d67b064c055005c3734b"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q42_d.webp",
+      "bytes": 9960,
+      "sha256": "233ba48a0f6261ca5fb74f4e9e72b6ac55256017b8f0df4e72d5fd17dc0f637a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q43_a.webp",
+      "bytes": 8760,
+      "sha256": "751242688404b5a3d5e686b5ced2061a522cc4003322891443703716b7d6f998"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q43_b.webp",
+      "bytes": 7824,
+      "sha256": "b9c291fb337dad364b1a60cfd310bfdedbc40306755fc47838cb08b4a4a3d83f"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q43_c.webp",
+      "bytes": 8812,
+      "sha256": "1897402d646b5484f6d792e70d7dba414461366d6e2dc500db21d04a602eea80"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q43_d.webp",
+      "bytes": 8252,
+      "sha256": "a30a963b84b6e609e306666121482b24f0a3b7ebb9fb02e68bf5a656214e2cf7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q44_a.webp",
+      "bytes": 6976,
+      "sha256": "77fe9de5adb150dd788a7d5ab17984addb1a22b53e465fca2b2083196d1f0858"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q44_b.webp",
+      "bytes": 8032,
+      "sha256": "ea1283dc6edca46e3039f9bfa26c0be58048bad8aada6cbbad1c116f61d9d571"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q44_c.webp",
+      "bytes": 7090,
+      "sha256": "f1148aa8366410df9dfa3745af88668220d49b9dc3e5479c30f18959d72e2126"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q44_d.webp",
+      "bytes": 6152,
+      "sha256": "5c8054dd997997653120f4c0ffe469cce0578e3a9d9e30704510ef7c8ef55866"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q45_a.webp",
+      "bytes": 8026,
+      "sha256": "15b6dcf610113720a884b1fcf8573c5dc04768c767017984e16817da48322ff8"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q45_b.webp",
+      "bytes": 8296,
+      "sha256": "627328d8bf9a59c624aaa17d88df479b98e561412e2d8d6cc75c05927ffb9a08"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q45_c.webp",
+      "bytes": 7188,
+      "sha256": "81cf49a4e1089fabad7cbccfe9d03287bf5ee0b0fb7a216a81aa8aa9e8959888"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q45_d.webp",
+      "bytes": 8358,
+      "sha256": "09456714f62879045efb5ac94362e771c4b86c81093ca4f775abef2f88831194"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q46_a.webp",
+      "bytes": 7694,
+      "sha256": "0caa80284828a2dc56e01c204bbe49994e945dc92e4ead9be541d4423f85a133"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q46_b.webp",
+      "bytes": 9768,
+      "sha256": "b5a31048df5c7be947591869be80b79bc8c21f54ed1fcc769838f90d6d0c1cb4"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q46_c.webp",
+      "bytes": 7952,
+      "sha256": "fb4e7471172b62392536b253584ed6e70fb7025220bcfebfe369639dd244eef7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q46_d.webp",
+      "bytes": 6408,
+      "sha256": "356d6b835e670611f0e39ff162203ebcfd3bc7ae4b191af44538b7e6f9d6929a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q47_a.webp",
+      "bytes": 9164,
+      "sha256": "87f4e678b27c01699addbdd99426e017d3982fc0d464b3d9aba8f32ea67fe7b7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q47_b.webp",
+      "bytes": 8194,
+      "sha256": "0217f9f291798807aef796b494e3e12bdb0fbfcb4ee0f4734536fc456b87cc65"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q47_c.webp",
+      "bytes": 8862,
+      "sha256": "a43aa5662d5d12fc692f80c7a613fb787f5ca26cd17da348186b9c4bf854bd50"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q47_d.webp",
+      "bytes": 10094,
+      "sha256": "c171c159454878e16a024de8ba892b265010db2b1feacc2c57213962e44ff161"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q48_a.webp",
+      "bytes": 8406,
+      "sha256": "c837c0b7baba0b0ab00fc7c2e680b39d6db9be81dd15c8a7c1fad45934e36afd"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q48_b.webp",
+      "bytes": 9258,
+      "sha256": "2c15155dfa54fb4f13ceb01e6fd5b599098ee15b79154775bd02a4346db96074"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q48_c.webp",
+      "bytes": 9420,
+      "sha256": "a961cc4e282944e26ab2e6ca5bccfb1186e3756da877986f6740a0199410f4a9"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q48_d.webp",
+      "bytes": 8496,
+      "sha256": "6b8c6cf4543d850c85880e056582776c14d165ad0ee3228b82019166d7a4141e"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q49_a.webp",
+      "bytes": 9806,
+      "sha256": "34097acc5b118750dfcddae55f49ac7162cb10e6eef939901aef82d177447bff"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q49_b.webp",
+      "bytes": 8662,
+      "sha256": "c7b86b23bb69ecb1c9caf1a504b3a02ba787fdcea146079709e30c3fe8db0c97"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q49_c.webp",
+      "bytes": 9598,
+      "sha256": "7bdd309895bba47805877b46293b7fac35a21f7a05b042f8510ff5e2acab7c67"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q49_d.webp",
+      "bytes": 8854,
+      "sha256": "eab0f7a5a6c4f2b715172b910b99c6d66cadea7cfd4e49a7c1d2650530203196"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q50_a.webp",
+      "bytes": 8854,
+      "sha256": "7368d8ed12a89e3028fc473998d5d841ea8c6733810dc290e2df5465ec23093a"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q50_b.webp",
+      "bytes": 9850,
+      "sha256": "b7c8fefe969c9d52bd04ff5f8e405cfc12f9c1758c1833fba2d94b14ad34d99c"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q50_c.webp",
+      "bytes": 9010,
+      "sha256": "1d185e450010ae5134d9649eba4f81450ee2131f7b1141b65ff7a99faa562632"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/images/q50_d.webp",
+      "bytes": 9732,
+      "sha256": "227cc42f519601b984f407c878565852727990219650a8c3ab779f1295a9285d"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/quiz-data.js",
+      "bytes": 37754,
+      "sha256": "74c6bef18db06d389b65043976f370d5a18841d5f85c1ff31fe7741f09dec6e7"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/choice-images.js",
+      "bytes": 4615,
+      "sha256": "e8aa231717fa330ac0efcd23f5d95761a5a2cc71fae81bb2c829e72d0e4c1415"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/app.js",
+      "bytes": 7934,
+      "sha256": "6578ff17bd09aca0bf6ea6ccffdf2d96e18d0b75f89328e1f569816390a7e952"
+    },
+    {
+      "path": "quiz/social-studies-2-lesson9/index.html",
+      "bytes": 18163,
+      "sha256": "98e8ff289d29b67aeb9852bc0d76fe1e1f2590b4f24a3761927103c15cacf0a0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 20131,
+      "sha256": "23fed44f2873cf86ae7b1ee3221e266f6775e9bb7f69d3566f4638aa6ee78fbe"
+    }
+  ]
+}
