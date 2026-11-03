@@ -1,8 +1,3 @@
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stickman Battle</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,6 +41,12 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .green{background:var(--green);box-shadow:inset 0 -5px 0 var(--green-d),0 0 0 2px #133a1a}
 .purple{background:var(--purple);box-shadow:inset 0 -5px 0 var(--purple-d),0 0 0 2px #24124d}
 .orange{background:#f2a422;box-shadow:inset 0 -5px 0 #c27a10,0 0 0 2px #5a3608}
+.teal{background:#1fb5a3;box-shadow:inset 0 -5px 0 #12806f,0 0 0 2px #0a3d36}
+.courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;width:min(900px,100%)}
+.course{background:var(--card);border:2px solid var(--card-edge);border-radius:8px;padding:10px 10px 12px;display:flex;flex-direction:column;align-items:center;gap:6px;color:#fff;font-weight:900;cursor:pointer;text-align:center}
+.course:hover{border-color:#8fbdf0}
+.course canvas{width:100%;height:auto;aspect-ratio:220/150;display:block;border-radius:4px;background:#14284d}
+.course .cn{font-size:20px}.course .ct{font-size:14px;color:#cfe3ff}.course .cs{color:#ffd23f;letter-spacing:.1em}.course .cb{font-size:13px;color:#cfe3ff}
 .blue{background:#3d8fe0;box-shadow:inset 0 -5px 0 #2a6cb6,0 0 0 2px #163a78}
 .red{background:var(--red);box-shadow:inset 0 -5px 0 var(--red-d),0 0 0 2px #4a0f0c}
 .big:active,.btn:active{transform:translateY(2px)}
@@ -107,7 +108,7 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .item button[disabled]{filter:grayscale(.8) brightness(.8);cursor:default}
 
 /* 2P select */
-#sel .wrap,#tsel .wrap,#psel .wrap{display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:calc(76px + env(safe-area-inset-top,0px));width:min(1120px,100%);padding-bottom:24px}
+#sel .wrap,#tsel .wrap,#psel .wrap,#asel .wrap{display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:calc(76px + env(safe-area-inset-top,0px));width:min(1120px,100%);padding-bottom:24px}
 .wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px;width:100%}
 .wtile{position:relative;background:#2a65ad;border:2px solid #4a85cc;border-radius:6px;padding:4px 4px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0;font-size:13px;line-height:1.1;text-align:center}
 .wtile canvas{width:100%;height:auto;min-height:0;flex:none;aspect-ratio:200/130;display:block}
@@ -132,8 +133,6 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion: reduce){ .switch::after{transition:none} }
 </style>
-</head>
-<body>
 
 <div id="app">
   <canvas id="game" tabindex="0" aria-label="Stickman Battle"></canvas>
@@ -161,6 +160,10 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
       <button class="card" id="card3" aria-label="トレーニング">
         <span class="art"><canvas id="icon3" width="240" height="220"></canvas></span>
         <span class="big orange" style="display:flex;align-items:center;justify-content:center">トレーニング</span>
+      </button>
+      <button class="card" id="card4" aria-label="アスレチック">
+        <span class="art"><canvas id="icon4" width="240" height="220"></canvas></span>
+        <span class="big teal" style="display:flex;align-items:center;justify-content:center">アスレチック</span>
       </button>
     </div>
     <p class="hint">1P：WASDで移動・Eでスキル・スペースでスーパー &nbsp;｜&nbsp; 2P：矢印キーで移動・シフトでスキル・エンターでスーパー</p>
@@ -246,6 +249,18 @@ button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
         </div>
       </div>
       <button class="btn green" id="pselGo" style="min-width:220px">スタート</button>
+    </div>
+  </div>
+
+  <div id="asel" class="screen" hidden>
+    <div class="topbar">
+      <div class="grp"><button id="aselBack" class="icon-btn" aria-label="もどる"><svg viewBox="0 0 24 24"><path d="M15.4 4.6L8 12l7.4 7.4-1.8 1.8L4.4 12l9.2-9.2z"/></svg></button></div>
+    </div>
+    <div class="wrap">
+      <h1 class="title" style="margin-top:0;font-size:clamp(32px,6vw,56px)">アスレチック</h1>
+      <p class="sub" style="margin:0;font-weight:800;color:var(--ink-dim);text-align:center">かべにふれてジャンプすると「かべジャンプ」！ 旗を目指してゴールまで登ろう</p>
+      <div class="courses" id="courseList"></div>
+      <p class="sub" style="margin:0;font-weight:800;color:var(--ink-dim);text-align:center">トゲ・ノコギリ・毒の沼にさわるか、大きく落ちるとチェックポイントからやり直し</p>
     </div>
   </div>
 
@@ -365,20 +380,32 @@ const WEAPONS = {
   bomb:   { name: '爆弾',       type: 'swing',  dmg: 15, reach: 50, len: 30, speed: 0.95, kb: 420, price: 950 },
   scythe: { name: '死神の鎌', type: 'swing', dmg: 17, reach: 82, len: 86, speed: 0.9, kb: 380, price: 2000 },
   arceus: { name: 'アルセウス・ブレイカー', type: 'swing', dmg: 18, reach: 74, len: 80, speed: 1.1, kb: 420, price: 2000, attr: '神属性' },
+  book:   { name: '精霊の魔導書', type: 'swing', dmg: 14, reach: 52, len: 30, speed: 1.0, kb: 360, price: 1800 },
 };
 /* every weapon gets its own Skill (E / Shift) and Super (Space / Enter) */
 const MOVES = {
   sword: ['dash', 'crescent'], katana: ['iai', 'thousand'], axe: ['boomerang', 'tornado'], spear: ['dive', 'spearrain'],
   pistol: ['burst', 'barrage'], hammer: ['slam', 'quake'], candy: ['spin', 'candybomb'], guitar: ['sound', 'concert'],
-  staff: ['icebolt', 'blizzard'], whip: ['hook', 'thunder'], bomb: ['bomb', 'bomber'], arceus: ['rainbow', 'genesis'], scythe: ['venom', 'reaper'],
+  staff: ['icebolt', 'blizzard'], whip: ['hook', 'thunder'], bomb: ['bomb', 'bomber'], arceus: ['rainbow', 'genesis'], scythe: ['venom', 'reaper'], book: ['summon', 'judgment'],
 };
 for (const id in MOVES) { WEAPONS[id].skill = MOVES[id][0]; WEAPONS[id].sup = MOVES[id][1]; }
-const SKILL_CD = { dash: 3.0, iai: 3.4, boomerang: 3.2, dive: 3.6, burst: 3.4, slam: 4.0, spin: 4.2, sound: 3.8, icebolt: 3.6, hook: 3.0, bomb: 2.6, rainbow: 3.2, venom: 4.0 };
-const SKILL_RANGE = { dash: 330, iai: 320, boomerang: 520, dive: 240, burst: 480, slam: 150, spin: 120, sound: 210, icebolt: 560, hook: 380, bomb: 520, rainbow: 600, venom: 450 };
-const SUPER_NAME = { crescent: '三日月の嵐', thousand: '千本斬り', spearrain: '槍の雨', tornado: 'オノの竜巻', quake: '大地震', candybomb: 'キャンディ爆弾', concert: 'ライブ', barrage: '連射', blizzard: '吹雪', thunder: '連鎖する雷', bomber: 'ボマー', genesis: 'アルティメット・ジェネシス', reaper: 'デス・サイズ・フルバースト' };
+const SKILL_CD = { dash: 3.0, iai: 3.4, boomerang: 3.2, dive: 3.6, burst: 3.4, slam: 4.0, spin: 4.2, sound: 3.8, icebolt: 3.6, hook: 3.0, bomb: 2.6, rainbow: 3.2, venom: 4.0, summon: 3.0 };
+const SKILL_RANGE = { dash: 330, iai: 320, boomerang: 520, dive: 240, burst: 480, slam: 150, spin: 120, sound: 210, icebolt: 560, hook: 380, bomb: 520, rainbow: 600, venom: 450, summon: 700 };
+const SUPER_NAME = { crescent: '三日月の嵐', thousand: '千本斬り', spearrain: '槍の雨', tornado: 'オノの竜巻', quake: '大地震', candybomb: 'キャンディ爆弾', concert: 'ライブ', barrage: '連射', blizzard: '吹雪', thunder: '連鎖する雷', bomber: 'ボマー', genesis: 'アルティメット・ジェネシス', reaper: 'デス・サイズ・フルバースト', judgment: '六精霊の審判' };
 const THOUSAND_R = 860; // Thousand Cuts radius
 const VENOM_R = 540; // Crescent Venom radius (smaller than Thousand Cuts)
 const QUAKE_R = 560; // Earthquake radius
+/* Spirit Grimoire: six spirits appear on the stage one at a time (in this order) every 10s while someone uses the book */
+const SPIRITS = [
+  { id: 'fire',   name: '炎の精霊', col: '#ff6a3d', rgb: '255,130,70' },
+  { id: 'forest', name: '森の精霊', col: '#5fd16a', rgb: '130,235,130' },
+  { id: 'wind',   name: '風の精霊', col: '#8fe8f2', rgb: '175,240,255' },
+  { id: 'shadow', name: '影の精霊', col: '#3b2a5e', rgb: '160,120,255' },
+  { id: 'dream',  name: '夢の精霊', col: '#ff9fd0', rgb: '255,165,215' },
+  { id: 'star',   name: '星の精霊', col: '#ffcb3d', rgb: '255,220,100' },
+];
+const SPIRIT_BY = Object.fromEntries(SPIRITS.map(q => [q.id, q]));
+const SPIRIT_EVERY = 10;
 const WEAPON_ORDER = Object.keys(WEAPONS);
 // drop items that no longer exist (the removed Blaster and Knife) from older saves
 save.owned = save.owned.filter(id => WEAPONS[id]); if (!save.owned.includes('sword')) save.owned.unshift('sword');
@@ -386,7 +413,7 @@ if (!WEAPONS[save.weapon]) save.weapon = 'sword';
 save.p2w = (save.p2w || []).map(id => WEAPONS[id] ? id : 'sword'); while (save.p2w.length < 2) save.p2w.push('sword');
 if (!WEAPONS[save.tw]) save.tw = save.weapon || 'sword';
 if (!WEAPONS[save.tdw]) save.tdw = 'none'; // training CPU's weapon ('none' = bare hands)
-const SKILL_INFO = { dash: '突進斬り', iai: '居合斬り', boomerang: 'ブーメラン', dive: '急降下突き', burst: '拡散ショット', slam: '地面たたき', spin: '回転斬り', sound: '音波', icebolt: '氷の矢', hook: 'フック', bomb: '爆弾', rainbow: 'レインボースラッシュ', venom: 'クレセント・ヴェノム' };
+const SKILL_INFO = { dash: '突進斬り', iai: '居合斬り', boomerang: 'ブーメラン', dive: '急降下突き', burst: '拡散ショット', slam: '地面たたき', spin: '回転斬り', sound: '音波', icebolt: '氷の矢', hook: 'フック', bomb: '爆弾', rainbow: 'レインボースラッシュ', venom: 'クレセント・ヴェノム', summon: '精霊召喚' };
 const COLORS = {
   blue:   { name: '青',   hex: '#22aaf2', price: 0 },
   green:  { name: '黄緑',   hex: '#43c84e', price: 120 },
@@ -526,6 +553,7 @@ addEventListener('keydown', e => {
   else if (G.state === 'paused' && (e.code === 'Escape' || e.code === 'KeyP')) resumeGame();
   if (G.state === 'select') selKey(e.code);
   if (G.state === 'guide' && e.code === 'Escape') setState('menu');
+  if (G.state === 'aselect' && e.code === 'Escape') setState('menu');
   if (G.state === 'pselect') { if (e.code === 'KeyA' || e.code === 'ArrowLeft') cyclePsel(-1); else if (e.code === 'KeyD' || e.code === 'ArrowRight') cyclePsel(1); else if (e.code === 'Enter' || e.code === 'Space') { e.preventDefault(); startLevel(save.level); } }
   if (G.state === 'tselect') { if (e.code === 'KeyA' || e.code === 'ArrowLeft') cycleTsel(-1); else if (e.code === 'KeyD' || e.code === 'ArrowRight') cycleTsel(1); else if (e.code === 'Enter' || e.code === 'Space') { e.preventDefault(); startTraining(); } }
   Audio.init();
@@ -606,6 +634,7 @@ class Fighter {
     this.atk = { phase: 0, t: 0, from: 0, to: 0, start: 0, aim: 0, hit: new Set(), s: 1 };
     this.atkCD = 0.5; this.skillCD = 1.2; this.superC = 0; this.dashT = 0; this.dashA = 0; this.spinT = 0; this.spinTick = 0; this.superT = 0; this.superQ = []; this.superE = 0;
     this.iaiT = 0; this.diveT = 0; this.diveAge = 0; this.slamT = 0; this.frozenT = 0; this.zip = null; this.bombHeld = false; this.poisonT = 0; this.poisonTick = 0; this.poisonDmg = 0; this.powerT = 0; this.sup = ''; this.weaponOut = false; this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
+    this.spirits = []; this.lastSpirit = null; this.prevSpirit = null; this.stealthT = 0; this.dazeT = 0;
     this.wa = this.facing > 0 ? 1.2 : Math.PI - 1.2; this.ext = 0.88; this.prevTip = null; this.trail = []; this.input = blankInput();
     this.runPhase = 0; this.target = null; this.gunCD = 0.6; this.recoil = 0; this.landT = 0;
     this.hw = 11 * this.s; this.hh = 48 * this.s;
@@ -631,7 +660,7 @@ class Fighter {
       else this.rag.stepDead(dt, G.arena.solids);
       return;
     }
-    for (const k of ['powerT', 'stunT', 'invT', 'shieldT', 'flashT', 'atkCD', 'skillCD', 'hazCD', 'gunCD', 'coyote', 'landT']) if (this[k] > 0) this[k] -= dt;
+    for (const k of ['stealthT', 'dazeT', 'powerT', 'stunT', 'invT', 'shieldT', 'flashT', 'atkCD', 'skillCD', 'hazCD', 'gunCD', 'coyote', 'landT']) if (this[k] > 0) this[k] -= dt;
     this.recoil *= Math.exp(-14 * dt);
     if (this.poisonT > 0) {
       this.poisonT -= dt; this.poisonTick -= dt;
@@ -651,13 +680,20 @@ class Fighter {
       return;
     }
     if (!this.ai || this.boss) this.superC = Math.min(100, this.superC + dt * (this.ai ? 4 : 2.5));
+    if (this.weapon === 'book') this.superC = this.spirits.length / SPIRITS.length * 100; // the book's super fills only by collecting spirits
     if (G.mode === 'train' && !this.dummy) this.superC = 100; // training: super always ready
     this.target = nearestFoe(this);
     if (this.ai) this.think(dt);
+    if (this.dazeT > 0) {
+      // asleep (Dream Spirit): no moving, jumping, attacking or skills
+      const I0 = this.input; I0.left = I0.right = I0.up = I0.down = I0.upP = I0.downP = I0.skillP = I0.superP = false;
+      this.stunT = Math.max(this.stunT, 0.1); this.atk.phase = 0;
+    }
     const I = this.input;
+    if (G.mode === 'park') { I.skillP = false; I.superP = false; }
     if (this.W.skill === 'bomb') this.bombInput(I);
     else if (I.skillP && this.skillCD <= 0 && !this.busy() && this.stunT <= 0.05) this.useSkill();
-    if (I.superP && this.superC >= 100 && this.superT <= 0 && this.iaiT <= 0) { this.diveT = 0; this.slamT = 0; this.spinT = 0; this.dashT = 0; this.useSuper(); }
+    if (I.superP && this.superC >= 100 && this.superT <= 0 && this.iaiT <= 0 && this.dazeT <= 0) { this.diveT = 0; this.slamT = 0; this.spinT = 0; this.dashT = 0; this.useSuper(); }
 
     const mv = (I.right ? 1 : 0) - (I.left ? 1 : 0);
     const ctrl = this.stunT > 0 ? 0.25 : 1;
@@ -786,6 +822,7 @@ class Fighter {
       const sp = this.sup;
       if (sp === 'reaper') { this.wa = lerpAngle(this.wa, -Math.PI / 2 - this.facing * 0.5, 1 - Math.exp(-12 * dt)); this.ext = 1; return; }
       if (sp === 'genesis') { this.wa = lerpAngle(this.wa, -Math.PI / 2, 1 - Math.exp(-14 * dt)); this.ext = 1.1; return; }
+      if (sp === 'judgment') { this.wa = lerpAngle(this.wa, -Math.PI / 2 - this.facing * 0.35, 1 - Math.exp(-12 * dt)); this.ext = 1; return; }
       if (sp === 'bomber') { this.wa = lerpAngle(this.wa, -Math.PI / 2 - this.facing * 0.3, 1 - Math.exp(-16 * dt)); this.ext = 0.9; return; }
       if (sp === 'blizzard') { this.wa = lerpAngle(this.wa, -Math.PI / 2 + this.facing * 0.15, 1 - Math.exp(-16 * dt)); this.ext = 1; return; }
       if (sp === 'barrage' || sp === 'candybomb' || sp === 'thunder') { this.wa = lerpAngle(this.wa, t ? aimA : (this.facing > 0 ? 0 : Math.PI), 1 - Math.exp(-18 * dt)); if (t) this.facing = Math.cos(aimA) >= 0 ? 1 : -1; this.ext = 0.95 - this.recoil * 0.15; return; }
@@ -887,6 +924,7 @@ class Fighter {
   }
   hazardHurt(dmg, kx, ky) {
     if (!this.alive || this.invT > 0) return;
+    if (G.mode === 'park') { parkFail(this); return; } // アスレチック: hazards send you back to the checkpoint
     if (this.shieldT > 0) { this.vx = kx; this.vy = ky; return; }
     this.hp -= dmg; this.flashT = 0.1; this.stunT = Math.max(this.stunT, 0.2);
     if (kx || ky) { this.vx = kx; this.vy = ky; this.rag.impulse(this.x, this.y, kx, ky); }
@@ -1004,6 +1042,10 @@ class Fighter {
       }
       G.projs.push({ k: 'hook', wid: 'whip', x: h.x, y: h.y, vx: Math.cos(ang) * 1400, vy: Math.sin(ang) * 1400, rot: ang, team: this.team, owner: this, dmg: 8 * this.dmgMul, kb: 0, life: zip ? 0.38 : 0.29, r: 8, g: 0, hit: new Set(), age: 0, zip });
       Audio.play('hook');
+    } else if (sk === 'summon') {
+      // Spirit Grimoire: use the power of the spirit picked up last
+      if (!this.lastSpirit) { this.skillCD = 0.4; floatText(this.x, this.y - 80, '精霊がいない', '#d9deea'); }
+      else castSpirit(this, this.lastSpirit, t, dist, ang);
     } else if (sk === 'venom') {
       // Death's Scythe: a ring of venom crescents sweeps out; enemies inside take damage and 3s of poison
       const R = VENOM_R * this.s, c0 = this.center();
@@ -1083,11 +1125,11 @@ class Fighter {
   foesNear(R) { return G.fighters.filter(o => o.alive && o.team !== this.team && Math.hypot(o.x - this.x, o.y - this.y) < R); }
   useSuper() {
     const sp = this.W.sup; this.sup = sp; this.superC = 0; this.superE = 0; this.superN = 0; this.atk.phase = 0;
-    const D = { crescent: 1.0, thousand: 1.2, spearrain: 1.0, tornado: 1.5, quake: 1.6, candybomb: 0.55, blizzard: 1.25, thunder: 1.0, bomber: 0.9, genesis: 1.7, reaper: 2.0, concert: 1.05, barrage: 1.2 }[sp];
+    const D = { crescent: 1.0, thousand: 1.2, spearrain: 1.0, tornado: 1.5, quake: 1.6, candybomb: 0.55, blizzard: 1.25, thunder: 1.0, bomber: 0.9, genesis: 1.7, reaper: 2.0, judgment: 1.7, concert: 1.05, barrage: 1.2 }[sp];
     this.superT = D; this.invT = Math.max(this.invT, D + 0.05);
     this.superQ = ({
       crescent: [0.02, 0.3, 0.58], thousand: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0], spearrain: [0.1, 0.26, 0.42, 0.58, 0.74],
-      tornado: [], quake: [], candybomb: [0.18], blizzard: [0.12, 1.1], thunder: [0.12, 0.45, 0.78], bomber: [0.42], genesis: [0.3, 1.0], reaper: [0.25, 1.2], concert: [0.05, 0.3, 0.55, 0.8], barrage: Array.from({ length: 10 }, (_, i) => 0.12 + i * 0.1),
+      tornado: [], quake: [], candybomb: [0.18], blizzard: [0.12, 1.1], thunder: [0.12, 0.45, 0.78], bomber: [0.42], genesis: [0.3, 1.0], reaper: [0.25, 1.2], judgment: [0.25, 1.1], concert: [0.05, 0.3, 0.55, 0.8], barrage: Array.from({ length: 10 }, (_, i) => 0.12 + i * 0.1),
     })[sp].slice();
     this.quakeArm = false; this.quakeDown = false; this.tornTick = 0;
     if (sp === 'quake') { this.vy = -1050; this.vx *= 0.3; this.onGround = false; this.quakeArm = true; }
@@ -1207,6 +1249,18 @@ class Fighter {
         }
         Audio.play('super'); addShake(14); G.flashT = 0.12;
       }
+    } else if (sp === 'judgment') {
+      if (n === 0) {
+        // the six spirits leave the book and circle above it
+        G.judge = { owner: this, t: 0, max: 1.8, targets: G.fighters.filter(o => o.alive && o.team !== this.team) };
+        G.banner = { txt: '六精霊の審判', col: '#fff3b0', t: 1.7, max: 1.7 }; G.dimT = 1.3;
+        Audio.play('holy'); addShake(5);
+      } else {
+        // their light erases every opponent; the collected spirits go back into the book (collect them again)
+        for (const o of G.fighters) if (o.alive && o.team !== this.team) o.erase(this);
+        this.spirits = []; this.lastSpirit = null; this.prevSpirit = null; floatText(this.x, this.y - 90, '精霊が本にもどった', '#fff3b0');
+        Audio.play('super'); addShake(14); G.flashT = 0.12;
+      }
     } else if (sp === 'bomber') {
       // throw all 12 bombs out in a ring
       for (let i = 0; i < 12; i++) {
@@ -1313,7 +1367,8 @@ function bodyHit(o, ax, ay, bx, by) {
 }
 function nearestFoe(f) {
   let best = null, bd = 1e9;
-  for (const o of G.fighters) { if (!o.alive || o.team === f.team) continue; const d = Math.hypot(o.x - f.x, (o.y - f.y) * 1.3); if (d < bd) { bd = d; best = o; } }
+  for (const o of G.fighters) { if (!o.alive || o.team === f.team) continue; if (o.stealthT > 0 && Math.hypot(o.x - f.x, o.y - f.y) > 150) continue; // Shadow Spirit: hard to target from afar
+    const d = Math.hypot(o.x - f.x, (o.y - f.y) * 1.3); if (d < bd) { bd = d; best = o; } }
   return best;
 }
 function platUnder(f) {
@@ -1328,6 +1383,98 @@ function hazardAhead(f, dir) {
 }
 
 /* ---------------- Projectiles & effects ---------------- */
+/* ---------- Spirit Grimoire ---------- */
+// a free standing spot on top of a platform / the floor, clear of other blocks, spikes and acid
+function freeSpot(hh, from, minD) {
+  const A = G.arena, S = A.solids, hw = 16;
+  const tops = S.filter(q => q.k === 'plat' || q.edge === 't');
+  for (let i = 0; i < 400; i++) {
+    const q = pick(tops); if (!q) break;
+    const x0 = Math.max(q.x + 22, 50), x1 = Math.min(q.x + q.w - 22, A.w - 50); if (x1 <= x0) continue;
+    const x = rand(x0, x1), y = q.y - hh - 2;
+    if (y - hh < 30) continue;
+    if (from && Math.hypot(x - from.x, y - from.y) < minD) continue;
+    if (S.some(r => r !== q && x + hw > r.x && x - hw < r.x + r.w && y + hh > r.y && y - hh - 24 < r.y + r.h)) continue;
+    if (A.spikes.some(k => x > k.x - 24 && x < k.x + k.w + 24 && Math.abs(q.y - k.y) < 40)) continue;
+    if (A.acid.some(a => x > a.x - 16 && x < a.x + a.w + 16 && q.y >= a.y - 8 && q.y <= a.y + a.h + 8)) continue;
+    return { x, y, top: q.y };
+  }
+  return null;
+}
+function spawnSpiritOrb() {
+  if (G.spiritOrbs.length >= SPIRITS.length) return;
+  const sp = freeSpot(48, null, 0); if (!sp) return;
+  // random order each round of six, but the Star Spirit always comes last
+  if (!G.spiritBag || !G.spiritBag.length) { const b = SPIRITS.filter(q => q.id !== 'star').map(q => q.id); for (let i = b.length - 1; i > 0; i--) { const j = (Math.random() * (i + 1)) | 0; [b[i], b[j]] = [b[j], b[i]]; } b.push('star'); G.spiritBag = b; }
+  const S = SPIRIT_BY[G.spiritBag.shift()];
+  const o = { id: S.id, x: sp.x, y: sp.top - 48, age: 0, bob: rand(0, TAU) };
+  G.spiritOrbs.push(o);
+  ring(o.x, o.y, `rgba(${S.rgb},0.9)`, 60); floatText(o.x, o.y - 40, S.name + 'が現れた！', S.col === '#3b2a5e' ? '#b9a2ff' : S.col);
+  for (let i = 0; i < 16; i++) { const a = rand(0, TAU), v = rand(60, 200); G.parts.push({ k: 'dot', x: o.x, y: o.y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 0.6, max: 0.6, col: `rgb(${S.rgb})`, size: rand(2, 4), g: 0 }); }
+  Audio.play('spawn');
+}
+function pickSpirits(f) {
+  for (const o of G.spiritOrbs) {
+    if (o.taken || o.age < 0.3) continue;
+    const c = f.center();
+    if (Math.hypot(o.x - c.x, o.y - c.y) < 52 * f.s) {
+      o.taken = true; const S = SPIRIT_BY[o.id];
+      if (!f.spirits.includes(o.id)) f.spirits.push(o.id);
+      if (f.lastSpirit !== o.id) { f.prevSpirit = f.lastSpirit; f.lastSpirit = o.id; }
+      floatText(f.x, f.y - 76, S.name + ' GET', S.col === '#3b2a5e' ? '#b9a2ff' : S.col);
+      ring(o.x, o.y, `rgba(${S.rgb},0.95)`, 50); Audio.play('pickup');
+      if (f.spirits.length === SPIRITS.length && G.mode !== 'train') { floatText(f.x, f.y - 104, '六精霊がそろった！', '#fff3b0'); Audio.play('holy'); }
+    }
+  }
+  G.spiritOrbs = G.spiritOrbs.filter(o => !o.taken);
+}
+function castSpirit(f, id, t, dist, ang) {
+  const S = SPIRIT_BY[id], c0 = f.center(), col = S.col === '#3b2a5e' ? '#b9a2ff' : S.col;
+  ring(c0.x, c0.y, `rgba(${S.rgb},0.9)`, 70 * f.s);
+  if (id === 'fire') {
+    // flames burst directly on the opponent, wherever they are (shields still block it)
+    if (!t) { f.skillCD = 0.4; floatText(f.x, f.y - 80, '相手がいない', '#d9deea'); return; }
+    const c = t.center(); f.wa = Math.atan2(c.y - c0.y, c.x - c0.x); f.ext = 1; f.atkCD = Math.max(f.atkCD, 0.2);
+    for (let i = 0; i < 18; i++) { const k = i / 17; G.parts.push({ k: 'dot', x: lerp(c0.x, c.x, k) + rand(-5, 5), y: lerp(c0.y, c.y, k) + rand(-5, 5), vx: rand(-30, 30), vy: rand(-60, 0), life: 0.35, max: 0.35, col: pick(['#ff6a3d', '#ffb36b', '#ffe08a']), size: rand(2, 4), g: 0 }); }
+    for (let i = 0; i < 26; i++) { const a = rand(0, TAU), v = rand(60, 280); G.parts.push({ k: 'dot', x: c.x + rand(-10, 10), y: c.y + rand(-20, 20), vx: Math.cos(a) * v, vy: Math.sin(a) * v - 120, life: rand(0.35, 0.6), max: 0.6, col: pick(['#ff6a3d', '#ff9a2e', '#ffe08a', '#ffffff']), size: rand(2.5, 5), g: -200 }); }
+    ring(c.x, c.y, 'rgba(255,140,60,0.95)', 64);
+    t.hurt(22 * f.dmgMul, (Math.sign(c.x - c0.x) || f.facing) * 380, -300, f, c.x, c.y);
+    Audio.play('shoot'); addShake(5);
+  } else if (id === 'forest') {
+    const h = Math.round(f.hpMax * 0.3); f.hp = Math.min(f.hpMax, f.hp + h);
+    floatText(f.x, f.y - 80, '回復！', '#6bff7a');
+    for (let i = 0; i < 18; i++) G.parts.push({ k: 'dot', x: c0.x + rand(-24, 24), y: c0.y + rand(-10, 40), vx: rand(-40, 40), vy: rand(-160, -60), life: 0.8, max: 0.8, col: pick(['#5fd16a', '#c8ffb0', '#ffffff']), size: rand(2, 4), g: 0 });
+    Audio.play('pickup');
+  } else if (id === 'wind') {
+    const sp = freeSpot(f.hh, f, 260);
+    if (!sp) { f.skillCD = 0.4; floatText(f.x, f.y - 80, 'ワープできない', '#d9deea'); return; }
+    const dx = sp.x - f.x, dy = sp.y - f.y;
+    for (let i = 0; i < 14; i++) G.parts.push({ k: 'puff', x: f.x + rand(-20, 20), y: f.y + rand(-40, 40), vx: rand(-90, 90), vy: rand(-90, 30), life: 0.5, max: 0.5, col: 'rgba(200,245,255,0.6)', size: rand(10, 18), g: 0 });
+    f.x += dx; f.y += dy; for (const q of f.rag.p) { q.x += dx; q.y += dy; q.px = q.x; q.py = q.y; }
+    f.vx = 0; f.vy = 0; f.zip = null; f.trail.length = 0; f.prevTip = null;
+    ring(f.x, f.y, 'rgba(200,245,255,0.95)', 70); for (let i = 0; i < 14; i++) G.parts.push({ k: 'puff', x: f.x + rand(-20, 20), y: f.y + rand(-40, 40), vx: rand(-90, 90), vy: rand(-90, 30), life: 0.5, max: 0.5, col: 'rgba(200,245,255,0.6)', size: rand(10, 18), g: 0 });
+    Audio.play('jump');
+  } else if (id === 'shadow') {
+    f.stealthT = 5; floatText(f.x, f.y - 80, '姿が消えた', '#b9a2ff');
+    for (let i = 0; i < 16; i++) G.parts.push({ k: 'puff', x: c0.x + rand(-20, 20), y: c0.y + rand(-40, 30), vx: rand(-60, 60), vy: rand(-60, 20), life: 0.6, max: 0.6, col: 'rgba(40,25,70,0.55)', size: rand(10, 18), g: 0 });
+    Audio.play('dread');
+  } else if (id === 'dream') {
+    // put the nearest opponent to sleep for 5 seconds
+    let o = t; if (!o) { let bd = 1e9; for (const q of G.fighters) if (q.alive && q.team !== f.team) { const d = Math.hypot(q.x - f.x, q.y - f.y); if (d < bd) { bd = d; o = q; } } }
+    if (!o) { f.skillCD = 0.4; floatText(f.x, f.y - 80, '相手がいない', '#d9deea'); return; }
+    const c = o.center(); o.dazeT = 5; o.atk.phase = 0; o.dashT = 0; o.spinT = 0;
+    for (let i = 0; i < 14; i++) { const k = i / 13; G.parts.push({ k: 'dot', x: lerp(c0.x, c.x, k) + rand(-6, 6), y: lerp(c0.y, c.y, k) + rand(-6, 6) - Math.sin(k * Math.PI) * 40, vx: rand(-20, 20), vy: rand(-30, 10), life: 0.5, max: 0.5, col: pick(['#ff9fd0', '#ffe0f0', '#ffffff']), size: rand(2.5, 4.5), g: 0 }); }
+    ring(c.x, c.y, 'rgba(255,165,215,0.95)', 60); floatText(o.x, o.y - 80, 'ねむった！', '#ff9fd0');
+    Audio.play('freeze');
+  } else if (id === 'star') {
+    // the skill is ready again at once, and the book returns to the spirit picked up before the star
+    f.skillCD = 0;
+    if (f.prevSpirit && f.prevSpirit !== 'star') { f.lastSpirit = f.prevSpirit; f.prevSpirit = 'star'; floatText(f.x, f.y - 80, SPIRIT_BY[f.lastSpirit].name + 'の力がもどった', '#ffcb3d'); }
+    else floatText(f.x, f.y - 80, 'スキル回復！', '#ffcb3d');
+    for (let i = 0; i < 16; i++) { const a = rand(0, TAU), v = rand(80, 240); G.parts.push({ k: 'dot', x: c0.x, y: c0.y - 20, vx: Math.cos(a) * v, vy: Math.sin(a) * v, life: 0.6, max: 0.6, col: pick(['#ffcb3d', '#fff2b0', '#ffffff']), size: rand(2, 4), g: 0 }); }
+    Audio.play('coin');
+  }
+}
 function fireBullet(owner, x, y, a, dmg, kb, big) {
   const W = owner.W; const col = W.type === 'gun' ? W.bullet : owner.energy();
   G.projs.push({ k: 'bullet', x, y, vx: Math.cos(a) * 1300, vy: Math.sin(a) * 1300, team: owner.team, owner, dmg: dmg * owner.dmgMul, kb, life: 0.9, r: big ? 6 : 4, col, g: 0, hit: new Set() });
@@ -1466,7 +1613,7 @@ function buildArena(L, themeName) {
 
 /* ---------------- Mode setup ---------------- */
 function startLevel(n) {
-  G.mode = '1p'; G.level = n; resetWorld();
+  G.mode = '1p'; G.level = n; resetWorld(); G.spiritT = 0; G.spiritBag = [];
   const L = LAYOUTS[(n - 1) % LAYOUTS.length]; G.themeName = THEME_ORDER[(n - 1) % THEME_ORDER.length];
   G.arena = buildArena(L, G.themeName); G.theme = THEMES[G.themeName];
   const sx = L.w / 2, sy = L.h - 50;
@@ -1500,10 +1647,128 @@ function spawnEnemy() {
   ring(sp.x, sp.y, 'rgba(255,90,80,0.9)', 70 * e.s); Audio.play('spawn');
   if (boss) { G.banner = { txt: 'ボス出現！', col: '#ff5a4f', t: 1.6, max: 1.6 }; }
 }
+/* ---------- アスレチック: wall-jump courses (feet positions; plats are [x, y, w, h]) ---------- */
+const PARK = [
+  { name: 'コース1', title: 'はじめてのかべジャンプ', stars: 1, reward: 30, theme: 'sunset', w: 1480, h: 2000, start: [150, 2000],
+    plats: [[350, 1880, 200, 120], [650, 1770, 200, 230], [950, 1340, 60, 660], [950, 1300, 530, 40], [1260, 650, 40, 540], [880, 650, 420, 40], [600, 600, 160, 30], [330, 560, 160, 30], [60, 300, 220, 30]],
+    spikes: [[1130, 1300, 70]], acid: [], saws: [],
+    cps: [[1050, 1300], [960, 650]], goal: [200, 300] },
+  { name: 'コース2', title: 'トゲとノコギリ', stars: 2, reward: 60, theme: 'castle', w: 1640, h: 2600, start: [120, 2600],
+    plats: [[380, 2470, 120, 30], [600, 2420, 120, 30], [880, 2380, 200, 220], [1180, 1740, 60, 860], [1180, 1700, 460, 40], [1420, 1000, 40, 590], [1000, 1000, 460, 40], [700, 950, 150, 30], [420, 900, 150, 30], [150, 860, 120, 30], [90, 420, 260, 30], [350, 380, 700, 40]],
+    spikes: [[1260, 1700, 60], [520, 380, 60], [800, 380, 60]], acid: [[300, 2560, 560, 40]],
+    saws: [[1060, 2050, 1150, 2050, 26, 0.7], [1480, 1300, 1620, 1300, 22, 0.9], [30, 650, 130, 650, 24, 0.8]],
+    cps: [[1280, 1700], [1100, 1000], [200, 860]], goal: [960, 380] },
+  { name: 'コース3', title: 'てっぺんをめざせ', stars: 3, reward: 100, theme: 'pumpkin', w: 1500, h: 3200, start: [120, 3200],
+    plats: [[330, 3060, 110, 30], [560, 2980, 110, 30], [800, 2900, 110, 30], [1000, 2340, 60, 820], [1000, 2300, 500, 40], [1300, 1600, 40, 590], [560, 1600, 780, 40], [600, 900, 40, 700], [800, 900, 40, 590], [250, 900, 390, 40], [260, 380, 40, 360], [380, 300, 300, 30]],
+    spikes: [[1150, 2300, 60], [870, 1600, 50]], acid: [[260, 3160, 1240, 40]],
+    saws: [[880, 2600, 975, 2600, 26, 0.75], [1380, 1850, 1440, 1850, 18, 1.0], [700, 1150, 740, 1150, 18, 1.4], [330, 450, 330, 650, 22, 0.8]],
+    cps: [[1100, 2300], [1050, 1600], [380, 900]], goal: [600, 300] },
+];
+function fmtTime(t) { return Math.floor(t / 60) + ':' + (t % 60).toFixed(1).padStart(4, '0'); }
+function moveFighterTo(f, x, y) {
+  const dx = x - f.x, dy = y - f.y; f.x = x; f.y = y;
+  for (const q of f.rag.p) { q.x += dx; q.y += dy; q.px = q.x; q.py = q.y; }
+  f.vx = 0; f.vy = 0; f.zip = null; f.trail.length = 0; f.prevTip = null;
+}
+function startPark(i) {
+  const C = PARK[i];
+  G.mode = 'park'; resetWorld(); G.spiritT = 0; G.spiritBag = [];
+  const L = { w: C.w, h: C.h, plats: C.plats, spikes: C.spikes, acid: C.acid, saws: C.saws };
+  G.themeName = C.theme; G.theme = THEMES[C.theme]; G.arena = buildArena(L, C.theme);
+  G.park = { i, t: 0, miss: 0, cp: { x: C.start[0], y: C.start[1] }, cpN: 0, cps: C.cps.map(([x, y]) => ({ x, y, on: false })), goal: { x: C.goal[0], y: C.goal[1] }, done: false, endT: 0 };
+  const p = new Fighter({ x: C.start[0], y: C.start[1] - 49, team: 0, color: COLORS[save.color].hex, weapon: 'none', ctrl: 0, hpMax: 100, facing: 1 });
+  G.fighters.push(p); G.player = p; G.cam.x = p.x; G.cam.y = p.y - 40; G.hintT = 10; initBats();
+  G.banner = { txt: C.title, col: '#ffffff', t: 1.6, max: 1.6 }; Audio.play('round');
+  setState('play');
+}
+// touched a hazard or fell far: back to the last checkpoint
+function parkFail(f) {
+  const P = G.park; if (!P || P.done) return;
+  P.miss++;
+  for (let i = 0; i < 12; i++) G.parts.push({ k: 'puff', x: f.x + rand(-20, 20), y: f.y + rand(-40, 40), vx: rand(-90, 90), vy: rand(-90, 30), life: 0.5, max: 0.5, col: 'rgba(255,255,255,0.5)', size: rand(10, 18), g: 0 });
+  Audio.play('hit');
+  moveFighterTo(f, P.cp.x, P.cp.y - f.hh - 1); f.invT = 0.8; f.stunT = 0; f.hazCD = 0.5; f.onGround = false;
+  ring(f.x, f.y, 'rgba(255,255,255,0.9)', 60); floatText(f.x, f.y - 80, 'ミス！', '#ff9a90');
+}
+function parkStep(dt) {
+  const P = G.park, p = G.player; if (!P || !p || !p.alive) return;
+  if (!P.done) P.t += dt;
+  if (!P.done && p.y + p.hh > P.cp.y + 600) { parkFail(p); return; } // a big fall
+  const feet = p.y + p.hh;
+  for (const c of P.cps) if (!c.on && Math.abs(p.x - c.x) < 46 && feet > c.y - 110 && feet < c.y + 6) {
+    c.on = true; P.cp = { x: c.x, y: c.y }; P.cpN++;
+    floatText(c.x, c.y - 120, 'チェックポイント！', '#7dff8a'); ring(c.x, c.y - 50, 'rgba(120,255,140,0.9)', 60); Audio.play('pickup');
+  }
+  if (!P.done && Math.abs(p.x - P.goal.x) < 50 && feet > P.goal.y - 130 && feet < P.goal.y + 6) {
+    P.done = true; P.endT = 1.6; G.banner = { txt: 'ゴール！', col: '#ffe36b', t: 1.5, max: 1.5 }; G.slow = 0.45; G.slowT = 0.6;
+    for (let i = 0; i < 40; i++) { const a = rand(0, TAU), v = rand(150, 480); G.parts.push({ k: 'dot', x: P.goal.x, y: P.goal.y - 80, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 200, life: rand(0.8, 1.4), max: 1.4, col: pick(['#ffe36b', '#7dff8a', '#58dcff', '#ff7aa8', '#ffffff']), size: rand(3, 6), g: 700 }); }
+    Audio.play('win');
+  }
+}
+function finishPark() {
+  const P = G.park, C = PARK[P.i], t = P.t;
+  save.parkBest = save.parkBest || []; save.parkClear = save.parkClear || [];
+  const prev = save.parkBest[P.i], rec = prev == null || t < prev; if (rec) save.parkBest[P.i] = t;
+  let earned = 0; if (!save.parkClear[P.i]) { save.parkClear[P.i] = true; earned = C.reward; save.coins += earned; }
+  persist();
+  $('resTitle').textContent = C.name + ' クリア！';
+  $('resSub').textContent = 'タイム ' + fmtTime(t) + ' ・ ミス ' + P.miss + '回' + (prev == null ? '' : rec ? ' ・ 新記録！' : ' ・ ベスト ' + fmtTime(prev));
+  $('resCoins').textContent = '+' + earned; $('resReward').hidden = earned === 0;
+  const last = P.i >= PARK.length - 1;
+  $('rNext').textContent = last ? 'もう一度' : '次のコース';
+  $('rNext').onclick = () => { Audio.play('click'); startPark(last ? P.i : P.i + 1); };
+  $('rHome').onclick = () => { Audio.play('click'); G.arena = null; G.park = null; setState('menu'); };
+  setState('result');
+}
+function drawParkFlags() {
+  const P = G.park; if (!P) return;
+  const flag = (x, y, on, goal) => {
+    ctx.strokeStyle = '#e8edf2'; ctx.lineWidth = 4; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y - (goal ? 110 : 80)); ctx.stroke();
+    const top = y - (goal ? 110 : 80), wv = Math.sin(G.time * 5 + x) * 4;
+    if (goal) {
+      for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) { ctx.fillStyle = (r + c) % 2 ? '#1b1f2e' : '#ffffff'; ctx.fillRect(x + 2 + c * 13, top + r * 12 + wv * c / 4, 13, 12); }
+      ctx.save(); ctx.globalAlpha = 0.5 + Math.sin(G.time * 4) * 0.2; ctx.fillStyle = '#ffe36b'; starPath(x, top - 16, 13, 6, G.time); ctx.fill(); ctx.restore();
+    } else {
+      ctx.fillStyle = on ? '#4be06a' : '#c4ccd8'; ctx.beginPath(); ctx.moveTo(x + 2, top); ctx.lineTo(x + 44, top + 13 + wv); ctx.lineTo(x + 2, top + 26); ctx.closePath(); ctx.fill();
+    }
+  };
+  for (const c of P.cps) flag(c.x, c.y, c.on, false);
+  flag(P.goal.x, P.goal.y, false, true);
+}
+function drawCoursePreview(cvs, C) {
+  const c = cvs.getContext('2d'), W = cvs.width, H = cvs.height; c.clearRect(0, 0, W, H);
+  const th = THEMES[C.theme]; const g = c.createLinearGradient(0, 0, 0, H); g.addColorStop(0, th.sky[0]); g.addColorStop(1, th.sky[1]); c.fillStyle = g; c.fillRect(0, 0, W, H);
+  const sc = Math.min((W - 12) / C.w, (H - 12) / C.h), ox = (W - C.w * sc) / 2, oy = (H - C.h * sc) / 2;
+  c.save(); c.translate(ox, oy); c.scale(sc, sc);
+  c.fillStyle = th.platBody; c.fillRect(0, C.h, C.w, 30 / sc);
+  for (const q of C.plats) c.fillRect(q[0], q[1], q[2], q[3] || 50);
+  c.fillStyle = '#7dff6a'; for (const a of C.acid) c.fillRect(a[0], a[1], a[2], a[3]);
+  c.fillStyle = '#ffffff'; for (const k of C.spikes) c.fillRect(k[0], k[1] - 24, k[2], 24);
+  c.fillStyle = '#d6dde6'; for (const w of C.saws) { c.beginPath(); c.arc((w[0] + w[2]) / 2, (w[1] + w[3]) / 2, w[4] * 1.4, 0, TAU); c.fill(); }
+  c.fillStyle = '#4be06a'; for (const q of C.cps) c.fillRect(q[0] - 10, q[1] - 90, 40, 60);
+  c.fillStyle = '#ffe36b'; c.beginPath(); c.arc(C.goal[0], C.goal[1] - 80, 50, 0, TAU); c.fill();
+  c.fillStyle = '#40b4f4'; c.beginPath(); c.arc(C.start[0], C.start[1] - 50, 40, 0, TAU); c.fill();
+  c.restore();
+}
+function openAsel() {
+  const list = $('courseList'); list.innerHTML = '';
+  const best = save.parkBest || [], clr = save.parkClear || [];
+  PARK.forEach((C, i) => {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'course';
+    const cv2 = document.createElement('canvas'); cv2.width = 220; cv2.height = 150; b.appendChild(cv2);
+    const add = (cls, txt) => { const e = document.createElement('span'); e.className = cls; e.textContent = txt; b.appendChild(e); };
+    add('cn', C.name); add('ct', C.title); add('cs', '★'.repeat(C.stars) + '☆'.repeat(3 - C.stars));
+    add('cb', best[i] != null ? 'ベスト ' + fmtTime(best[i]) : (clr[i] ? 'クリア済み' : '初クリアで ' + C.reward + 'コイン'));
+    b.setAttribute('aria-label', `${C.name} ${C.title}`);
+    b.onclick = () => { Audio.init(); Audio.play('click'); startPark(i); };
+    list.appendChild(b); drawCoursePreview(cv2, C);
+  });
+  setState('aselect');
+}
 /* ---------- Training: flat floor, a dummy that never moves or attacks and respawns 1s after going down ---------- */
 const TRAIN_ARENA = { w: 1300, h: 620, plats: [] };
 function startTraining() {
-  G.mode = 'train'; resetWorld();
+  G.mode = 'train'; resetWorld(); G.spiritT = 0; G.spiritBag = [];
   G.themeName = 'train'; G.theme = THEMES.train; G.arena = buildArena(TRAIN_ARENA, 'train');
   spawnTrain('player'); spawnTrain('dummy');
   G.cam.x = TRAIN_ARENA.w / 2; G.cam.y = TRAIN_ARENA.h / 2; G.hintT = 8; G.bats = [];
@@ -1524,20 +1789,27 @@ function spawnTrain(who) {
   }
 }
 function start2P() {
-  G.mode = '2p'; G.scores = [0, 0]; G.round = 1; G.arenaIdx = 0; setupRound(); setState('play'); G.hintT = 8;
+  G.mode = '2p'; G.scores = [0, 0]; G.round = 1; G.arenaIdx = 0; G.spiritT = 0; G.spiritBag = []; G.bookKeep = {}; G.fighters = []; G.spiritOrbs = []; setupRound(); setState('play'); G.hintT = 8;
 }
 function setupRound() {
+  // 2 Players: spirits collected with the book carry over to the next round
+  G.bookKeep = G.bookKeep || {};
+  for (const f of G.fighters) if (f.weapon === 'book') G.bookKeep[f.team] = { s: f.spirits.slice(), l: f.lastSpirit, p: f.prevSpirit };
+  // spirits nobody picked up last round come back (at new spots) in the next round
+  const orbKeep = (G.spiritOrbs || []).filter(o => !o.taken).map(o => o.id);
   resetWorld();
   const L = ARENAS[G.arenaIdx % ARENAS.length]; G.themeName = G.round === 1 ? 'grave' : THEME_ORDER[(G.round + 1) % THEME_ORDER.length];
   G.arena = buildArena(L, G.themeName); G.theme = THEMES[G.themeName];
   const a = new Fighter({ x: L.spawn[0][0], y: L.spawn[0][1], team: 0, color: '#22aaf2', weapon: save.p2w[0], ctrl: 0, facing: 1 });
   const b = new Fighter({ x: L.spawn[1][0], y: L.spawn[1][1], team: 1, color: P2_RED, weapon: save.p2w[1], ctrl: 1, facing: -1 });
+  for (const f of [a, b]) { const k = G.bookKeep[f.team]; if (k && f.weapon === 'book') { f.spirits = k.s.slice(); f.lastSpirit = k.l; f.prevSpirit = k.p; } }
+  for (const id of orbKeep) { const sp = freeSpot(48, null, 0); if (sp) G.spiritOrbs.push({ id, x: sp.x, y: sp.top - 48, age: 0, bob: rand(0, TAU) }); }
   G.fighters.push(a, b); G.cam.x = L.w / 2; G.cam.y = L.h / 2;
   G.banner = { txt: 'ラウンド ' + G.round, col: '#ffffff', t: 1.3, max: 1.3 }; Audio.play('round');
   initBats();
 }
 function resetWorld() {
-  G.fighters = []; G.projs = []; G.parts = []; G.fx = []; G.texts = []; G.hitstop = 0; G.slow = 1; G.slowT = 0; G.shake = 0; G.overT = -1; G.pendingEnd = null; G.banner = null; G.later = []; G.respawns = []; G.dimT = 0; G.snowT = 0; G.flashT = 0; G.genesis = null; G.reaper = null;
+  G.fighters = []; G.projs = []; G.parts = []; G.fx = []; G.texts = []; G.hitstop = 0; G.slow = 1; G.slowT = 0; G.shake = 0; G.overT = -1; G.pendingEnd = null; G.banner = null; G.later = []; G.respawns = []; G.dimT = 0; G.snowT = 0; G.flashT = 0; G.genesis = null; G.reaper = null; G.judge = null; G.spiritOrbs = [];
   touch.sticks = [null, null];
 }
 function initBats() { G.bats = []; for (let i = 0; i < 7; i++) G.bats.push({ x: rand(0, 1), y: rand(0.05, 0.5), sp: rand(0.012, 0.03) * (Math.random() < 0.5 ? 1 : -1), ph: rand(0, TAU), sz: rand(0.6, 1.2) }); }
@@ -1587,6 +1859,7 @@ function step(dt) {
   for (const s of A.saws) { s.ph += dt * s.sp * 2; const k = (Math.sin(s.ph) + 1) / 2; s.x = lerp(s.x1, s.x2, k); s.y = lerp(s.y1, s.y2, k); s.rot += dt * 14; }
   for (const p of A.pickups) { p.bob += dt * 2.4; if (!p.on) { p.t -= dt; if (p.t <= 0) { p.on = true; ring(p.x, p.y, 'rgba(255,255,255,0.8)', 30); } } }
   for (const f of G.fighters) { try { f.update(dt); } catch (e) { reportErr(e); } }
+  if (G.mode === 'park') safe(() => parkStep(dt));
   if (G.mode === 'train') { for (const r of G.respawns) { r.t -= dt; if (r.t <= 0 && !r.done) { r.done = true; spawnTrain(r.who); } } G.respawns = G.respawns.filter(r => !r.done); }
   safe(() => hazards(dt));
   // fighter vs fighter soft push
@@ -1637,6 +1910,13 @@ function step(dt) {
       if (Math.random() < 0.8) G.parts.push({ k: 'dot', x: p.x - Math.sign(p.vx) * 20 + rand(-10, 10), y: p.y + rand(-95, 95), vx: -p.vx * 0.1, vy: rand(-40, 40), life: 0.35, max: 0.35, col: `hsl(${(G.time * 600 + rand(0, 360)) % 360},100%,70%)`, size: rand(2, 4), g: 0 });
       continue;
     }
+    if (p.k === 'sfire') {
+      // Fire Spirit fireball: steers toward its target
+      const tg = p.tgt && p.tgt.alive ? p.tgt : null;
+      if (tg) { const c = tg.center(), cur = Math.atan2(p.vy, p.vx), na = cur + clamp(angDiff(cur, Math.atan2(c.y - p.y, c.x - p.x)), -4.2 * dt, 4.2 * dt), v = Math.hypot(p.vx, p.vy); p.vx = Math.cos(na) * v; p.vy = Math.sin(na) * v; }
+      p.rot = Math.atan2(p.vy, p.vx);
+      if (Math.random() < 0.9) G.parts.push({ k: 'dot', x: p.x + rand(-5, 5), y: p.y + rand(-5, 5), vx: -p.vx * 0.15 + rand(-30, 30), vy: -p.vy * 0.15 + rand(-60, 0), life: 0.3, max: 0.3, col: pick(['#ff6a3d', '#ffb36b', '#ffe08a']), size: rand(2, 4.5), g: 0 });
+    }
     if (p.k === 'gwave') {
       if (p.x < 10 || p.x > A.w - 10) p.life = 0;
       if (Math.random() < 0.8) G.parts.push({ k: 'dot', x: p.x + rand(-10, 10), y: p.y - 4, vx: rand(-80, 80), vy: rand(-420, -180), life: 0.45, max: 0.45, col: pick(['#cfc6b8', '#9b8f80', '#ffffff']), size: rand(2.5, 5), g: 1400 });
@@ -1672,7 +1952,7 @@ function step(dt) {
       if (hit) {
         p.hit.add(o); const dir = Math.sign(p.vx) || 1;
         const landed = o.hurt(p.dmg, dir * p.kb, -p.kb * 0.45 - 100, p.owner, hit.x, hit.y);
-        if (p.k === 'bullet' || p.k === 'icebolt' || p.k === 'hook') p.life = 0;
+        if (p.k === 'bullet' || p.k === 'icebolt' || p.k === 'hook' || p.k === 'sfire') { p.life = 0; if (p.k === 'sfire') for (let i = 0; i < 10; i++) spark(hit.x, hit.y, pick(['#ff6a3d', '#ffe08a'])); }
         if (landed && p.k === 'icebolt') o.freeze(1.5);
         if (landed && p.k === 'hook') hookPull(p.owner, o);
       }
@@ -1687,6 +1967,13 @@ function step(dt) {
   if (G.flashT > 0) G.flashT -= dt;
   if (G.reaper) { G.reaper.t += dt; if (G.reaper.t > G.reaper.max) G.reaper = null; }
   if (G.genesis) { G.genesis.t += dt; if (G.genesis.t > G.genesis.max) G.genesis = null; }
+  if (G.judge) { G.judge.t += dt; if (G.judge.t > G.judge.max) G.judge = null; }
+  // Spirit Grimoire: a new spirit every 10 seconds while anyone (except the training dummy) has the book
+  if (G.spiritOrbs && G.fighters.some(f => f.weapon === 'book' && !f.dummy)) {
+    G.spiritT = (G.spiritT || 0) + dt;
+    if (G.spiritT >= SPIRIT_EVERY) { G.spiritT -= SPIRIT_EVERY; spawnSpiritOrb(); }
+  }
+  for (const o of G.spiritOrbs || []) o.age += dt;
   // particles
   for (const p of G.parts) { p.life -= dt; p.vy += p.g * dt; p.x += p.vx * dt; p.y += p.vy * dt; if (p.k === 'puff') { p.vx *= 0.94; p.vy *= 0.94; } }
   G.parts = G.parts.filter(p => p.life > 0); if (G.parts.length > 700) G.parts.splice(0, G.parts.length - 700);
@@ -1741,6 +2028,7 @@ function hazards(dt) {
         b.pulse = 1; Audio.play('bump'); ring(b.x, b.y, 'rgba(255,220,120,0.8)', b.r * 1.6);
       }
     }
+    if (f.weapon === 'book' && !f.dummy && G.spiritOrbs && G.spiritOrbs.length) pickSpirits(f);
     // pickups
     if (G.mode === '2p' || !f.ai) for (const p of A.pickups) {
       if (!p.on) continue;
@@ -1758,7 +2046,7 @@ function hazards(dt) {
 /* ---------------- Camera ---------------- */
 function updateCamera(dt) {
   const A = G.arena; if (!A) return;
-  if (G.mode !== '1p') {
+  if (G.mode !== '1p' && G.mode !== 'park') {
     G.cam.sc = Math.min(VW / (A.w + 40), VH / (A.h + 40)); G.cam.x = A.w / 2; G.cam.y = A.h / 2;
   } else {
     const p = G.player; const sc = Math.min(VH / 800, VW / 1050); G.cam.sc = sc;
@@ -1914,6 +2202,97 @@ function drawWorld() {
   for (const b of A.bumpers) drawBumper(b);
   // pickups
   for (const p of A.pickups) if (p.on) drawPickup(p);
+  if (G.mode === 'park') drawParkFlags();
+  // spirits waiting to be picked up
+  for (const o of G.spiritOrbs || []) {
+    const y = o.y + Math.sin(G.time * 2.4 + o.bob) * 7, k = Math.min(1, o.age * 3), S = SPIRIT_BY[o.id];
+    const g = ctx.createRadialGradient(o.x, y, 2, o.x, y, 46); g.addColorStop(0, `rgba(${S.rgb},0.55)`); g.addColorStop(1, `rgba(${S.rgb},0)`);
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(o.x, y, 46, 0, TAU); ctx.fill();
+    drawSpirit(ctx, o.id, o.x, y, 17 * k, G.time + o.bob);
+  }
+}
+/* the six spirits: small original creatures, each with its own shape */
+function drawSpirit(c, id, x, y, r, t) {
+  const S = SPIRIT_BY[id]; if (!S || r <= 0.5) return;
+  c.save(); c.translate(x, y); c.lineJoin = 'round'; c.lineCap = 'round';
+  c.shadowColor = `rgb(${S.rgb})`; c.shadowBlur = r * 0.8;
+  c.fillStyle = S.col; c.beginPath();
+  if (id === 'fire') {
+    const fl = Math.sin(t * 9) * r * 0.12;
+    c.moveTo(fl, -r * 1.5); c.bezierCurveTo(r * 0.8, -r * 0.9, r * 1.05, -r * 0.05, r * 0.95, r * 0.3); c.arc(0, r * 0.3, r * 0.95, 0, Math.PI); c.bezierCurveTo(-r * 1.05, -r * 0.05, -r * 0.8, -r * 0.9, fl, -r * 1.5);
+    c.fill(); c.shadowBlur = 0; c.fillStyle = '#ffd36b'; c.beginPath(); c.moveTo(fl * 0.6, -r * 0.7); c.quadraticCurveTo(r * 0.55, r * 0.1, 0, r * 0.75); c.quadraticCurveTo(-r * 0.55, r * 0.1, fl * 0.6, -r * 0.7); c.fill();
+  } else if (id === 'shadow') {
+    c.moveTo(-r, r * 0.1); c.arc(0, r * 0.1, r, Math.PI, 0);
+    for (let i = 0; i < 3; i++) { const x1 = r - i * r * 2 / 3, w = Math.sin(t * 6 + i) * r * 0.12; c.quadraticCurveTo(x1 - r / 6, r * 1.15 + w, x1 - r / 3, r * 0.75); c.quadraticCurveTo(x1 - r / 2, r * 1.15 - w, x1 - r * 2 / 3, r * 0.8); }
+    c.closePath(); c.fill(); c.shadowBlur = 0; c.strokeStyle = 'rgba(185,160,255,0.8)'; c.lineWidth = Math.max(1, r * 0.08); c.stroke();
+  } else if (id === 'star') {
+    for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5 + Math.sin(t * 2) * 0.08, rr = i % 2 ? r * 0.62 : r * 1.3; c.lineTo(Math.cos(a) * rr, Math.sin(a) * rr + r * 0.05); }
+    c.closePath(); c.fill(); c.shadowBlur = 0; c.strokeStyle = '#d69a12'; c.lineWidth = Math.max(1, r * 0.08); c.stroke();
+  } else {
+    c.ellipse(0, 0, r * 1.02, r * 0.95, 0, 0, TAU); c.fill(); c.shadowBlur = 0;
+    if (id === 'forest') {
+      c.strokeStyle = '#2f7a35'; c.lineWidth = Math.max(1, r * 0.1); c.beginPath(); c.moveTo(0, -r * 0.9); c.quadraticCurveTo(r * 0.05, -r * 1.25, r * 0.2, -r * 1.35); c.stroke();
+      c.fillStyle = '#9be86a'; c.beginPath(); c.ellipse(r * 0.48, -r * 1.38, r * 0.42, r * 0.2, -0.5, 0, TAU); c.fill(); c.beginPath(); c.ellipse(-r * 0.2, -r * 1.3, r * 0.3, r * 0.15, 0.6, 0, TAU); c.fill();
+    } else if (id === 'wind') {
+      c.strokeStyle = 'rgba(255,255,255,0.95)'; c.lineWidth = Math.max(1, r * 0.11);
+      for (let i = 0; i < 2; i++) { const a = t * 4 + i * Math.PI; c.beginPath(); c.arc(0, 0, r * 1.35, a, a + 1.7); c.stroke(); }
+      c.beginPath(); c.moveTo(-r * 0.4, -r * 1.0); c.quadraticCurveTo(r * 0.2, -r * 1.5, r * 0.5, -r * 1.05); c.stroke();
+    } else if (id === 'dream') {
+      c.fillStyle = '#fff3c4'; c.beginPath(); c.arc(r * 0.55, -r * 0.95, r * 0.42, 0, TAU); c.fill();
+      c.fillStyle = S.col; c.beginPath(); c.arc(r * 0.72, -r * 1.05, r * 0.36, 0, TAU); c.fill();
+    }
+  }
+  // face
+  const ey = id === 'fire' ? r * 0.25 : id === 'star' ? r * 0.1 : -r * 0.05, ex = r * 0.34;
+  if (id === 'dream') {
+    c.strokeStyle = '#7a2d55'; c.lineWidth = Math.max(1, r * 0.1); for (const d of [-1, 1]) { c.beginPath(); c.arc(d * ex, ey, r * 0.16, 0.2, Math.PI - 0.2); c.stroke(); }
+  } else if (id === 'shadow') {
+    c.fillStyle = '#d9c8ff'; c.shadowColor = '#b48bff'; c.shadowBlur = r * 0.6; for (const d of [-1, 1]) { c.beginPath(); c.ellipse(d * ex, ey, r * 0.16, r * 0.24, 0, 0, TAU); c.fill(); } c.shadowBlur = 0;
+  } else {
+    for (const d of [-1, 1]) { c.fillStyle = '#ffffff'; c.beginPath(); c.ellipse(d * ex, ey, r * 0.19, r * 0.25, 0, 0, TAU); c.fill(); c.fillStyle = '#1e2236'; c.beginPath(); c.arc(d * ex + r * 0.04, ey + r * 0.04, r * 0.11, 0, TAU); c.fill(); }
+  }
+  c.restore();
+}
+function drawJudge() {
+  const g = G.judge, f = g.owner, k = g.t / g.max, s = f.s;
+  const cx = f.x, cy = f.y - 130 * s, R = 86 * s * easeOut(clamp(k / 0.25, 0, 1));
+  const a = clamp(Math.min(k * 5, (1 - k) * 4), 0, 1);
+  ctx.save(); ctx.globalAlpha = a;
+  // a ring of light with marks
+  ctx.strokeStyle = 'rgba(255,243,190,0.9)'; ctx.lineWidth = 3; ctx.shadowColor = '#fff3b0'; ctx.shadowBlur = 14;
+  ctx.beginPath(); ctx.ellipse(cx, cy, R + 22 * s, (R + 22 * s) * 0.55, 0, 0, TAU); ctx.stroke();
+  for (let i = 0; i < 12; i++) { const an = g.t * -1.2 + i / 12 * TAU; ctx.beginPath(); ctx.moveTo(cx + Math.cos(an) * (R + 14 * s), cy + Math.sin(an) * (R + 14 * s) * 0.55); ctx.lineTo(cx + Math.cos(an) * (R + 30 * s), cy + Math.sin(an) * (R + 30 * s) * 0.55); ctx.stroke(); }
+  ctx.shadowBlur = 0;
+  const pos = SPIRITS.map((S, i) => { const an = g.t * 2.4 + i / SPIRITS.length * TAU; return { S, x: cx + Math.cos(an) * R, y: cy + Math.sin(an) * R * 0.55 }; });
+  // beams from every spirit to every opponent
+  if (k > 0.36 && k < 0.72) {
+    const bk = Math.sin((k - 0.36) / 0.36 * Math.PI);
+    for (const o of g.targets) { const c = o.center(); for (const q of pos) { ctx.strokeStyle = `rgba(${q.S.rgb},${0.85 * bk})`; ctx.lineWidth = 7 * bk + 1; ctx.shadowColor = `rgb(${q.S.rgb})`; ctx.shadowBlur = 16; ctx.beginPath(); ctx.moveTo(q.x, q.y); ctx.lineTo(c.x, c.y); ctx.stroke(); } }
+    ctx.shadowBlur = 0;
+  }
+  for (const q of pos) drawSpirit(ctx, q.S.id, q.x, q.y, 15 * s, G.time);
+  ctx.restore();
+}
+/* small row of six dots: which spirits a book user has collected (the ringed one is the current skill) */
+function drawSpiritDots(f, cx, y, d) {
+  const gap = d * 2.7, x0 = cx - (SPIRITS.length - 1) * gap / 2;
+  SPIRITS.forEach((S, i) => {
+    const x = x0 + i * gap, has = f.spirits.includes(S.id), cur = S.id === f.lastSpirit;
+    ctx.beginPath(); ctx.arc(x, y, d, 0, TAU); ctx.fillStyle = has ? (S.id === 'shadow' ? '#7a5cc8' : S.col) : 'rgba(20,26,46,0.6)'; ctx.fill();
+    ctx.lineWidth = cur ? 2.2 : 1; ctx.strokeStyle = cur ? '#ffffff' : 'rgba(255,255,255,0.5)'; ctx.stroke();
+  });
+}
+/* arrows at the screen edge pointing to spirits that are off screen */
+function drawSpiritArrows() {
+  if (!G.fighters.some(f => f.weapon === 'book' && !f.dummy && f.alive)) return;
+  for (const o of G.spiritOrbs) {
+    const p = W2S(o.x, o.y); if (p.x > 20 && p.x < VW - 20 && p.y > 20 && p.y < VH - 20) continue;
+    const x = clamp(p.x, 34, VW - 34), y = clamp(p.y, 96, VH - 34), an = Math.atan2(p.y - y, p.x - x), S = SPIRIT_BY[o.id];
+    ctx.save(); ctx.translate(x, y);
+    ctx.fillStyle = 'rgba(20,26,46,0.6)'; ctx.beginPath(); ctx.arc(0, 0, 20, 0, TAU); ctx.fill();
+    ctx.rotate(an); ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.moveTo(28, 0); ctx.lineTo(19, -7); ctx.lineTo(19, 7); ctx.closePath(); ctx.fill(); ctx.rotate(-an);
+    drawSpirit(ctx, o.id, 0, 2, 10, G.time); ctx.restore();
+  }
 }
 function drawSaw(s) {
   ctx.save(); ctx.translate(s.x, s.y); ctx.rotate(s.rot);
@@ -2105,6 +2484,18 @@ function drawWeaponShape(c, id, s = 1, lit = false) {
     case 'bomb':
       drawBomb(c, 16, 0, 13, 0, lit, false);
       break;
+    case 'book': {
+      // a thick spell book: page block, indigo cover with gold corners and a glowing rune, ribbon bookmark
+      c.fillStyle = '#c0392b'; c.beginPath(); c.moveTo(18, 11); c.lineTo(16, 20); c.lineTo(19, 18); c.lineTo(21, 21); c.lineTo(21, 11); c.fill();
+      c.fillStyle = '#f3e7c4'; c.fillRect(4, -10, 25, 21);
+      c.strokeStyle = '#d8c79a'; c.lineWidth = 0.8; for (let i = -7; i <= 8; i += 3) { c.beginPath(); c.moveTo(27, i); c.lineTo(29, i); c.stroke(); }
+      c.fillStyle = '#3a2f7a'; c.beginPath(); c.roundRect(1, -12, 26, 23, 3); c.fill();
+      c.fillStyle = '#251d55'; c.fillRect(1, -12, 5, 23);
+      c.fillStyle = '#e6b23a'; for (const [x0, y0, dx, dy] of [[27, -12, -6, 6], [27, 11, -6, -6]]) { c.beginPath(); c.moveTo(x0, y0); c.lineTo(x0 + dx, y0); c.lineTo(x0, y0 + dy); c.closePath(); c.fill(); }
+      c.shadowColor = '#bfe9ff'; c.shadowBlur = 8; c.strokeStyle = '#ffe9a3'; c.lineWidth = 1.6; c.beginPath(); c.arc(16, -0.5, 6, 0, TAU); c.stroke();
+      c.fillStyle = '#fff6d6'; c.beginPath(); for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4, rr = i % 2 ? 1.4 : 4.2; c.lineTo(16 + Math.cos(a) * rr, -0.5 + Math.sin(a) * rr); } c.closePath(); c.fill(); c.shadowBlur = 0;
+      break;
+    }
     case 'staff':
       c.fillStyle = '#6b4a2b'; c.fillRect(-14, -2.6, L - 12, 5.2);
       c.fillStyle = '#4a321c'; for (let i = -8; i < L - 30; i += 14) c.fillRect(i, -2.9, 3, 5.8);
@@ -2146,6 +2537,7 @@ function drawFighter(f) {
   if (f.alive && f.poisonT > 0 && f.flashT <= 0) col = mixColor(f.color, '#7dff6a', 0.35);
   if (f.alive && f.frozenT > 0) col = mixColor(f.color, '#cdefff', 0.55);
   if (f.invT > 0 && f.alive && f.superT <= 0 && f.dashT <= 0 && Math.floor(G.time * 20) % 2 === 0) ctx.globalAlpha = alpha * 0.55;
+  if (f.alive && f.stealthT > 0) ctx.globalAlpha = alpha * (f.stealthT < 1 && Math.floor(G.time * 12) % 2 === 0 ? 0.45 : 0.14); // Shadow Spirit
   ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = col; ctx.lineWidth = 6.4 * s;
   const line = (...ids) => { ctx.beginPath(); ctx.moveTo(P[ids[0]].x, P[ids[0]].y); for (let i = 1; i < ids.length; i++) ctx.lineTo(P[ids[i]].x, P[ids[i]].y); ctx.stroke(); };
   // shadow-ish back limbs
@@ -2193,6 +2585,12 @@ function drawFighter(f) {
   // poison: green-purple tint bubbles; attack x2: pulsing crimson aura
   if (f.alive && f.poisonT > 0) { const c = f.center(); ctx.globalAlpha = alpha * 0.8; ctx.fillStyle = 'rgba(120,255,110,0.18)'; ctx.beginPath(); ctx.arc(c.x, c.y - 4, 34 * s, 0, TAU); ctx.fill(); if (Math.random() < 0.15) G.parts.push({ k: 'dot', x: c.x + rand(-14, 14), y: c.y + rand(-10, 20), vx: rand(-10, 10), vy: rand(-70, -30), life: 0.6, max: 0.6, col: pick(['#7dff6a', '#b06bff']), size: rand(2, 3.5), g: 0 }); ctx.globalAlpha = alpha; }
   if (f.alive && f.powerT > 0) { const c = f.center(), pu = 0.6 + Math.sin(G.time * 10) * 0.25; ctx.globalAlpha = alpha * pu; ctx.strokeStyle = '#ff4f8a'; ctx.shadowColor = '#ff2f6d'; ctx.shadowBlur = 18; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(c.x, c.y - 2, 30 * s, 52 * s, 0, 0, TAU); ctx.stroke(); ctx.shadowBlur = 0; ctx.globalAlpha = alpha; }
+  // asleep (Dream Spirit): little stars and Z's circling the head
+  if (f.alive && f.dazeT > 0) {
+    const hx = P[0].x, hy = P[0].y - 20 * s;
+    for (let i = 0; i < 3; i++) { const an = G.time * 4 + i / 3 * TAU; ctx.fillStyle = i % 2 ? '#ff9fd0' : '#fff2b0'; starPath(hx + Math.cos(an) * 17 * s, hy + Math.sin(an) * 6 * s, 5 * s, 2.2 * s, an); ctx.fill(); }
+    ctx.font = `800 ${Math.round(15 * s)}px ${FONT}`; ctx.textAlign = 'center'; ctx.fillStyle = '#ffd6ec'; ctx.fillText('Z', hx + 16 * s, hy - 16 * s - Math.sin(G.time * 3) * 3); ctx.font = `800 ${Math.round(11 * s)}px ${FONT}`; ctx.fillText('z', hx + 26 * s, hy - 27 * s - Math.cos(G.time * 3) * 3);
+  }
   // shield bubble
   if (f.alive && f.shieldT > 0) {
     const c = f.center(); const blink = f.shieldT < 1.5 && Math.floor(G.time * 10) % 2 === 0;
@@ -2204,6 +2602,7 @@ function drawFighter(f) {
     const w = 40 * Math.max(1, s * 0.9), h = 5, x = P[0].x - w / 2, y = Math.min(P[0].y, f.y - 44 * s) - 26 * s;
     ctx.fillStyle = '#e5352d'; ctx.fillRect(x, y, w, h);
     ctx.fillStyle = '#45e05e'; ctx.fillRect(x, y, w * clamp(f.hp / f.hpMax, 0, 1), h);
+    if (f.weapon === 'book') drawSpiritDots(f, P[0].x, y - 7, 3.2);
   }
 }
 function drawTrail(f) {
@@ -2406,7 +2805,13 @@ function drawCrescent(fx) {
 }
 function drawProjectiles() {
   for (const p of G.projs) {
-    if (p.k === 'bullet') {
+    if (p.k === 'sfire') {
+      const a = Math.atan2(p.vy, p.vx), fl = 1 + Math.sin(G.time * 30) * 0.08; ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(a);
+      ctx.shadowColor = '#ff7a2e'; ctx.shadowBlur = 18; ctx.fillStyle = 'rgba(255,110,50,0.85)';
+      ctx.beginPath(); ctx.moveTo(-p.r * 3.2 * fl, 0); ctx.quadraticCurveTo(-p.r, -p.r * 1.3, p.r, -p.r * 0.9); ctx.arc(p.r * 0.2, 0, p.r, -1.2, 1.2); ctx.quadraticCurveTo(-p.r, p.r * 1.3, -p.r * 3.2 * fl, 0); ctx.fill();
+      ctx.shadowBlur = 0; ctx.fillStyle = '#ffd36b'; ctx.beginPath(); ctx.arc(p.r * 0.2, 0, p.r * 0.62, 0, TAU); ctx.fill();
+      ctx.fillStyle = '#fff6dc'; ctx.beginPath(); ctx.arc(p.r * 0.35, 0, p.r * 0.3, 0, TAU); ctx.fill(); ctx.restore();
+    } else if (p.k === 'bullet') {
       const a = Math.atan2(p.vy, p.vx); ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(a);
       ctx.fillStyle = p.col; ctx.shadowColor = p.col; ctx.shadowBlur = 8; ctx.beginPath(); ctx.ellipse(-p.r * 2, 0, p.r * 3.2, p.r * 0.85, 0, 0, TAU); ctx.fill(); ctx.shadowBlur = 0;
       ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.ellipse(-p.r, 0, p.r * 1.6, p.r * 0.45, 0, 0, TAU); ctx.fill(); ctx.restore();
@@ -2481,7 +2886,9 @@ let HUDB = { pause: null, btns: [] };
 function hudLayout() {
   const m = Math.min(VW, VH); const r = clamp(m * 0.062, 25, 40);
   const L = { pause: { x: VW - 26 - 20, y: 26 + 20, r: 22 }, btns: [] };
-  if (G.mode !== '2p') {
+  if (G.mode === 'park') {
+    if (touch.used) L.btns.push({ p: 0, k: 'jump', x: VW - r * 1.7, y: VH - r * 1.8, r: r * 1.15 });
+  } else if (G.mode !== '2p') {
     if (touch.used) {
       L.btns.push({ p: 0, k: 'jump', x: VW - r * 1.7, y: VH - r * 1.8, r: r * 1.15 });
       L.btns.push({ p: 0, k: 'skill', x: VW - r * 4.3, y: VH - r * 1.5, r });
@@ -2518,7 +2925,12 @@ function drawHUD() {
   // top info
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
   if (G.mode !== '2p' && G.player && G.player.alive && G.player.powerT > 0) { ctx.font = `800 17px ${FONT}`; outlineText('攻撃力2倍 あと' + Math.ceil(G.player.powerT) + '秒', VW / 2, 84, '#ff7aa8'); }
-  if (G.mode === 'train') {
+  if (G.mode === 'park' && G.park) {
+    const P = G.park, C = PARK[P.i];
+    ctx.font = `800 22px ${FONT}`; outlineText(C.name + '「' + C.title + '」', VW / 2, 28, '#ffffff');
+    ctx.font = `800 26px ${FONT}`; outlineText(fmtTime(P.t), VW / 2, 60, P.done ? '#ffe36b' : '#ffffff');
+    ctx.font = `800 15px ${FONT}`; outlineText('チェックポイント ' + P.cpN + ' / ' + P.cps.length + ' ・ ミス ' + P.miss, VW / 2, 88, 'rgba(255,255,255,0.85)');
+  } else if (G.mode === 'train') {
     ctx.font = `800 24px ${FONT}`; outlineText('トレーニング', VW / 2, 30, '#ffffff');
     const d = G.fighters.find(f => f.dummy);
     ctx.font = `800 15px ${FONT}`; outlineText(d && d.alive ? 'CPUの体力 ' + Math.ceil(d.hp) + ' / ' + d.hpMax : 'CPUは1秒で復活', VW / 2, 56, 'rgba(255,255,255,0.85)');
@@ -2543,7 +2955,8 @@ function drawHUD() {
   // hints
   if (G.hintT > 0 && !touch.used) {
     ctx.globalAlpha = clamp(G.hintT, 0, 1);
-    if (G.mode !== '2p') drawKeyHint(VW * 0.39, VH - 70, ['W', 'A', 'S', 'D'], ['W長押し：ジャンプ', 'スペース：スーパー', 'E：スキル']);
+    if (G.mode === 'park') drawKeyHint(VW * 0.36, VH - 70, ['W', 'A', 'S', 'D'], ['W長押し：ジャンプ（空中でもう1回）', 'かべにふれてW：かべジャンプ', 'かべに向けて押すとゆっくりすべる']);
+    else if (G.mode !== '2p') drawKeyHint(VW * 0.39, VH - 70, ['W', 'A', 'S', 'D'], ['W長押し：ジャンプ', 'スペース：スーパー', 'E：スキル']);
     else { drawKeyHint(VW * 0.14, VH - 70, ['W', 'A', 'S', 'D'], ['W長押し：ジャンプ', 'スペース：スーパー', 'E：スキル']); drawKeyHint(VW * 0.7, VH - 70, ['↑', '←', '↓', '→'], ['上キー長押し：ジャンプ', 'エンター：スーパー', 'シフト：スキル']); }
     ctx.globalAlpha = 1;
   }
@@ -2582,8 +2995,10 @@ function drawAbilityButton(b, f) {
     const cd = clamp(f.skillCD / f.skillMax(), 0, 1); const ready = cd <= 0;
     ctx.lineWidth = 4; ctx.strokeStyle = ready ? '#e4ef3c' : 'rgba(255,255,255,0.25)'; ctx.beginPath(); ctx.arc(x, y, r - 2, 0, TAU); ctx.stroke();
     if (!ready) { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.moveTo(x, y); ctx.arc(x, y, r - 4, -Math.PI / 2, -Math.PI / 2 + TAU * cd); ctx.closePath(); ctx.fill(); }
-    ctx.globalAlpha = ready ? 1 : 0.5;
-    skillIcon(f.W.skill, x, y - r * 0.15, r * 0.42);
+    const book = f.W.skill === 'summon';
+    ctx.globalAlpha = ready && (!book || f.lastSpirit) ? 1 : 0.5;
+    if (book) { if (f.lastSpirit) drawSpirit(ctx, f.lastSpirit, x, y - r * 0.12, r * 0.3, G.time); else { ctx.font = `800 ${Math.round(r * 0.6)}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = '#d9deea'; ctx.fillText('？', x, y - r * 0.15); } }
+    else skillIcon(f.W.skill, x, y - r * 0.15, r * 0.42);
     ctx.globalAlpha = 1; label = f.bombHeld ? 'なげる' : 'スキル'; key = f.ctrl === 1 ? 'シフト' : 'E';
   } else {
     ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(255,255,255,0.5)'; ctx.beginPath(); ctx.arc(x, y, r - 2, 0, TAU); ctx.stroke();
@@ -2671,6 +3086,7 @@ function render() {
   for (const fx of G.fx) guarded(() => drawFx(fx));
   guarded(drawAcid);
   guarded(drawParticles);
+  if (G.judge) guarded(drawJudge);
   ctx.restore();
   if (G.reaper) guarded(drawReaper);
   if (G.genesis) guarded(drawGenesis);
@@ -2678,12 +3094,14 @@ function render() {
   if (G.flashT > 0) { ctx.fillStyle = `rgba(255,255,235,${clamp(G.flashT * 5, 0, 0.45)})`; ctx.fillRect(0, 0, VW, VH); }
   drawHUD();
   if (G.mode === '2p' || G.mode === 'train') drawVsBars();
+  if (G.spiritOrbs && G.spiritOrbs.length) guarded(drawSpiritArrows);
 }
 /* 2P health bars: drawn in screen space above the HUD so buttons never cover them */
 function drawVsBars() {
   const u = clamp(Math.min(VW, VH) / 720, 0.75, 1.3);
   for (const f of G.fighters) {
     if (!f.alive) continue;
+    ctx.save(); if (f.stealthT > 0) ctx.globalAlpha = 0.3;
     const P = f.rag.p; const top = W2S(P[0].x, Math.min(P[0].y, f.y - 44 * f.s) - 22 * f.s);
     const w = 72 * u, h = 11 * u; let x = clamp(top.x - w / 2, 6, VW - w - 6); const y = clamp(top.y - h, 64 * u + 30, VH - 20);
     const k = clamp(f.hp / f.hpMax, 0, 1);
@@ -2696,6 +3114,8 @@ function drawVsBars() {
     ctx.lineWidth = 5; ctx.lineJoin = 'round'; ctx.strokeStyle = '#141a2e'; ctx.strokeText(tag, x + w / 2, y - 7);
     ctx.fillStyle = f.team === 0 ? '#7fd3ff' : '#ff9a90'; ctx.fillText(tag, x + w / 2, y - 7);
     if (f.powerT > 0) { ctx.font = `800 ${Math.round(14 * u)}px ${FONT}`; ctx.strokeText('攻撃×2 ' + Math.ceil(f.powerT), x + w / 2, y - 28 * u); ctx.fillStyle = '#ff7aa8'; ctx.fillText('攻撃×2 ' + Math.ceil(f.powerT), x + w / 2, y - 28 * u); }
+    if (f.weapon === 'book' && !f.dummy) drawSpiritDots(f, x + w / 2, y + h + 10 * u, 4.2 * u);
+    ctx.restore();
   }
 }
 
@@ -2735,6 +3155,7 @@ function frame(now) {
   if (G.state === 'play' || G.state === 'paused' || G.state === 'result') { ctx.save(); safe(render); ctx.restore(); }
 }
 function checkEnd(rdt) {
+  if (G.mode === 'park' && G.park && G.park.done) { G.park.endT -= rdt; if (G.park.endT <= 0 && G.state === 'play') finishPark(); }
   if (G.mode === '1p' && G.pendingEnd) {
     G.pendingEnd.t -= rdt;
     if (G.pendingEnd.t <= 0) { const w = G.pendingEnd.win; G.pendingEnd = null; finishLevel(w); }
@@ -2794,7 +3215,7 @@ const screens = ['menu', 'shop', 'sel', 'pause', 'result', 'settings'];
 function show(id, on = true) { $(id).hidden = !on; }
 function setState(s) {
   G.state = s;
-  show('menu', s === 'menu'); show('shop', s === 'shop'); show('sel', s === 'select'); show('tsel', s === 'tselect'); show('psel', s === 'pselect'); show('guide', s === 'guide'); show('pause', s === 'paused'); show('result', s === 'result');
+  show('menu', s === 'menu'); show('shop', s === 'shop'); show('sel', s === 'select'); show('tsel', s === 'tselect'); show('asel', s === 'aselect'); show('psel', s === 'pselect'); show('guide', s === 'guide'); show('pause', s === 'paused'); show('result', s === 'result');
   if (s === 'play') { cv.focus({ preventScroll: true }); lastT = performance.now(); acc = 0; }
   if (s === 'menu') { refreshMenu(); }
 }
@@ -2805,7 +3226,7 @@ function refreshMenu() {
   drawMenuIcons();
 }
 function finishLevel(win) {
-  G.reaper = null; G.genesis = null;
+  G.reaper = null; G.genesis = null; G.judge = null; G.park = null;
   const earned = G.coinsRun + (win ? 25 + G.level * 5 : 0);
   save.coins += earned; G.coinsRun = 0; if (win) save.level = Math.max(save.level, G.level + 1); persist();
   $('resTitle').textContent = win ? `レベル ${G.level} クリア！` : 'やられた…';
@@ -2818,7 +3239,7 @@ function finishLevel(win) {
   setState('result');
 }
 function showMatchResult() {
-  G.reaper = null; G.genesis = null;
+  G.reaper = null; G.genesis = null; G.judge = null;
   const w = G.scores[0] > G.scores[1] ? 0 : 1;
   $('resTitle').textContent = (w === 0 ? '1P' : '2P') + 'の勝ち！';
   $('resTitle').style.color = w === 0 ? '#7fd3ff' : '#ff9a90';
@@ -2864,8 +3285,17 @@ function drawMenuIcons() {
   previewStick(c3, 240, 220, '#e8322f', null, { s: 1.2, x: 175, y: 140, f: -1, mask: true });
   c3.strokeStyle = 'rgba(255,255,255,0.8)'; c3.lineWidth = 3; c3.beginPath(); c3.arc(168, 112, 30, 0, TAU); c3.moveTo(168, 72); c3.lineTo(168, 152); c3.moveTo(128, 112); c3.lineTo(208, 112); c3.stroke();
 }
-drawMenuIcons(); refreshMenu();
-document.fonts && document.fonts.ready.then(() => drawMenuIcons());
+// アスレチック icon: two walls, a stickman leaping between them, a flag on top
+function drawParkIcon() {
+  const c = $('icon4').getContext('2d'); c.clearRect(0, 0, 240, 220);
+  c.fillStyle = '#17121f'; c.fillRect(40, 60, 26, 160); c.fillRect(176, 30, 26, 190); c.fillStyle = '#f28d1c'; c.fillRect(40, 56, 26, 6); c.fillRect(176, 26, 26, 6);
+  c.strokeStyle = 'rgba(255,255,255,0.75)'; c.lineWidth = 3; c.setLineDash([6, 6]); c.beginPath(); c.moveTo(70, 190); c.quadraticCurveTo(130, 150, 172, 150); c.quadraticCurveTo(110, 110, 76, 80); c.stroke(); c.setLineDash([]);
+  c.strokeStyle = '#e8edf2'; c.lineWidth = 3; c.beginPath(); c.moveTo(189, 26); c.lineTo(189, -2 + 8); c.stroke();
+  c.fillStyle = '#4be06a'; c.beginPath(); c.moveTo(190, 6); c.lineTo(222, 14); c.lineTo(190, 22); c.closePath(); c.fill();
+  previewStick(c, 240, 220, '#40b4f4', null, { s: 1.05, x: 140, y: 140, f: -1, pose: 'run' });
+}
+drawMenuIcons(); drawParkIcon(); refreshMenu();
+document.fonts && document.fonts.ready.then(() => { drawMenuIcons(); drawParkIcon(); });
 
 /* --- menu wiring --- */
 /* names like アルセウス・ブレイカー may only wrap after the ・ */
@@ -2910,6 +3340,8 @@ $('card1').onclick = () => { Audio.init(); Audio.play('click'); openPsel(); };
 $('card2').onclick = () => { Audio.init(); Audio.play('click'); openSelect(); };
 $('card3').onclick = () => { Audio.init(); Audio.play('click'); setState('tselect'); renderTsel(); };
 $('tselBack').onclick = () => { Audio.play('click'); setState('menu'); };
+$('card4').onclick = () => { Audio.init(); Audio.play('click'); openAsel(); };
+$('aselBack').onclick = () => { Audio.play('click'); setState('menu'); };
 $('tselGo').onclick = () => { Audio.play('click'); startTraining(); };
 function cycleTsel(d) { const i = Math.max(0, WEAPON_ORDER.indexOf(save.tw)); save.tw = WEAPON_ORDER[(i + d + WEAPON_ORDER.length) % WEAPON_ORDER.length]; persist(); renderTsel(); Audio.play('click'); }
 function renderTsel() {
@@ -2948,6 +3380,7 @@ const GUIDE = {
   whip:   { atk: '12・全武器でいちばん長いリーチ', skill: '敵を手元へ引き寄せる（8）。敵がいないときは上の足場に引っかけて登る', sup: '雷が敵から敵へ最大6人まで連鎖（20／16前後）。3回落ちる' },
   scythe: { atk: '17・リーチが長く重め', skill: '周りの広い範囲（刀の千本斬りより少し狭い）の敵にダメージ（16）＋3秒間の毒（0.5秒ごとに3、計18）', sup: 'ステージ全体が闇に包まれ、死神の化身が鎌を振るってステージの相手全員を一撃で倒す（シールドや無敵も関係なし）。発動後、自分の攻撃力が15秒間2倍。アルセウス・ブレイカーを持つ相手には耐性があり、HPを半分削るだけ。アルティメット・ジェネシスと重なるとお互いのダメージが無効。レベル50以上の敵が使うと、相手の最大HPの4割のダメージ（一撃では倒れない）' },
   arceus: { atk: '18・攻撃が速く、虹色の軌跡が出る', skill: '前方へ大きな虹色の斬撃を飛ばす。上下に広く当たり、敵も地形も貫通して進む（24）', sup: 'ステージ全体に光が広がり、神の力で相手を無に帰す（シールドや無敵も関係なく倒す）。発動後、自分のHPが全回復。死神の鎌を持つ相手には耐性があり、HPを半分削るだけ。デス・サイズ・フルバーストと重なるとお互いのダメージが無効。レベル50以上の敵が使うと、相手の最大HPの4割のダメージ（一撃では倒れない）' },
+  book:   { atk: '14・本で殴る。リーチは短め', skill: '最後に拾った精霊の力を使う。炎：相手に直接炎を当てる（22・どこにいても当たるが、シールドは貫通しない）／森：HPを最大の3割回復／風：地形と重ならないランダムな場所へワープ／影：5秒間、姿が見えにくくなり遠くから狙われない／夢：相手を5秒間眠らせて動けなくする／星：待ち時間がすぐ0になり、星の前に拾った精霊の力にもどる', sup: 'この武器を使う試合では10秒ごとに、ステージのどこかに精霊が現れる（順番はランダムで、星はいつも6体目）。6体すべて集めると使える（時間やダメージでは溜まらない）。精霊たちの光で相手全員を消し去る。使うと集めた精霊は0体にもどる（スキルの精霊もなくなる）。2人対戦では集めた精霊と、拾われずに残った精霊が次のラウンドに引きつがれる' },
   bomb:   { atk: '15・持った爆弾で殴る', skill: 'Eで火をつけ、もう一度Eで投げる（26）。S／↓で足元に置き、敵が触るかもう一度S／↓で爆発（32）。自分も6割のダメージ。近くの爆弾は誘爆', sup: '爆弾12個を四方八方に投げる（各22）。自分には当たらない' },
 };
 function renderGuide() {
@@ -3040,5 +3473,3 @@ $('selBack').onclick = () => { Audio.play('click'); setState('menu'); };
 // test hook
 window.__SB = { G, startLevel, start2P, save, WEAPONS };
 </script>
-</body>
-</html>
