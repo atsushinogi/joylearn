@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "verified_at": "2026-11-03T16:41:16.858078+00:00",
+  "questions": 60,
+  "choices_per_question": 4,
+  "total_choices": 240,
+  "unique_images": 240,
+  "formats": {
+    "png-1024": {
+      "count": 240,
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 447485909
+    },
+    "png-148": {
+      "count": 240,
+      "size": [
+        148,
+        148
+      ],
+      "format": "PNG",
+      "bytes": 12104457
+    },
+    "webp-148": {
+      "count": 240,
+      "size": [
+        148,
+        148
+      ],
+      "format": "WEBP",
+      "bytes": 2036780
+    }
+  },
+  "archives": {
+    "png-1024.zip": {
+      "entries": 240,
+      "bytes": 447512811,
+      "sha256": "f873b5edd165ea7972fa514aca7c0d97efb0c2b92c026b354a1254e1ef891e0f",
+      "crc_verified": true
+    },
+    "png-148.zip": {
+      "entries": 240,
+      "bytes": 12130879,
+      "sha256": "a04a205f1c2b29339c12cdafbc093383b6f66aeecfa85d08bc8e44563b6d946a",
+      "crc_verified": true
+    },
+    "webp-148.zip": {
+      "entries": 240,
+      "bytes": 2064162,
+      "sha256": "8a70b33b1153dd4a84a947cc57db590d9326530279d8fe2a0941577c3b616c8b",
+      "crc_verified": true
+    }
+  },
+  "all_exports_decode": true,
+  "exported_masters_match_reviewed_hashes": true,
+  "thumbnail_reviewed_images": 240,
+  "resolved_issues": 9,
+  "unresolved_issues": 0,
+  "durable_original_pngs": 249,
+  "durable_original_zip_crc_ok": true,
+  "durable_originals_match_working_files": true,
+  "historical_result_raw_hashes_checked": 245,
+  "quiz_source_unchanged": true,
+  "source_sha256": "e1b486d882795b02f660c6bdf8426f61d2ee2b5534fcd02d81fbba59735e12c5",
+  "generation_backend": "imagegen",
+  "webp_settings": {
+    "quality": 85,
+    "method": 6
+  },
+  "limitations": "教育用の再現画像。人物本人の容貌、史料細部や失われた建築・作品の厳密な復元を保証しない。"
+}

@@ -1,0 +1,4964 @@
+[
+  {
+    "id": "q01_a",
+    "status": "limited",
+    "spec_sha256": "57ed4090cb4fcc35094bdc656b4e5cb083cf5a1dc18e8d457d57720300549184",
+    "reviewed_png_sha256": "303d579fbc090c4aa6f3f98b56d3660a934eb0258dc9450bdb3ea7aa7614889d",
+    "observation": "左の急な斜面を馬に乗った武者と徒歩の弓兵が下っている。 右下に海沿いの柵の陣があり、守備側が弓を引いて応戦する。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の急な斜面を馬に乗った武者と徒歩の弓兵が下っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右下に海沿いの柵の陣があり、守備側が弓を引いて応戦する。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q01_b",
+    "status": "limited",
+    "spec_sha256": "445e819c99f344c1e9430afc4b761575921291f6b057d2b6d1280d0dd4a08364",
+    "reviewed_png_sha256": "004a9194e0beda39d2eb4523b0e34e295bf1156b03c9f6986b717dfc0e8b30ee",
+    "observation": "手前の岩場の海岸の弓兵と、沖の複数の和船が対向する。 岸と船の兵が互いに弓を構え、間に飛ぶ矢が描かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前の岩場の海岸の弓兵と、沖の複数の和船が対向する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "岸と船の兵が互いに弓を構え、間に飛ぶ矢が描かれる。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q01_c",
+    "status": "limited",
+    "spec_sha256": "6c1e73e3153606c07813657433a736eac02456d22d0e17bccc38b4d9600b576d",
+    "reviewed_png_sha256": "693141a6aabdddcb74eec9999c18d38ba48141df393d22c4a6fcd14ea691ef4c",
+    "observation": "海面の左右に赤旗と白旗を掲げた複数の和船が向き合う。 船上の両側に多数の鎧の兵がいて、弓を引き矢を飛ばし合っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "海面の左右に赤旗と白旗を掲げた複数の和船が向き合う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "船上の両側に多数の鎧の兵がいて、弓を引き矢を飛ばし合っている。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q01_d",
+    "status": "limited",
+    "spec_sha256": "7c90db3e6aab52cb731d9d9c505a338ae794feb56ba5c961b2dfd79aff1de231",
+    "reviewed_png_sha256": "6287dd927011735c460ceeda957d482453a7f7a40967cfeaa80f657a16ca69ed",
+    "observation": "山に囲まれた陸の平地で左右双方に多数の旗と甲冑の軍勢が見える。 左右の前列の兵が槍を突き出し、刀を振り上げて交戦している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "山に囲まれた陸の平地で左右双方に多数の旗と甲冑の軍勢が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左右の前列の兵が槍を突き出し、刀を振り上げて交戦している。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q02_a",
+    "status": "limited",
+    "spec_sha256": "35b79f8baa641bc3313153ba3d5ef5bb6a4092e5871e447ef240f9a84c06f3da",
+    "reviewed_png_sha256": "1c76dc64440f9d750aa3f65014347afa0eaff5a80258c61d7cc8f4f564cb55f4",
+    "observation": "黒い文様の礼装を着て、高いつばなしの黒帽子をかぶる男性。 正面に座る男性の手に平たい木の笏があり、後ろは木造の住居。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い文様の礼装を着て、高いつばなしの黒帽子をかぶる男性。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "正面に座る男性の手に平たい木の笏があり、後ろは木造の住居。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q02_b",
+    "status": "limited",
+    "spec_sha256": "eb967800d5b1e09535a9e47c5348e729aed74cce8ae990106b23386f578bf895",
+    "reviewed_png_sha256": "9a29e0c031f1b4bc52c0ffc96ff8ecb3a86c839598b85a633df6f7556d3d3a2f",
+    "observation": "大きな鍬形兜と大鎧の男性が、栗毛の馬の手綱を持ち騎乗している。 背後に茅葺きの木造武家屋敷がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大きな鍬形兜と大鎧の男性が、栗毛の馬の手綱を持ち騎乗している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に茅葺きの木造武家屋敷がある。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q02_c",
+    "status": "limited",
+    "spec_sha256": "8885219b63fbde03c616e7d0dcc2c237edfe043bfa2f0759a951c042a5586d2d",
+    "reviewed_png_sha256": "cb972dae2702cfbb966562a1e89a52eeb84c42abbf54d55d5473a32a6fc4ee97",
+    "observation": "白髪とひげの老年男性が白い内衣と黒い礼装・冠で座る。 手前に広げた扇、背景に石垣と白い天守が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白髪とひげの老年男性が白い内衣と黒い礼装・冠で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に広げた扇、背景に石垣と白い天守が見える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q02_d",
+    "status": "limited",
+    "spec_sha256": "0911063c81437f4ecb45a5c359836e627f7d7abe2f9cf90dfd1bb454053e8e51",
+    "reviewed_png_sha256": "d1ed1cd77f95fc3734938850fe7d31281b54e913b7cc30560cf40bf84c597884",
+    "observation": "若い顔の武将が大鎧と金の鍬形兜を着けている。 右手で長い弓を持ち、背後の海に木造の和船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "若い顔の武将が大鎧と金の鍬形兜を着けている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右手で長い弓を持ち、背後の海に木造の和船が見える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q03_a",
+    "status": "limited",
+    "spec_sha256": "214f1e810af2fecb725130c08e9738f5279acd84aac5f4dfeb90bf1e4ebef8ea",
+    "reviewed_png_sha256": "a46745631f2f016e8378927317ac702d45b0308dacc195f9467777f8bd7910f9",
+    "observation": "背後の水田は畦で区切られた等しい長方形に分けられる。 古代の冠と衣の官人が素朴な衣の農民家族へ無地の木札を渡す。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "背後の水田は畦で区切られた等しい長方形に分けられる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "古代の冠と衣の官人が素朴な衣の農民家族へ無地の木札を渡す。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q03_b",
+    "status": "limited",
+    "spec_sha256": "fcb9a113ae8810a5067fe2de78c0b7e081ccdd76f12599f70b9e011f05552382",
+    "reviewed_png_sha256": "1e76210909159b5390032a2087c9e6331aebd310ef198e956548da2d54831fda",
+    "observation": "左の高い座の領主に、右下の鎧の家臣がひざまずき頭を下げる。 二人が一枚の紙を受け渡し、後ろに区画のある水田が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の高い座の領主に、右下の鎧の家臣がひざまずき頭を下げる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "二人が一枚の紙を受け渡し、後ろに区画のある水田が見える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q03_c",
+    "status": "limited",
+    "spec_sha256": "e548421b637d1488838892be72eb7baf40af7ceda0d126bb61dff9089842fbdb",
+    "reviewed_png_sha256": "d9b081a52fcb6116d36543aa22aba4ddad85a8afedebd3592ea4b286e5168cc7",
+    "observation": "冠服の官人が整列して巻物を読み、奥の高い座に金色の礼装の統治者が座る。 太い朱色の柱と宮殿、官人の机の巻物が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "冠服の官人が整列して巻物を読み、奥の高い座に金色の礼装の統治者が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "太い朱色の柱と宮殿、官人の机の巻物が見える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q03_d",
+    "status": "limited",
+    "spec_sha256": "a0ac1a0b8714b128d4ffd415aeb36018809e4c422a7c29a29c07dd8484e0e22c",
+    "reviewed_png_sha256": "abbcc1b142e20c2c2661d23fd83b694b6766188bcd54603c8422f8e28ea063ef",
+    "observation": "中国風の冕冠と龍の衣の皇帝が、ひざまずく冠服の官人へ木札を渡す。 背後の台の上に別々の色旗を備えた複数の小さな役所の模型が並ぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中国風の冕冠と龍の衣の皇帝が、ひざまずく冠服の官人へ木札を渡す。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後の台の上に別々の色旗を備えた複数の小さな役所の模型が並ぶ。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q04_a",
+    "status": "limited",
+    "spec_sha256": "4738208b1387755a31edf9abe1cf86b51d2b1968e07811ccd67732af400127be",
+    "reviewed_png_sha256": "8bb9a8393145969c4d9d15e838e7651ccf816f075ec6d2f64c048bcbaf742cdd",
+    "observation": "瓦屋根の京都の町の通りで左右に多数の甲冑の兵が向き合う。 手前で双方の槍が交わり、奥の家屋から炎と黒い煙が上がる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "瓦屋根の京都の町の通りで左右に多数の甲冑の兵が向き合う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前で双方の槍が交わり、奥の家屋から炎と黒い煙が上がる。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q04_b",
+    "status": "limited",
+    "spec_sha256": "6790e6d201c1daf171f7e1e893ef2633fe2c1e4181fa2701b9d8425e09b31576",
+    "reviewed_png_sha256": "4c5a1e53e6859de84143931386439f526aedab5ca3d12c67033344023aae38c0",
+    "observation": "大きな木の門の後ろに朱色の平安風の御所が見える。 門前の左右の大鎧の武士たちが弓を引き、刀を上げて戦う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大きな木の門の後ろに朱色の平安風の御所が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "門前の左右の大鎧の武士たちが弓を引き、刀を上げて戦う。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q04_c",
+    "status": "limited",
+    "spec_sha256": "4fe99c376050e987c69d1d6bda415b82a1c054d2b14c4063f3c3dd4f19b0ab27",
+    "reviewed_png_sha256": "fcd39d9dec7dba64f334d615b782f35bfecb73cea699522734e5eb1f281fb91e",
+    "observation": "奥の御所に火が上がり、手前の左に牛のついた牛車が停まる。 左右に多数の大鎧の兵が向き合い、刀と槍で交戦する。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "奥の御所に火が上がり、手前の左に牛のついた牛車が停まる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左右に多数の大鎧の兵が向き合い、刀と槍で交戦する。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q04_d",
+    "status": "limited",
+    "spec_sha256": "c7855ec1a6fea1360dffe2b7cc800c417206d4b6e4e4e0f1cc4698474f51d9bd",
+    "reviewed_png_sha256": "3e9c763adc5c24a53c7e7f36588c6496f541a650ad68b145b6dab487932c7490",
+    "observation": "浅い川の中と奥の木橋の上に向き合う多数の武士がいる。 手前では弓を引く兵と刀を交える兵、橋上にも交戦する両軍が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "浅い川の中と奥の木橋の上に向き合う多数の武士がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前では弓を引く兵と刀を交える兵、橋上にも交戦する両軍が見える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q05_a",
+    "status": "limited",
+    "spec_sha256": "23a12d531aad7d3dfcc9606ea4df9413ef522b192e4fea8a4b93832afe166f1a",
+    "reviewed_png_sha256": "801d4173f3cf69ae9fe507e03aab4d4efbd98b9cc24a072138c118f671af22fb",
+    "observation": "手前に開いた厚い和紙の法典があり、その右に筆と硯が置かれる。 烏帽子と直垂の裁判官に向き合う二人の武士が訴えを述べる構図。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前に開いた厚い和紙の法典があり、その右に筆と硯が置かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "烏帽子と直垂の裁判官に向き合う二人の武士が訴えを述べる構図。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q05_b",
+    "status": "limited",
+    "spec_sha256": "1628e9e3c5dbe84ff57e6445f45d594af332e5b594a1dea7a19b1becfd74a8be",
+    "reviewed_png_sha256": "e0c64a83ab768a8b3d41ac3aaa0a037ab2d7caa6c0c7942b74d6e2fa2f235b95",
+    "observation": "前面に大きく開いた古い巻物、右下に三枚の木簡が見える。 左の冠服の官人の後ろに朱塗りの宮殿と朝廷の人々が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "前面に大きく開いた古い巻物、右下に三枚の木簡が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左の冠服の官人の後ろに朱塗りの宮殿と朝廷の人々が見える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q05_c",
+    "status": "limited",
+    "spec_sha256": "519a8a68c1f38d83da51a0d6ea0b38de96fe0fd56dfc6770e33b658d5506574a",
+    "reviewed_png_sha256": "5b74bcec6330681ff84925bd08a1296150e5ab577da2523e89ca8853028fd1fa",
+    "observation": "中央の幕府側の人物が大きな紙の法令を両手で広げる。 畳の広間で華やかな正装の大名が複数頭を下げている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中央の幕府側の人物が大きな紙の法令を両手で広げる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "畳の広間で華やかな正装の大名が複数頭を下げている。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q05_d",
+    "status": "limited",
+    "spec_sha256": "779323f0c2cdd19d6f984009683f4fe6c470181efc7f1b771e70f6e6ef51338c",
+    "reviewed_png_sha256": "5b6c0d35bec843ec34058125ef5de5b435c8728e7cdafa5148ad37018068892d",
+    "observation": "裃の奉行の前の机に厚い和綴じの法令集が置かれる。 奉行に向かって素朴な着物の町人二人が座り、一方が手で訴える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "裃の奉行の前の机に厚い和綴じの法令集が置かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "奉行に向かって素朴な着物の町人二人が座り、一方が手で訴える。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q06_a",
+    "status": "limited",
+    "spec_sha256": "6ad012a7b84bd781f2de3f7367f5c52c98eae020b96c6b75d05cdf2806862524",
+    "reviewed_png_sha256": "fad23d5e810b00d91be5b70ec7aa6f7bdc989848cb9044737787ff4c554091a2",
+    "observation": "左の緑の株と右の金色の株の両方に垂れ下がる米の稲穂がある。 連続した水田の土台の上で二本の円形矢印が左右を結んでいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の緑の株と右の金色の株の両方に垂れ下がる米の稲穂がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "連続した水田の土台の上で二本の円形矢印が左右を結んでいる。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q06_b",
+    "status": "limited",
+    "spec_sha256": "3c28bf22fe55fff8beb6e02126440b96c0ad8fc89c852ecc62ecda5ea7487d94",
+    "reviewed_png_sha256": "5ee1dc19128e14f3557582db7ff079263d3d9662c3219f14268bf76a39f69a48",
+    "observation": "黒い炭と灰が畑を覆い、切り株が複数見える。 手前の農民が鍬を地面に入れて耕している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い炭と灰が畑を覆い、切り株が複数見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の農民が鍬を地面に入れて耕している。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q06_c",
+    "status": "limited",
+    "spec_sha256": "b88ec518025ec16be50c9797e9b8503e030a0070cb29600422a7a4a64431cc4d",
+    "reviewed_png_sha256": "7a419d4aed915f0640d0427d46046a06ca801986c2fb1a9a7b66afdfa9a6e834",
+    "observation": "左に垂れた米の稲穂、右に直立した麦の穂が明瞭に見える。 一つの連続した農地模型の左右を二本の円形矢印が結ぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左に垂れた米の稲穂、右に直立した麦の穂が明瞭に見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "一つの連続した農地模型の左右を二本の円形矢印が結ぶ。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q06_d",
+    "status": "limited",
+    "spec_sha256": "d889947c8b38779f7666be30e79e3337fc58886a8364fa1d1f0b52953173da0a",
+    "reviewed_png_sha256": "082cef563aab89cf042d8fb610ff8c51de4504b44abbdf46db62a46a62262cdf",
+    "observation": "透明なハウスの内側で赤い実をつけたトマトを農家が世話している。 ハウスの外側の手前と山に白い雪が積もっている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "透明なハウスの内側で赤い実をつけたトマトを農家が世話している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "ハウスの外側の手前と山に白い雪が積もっている。"
+      }
+    ],
+    "thumbnail_148_check": "主要な構図と対象の識別性を148pxの一覧で確認した。"
+  },
+  {
+    "id": "q07_a",
+    "status": "limited",
+    "spec_sha256": "113e2d21642f188a2fa4eb5159c2f622f2297b3ce10fe7e2aec7bf6558019ae4",
+    "reviewed_png_sha256": "176ed40727d46558e41e1a617deb032e6abc1e3a912c70b440fed84c58a64844",
+    "observation": "赤褐色の束帯と黒い冠の中年男性が座る。 手に木の笏、背後に御所風の建物と緑の庭が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "赤褐色の束帯と黒い冠の中年男性が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に木の笏、背後に御所風の建物と緑の庭が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q07_b",
+    "status": "limited",
+    "spec_sha256": "d3d0b06b06e392b3743266b04225a51db4625747933ffca44bfa46378c645884",
+    "reviewed_png_sha256": "2330484e4503f599a6fd2528033c3b21062e7213edf83c982be2446aadfa6779",
+    "observation": "剃髪し白いひげのある老年男性が座っている。 白い僧衣と袈裟を着け、大きな巻物を持ち、背後に御所と庭がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪し白いひげのある老年男性が座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "白い僧衣と袈裟を着け、大きな巻物を持ち、背後に御所と庭がある。"
+      }
+    ]
+  },
+  {
+    "id": "q07_c",
+    "status": "limited",
+    "spec_sha256": "11844f899d3a809927c6e1ba502ade3d4ca8d7b35f3288ea0434249978ddd7a6",
+    "reviewed_png_sha256": "82e99b77a396537fd2945244871c8d7d7fc6479e9c3b7a14c301c03686275f9d",
+    "observation": "黄褐色の束帯と黒い冠の中年男性が主役。 手前に木の笏、背後に山の斜面と御所風の建物が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黄褐色の束帯と黒い冠の中年男性が主役。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に木の笏、背後に山の斜面と御所風の建物が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q07_d",
+    "status": "limited",
+    "spec_sha256": "c97ea143452e93a41dab051d1f2033891b9c41927d9ea6a7297b64fa9049ee01",
+    "reviewed_png_sha256": "207782c433e9e6362167a5b7a1bffc6967d63f5f2d3f1fb0fb3880e6294ac25e",
+    "observation": "つばなしの黒い烏帽子と白い衣の男性が御所に座る。 前に巻物と硯があり、右手に筆を持つ。 手前の紙の書字が薄くぼけた墨跡に変わり、かなや漢字を判読できない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "つばなしの黒い烏帽子と白い衣の男性が御所に座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前に巻物と硯があり、右手に筆を持つ。"
+      },
+      {
+        "key": "text_unreadable",
+        "result": "pass",
+        "observation": "手前の紙の書字が薄くぼけた墨跡に変わり、かなや漢字を判読できない。"
+      }
+    ]
+  },
+  {
+    "id": "q08_a",
+    "status": "limited",
+    "spec_sha256": "995dea7d63792de1701aa5578dd5c8da123d5ac940a38f725bb151292408e2cc",
+    "reviewed_png_sha256": "ab9374aa57fa83c27f6aff195fc464764bec492ae5ec07d58d4005fc76cd33d2",
+    "observation": "閉じた両目と剃髪した老僧の顔が、彩色の剥げた彫刻として描かれる。 重ねた袈裟と組んだ脚、座像の台まで全体が画面内にある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "閉じた両目と剃髪した老僧の顔が、彩色の剥げた彫刻として描かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "重ねた袈裟と組んだ脚、座像の台まで全体が画面内にある。"
+      }
+    ]
+  },
+  {
+    "id": "q08_b",
+    "status": "limited",
+    "spec_sha256": "f562a570d4451e05beb3bbf833d1c10e01f00f282522d966f3ed2552c62e9828",
+    "reviewed_png_sha256": "7babe28437e0c6b3a39173f1abb2e5583a08483acbba568c2e5d581caaf7c0ae",
+    "observation": "螺髪を持つ巨大な青銅色の坐仏が大きな木柱の堂内にある。 仏像の右手が掌を前に上がり、下に蓮弁の台座が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "螺髪を持つ巨大な青銅色の坐仏が大きな木柱の堂内にある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "仏像の右手が掌を前に上がり、下に蓮弁の台座が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q08_c",
+    "status": "limited",
+    "spec_sha256": "53604cb8e85d7d5aea64088eb06cadfe364068e497bc4309ff6bc34ddbad48e1",
+    "reviewed_png_sha256": "8c89be5865e937fb1f145a7000ad2abd6f5f4bbb37139c04575bb076048a331f",
+    "observation": "筋骨の張った木彫の守護像が左右二体、腰布を着けて立つ。 左は開口、右は閉口で、頭から足先まで両像が収まる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "筋骨の張った木彫の守護像が左右二体、腰布を着けて立つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左は開口、右は閉口で、頭から足先まで両像が収まる。"
+      }
+    ]
+  },
+  {
+    "id": "q08_d",
+    "status": "limited",
+    "spec_sha256": "f1f543d841839884745372fbbf2c17ecfbf7012699d796af1ed05a70a7ad762f",
+    "reviewed_png_sha256": "5731ea71a34d671d6664395f012ab13a6ba97086a202281f5c1c37d271ea62fa",
+    "observation": "中央と左右の計三つの顔、外側四腕と中央二腕の計六腕を数えられる。 中央の両手は胸前で合掌し、足と台まで全体が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中央と左右の計三つの顔、外側四腕と中央二腕の計六腕を数えられる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の両手は胸前で合掌し、足と台まで全体が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q09_a",
+    "status": "limited",
+    "spec_sha256": "140f141dc7edb90d0c1cd5a04662572090f004090a7696a1f0038baa3e416c04",
+    "reviewed_png_sha256": "62e2cc7af011bf2dffdc5ae4aefacb770908b4d641603ba2feba2d4ea6d2816f",
+    "observation": "黒い頭巾と簡素な僧衣の僧が、村人に囲まれて同じ床面に座る。 僧の左後ろに光背を持つ阿弥陀仏を表す小さな立像が置かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い頭巾と簡素な僧衣の僧が、村人に囲まれて同じ床面に座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "僧の左後ろに光背を持つ阿弥陀仏を表す小さな立像が置かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q09_b",
+    "status": "limited",
+    "spec_sha256": "0992734c3618814836655e97bc591457d76b42b4ba0ab45044ffe63e479b6cab",
+    "reviewed_png_sha256": "2dacee1ece1bef42c6ae2fc6b762857728650bd7613c6a9f775f7ea6bb9a4b68",
+    "observation": "剃髪の僧が手を上げ、巻物を高く掲げている。 海辺の寺の前で複数の村人が僧の説法を聞く。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪の僧が手を上げ、巻物を高く掲げている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "海辺の寺の前で複数の村人が僧の説法を聞く。"
+      }
+    ]
+  },
+  {
+    "id": "q09_c",
+    "status": "limited",
+    "spec_sha256": "cd810d45c0e6ef5ee941263ff89027264fdad498b8566798b7b2eac8495fd2a6",
+    "reviewed_png_sha256": "0322100d35c9dbcae00245c63f835396d9825d002560e16f9c88c081b69d505e",
+    "observation": "剃髪の老僧が長い数珠を両手に掛けて合掌する。 阿弥陀仏を表す掛け絵の前で、周囲の民衆も合掌している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪の老僧が長い数珠を両手に掛けて合掌する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "阿弥陀仏を表す掛け絵の前で、周囲の民衆も合掌している。"
+      }
+    ]
+  },
+  {
+    "id": "q09_d",
+    "status": "limited",
+    "spec_sha256": "787ff3f8a6961184c1bbb1078a0243868ead6dd089e13795a0a739d967928d2e",
+    "reviewed_png_sha256": "8dbad33617793a70064f5133fb32e91ab0de67d9fc7cb0cf620d1efb8242a290",
+    "observation": "複数の剃髪の僧が木の壁に向かって座っている。 手前の僧の横顔と組んだ足が見え、背中をまっすぐにしている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "複数の剃髪の僧が木の壁に向かって座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の僧の横顔と組んだ足が見え、背中をまっすぐにしている。"
+      }
+    ]
+  },
+  {
+    "id": "q10_a",
+    "status": "limited",
+    "spec_sha256": "03bead24205626f1656396b7436caa058c28e4ec6f60f03eee50ea51ff7a4e48",
+    "reviewed_png_sha256": "02eb05c44ae4d260bdaef1fdf5047c919a9b757984dcca38cdeb2da30314fc42",
+    "observation": "手前に開いた和綴じ本と硯、脇に筆立てがある。 御所で二人の公家が紙を見て相談し、紅葉と月が背景に見える。 本の両ページも手持ちの紙も薄くぼけた墨跡に変わり、文字を判読できない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前に開いた和綴じ本と硯、脇に筆立てがある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "御所で二人の公家が紙を見て相談し、紅葉と月が背景に見える。"
+      },
+      {
+        "key": "text_unreadable",
+        "result": "pass",
+        "observation": "本の両ページも手持ちの紙も薄くぼけた墨跡に変わり、文字を判読できない。"
+      }
+    ]
+  },
+  {
+    "id": "q10_b",
+    "status": "limited",
+    "spec_sha256": "baa6817e2a443a72d8c5dbd6a63daeb320bbc78d69ec5b28c78f539ce505fbc5",
+    "reviewed_png_sha256": "de7edb7ff4d9e8289e24210078b36380f8b46572884807e5195a9096c12b9f8f",
+    "observation": "机上に広げた巻物と硯があり、公家一人が筆を持つ。 背景に平安風の御所と満開の桜が見える。 巻物の墨が薄くぼけた跡に変わり、かなや漢字を判読できない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "机上に広げた巻物と硯があり、公家一人が筆を持つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背景に平安風の御所と満開の桜が見える。"
+      },
+      {
+        "key": "text_unreadable",
+        "result": "pass",
+        "observation": "巻物の墨が薄くぼけた跡に変わり、かなや漢字を判読できない。"
+      }
+    ]
+  },
+  {
+    "id": "q10_c",
+    "status": "limited",
+    "spec_sha256": "5320c399dcb0e366ea70f36dda1019b6c3c1fa12b9e41b3440b392fa615f0ea8",
+    "reviewed_png_sha256": "cf6ab16de1d30d825b9e4e406f45d530d02fbe48b65dbf680f9bd6b9982c9cad",
+    "observation": "手前に紙を綴じた歌集と木簡が並べて置かれる。 後ろの冠をかぶる古代風の歌人が山と平野を見て筆を持つ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前に紙を綴じた歌集と木簡が並べて置かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "後ろの冠をかぶる古代風の歌人が山と平野を見て筆を持つ。"
+      }
+    ]
+  },
+  {
+    "id": "q10_d",
+    "status": "limited",
+    "spec_sha256": "725ee0ef889c1ce5b607625fe6b04220fc677ee8b514ba6dd02e3ecbc6d8c9c1",
+    "reviewed_png_sha256": "a03d60894a647a3da55f4f3dc3bb95ae3adedf99a11d2f2ddb64a31afd62013e",
+    "observation": "桜の大木の下で茶色の僧衣の旅僧が座る。 手に小さな和綴じの本と筆を持ち、そばに笠と木の杖がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "桜の大木の下で茶色の僧衣の旅僧が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に小さな和綴じの本と筆を持ち、そばに笠と木の杖がある。"
+      }
+    ]
+  },
+  {
+    "id": "q11_a",
+    "status": "limited",
+    "spec_sha256": "aa56f2babdeecccb0a59aa72c808dd452d87564917e07653297a9ea717ecd122",
+    "reviewed_png_sha256": "755071f81cabf7314c7663e3434fc2d1ddcc928b59e7e5c7f444d1592aebde27",
+    "observation": "帽子の脇に剃髪した頭が見え、黒い僧帽をかぶる男性が座る。 高級な紫と金の僧衣をまとい、背後の木造屋敷の門は閉じている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "帽子の脇に剃髪した頭が見え、黒い僧帽をかぶる男性が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "高級な紫と金の僧衣をまとい、背後の木造屋敷の門は閉じている。"
+      }
+    ]
+  },
+  {
+    "id": "q11_b",
+    "status": "limited",
+    "spec_sha256": "7e11c792412688aa13c9a1638a90da72b17b84e0b995b3efb3f1c4d87fd0393c",
+    "reviewed_png_sha256": "33d25520c4476ea9db3351fe20ea3caee7906685da3f5e3f8747c33594c21f0e",
+    "observation": "大鎧と鍬形兜の男性が栗毛の馬に乗り、手綱を持つ。 背後に太い木の門と土塀の中世風の武家屋敷がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大鎧と鍬形兜の男性が栗毛の馬に乗り、手綱を持つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に太い木の門と土塀の中世風の武家屋敷がある。"
+      }
+    ]
+  },
+  {
+    "id": "q11_c",
+    "status": "limited",
+    "spec_sha256": "361aa26fccacd86163dcd97139cc1fb834c397dfb42283488f03313e6d577013",
+    "reviewed_png_sha256": "58f481e9ce2ed0a6d336c87c6fa19cca439b0e58aa9e5ca347fb10282606956f",
+    "observation": "剃髪した壮年男性が黒い僧衣と袈裟で座る。 後ろの池に金色の三層の金閣が映っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した壮年男性が黒い僧衣と袈裟で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "後ろの池に金色の三層の金閣が映っている。"
+      }
+    ]
+  },
+  {
+    "id": "q11_d",
+    "status": "limited",
+    "spec_sha256": "3ab7b1f767c99cc728b5d7eaa603bc594b3b185f4a0779d35c8daad2c623ea87",
+    "reviewed_png_sha256": "3e48949b8a42ee6c016067944b6841fe2e113a431e45b448ce0457d299af1c22",
+    "observation": "剃髪した老年男性が茶色の袈裟で座る。 背後に銀色でない茶色の二層の銀閣と庭が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した老年男性が茶色の袈裟で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に銀色でない茶色の二層の銀閣と庭が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q12_a",
+    "status": "limited",
+    "spec_sha256": "99d3fce1450734988da3ca099d0de1ce10a3628548e9fb407fd4fee2870f6010",
+    "reviewed_png_sha256": "68a7e9e864adef5cdb9076b6aa0a387960d75812106e0ad0bc5b86c956c7e99e",
+    "observation": "左にひだ襟と帽子の欧州商人、右に日本の着物の商人が向かい合う。 手前に銀色の地金と絹の反物、背後に欧州式の帆船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左にひだ襟と帽子の欧州商人、右に日本の着物の商人が向かい合う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に銀色の地金と絹の反物、背後に欧州式の帆船が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q12_b",
+    "status": "limited",
+    "spec_sha256": "99160fb96b21be597386414997b8c257fba15341f53af7655f33340c42dd7292",
+    "reviewed_png_sha256": "4410bfe787f2a9c3f3ec7a0ce45a39f6015b3f388e92b8f0465dfb98e2173b4f",
+    "observation": "左の日本商人と右の東南アジア風の商人が反物を受け渡し、周囲に南国の果物がある。 手前に赤い印だけの文書、背景に帆船とヤシの木が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の日本商人と右の東南アジア風の商人が反物を受け渡し、周囲に南国の果物がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に赤い印だけの文書、背景に帆船とヤシの木が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q12_c",
+    "status": "limited",
+    "spec_sha256": "6b135dd6fb5ea03f121da77f06cbf28342fa81a1388f294c3a209716dbf7deb6",
+    "reviewed_png_sha256": "65d91318e4a7d0efc496e650b57f72bcdeeb6e6104936f13d2555b2413130a53",
+    "observation": "左に日本の烏帽子の商人、右に中国式の冠服の商人が立つ。 束にした穴あき銅銭と青磁器を交換し、背後に中国式の帆船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左に日本の烏帽子の商人、右に中国式の冠服の商人が立つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "束にした穴あき銅銭と青磁器を交換し、背後に中国式の帆船がある。"
+      }
+    ]
+  },
+  {
+    "id": "q12_d",
+    "status": "limited",
+    "spec_sha256": "6b19e2d34567325e5c541a604d5793b86d68445000b461aeeb3ba58a1a0c520c",
+    "reviewed_png_sha256": "0369eb0517d5eb86af46f182aff34ae2ed098a7492a9cdb0a0db982b51233f20",
+    "observation": "日本と中国の役人が、ギザギザの境を持つ二つの木札を合わせて照合している。 木札を持つ両者の背後に木造の貿易船と荷俵がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "日本と中国の役人が、ギザギザの境を持つ二つの木札を合わせて照合している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "木札を持つ両者の背後に木造の貿易船と荷俵がある。"
+      }
+    ]
+  },
+  {
+    "id": "q13_a",
+    "status": "limited",
+    "spec_sha256": "5b91d2d5da6d855df0b1e5ae11c72c80c1f170ce9445345ac1559bc6759a3da7",
+    "reviewed_png_sha256": "7e43a208e28932b14f0e73cd5ae943b5096bec9444f415100a09e5e0927b21cb",
+    "observation": "左上の石垣に素朴な衣の農民の集団、右下に甲冑の武士軍がいる。 双方が火縄銃を発砲し槍を向け、城側には十字の旗が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左上の石垣に素朴な衣の農民の集団、右下に甲冑の武士軍がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "双方が火縄銃を発砲し槍を向け、城側には十字の旗が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q13_b",
+    "status": "limited",
+    "spec_sha256": "63fad31c0c245587b22784a99192358e0ed215a24a9fc4e52a05cc045ac1806c",
+    "reviewed_png_sha256": "d89a3c6f164b8fbc3544318034058ea43be27ff73cecb9fd3fbf7522a48b064c",
+    "observation": "木橋の下の浅瀬と橋の上に双方の多数の武士が見える。 長弓を引く兵や、槍・刀を向けて水中で戦う兵が描かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "木橋の下の浅瀬と橋の上に双方の多数の武士が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "長弓を引く兵や、槍・刀を向けて水中で戦う兵が描かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q13_c",
+    "status": "limited",
+    "spec_sha256": "2668afdc8c18b5991111e068d1369955c0aaa5748b105d54e062ebd35289ecde",
+    "reviewed_png_sha256": "7eccbc53e3c7e8287a6aa5bf4246b6b4ff6e9379c2d76fc84d4788a88b0512df",
+    "observation": "奥の御所が炎上し、左に大きな木の車輪の牛車が停まる。 赤と紺の大鎧の兵が左右に多数いて、刀と槍を交えて戦う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "奥の御所が炎上し、左に大きな木の車輪の牛車が停まる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "赤と紺の大鎧の兵が左右に多数いて、刀と槍を交えて戦う。"
+      }
+    ]
+  },
+  {
+    "id": "q13_d",
+    "status": "limited",
+    "spec_sha256": "d0cde2b0b54ab917015b7e1b16bd80ca0cf1868f7fc7592518b1600fa294b405",
+    "reviewed_png_sha256": "93a68a5e8b3f18aeb6260f2554fc98b623582abe3615795fc168659ed64ff359",
+    "observation": "瓦屋根の京の通りに赤と青の旗を掲げる両軍の集団がいる。 手前で両軍が槍を交えて戦い、奥に炎上した家屋と煙が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "瓦屋根の京の通りに赤と青の旗を掲げる両軍の集団がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前で両軍が槍を交えて戦い、奥に炎上した家屋と煙が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q14_a",
+    "status": "limited",
+    "spec_sha256": "5bcc02f151caab9f727ffcee83a4e79c67d177be15cdba7af65b4d0b0d57a3d6",
+    "reviewed_png_sha256": "cbf8911223fad0090e1cad030e3f29dc321e4f75bea7d32a275d2a8b6af85ce0",
+    "observation": "素朴な農民の衣の男性がちょうど五人、顔を区別して数えられる。 木の机の中央で年配の代表が一枚の無地の紙を両手に持つ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "素朴な農民の衣の男性がちょうど五人、顔を区別して数えられる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "木の机の中央で年配の代表が一枚の無地の紙を両手に持つ。"
+      }
+    ]
+  },
+  {
+    "id": "q14_b",
+    "status": "limited",
+    "spec_sha256": "5fa90828e95c4a302e733199c5ba80444b545697149af55dfbd1af04bb576a5c",
+    "reviewed_png_sha256": "6409158eb8b50feb0339cae31111998f67f4e616ffde26c52e0c288a9f1de766",
+    "observation": "村人の男女が地面に輪になって座り、中央の年配者の話を聞く。 背後に社と水田、横には流水の灌漑水路が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "村人の男女が地面に輪になって座り、中央の年配者の話を聞く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に社と水田、横には流水の灌漑水路が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q14_c",
+    "status": "limited",
+    "spec_sha256": "78be96ff2c8c8b238044ab708da2c2f22ac0220a893b440ee5110b414aabeb9c",
+    "reviewed_png_sha256": "b7522d6799a3917459652b562c0be052cfd883c4075c3474bcb790c316b4c7f9",
+    "observation": "複数の着物の商人が卓上の反物を見て相談している。 背後に寺社の門と、脇に納入品を包んだ荷物がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "複数の着物の商人が卓上の反物を見て相談している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に寺社の門と、脇に納入品を包んだ荷物がある。"
+      }
+    ]
+  },
+  {
+    "id": "q14_d",
+    "status": "limited",
+    "spec_sha256": "78cc8c775cef1b35d25d7631cb0f3ca16d903db7b93c5cf8edf0f33ab6c79ee4",
+    "reviewed_png_sha256": "c4e9d845e153b6028d11c13e2fa4da230ddc4e5e26a53ce69f93ac317b218899",
+    "observation": "江戸風のちょんまげの町人商人が卓を囲んで話し合う。 卓上に算盤と布や穀物の見本、背後に倉と米俵がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "江戸風のちょんまげの町人商人が卓を囲んで話し合う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "卓上に算盤と布や穀物の見本、背後に倉と米俵がある。"
+      }
+    ]
+  },
+  {
+    "id": "q15_a",
+    "status": "limited",
+    "spec_sha256": "ff8a97a496ee12eb009a0cecfd2c24ccddcbbec14239a2522d04983225617a5e",
+    "reviewed_png_sha256": "94f6f7fc1dfd7361bd428bf4af494d9690117883240ec65dbe6f9ee6095154b0",
+    "observation": "複数の商人が多数の反物を前に並んでいる。 寺社の朱色の門の前で僧と神職に荷物を納める場になっている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "複数の商人が多数の反物を前に並んでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "寺社の朱色の門の前で僧と神職に荷物を納める場になっている。"
+      }
+    ]
+  },
+  {
+    "id": "q15_b",
+    "status": "limited",
+    "spec_sha256": "b9db811f0d3e43d3187bc71adaec66a377ee7f212090936cf28ffb653eb30235",
+    "reviewed_png_sha256": "4bb902aa7e34cc818c66ac1f524d0b470fc875e430dfeac15f29ab1c353588f2",
+    "observation": "江戸の町人風の商人たちが机を囲んで相談する。 卓上に算盤と布や綿の見本、後ろに米俵と白壁の倉がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "江戸の町人風の商人たちが机を囲んで相談する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "卓上に算盤と布や綿の見本、後ろに米俵と白壁の倉がある。"
+      }
+    ]
+  },
+  {
+    "id": "q15_c",
+    "status": "limited",
+    "spec_sha256": "8e51c9bac281abf881de5a67dea3001c71118b6a8cc4acce2710356e11ccfd7f",
+    "reviewed_png_sha256": "21117d83e116ea4d8b49fc6e398f767cee3fa3ad6611cd6a15065364272918c3",
+    "observation": "素朴な着物の農民の男性を顔でちょうど五人数えられる。 机の中央で一枚の無地の誓約文書を代表が持つ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "素朴な着物の農民の男性を顔でちょうど五人数えられる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "机の中央で一枚の無地の誓約文書を代表が持つ。"
+      }
+    ]
+  },
+  {
+    "id": "q15_d",
+    "status": "limited",
+    "spec_sha256": "24e5d8a47d71c4a1d068e5c479a1f28135bc2bb3ee608c5fc4a6baa2860c4e83",
+    "reviewed_png_sha256": "7ad939a730af47492b2361aa5368e1bc2a0025062f4e52374310f954fe42005c",
+    "observation": "村人の男女が輪になって地面に座り話し合う。 背後に社・水田・流れのある灌漑水路が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "村人の男女が輪になって地面に座り話し合う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に社・水田・流れのある灌漑水路が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q16_a",
+    "status": "limited",
+    "spec_sha256": "0c5daaf6418d663cc7e7d3a475dbe1acbab313149761b8e4852c6ca3e07cea0b",
+    "reviewed_png_sha256": "d1fef449ba0d9d6214aa0e6aefcd9af49f68e4746c6fb7a75f8dd5c229978c69",
+    "observation": "港の木の倉庫の前で人々が米俵を荷揚げする。 手前に多数の俵と木箱、背後に荷役中の小型和船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "港の木の倉庫の前で人々が米俵を荷揚げする。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に多数の俵と木箱、背後に荷役中の小型和船がある。"
+      }
+    ]
+  },
+  {
+    "id": "q16_b",
+    "status": "limited",
+    "spec_sha256": "9a182a6a8b9b6eb1e3c0385ccc9dd6cb7f89e652d91c0f1f76bfdd2e4127d999",
+    "reviewed_png_sha256": "1068a1353d5a1fe585abdb8d6079b1a6aa7e32f393fd3f58e7bbbd8857c37496",
+    "observation": "複数の商人が卓上に並んだ反物を見て相談する。 背後に寺社の門と、周辺に納入用の包みがある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "複数の商人が卓上に並んだ反物を見て相談する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に寺社の門と、周辺に納入用の包みがある。"
+      }
+    ]
+  },
+  {
+    "id": "q16_c",
+    "status": "limited",
+    "spec_sha256": "3c685fb8e2063b52e48a443443bb930261536dc133f6f8e9e59b85f9d4b044ac",
+    "reviewed_png_sha256": "39d4b358178994719ba6baa09b5f4a3607fc16ceb6cf439151e54c5268536582",
+    "observation": "魚・野菜・反物・陶器などの露店で人々が売買する。 大きく開いた城下の木の門を人々が行き交う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "魚・野菜・反物・陶器などの露店で人々が売買する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "大きく開いた城下の木の門を人々が行き交う。"
+      }
+    ]
+  },
+  {
+    "id": "q16_d",
+    "status": "limited",
+    "spec_sha256": "3597b0c38bf6d3290cd491948d32e9a94a3aba696d83eb036f2548c0503926e2",
+    "reviewed_png_sha256": "31cacb2ee8d6fa69b1891b6bad6c74679bdaa514c94c512ad009fdb5788bd54f",
+    "observation": "寺社の前の露店にむしろ・野菜・魚・布と買い物客がある。 上部に文字のない暦の印が等間隔で三つ並ぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "寺社の前の露店にむしろ・野菜・魚・布と買い物客がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "上部に文字のない暦の印が等間隔で三つ並ぶ。"
+      }
+    ]
+  },
+  {
+    "id": "q17_a",
+    "status": "limited",
+    "spec_sha256": "cfd97b447945c9e86ee1313ad1a492d4181599efbe55ab353dd6abc1ea18ef72",
+    "reviewed_png_sha256": "484f74e6e0cd82e790183f54f485384d372583e71c31c273c4f37e7495b90550",
+    "observation": "銀色でない茶色の木造の二層楼閣が正面斜めに見える。 手前に池と白砂の庭があり、建物の上下と左右の外縁が収まる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "銀色でない茶色の木造の二層楼閣が正面斜めに見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に池と白砂の庭があり、建物の上下と左右の外縁が収まる。"
+      }
+    ]
+  },
+  {
+    "id": "q17_b",
+    "status": "limited",
+    "spec_sha256": "a0e80610a030b12554d629a6f59dc3bfd70353d10a7329aab63750bd82f451a9",
+    "reviewed_png_sha256": "428c0c2c6e1829b0471c66ade860aaf640252fb39a4577b53283075a444ada20",
+    "observation": "二重の瓦屋根を持つ大きな木造の門と太い柱が見える。 中央の通路が開き、左右の軒先から基壇まで、門全体が余白付きで画面内に収まる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "二重の瓦屋根を持つ大きな木造の門と太い柱が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の通路が開き、左右の軒先から基壇まで、門全体が余白付きで画面内に収まる。"
+      }
+    ]
+  },
+  {
+    "id": "q17_c",
+    "status": "limited",
+    "spec_sha256": "f5eb5a0938b994dbbabfe096a58e9197fd17565bc3bfa5e67fb7d253b988950e",
+    "reviewed_png_sha256": "71b289c6bff4c673bffb4cd9a16f5c4350b56cac1938667e06dd90b1123cc4b6",
+    "observation": "池に面する赤い中央堂と、左右へ延びる翼廊が見える。 左右対称の建物全体が余白付きで収まり、屋根に二羽の鳳凰がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "池に面する赤い中央堂と、左右へ延びる翼廊が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左右対称の建物全体が余白付きで収まり、屋根に二羽の鳳凰がある。"
+      }
+    ]
+  },
+  {
+    "id": "q17_d",
+    "status": "limited",
+    "spec_sha256": "a4b32a0e6058a2a49ebfd26aa8f67863ef2a15a5590e06fd7b6a26890075bfd8",
+    "reviewed_png_sha256": "75df4c3c3b5fbcb24f13afad70a73d26f5ca2d5b96990d092cc68152a0d12f34",
+    "observation": "三層の楼閣で、上二層がはっきり金色に輝く。 手前に池と建物の反射があり、鳳凰から基壇まで建物全体が画面内にある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "三層の楼閣で、上二層がはっきり金色に輝く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に池と建物の反射があり、鳳凰から基壇まで建物全体が画面内にある。"
+      }
+    ]
+  },
+  {
+    "id": "q18_a",
+    "status": "limited",
+    "spec_sha256": "d997641cef772db8944f792bac4331427e7070b39a81e7f8da9c4f6817ddb894",
+    "reviewed_png_sha256": "b87332c5cb446fa33b50ba7320242a75fc9af05a7394313a2ce84277ad2f4f6c",
+    "observation": "帽子の脇の頭が剃髪され、黒い僧帽をかぶる男性が座る。 紫と金の僧衣をまとい、背後に閉ざされた木造の屋敷門が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "帽子の脇の頭が剃髪され、黒い僧帽をかぶる男性が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "紫と金の僧衣をまとい、背後に閉ざされた木造の屋敷門が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q18_b",
+    "status": "limited",
+    "spec_sha256": "ad702eba4a39a6ec0c491400bc07e9d669bc2b625597fca9b63949e6576ec099",
+    "reviewed_png_sha256": "ba76d43006d220583dee24e2c0d78e9a47b4aa6eea859f027394c878d20c94bc",
+    "observation": "剃髪した老年男性が茶色の袈裟姿で座る。 後ろの池と庭のそばに銀色でない茶色の二層の銀閣が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した老年男性が茶色の袈裟姿で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "後ろの池と庭のそばに銀色でない茶色の二層の銀閣が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q18_c",
+    "status": "limited",
+    "spec_sha256": "a0c950ad35e9290205e6c4efc0f9e8700a6379d420daa87a01de465fff39d38f",
+    "reviewed_png_sha256": "dfc4b594e16433380a41fa667cc069a15df1dd7314a3de9b34a8ad3fb71b5f96",
+    "observation": "剃髪した壮年男性が黒い僧衣と袈裟で座る。 背景に池と金色の三層の金閣がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した壮年男性が黒い僧衣と袈裟で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背景に池と金色の三層の金閣がある。"
+      }
+    ]
+  },
+  {
+    "id": "q18_d",
+    "status": "limited",
+    "spec_sha256": "e4d2090837b68565cb627773f31f72d3f892767c15b926e0d0b25243b566f171",
+    "reviewed_png_sha256": "c3437f067ae849857f6bb877386f56a350eee9580fae8486d5054fa043849fc1",
+    "observation": "大鎧と鍬形兜の武将が栗毛の馬に乗り手綱を持つ。 後ろに木造の屋根付き門と土塀の武家屋敷が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大鎧と鍬形兜の武将が栗毛の馬に乗り手綱を持つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "後ろに木造の屋根付き門と土塀の武家屋敷が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q19_a",
+    "status": "limited",
+    "spec_sha256": "d3791a41e0dc9b17cef4b4750bfd1b281751aabc1ff43939c9b6a830f8923442",
+    "reviewed_png_sha256": "24427bafaf3f2aaec5387e70911ef819eb20c77bfce378bce8ccae41a1b681ed",
+    "observation": "白い能面と豪華な装束の演者が、開いた扇を上げて舞う。 木の舞台の後ろに松の鏡板と鼓・笛の囃子方が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白い能面と豪華な装束の演者が、開いた扇を上げて舞う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "木の舞台の後ろに松の鏡板と鼓・笛の囃子方が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q19_b",
+    "status": "limited",
+    "spec_sha256": "006fca567a107e159400b775365e7259c4cf77b6d4b8837a61fb753aa1ccc0b8",
+    "reviewed_png_sha256": "4e26b2d626e783a07ca2060930c4f190e8b5051150caba71e58f61b774593c4b",
+    "observation": "黒衣の三人が大きな着物の人形の腕や足を動かしている。 右の赤い床に語り手と三味線を弾く奏者がいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒衣の三人が大きな着物の人形の腕や足を動かしている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右の赤い床に語り手と三味線を弾く奏者がいる。"
+      }
+    ]
+  },
+  {
+    "id": "q19_c",
+    "status": "limited",
+    "spec_sha256": "6abbc312090491e81c49ab18a5381396666aac307a0fa9f8b29cbb29e417019c",
+    "reviewed_png_sha256": "4e74710f511b1fa2c0d882adacc36035cab5ddc765078141095f11c346ee380c",
+    "observation": "顔に白地と赤黒の隈取のある役者が主役。 豪華な赤金の衣装で両腕を広げ、顔を見開いて見得を切る。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "顔に白地と赤黒の隈取のある役者が主役。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "豪華な赤金の衣装で両腕を広げ、顔を見開いて見得を切る。"
+      }
+    ]
+  },
+  {
+    "id": "q19_d",
+    "status": "limited",
+    "spec_sha256": "b5c2f4ca132c85cfe4fcbfafce20a2a98c2cf28a646e3b635812019a429a7104",
+    "reviewed_png_sha256": "b7fd4e8a1137a36d7a45b07a37adc141668287f8dead922ef2e9d9641bd79f36",
+    "observation": "橙の古代風の舞装束の演者が舞う。 後ろの奏者が束ねた縦管の笙と横笛を吹く。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "橙の古代風の舞装束の演者が舞う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "後ろの奏者が束ねた縦管の笙と横笛を吹く。"
+      }
+    ]
+  },
+  {
+    "id": "q20_a",
+    "status": "limited",
+    "spec_sha256": "5dcdfbfcfb4d14da47476a4606e602ecce2bf8f44e7b3817337530a93a587c86",
+    "reviewed_png_sha256": "6dda2e8c921e79eb7758abd65ae6a0fabd5c593dea5ecfa7e66c5e92cf1b8fa6",
+    "observation": "着物の絵師が細い筆を持つ。 金地の屏風に雲の上の風神・雷神を表す神々の姿がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "着物の絵師が細い筆を持つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "金地の屏風に雲の上の風神・雷神を表す神々の姿がある。"
+      }
+    ]
+  },
+  {
+    "id": "q20_b",
+    "status": "limited",
+    "spec_sha256": "c43c2a23a7048d6ab141e2ae1f0fc633ec844c3128bda5892eb2fe3ce586a6d2",
+    "reviewed_png_sha256": "5ef39b4fc00c11e48f9f4aa87beb5e2b7efc3fc76c265bb3353859b525a011b9",
+    "observation": "絵師が太い大きな筆を持って描く。 金地の大屏風に太い幹の松が描かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "絵師が太い大きな筆を持って描く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "金地の大屏風に太い幹の松が描かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q20_c",
+    "status": "limited",
+    "spec_sha256": "fc10357f03a520a7600ac59e66b18d87b4e2246dcb2a39c610c9f5ca26bc5e51",
+    "reviewed_png_sha256": "570cc0887211dd72d76355d135e3c9cc68839782cfc4cca4025ff2fd829fea8f",
+    "observation": "白い頭巾の老年の絵師が筆を持つ。 机上の紙に青い大波と富士、周囲に顔料の器がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白い頭巾の老年の絵師が筆を持つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "机上の紙に青い大波と富士、周囲に顔料の器がある。"
+      }
+    ]
+  },
+  {
+    "id": "q20_d",
+    "status": "limited",
+    "spec_sha256": "e40e88561cfe9caf7b66138ac41170efa86f3462b327b6df9ffbb3087eefac63",
+    "reviewed_png_sha256": "106970eb3b8033d50f31891f2451c9d6351cbbbf027afb0b49fe1dd920960f10",
+    "observation": "剃髪の僧衣の画家が墨筆を持つ。 白黒の山水画と手前の墨の硯が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪の僧衣の画家が墨筆を持つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "白黒の山水画と手前の墨の硯が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q21_a",
+    "status": "limited",
+    "spec_sha256": "47f50fdf8e7657d0c77113805419b8db2046bf6f94643e3a55869302dcd4d2ee",
+    "reviewed_png_sha256": "6e8292357e0a8ba39464b2cf603e16b1f7ed557f6c3731e228ac3bac2dd9bee5",
+    "observation": "長い木の柄に細い金属の直槍の穂先が付く。 穂先から石突まで一本の槍全体が収まる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "長い木の柄に細い金属の直槍の穂先が付く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "穂先から石突まで一本の槍全体が収まる。"
+      }
+    ]
+  },
+  {
+    "id": "q21_b",
+    "status": "limited",
+    "spec_sha256": "50b01be6443fbdfea307ad7e1fc8f789f747ab734f52d5376ed671300858e216",
+    "reviewed_png_sha256": "db6693d4f8365a07629f69ab496e2fec954d82d29828a4852c366f059ce8be71",
+    "observation": "木の台と長い金属銃身の火縄銃が置かれる。 外側の蛇形の火挟みと火縄、銃の全体が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "木の台と長い金属銃身の火縄銃が置かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "外側の蛇形の火挟みと火縄、銃の全体が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q21_c",
+    "status": "limited",
+    "spec_sha256": "07022454080c9d4a80201b7804dc54d7f2e24c021fb4e41efb7f580ad8f80e82",
+    "reviewed_png_sha256": "05684bf2ae2d42ad35cbaff65d0345d0608c806b2d7f1f2d13ea83a52374e74d",
+    "observation": "反った片刃と鍔と柄巻きが見える。 刀の切先から柄頭までと、そばの鞘が収まる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "反った片刃と鍔と柄巻きが見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "刀の切先から柄頭までと、そばの鞘が収まる。"
+      }
+    ]
+  },
+  {
+    "id": "q21_d",
+    "status": "limited",
+    "spec_sha256": "69eafb25205ecacabc8ca0ad55acddb696a68c1c4e38c40b1d57dd4de38b9267",
+    "reviewed_png_sha256": "c031e7bc60189bd753344d8634ad51f8a129d303a9c9b636b693bd5697c489e3",
+    "observation": "握りが中央より下の長い和弓に弦が張られている。 一本の矢と弓の両端が全て画面内にある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "握りが中央より下の長い和弓に弦が張られている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "一本の矢と弓の両端が全て画面内にある。"
+      }
+    ]
+  },
+  {
+    "id": "q22_a",
+    "status": "limited",
+    "spec_sha256": "ecd4ad93fa76c9708ed82fe20af43b6066c32ffe6f840f595ff0bcdf0c31b6fe",
+    "reviewed_png_sha256": "b04bf0997ecfb244e7473861fb889c9cd4bb9e5b5e083854a7a88ee436039bf6",
+    "observation": "内陸の盆地で双方の多数の甲冑の兵と旗が見える。 前面の双方の兵が槍や刀を交えて戦っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "内陸の盆地で双方の多数の甲冑の兵と旗が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前面の双方の兵が槍や刀を交えて戦っている。"
+      }
+    ]
+  },
+  {
+    "id": "q22_b",
+    "status": "limited",
+    "spec_sha256": "b9b9226b451a90890fe58060c4fd553731ca9ae49da86e4d3d93adf77c175ddb",
+    "reviewed_png_sha256": "626a4ce67ff5b28b7b8ef45ecf2c2c15edeab7303a88fa79649ad1a9743640dc",
+    "observation": "長い木の馬防柵の内側で集団の銃兵が白煙を上げて発砲する。 柵の外に迫る赤い鎧の騎馬と徒歩の多数の兵がいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "長い木の馬防柵の内側で集団の銃兵が白煙を上げて発砲する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "柵の外に迫る赤い鎧の騎馬と徒歩の多数の兵がいる。"
+      }
+    ]
+  },
+  {
+    "id": "q22_c",
+    "status": "limited",
+    "spec_sha256": "759226249472deb685cc1701604b7f6720577d1b562b8301a06567f8335a30fc",
+    "reviewed_png_sha256": "35bf102f736c7718cd088d79f10c5f5a6576de95b6ba93a3eeebb11fcf09c3ee",
+    "observation": "雨の谷の陣地へ左側の多数の武士が攻め込む。 右の陣幕を守る兵と、両軍が槍や刀を交えて戦っている。 赤と白の旗は無地となり、菱紋や花紋が見えない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "雨の谷の陣地へ左側の多数の武士が攻め込む。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右の陣幕を守る兵と、両軍が槍や刀を交えて戦っている。"
+      },
+      {
+        "key": "plain_banners",
+        "result": "pass",
+        "observation": "赤と白の旗は無地となり、菱紋や花紋が見えない。"
+      }
+    ]
+  },
+  {
+    "id": "q22_d",
+    "status": "limited",
+    "spec_sha256": "953a69a5c1d83f1b385240d2ecc2b1f65608877fee211b74c01b9ab4f8bd681c",
+    "reviewed_png_sha256": "26641ccd69b8cce5444c5ba2ba1f869c1c299afe68a7ae30111adc879899e3da",
+    "observation": "高い石垣の城と天守、手前の堀と土塁がある。 赤と紺の双方の多数の武士が槍や刀で交戦する。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "高い石垣の城と天守、手前の堀と土塁がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "赤と紺の双方の多数の武士が槍や刀で交戦する。"
+      }
+    ]
+  },
+  {
+    "id": "q23_a",
+    "status": "limited",
+    "spec_sha256": "f6e2332b1979d2b19d5830970b8259195ef426a9401c9ad10b3bd710b020d1fc",
+    "reviewed_png_sha256": "8dff11cf8514f77a4085fe35cf3e56e4285349bfc628f7764bcb77b205db699d",
+    "observation": "田で役人が検地竿と張った縄で区画を測る。 左の役人が台帳へ記録し、後ろの農民が立ち会う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "田で役人が検地竿と張った縄で区画を測る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左の役人が台帳へ記録し、後ろの農民が立ち会う。"
+      }
+    ]
+  },
+  {
+    "id": "q23_b",
+    "status": "limited",
+    "spec_sha256": "68676e77045ddf719c6b55f3a64bbc4b13e794b2df1b472516bc768aa2ef4c4c",
+    "reviewed_png_sha256": "0b3ab4735e8dd2e2dbffe69346fb3a99e04550be3b3c96f8133496a50aaff526",
+    "observation": "農民が刀を役人へ差し出し、後ろにも槍を持つ農民がいる。 箱に集めた刀と槍、左の農民の手には鍬が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "農民が刀を役人へ差し出し、後ろにも槍を持つ農民がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "箱に集めた刀と槍、左の農民の手には鍬が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q23_c",
+    "status": "limited",
+    "spec_sha256": "9d98520f9262cdbf30d60c483520b24071f48e3c8f4285b32f020040c2aa6a0d",
+    "reviewed_png_sha256": "ebe13f354c49ccdbde644f4c745004c587826649d3fa9fbb9de70fafc69d31f6",
+    "observation": "布・野菜・陶器の露店で町人や商人が取引する。 開いた城門の前に外した木の関門と巻いた縄がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "布・野菜・陶器の露店で町人や商人が取引する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "開いた城門の前に外した木の関門と巻いた縄がある。"
+      }
+    ]
+  },
+  {
+    "id": "q23_d",
+    "status": "limited",
+    "spec_sha256": "9d391f96487664a207a4ca226d48c8519cd851ddb86c2329d9d65a59a81fa269",
+    "reviewed_png_sha256": "2e625947abebc1aaba7730071d35c307d27ef0cfefce1bc63cbbc28a204c76c4",
+    "observation": "中央に黒と金の駕籠があり、長い槍の持ち手を含む行列が奥へ続く。 街道を多数の侍が歩き、遠方に白い城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中央に黒と金の駕籠があり、長い槍の持ち手を含む行列が奥へ続く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "街道を多数の侍が歩き、遠方に白い城が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q24_a",
+    "status": "limited",
+    "spec_sha256": "a304cf5137563a317bbe9e94d96bbcbe72ca37d2c23166825b8f822d573b4a8b",
+    "reviewed_png_sha256": "b2e34b76c41011cfbfa11ac72c5be857a8a70494331f0958e62577bbeb0d94bc",
+    "observation": "川の浅瀬と木橋に、双方の多数の兵がいる。 中世の鎧の弓兵と、槍や刀を持って戦う兵が描かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "川の浅瀬と木橋に、双方の多数の兵がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中世の鎧の弓兵と、槍や刀を持って戦う兵が描かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q24_b",
+    "status": "limited",
+    "spec_sha256": "b33ab0b4129dd528d258e2a3d69b13a1168c3d485fe03064074c226bd0b00ceb",
+    "reviewed_png_sha256": "7ba4f2e9e347bbbd3333493280e5ef3d56651643c17813c340a9e542862b775e",
+    "observation": "雪の積もる城門の前に駕籠がある。 駕籠の周囲で警護側と襲撃側の複数の侍が刀を交えて戦う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "雪の積もる城門の前に駕籠がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "駕籠の周囲で警護側と襲撃側の複数の侍が刀を交えて戦う。"
+      }
+    ]
+  },
+  {
+    "id": "q24_c",
+    "status": "limited",
+    "spec_sha256": "c980246cbd31c33b80e177349159cdfc169a5e393b0226b43e0e1f16d8541f77",
+    "reviewed_png_sha256": "252baf73b8d7df45d27f9a25a16518d61edc239dee093e3ba6d16e313ac90f20",
+    "observation": "京都風の町の通りで双方に多数の甲冑の兵がいる。 両軍が槍と刀で戦い、奥の家屋から炎と黒煙が上がる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "京都風の町の通りで双方に多数の甲冑の兵がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "両軍が槍と刀で戦い、奥の家屋から炎と黒煙が上がる。"
+      }
+    ]
+  },
+  {
+    "id": "q24_d",
+    "status": "limited",
+    "spec_sha256": "27b73d98761c628a70f941ecbcec334db29135fdd5be79089d05ba3fdf34a79f",
+    "reviewed_png_sha256": "e5fca42dac4e990c944f31ec7737499f9fb5872a2dd5cdd6fd0963454500fee4",
+    "observation": "寺の屋根が燃え、門の外に甲冑の兵が集まる。 手前の攻撃側と門内の守備側が槍や刀を向けて交戦する。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "寺の屋根が燃え、門の外に甲冑の兵が集まる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の攻撃側と門内の守備側が槍や刀を向けて交戦する。"
+      }
+    ]
+  },
+  {
+    "id": "q25_a",
+    "status": "limited",
+    "spec_sha256": "0edc7c3836cf35acc18984369d14d08725ec99482f7fc260a5fb101329141307",
+    "reviewed_png_sha256": "8f751a3e313ebc70013f2526bee161f7bf7eb9acda96596aa70e53e1515f5cc0",
+    "observation": "田で検地竿を立て、張った縄で土地の区画を測る。 前で役人が台帳に記録し、奥の農民が立ち会っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "田で検地竿を立て、張った縄で土地の区画を測る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前で役人が台帳に記録し、奥の農民が立ち会っている。"
+      }
+    ]
+  },
+  {
+    "id": "q25_b",
+    "status": "limited",
+    "spec_sha256": "c338395bcba2b71c9f601f014a2f71fbfc285c768d8d8173410f19eed4b8890c",
+    "reviewed_png_sha256": "3fda381bae45487f92fc78b6ed50d67bc7fff3d798023d04b23dc93ebc54ddb8",
+    "observation": "城下の露店に反物や野菜・器が並び、商人と買い物客がいる。 開いた大門の前に、外した木の関門と巻いた縄が置かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "城下の露店に反物や野菜・器が並び、商人と買い物客がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "開いた大門の前に、外した木の関門と巻いた縄が置かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q25_c",
+    "status": "limited",
+    "spec_sha256": "6ea2a5ef33a5c57617e918c35091a22f647315b9d5d8a4ce312a2c4a313eef96",
+    "reviewed_png_sha256": "2b845401d374beff1afe71e517ab56d34eba3bd9ce08ebaeaf312bf2898f6fd1",
+    "observation": "装飾のある駕籠と、長い槍の持ち手を含む行列が奥まで続く。 侍たちが街道を歩き、遠方に城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "装飾のある駕籠と、長い槍の持ち手を含む行列が奥まで続く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "侍たちが街道を歩き、遠方に城が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q25_d",
+    "status": "limited",
+    "spec_sha256": "bc2f90dc58e72a0b31470b6c00a2b856aae009cbc8e32196c35bcae0df658d2b",
+    "reviewed_png_sha256": "9a341f06ce1482bd6fae1d80b564c15f407e955a8d436586bd6ab6df2123a7e6",
+    "observation": "農民が鞘に入った刀を役人へ渡し、後ろの農民は槍を持って待つ。 箱に刀と槍が集められ、左の農民の手と手前の農民の腰に鍬が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "農民が鞘に入った刀を役人へ渡し、後ろの農民は槍を持って待つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "箱に刀と槍が集められ、左の農民の手と手前の農民の腰に鍬が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q26_a",
+    "status": "limited",
+    "spec_sha256": "0b6b1e3e372e71896bae6e63447fd8c0187130957f9ebc1d00270581f4783f54",
+    "reviewed_png_sha256": "e331a73a77bc896884c70254fc1cf23193c15b07ad0e0d8fc56c1abcc2a8fb47",
+    "observation": "装飾のある駕籠と、長い槍を持つ行列が連なる。 街道の侍の列と、背後の白い城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "装飾のある駕籠と、長い槍を持つ行列が連なる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "街道の侍の列と、背後の白い城が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q26_b",
+    "status": "limited",
+    "spec_sha256": "59d8b2ee85884f7c9df05cdafbd502f009bd2b4d8ab514da693452dfe5ec4d1d",
+    "reviewed_png_sha256": "d38874841b7950fcc67e8e05241e68a470714de2504bc2233867f935f80dc9df",
+    "observation": "城下の市場で布・野菜・器などを売る露店と商人がいる。 開いた城門の前に外した木の関門と縄が置かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "城下の市場で布・野菜・器などを売る露店と商人がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "開いた城門の前に外した木の関門と縄が置かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q26_c",
+    "status": "limited",
+    "spec_sha256": "1301227890a0a97bfc3c6f562aa77d3b93bcb97ce31b6ecdf60acc5bef40a7f4",
+    "reviewed_png_sha256": "abcef5f1786085ba9370234482b3c5654e195b76fb6b0daf8c052d83f0675c3b",
+    "observation": "田で役人が検地竿と張った縄を使って区画を測る。 手前の役人が台帳に書き、後ろの農民が立ち会っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "田で役人が検地竿と張った縄を使って区画を測る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の役人が台帳に書き、後ろの農民が立ち会っている。"
+      }
+    ]
+  },
+  {
+    "id": "q26_d",
+    "status": "limited",
+    "spec_sha256": "75c665170e0cd625a90a71d422d63f8495f57714e298ea2aae384d7dc4e743d3",
+    "reviewed_png_sha256": "ecfdac3ee4c3c44b9c4efbf17d4474965be04af20c5479d3eccb0a60022e629d",
+    "observation": "農民が刀を役人へ差し出し、後ろに回収係の武士が立つ。 箱に刀と槍があり、左の農民が鍬を持ち、中央の農民の腰にも鍬がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "農民が刀を役人へ差し出し、後ろに回収係の武士が立つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "箱に刀と槍があり、左の農民が鍬を持ち、中央の農民の腰にも鍬がある。"
+      }
+    ]
+  },
+  {
+    "id": "q27_a",
+    "status": "limited",
+    "spec_sha256": "b907443dd93c488923276fc6e87c04d3d60c24013ecc3626091fd661a361241d",
+    "reviewed_png_sha256": "e7e257b1ae70fa1e840ed30135cfe6253683b512ede3ebbdceec3eea4611a8b1",
+    "observation": "黒い紋付の元武士、笠の農民、青い仕事着の職人、商人の四人がいる。 四人は同じ地面に立ち、対等な高さで挨拶と握手をする。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い紋付の元武士、笠の農民、青い仕事着の職人、商人の四人がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "四人は同じ地面に立ち、対等な高さで挨拶と握手をする。"
+      }
+    ]
+  },
+  {
+    "id": "q27_b",
+    "status": "limited",
+    "spec_sha256": "b638a9ed48dcb4334b276591b1ec0e5bf4cd26badc05293ed5c8714e5a3a414d",
+    "reviewed_png_sha256": "9673a3580cd5bbc2e963fa2f7589996e3fa49113f69586cc28fda455b3800d0e",
+    "observation": "柵の左に刀を帯びた武士、右に鍬を持つ農民がいる。 木の柵で両者が分けられ、農民側の後ろには田がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "柵の左に刀を帯びた武士、右に鍬を持つ農民がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "木の柵で両者が分けられ、農民側の後ろには田がある。"
+      }
+    ]
+  },
+  {
+    "id": "q27_c",
+    "status": "limited",
+    "spec_sha256": "a947b7c6ef1f228ea3b372d8e0b63255eaad304584a2fad3ed7757c74d5b8b04",
+    "reviewed_png_sha256": "b13c1a442707dceea619613476e2713e11b870812e16940913d1d5abd8482842",
+    "observation": "左の旧藩風の着物の人物が、右の洋装の役人へ赤い印章を返している。 壁には複数の色に分かれた日本列島の地図がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の旧藩風の着物の人物が、右の洋装の役人へ赤い印章を返している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "壁には複数の色に分かれた日本列島の地図がある。"
+      }
+    ]
+  },
+  {
+    "id": "q27_d",
+    "status": "limited",
+    "spec_sha256": "ef95d167c16147a23c1b1bb42ae5ad770800b02898ebef830f7bdb1002217c0b",
+    "reviewed_png_sha256": "de7382593ed7ebc371f80b6ffae77f9d3b7e6df5e02270a985387ca3b4fb2876",
+    "observation": "農民が役人へ硬貨を差し出す場面が主役。 机上に土地の文書があり、後ろに田と測量道具が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "農民が役人へ硬貨を差し出す場面が主役。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "机上に土地の文書があり、後ろに田と測量道具が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q28_a",
+    "status": "limited",
+    "spec_sha256": "2f4b3b2684bdd5c591d75169a3da251af3773ad9ebb90b19d3e2fb736eae3181",
+    "reviewed_png_sha256": "7ffc23fd8d008253bd8c26cc5201f9e7f7e43049759603e09eca7ec5ffde09a0",
+    "observation": "左の日本商人と右の東南アジア風の商人が向かい、香辛料や交易の荷がある。 日本商人が持つ文書に大きな赤い印、背後にヤシの木と木造帆船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の日本商人と右の東南アジア風の商人が向かい、香辛料や交易の荷がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "日本商人が持つ文書に大きな赤い印、背後にヤシの木と木造帆船が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q28_b",
+    "status": "limited",
+    "spec_sha256": "9b05c94404708f0d9e377142ee1d65dbfeb779a6ccb01efad2d111f3f9a2e9b4",
+    "reviewed_png_sha256": "e1032488931bfa3dda2bb03c716ff1fcf548079808c226712270c3e0c936c0d5",
+    "observation": "左に欧州の帽子とひだ襟の商人、右に着物の日本商人がいる。 手前に絹の反物と銀の地金、後ろに欧州式の大型帆船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左に欧州の帽子とひだ襟の商人、右に着物の日本商人がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に絹の反物と銀の地金、後ろに欧州式の大型帆船がある。"
+      }
+    ]
+  },
+  {
+    "id": "q28_c",
+    "status": "limited",
+    "spec_sha256": "bd55ebf841e23fabdcbd0b3d5c647c008a6db08ecd0021f041014b118c98104f",
+    "reviewed_png_sha256": "2205f9c9b1e47159d67ffba0c4cb263c94853a6f0de973c2b2972eba8f07463d",
+    "observation": "二人の役人がそれぞれ持つ木札のギザギザの境を合わせて照合する。 日本式と中国式の冠服の二人の後ろに木造の貿易船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "二人の役人がそれぞれ持つ木札のギザギザの境を合わせて照合する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "日本式と中国式の冠服の二人の後ろに木造の貿易船がある。"
+      }
+    ]
+  },
+  {
+    "id": "q28_d",
+    "status": "limited",
+    "spec_sha256": "02d2707de39ac4d516af61025dffa40de09c6727a3632a8145b42ec2492549a5",
+    "reviewed_png_sha256": "76750db78ee21d5dca8817a9b382bd478fc22c5a295223c55dcb088d3437eb6d",
+    "observation": "日本の着物の商人と中国式の冠服の商人が向き合う。 手元に束ねた穴あき銅銭と青磁器、後ろに中国式の帆船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "日本の着物の商人と中国式の冠服の商人が向き合う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手元に束ねた穴あき銅銭と青磁器、後ろに中国式の帆船がある。"
+      }
+    ]
+  },
+  {
+    "id": "q29_a",
+    "status": "limited",
+    "spec_sha256": "7402e947745324e6c28783c01096d6db43e91c67fa305d9c7f77cd44a7fca1d6",
+    "reviewed_png_sha256": "84e47d53c8cf473b2f4604622c449b6e754b148c84aff344e26186e3558c4acd",
+    "observation": "剃髪した禅僧の画家が墨筆を紙へ向ける。 手前に硯と白黒の山水画が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した禅僧の画家が墨筆を紙へ向ける。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に硯と白黒の山水画が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q29_b",
+    "status": "limited",
+    "spec_sha256": "b465d59786efb4fac015ff9f11be44aacfcda1c42d7429504e6d487be465d997",
+    "reviewed_png_sha256": "aa41ab09c4f11d1e36738ce5e6bbe84e540cbc1da6928cb42623ed340ee62dad",
+    "observation": "華やかな着物の女性の腰に、柄と鞘がはっきり見える刀がある。 開いた扇を上げ、川辺の仮設の舞台で踊っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "華やかな着物の女性の腰に、柄と鞘がはっきり見える刀がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "開いた扇を上げ、川辺の仮設の舞台で踊っている。"
+      }
+    ]
+  },
+  {
+    "id": "q29_c",
+    "status": "limited",
+    "spec_sha256": "fc1af74f6f30bf5da6ae908a3f808863d3ac6939832c2f2fdc30e3ef5e817f2b",
+    "reviewed_png_sha256": "d76a90cd539013b7b8d487a232e178026014461572339a8b0262729fe5e9f44e",
+    "observation": "豪華な着物の絵師が太い筆を持っている。 金地の大きな屏風に太い幹の松を描く。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "豪華な着物の絵師が太い筆を持っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "金地の大きな屏風に太い幹の松を描く。"
+      }
+    ]
+  },
+  {
+    "id": "q29_d",
+    "status": "limited",
+    "spec_sha256": "6c5f96bf9879452fb2bc7628072d22208af776a45cf5e16e527e185cb595eea7",
+    "reviewed_png_sha256": "6e62c053ff09b922d446eb0ccb88183cb5fff0c04464a9a0b9f307724955e5b3",
+    "observation": "剃髪した老年の茶人が簡素な茶色の衣で座る。 小さな茶室で黒い茶碗に竹の茶筅を入れて茶を点てている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した老年の茶人が簡素な茶色の衣で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "小さな茶室で黒い茶碗に竹の茶筅を入れて茶を点てている。"
+      }
+    ]
+  },
+  {
+    "id": "q30_a",
+    "status": "limited",
+    "spec_sha256": "b7276c9bb8363a6cdf279df3f1520ee309ef39f2faba24d0bb248f6d81c1c341",
+    "reviewed_png_sha256": "fb676fe9c8fae44269abf4bf6c720f1c74c1b0cbb4f874c4ff071ad03028e236",
+    "observation": "暗い灰色の金属の塊が置かれる。 粗い黒い鉄鉱石と短い鉄棒が並ぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "暗い灰色の金属の塊が置かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "粗い黒い鉄鉱石と短い鉄棒が並ぶ。"
+      }
+    ]
+  },
+  {
+    "id": "q30_b",
+    "status": "limited",
+    "spec_sha256": "abb7486e50708fb3d6b0abc8de1a9b19254d7a56fdd071e5a06ce0c2bcb48681",
+    "reviewed_png_sha256": "432e29f515bd559f5b2edb81a8c10ecce46f0934d616a04c3b22c80d40706d74",
+    "observation": "大きな天然の金の塊が黄色く輝く。 同じ黄色い金属の地金が岩の上に置かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大きな天然の金の塊が黄色く輝く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "同じ黄色い金属の地金が岩の上に置かれる。"
+      }
+    ]
+  },
+  {
+    "id": "q30_c",
+    "status": "limited",
+    "spec_sha256": "df0a6b5015d527c14257050b921e2050c71821433641faa2a2d19991c84e6241",
+    "reviewed_png_sha256": "0d5bd0fc9b03dc0c252723ae86e37bde2923f9c324415e1247eb570cce173a1e",
+    "observation": "赤褐色の金属の塊が主役。 銅色の小さな地金が同じ赤茶の光沢で並ぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "赤褐色の金属の塊が主役。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "銅色の小さな地金が同じ赤茶の光沢で並ぶ。"
+      }
+    ]
+  },
+  {
+    "id": "q30_d",
+    "status": "limited",
+    "spec_sha256": "87d9d9456795ceec908bd8b07c15ee2d1e7cb67309216ffd750d0cca7f0e62cc",
+    "reviewed_png_sha256": "239172d4c6f1696fc80bad9ac88ea0e3e2192b09943c77c963acc48f73b02f2d",
+    "observation": "白銀色の金属の塊が輝く。 銀色の地金と黒っぽい鉱石が隣にある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白銀色の金属の塊が輝く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "銀色の地金と黒っぽい鉱石が隣にある。"
+      }
+    ]
+  },
+  {
+    "id": "q31_a",
+    "status": "limited",
+    "spec_sha256": "22599abb7d13b2e61f38560b1ff66199b4096b9e4cec9a04f7bfa0d5f5761e0d",
+    "reviewed_png_sha256": "868e77ffe8768a9d1259b9fef746d3f07c245e4898bf6d3a00be6aba774a759e",
+    "observation": "内陸の盆地に両軍の多数の武士と旗が広がる。 左右の前列の兵が槍と刀を交えて戦う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "内陸の盆地に両軍の多数の武士と旗が広がる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左右の前列の兵が槍と刀を交えて戦う。"
+      }
+    ]
+  },
+  {
+    "id": "q31_b",
+    "status": "limited",
+    "spec_sha256": "1b6a58e0d61291b680613c4186a4a46949e241396c7d3aa1cb644a390d1597aa",
+    "reviewed_png_sha256": "809a8b1ef5c3523eadadbb9aac108676ee76dcbe3fb8745b962e5575030da530",
+    "observation": "雨の狭い谷で武士の集団が陣幕のある陣へ攻め込む。 陣を守る武士も槍と刀を構え、両者が交戦する。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "雨の狭い谷で武士の集団が陣幕のある陣へ攻め込む。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "陣を守る武士も槍と刀を構え、両者が交戦する。"
+      }
+    ]
+  },
+  {
+    "id": "q31_c",
+    "status": "limited",
+    "spec_sha256": "6560645155a51d0ab5bad369e14e679ed196e15d9bcb11c34c37f84bee2b6e6e",
+    "reviewed_png_sha256": "c99dd4af4a5aab363d3f795c7e565e7bc00d85496d3ae4b81a711ef615a8b336",
+    "observation": "背後に高い石垣と天守、前に堀と土塁がある。 両軍の多数の甲冑の武士が槍や刀で戦っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "背後に高い石垣と天守、前に堀と土塁がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "両軍の多数の甲冑の武士が槍や刀で戦っている。"
+      }
+    ]
+  },
+  {
+    "id": "q31_d",
+    "status": "limited",
+    "spec_sha256": "0cbd30954910f942287df23ade873cb31a9acfd472179c821243786ea7be9449",
+    "reviewed_png_sha256": "87dbbe294041fc9edc0f871e8ccfbe24c4a4d692390994eb5cb0ad9def710d18",
+    "observation": "長い馬防柵の内側の銃兵の列が白煙を上げて発砲する。 柵の外に迫る徒歩と騎馬の軍の集団が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "長い馬防柵の内側の銃兵の列が白煙を上げて発砲する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "柵の外に迫る徒歩と騎馬の軍の集団が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q32_a",
+    "status": "limited",
+    "spec_sha256": "95e0296c6febf0b8c525f642d5fb1680a1b82f407d46d6fc735a0149ee34e52c",
+    "reviewed_png_sha256": "e1b136aad9dcd8b01817c94a5aa41c6542ed8fd896314ccb29f6ead9d5be2cb8",
+    "observation": "白髪の老年男性が白い内衣と黒い礼装・冠で座る。 手に開いた扇、背景に石垣と天守がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白髪の老年男性が白い内衣と黒い礼装・冠で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に開いた扇、背景に石垣と天守がある。"
+      }
+    ]
+  },
+  {
+    "id": "q32_b",
+    "status": "limited",
+    "spec_sha256": "1a0b4e68fa19cf1bcf084dcd007d1f5094dd49b5383d8c74defaa69d3f76acda",
+    "reviewed_png_sha256": "f8540dce91e534a92bd86b44026adb99880f2966866112f37b15078191e3584f",
+    "observation": "細身の老年男性が金茶の豪華な衣装で座る。 手に閉じた扇、背後に金地の屏風がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "細身の老年男性が金茶の豪華な衣装で座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に閉じた扇、背後に金地の屏風がある。"
+      }
+    ]
+  },
+  {
+    "id": "q32_c",
+    "status": "limited",
+    "spec_sha256": "30f178e17556599b4af403a202f7ee49e9c3dcc375a3b54571dfd9bec077c57f",
+    "reviewed_png_sha256": "9b75ded9196b5329dd240e93e5e0b06d325d6f556d5e366b2c8aa12a5d5da205",
+    "observation": "口ひげの壮年男性が黒い高い冠と紺色の礼装を着る。 手に黒い軍配扇、背後に城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "口ひげの壮年男性が黒い高い冠と紺色の礼装を着る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に黒い軍配扇、背後に城が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q32_d",
+    "status": "limited",
+    "spec_sha256": "c5c3e38e4763998de9bd313c5ee98c74bef7c93caebae38c823d78c7fb14e4b5",
+    "reviewed_png_sha256": "80bf845e1749ce8ec37ff30ef2a6ec0f1a75c2967d5f23b5858bdc7c5f16c8e5",
+    "observation": "黒い冠と濃紫の束帯の壮年男性が座る。 手に木の笏、背景は城内の畳の間。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い冠と濃紫の束帯の壮年男性が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に木の笏、背景は城内の畳の間。"
+      }
+    ]
+  },
+  {
+    "id": "q33_a",
+    "status": "limited",
+    "spec_sha256": "b47b4f282cd17e3799ff2e8f2c4fe0580a0f88a9e4ebeee14ec46251edab75eb",
+    "reviewed_png_sha256": "e09d46346e3d936bf03e32435b9ca0d1409ec9e95c30c0af6ad70fbb4809e280",
+    "observation": "幕府側の役人が大きな紙の法令を両手で示す。 畳の間で正装の大名が複数、頭を下げて法令を受ける。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "幕府側の役人が大きな紙の法令を両手で示す。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "畳の間で正装の大名が複数、頭を下げて法令を受ける。"
+      }
+    ]
+  },
+  {
+    "id": "q33_b",
+    "status": "limited",
+    "spec_sha256": "b66b3bf3dcd977a15d2a424def638243ef32a41bd3ae47dc28307682964d038d",
+    "reviewed_png_sha256": "f4f8c15c7ed90575b1f5b15eefc4bb253ed87c7d6cefb2c9543d9b78ca146e4a",
+    "observation": "机上に開いた和紙の法典と筆記の道具がある。 烏帽子の裁判官に向き合って二人の武士が訴える場。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "机上に開いた和紙の法典と筆記の道具がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "烏帽子の裁判官に向き合って二人の武士が訴える場。"
+      }
+    ]
+  },
+  {
+    "id": "q33_c",
+    "status": "limited",
+    "spec_sha256": "33931a19710caf66e3ca6174ded927a633dd077b3b251024706643e1ded3b874",
+    "reviewed_png_sha256": "8b908cce8d9b769c21a8b38b1a4cd816d38f1ee28d7d72fd46d7cebbb6037b8a",
+    "observation": "御所の間に束帯と冠の複数の公家が座る。 裃の幕府側の使者から紙の法令を受け取っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "御所の間に束帯と冠の複数の公家が座る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "裃の幕府側の使者から紙の法令を受け取っている。"
+      }
+    ]
+  },
+  {
+    "id": "q33_d",
+    "status": "limited",
+    "spec_sha256": "5e97e2a7ae9d172a740ff2c5cd6a82be3805a4362ee598236f4c0fc857d3cbf7",
+    "reviewed_png_sha256": "3a87715c3dbb05213c190f1111e6b817c3b7ff8f96d11d8715bc96fbfe0a0c32",
+    "observation": "奉行の前の机に綴じた法令集が開かれる。 裃の奉行と手前の二人の町人が向き合い、一人が手で訴える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "奉行の前の机に綴じた法令集が開かれる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "裃の奉行と手前の二人の町人が向き合い、一人が手で訴える。"
+      }
+    ]
+  },
+  {
+    "id": "q34_a",
+    "status": "limited",
+    "spec_sha256": "2f613be732cf37953abfc84e0c2faa21f7c8b02d3fb12720c358164b8180277b",
+    "reviewed_png_sha256": "ac39f999fdf449ee7bbe566a001372163eeffc15c19a2aa52f9650d657b94a57",
+    "observation": "素朴な着物の農民の男性がちょうど五人、顔を区別して数えられる。 中央の男性が机の上の一枚の紙を持ち、全員で囲む。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "素朴な着物の農民の男性がちょうど五人、顔を区別して数えられる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の男性が机の上の一枚の紙を持ち、全員で囲む。"
+      }
+    ]
+  },
+  {
+    "id": "q34_b",
+    "status": "limited",
+    "spec_sha256": "768350e7b5c3c453e6fb9a91e06d83efd269afb668e0720f3db6921874245e53",
+    "reviewed_png_sha256": "26c3c477bbb948b8190b645982a7fe032791c8b0b4a29017f8cd5b53ec84d3d3",
+    "observation": "中央の駕籠と長い槍を持つ行列が奥へ続く。 多数の侍が街道を歩き、遠方に城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中央の駕籠と長い槍を持つ行列が奥へ続く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "多数の侍が街道を歩き、遠方に城が見える。"
+      }
+    ]
+  },
+  {
+    "id": "q34_c",
+    "status": "limited",
+    "spec_sha256": "cdf84c4bb991363b8afa22e2fd5d2cccd0d695017e7128975025f64856b9aad8",
+    "reviewed_png_sha256": "72b4c3067727574895b15e9446a81ff017085ac037d89273513627d6191962c5",
+    "observation": "田で役人が検地竿を立て、張った縄で区画を測る。 手前の役人が台帳へ記録し、奥で農民が立ち会う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "田で役人が検地竿を立て、張った縄で区画を測る。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の役人が台帳へ記録し、奥で農民が立ち会う。"
+      }
+    ]
+  },
+  {
+    "id": "q34_d",
+    "status": "limited",
+    "spec_sha256": "a0cc00cf1dc70c89b1b643158b7a75e579ddf1c9986c11274821b076b2cd357a",
+    "reviewed_png_sha256": "1ee253d4e08fd9d94af14055d75ddac92d6ed305404c49f9e399063c3a9238b1",
+    "observation": "柵の左に刀を帯びた武士、右に鍬を持つ農民がいる。 木の柵が両者を分け、農民側には田が広がる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "柵の左に刀を帯びた武士、右に鍬を持つ農民がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "木の柵が両者を分け、農民側には田が広がる。"
+      }
+    ]
+  },
+  {
+    "id": "q35_a",
+    "status": "limited",
+    "spec_sha256": "6596be462f4535c54caabbf28ed4671d9fcf5031a6f770d79c6b9ad14163c862",
+    "reviewed_png_sha256": "889933f58fb6e4e0e3aa183a504845ed1ae69cfb0242b0fb5dc6401afc6d760a",
+    "observation": "左の日本商人と、横へ伸びる冠を着けた中国商人が青磁の壺を受け渡している。 手前に中央に穴のある銅銭の束と青磁器、背後に横桟のある帆のジャンク船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の日本商人と、横へ伸びる冠を着けた中国商人が青磁の壺を受け渡している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に中央に穴のある銅銭の束と青磁器、背後に横桟のある帆のジャンク船が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q35_b",
+    "status": "limited",
+    "spec_sha256": "74ab26d9eb365b30aa8961ef2e0a4c68fdddfbe5f191469f2eb2f6a99ea627e3",
+    "reviewed_png_sha256": "f63248a99d2266a9b10c9790b2599d3b1990829bdf8325a181c37098fe024c61",
+    "observation": "左右の人物がそれぞれ木札の半片を持ち、中央のギザギザの境を近づけて照合している。 左は日本の烏帽子、右は中国式の冠の人物で、背後に木造帆船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左右の人物がそれぞれ木札の半片を持ち、中央のギザギザの境を近づけて照合している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左は日本の烏帽子、右は中国式の冠の人物で、背後に木造帆船がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q35_c",
+    "status": "limited",
+    "spec_sha256": "2e443054c4fb8877881340da2e401f54bf364de3b3781da26c2b204dae5eed3a",
+    "reviewed_png_sha256": "e8d75f6d5dfdfa7572e63b87b784e61b1978f29fd47aa6f45e3ce586e0a4b8ef",
+    "observation": "左のひだ襟と羽根帽子の欧州商人が、右の和装の日本商人と向かい合っている。 机に銀の塊と赤い絹の反物があり、港の背後に西洋の帆船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左のひだ襟と羽根帽子の欧州商人が、右の和装の日本商人と向かい合っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "机に銀の塊と赤い絹の反物があり、港の背後に西洋の帆船が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q35_d",
+    "status": "limited",
+    "spec_sha256": "6507c758f1d5c6aac32f01d735eec9e04def5ddcf73c6fd1ebc3541efd75c581",
+    "reviewed_png_sha256": "a8ef9dede928c022b22a17207a7cb7edf52f76384ab2280cb37fcf7d5978eb7e",
+    "observation": "左の日本商人と右の東南アジア風の頭巾の商人が、ヤシの港で荷を取引している。 手前に赤い印の文書があり、背後に木造の大型帆船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の日本商人と右の東南アジア風の頭巾の商人が、ヤシの港で荷を取引している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前に赤い印の文書があり、背後に木造の大型帆船が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q36_a",
+    "status": "limited",
+    "spec_sha256": "c1ac15120566b3bb46e3aa626be3d2b1d156310d9f47158513b015c687e77368",
+    "reviewed_png_sha256": "490054a86dc3c429155776709e1d3d8cac45e9dc9a8d403bdb30c9cc333b274c",
+    "observation": "村の社の前で甲冑の武士二人と粗末な衣服の農民たちが輪になっている。 輪の中央の地面に複数の槍が横たえられ、武士が手を広げて話し合っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "村の社の前で甲冑の武士二人と粗末な衣服の農民たちが輪になっている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "輪の中央の地面に複数の槍が横たえられ、武士が手を広げて話し合っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q36_b",
+    "status": "limited",
+    "spec_sha256": "fe0676762eb5cbaa6cca0330dc66c6fabb013d21ad499533b367e4603c111d1c",
+    "reviewed_png_sha256": "578c862f63eba259a349a1ac937ac41408517445ac575db0404a527115a417f2",
+    "observation": "土蔵の扉の前に農民の集団がおり、手前に俵を載せた荷馬がいる。 数人が文字のない紙を高く掲げ、蔵の中の相手へ訴えている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "土蔵の扉の前に農民の集団がおり、手前に俵を載せた荷馬がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "数人が文字のない紙を高く掲げ、蔵の中の相手へ訴えている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q36_c",
+    "status": "limited",
+    "spec_sha256": "1571cc1ebdebda75aaf9c6f6eb668922ea0011e412b15488c08c8d0696c4367d",
+    "reviewed_png_sha256": "b859cd73ea76411138b171af7c140ff3559f693add09915bcb3322ada7dc531f",
+    "observation": "石垣の上に農民姿の集団、下に兜と甲冑の兵の集団が対向している。 双方が槍や武器を相手側へ向け、石垣側には小さい十字の旗が立つ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "石垣の上に農民姿の集団、下に兜と甲冑の兵の集団が対向している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "双方が槍や武器を相手側へ向け、石垣側には小さい十字の旗が立つ。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q36_d",
+    "status": "limited",
+    "spec_sha256": "ccb8ecbf7eb0a9f66bea74f48eb222880e456fc475431a4599a7cf0a4746ab3d",
+    "reviewed_png_sha256": "a09ea622b3445c672acfeeca4e7419e05760c3426f4eafca8643eb9f09426c1e",
+    "observation": "寺の門前の左に僧衣の僧と農民の武装集団がいる。 右側の甲冑の兵の集団と槍や長柄武器を交えて戦っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "寺の門前の左に僧衣の僧と農民の武装集団がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右側の甲冑の兵の集団と槍や長柄武器を交えて戦っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q37_a",
+    "status": "limited",
+    "spec_sha256": "880074202366a8b2759f02ac60c4bd89b658b8b0afe6d9e1647144683d9fde9b",
+    "reviewed_png_sha256": "4811373bd2379845875fae73d0934d32aa846b84d2be65c9545b3de613e47c41",
+    "observation": "欧州人のひげの宣教師が主役で、頭頂の剃った部分が見える。 黒いカソックを着て手に小さい十字架を胸前で持ち、背後は日本の港。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "欧州人のひげの宣教師が主役で、頭頂の剃った部分が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "黒いカソックを着て手に小さい十字架を胸前で持ち、背後は日本の港。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q37_b",
+    "status": "limited",
+    "spec_sha256": "3d1ab8b268933ca997543e8008515b59d5463680f06288fd592ee0207fe7929b",
+    "reviewed_png_sha256": "2afc08e8a68b7080cfbd2644ad4c7aae93f5050d65e27efb59a35fa981e81aa7",
+    "observation": "白い陣羽織姿の若い日本人少年が前景中央に立つ。 背後に十字の旗、石垣、農民姿の人々があり、少年を囲んでいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白い陣羽織姿の若い日本人少年が前景中央に立つ。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に十字の旗、石垣、農民姿の人々があり、少年を囲んでいる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q37_c",
+    "status": "limited",
+    "spec_sha256": "f95fe99782811f3b8458d5c0c853e953f679b7600422c6f88648ad213fbe055c",
+    "reviewed_png_sha256": "561d68ade2e8bf2f4605fce534452585e3fa2d0f2d0a682a95b87306d610c05a",
+    "observation": "若い日本人の少年が主役で、首の周囲に白い細かなひだ襟が見える。 金の縁取りの黒い欧州礼服を着て、石の柱とアーチのある建築の中にいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "若い日本人の少年が主役で、首の周囲に白い細かなひだ襟が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "金の縁取りの黒い欧州礼服を着て、石の柱とアーチのある建築の中にいる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q37_d",
+    "status": "limited",
+    "spec_sha256": "c813ca11dbb5e8b5b14bff23c9e5932cdd6fc8efd91ee01a4c75b4e4c3451340",
+    "reviewed_png_sha256": "104b7a8e9d8f8efe70dc8c65a6b7ae947fa04626dc1ccd58c04e91bf3d9ce825",
+    "observation": "髷を結った壮年の日本人が濃色の絹の着物を着て、腰に刀を差している。 手に広げた外交の巻物があり、背後は彫刻とドームのある欧州の石造宮殿。巻物の墨はぼけて読めない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "髷を結った壮年の日本人が濃色の絹の着物を着て、腰に刀を差している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に広げた外交の巻物があり、背後は彫刻とドームのある欧州の石造宮殿。巻物の墨はぼけて読めない。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q38_a",
+    "status": "limited",
+    "spec_sha256": "ddd7217aa84335f7d531ecdf93d229f9d6c735df50b264b08ba7c25a3a3dc5fc",
+    "reviewed_png_sha256": "864bd3614ad1b447806f48e4dc9f334c8b32fd08a5b26cdef06a47873c87a424",
+    "observation": "農民の裸足が床のキリスト像の金属板に実際に接触している。 片膝を曲げた農民を、刀を差した江戸の役人が座って監視している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "農民の裸足が床のキリスト像の金属板に実際に接触している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "片膝を曲げた農民を、刀を差した江戸の役人が座って監視している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q38_b",
+    "status": "limited",
+    "spec_sha256": "d1dbdd95118755e8fe6fa89f69849c76eb91d3fcbbbb4393ae523e2df636e018",
+    "reviewed_png_sha256": "76d3351ecebde07718890b1a876e48c839758cc80ae3ea9f9b93b977247b1faf",
+    "observation": "田の畦に立てた長い測量竿と、田を横切って張った縄が見える。 前景右の役人が開いた台帳に筆を当て、農民たちが測量を見ている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "田の畦に立てた長い測量竿と、田を横切って張った縄が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前景右の役人が開いた台帳に筆を当て、農民たちが測量を見ている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q38_c",
+    "status": "limited",
+    "spec_sha256": "560a71f1d2b4a7ab9480da15c4ce056c5ca72dee0f8947e2984beb85515a317e",
+    "reviewed_png_sha256": "0c7c54e94f6a5c00e7fe1b3cd70d74fb6b1d5629bc8809bb2836a87373e996bf",
+    "observation": "農民が差し出す刀を、裃と刀の役人が両手で受け取っている。 手前の箱に刀や槍が集められ、左奥の農民が鍬を持っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "農民が差し出す刀を、裃と刀の役人が両手で受け取っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の箱に刀や槍が集められ、左奥の農民が鍬を持っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q38_d",
+    "status": "limited",
+    "spec_sha256": "8145525e4f526ee3b660906d70c18b305dcb614f697bebe040bdef746dbd1a42",
+    "reviewed_png_sha256": "218e8502d843eb0746cf34afafa9cbee7443cc3b3b4b40c145eb5595126a093c",
+    "observation": "前景の駕籠を中心に、長い槍を持つ供と侍の行列が奥まで続く。 侍たちが街道を歩き、遠景には白壁の城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "前景の駕籠を中心に、長い槍を持つ供と侍の行列が奥まで続く。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "侍たちが街道を歩き、遠景には白壁の城が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q39_a",
+    "status": "limited",
+    "spec_sha256": "de9460d8a70dbc047995383bd2d88478c324929d518152335b04e42db98ea0c3",
+    "reviewed_png_sha256": "4f8eb8dfa99cf9a10c9ed1ba4a0024d5f0cd81c1460c2b857c9ca91247cd2257",
+    "observation": "海辺に白い石の装飾と銃眼のあるポルトガル風の塔が立っている。 左の海に複数の帆を張った欧州のキャラック帆船が浮かぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "海辺に白い石の装飾と銃眼のあるポルトガル風の塔が立っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左の海に複数の帆を張った欧州のキャラック帆船が浮かぶ。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q39_b",
+    "status": "limited",
+    "spec_sha256": "7eaa25ea6143d555b356e92c2cc655ceec35d622eb79e4c268f6a9305316f0da",
+    "reviewed_png_sha256": "5581fe9c5a6e4e946de7a5ef2e8466e62ded003dc8b546aeec0c9ceb8dec1506",
+    "observation": "赤い柱と大きな黄色い瓦屋根の中国式宮殿が岸辺にある。 横桟を入れた茶色の中国式帆を張った木造ジャンク船が手前にある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "赤い柱と大きな黄色い瓦屋根の中国式宮殿が岸辺にある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "横桟を入れた茶色の中国式帆を張った木造ジャンク船が手前にある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q39_c",
+    "status": "limited",
+    "spec_sha256": "24b3630de34cb15b634dee2498437e371de62767f0de182578ad9b5ff201dc0e",
+    "reviewed_png_sha256": "236721140ccfe727cf3b8c4c87157cf9779199d21019b60780356f447b4b9718",
+    "observation": "左に大きな風車と段形切妻のレンガの家並みがある。 水路に木造帆船があり、赤・白・青を上から横に重ねた小さい旗が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左に大きな風車と段形切妻のレンガの家並みがある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "水路に木造帆船があり、赤・白・青を上から横に重ねた小さい旗が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q39_d",
+    "status": "limited",
+    "spec_sha256": "ef426e76021c9bb3455970e0fc75edec93b352c3e315156da1fd068f45f13f1a",
+    "reviewed_png_sha256": "652da2577185b69b41da65a9c82f738629d222769bc5bae28f1ba37557960079",
+    "observation": "背後の宮殿に緑赤の丹青の梁と反った瓦屋根が見える。 前景の官人が朝鮮風の黒い冠と赤い長衣を着ており、奥にも同様の冠服の官人がいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "背後の宮殿に緑赤の丹青の梁と反った瓦屋根が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前景の官人が朝鮮風の黒い冠と赤い長衣を着ており、奥にも同様の冠服の官人がいる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q40_a",
+    "status": "limited",
+    "spec_sha256": "4abc276bda3bc83f91888554ba1f1175e015e0355cc09acfc770eba2b4677f13",
+    "reviewed_png_sha256": "411bfb8022c13358c3734fbd77b3b2220eefcd6b8e4584f8921237c7288c7534",
+    "observation": "左の古代日本風の冠服の使節が、両手で国書を差し出している。 朱色の柱のある中国の古代宮廷で、冠服の中国官人たちがその場を見守る。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の古代日本風の冠服の使節が、両手で国書を差し出している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "朱色の柱のある中国の古代宮廷で、冠服の中国官人たちがその場を見守る。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q40_b",
+    "status": "limited",
+    "spec_sha256": "8a4ba7c45740783fc9caa74791b598e3f3f83e508465eecc6266e3343a050f22",
+    "reviewed_png_sha256": "d53d6a41d7c896b9bb0f643c3a62f18441e61955cd9042293b50e758ea5a7e6f",
+    "observation": "黒い朝鮮式の冠と赤・青・黄の長衣を着た複数の使節が行列している。 江戸の街道の右側で日本の裃の役人たちが頭を下げて迎えている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い朝鮮式の冠と赤・青・黄の長衣を着た複数の使節が行列している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "江戸の街道の右側で日本の裃の役人たちが頭を下げて迎えている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q40_c",
+    "status": "limited",
+    "spec_sha256": "d47a6f902af4dca379336ad7f49a871e312969642883522920b3c8801e558b4a",
+    "reviewed_png_sha256": "53750b3f87f9275feb3ff4bf83a229b6ff4128b060d89fb0ebd26fb65c4b126a",
+    "observation": "白い襞襟を着けた日本人少年が、前から奥へちょうど四人並んでいる。 四人は黒い欧州の礼装を着て、石の彫刻とアーチのある宮殿前にいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "白い襞襟を着けた日本人少年が、前から奥へちょうど四人並んでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "四人は黒い欧州の礼装を着て、石の彫刻とアーチのある宮殿前にいる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q40_d",
+    "status": "limited",
+    "spec_sha256": "9f9b818d228927678bfef8d2b2fd53672438a88a08c8d663362afbd516a189da",
+    "reviewed_png_sha256": "82c049cba10749426f7d57757b7b9e42020550280b855411e6701214581dae8a",
+    "observation": "古代の冠と長衣を着た複数の日本使節が左から宮殿門へ向かう。 唐風の朱色の門の前で中国の官人が迎え、使節の手元に巻いた国書がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "古代の冠と長衣を着た複数の日本使節が左から宮殿門へ向かう。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "唐風の朱色の門の前で中国の官人が迎え、使節の手元に巻いた国書がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q41_a",
+    "status": "limited",
+    "spec_sha256": "c1999982354a2d9af3386582f22c5de3182f6297dc6489ddcc053df942380f08",
+    "reviewed_png_sha256": "f08d11532c62f73b1b57d62b72ee3184eb21411323a6495192a1d40d566cd959",
+    "observation": "三人の年配の裃姿の役人が机を囲み、中央の人物の示す紙を見ている。 城内の畳の部屋に低い机があり、その上に広げた巻物が置かれている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "三人の年配の裃姿の役人が机を囲み、中央の人物の示す紙を見ている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "城内の畳の部屋に低い机があり、その上に広げた巻物が置かれている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q41_b",
+    "status": "limited",
+    "spec_sha256": "8366432365a8607d5173561b99d89733317f61d2fb0bdc2a1fcb6b7e1910d2e1",
+    "reviewed_png_sha256": "8f53023572b3efba99393ae52444ce5f5b034d1f95661ab87f0504d1dd1091ad",
+    "observation": "黒い束帯と冠の公家が主役で、机の上の文書に筆を置いている。 高い政務の机の奥に御簾が掛かり、その向こうに金色の宮中の座が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "黒い束帯と冠の公家が主役で、机の上の文書に筆を置いている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "高い政務の机の奥に御簾が掛かり、その向こうに金色の宮中の座が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q41_c",
+    "status": "limited",
+    "spec_sha256": "dff484ed01da8ae95a819399bb26fedc3f405b8840c25d4f1ee73a59a6309400",
+    "reviewed_png_sha256": "061e4d034c94adede1021f7f258c71cd104d51a43d8c0d9ceda303dfdf5a5c87",
+    "observation": "右の烏帽子と直垂の人物が将軍の横で文書を扱っている。 左奥の上座に将軍がおり、補佐役が机上の政務文書を広げている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "右の烏帽子と直垂の人物が将軍の横で文書を扱っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左奥の上座に将軍がおり、補佐役が机上の政務文書を広げている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q41_d",
+    "status": "limited",
+    "spec_sha256": "ea842b6116ad37beaee13b972b72ffd5eac49ea0084ae5aa3798f831bab39165",
+    "reviewed_png_sha256": "81036447433523c75499e40c1a7c6b8eecfda0f85a2d794d3c0d4b95b563cc11",
+    "observation": "直垂の補佐役が文書を持ち、左の上座の将軍の横で説明している。 机に書類と巻物があり、背後には花の咲く庭と武家御所の建築がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "直垂の補佐役が文書を持ち、左の上座の将軍の横で説明している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "机に書類と巻物があり、背後には花の咲く庭と武家御所の建築がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q42_a",
+    "status": "limited",
+    "spec_sha256": "ec2ffc7b7f5f18059540dabc4cfdd298ce23ad5d1799511c29d31e184072589a",
+    "reviewed_png_sha256": "0b02e5a051ccf7b70640c84a883be073fa61448223dd82a7d8f6047dc48373d3",
+    "observation": "川の浅瀬と木橋の付近に、左右から向き合う多数の武士軍が見える。 中世の大鎧の兵が川で弓や刀を相手に向けて交戦している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "川の浅瀬と木橋の付近に、左右から向き合う多数の武士軍が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中世の大鎧の兵が川で弓や刀を相手に向けて交戦している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q42_b",
+    "status": "limited",
+    "spec_sha256": "c17022c75c01d91b4bd3cbc4a4c036de0f1a8313c3d04e3705234d47866bef60",
+    "reviewed_png_sha256": "de74037ade690f0dc2b09d502a6298ff21a153ddb7a477a636f2bbf97b4f769d",
+    "observation": "京都の瓦屋根の町家の間で、左右の旗を持つ多数の兵が対向している。 甲冑の兵同士が槍を交えており、奥の町家から炎と煙が上がっている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "京都の瓦屋根の町家の間で、左右の旗を持つ多数の兵が対向している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "甲冑の兵同士が槍を交えており、奥の町家から炎と煙が上がっている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q42_c",
+    "status": "limited",
+    "spec_sha256": "158448ffc899fd0b530fb948db5bba00c1f68af8f89d23552f1136862f01f188",
+    "reviewed_png_sha256": "53c9275f8f9516ba948c4a89c669123dc2a991b4b23831bc7df6ef04f9ec3144",
+    "observation": "左の日本の甲冑の軍と、右の朝鮮側の守備兵が槍を向け合って交戦している。 朝鮮風の石造の城門と楼閣が右にあり、左奥の沿岸に輸送の木造帆船が並ぶ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の日本の甲冑の軍と、右の朝鮮側の守備兵が槍を向け合って交戦している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "朝鮮風の石造の城門と楼閣が右にあり、左奥の沿岸に輸送の木造帆船が並ぶ。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q42_d",
+    "status": "limited",
+    "spec_sha256": "f920103083909f9bb893e429ce5117de2829b56e00cbf4f304a59a351db2313b",
+    "reviewed_png_sha256": "80dd9e746280ad5231da86e6003aa477f19161717616da1fcffde097563b2c38",
+    "observation": "石の防塁の上で鎌倉武士たちが弓を引き、海岸へ向けて戦っている。 浜に上陸した元側の兵と武士が対向し、沖には横桟の帆の多数の船がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "石の防塁の上で鎌倉武士たちが弓を引き、海岸へ向けて戦っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "浜に上陸した元側の兵と武士が対向し、沖には横桟の帆の多数の船がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q43_a",
+    "status": "limited",
+    "spec_sha256": "b1335729d1862641b1bccaa874368bd7e304f16348e16ec71dc96efdc5b00fdb",
+    "reviewed_png_sha256": "c119d88c747e8b472b88a2486176e97b37cdce8b0cc177a5b506778f828995e7",
+    "observation": "机の上に開いた和紙の法典があり、右の硯に筆が載っている。法典の墨の列はぼけて読めない。 烏帽子と直垂の裁判官の前で、甲冑姿の二人の武士が訴えている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "机の上に開いた和紙の法典があり、右の硯に筆が載っている。法典の墨の列はぼけて読めない。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "烏帽子と直垂の裁判官の前で、甲冑姿の二人の武士が訴えている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q43_b",
+    "status": "limited",
+    "spec_sha256": "c93fe976d3c394df0f97e67e6098812feb8ccdb93779734dac0b7bc744f6843d",
+    "reviewed_png_sha256": "3e8e4421acb24846b83a86fcb856af340cc62d97c31ac11bed2894e5749c0262",
+    "observation": "役人が借用の紙を左右へ引き裂き、紙が二片に分かれている。 左の武士が笑って胸を開いて安堵し、机には穴あき銅銭が置かれている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "役人が借用の紙を左右へ引き裂き、紙が二片に分かれている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左の武士が笑って胸を開いて安堵し、机には穴あき銅銭が置かれている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q43_c",
+    "status": "limited",
+    "spec_sha256": "a17c78198c8c5fc754d91b164614a5ad6e0274dcf0620a3c1858a3622a7f32f2",
+    "reviewed_png_sha256": "238f7b89f3f0d1165e5678ca3df323310bd126740f8a40881efce03ef2580e5a",
+    "observation": "甲冑と赤い陣羽織の大名が法令の巻物を高く広げて示している。 机に山川と領国を表した無字の地図があり、家臣たちが座って大名を見ている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "甲冑と赤い陣羽織の大名が法令の巻物を高く広げて示している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "机に山川と領国を表した無字の地図があり、家臣たちが座って大名を見ている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q43_d",
+    "status": "limited",
+    "spec_sha256": "fb9bcfe50d78ae89c4405c95c10d815f7f6b0cbd79a22b06bde1348553b70a9b",
+    "reviewed_png_sha256": "c50f6fb6b6f7818f2764159e2ed38bc76437f8ff847166d3f671c6cda93d1236",
+    "observation": "裃姿の幕府側の役人が大きい和紙の法令を両手で広げている。 城の畳の広間で、正装の大名たちが役人に向かって頭を下げている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "裃姿の幕府側の役人が大きい和紙の法令を両手で広げている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "城の畳の広間で、正装の大名たちが役人に向かって頭を下げている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q44_a",
+    "status": "limited",
+    "spec_sha256": "b0b49177a1fae16a03177132e505f4d3bfc399dfddc1a48e3ebd537dc6cdf709",
+    "reviewed_png_sha256": "4265bd6e55e18f6158f607fab0c00d5ab5527c1debbe84c5bd8671753fbf6414",
+    "observation": "左の上座の将軍の横に、直垂と烏帽子の補佐役が座っている。 補佐役は文書を手にしており、後ろの御所の庭に花が咲く。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の上座の将軍の横に、直垂と烏帽子の補佐役が座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "補佐役は文書を手にしており、後ろの御所の庭に花が咲く。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q44_b",
+    "status": "limited",
+    "spec_sha256": "1015c227fd0ec3757427ad90fc943ced8de211ff07bf0def4dd65409912cd755",
+    "reviewed_png_sha256": "b65e19d04e333902571cd7a200c10848248f6284227979de860632e24e487568",
+    "observation": "右の烏帽子と直垂の補佐役が文書を広げて政務を説明している。 左奥の上座の将軍の横で、補佐役が紙と机上の巻物を扱っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "右の烏帽子と直垂の補佐役が文書を広げて政務を説明している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左奥の上座の将軍の横で、補佐役が紙と机上の巻物を扱っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q44_c",
+    "status": "limited",
+    "spec_sha256": "5fb0af0397c72bb0d75ff06d7cfd5bade7a5885f67e54fd1797866cc750bd8f5",
+    "reviewed_png_sha256": "cfa5eeb89af0740065a747834796f74d4e22b746ed84b9ba762c663bb1455553",
+    "observation": "年配の役人三人が裃を着て机を囲んでいる。 城の畳の部屋の机に巻物を広げ、三人が内容を指さして相談している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "年配の役人三人が裃を着て机を囲んでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "城の畳の部屋の机に巻物を広げ、三人が内容を指さして相談している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q44_d",
+    "status": "limited",
+    "spec_sha256": "5160d5d76bc23e55a95c9480745b8f93b32cc8d83232a318619673528b6d43fc",
+    "reviewed_png_sha256": "634934d86f9eee61c7dbdaa7f0232258d2cf69e872cabd1b50cc83c350d1960a",
+    "observation": "年配の裃の高官が奥の高い席に座り、文書を両手で持っている。 畳の広間の手前で、複数の役人が高官に向かって平伏している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "年配の裃の高官が奥の高い席に座り、文書を両手で持っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "畳の広間の手前で、複数の役人が高官に向かって平伏している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q45_a",
+    "status": "limited",
+    "spec_sha256": "64a14fa2d7643e5464279c90b8cb5d7f532028b92d18a77709b548d61dbc5324",
+    "reviewed_png_sha256": "84b9c172abda3d540997df8dbd369a4162ed49dceb433255da8fd16725a3a724",
+    "observation": "役人たちが粗末な椀の食事を囲んで相談し、机の右に古い折り畳んだ衣服がある。 背後の蔵の開いた戸の中に、備蓄された米俵が積まれている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "役人たちが粗末な椀の食事を囲んで相談し、机の右に古い折り畳んだ衣服がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後の蔵の開いた戸の中に、備蓄された米俵が積まれている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q45_b",
+    "status": "limited",
+    "spec_sha256": "44c69d1afe2597dae1f353e5d49aa749c6d5d8691f78fd839e164ded87771b1d",
+    "reviewed_png_sha256": "ae285700b002fd15ff9c23d0c5c78dd4c3d830b8124c7ea0373c9483e56e1735",
+    "observation": "古代の冠と長衣を着た若い二人の政治家が机を囲んで協議している。 朱塗りの宮殿の中で巻物を広げ、手前の机に田畑と村の模型が置かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "古代の冠と長衣を着た若い二人の政治家が机を囲んで協議している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "朱塗りの宮殿の中で巻物を広げ、手前の机に田畑と村の模型が置かれる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q45_c",
+    "status": "limited",
+    "spec_sha256": "02a3acea13138fe49b612b852a280fadf21ee6a806fe7677ecee32d9e0bab801",
+    "reviewed_png_sha256": "1ae75e35f8fba9d88db36ba8b1288c23f8b4f8dfbfb57b968db19c6eb1ecba1c",
+    "observation": "中央の高い席の天皇を囲み、公家たちが冠服で座って政務を行う。 宮殿の手前の両側に甲冑姿の武士が控えている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中央の高い席の天皇を囲み、公家たちが冠服で座って政務を行う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "宮殿の手前の両側に甲冑姿の武士が控えている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q45_d",
+    "status": "limited",
+    "spec_sha256": "b81d51b9514a1d40db668e3ec679c0feff973dad62d9117b3684cb78b79c8f46",
+    "reviewed_png_sha256": "a4e958387f6c38a7eff0871d679fde23a9d7fd9526545af0283ad8f6a3eedec0",
+    "observation": "将軍と役人が新田の水路の脇に立ち、背後で人々が掘削工事をしている。 前景の庶民が木の箱の上の投入口に白い紙を差し入れている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "将軍と役人が新田の水路の脇に立ち、背後で人々が掘削工事をしている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前景の庶民が木の箱の上の投入口に白い紙を差し入れている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q46_a",
+    "status": "limited",
+    "spec_sha256": "82f8729cef46d5e05f76154a7a495addfd96f8444114a70b92ba8b84ffe88e97",
+    "reviewed_png_sha256": "5ae76963deff81c3da1c3d2376a32c4879ec52f8111264e4fb2b384f303ff9be",
+    "observation": "大きな木の車輪の荷車に多数の米俵が積まれている。 二人の運送人が荷車の前の棒を握り、徒歩で道を引いている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大きな木の車輪の荷車に多数の米俵が積まれている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "二人の運送人が荷車の前の棒を握り、徒歩で道を引いている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q46_b",
+    "status": "limited",
+    "spec_sha256": "a10685c077b12f1dbd2104136724f1c4518d5b5eddbfcad27a19ec6880e21878",
+    "reviewed_png_sha256": "013fabf4457484a4f3e86beae77cdc8022ce6ea166881409ca7f53130d9d34dd",
+    "observation": "荷馬の左右に米俵と、板と金具で組まれた木箱がはっきり見える。 運送人が馬の前を徒歩で進み、手綱を引いている。乗馬していない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "荷馬の左右に米俵と、板と金具で組まれた木箱がはっきり見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "運送人が馬の前を徒歩で進み、手綱を引いている。乗馬していない。"
+      }
+    ],
+    "thumbnail_148_check": "148pxと原寸で左右の木箱・米俵と徒歩の運送人を確認。"
+  },
+  {
+    "id": "q46_c",
+    "status": "limited",
+    "spec_sha256": "81edfd0eee43a54484e274e22b7754f673b19f3d8c7b8ab160e560c16e63bc6a",
+    "reviewed_png_sha256": "72b8e2b40fc2a3ee09e6231355337a4a8ca98961396f975d78b5d4798a0e82f4",
+    "observation": "飛脚が肩に棒を担ぎ、その先に四角い文箱が吊られている。 脚絆を着けた両脚が大きく開き、街道を走る動作が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "飛脚が肩に棒を担ぎ、その先に四角い文箱が吊られている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "脚絆を着けた両脚が大きく開き、街道を走る動作が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q46_d",
+    "status": "limited",
+    "spec_sha256": "4e352e10f72f4f2b71690c083e351dc8b1fff11c8185ef643ea55ed0faf9937c",
+    "reviewed_png_sha256": "0eb39c9c5eac22c4e9a43107899dcaf64d2337c13083de81d06e9ecee130435f",
+    "observation": "港の倉庫のそばで商人が紙を持ち、人々が船から荷を運んでいる。 手前の木箱と米俵、米俵を担ぐ荷役人、右の小さな和船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "港の倉庫のそばで商人が紙を持ち、人々が船から荷を運んでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の木箱と米俵、米俵を担ぐ荷役人、右の小さな和船が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q47_a",
+    "status": "limited",
+    "spec_sha256": "d4313a98559aef08d5c43c2fb6e67de204ac6f669a29cba78a905ced2770d185",
+    "reviewed_png_sha256": "e2503dafb8549d502976cfd45dde4bb6860b565685d3d6599bfc8c74e811da3d",
+    "observation": "手前の年長の男性と奥の若い男性が、同じ木彫の仏像を彫っている。 二人とも鑿と木槌を手にし、仏像の表面を削っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前の年長の男性と奥の若い男性が、同じ木彫の仏像を彫っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "二人とも鑿と木槌を手にし、仏像の表面を削っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q47_b",
+    "status": "limited",
+    "spec_sha256": "642336bde53bee7b71f2c537cd88e2bed238d1a86585ba088c95d920797094b3",
+    "reviewed_png_sha256": "4f5a441f384e31dcb278fac4324e2fef3d47e854c7db0e359c2c3e725fbdc6e1",
+    "observation": "手前の年長の男性と後ろの若い男性が並んで絵を描いている。 二人がそれぞれ筆を持ち、鳥や花の水墨画の屏風に筆先を当てている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前の年長の男性と後ろの若い男性が並んで絵を描いている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "二人がそれぞれ筆を持ち、鳥や花の水墨画の屏風に筆先を当てている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q47_c",
+    "status": "limited",
+    "spec_sha256": "78b2e090d469162b11d6ce3b609015f9927a228b860c4e03a7c33245277c69ab",
+    "reviewed_png_sha256": "af58a6cdfad54a948a0d9bfe7015c1a4f90b05e4272fdc6b97e5cd03f3667b7e",
+    "observation": "年長と若い二人の能役者が木の舞台に並んでいる。 二人が扇を開いて稽古し、舞台の左手前に一枚の能面が置かれている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "年長と若い二人の能役者が木の舞台に並んでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "二人が扇を開いて稽古し、舞台の左手前に一枚の能面が置かれている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q47_d",
+    "status": "limited",
+    "spec_sha256": "78aed4f9392ba2268416cafd0640aca136389fbde62642648975636bbbd55f95",
+    "reviewed_png_sha256": "cd4774bb512ed4dd9c95adec705cb4057c683fcb524af9a4f0b56e065d895684",
+    "observation": "左の白髪の老年の公家と右の壮年の公家が烏帽子姿で向かい合っている。 右の人物は筆を手に考え込み、二人の前に歌の紙が広がる。墨の列はぼけて読めない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左の白髪の老年の公家と右の壮年の公家が烏帽子姿で向かい合っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右の人物は筆を手に考え込み、二人の前に歌の紙が広がる。墨の列はぼけて読めない。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q48_a",
+    "status": "limited",
+    "spec_sha256": "2a36984e63d682ba24a524c0fbb2de11d519e726cee9c68cca9bdc4b21152681",
+    "reviewed_png_sha256": "27f77964713b7486d7b21611322f7fe92ffbe48f5c62b1c9daf96a0b4b0aa948",
+    "observation": "開いた和綴じの絵入り本が机に置かれ、綴じ糸のある本も後ろにある。 挿絵に烏帽子の平安貴族、紫のカキツバタ、山間の旅の道が描かれる。文字はぼけた墨の列。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "開いた和綴じの絵入り本が机に置かれ、綴じ糸のある本も後ろにある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "挿絵に烏帽子の平安貴族、紫のカキツバタ、山間の旅の道が描かれる。文字はぼけた墨の列。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q48_b",
+    "status": "limited",
+    "spec_sha256": "e4305d6e2da6fa83ccf294cc4ee516c18d13b084bd9861c2035e186b23a43ce1",
+    "reviewed_png_sha256": "229e674204b357b68bf235ab504d77e59cf514f66f238168cd70a417f4b6f49c",
+    "observation": "絵の中に御簾、束帯の貴公子、重ねた衣の十二単の女性が見える。 横に広げた絵巻の左と右の巻き軸がどちらも画面内に見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "絵の中に御簾、束帯の貴公子、重ねた衣の十二単の女性が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "横に広げた絵巻の左と右の巻き軸がどちらも画面内に見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q48_c",
+    "status": "limited",
+    "spec_sha256": "4075ca75c25d80ab8a3bf3e76c61b3cddd5c13591727155c81ffba8f8e1210d2",
+    "reviewed_png_sha256": "f74f3ec7595e292d382987d6c8f910fbaf13f62171f61aaf1e4f4c8de67c4abd",
+    "observation": "切った竹の内側が光り、その中に小さな姫が座っている。 開いた絵本の挿絵で翁が姫を見守っており、墨の列は判読できない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "切った竹の内側が光り、その中に小さな姫が座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "開いた絵本の挿絵で翁が姫を見守っており、墨の列は判読できない。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q48_d",
+    "status": "limited",
+    "spec_sha256": "6236362833d51bb8180dfba68a6d804141d92d58ad200795428eddf9707361fa",
+    "reviewed_png_sha256": "00157cd958f0b4faffaee9b6f7e96b3304f9fa8c71cd176b53f232d243c7d5b8",
+    "observation": "剃髪の琵琶法師が大きな撥で四本の弦の琵琶を弾き、口を開けて語っている。 背後の横長の絵巻に、赤旗と白旗の戦船が対向する絵がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪の琵琶法師が大きな撥で四本の弦の琵琶を弾き、口を開けて語っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後の横長の絵巻に、赤旗と白旗の戦船が対向する絵がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q49_a",
+    "status": "limited",
+    "spec_sha256": "70572990c1c06262d61be6e47e9108e3c11d19514ba3cfbc3c558274d8e5a3b6",
+    "reviewed_png_sha256": "9f7df5259df0ca57cbb80659d209e3ca7afa685e1853975de800859cccfa5c8e",
+    "observation": "開いた和綴じ本の四隅と外縁全体が、畳の上で画面内に収まっている。 挿絵に両軍の多数の甲冑の武士、馬、弓矢と刀を交える合戦が描かれる。墨はぼけた列。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "開いた和綴じ本の四隅と外縁全体が、畳の上で画面内に収まっている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "挿絵に両軍の多数の甲冑の武士、馬、弓矢と刀を交える合戦が描かれる。墨はぼけた列。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q49_b",
+    "status": "limited",
+    "spec_sha256": "f912ed5693bf4df877a0983a6a8d9b092e68de8c74c1266af1270f5b02907998",
+    "reviewed_png_sha256": "afd5f4b645b214ee186fe34adc1e346202759a8e6468264e7d679758c655aaf1",
+    "observation": "開いた絵入りの和綴じ本が置かれている。 挿絵では小さな一寸法師が赤い椀の船に乗り、細い針を持って大きな鬼に向かう。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "開いた絵入りの和綴じ本が置かれている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "挿絵では小さな一寸法師が赤い椀の船に乗り、細い針を持って大きな鬼に向かう。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q49_c",
+    "status": "limited",
+    "spec_sha256": "1ec34060c47b497d5324b9c3d2b6e57ffee49eded0549cafddd3b61d19ad84d7",
+    "reviewed_png_sha256": "01b12e28adce50e085a5d7bc1b8091fc94639aae1c73d381fb945f0ed807eda2",
+    "observation": "広げた巻物に山、川、村と、稲・魚・果実の土地の産物の絵がある。 巻物の前に筆と二枚の木簡がある。巻物も木簡も墨の形はぼけていて読めない。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "広げた巻物に山、川、村と、稲・魚・果実の土地の産物の絵がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "巻物の前に筆と二枚の木簡がある。巻物も木簡も墨の形はぼけていて読めない。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q49_d",
+    "status": "limited",
+    "spec_sha256": "d3439af661cde5e7cd3bb43d520e873828111331e18bae625595ce595641eec9",
+    "reviewed_png_sha256": "ebb8d80d163a3ac5d938cb5251b92ebd5c69e7e89be30b33ff99efc4975ab06d",
+    "observation": "旅人が笠をかぶり、肩の横に長い杖を立てている。 膝の上の和綴じ旅日記へ筆を当て、背後には山と曲がる旅の道がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "旅人が笠をかぶり、肩の横に長い杖を立てている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "膝の上の和綴じ旅日記へ筆を当て、背後には山と曲がる旅の道がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q50_a",
+    "status": "limited",
+    "spec_sha256": "3935c40738d5cdf9c06ad908d7433fc1d96260366dff9b0691dc15ec0311f038",
+    "reviewed_png_sha256": "fb95abbc33bc061e4feb1bc34471e1fde480fa83ad59f26d531c2097a8c1de25",
+    "observation": "池と庭に面した開放的な大きな木造の主殿が中央に見える。 広い板敷き、正面の御簾、左右へ続く渡殿とその先の屋根が見える。 修正後は主殿と左右の渡殿の屋根の先端・外縁がすべて画面内にあり、背景の余白も見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "池と庭に面した開放的な大きな木造の主殿が中央に見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "広い板敷き、正面の御簾、左右へ続く渡殿とその先の屋根が見える。"
+      },
+      {
+        "key": "complete_building",
+        "result": "pass",
+        "observation": "修正後は主殿と左右の渡殿の屋根の先端・外縁がすべて画面内にあり、背景の余白も見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q50_b",
+    "status": "limited",
+    "spec_sha256": "7b75a72894c581bb22115ae75ebd2d7d03189f69f576dca42b9b7b840abcd689",
+    "reviewed_png_sha256": "30170ecfbc5ad9ce92fb1e5b35cb17893e93329d76de4627b77084578c8de56e",
+    "observation": "太い木材を横に積み、四隅で交互に組んだ倉の壁が見える。 柱で床を高く持ち上げ、瓦屋根の倉と階段の全体が画面に収まっている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "太い木材を横に積み、四隅で交互に組んだ倉の壁が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "柱で床を高く持ち上げ、瓦屋根の倉と階段の全体が画面に収まっている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q50_c",
+    "status": "limited",
+    "spec_sha256": "16deca1fe845caee56d87bc4390827a9155f8bea40409eb8050a322dcc7cd93a",
+    "reviewed_png_sha256": "69f3353fe66890547542f4f4b2c4154f9ead8288abd15de85d61cb5801225cab",
+    "observation": "床前面に畳の縁と面が見える。 左の障子窓の下に造り付けの机、右に高さの違う棚があり、同じ室内に収まる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "床前面に畳の縁と面が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左の障子窓の下に造り付けの机、右に高さの違う棚があり、同じ室内に収まる。"
+      }
+    ]
+  },
+  {
+    "id": "q50_d",
+    "status": "limited",
+    "spec_sha256": "87a3f201b5ec0f8103d83ac78ec065499de69d45f87bd192ef794cc096502695",
+    "reviewed_png_sha256": "b8300e54f6c347c0bb0c821e3db8ac0ca4724fdfa86c9227ea948d09f8e1d7ca",
+    "observation": "太い柱で持ち上げた茅葺きの倉と、入口へ掛けた梯子が全体で見える。 柱の上部に横へ張り出す円板状のネズミ返しが複数見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "太い柱で持ち上げた茅葺きの倉と、入口へ掛けた梯子が全体で見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "柱の上部に横へ張り出す円板状のネズミ返しが複数見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q51_a",
+    "status": "limited",
+    "spec_sha256": "57f48301773554cb4b50b5b539c93fb2e5c7796b4d9706354d7585093702f756",
+    "reviewed_png_sha256": "4ffe26e55071371517b61eea76ffb51600a9debadedaea0f132295517c33e7e9",
+    "observation": "雨に濡れた狭い谷の陣へ、左の騎馬と徒歩の武士集団が攻めている。 右の陣幕側の多数の兵が槍や刀で応戦し、双方の武器が向き合う。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "雨に濡れた狭い谷の陣へ、左の騎馬と徒歩の武士集団が攻めている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右の陣幕側の多数の兵が槍や刀で応戦し、双方の武器が向き合う。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q51_b",
+    "status": "limited",
+    "spec_sha256": "c3f1e96a3f944888ab17d0695174c70d5278f87bda739c4306601ac0cc5d31c6",
+    "reviewed_png_sha256": "3d6ee2de91e380b76919dc9734c08d88a98dc3a5b9ad8a903337432e5093165a",
+    "observation": "狭い海峡の左に赤旗の和船群、右に白旗の和船群が対向している。 各船に多数の弓兵が乗り、弓を引いて相手方へ矢を射る交戦の場面。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "狭い海峡の左に赤旗の和船群、右に白旗の和船群が対向している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "各船に多数の弓兵が乗り、弓を引いて相手方へ矢を射る交戦の場面。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q51_c",
+    "status": "limited",
+    "spec_sha256": "72a9ef00a212db8d93c8f7f64f5f02b7939d7740416494771a112ad1b05e0eb0",
+    "reviewed_png_sha256": "c6f7655eed596b6f689fc3c5f4c8d4956f300cfa8f937a52d720f94de0df7a85",
+    "observation": "山に囲まれた内陸の平地で、左右に多数の甲冑と背旗の兵がいる。 両軍の兵が槍を交え、刀を振り上げて接近戦をしている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "山に囲まれた内陸の平地で、左右に多数の甲冑と背旗の兵がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "両軍の兵が槍を交え、刀を振り上げて接近戦をしている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q51_d",
+    "status": "limited",
+    "spec_sha256": "99837cf44be87f3d67e3c69c2a28aec3faafd9a364070bba322318cf45272698",
+    "reviewed_png_sha256": "00da5ffe7a6c4bacc69963ff366d6e2124cd3119156365d2a4a4cc675a491baf",
+    "observation": "右に長い馬防柵があり、その内側の集団の火縄銃兵が一斉に白煙を上げている。 柵の左外側に騎馬と徒歩の対抗軍が多数おり、武器を向けて攻めている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "右に長い馬防柵があり、その内側の集団の火縄銃兵が一斉に白煙を上げている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "柵の左外側に騎馬と徒歩の対抗軍が多数おり、武器を向けて攻めている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q52_a",
+    "status": "limited",
+    "spec_sha256": "79bbc5cc47339d13fe42f282446f62c62af980376a1cbbce65eb3662bbe9e562",
+    "reviewed_png_sha256": "a038925b8a25f94765bbd726f0d07d62b1ccc08451ad9751ae718bbae24900c6",
+    "observation": "雨の谷の左から騎馬と徒歩の武士集団が陣へ攻め込んでいる。 右の濡れた陣幕の前で守備側の多数の兵が槍と刀で応戦している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "雨の谷の左から騎馬と徒歩の武士集団が陣へ攻め込んでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "右の濡れた陣幕の前で守備側の多数の兵が槍と刀で応戦している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q52_b",
+    "status": "limited",
+    "spec_sha256": "2c79828a3fee486d997cf2110d96714ffe1d0326a77eff672f4b562ffc5dd5b8",
+    "reviewed_png_sha256": "d2d66189173bf82a61b67840f4a06a361b2282606f7231eccaff8e2498f9fc6a",
+    "observation": "右側に長く続く木の馬防柵があり、内側の銃兵たちが白煙を上げて発砲している。 左側の柵の外から、多数の騎馬と徒歩の兵が武器を向けて迫っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "右側に長く続く木の馬防柵があり、内側の銃兵たちが白煙を上げて発砲している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左側の柵の外から、多数の騎馬と徒歩の兵が武器を向けて迫っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q52_c",
+    "status": "limited",
+    "spec_sha256": "42d76e8cc7a62e228898aee72523bb4da85d2aad5b4d643fd74b19caffb953d5",
+    "reviewed_png_sha256": "91a9067b3bc3415fbbeb2381632fcb5ca23f2b7de97075fac305029d66302f22",
+    "observation": "山間の盆地で左の黒い甲冑の軍と右の赤い甲冑の軍が対向する。 多数の兵が槍を突き合わせ、刀を持って交戦している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "山間の盆地で左の黒い甲冑の軍と右の赤い甲冑の軍が対向する。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "多数の兵が槍を突き合わせ、刀を持って交戦している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q52_d",
+    "status": "limited",
+    "spec_sha256": "8d7cb37a3b6bdd9b85aac89ee96ecd3b9fca70042268fb0538e407a907c6210c",
+    "reviewed_png_sha256": "9f49931a3bcfc82ea79c83ab72d8840642e04a49d2ca39d62ac19f4f02bcc1c5",
+    "observation": "背後に高い石垣と天守の城があり、前景に堀際の斜面・土塁が見える。 左右の多数の武士が槍や刀を交え、城の前で交戦している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "背後に高い石垣と天守の城があり、前景に堀際の斜面・土塁が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "左右の多数の武士が槍や刀を交え、城の前で交戦している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q53_a",
+    "status": "limited",
+    "spec_sha256": "77330aba67be00205165a49f9f620d7101509262e1a8f7107d54d08e58fa49f7",
+    "reviewed_png_sha256": "19218f75033abe8a73b6f6d2df25f63c83907475bb8c799a42c131991320b0a0",
+    "observation": "背後の宮殿の梁に緑赤の丹青と、反った瓦屋根が見える。 手前の官人は朝鮮風の翼のある黒い冠と赤い長衣を着て、奥にも官人が控える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "背後の宮殿の梁に緑赤の丹青と、反った瓦屋根が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の官人は朝鮮風の翼のある黒い冠と赤い長衣を着て、奥にも官人が控える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q53_b",
+    "status": "limited",
+    "spec_sha256": "a1fee5b76731e03f9187657a470d6cbf2d9f5b469ce98fc5c276342e2d266f9f",
+    "reviewed_png_sha256": "6f1915a890208aa545c226503df4cfb81942a4a5b0452dcb527b9833396ceee5",
+    "observation": "中国風の赤い宮殿と黄色い瓦屋根が背後にある。 龍の模様の黄衣の中国皇帝が座り、黒い冠の官人二人が後ろに控えている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中国風の赤い宮殿と黄色い瓦屋根が背後にある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "龍の模様の黄衣の中国皇帝が座り、黒い冠の官人二人が後ろに控えている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q53_c",
+    "status": "limited",
+    "spec_sha256": "c44268d76aa0ced34a096116f3706f9f955cc92cc92f7418d38338d2a58d4594",
+    "reviewed_png_sha256": "8af8ea781902d7e937cf7bb8b0751fe40c4ed2806cf1643c5298f8d9b97a5ae7",
+    "observation": "背後に赤い正殿、赤瓦の屋根、前面の石垣がある。 手前の琉球の国王は珠のある冠と赤を基調とした冠服を着ている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "背後に赤い正殿、赤瓦の屋根、前面の石垣がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の琉球の国王は珠のある冠と赤を基調とした冠服を着ている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q53_d",
+    "status": "limited",
+    "spec_sha256": "2cdbcd7a5c84d97b2c8d4e38a81bf9dc349fc12c2e8844ce0c2c3b8a136a9d34",
+    "reviewed_png_sha256": "09a57ddf704d8d6a07806ebaeff04af7a91fb1db9c39c3b273d12a182ae62978",
+    "observation": "手前に緑色の青磁の瓶と鉢が大きく置かれている。 背後に朝鮮半島風の宮殿と、高麗風の冠服の官人が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "手前に緑色の青磁の瓶と鉢が大きく置かれている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に朝鮮半島風の宮殿と、高麗風の冠服の官人が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q54_a",
+    "status": "limited",
+    "spec_sha256": "82932616e4c8ed64de8ebaf289d284e6ef4a49239708a7ff8424f0ec65fb1e01",
+    "reviewed_png_sha256": "9ce3ffe4326daadc692cf9bbad83fee785704ba0ad9c9242c90f76490f58fa48",
+    "observation": "左上の数字は1597、右上は1592で、148pxでも明瞭に読める。 中央の矢印は右向きで、左右の場面に軍船と朝鮮風の城門・沿岸がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左上の数字は1597、右上は1592で、148pxでも明瞭に読める。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の矢印は右向きで、左右の場面に軍船と朝鮮風の城門・沿岸がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q54_b",
+    "status": "limited",
+    "spec_sha256": "6e412f576c59ed4b1699848752bf68a1a16ccd70609a97f70441e8e58532610b",
+    "reviewed_png_sha256": "ba5de2700021cfe820ad93baff257cf59ac84a4ac972ec9eafe788c99e808982",
+    "observation": "左上は1592、右上は1597と大きく表示され、148pxでも読める。 中央の赤い矢印が左から右を向き、両側に軍船と朝鮮風の城門がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左上は1592、右上は1597と大きく表示され、148pxでも読める。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の赤い矢印が左から右を向き、両側に軍船と朝鮮風の城門がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q54_c",
+    "status": "limited",
+    "spec_sha256": "a096520ae445d364e3d39b1ce865ed97249fb7558a346beac1c72537332554cb",
+    "reviewed_png_sha256": "1a34e4050326d8614e7c5f2191d33155cbe5480f8936971a48103a14117b4000",
+    "observation": "左上に1274、右上に1281が大きく表示され、148pxでも読める。 中央の赤い矢印が右を向き、左右に日本の海岸と海上の軍船が描かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左上に1274、右上に1281が大きく表示され、148pxでも読める。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の赤い矢印が右を向き、左右に日本の海岸と海上の軍船が描かれる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q54_d",
+    "status": "limited",
+    "spec_sha256": "7c051f0983279047b1bc82a784ed2a5f533cdb937a062f8a8eb6c51cfc4fd3e7",
+    "reviewed_png_sha256": "ed487b09bd7184e674df6e093cd7957496a407919e26ff3905637994d0164539",
+    "observation": "左上の数字は1281、右上は1274で、148pxでも明瞭に読める。 中央の赤い矢印が右を向き、左右に日本の海岸と軍船が描かれる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左上の数字は1281、右上は1274で、148pxでも明瞭に読める。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の赤い矢印が右を向き、左右に日本の海岸と軍船が描かれる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q55_a",
+    "status": "limited",
+    "spec_sha256": "ea0afe2b0c0e8ae735d0baeb0e2a5283cca748cd3b64044b5e0565aa047485ed",
+    "reviewed_png_sha256": "9ab3d44a887301de0c2b4d638720ba16aed49bb60ed109a05e9965958a502510",
+    "observation": "左に刀を差した武士、右に鍬を持って田を耕す農民がいる。 中央の高い木の柵が両者を隔て、右側に水田が広がる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "左に刀を差した武士、右に鍬を持って田を耕す農民がいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の高い木の柵が両者を隔て、右側に水田が広がる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q55_b",
+    "status": "limited",
+    "spec_sha256": "4d92a20e95351a1dd6f88dd361b448ede3ba07340df3afd4fdd9ed1a437f8cf8",
+    "reviewed_png_sha256": "aae6825da162e456f03c7941f982b2094af6235b810e1ebe5a534c2261f326e2",
+    "observation": "城下の門の内外に布、野菜、陶器などの露店があり商人たちが行き交う。 市場の門が開き、手前の隅に外した関門の縄が巻かれて置かれている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "城下の門の内外に布、野菜、陶器などの露店があり商人たちが行き交う。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "市場の門が開き、手前の隅に外した関門の縄が巻かれて置かれている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q55_c",
+    "status": "limited",
+    "spec_sha256": "5efa43896b6253536d9fab6ad23b8f5b4fa88d9b0301da176224cd63a7039d79",
+    "reviewed_png_sha256": "b4470e708a18955303716557e4329d013b835f64af1e75887d769dd0144bc6dd",
+    "observation": "机の前後で農民の代表がちょうど五人、顔を一人ずつ数えられる。 中央の農民が一枚の誓約文書を持ち、五人がその紙を囲んでいる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "机の前後で農民の代表がちょうど五人、顔を一人ずつ数えられる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "中央の農民が一枚の誓約文書を持ち、五人がその紙を囲んでいる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q55_d",
+    "status": "limited",
+    "spec_sha256": "bf82e86a8f74ba7e75ef1e2e30feaf48e5134dbe6e0a2a9d19e6de1c5ee41441",
+    "reviewed_png_sha256": "2981799762fba5ea823e2a440c6e463e6d0f5aee1fe0260bc08f9c25154132e5",
+    "observation": "駕籠を中心に、長い槍を持つ供を含む行列が街道の奥まで続いている。 多数の侍が街道を歩き、遠景に白壁の城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "駕籠を中心に、長い槍を持つ供を含む行列が街道の奥まで続いている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "多数の侍が街道を歩き、遠景に白壁の城が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q56_a",
+    "status": "limited",
+    "spec_sha256": "ce07a38aea8e1d08868469e53b51ef341810577b693a98cc23d16f7e7db63c08",
+    "reviewed_png_sha256": "ddc17772e38bcaf466313033e05bd7f6e65058b2f3d9bd0b2de6a7af042b55e3",
+    "observation": "陸地の居住区が白い塀と門で囲まれ、入口から内部へ道が続いている。 門の内に赤い中国風の廟があり、前に中国風の衣服の商人たちが立つ。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "陸地の居住区が白い塀と門で囲まれ、入口から内部へ道が続いている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "門の内に赤い中国風の廟があり、前に中国風の衣服の商人たちが立つ。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q56_b",
+    "status": "limited",
+    "spec_sha256": "7ab5d3765af5e96db98069c19a0b644ec11507775575920f6cfaf93fda592158",
+    "reviewed_png_sha256": "046f4bcdc7d0a1d9b10175ea9fc4f2946dcffde9994771c0a09ea8b13135afc3",
+    "observation": "青い海に囲まれたS字に近い島に、二つの山地と中央の明るい平野が見える。 前景に金山を象徴する岩山の坑口と、坑道の入口が添えられている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "青い海に囲まれたS字に近い島に、二つの山地と中央の明るい平野が見える。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "前景に金山を象徴する岩山の坑口と、坑道の入口が添えられている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q56_c",
+    "status": "limited",
+    "spec_sha256": "6ba33eb9f83ad2113adb584d31b07394f6b2b3336ea16f7ab0e09418f0108613",
+    "reviewed_png_sha256": "a4ef3bfbaf94a35eb711cae4830ab5a2d9b79362b83c27eb12fd529674b6d48b",
+    "observation": "海岸で左の日本人と右の欧州商人が長い火縄銃を手渡している。 和装の日本人とひだ襟のポルトガル人、温暖な海の背後の欧州帆船が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "海岸で左の日本人と右の欧州商人が長い火縄銃を手渡している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "和装の日本人とひだ襟のポルトガル人、温暖な海の背後の欧州帆船が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q56_d",
+    "status": "limited",
+    "spec_sha256": "52ed18ecce7a41a151b94162ae3706dc8a62d0abc94b761e3e4771deaca5c5c8",
+    "reviewed_png_sha256": "0849a9cdd1d9a24587779389405de61fe0c68bb46d827ab12ed6625afa9890d3",
+    "observation": "海に囲まれた湾曲した扇形の人工島を空から見下ろしている。 島内に商館や倉庫が並び、手前の陸へ一本の橋で接続している。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "海に囲まれた湾曲した扇形の人工島を空から見下ろしている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "島内に商館や倉庫が並び、手前の陸へ一本の橋で接続している。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q57_a",
+    "status": "limited",
+    "spec_sha256": "ed404fb71f432a70f86d0527e3a32b2a6177485960f484f2d878ca77fdc2b762",
+    "reviewed_png_sha256": "1930805b7b84fb370cc0fe67726c5df7bb2c57f1319fa5c5ff9e47797bff782f",
+    "observation": "剃髪した老年の茶人が簡素な茶色の衣で座っている。 狭い茶室で黒い茶碗に竹の茶筅を入れ、茶を点てている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した老年の茶人が簡素な茶色の衣で座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "狭い茶室で黒い茶碗に竹の茶筅を入れ、茶を点てている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q57_b",
+    "status": "limited",
+    "spec_sha256": "3701f6318cbe636a3b3b3a7597ec92a190302366b056b4c80c16618eed2b984a",
+    "reviewed_png_sha256": "f443d84bec45700137bc6031e40bb5118fda4759b32b15f4b7a8142c84112461",
+    "observation": "華やかな桃山風の衣装の女性が、腰に刀を差している。 扇を高く開いて川辺の木の舞台で踊っている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "華やかな桃山風の衣装の女性が、腰に刀を差している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "扇を高く開いて川辺の木の舞台で踊っている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q57_c",
+    "status": "limited",
+    "spec_sha256": "480a8baa8f02181b5a82cfaa36174bc025fa41a240af710c9aeb3d383b9116b4",
+    "reviewed_png_sha256": "deba6eb7bb6b3a16e020d4c638fa3d6f60b9576b53fcf0918b633d155c98a288",
+    "observation": "桃山風の絵師が太い筆を手にして屏風に筆先を当てている。 金地の大きな屏風に太い幹と枝葉の大きな松が描かれている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "桃山風の絵師が太い筆を手にして屏風に筆先を当てている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "金地の大きな屏風に太い幹と枝葉の大きな松が描かれている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q57_d",
+    "status": "limited",
+    "spec_sha256": "4d73718d7cf10a94755e32814857f67100306753f81739d034dc840bbe88842e",
+    "reviewed_png_sha256": "095df284ae3784c2f9323ed78e5842d8820c26ea10a4e1dad0494c352dd5c72f",
+    "observation": "剃髪の僧の画家が右手の墨筆で絵を描いている。 白い紙に黒い墨の山水が広がり、左手前に硯が大きく見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪の僧の画家が右手の墨筆で絵を描いている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "白い紙に黒い墨の山水が広がり、左手前に硯が大きく見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q58_a",
+    "status": "limited",
+    "spec_sha256": "363ebb0c588a244dc5e84a108fd0c16d94ca0b3a893b5f53e0bfb8ab0d56d2da",
+    "reviewed_png_sha256": "2a2f5b82fcda66ffa4cac59508c5750cefc334e9810474717886ba7a41d26b5d",
+    "observation": "剃髪した老年の男性が質素な衣で座っている。 背景に銀色でない木造の二層楼閣と、静かな庭が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した老年の男性が質素な衣で座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背景に銀色でない木造の二層楼閣と、静かな庭が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q58_b",
+    "status": "limited",
+    "spec_sha256": "1f5a1fa8d0af887a09821e7b7cd80c24b9932be75492fa460c6c44ba35b85fb3",
+    "reviewed_png_sha256": "472af2e675d39ea137cfe735cb50ec574e61551747d5ffef7b95070386ad8f05",
+    "observation": "剃髪した男性が黒い僧衣を着て前景で座っている。 背後に金色の三層の楼閣と池がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "剃髪した男性が黒い僧衣を着て前景で座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に金色の三層の楼閣と池がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q58_c",
+    "status": "limited",
+    "spec_sha256": "09d3c8e3d43906e33ee1b775cc7896b60f77d892534e8ea5b3520e8c0b783b64",
+    "reviewed_png_sha256": "0511c724de00ca0b543fc2c75843cc1fe90d1922b6731a9c6730cf4d414c6f85",
+    "observation": "主役は黒い折り目のある僧帽をかぶり、帽子の下の側頭部は剃髪されている。 豪華な袈裟の僧衣姿で座り、背後の木造屋敷門は閉ざされている。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "主役は黒い折り目のある僧帽をかぶり、帽子の下の側頭部は剃髪されている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "豪華な袈裟の僧衣姿で座り、背後の木造屋敷門は閉ざされている。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q58_d",
+    "status": "limited",
+    "spec_sha256": "b54d380be2662abaf3d1765c046901d39251b171ffafa0ed63bb16362d7f6db6",
+    "reviewed_png_sha256": "cf2539109bdfbcbae066de266933410c9e531b239ba0636067e446bdb07438e3",
+    "observation": "中世の大鎧と兜を着けた武将が栗毛の馬に乗っている。 背後に瓦屋根と太い木材の武家屋敷の門が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "中世の大鎧と兜を着けた武将が栗毛の馬に乗っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "背後に瓦屋根と太い木材の武家屋敷の門が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q59_a",
+    "status": "limited",
+    "spec_sha256": "ee6fe21e98045f29685242b8a1a7f0914f47df8894a19fadcd8eb12c6107b8fa",
+    "reviewed_png_sha256": "7f7dd5b5e6ef46df8107c5ee0356a6212e1a352377ea7caf9c5fecfeb81325db",
+    "observation": "大型の木造航海船に二本のマストと角帆がある。 古代風の冠服の使節たちが甲板に立ち、船体とマストの先端も画面内に見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "大型の木造航海船に二本のマストと角帆がある。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "古代風の冠服の使節たちが甲板に立ち、船体とマストの先端も画面内に見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q59_b",
+    "status": "limited",
+    "spec_sha256": "95fa03b90b156514b7bdbdf4d55fe1e78480060b15688633356509310c7e3e9c",
+    "reviewed_png_sha256": "9331db178481c42638b3ca584e18343bab852d9eaf31033617e4688575f108a1",
+    "observation": "木造の日本の船に一枚の大きな白い和帆が張られている。 甲板に多数の酒樽が整然と並び、船の全体を斜め上から見ている。 修正後は船体、帆、マストの先端がすべて画面内にあり、マストの上にも空が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "木造の日本の船に一枚の大きな白い和帆が張られている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "甲板に多数の酒樽が整然と並び、船の全体を斜め上から見ている。"
+      },
+      {
+        "key": "whole_ship",
+        "result": "pass",
+        "observation": "修正後は船体、帆、マストの先端がすべて画面内にあり、マストの上にも空が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q59_c",
+    "status": "limited",
+    "spec_sha256": "ca81e87163d4a5ec152364076aa09197dfa2ddd765ccc79af560484c26d90df6",
+    "reviewed_png_sha256": "707f9e10807eaf3bacfc363ba368158caca8784c8f3c7f7d629524655b58b4b2",
+    "observation": "和洋折衷の大型の木造貿易船が海上に浮かんでいる。 手前の許可文書に赤い丸い朱印がある。朱印の中に文字はなく、紙の墨の列も読めない。 修正後は船首から船尾、帆とマストの先端がすべて画面内に収まり、上に空の余白がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "和洋折衷の大型の木造貿易船が海上に浮かんでいる。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の許可文書に赤い丸い朱印がある。朱印の中に文字はなく、紙の墨の列も読めない。"
+      },
+      {
+        "key": "whole_ship",
+        "result": "pass",
+        "observation": "修正後は船首から船尾、帆とマストの先端がすべて画面内に収まり、上に空の余白がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q59_d",
+    "status": "limited",
+    "spec_sha256": "cea140f0dee6862123503c56735e4a80a46b7f8f6395937d8d65199de84df48e",
+    "reviewed_png_sha256": "d818e13e05aa058838bafed1adc379e45e88aef7bc74841ec00989beeebe78cd",
+    "observation": "一枚の大きな白い和帆を張った木造和船が沿岸を航行している。 甲板に米俵と黒褐色の昆布の束が見え、船体・帆・マストの全体が画面内にある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "一枚の大きな白い和帆を張った木造和船が沿岸を航行している。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "甲板に米俵と黒褐色の昆布の束が見え、船体・帆・マストの全体が画面内にある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q60_a",
+    "status": "limited",
+    "spec_sha256": "e163f70113a357ff4c0dd4f2c596be81f8d2364c8a4593e1decbe6291e3d88b3",
+    "reviewed_png_sha256": "6b85ce709991517966aa93936f3f6c49ef685aec94d6a845a53e4309bd2a3f19",
+    "observation": "丸顔の老年の将軍が白い内衣と黒い礼装で座っている。 手に開いた扇を持ち、背後に城の石垣と天守が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "丸顔の老年の将軍が白い内衣と黒い礼装で座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に開いた扇を持ち、背後に城の石垣と天守が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q60_b",
+    "status": "limited",
+    "spec_sha256": "523f0bbe84a4c3f3bb5154986ff70cefe3d435186aeba8373b74d6204c37cd39",
+    "reviewed_png_sha256": "f0418e3ce14526bd1bc664b239a4f9e2fb6c06df120d7e81c5ec182547ec7048",
+    "observation": "将軍が黒い冠と緑褐色の礼装で広間に座っている。 手前の左右に穏やかな犬が一匹ずつ、合計二匹いる。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "将軍が黒い冠と緑褐色の礼装で広間に座っている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手前の左右に穏やかな犬が一匹ずつ、合計二匹いる。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q60_c",
+    "status": "limited",
+    "spec_sha256": "496f8f9dcf2d07f53897a9d156d2fbec452eebc44132e9525d7a20fc5f94642e",
+    "reviewed_png_sha256": "1ccc47a44307b23013564f01696842d858ec0595bad022fd6e5ed63ad7cf1e96",
+    "observation": "短い口ひげの壮年将軍が黒い冠と濃紫の束帯を着ている。 手に笏を持ち、畳の間に座り、背後には江戸城の景観がある。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "短い口ひげの壮年将軍が黒い冠と濃紫の束帯を着ている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "手に笏を持ち、畳の間に座り、背後には江戸城の景観がある。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  },
+  {
+    "id": "q60_d",
+    "status": "limited",
+    "spec_sha256": "4d52c75dc960ed0491b1a9030a4d9957236bbf9caf55d791817cd3b81e3ae19e",
+    "reviewed_png_sha256": "8c9e6559dad1e9c3d599ee71c98549f772fcc1c306e27f70d674f1dfa55073a1",
+    "observation": "口ひげのある壮年の将軍が高い黒い冠を着けている。 紺の礼装で座り、手に軍配扇を持ち、背後に江戸初期風の城が見える。",
+    "limitations": "教育用の再現イメージ。細部・配置の厳密な史料復元ではない。",
+    "checked_features": [
+      {
+        "key": "feature_1",
+        "result": "pass",
+        "observation": "口ひげのある壮年の将軍が高い黒い冠を着けている。"
+      },
+      {
+        "key": "feature_2",
+        "result": "pass",
+        "observation": "紺の礼装で座り、手に軍配扇を持ち、背後に江戸初期風の城が見える。"
+      }
+    ],
+    "thumbnail_148_check": "148pxで主題と主要な道具・構図を確認。"
+  }
+]
