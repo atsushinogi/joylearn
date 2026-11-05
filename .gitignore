@@ -235,6 +235,9 @@ __marimo__/
 # Quiz PNG image assets
 /quiz/**/*.png
 
+# Lesson 10 icon production files
+/quiz/social-studies-2-lesson10/icon-production/
+
 # ZIP archives
 *.zip
 
@@ -246,3 +249,6 @@ __marimo__/
 
 # PNG images
 *.png
+
+# Track the WebP icons used by the lesson 10 quiz
+!/quiz/social-studies-2-lesson10/icon-assets/webp-148/*.webp

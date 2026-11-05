@@ -12,6 +12,7 @@
 | 天下統一クイズ | 社会 第7回「安土・桃山時代」を復習する全50問の4択クイズ。信長・秀吉の時代のできごとを学べます。 | [quiz/social-studies-2-lesson7/index.html](quiz/social-studies-2-lesson7/index.html) |
 | 江戸幕府クイズ | 社会 第9回「江戸時代（1）・江戸幕府の政治」の全50問。200枚のWebP選択肢画像、各問にジョーク解答1つ、回答後の解説と全問一覧つき。 | [quiz/social-studies-2-lesson9/index.html](quiz/social-studies-2-lesson9/index.html) |
 | アスキーアート工房 | 画像を読み込み、指定した文字数（よこ×たて、各1〜400）のアスキーアートに変換。写真・イラスト向けの変換に加え、1ドットを2文字×1行に割り当てるドット絵モードもあります。使う文字や明るさを調整し、コピーや.txt保存ができます。画像は端末の外に送信しません。 | [ascii-art/index.html](ascii-art/index.html) |
+| 歴史めぐりクイズ | 社会 第10回、鎌倉から江戸初期までの全60問。240枚のWebP選択肢画像、10問・20問・全問の出題、解説、間違えた問題の復習、検索できる全問一覧つき。 | [quiz/social-studies-2-lesson10/index.html](quiz/social-studies-2-lesson10/index.html) |
 | ばねラボ | おもりやばねのつなぎ方を変えて、力とのびの関係を調べる実験アプリ。1本・直列・並列・途中のおもりを扱い、グラフとミニ問題で理解を確認できます。 | [spring-lab/dist/index.html](spring-lab/dist/index.html) |
 
 漢字テストの問題ファイルの追加方法と形式は [kanji-test/README.md](kanji-test/README.md) にまとめています。
