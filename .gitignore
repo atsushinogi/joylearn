@@ -243,3 +243,6 @@ __marimo__/
 
 # WebP images
 *.webp
+
+# PNG images
+*.png

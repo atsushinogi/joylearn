@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "questions": 53,
+  "kanji": 32,
+  "readings": 53,
+  "characters": 46,
+  "size": [
+    200,
+    200
+  ],
+  "files": {
+    "png": 53,
+    "webp": 53,
+    "originals": 53
+  },
+  "portable_workbook_validation": true,
+  "original_reading_copy_equal": true,
+  "archive_bytes": {
+    "png": 4584335,
+    "webp": 2925627
+  }
+}

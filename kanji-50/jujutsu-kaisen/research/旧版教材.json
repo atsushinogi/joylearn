@@ -1,0 +1,1304 @@
+{
+  "title": "呪術廻戦 漢字書き取り問題",
+  "count": 53,
+  "character_count": 32,
+  "note": "アニメ第1期・第2期の場面と人物設定を中心に、漢字学習用に独自の文章で要約。読み取りと語句補足は作中の出来事と区別。第2期までの内容を含む。",
+  "reference_url": "https://jujutsukaisen.jp/character/index_1st.php",
+  "questions": [
+    {
+      "number": 1,
+      "target_character": "得",
+      "target_reading": "トク",
+      "prompt": "虎杖は、復讐に走る順平を〔せっとく〕しようとした。",
+      "answer": "説得",
+      "reading_in_prompt": "せっとく",
+      "answer_sentence": "虎杖は、復讐に走る順平を説得しようとした。",
+      "characters": [
+        "虎杖悠仁",
+        "吉野順平"
+      ],
+      "basis_type": "場面",
+      "scene_note": "順平の動機を聞き、戦いを止めようとする虎杖。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/12.php"
+      ]
+    },
+    {
+      "number": 2,
+      "target_character": "得",
+      "target_reading": "える",
+      "prompt": "メカ丸は、自由に動く体を〔える〕ために呪霊側と取引した。",
+      "answer": "得る",
+      "reading_in_prompt": "える",
+      "answer_sentence": "メカ丸は、自由に動く体を得るために呪霊側と取引した。",
+      "characters": [
+        "究極メカ丸"
+      ],
+      "basis_type": "場面",
+      "scene_note": "肉体の回復を求めて情報を渡し、その後に真人と対決する。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/31.php",
+        "https://times.abema.tv/articles/-/10003062"
+      ]
+    },
+    {
+      "number": 3,
+      "target_character": "比",
+      "target_reading": "ヒ",
+      "prompt": "交流会で戦う真希と真依の、生き方の違いを〔たいひ〕する。",
+      "answer": "対比",
+      "reading_in_prompt": "たいひ",
+      "answer_sentence": "交流会で戦う真希と真依の、生き方の違いを対比する。",
+      "characters": [
+        "禪院真希",
+        "禪院真依"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "姉妹の対戦をもとにした比較。作中の台詞ではない。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/17.php",
+        "https://times.abema.tv/articles/-/10022703"
+      ]
+    },
+    {
+      "number": 4,
+      "target_character": "比",
+      "target_reading": "くらべる",
+      "prompt": "三輪は、真希の実力を等級と〔くらべる〕と、その差に驚いた。",
+      "answer": "比べる",
+      "reading_in_prompt": "くらべる",
+      "answer_sentence": "三輪は、真希の実力を等級と比べると、その差に驚いた。",
+      "characters": [
+        "禪院真希",
+        "三輪霞"
+      ],
+      "basis_type": "場面",
+      "scene_note": "三輪は、真希の強さが等級に見合わないと感じる。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/17.php"
+      ]
+    },
+    {
+      "number": 5,
+      "target_character": "政",
+      "target_reading": "セイ",
+      "prompt": "楽巌寺学長の保守的な立場から、呪術界の〔せいじ〕の仕組みを考える。",
+      "answer": "政治",
+      "reading_in_prompt": "せいじ",
+      "answer_sentence": "楽巌寺学長の保守的な立場から、呪術界の政治の仕組みを考える。",
+      "characters": [
+        "楽巌寺嘉伸"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "保守派筆頭という人物設定から、組織の方針や権力について考える学習文。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 6,
+      "target_character": "興",
+      "target_reading": "キョウ",
+      "prompt": "真人は、人の魂と体の関係に〔きょうみ〕を持ち、術式を試していた。",
+      "answer": "興味",
+      "reading_in_prompt": "きょうみ",
+      "answer_sentence": "真人は、人の魂と体の関係に興味を持ち、術式を試していた。",
+      "characters": [
+        "真人"
+      ],
+      "basis_type": "設定",
+      "scene_note": "魂に触れて人の姿を変える真人の性質。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://jujutsukaisen.jp/episodes/10.php"
+      ]
+    },
+    {
+      "number": 7,
+      "target_character": "興",
+      "target_reading": "コウ",
+      "prompt": "三輪は、五条先生と写真を撮れることに〔こうふん〕していた。",
+      "answer": "興奮",
+      "reading_in_prompt": "こうふん",
+      "answer_sentence": "三輪は、五条先生と写真を撮れることに興奮していた。",
+      "characters": [
+        "五条悟",
+        "三輪霞"
+      ],
+      "basis_type": "場面",
+      "scene_note": "五条との写真を望んで廊下を走る三輪の場面を言い換えた。",
+      "source_urls": [
+        "https://www.mbs.jp/jujutsukaisen/select/",
+        "https://times.abema.tv/articles/-/8642173"
+      ]
+    },
+    {
+      "number": 8,
+      "target_character": "示",
+      "target_reading": "ジ",
+      "prompt": "虎杖は、順平を調べるため、伊地知から作戦の〔しじ〕を受けた。",
+      "answer": "指示",
+      "reading_in_prompt": "しじ",
+      "answer_sentence": "虎杖は、順平を調べるため、伊地知から作戦の指示を受けた。",
+      "characters": [
+        "虎杖悠仁",
+        "伊地知潔高",
+        "吉野順平"
+      ],
+      "basis_type": "場面",
+      "scene_note": "低級の呪いを使って順平の反応を確かめようとする作戦。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/10.php"
+      ]
+    },
+    {
+      "number": 9,
+      "target_character": "示",
+      "target_reading": "しめす",
+      "prompt": "五条先生は、虎杖に二つの選択肢を〔しめす〕。",
+      "answer": "示す",
+      "reading_in_prompt": "しめす",
+      "answer_sentence": "五条先生は、虎杖に二つの選択肢を示す。",
+      "characters": [
+        "虎杖悠仁",
+        "五条悟"
+      ],
+      "basis_type": "場面",
+      "scene_note": "処刑の時期と宿儺の指をめぐる選択。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/02.php"
+      ]
+    },
+    {
+      "number": 10,
+      "target_character": "張",
+      "target_reading": "チョウ",
+      "prompt": "漏瑚は、呪いこそが本当の人間だと〔しゅちょう〕する。",
+      "answer": "主張",
+      "reading_in_prompt": "しゅちょう",
+      "answer_sentence": "漏瑚は、呪いこそが本当の人間だと主張する。",
+      "characters": [
+        "漏瑚"
+      ],
+      "basis_type": "設定",
+      "scene_note": "人間と呪いの立場を逆転させようとする漏瑚の考え。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 11,
+      "target_character": "張",
+      "target_reading": "はる",
+      "prompt": "渋谷では、一般人を閉じ込めるために帳を〔はる〕。",
+      "answer": "張る",
+      "reading_in_prompt": "はる",
+      "answer_sentence": "渋谷では、一般人を閉じ込めるために帳を張る。",
+      "characters": [],
+      "basis_type": "場面",
+      "scene_note": "渋谷に結界が降り、一般人が外へ出られなくなる。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/32.php"
+      ]
+    },
+    {
+      "number": 12,
+      "target_character": "支",
+      "target_reading": "シ",
+      "prompt": "狗巻は、花御の動きを止めて、仲間の戦いを〔しえん〕した。",
+      "answer": "支援",
+      "reading_in_prompt": "しえん",
+      "answer_sentence": "狗巻は、花御の動きを止めて、仲間の戦いを支援した。",
+      "characters": [
+        "狗巻棘",
+        "花御"
+      ],
+      "basis_type": "場面",
+      "scene_note": "呪言を使いながら、仲間と花御の攻撃を防ぐ。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/19.php",
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 13,
+      "target_character": "支",
+      "target_reading": "ささえる",
+      "prompt": "夜蛾学長は、パンダを育て、その成長を〔ささえる〕。",
+      "answer": "支える",
+      "reading_in_prompt": "ささえる",
+      "answer_sentence": "夜蛾学長は、パンダを育て、その成長を支える。",
+      "characters": [
+        "パンダ",
+        "夜蛾正道"
+      ],
+      "basis_type": "設定",
+      "scene_note": "夜蛾がパンダを生み出し育てた関係を学習語で説明。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://www.mbs.jp/jujutsukaisen/select/"
+      ]
+    },
+    {
+      "number": 14,
+      "target_character": "個",
+      "target_reading": "コ",
+      "prompt": "交流会のころの真依は、一日に弾丸を〔いっこ〕作るのが限界だった。",
+      "answer": "一個",
+      "reading_in_prompt": "いっこ",
+      "answer_sentence": "交流会のころの真依は、一日に弾丸を一個作るのが限界だった。",
+      "characters": [
+        "禪院真依"
+      ],
+      "basis_type": "設定",
+      "scene_note": "構築術式で一日一発の弾丸を作るという第17話の説明。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10022703"
+      ]
+    },
+    {
+      "number": 15,
+      "target_character": "迷",
+      "target_reading": "まよう",
+      "prompt": "釘崎は、危険な仕事だと知っていても、東京へ出るための進学を〔まよう〕ことなく選んだ。",
+      "answer": "迷う",
+      "reading_in_prompt": "まよう",
+      "answer_sentence": "釘崎は、危険な仕事だと知っていても、東京へ出るための進学を迷うことなく選んだ。",
+      "characters": [
+        "釘崎野薔薇"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "地方から上京するため高専を選んだ人物設定を言い換えた。心情は学習用の要約。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://jujutsukaisen.jp/episodes/03.php"
+      ]
+    },
+    {
+      "number": 16,
+      "target_character": "在",
+      "target_reading": "ザイ",
+      "prompt": "渋谷事変の場面では、直毘人が禪院家の〔げんざい〕の当主として登場する。",
+      "answer": "現在",
+      "reading_in_prompt": "げんざい",
+      "answer_sentence": "渋谷事変の場面では、直毘人が禪院家の現在の当主として登場する。",
+      "characters": [
+        "禪院直毘人"
+      ],
+      "basis_type": "設定",
+      "scene_note": "現在は現実の日付ではなく、渋谷事変の作中時点を指す。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://jujutsukaisen.jp/episodes/38.php"
+      ]
+    },
+    {
+      "number": 17,
+      "target_character": "在",
+      "target_reading": "ある",
+      "prompt": "七海は、会社員を経験したうえで、呪術師の〔あり〕方について虎杖に話した。",
+      "answer": "在り",
+      "reading_in_prompt": "あり",
+      "answer_sentence": "七海は、会社員を経験したうえで、呪術師の在り方について虎杖に話した。",
+      "characters": [
+        "虎杖悠仁",
+        "七海建人"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "第9話の職業観をもとにした要約。「在り方」は辞書形「ある」の活用。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://times.abema.tv/articles/-/10005007"
+      ]
+    },
+    {
+      "number": 18,
+      "target_character": "独",
+      "target_reading": "ドク",
+      "prompt": "メカ丸は、真人と戦うために、巨大な機体を使う〔どくじ〕の準備をしていた。",
+      "answer": "独自",
+      "reading_in_prompt": "どくじ",
+      "answer_sentence": "メカ丸は、真人と戦うために、巨大な機体を使う独自の準備をしていた。",
+      "characters": [
+        "究極メカ丸",
+        "真人"
+      ],
+      "basis_type": "場面",
+      "scene_note": "密かに準備した究極メカ丸絶対形態で応戦する。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/31.php"
+      ]
+    },
+    {
+      "number": 19,
+      "target_character": "独",
+      "target_reading": "ひとり",
+      "prompt": "五条先生が単独で任務をこなすようになり、夏油も〔ひとり〕になることが増えた。",
+      "answer": "独り",
+      "reading_in_prompt": "ひとり",
+      "answer_sentence": "五条先生が単独で任務をこなすようになり、夏油も独りになることが増えた。",
+      "characters": [
+        "五条悟",
+        "夏油傑"
+      ],
+      "basis_type": "場面",
+      "scene_note": "2007年、二人が別々に任務へ向かうようになる。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/29.php"
+      ]
+    },
+    {
+      "number": 20,
+      "target_character": "弁",
+      "target_reading": "ベン",
+      "prompt": "西宮は、真依の苦労を語り、真依を〔べんご〕するように釘崎に訴えた。",
+      "answer": "弁護",
+      "reading_in_prompt": "べんご",
+      "answer_sentence": "西宮は、真依の苦労を語り、真依を弁護するように釘崎に訴えた。",
+      "characters": [
+        "釘崎野薔薇",
+        "西宮桃",
+        "禪院真依"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "真依と女性呪術師の事情を語る西宮の発言を、弁護という語で説明。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/17.php"
+      ]
+    },
+    {
+      "number": 21,
+      "target_character": "検",
+      "target_reading": "ケン",
+      "prompt": "歌姫と冥冥は、洋館から出られない理由を考え、結界の仕組みを〔けんしょう〕した。",
+      "answer": "検証",
+      "reading_in_prompt": "けんしょう",
+      "answer_sentence": "歌姫と冥冥は、洋館から出られない理由を考え、結界の仕組みを検証した。",
+      "characters": [
+        "冥冥",
+        "庵歌姫"
+      ],
+      "basis_type": "場面",
+      "scene_note": "洋館に閉じ込められた二人が、結界を破る方法を探る。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/25.php"
+      ]
+    },
+    {
+      "number": 22,
+      "target_character": "提",
+      "target_reading": "テイ",
+      "prompt": "五条先生は、虎杖の生還をみんなに知らせるため、サプライズを〔ていあん〕した。",
+      "answer": "提案",
+      "reading_in_prompt": "ていあん",
+      "answer_sentence": "五条先生は、虎杖の生還をみんなに知らせるため、サプライズを提案した。",
+      "characters": [
+        "虎杖悠仁",
+        "五条悟"
+      ],
+      "basis_type": "場面",
+      "scene_note": "交流会前に虎杖の登場を演出しようとする場面。",
+      "source_urls": [
+        "https://www.mbs.jp/jujutsukaisen/select/"
+      ]
+    },
+    {
+      "number": 23,
+      "target_character": "寄",
+      "target_reading": "キ",
+      "prompt": "家入の治療は、傷ついた呪術師の回復に〔きよ〕する。",
+      "answer": "寄与",
+      "reading_in_prompt": "きよ",
+      "answer_sentence": "家入の治療は、傷ついた呪術師の回復に寄与する。",
+      "characters": [
+        "家入硝子"
+      ],
+      "basis_type": "設定",
+      "scene_note": "家入は反転術式で他人を治療できる医師。「寄与」は役立つという意味。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 24,
+      "target_character": "寄",
+      "target_reading": "よる",
+      "prompt": "会社員だった七海は、いつものパン屋へ〔よる〕のを習慣にしていた。",
+      "answer": "寄る",
+      "reading_in_prompt": "よる",
+      "answer_sentence": "会社員だった七海は、いつものパン屋へ寄るのを習慣にしていた。",
+      "characters": [
+        "七海建人"
+      ],
+      "basis_type": "場面",
+      "scene_note": "第13話の回想に登場する、行きつけのパン屋。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10005007",
+        "https://times.abema.tv/articles/-/10100528?page=1"
+      ]
+    },
+    {
+      "number": 25,
+      "target_character": "寄",
+      "target_reading": "よせる",
+      "prompt": "虎杖は、母を失った順平の悲しみに心を〔よせる〕。",
+      "answer": "寄せる",
+      "reading_in_prompt": "よせる",
+      "answer_sentence": "虎杖は、母を失った順平の悲しみに心を寄せる。",
+      "characters": [
+        "虎杖悠仁",
+        "吉野順平"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "順平の事情を聞いて説得を続ける姿への解釈。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/11.php",
+        "https://jujutsukaisen.jp/episodes/12.php"
+      ]
+    },
+    {
+      "number": 26,
+      "target_character": "余",
+      "target_reading": "ヨ",
+      "prompt": "虎杖まで連れてきた五条先生の余裕に、漏瑚は〔よけい〕に腹を立てた。",
+      "answer": "余計",
+      "reading_in_prompt": "よけい",
+      "answer_sentence": "虎杖まで連れてきた五条先生の余裕に、漏瑚は余計に腹を立てた。",
+      "characters": [
+        "虎杖悠仁",
+        "五条悟",
+        "漏瑚"
+      ],
+      "basis_type": "場面",
+      "scene_note": "五条の余裕ある行動で漏瑚の怒りが強くなる。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/07.php"
+      ]
+    },
+    {
+      "number": 27,
+      "target_character": "余",
+      "target_reading": "あまる",
+      "prompt": "漏瑚にとって、五条先生は手に〔あまる〕ほど強い相手だった。",
+      "answer": "余る",
+      "reading_in_prompt": "あまる",
+      "answer_sentence": "漏瑚にとって、五条先生は手に余るほど強い相手だった。",
+      "characters": [
+        "五条悟",
+        "漏瑚"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "攻撃が当たらず圧倒される場面を、慣用句「手に余る」で説明。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/07.php"
+      ]
+    },
+    {
+      "number": 28,
+      "target_character": "余",
+      "target_reading": "あます",
+      "prompt": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を〔もてあます〕ような状況に置かれた。",
+      "answer": "持て余す",
+      "reading_in_prompt": "もてあます",
+      "answer_sentence": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を持て余すような状況に置かれた。",
+      "characters": [
+        "五条悟"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "一般人を盾にされ、力の使い方を制限される状況への解釈。五条が無力だったという意味ではない。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/32.php",
+        "https://jujutsukaisen.jp/episodes/33.php"
+      ]
+    },
+    {
+      "number": 29,
+      "target_character": "仏",
+      "target_reading": "ブツ",
+      "prompt": "覚醒した五条先生が口にした「天上天下唯我独尊」は、〔ぶっきょう〕に由来する言葉だ。",
+      "answer": "仏教",
+      "reading_in_prompt": "ぶっきょう",
+      "answer_sentence": "覚醒した五条先生が口にした「天上天下唯我独尊」は、仏教に由来する言葉だ。",
+      "characters": [
+        "五条悟"
+      ],
+      "basis_type": "語句補足",
+      "scene_note": "第28話の言葉を入口にした語源学習。語源は寺院の説明を参照。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10089304?page=1",
+        "https://www.yutenji.or.jp/info/page-22650/page-22796/"
+      ]
+    },
+    {
+      "number": 30,
+      "target_character": "仏",
+      "target_reading": "ほとけ",
+      "prompt": "五条先生の言葉にある「唯我独尊」は、〔ほとけ〕の誕生にまつわる言い伝えに由来する。",
+      "answer": "仏",
+      "reading_in_prompt": "ほとけ",
+      "answer_sentence": "五条先生の言葉にある「唯我独尊」は、仏の誕生にまつわる言い伝えに由来する。",
+      "characters": [
+        "五条悟"
+      ],
+      "basis_type": "語句補足",
+      "scene_note": "第29問と同じ言葉の背景を学ぶ。作中で誕生の場面が描かれたという意味ではない。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10089304?page=1",
+        "https://www.yutenji.or.jp/info/page-22650/page-22796/"
+      ]
+    },
+    {
+      "number": 31,
+      "target_character": "貸",
+      "target_reading": "かす",
+      "prompt": "パンダは、戦いを終えたメカ丸に、願いをかなえるために力を〔かす〕と申し出た。",
+      "answer": "貸す",
+      "reading_in_prompt": "かす",
+      "answer_sentence": "パンダは、戦いを終えたメカ丸に、願いをかなえるために力を貸すと申し出た。",
+      "characters": [
+        "パンダ",
+        "究極メカ丸"
+      ],
+      "basis_type": "場面",
+      "scene_note": "勝敗が決まった後も、パンダはメカ丸を助けようとする。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/8670610"
+      ]
+    },
+    {
+      "number": 32,
+      "target_character": "効",
+      "target_reading": "コウ",
+      "prompt": "狗巻の呪言には、花御の動きを止める〔こうか〕があった。",
+      "answer": "効果",
+      "reading_in_prompt": "こうか",
+      "answer_sentence": "狗巻の呪言には、花御の動きを止める効果があった。",
+      "characters": [
+        "狗巻棘",
+        "花御"
+      ],
+      "basis_type": "場面",
+      "scene_note": "花御との戦闘で用いる呪言。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/19.php",
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 33,
+      "target_character": "効",
+      "target_reading": "きく",
+      "prompt": "釘崎の「共鳴り」は、血でつながった壊相と血塗の両方に〔きく〕。",
+      "answer": "効く",
+      "reading_in_prompt": "きく",
+      "answer_sentence": "釘崎の「共鳴り」は、血でつながった壊相と血塗の両方に効く。",
+      "characters": [
+        "釘崎野薔薇",
+        "壊相",
+        "血塗"
+      ],
+      "basis_type": "場面",
+      "scene_note": "兄弟の血を介し、自分に釘を刺して反撃する。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/24.php"
+      ]
+    },
+    {
+      "number": 34,
+      "target_character": "条",
+      "target_reading": "ジョウ",
+      "prompt": "メカ丸は、京都校の仲間に手を出さないという〔じょうけん〕で、呪霊側と取引した。",
+      "answer": "条件",
+      "reading_in_prompt": "じょうけん",
+      "answer_sentence": "メカ丸は、京都校の仲間に手を出さないという条件で、呪霊側と取引した。",
+      "characters": [
+        "究極メカ丸"
+      ],
+      "basis_type": "場面",
+      "scene_note": "内通者としての取引には、京都校を傷つけないという縛りがある。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10003062"
+      ]
+    },
+    {
+      "number": 35,
+      "target_character": "件",
+      "target_reading": "ケン",
+      "prompt": "五条先生は、楽巌寺学長に伝えたい〔ようけん〕があって会いに行った。",
+      "answer": "用件",
+      "reading_in_prompt": "ようけん",
+      "answer_sentence": "五条先生は、楽巌寺学長に伝えたい用件があって会いに行った。",
+      "characters": [
+        "五条悟",
+        "楽巌寺嘉伸"
+      ],
+      "basis_type": "場面",
+      "scene_note": "第8話での、五条と保守派の楽巌寺の面会。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/08.php",
+        "https://www.mbs.jp/jujutsukaisen/select/"
+      ]
+    },
+    {
+      "number": 36,
+      "target_character": "保",
+      "target_reading": "ホ",
+      "prompt": "高専で〔ほかん〕していた宿儺の指と呪胎九相図が、真人に奪われた。",
+      "answer": "保管",
+      "reading_in_prompt": "ほかん",
+      "answer_sentence": "高専で保管していた宿儺の指と呪胎九相図が、真人に奪われた。",
+      "characters": [
+        "真人",
+        "両面宿儺"
+      ],
+      "basis_type": "場面",
+      "scene_note": "交流会襲撃の裏で特級呪物が持ち出される。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/21.php"
+      ]
+    },
+    {
+      "number": 37,
+      "target_character": "保",
+      "target_reading": "たもつ",
+      "prompt": "七海は、真人との戦いでも落ち着きを〔たもつ〕。",
+      "answer": "保つ",
+      "reading_in_prompt": "たもつ",
+      "answer_sentence": "七海は、真人との戦いでも落ち着きを保つ。",
+      "characters": [
+        "七海建人",
+        "真人"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "強敵と向き合う七海の冷静な態度を要約。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/10.php",
+        "https://jujutsukaisen.jp/episodes/11.php",
+        "https://www.mbs.jp/jujutsukaisen/select/"
+      ]
+    },
+    {
+      "number": 38,
+      "target_character": "評",
+      "target_reading": "ヒョウ",
+      "prompt": "冥冥は、虎杖の実力を高く〔ひょうか〕した。",
+      "answer": "評価",
+      "reading_in_prompt": "ひょうか",
+      "answer_sentence": "冥冥は、虎杖の実力を高く評価した。",
+      "characters": [
+        "虎杖悠仁",
+        "冥冥"
+      ],
+      "basis_type": "場面",
+      "scene_note": "渋谷事変で戦う虎杖を、一級相当と認める。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/8638577",
+        "https://jujutsukaisen.jp/episodes/32.php"
+      ]
+    },
+    {
+      "number": 39,
+      "target_character": "価",
+      "target_reading": "カ",
+      "prompt": "冥冥は、人とのしがらみより、お金の〔かち〕を重く見る。",
+      "answer": "価値",
+      "reading_in_prompt": "かち",
+      "answer_sentence": "冥冥は、人とのしがらみより、お金の価値を重く見る。",
+      "characters": [
+        "冥冥"
+      ],
+      "basis_type": "設定",
+      "scene_note": "金銭を基準とする人物像を言い換えた。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 40,
+      "target_character": "賛",
+      "target_reading": "サン",
+      "prompt": "虎杖の処刑に〔さんせい〕する楽巌寺学長と、虎杖を守る五条先生が対立する。",
+      "answer": "賛成",
+      "reading_in_prompt": "さんせい",
+      "answer_sentence": "虎杖の処刑に賛成する楽巌寺学長と、虎杖を守る五条先生が対立する。",
+      "characters": [
+        "虎杖悠仁",
+        "五条悟",
+        "楽巌寺嘉伸"
+      ],
+      "basis_type": "設定",
+      "scene_note": "虎杖の存在を消したい保守派と、虎杖を育てる五条の立場。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://jujutsukaisen.jp/episodes/02.php",
+        "https://jujutsukaisen.jp/episodes/08.php"
+      ]
+    },
+    {
+      "number": 41,
+      "target_character": "妻",
+      "target_reading": "サイ",
+      "prompt": "加茂は、父の〔せいさい〕の子ではなかったが、術式を受け継いで家に迎えられた。",
+      "answer": "正妻",
+      "reading_in_prompt": "せいさい",
+      "answer_sentence": "加茂は、父の正妻の子ではなかったが、術式を受け継いで家に迎えられた。",
+      "characters": [
+        "加茂憲紀"
+      ],
+      "basis_type": "場面",
+      "scene_note": "第18話の生い立ちの説明。「正室」を学習語「正妻」に言い換えた。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10001714"
+      ]
+    },
+    {
+      "number": 42,
+      "target_character": "妻",
+      "target_reading": "つま",
+      "prompt": "加茂の母は、当主の正式な〔つま〕ではなかったため、家でつらい扱いを受けた。",
+      "answer": "妻",
+      "reading_in_prompt": "つま",
+      "answer_sentence": "加茂の母は、当主の正式な妻ではなかったため、家でつらい扱いを受けた。",
+      "characters": [
+        "加茂憲紀"
+      ],
+      "basis_type": "場面",
+      "scene_note": "母が家で冷遇され、幼い加茂のもとを去る回想。",
+      "source_urls": [
+        "https://times.abema.tv/articles/-/10001714"
+      ]
+    },
+    {
+      "number": 43,
+      "target_character": "混",
+      "target_reading": "コン",
+      "prompt": "五条先生が漏瑚や花御、脹相と向き合った渋谷駅の地下は、大勢の人で〔こんざつ〕していた。",
+      "answer": "混雑",
+      "reading_in_prompt": "こんざつ",
+      "answer_sentence": "五条先生が漏瑚や花御、脹相と向き合った渋谷駅の地下は、大勢の人で混雑していた。",
+      "characters": [
+        "五条悟",
+        "漏瑚",
+        "花御",
+        "脹相"
+      ],
+      "basis_type": "場面",
+      "scene_note": "地下ホームには一般人が取り残されていた。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/32.php",
+        "https://jujutsukaisen.jp/episodes/33.php"
+      ]
+    },
+    {
+      "number": 44,
+      "target_character": "混",
+      "target_reading": "こむ",
+      "prompt": "帳の中に人々が閉じ込められ、渋谷の駅は〔こむ〕。",
+      "answer": "混む",
+      "reading_in_prompt": "こむ",
+      "answer_sentence": "帳の中に人々が閉じ込められ、渋谷の駅は混む。",
+      "characters": [],
+      "basis_type": "場面",
+      "scene_note": "閉じ込められた多数の一般人がいる渋谷。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/32.php"
+      ]
+    },
+    {
+      "number": 45,
+      "target_character": "混",
+      "target_reading": "まざる",
+      "prompt": "宿儺の指を取り込んだ虎杖の体には、宿儺の呪いが〔まざる〕ことになった。",
+      "answer": "混ざる",
+      "reading_in_prompt": "まざる",
+      "answer_sentence": "宿儺の指を取り込んだ虎杖の体には、宿儺の呪いが混ざることになった。",
+      "characters": [
+        "虎杖悠仁",
+        "両面宿儺"
+      ],
+      "basis_type": "設定",
+      "scene_note": "虎杖と宿儺が一つの体に共存する状態。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php",
+        "https://www.mbs.jp/jujutsukaisen/select/"
+      ]
+    },
+    {
+      "number": 46,
+      "target_character": "混",
+      "target_reading": "まぜる",
+      "prompt": "五条先生は、「蒼」と「赫」を〔まぜる〕ように組み合わせて「茈」を放った。",
+      "answer": "混ぜる",
+      "reading_in_prompt": "まぜる",
+      "answer_sentence": "五条先生は、「蒼」と「赫」を混ぜるように組み合わせて「茈」を放った。",
+      "characters": [
+        "五条悟"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "二つの力を重ねる場面の学習用の言い換え。液体を混ぜる行為ではない。",
+      "source_urls": [
+        "https://www.mbs.jp/jujutsukaisen/select/"
+      ]
+    },
+    {
+      "number": 47,
+      "target_character": "雑",
+      "target_reading": "ザツ",
+      "prompt": "狗巻のおにぎりの具の言葉は、仲間にとってただの〔ざつおん〕ではない。",
+      "answer": "雑音",
+      "reading_in_prompt": "ざつおん",
+      "answer_sentence": "狗巻のおにぎりの具の言葉は、仲間にとってただの雑音ではない。",
+      "characters": [
+        "狗巻棘"
+      ],
+      "basis_type": "読み取り",
+      "scene_note": "人を不用意に呪わずに会話する設定から、言葉の意味を考える。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/character/index_1st.php"
+      ]
+    },
+    {
+      "number": 48,
+      "target_character": "雑",
+      "target_reading": "ゾウ",
+      "prompt": "花御に追われた伏黒たちは、〔ぞうきばやし〕を走って帳の外を目指した。",
+      "answer": "雑木林",
+      "reading_in_prompt": "ぞうきばやし",
+      "answer_sentence": "花御に追われた伏黒たちは、雑木林を走って帳の外を目指した。",
+      "characters": [
+        "伏黒恵",
+        "花御"
+      ],
+      "basis_type": "場面",
+      "scene_note": "交流会の樹木がある会場を、花御の攻撃を避けて走る。場所の植生を厳密に分類したものではない。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/19.php"
+      ]
+    },
+    {
+      "number": 49,
+      "target_character": "略",
+      "target_reading": "リャク",
+      "prompt": "真人は、高専から宿儺の指と呪胎九相図を〔りゃくだつ〕した。",
+      "answer": "略奪",
+      "reading_in_prompt": "りゃくだつ",
+      "answer_sentence": "真人は、高専から宿儺の指と呪胎九相図を略奪した。",
+      "characters": [
+        "真人",
+        "両面宿儺"
+      ],
+      "basis_type": "場面",
+      "scene_note": "花御の襲撃と並行して進められた呪物の強奪。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/21.php"
+      ]
+    },
+    {
+      "number": 50,
+      "target_character": "採",
+      "target_reading": "サイ",
+      "prompt": "交流会の二日目には、個人戦の代わりに野球が〔さいよう〕された。",
+      "answer": "採用",
+      "reading_in_prompt": "さいよう",
+      "answer_sentence": "交流会の二日目には、個人戦の代わりに野球が採用された。",
+      "characters": [],
+      "basis_type": "場面",
+      "scene_note": "襲撃後、交流会が野球で続けられる。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/21.php"
+      ]
+    },
+    {
+      "number": 51,
+      "target_character": "採",
+      "target_reading": "とる",
+      "prompt": "東堂は、虎杖と立つ場所を入れ替えながら花御を攻める作戦を〔とる〕。",
+      "answer": "採る",
+      "reading_in_prompt": "とる",
+      "answer_sentence": "東堂は、虎杖と立つ場所を入れ替えながら花御を攻める作戦を採る。",
+      "characters": [
+        "虎杖悠仁",
+        "東堂葵",
+        "花御"
+      ],
+      "basis_type": "場面",
+      "scene_note": "術式を使って虎杖と連携する東堂。「採る」は方法を選んで用いる意味。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/20.php"
+      ]
+    },
+    {
+      "number": 52,
+      "target_character": "禁",
+      "target_reading": "キン",
+      "prompt": "交流会では、学生同士の殺し合いは〔きんし〕されている。",
+      "answer": "禁止",
+      "reading_in_prompt": "きんし",
+      "answer_sentence": "交流会では、学生同士の殺し合いは禁止されている。",
+      "characters": [],
+      "basis_type": "設定",
+      "scene_note": "交流会の規則。虎杖を狙う京都校側の動きとは区別する。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/15.php",
+        "https://comicjiten.com/kyoutoshimaikoukouryuukai/"
+      ]
+    },
+    {
+      "number": 53,
+      "target_character": "能",
+      "target_reading": "ノウ",
+      "prompt": "花御は、植物を操る〔のうりょく〕で虎杖たちを攻めた。",
+      "answer": "能力",
+      "reading_in_prompt": "のうりょく",
+      "answer_sentence": "花御は、植物を操る能力で虎杖たちを攻めた。",
+      "characters": [
+        "虎杖悠仁",
+        "花御"
+      ],
+      "basis_type": "場面",
+      "scene_note": "交流会に侵入した花御との戦い。",
+      "source_urls": [
+        "https://jujutsukaisen.jp/episodes/19.php",
+        "https://jujutsukaisen.jp/episodes/20.php"
+      ]
+    }
+  ],
+  "cast_count": 30,
+  "cast": [
+    {
+      "name": "虎杖悠仁",
+      "reading": "いたどり ゆうじ",
+      "name_in_questions": "虎杖",
+      "question_numbers": [
+        1,
+        8,
+        9,
+        17,
+        22,
+        25,
+        26,
+        38,
+        40,
+        45,
+        51,
+        53
+      ]
+    },
+    {
+      "name": "伏黒恵",
+      "reading": "ふしぐろ めぐみ",
+      "name_in_questions": "伏黒",
+      "question_numbers": [
+        48
+      ]
+    },
+    {
+      "name": "釘崎野薔薇",
+      "reading": "くぎさき のばら",
+      "name_in_questions": "釘崎",
+      "question_numbers": [
+        15,
+        20,
+        33
+      ]
+    },
+    {
+      "name": "禪院真希",
+      "reading": "ぜんいん まき",
+      "name_in_questions": "真希",
+      "question_numbers": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "狗巻棘",
+      "reading": "いぬまき とげ",
+      "name_in_questions": "狗巻",
+      "question_numbers": [
+        12,
+        32,
+        47
+      ]
+    },
+    {
+      "name": "パンダ",
+      "reading": "ぱんだ",
+      "name_in_questions": "パンダ",
+      "question_numbers": [
+        13,
+        31
+      ]
+    },
+    {
+      "name": "五条悟",
+      "reading": "ごじょう さとる",
+      "name_in_questions": "五条先生",
+      "question_numbers": [
+        7,
+        9,
+        19,
+        22,
+        26,
+        27,
+        28,
+        29,
+        30,
+        35,
+        40,
+        43,
+        46
+      ]
+    },
+    {
+      "name": "夜蛾正道",
+      "reading": "やが まさみち",
+      "name_in_questions": "夜蛾学長",
+      "question_numbers": [
+        13
+      ]
+    },
+    {
+      "name": "七海建人",
+      "reading": "ななみ けんと",
+      "name_in_questions": "七海",
+      "question_numbers": [
+        17,
+        24,
+        37
+      ]
+    },
+    {
+      "name": "伊地知潔高",
+      "reading": "いじち きよたか",
+      "name_in_questions": "伊地知",
+      "question_numbers": [
+        8
+      ]
+    },
+    {
+      "name": "家入硝子",
+      "reading": "いえいり しょうこ",
+      "name_in_questions": "家入",
+      "question_numbers": [
+        23
+      ]
+    },
+    {
+      "name": "冥冥",
+      "reading": "めいめい",
+      "name_in_questions": "冥冥",
+      "question_numbers": [
+        21,
+        38,
+        39
+      ]
+    },
+    {
+      "name": "禪院直毘人",
+      "reading": "ぜんいん なおびと",
+      "name_in_questions": "直毘人",
+      "question_numbers": [
+        16
+      ]
+    },
+    {
+      "name": "東堂葵",
+      "reading": "とうどう あおい",
+      "name_in_questions": "東堂",
+      "question_numbers": [
+        51
+      ]
+    },
+    {
+      "name": "加茂憲紀",
+      "reading": "かも のりとし",
+      "name_in_questions": "加茂",
+      "question_numbers": [
+        41,
+        42
+      ]
+    },
+    {
+      "name": "西宮桃",
+      "reading": "にしみや もも",
+      "name_in_questions": "西宮",
+      "question_numbers": [
+        20
+      ]
+    },
+    {
+      "name": "禪院真依",
+      "reading": "ぜんいん まい",
+      "name_in_questions": "真依",
+      "question_numbers": [
+        3,
+        14,
+        20
+      ]
+    },
+    {
+      "name": "三輪霞",
+      "reading": "みわ かすみ",
+      "name_in_questions": "三輪",
+      "question_numbers": [
+        4,
+        7
+      ]
+    },
+    {
+      "name": "究極メカ丸",
+      "reading": "あるてぃめっと めかまる",
+      "name_in_questions": "メカ丸",
+      "question_numbers": [
+        2,
+        18,
+        31,
+        34
+      ]
+    },
+    {
+      "name": "庵歌姫",
+      "reading": "いおり うたひめ",
+      "name_in_questions": "歌姫",
+      "question_numbers": [
+        21
+      ]
+    },
+    {
+      "name": "楽巌寺嘉伸",
+      "reading": "がくがんじ よしのぶ",
+      "name_in_questions": "楽巌寺学長",
+      "question_numbers": [
+        5,
+        35,
+        40
+      ]
+    },
+    {
+      "name": "夏油傑",
+      "reading": "げとう すぐる",
+      "name_in_questions": "夏油",
+      "question_numbers": [
+        19
+      ]
+    },
+    {
+      "name": "漏瑚",
+      "reading": "じょうご",
+      "name_in_questions": "漏瑚",
+      "question_numbers": [
+        10,
+        26,
+        27,
+        43
+      ]
+    },
+    {
+      "name": "花御",
+      "reading": "はなみ",
+      "name_in_questions": "花御",
+      "question_numbers": [
+        12,
+        32,
+        43,
+        48,
+        51,
+        53
+      ]
+    },
+    {
+      "name": "吉野順平",
+      "reading": "よしの じゅんぺい",
+      "name_in_questions": "順平",
+      "question_numbers": [
+        1,
+        8,
+        25
+      ]
+    },
+    {
+      "name": "真人",
+      "reading": "まひと",
+      "name_in_questions": "真人",
+      "question_numbers": [
+        6,
+        18,
+        36,
+        37,
+        49
+      ]
+    },
+    {
+      "name": "脹相",
+      "reading": "ちょうそう",
+      "name_in_questions": "脹相",
+      "question_numbers": [
+        43
+      ]
+    },
+    {
+      "name": "壊相",
+      "reading": "えそう",
+      "name_in_questions": "壊相",
+      "question_numbers": [
+        33
+      ]
+    },
+    {
+      "name": "血塗",
+      "reading": "けちず",
+      "name_in_questions": "血塗",
+      "question_numbers": [
+        33
+      ]
+    },
+    {
+      "name": "両面宿儺",
+      "reading": "りょうめん すくな",
+      "name_in_questions": "宿儺",
+      "question_numbers": [
+        36,
+        45,
+        49
+      ]
+    }
+  ],
+  "revision": "実際の場面・設定に基づく30人版",
+  "source_guide": "呪術廻戦_場面と出典.md",
+  "answer_policy": "問題番号・対象漢字32文字・辞書形の読み53通りを維持。文脈に合わせて一部の解答語を変更。",
+  "reference_urls": [
+    "https://jujutsukaisen.jp/character/index_1st.php",
+    "https://jujutsukaisen.jp/episodes/12.php",
+    "https://jujutsukaisen.jp/episodes/31.php",
+    "https://times.abema.tv/articles/-/10003062",
+    "https://jujutsukaisen.jp/episodes/17.php",
+    "https://times.abema.tv/articles/-/10022703",
+    "https://jujutsukaisen.jp/episodes/10.php",
+    "https://www.mbs.jp/jujutsukaisen/select/",
+    "https://times.abema.tv/articles/-/8642173",
+    "https://jujutsukaisen.jp/episodes/02.php",
+    "https://jujutsukaisen.jp/episodes/32.php",
+    "https://jujutsukaisen.jp/episodes/19.php",
+    "https://jujutsukaisen.jp/episodes/03.php",
+    "https://jujutsukaisen.jp/episodes/38.php",
+    "https://times.abema.tv/articles/-/10005007",
+    "https://jujutsukaisen.jp/episodes/29.php",
+    "https://jujutsukaisen.jp/episodes/25.php",
+    "https://times.abema.tv/articles/-/10100528?page=1",
+    "https://jujutsukaisen.jp/episodes/11.php",
+    "https://jujutsukaisen.jp/episodes/07.php",
+    "https://jujutsukaisen.jp/episodes/33.php",
+    "https://times.abema.tv/articles/-/10089304?page=1",
+    "https://www.yutenji.or.jp/info/page-22650/page-22796/",
+    "https://times.abema.tv/articles/-/8670610",
+    "https://jujutsukaisen.jp/episodes/24.php",
+    "https://jujutsukaisen.jp/episodes/08.php",
+    "https://jujutsukaisen.jp/episodes/21.php",
+    "https://times.abema.tv/articles/-/8638577",
+    "https://times.abema.tv/articles/-/10001714",
+    "https://jujutsukaisen.jp/episodes/20.php",
+    "https://jujutsukaisen.jp/episodes/15.php",
+    "https://comicjiten.com/kyoutoshimaikoukouryuukai/"
+  ]
+}

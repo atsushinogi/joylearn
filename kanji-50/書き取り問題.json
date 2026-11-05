@@ -1,0 +1,2709 @@
+{
+  "metadata": {
+    "source_directory": "kanji-50",
+    "source_image_count": 16,
+    "writing_question_count": 80,
+    "correction_question_count": 3,
+    "total_question_count": 83,
+    "practice_character_count": 32,
+    "numbering": "worksheet_number は画像内の大きな番号。question_number は原画像の設問番号。",
+    "transcription": "縦書きを横書きにし、改行とルビを除去。問題文のひらがな・カタカナ・漢字は原文を維持。書き取り対象を〔〕で明示。隣接する同種の下線は語単位にまとめる場合がある。",
+    "answers": "解答は対応する「読む」の画像および文脈から作成。公式解答ページは画像に含まれていない。",
+    "offsets": "targets の start/end は prompt に対する 0 始まり・終端を含まない Unicode 文字位置。",
+    "scope": "「書く」80問と「まちがえやすい漢字」3問を抽出。「新しい漢字」のなぞり書き32字は別項目に収録。「読む」の設問は書き取り問題には数えない。"
+  },
+  "questions": [
+    {
+      "id": "kanji50-08-01",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 1,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "くりかえしのひょうげん。",
+      "prompt_marked": "くり〔かえし〕の〔ひょうげん〕。",
+      "targets": [
+        {
+          "reading": "かえし",
+          "answer": "返し",
+          "underline": "波線",
+          "start": 2,
+          "end": 5,
+          "include_okurigana": true
+        },
+        {
+          "reading": "ひょうげん",
+          "answer": "表現",
+          "underline": "直線",
+          "start": 6,
+          "end": 11,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "くり返しの表現。"
+    },
+    {
+      "id": "kanji50-08-02",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 2,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "しつぎおうとうをする。",
+      "prompt_marked": "〔しつ〕ぎ〔おうとう〕をする。",
+      "targets": [
+        {
+          "reading": "しつ",
+          "answer": "質",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "おうとう",
+          "answer": "応答",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "質ぎ応答をする。"
+    },
+    {
+      "id": "kanji50-08-03",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 3,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "せっとくりょくのあるせつめい。",
+      "prompt_marked": "〔せっとくりょく〕のある〔せつめい〕。",
+      "targets": [
+        {
+          "reading": "せっとくりょく",
+          "answer": "説得力",
+          "underline": "直線",
+          "start": 0,
+          "end": 7,
+          "include_okurigana": false
+        },
+        {
+          "reading": "せつめい",
+          "answer": "説明",
+          "underline": "直線",
+          "start": 10,
+          "end": 14,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "説得力のある説明。"
+    },
+    {
+      "id": "kanji50-08-04",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 4,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "はんていにしたがう。",
+      "prompt_marked": "〔はんてい〕にしたがう。",
+      "targets": [
+        {
+          "reading": "はんてい",
+          "answer": "判定",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "判定にしたがう。"
+    },
+    {
+      "id": "kanji50-08-05",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 5,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "ちがいをめいかくにする。",
+      "prompt_marked": "ちがいを〔めいかく〕にする。",
+      "targets": [
+        {
+          "reading": "めいかく",
+          "answer": "明確",
+          "underline": "直線",
+          "start": 4,
+          "end": 8,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "ちがいを明確にする。"
+    },
+    {
+      "id": "kanji50-08-06",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 6,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "かんがえをくらべる。",
+      "prompt_marked": "〔かんがえ〕を〔くらべる〕。",
+      "targets": [
+        {
+          "reading": "かんがえ",
+          "answer": "考え",
+          "underline": "波線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": true
+        },
+        {
+          "reading": "くらべる",
+          "answer": "比べる",
+          "underline": "波線",
+          "start": 5,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "考えを比べる。"
+    },
+    {
+      "id": "kanji50-08-07",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 7,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "せいじのニュース。",
+      "prompt_marked": "〔せいじ〕のニュース。",
+      "targets": [
+        {
+          "reading": "せいじ",
+          "answer": "政治",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "政治のニュース。"
+    },
+    {
+      "id": "kanji50-08-08",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 8,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "きょうみがひろがる。",
+      "prompt_marked": "〔きょうみ〕が〔ひろがる〕。",
+      "targets": [
+        {
+          "reading": "きょうみ",
+          "answer": "興味",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ひろがる",
+          "answer": "広がる",
+          "underline": "波線",
+          "start": 5,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "興味が広がる。"
+    },
+    {
+      "id": "kanji50-08-09",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 9,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "ほうどうきじをよむ。",
+      "prompt_marked": "〔ほうどう〕〔きじ〕を〔よむ〕。",
+      "targets": [
+        {
+          "reading": "ほうどう",
+          "answer": "報道",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "きじ",
+          "answer": "記事",
+          "underline": "直線",
+          "start": 4,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "よむ",
+          "answer": "読む",
+          "underline": "波線",
+          "start": 7,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "報道記事を読む。"
+    },
+    {
+      "id": "kanji50-08-10",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 1,
+      "question_number": 10,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "しゃせつやかいせつ。",
+      "prompt_marked": "〔しゃせつ〕や〔かいせつ〕。",
+      "targets": [
+        {
+          "reading": "しゃせつ",
+          "answer": "社説",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "かいせつ",
+          "answer": "解説",
+          "underline": "直線",
+          "start": 5,
+          "end": 9,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "社説や解説。"
+    },
+    {
+      "id": "kanji50-08-11",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 11,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "じゅうようなことをしめす。",
+      "prompt_marked": "〔じゅうよう〕なことを〔しめす〕。",
+      "targets": [
+        {
+          "reading": "じゅうよう",
+          "answer": "重要",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "しめす",
+          "answer": "示す",
+          "underline": "波線",
+          "start": 9,
+          "end": 12,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "重要なことを示す。"
+    },
+    {
+      "id": "kanji50-08-12",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 12,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "じぶんのしゅちょう。",
+      "prompt_marked": "〔じぶん〕の〔しゅちょう〕。",
+      "targets": [
+        {
+          "reading": "じぶん",
+          "answer": "自分",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "しゅちょう",
+          "answer": "主張",
+          "underline": "直線",
+          "start": 4,
+          "end": 9,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "自分の主張。"
+    },
+    {
+      "id": "kanji50-08-13",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 13,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "やねをささえるはしら。",
+      "prompt_marked": "〔やね〕を〔ささえる〕〔はしら〕。",
+      "targets": [
+        {
+          "reading": "やね",
+          "answer": "屋根",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ささえる",
+          "answer": "支える",
+          "underline": "波線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": true
+        },
+        {
+          "reading": "はしら",
+          "answer": "柱",
+          "underline": "直線",
+          "start": 7,
+          "end": 10,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "屋根を支える柱。"
+    },
+    {
+      "id": "kanji50-08-14",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 14,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "こじんのいけんをきく。",
+      "prompt_marked": "〔こじん〕の〔いけん〕を〔きく〕。",
+      "targets": [
+        {
+          "reading": "こじん",
+          "answer": "個人",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "いけん",
+          "answer": "意見",
+          "underline": "直線",
+          "start": 4,
+          "end": 7,
+          "include_okurigana": false
+        },
+        {
+          "reading": "きく",
+          "answer": "聞く",
+          "underline": "波線",
+          "start": 8,
+          "end": 10,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "個人の意見を聞く。"
+    },
+    {
+      "id": "kanji50-08-15",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 15,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "きょうりょくをえる。",
+      "prompt_marked": "〔きょうりょく〕を〔える〕。",
+      "targets": [
+        {
+          "reading": "きょうりょく",
+          "answer": "協力",
+          "underline": "直線",
+          "start": 0,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "える",
+          "answer": "得る",
+          "underline": "波線",
+          "start": 7,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "協力を得る。"
+    },
+    {
+      "id": "kanji50-08-16",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 16,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "はなのかたちをたいひする。",
+      "prompt_marked": "〔はな〕の〔かたち〕を〔たいひ〕する。",
+      "targets": [
+        {
+          "reading": "はな",
+          "answer": "花",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "かたち",
+          "answer": "形",
+          "underline": "直線",
+          "start": 3,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "たいひ",
+          "answer": "対比",
+          "underline": "直線",
+          "start": 7,
+          "end": 10,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "花の形を対比する。"
+    },
+    {
+      "id": "kanji50-08-17",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 17,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "むらをふっこうする。",
+      "prompt_marked": "〔むら〕を〔ふっこう〕する。",
+      "targets": [
+        {
+          "reading": "むら",
+          "answer": "村",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ふっこう",
+          "answer": "復興",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "村を復興する。"
+    },
+    {
+      "id": "kanji50-08-18",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 18,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "しじをだす。",
+      "prompt_marked": "〔しじ〕を〔だす〕。",
+      "targets": [
+        {
+          "reading": "しじ",
+          "answer": "指示",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "だす",
+          "answer": "出す",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "指示を出す。"
+    },
+    {
+      "id": "kanji50-08-19",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 19,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "いじをはる。",
+      "prompt_marked": "〔いじ〕を〔はる〕。",
+      "targets": [
+        {
+          "reading": "いじ",
+          "answer": "意地",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "はる",
+          "answer": "張る",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "意地を張る。"
+    },
+    {
+      "id": "kanji50-08-20",
+      "type": "書き取り",
+      "source_image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "drill": 2,
+      "question_number": 20,
+      "title": "かぼちゃのつるが／われは草なり～文章にせっとくりょくをもたせるには",
+      "prompt": "してんをひらく。",
+      "prompt_marked": "〔してん〕を〔ひらく〕。",
+      "targets": [
+        {
+          "reading": "してん",
+          "answer": "支店",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ひらく",
+          "answer": "開く",
+          "underline": "波線",
+          "start": 4,
+          "end": 7,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "支店を開く。"
+    },
+    {
+      "id": "kanji50-14-01",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 1,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "えきのこうないをとおる。",
+      "prompt_marked": "〔えき〕の〔こうない〕を〔とおる〕。",
+      "targets": [
+        {
+          "reading": "えき",
+          "answer": "駅",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "こうない",
+          "answer": "構内",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        },
+        {
+          "reading": "とおる",
+          "answer": "通る",
+          "underline": "波線",
+          "start": 8,
+          "end": 11,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "駅の構内を通る。"
+    },
+    {
+      "id": "kanji50-14-02",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 2,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "かえりみちでまよう。",
+      "prompt_marked": "〔かえり〕〔みち〕で〔まよう〕。",
+      "targets": [
+        {
+          "reading": "かえり",
+          "answer": "帰り",
+          "underline": "波線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": true
+        },
+        {
+          "reading": "みち",
+          "answer": "道",
+          "underline": "直線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "まよう",
+          "answer": "迷う",
+          "underline": "波線",
+          "start": 6,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "帰り道で迷う。"
+    },
+    {
+      "id": "kanji50-14-03",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 3,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "ふしぎなゆめをみる。",
+      "prompt_marked": "〔ふしぎ〕な〔ゆめ〕を〔みる〕。",
+      "targets": [
+        {
+          "reading": "ふしぎ",
+          "answer": "不思議",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ゆめ",
+          "answer": "夢",
+          "underline": "直線",
+          "start": 4,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "みる",
+          "answer": "見る",
+          "underline": "波線",
+          "start": 7,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "不思議な夢を見る。"
+    },
+    {
+      "id": "kanji50-14-04",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 4,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "けんちょうしょざいちにすむ。",
+      "prompt_marked": "〔けん〕ちょう〔しょざいち〕に〔すむ〕。",
+      "targets": [
+        {
+          "reading": "けん",
+          "answer": "県",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "しょざいち",
+          "answer": "所在地",
+          "underline": "直線",
+          "start": 5,
+          "end": 10,
+          "include_okurigana": false
+        },
+        {
+          "reading": "すむ",
+          "answer": "住む",
+          "underline": "波線",
+          "start": 11,
+          "end": 13,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "県ちょう所在地に住む。"
+    },
+    {
+      "id": "kanji50-14-05",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 5,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "ひとりごとをつぶやく。",
+      "prompt_marked": "〔ひとり〕〔ごと〕をつぶやく。",
+      "targets": [
+        {
+          "reading": "ひとり",
+          "answer": "独り",
+          "underline": "波線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": true
+        },
+        {
+          "reading": "ごと",
+          "answer": "言",
+          "underline": "直線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "独り言をつぶやく。"
+    },
+    {
+      "id": "kanji50-14-06",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 6,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "べんとうばこをあける。",
+      "prompt_marked": "〔べんとうばこ〕を〔あける〕。",
+      "targets": [
+        {
+          "reading": "べんとうばこ",
+          "answer": "弁当箱",
+          "underline": "直線",
+          "start": 0,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "あける",
+          "answer": "開ける",
+          "underline": "波線",
+          "start": 7,
+          "end": 10,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "弁当箱を開ける。"
+    },
+    {
+      "id": "kanji50-14-07",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 7,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "じんめいをけんさくする。",
+      "prompt_marked": "〔じんめい〕を〔けん〕さくする。",
+      "targets": [
+        {
+          "reading": "じんめい",
+          "answer": "人名",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "けん",
+          "answer": "検",
+          "underline": "直線",
+          "start": 5,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "人名を検さくする。"
+    },
+    {
+      "id": "kanji50-14-08",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 8,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "まじめなかおをする。",
+      "prompt_marked": "〔まじめ〕な〔かお〕をする。",
+      "targets": [
+        {
+          "reading": "まじめ",
+          "answer": "真面目",
+          "underline": "点線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "かお",
+          "answer": "顔",
+          "underline": "直線",
+          "start": 4,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "真面目な顔をする。"
+    },
+    {
+      "id": "kanji50-14-09",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 9,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "がぞうのていきょう。",
+      "prompt_marked": "〔がぞう〕の〔てい〕きょう。",
+      "targets": [
+        {
+          "reading": "がぞう",
+          "answer": "画像",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "てい",
+          "answer": "提",
+          "underline": "直線",
+          "start": 4,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "画像の提きょう。"
+    },
+    {
+      "id": "kanji50-14-10",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 1,
+      "question_number": 10,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "そばによる。",
+      "prompt_marked": "そばに〔よる〕。",
+      "targets": [
+        {
+          "reading": "よる",
+          "answer": "寄る",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "そばに寄る。"
+    },
+    {
+      "id": "kanji50-14-11",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 11,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "ひゃくにんあまりのしみん。",
+      "prompt_marked": "〔ひゃくにん〕〔あまり〕の〔しみん〕。",
+      "targets": [
+        {
+          "reading": "ひゃくにん",
+          "answer": "百人",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "あまり",
+          "answer": "余り",
+          "underline": "波線",
+          "start": 5,
+          "end": 8,
+          "include_okurigana": true
+        },
+        {
+          "reading": "しみん",
+          "answer": "市民",
+          "underline": "直線",
+          "start": 9,
+          "end": 12,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "百人余りの市民。"
+    },
+    {
+      "id": "kanji50-14-12",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 12,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "ほとけのようなひと。",
+      "prompt_marked": "〔ほとけ〕のような〔ひと〕。",
+      "targets": [
+        {
+          "reading": "ほとけ",
+          "answer": "仏",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ひと",
+          "answer": "人",
+          "underline": "直線",
+          "start": 7,
+          "end": 9,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "仏のような人。"
+    },
+    {
+      "id": "kanji50-14-13",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 13,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "かさをかす。",
+      "prompt_marked": "かさを〔かす〕。",
+      "targets": [
+        {
+          "reading": "かす",
+          "answer": "貸す",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "かさを貸す。"
+    },
+    {
+      "id": "kanji50-14-14",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 14,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "ほうげんのこうか。",
+      "prompt_marked": "〔ほうげん〕の〔こうか〕。",
+      "targets": [
+        {
+          "reading": "ほうげん",
+          "answer": "方言",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "こうか",
+          "answer": "効果",
+          "underline": "直線",
+          "start": 5,
+          "end": 8,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "方言の効果。"
+    },
+    {
+      "id": "kanji50-14-15",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 15,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "くにのありかた。",
+      "prompt_marked": "〔くに〕の〔あり〕〔かた〕。",
+      "targets": [
+        {
+          "reading": "くに",
+          "answer": "国",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "あり",
+          "answer": "在り",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        },
+        {
+          "reading": "かた",
+          "answer": "方",
+          "underline": "直線",
+          "start": 5,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "国の在り方。"
+    },
+    {
+      "id": "kanji50-14-16",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 16,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "どくじのかんがえがある。",
+      "prompt_marked": "〔どくじ〕の〔かんがえ〕がある。",
+      "targets": [
+        {
+          "reading": "どくじ",
+          "answer": "独自",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "かんがえ",
+          "answer": "考え",
+          "underline": "波線",
+          "start": 4,
+          "end": 8,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "独自の考えがある。"
+    },
+    {
+      "id": "kanji50-14-17",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 17,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "おかねをきふする。",
+      "prompt_marked": "お〔かね〕を〔きふ〕する。",
+      "targets": [
+        {
+          "reading": "かね",
+          "answer": "金",
+          "underline": "直線",
+          "start": 1,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "きふ",
+          "answer": "寄付",
+          "underline": "直線",
+          "start": 4,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "お金を寄付する。"
+    },
+    {
+      "id": "kanji50-14-18",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 18,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "よけいなうごき。",
+      "prompt_marked": "〔よけい〕な〔うごき〕。",
+      "targets": [
+        {
+          "reading": "よけい",
+          "answer": "余計",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "うごき",
+          "answer": "動き",
+          "underline": "波線",
+          "start": 4,
+          "end": 7,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "余計な動き。"
+    },
+    {
+      "id": "kanji50-14-19",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 19,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "ねんぶつをとなえる。",
+      "prompt_marked": "〔ねんぶつ〕を〔となえる〕。",
+      "targets": [
+        {
+          "reading": "ねんぶつ",
+          "answer": "念仏",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "となえる",
+          "answer": "唱える",
+          "underline": "波線",
+          "start": 5,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "念仏を唱える。"
+    },
+    {
+      "id": "kanji50-14-20",
+      "type": "書き取り",
+      "source_image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "drill": 2,
+      "question_number": 20,
+      "title": "たずねびと～ほうげんときょうつう語",
+      "prompt": "よくきくくすり。",
+      "prompt_marked": "よく〔きく〕くすり。",
+      "targets": [
+        {
+          "reading": "きく",
+          "answer": "効く",
+          "underline": "波線",
+          "start": 2,
+          "end": 4,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "よく効くくすり。"
+    },
+    {
+      "id": "kanji50-20-01",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 1,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "はいくをよむ。",
+      "prompt_marked": "はい〔く〕をよむ。",
+      "targets": [
+        {
+          "reading": "く",
+          "answer": "句",
+          "underline": "直線",
+          "start": 2,
+          "end": 3,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "はい句をよむ。"
+    },
+    {
+      "id": "kanji50-20-02",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 2,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "じょうけんをきめる。",
+      "prompt_marked": "〔じょうけん〕を〔きめる〕。",
+      "targets": [
+        {
+          "reading": "じょうけん",
+          "answer": "条件",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "きめる",
+          "answer": "決める",
+          "underline": "波線",
+          "start": 6,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "条件を決める。"
+    },
+    {
+      "id": "kanji50-20-03",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 3,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "かいけつしたいかだい。",
+      "prompt_marked": "〔かいけつ〕したい〔かだい〕。",
+      "targets": [
+        {
+          "reading": "かいけつ",
+          "answer": "解決",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "かだい",
+          "answer": "課題",
+          "underline": "直線",
+          "start": 7,
+          "end": 10,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "解決したい課題。"
+    },
+    {
+      "id": "kanji50-20-04",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 4,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "きょうしつをきれいにたもつ。",
+      "prompt_marked": "〔きょうしつ〕をきれいに〔たもつ〕。",
+      "targets": [
+        {
+          "reading": "きょうしつ",
+          "answer": "教室",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "たもつ",
+          "answer": "保つ",
+          "underline": "波線",
+          "start": 10,
+          "end": 13,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "教室をきれいに保つ。"
+    },
+    {
+      "id": "kanji50-20-05",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 5,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "ひょうかがわかれる。",
+      "prompt_marked": "〔ひょうか〕が〔わかれる〕。",
+      "targets": [
+        {
+          "reading": "ひょうか",
+          "answer": "評価",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "わかれる",
+          "answer": "分かれる",
+          "underline": "波線",
+          "start": 5,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "評価が分かれる。"
+    },
+    {
+      "id": "kanji50-20-06",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 6,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "ともだちのいけんにさんせいする。",
+      "prompt_marked": "〔ともだち〕の〔いけん〕に〔さんせい〕する。",
+      "targets": [
+        {
+          "reading": "ともだち",
+          "answer": "友達",
+          "underline": "点線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        },
+        {
+          "reading": "いけん",
+          "answer": "意見",
+          "underline": "直線",
+          "start": 5,
+          "end": 8,
+          "include_okurigana": false
+        },
+        {
+          "reading": "さんせい",
+          "answer": "賛成",
+          "underline": "直線",
+          "start": 9,
+          "end": 13,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "友達の意見に賛成する。"
+    },
+    {
+      "id": "kanji50-20-07",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 7,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "つまとかいものをする。",
+      "prompt_marked": "〔つま〕と〔かい〕〔もの〕をする。",
+      "targets": [
+        {
+          "reading": "つま",
+          "answer": "妻",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "かい",
+          "answer": "買い",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        },
+        {
+          "reading": "もの",
+          "answer": "物",
+          "underline": "直線",
+          "start": 5,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "妻と買い物をする。"
+    },
+    {
+      "id": "kanji50-20-08",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 8,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "どうろがこみあう。",
+      "prompt_marked": "〔どうろ〕が〔こみあう〕。",
+      "targets": [
+        {
+          "reading": "どうろ",
+          "answer": "道路",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "こみあう",
+          "answer": "混み合う",
+          "underline": "波線",
+          "start": 4,
+          "end": 8,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "道路が混み合う。"
+    },
+    {
+      "id": "kanji50-20-09",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 9,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "えきがこんざつする。",
+      "prompt_marked": "〔えき〕が〔こんざつ〕する。",
+      "targets": [
+        {
+          "reading": "えき",
+          "answer": "駅",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "こんざつ",
+          "answer": "混雑",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "駅が混雑する。"
+    },
+    {
+      "id": "kanji50-20-10",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 1,
+      "question_number": 10,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "しょうりゃくしてはなす。",
+      "prompt_marked": "〔しょうりゃく〕して〔はなす〕。",
+      "targets": [
+        {
+          "reading": "しょうりゃく",
+          "answer": "省略",
+          "underline": "直線",
+          "start": 0,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "はなす",
+          "answer": "話す",
+          "underline": "波線",
+          "start": 8,
+          "end": 11,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "省略して話す。"
+    },
+    {
+      "id": "kanji50-20-11",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 11,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "しょくぶつをさいしゅうする。",
+      "prompt_marked": "〔しょくぶつ〕を〔さいしゅう〕する。",
+      "targets": [
+        {
+          "reading": "しょくぶつ",
+          "answer": "植物",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "さいしゅう",
+          "answer": "採集",
+          "underline": "直線",
+          "start": 6,
+          "end": 11,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "植物を採集する。"
+    },
+    {
+      "id": "kanji50-20-12",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 12,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "なまざかなをたべる。",
+      "prompt_marked": "〔なまざかな〕を〔たべる〕。",
+      "targets": [
+        {
+          "reading": "なまざかな",
+          "answer": "生魚",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "たべる",
+          "answer": "食べる",
+          "underline": "波線",
+          "start": 6,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "生魚を食べる。"
+    },
+    {
+      "id": "kanji50-20-13",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 13,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "たちいりきんしにする。",
+      "prompt_marked": "〔たちいり〕〔きんし〕にする。",
+      "targets": [
+        {
+          "reading": "たちいり",
+          "answer": "立ち入り",
+          "underline": "波線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": true
+        },
+        {
+          "reading": "きんし",
+          "answer": "禁止",
+          "underline": "直線",
+          "start": 4,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "立ち入り禁止にする。"
+    },
+    {
+      "id": "kanji50-20-14",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 14,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "しょうじょがあそぶ。",
+      "prompt_marked": "〔しょうじょ〕が〔あそぶ〕。",
+      "targets": [
+        {
+          "reading": "しょうじょ",
+          "answer": "少女",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "あそぶ",
+          "answer": "遊ぶ",
+          "underline": "波線",
+          "start": 6,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "少女が遊ぶ。"
+    },
+    {
+      "id": "kanji50-20-15",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 15,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "かのうせいがたかい。",
+      "prompt_marked": "〔かのうせい〕が〔たかい〕。",
+      "targets": [
+        {
+          "reading": "かのうせい",
+          "answer": "可能性",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        },
+        {
+          "reading": "たかい",
+          "answer": "高い",
+          "underline": "波線",
+          "start": 6,
+          "end": 9,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "可能性が高い。"
+    },
+    {
+      "id": "kanji50-20-16",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 16,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "きんこにほかんする。",
+      "prompt_marked": "〔きんこ〕に〔ほかん〕する。",
+      "targets": [
+        {
+          "reading": "きんこ",
+          "answer": "金庫",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ほかん",
+          "answer": "保管",
+          "underline": "直線",
+          "start": 4,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "金庫に保管する。"
+    },
+    {
+      "id": "kanji50-20-17",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 17,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "なかのよいふさい。",
+      "prompt_marked": "〔なか〕のよい〔ふさい〕。",
+      "targets": [
+        {
+          "reading": "なか",
+          "answer": "仲",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "ふさい",
+          "answer": "夫妻",
+          "underline": "直線",
+          "start": 5,
+          "end": 8,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "仲のよい夫妻。"
+    },
+    {
+      "id": "kanji50-20-18",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 18,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "いろがまざる。",
+      "prompt_marked": "〔いろ〕が〔まざる〕。",
+      "targets": [
+        {
+          "reading": "いろ",
+          "answer": "色",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "まざる",
+          "answer": "混ざる",
+          "underline": "波線",
+          "start": 3,
+          "end": 6,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "色が混ざる。"
+    },
+    {
+      "id": "kanji50-20-19",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 19,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "ぞうきばやしをあるく。",
+      "prompt_marked": "〔ぞうきばやし〕を〔あるく〕。",
+      "targets": [
+        {
+          "reading": "ぞうきばやし",
+          "answer": "雑木林",
+          "underline": "直線",
+          "start": 0,
+          "end": 6,
+          "include_okurigana": false
+        },
+        {
+          "reading": "あるく",
+          "answer": "歩く",
+          "underline": "波線",
+          "start": 7,
+          "end": 10,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "雑木林を歩く。"
+    },
+    {
+      "id": "kanji50-20-20",
+      "type": "書き取り",
+      "source_image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "drill": 2,
+      "question_number": 20,
+      "title": "季節の言葉３ 秋／よりよい学校せいかつのために～和語・漢語・外来語",
+      "prompt": "けつをとる。",
+      "prompt_marked": "〔けつ〕を〔とる〕。",
+      "targets": [
+        {
+          "reading": "けつ",
+          "answer": "決",
+          "underline": "直線",
+          "start": 0,
+          "end": 2,
+          "include_okurigana": false
+        },
+        {
+          "reading": "とる",
+          "answer": "採る",
+          "underline": "波線",
+          "start": 3,
+          "end": 5,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "決を採る。"
+    },
+    {
+      "id": "kanji50-22-01",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 1,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "油絵のこころえがある。",
+      "prompt_marked": "油絵の〔こころえ〕がある。",
+      "targets": [
+        {
+          "reading": "こころえ",
+          "answer": "心得",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "油絵の心得がある。"
+    },
+    {
+      "id": "kanji50-22-02",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 2,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "重さにひれいする。",
+      "prompt_marked": "重さに〔ひれい〕する。",
+      "targets": [
+        {
+          "reading": "ひれい",
+          "answer": "比例",
+          "underline": "直線",
+          "start": 3,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "重さに比例する。"
+    },
+    {
+      "id": "kanji50-22-03",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 3,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "番号をひょうじする。",
+      "prompt_marked": "番号を〔ひょうじ〕する。",
+      "targets": [
+        {
+          "reading": "ひょうじ",
+          "answer": "表示",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "番号を表示する。"
+    },
+    {
+      "id": "kanji50-22-04",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 4,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "しゅっちょうから帰る。",
+      "prompt_marked": "〔しゅっちょう〕から帰る。",
+      "targets": [
+        {
+          "reading": "しゅっちょう",
+          "answer": "出張",
+          "underline": "直線",
+          "start": 0,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "出張から帰る。"
+    },
+    {
+      "id": "kanji50-22-05",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 5,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "こしつを予約する。",
+      "prompt_marked": "〔こしつ〕を予約する。",
+      "targets": [
+        {
+          "reading": "こしつ",
+          "answer": "個室",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "個室を予約する。"
+    },
+    {
+      "id": "kanji50-22-06",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 6,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "国がどくりつする。",
+      "prompt_marked": "国が〔どくりつ〕する。",
+      "targets": [
+        {
+          "reading": "どくりつ",
+          "answer": "独立",
+          "underline": "直線",
+          "start": 2,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "国が独立する。"
+    },
+    {
+      "id": "kanji50-22-07",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 7,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "議会でとうべんする。",
+      "prompt_marked": "議会で〔とうべん〕する。",
+      "targets": [
+        {
+          "reading": "とうべん",
+          "answer": "答弁",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "議会で答弁する。"
+    },
+    {
+      "id": "kanji50-22-08",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 8,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "荷物をてんけんする。",
+      "prompt_marked": "荷物を〔てんけん〕する。",
+      "targets": [
+        {
+          "reading": "てんけん",
+          "answer": "点検",
+          "underline": "直線",
+          "start": 3,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "荷物を点検する。"
+    },
+    {
+      "id": "kanji50-22-09",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 9,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "宿題をていしゅつする。",
+      "prompt_marked": "宿題を〔ていしゅつ〕する。",
+      "targets": [
+        {
+          "reading": "ていしゅつ",
+          "answer": "提出",
+          "underline": "直線",
+          "start": 3,
+          "end": 8,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "宿題を提出する。"
+    },
+    {
+      "id": "kanji50-22-10",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 1,
+      "question_number": 10,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "かんしんをよせる。",
+      "prompt_marked": "かんしんを〔よせる〕。",
+      "targets": [
+        {
+          "reading": "よせる",
+          "answer": "寄せる",
+          "underline": "波線",
+          "start": 5,
+          "end": 8,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "かんしんを寄せる。"
+    },
+    {
+      "id": "kanji50-22-11",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 11,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "時間をもてあます。",
+      "prompt_marked": "時間を〔もてあます〕。",
+      "targets": [
+        {
+          "reading": "もてあます",
+          "answer": "持て余す",
+          "underline": "波線",
+          "start": 3,
+          "end": 8,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "時間を持て余す。"
+    },
+    {
+      "id": "kanji50-22-12",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 12,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "こうりょくを発する。",
+      "prompt_marked": "〔こうりょく〕を発する。",
+      "targets": [
+        {
+          "reading": "こうりょく",
+          "answer": "効力",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "効力を発する。"
+    },
+    {
+      "id": "kanji50-22-13",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 13,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "市のじょうれい。",
+      "prompt_marked": "市の〔じょうれい〕。",
+      "targets": [
+        {
+          "reading": "じょうれい",
+          "answer": "条例",
+          "underline": "直線",
+          "start": 2,
+          "end": 7,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "市の条例。"
+    },
+    {
+      "id": "kanji50-22-14",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 14,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "ようけんを言う。",
+      "prompt_marked": "〔ようけん〕を言う。",
+      "targets": [
+        {
+          "reading": "ようけん",
+          "answer": "用件",
+          "underline": "直線",
+          "start": 0,
+          "end": 4,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "用件を言う。"
+    },
+    {
+      "id": "kanji50-22-15",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 15,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "ほいくえんに通う。",
+      "prompt_marked": "〔ほいくえん〕に通う。",
+      "targets": [
+        {
+          "reading": "ほいくえん",
+          "answer": "保育園",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "保育園に通う。"
+    },
+    {
+      "id": "kanji50-22-16",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 16,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "こうひょうな作品。",
+      "prompt_marked": "〔こうひょう〕な作品。",
+      "targets": [
+        {
+          "reading": "こうひょう",
+          "answer": "好評",
+          "underline": "直線",
+          "start": 0,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "好評な作品。"
+    },
+    {
+      "id": "kanji50-22-17",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 17,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "商品のていか。",
+      "prompt_marked": "商品の〔ていか〕。",
+      "targets": [
+        {
+          "reading": "ていか",
+          "answer": "定価",
+          "underline": "直線",
+          "start": 3,
+          "end": 6,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "商品の定価。"
+    },
+    {
+      "id": "kanji50-22-18",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 18,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "絵をさんびする。",
+      "prompt_marked": "絵を〔さんび〕する。",
+      "targets": [
+        {
+          "reading": "さんび",
+          "answer": "賛美",
+          "underline": "直線",
+          "start": 2,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "絵を賛美する。"
+    },
+    {
+      "id": "kanji50-22-19",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 19,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "さいしを連れてでかける。",
+      "prompt_marked": "〔さいし〕を連れてでかける。",
+      "targets": [
+        {
+          "reading": "さいし",
+          "answer": "妻子",
+          "underline": "直線",
+          "start": 0,
+          "end": 3,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "妻子を連れてでかける。"
+    },
+    {
+      "id": "kanji50-22-20",
+      "type": "書き取り",
+      "source_image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "drill": 2,
+      "question_number": 20,
+      "title": "ステップ・アップ！ 言葉をふやそう！",
+      "prompt": "材料をまぜる。",
+      "prompt_marked": "材料を〔まぜる〕。",
+      "targets": [
+        {
+          "reading": "まぜる",
+          "answer": "混ぜる",
+          "underline": "波線",
+          "start": 3,
+          "end": 6,
+          "include_okurigana": true
+        }
+      ],
+      "answer_sentence": "材料を混ぜる。"
+    },
+    {
+      "id": "kanji50-12-correction-01",
+      "type": "字形訂正",
+      "source_image": "IMG_0503.jpg",
+      "worksheet_number": 12,
+      "drill": null,
+      "question_number": 1,
+      "title": "まちがえやすい漢字",
+      "instruction": "まちがいを一つ見つけ、□に正しい漢字を書きましょう。",
+      "prompt": "入館証を提示する。",
+      "prompt_marked": "入館証を〔提〕示する。",
+      "targets": [
+        {
+          "reading": null,
+          "answer": "提",
+          "underline": null,
+          "start": 4,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "入館証を提示する。",
+      "note": "原画像の誤った字形は通常の文字コードでは再現できないため、対象字を正字に置き換えて記載。出題には原画像を併用。"
+    },
+    {
+      "id": "kanji50-12-correction-02",
+      "type": "字形訂正",
+      "source_image": "IMG_0503.jpg",
+      "worksheet_number": 12,
+      "drill": null,
+      "question_number": 2,
+      "title": "まちがえやすい漢字",
+      "instruction": "まちがいを一つ見つけ、□に正しい漢字を書きましょう。",
+      "prompt": "食品売り場に立ち寄る。",
+      "prompt_marked": "食品売り場に立ち〔寄〕る。",
+      "targets": [
+        {
+          "reading": null,
+          "answer": "寄",
+          "underline": null,
+          "start": 8,
+          "end": 9,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "食品売り場に立ち寄る。",
+      "note": "原画像の誤った字形は通常の文字コードでは再現できないため、対象字を正字に置き換えて記載。出題には原画像を併用。"
+    },
+    {
+      "id": "kanji50-12-correction-03",
+      "type": "字形訂正",
+      "source_image": "IMG_0503.jpg",
+      "worksheet_number": 12,
+      "drill": null,
+      "question_number": 3,
+      "title": "まちがえやすい漢字",
+      "instruction": "まちがいを一つ見つけ、□に正しい漢字を書きましょう。",
+      "prompt": "時間を有効に使う。",
+      "prompt_marked": "時間を有〔効〕に使う。",
+      "targets": [
+        {
+          "reading": null,
+          "answer": "効",
+          "underline": null,
+          "start": 4,
+          "end": 5,
+          "include_okurigana": false
+        }
+      ],
+      "answer_sentence": "時間を有効に使う。",
+      "note": "原画像の誤った字形は通常の文字コードでは再現できないため、対象字を正字に置き換えて記載。出題には原画像を併用。"
+    }
+  ],
+  "practice_characters": [
+    {
+      "character": "得",
+      "on_readings_printed": "トク",
+      "kun_readings_printed": "える",
+      "worksheet_number": 5,
+      "source_image": "IMG_0497.jpg"
+    },
+    {
+      "character": "比",
+      "on_readings_printed": "ヒ",
+      "kun_readings_printed": "くらべる",
+      "worksheet_number": 5,
+      "source_image": "IMG_0497.jpg"
+    },
+    {
+      "character": "政",
+      "on_readings_printed": "セイ",
+      "kun_readings_printed": "",
+      "worksheet_number": 5,
+      "source_image": "IMG_0497.jpg"
+    },
+    {
+      "character": "興",
+      "on_readings_printed": "キョウ・コウ",
+      "kun_readings_printed": "",
+      "worksheet_number": 5,
+      "source_image": "IMG_0497.jpg"
+    },
+    {
+      "character": "示",
+      "on_readings_printed": "ジ",
+      "kun_readings_printed": "しめす",
+      "worksheet_number": 5,
+      "source_image": "IMG_0497.jpg"
+    },
+    {
+      "character": "張",
+      "on_readings_printed": "チョウ",
+      "kun_readings_printed": "はる",
+      "worksheet_number": 6,
+      "source_image": "IMG_0498.jpg"
+    },
+    {
+      "character": "支",
+      "on_readings_printed": "シ",
+      "kun_readings_printed": "ささえる",
+      "worksheet_number": 6,
+      "source_image": "IMG_0498.jpg"
+    },
+    {
+      "character": "個",
+      "on_readings_printed": "コ",
+      "kun_readings_printed": "",
+      "worksheet_number": 6,
+      "source_image": "IMG_0498.jpg"
+    },
+    {
+      "character": "迷",
+      "on_readings_printed": "メイ",
+      "kun_readings_printed": "まよう",
+      "worksheet_number": 10,
+      "source_image": "IMG_0501.jpg"
+    },
+    {
+      "character": "在",
+      "on_readings_printed": "ザイ",
+      "kun_readings_printed": "ある",
+      "worksheet_number": 10,
+      "source_image": "IMG_0501.jpg"
+    },
+    {
+      "character": "独",
+      "on_readings_printed": "ドク",
+      "kun_readings_printed": "ひとり",
+      "worksheet_number": 10,
+      "source_image": "IMG_0501.jpg"
+    },
+    {
+      "character": "弁",
+      "on_readings_printed": "ベン",
+      "kun_readings_printed": "",
+      "worksheet_number": 10,
+      "source_image": "IMG_0501.jpg"
+    },
+    {
+      "character": "検",
+      "on_readings_printed": "ケン",
+      "kun_readings_printed": "",
+      "worksheet_number": 10,
+      "source_image": "IMG_0501.jpg"
+    },
+    {
+      "character": "提",
+      "on_readings_printed": "テイ",
+      "kun_readings_printed": "",
+      "worksheet_number": 11,
+      "source_image": "IMG_0502.jpg"
+    },
+    {
+      "character": "寄",
+      "on_readings_printed": "キ",
+      "kun_readings_printed": "よる・よせる",
+      "worksheet_number": 11,
+      "source_image": "IMG_0502.jpg"
+    },
+    {
+      "character": "余",
+      "on_readings_printed": "ヨ",
+      "kun_readings_printed": "あまる・あます",
+      "worksheet_number": 11,
+      "source_image": "IMG_0502.jpg"
+    },
+    {
+      "character": "仏",
+      "on_readings_printed": "ブツ",
+      "kun_readings_printed": "ほとけ",
+      "worksheet_number": 11,
+      "source_image": "IMG_0502.jpg"
+    },
+    {
+      "character": "貸",
+      "on_readings_printed": "",
+      "kun_readings_printed": "かす",
+      "worksheet_number": 11,
+      "source_image": "IMG_0502.jpg"
+    },
+    {
+      "character": "効",
+      "on_readings_printed": "コウ",
+      "kun_readings_printed": "きく",
+      "worksheet_number": 12,
+      "source_image": "IMG_0503.jpg"
+    },
+    {
+      "character": "条",
+      "on_readings_printed": "ジョウ",
+      "kun_readings_printed": "",
+      "worksheet_number": 16,
+      "source_image": "IMG_0506.jpg"
+    },
+    {
+      "character": "件",
+      "on_readings_printed": "ケン",
+      "kun_readings_printed": "",
+      "worksheet_number": 16,
+      "source_image": "IMG_0506.jpg"
+    },
+    {
+      "character": "保",
+      "on_readings_printed": "ホ",
+      "kun_readings_printed": "たもつ",
+      "worksheet_number": 16,
+      "source_image": "IMG_0506.jpg"
+    },
+    {
+      "character": "評",
+      "on_readings_printed": "ヒョウ",
+      "kun_readings_printed": "",
+      "worksheet_number": 16,
+      "source_image": "IMG_0506.jpg"
+    },
+    {
+      "character": "価",
+      "on_readings_printed": "カ",
+      "kun_readings_printed": "",
+      "worksheet_number": 16,
+      "source_image": "IMG_0506.jpg"
+    },
+    {
+      "character": "賛",
+      "on_readings_printed": "サン",
+      "kun_readings_printed": "",
+      "worksheet_number": 17,
+      "source_image": "IMG_0507.jpg"
+    },
+    {
+      "character": "妻",
+      "on_readings_printed": "サイ",
+      "kun_readings_printed": "つま",
+      "worksheet_number": 17,
+      "source_image": "IMG_0507.jpg"
+    },
+    {
+      "character": "混",
+      "on_readings_printed": "コン",
+      "kun_readings_printed": "こむ・まじる・まざる・まぜる",
+      "worksheet_number": 17,
+      "source_image": "IMG_0507.jpg"
+    },
+    {
+      "character": "雑",
+      "on_readings_printed": "ザツ・ゾウ",
+      "kun_readings_printed": "",
+      "worksheet_number": 17,
+      "source_image": "IMG_0507.jpg"
+    },
+    {
+      "character": "略",
+      "on_readings_printed": "リャク",
+      "kun_readings_printed": "",
+      "worksheet_number": 17,
+      "source_image": "IMG_0507.jpg"
+    },
+    {
+      "character": "採",
+      "on_readings_printed": "サイ",
+      "kun_readings_printed": "とる",
+      "worksheet_number": 18,
+      "source_image": "IMG_0508.jpg"
+    },
+    {
+      "character": "禁",
+      "on_readings_printed": "キン",
+      "kun_readings_printed": "",
+      "worksheet_number": 18,
+      "source_image": "IMG_0508.jpg"
+    },
+    {
+      "character": "能",
+      "on_readings_printed": "ノウ",
+      "kun_readings_printed": "",
+      "worksheet_number": 18,
+      "source_image": "IMG_0508.jpg"
+    }
+  ],
+  "source_inventory": [
+    {
+      "image": "IMG_0497.jpg",
+      "worksheet_number": 5,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 5
+    },
+    {
+      "image": "IMG_0498.jpg",
+      "worksheet_number": 6,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 3
+    },
+    {
+      "image": "IMG_0499.jpg",
+      "worksheet_number": 7,
+      "kind": "読む",
+      "writing_questions": 0,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0500.jpg",
+      "worksheet_number": 8,
+      "kind": "書く",
+      "writing_questions": 20,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0501.jpg",
+      "worksheet_number": 10,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 5
+    },
+    {
+      "image": "IMG_0502.jpg",
+      "worksheet_number": 11,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 5
+    },
+    {
+      "image": "IMG_0503.jpg",
+      "worksheet_number": 12,
+      "kind": "新しい漢字・字形訂正",
+      "writing_questions": 3,
+      "practice_characters": 1
+    },
+    {
+      "image": "IMG_0504.jpg",
+      "worksheet_number": 13,
+      "kind": "読む",
+      "writing_questions": 0,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0505.jpg",
+      "worksheet_number": 14,
+      "kind": "書く",
+      "writing_questions": 20,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0506.jpg",
+      "worksheet_number": 16,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 5
+    },
+    {
+      "image": "IMG_0507.jpg",
+      "worksheet_number": 17,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 5
+    },
+    {
+      "image": "IMG_0508.jpg",
+      "worksheet_number": 18,
+      "kind": "新しい漢字",
+      "writing_questions": 0,
+      "practice_characters": 3
+    },
+    {
+      "image": "IMG_0509.jpg",
+      "worksheet_number": 19,
+      "kind": "読む",
+      "writing_questions": 0,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0510.jpg",
+      "worksheet_number": 20,
+      "kind": "書く",
+      "writing_questions": 20,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0511.jpg",
+      "worksheet_number": 21,
+      "kind": "読む（ステップ・アップ）",
+      "writing_questions": 0,
+      "practice_characters": 0
+    },
+    {
+      "image": "IMG_0512.jpg",
+      "worksheet_number": 22,
+      "kind": "書く（ステップ・アップ）",
+      "writing_questions": 20,
+      "practice_characters": 0
+    }
+  ]
+}

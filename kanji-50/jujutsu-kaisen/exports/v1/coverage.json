@@ -1,0 +1,11 @@
+{
+  "questions": 53,
+  "target_readings": 53,
+  "covered_readings": 53,
+  "kanji": 32,
+  "actual_characters": 30,
+  "source_images_checked": 53,
+  "research_scope": "アニメ第1期・第2期の場面と人物設定を中心に、漢字学習用に独自の文章で要約。読み取りと語句補足は作中の出来事と区別。第2期までの内容を含む。",
+  "content_review": "imported_existing_notes",
+  "layout_migration": true
+}

@@ -1,0 +1,1034 @@
+{
+  "q001": {
+    "status": "imported",
+    "scene_note": "順平の動機を聞き、戦いを止めようとする虎杖。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-009"
+    ],
+    "migration_checks": {
+      "id": "q001",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q002": {
+    "status": "imported",
+    "scene_note": "肉体の回復を求めて情報を渡し、その後に真人と対決する。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-018",
+      "source-023"
+    ],
+    "migration_checks": {
+      "id": "q002",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q003": {
+    "status": "imported",
+    "scene_note": "姉妹の対戦をもとにした比較。作中の台詞ではない。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-011",
+      "source-025"
+    ],
+    "migration_checks": {
+      "id": "q003",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q004": {
+    "status": "imported",
+    "scene_note": "三輪は、真希の強さが等級に見合わないと感じる。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-011"
+    ],
+    "migration_checks": {
+      "id": "q004",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q005": {
+    "status": "imported",
+    "scene_note": "保守派筆頭という人物設定から、組織の方針や権力について考える学習文。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q005",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q006": {
+    "status": "imported",
+    "scene_note": "魂に触れて人の姿を変える真人の性質。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002",
+      "source-007"
+    ],
+    "migration_checks": {
+      "id": "q006",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q007": {
+    "status": "imported",
+    "scene_note": "五条との写真を望んで廊下を走る三輪の場面を言い換えた。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-031",
+      "source-029"
+    ],
+    "migration_checks": {
+      "id": "q007",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q008": {
+    "status": "imported",
+    "scene_note": "低級の呪いを使って順平の反応を確かめようとする作戦。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-007"
+    ],
+    "migration_checks": {
+      "id": "q008",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q009": {
+    "status": "imported",
+    "scene_note": "処刑の時期と宿儺の指をめぐる選択。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-003"
+    ],
+    "migration_checks": {
+      "id": "q009",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q010": {
+    "status": "imported",
+    "scene_note": "人間と呪いの立場を逆転させようとする漏瑚の考え。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q010",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q011": {
+    "status": "imported",
+    "scene_note": "渋谷に結界が降り、一般人が外へ出られなくなる。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-019"
+    ],
+    "migration_checks": {
+      "id": "q011",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q012": {
+    "status": "imported",
+    "scene_note": "呪言を使いながら、仲間と花御の攻撃を防ぐ。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-012",
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q012",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q013": {
+    "status": "imported",
+    "scene_note": "夜蛾がパンダを生み出し育てた関係を学習語で説明。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002",
+      "source-031"
+    ],
+    "migration_checks": {
+      "id": "q013",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q014": {
+    "status": "imported",
+    "scene_note": "構築術式で一日一発の弾丸を作るという第17話の説明。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-025"
+    ],
+    "migration_checks": {
+      "id": "q014",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q015": {
+    "status": "imported",
+    "scene_note": "地方から上京するため高専を選んだ人物設定を言い換えた。心情は学習用の要約。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-002",
+      "source-004"
+    ],
+    "migration_checks": {
+      "id": "q015",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q016": {
+    "status": "imported",
+    "scene_note": "現在は現実の日付ではなく、渋谷事変の作中時点を指す。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002",
+      "source-021"
+    ],
+    "migration_checks": {
+      "id": "q016",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q017": {
+    "status": "imported",
+    "scene_note": "第9話の職業観をもとにした要約。「在り方」は辞書形「ある」の活用。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-002",
+      "source-024"
+    ],
+    "migration_checks": {
+      "id": "q017",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q018": {
+    "status": "imported",
+    "scene_note": "密かに準備した究極メカ丸絶対形態で応戦する。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-018"
+    ],
+    "migration_checks": {
+      "id": "q018",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q019": {
+    "status": "imported",
+    "scene_note": "2007年、二人が別々に任務へ向かうようになる。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-017"
+    ],
+    "migration_checks": {
+      "id": "q019",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q020": {
+    "status": "imported",
+    "scene_note": "真依と女性呪術師の事情を語る西宮の発言を、弁護という語で説明。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-011"
+    ],
+    "migration_checks": {
+      "id": "q020",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q021": {
+    "status": "imported",
+    "scene_note": "洋館に閉じ込められた二人が、結界を破る方法を探る。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-016"
+    ],
+    "migration_checks": {
+      "id": "q021",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q022": {
+    "status": "imported",
+    "scene_note": "交流会前に虎杖の登場を演出しようとする場面。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-031"
+    ],
+    "migration_checks": {
+      "id": "q022",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q023": {
+    "status": "imported",
+    "scene_note": "家入は反転術式で他人を治療できる医師。「寄与」は役立つという意味。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q023",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q024": {
+    "status": "imported",
+    "scene_note": "第13話の回想に登場する、行きつけのパン屋。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-024",
+      "source-027"
+    ],
+    "migration_checks": {
+      "id": "q024",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q025": {
+    "status": "imported",
+    "scene_note": "順平の事情を聞いて説得を続ける姿への解釈。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-008",
+      "source-009"
+    ],
+    "migration_checks": {
+      "id": "q025",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q026": {
+    "status": "imported",
+    "scene_note": "五条の余裕ある行動で漏瑚の怒りが強くなる。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-005"
+    ],
+    "migration_checks": {
+      "id": "q026",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q027": {
+    "status": "imported",
+    "scene_note": "攻撃が当たらず圧倒される場面を、慣用句「手に余る」で説明。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-005"
+    ],
+    "migration_checks": {
+      "id": "q027",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q028": {
+    "status": "imported",
+    "scene_note": "一般人を盾にされ、力の使い方を制限される状況への解釈。五条が無力だったという意味ではない。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-019",
+      "source-020"
+    ],
+    "migration_checks": {
+      "id": "q028",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q029": {
+    "status": "imported",
+    "scene_note": "第28話の言葉を入口にした語源学習。語源は寺院の説明を参照。",
+    "legacy_basis_type": "語句補足",
+    "source_ids": [
+      "source-026",
+      "source-032"
+    ],
+    "migration_checks": {
+      "id": "q029",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q030": {
+    "status": "imported",
+    "scene_note": "第29問と同じ言葉の背景を学ぶ。作中で誕生の場面が描かれたという意味ではない。",
+    "legacy_basis_type": "語句補足",
+    "source_ids": [
+      "source-026",
+      "source-032"
+    ],
+    "migration_checks": {
+      "id": "q030",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q031": {
+    "status": "imported",
+    "scene_note": "勝敗が決まった後も、パンダはメカ丸を助けようとする。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-030"
+    ],
+    "migration_checks": {
+      "id": "q031",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q032": {
+    "status": "imported",
+    "scene_note": "花御との戦闘で用いる呪言。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-012",
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q032",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q033": {
+    "status": "imported",
+    "scene_note": "兄弟の血を介し、自分に釘を刺して反撃する。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-015"
+    ],
+    "migration_checks": {
+      "id": "q033",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q034": {
+    "status": "imported",
+    "scene_note": "内通者としての取引には、京都校を傷つけないという縛りがある。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-023"
+    ],
+    "migration_checks": {
+      "id": "q034",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q035": {
+    "status": "imported",
+    "scene_note": "第8話での、五条と保守派の楽巌寺の面会。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-006",
+      "source-031"
+    ],
+    "migration_checks": {
+      "id": "q035",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q036": {
+    "status": "imported",
+    "scene_note": "交流会襲撃の裏で特級呪物が持ち出される。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-014"
+    ],
+    "migration_checks": {
+      "id": "q036",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q037": {
+    "status": "imported",
+    "scene_note": "強敵と向き合う七海の冷静な態度を要約。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-007",
+      "source-008",
+      "source-031"
+    ],
+    "migration_checks": {
+      "id": "q037",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q038": {
+    "status": "imported",
+    "scene_note": "渋谷事変で戦う虎杖を、一級相当と認める。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-028",
+      "source-019"
+    ],
+    "migration_checks": {
+      "id": "q038",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q039": {
+    "status": "imported",
+    "scene_note": "金銭を基準とする人物像を言い換えた。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q039",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q040": {
+    "status": "imported",
+    "scene_note": "虎杖の存在を消したい保守派と、虎杖を育てる五条の立場。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002",
+      "source-003",
+      "source-006"
+    ],
+    "migration_checks": {
+      "id": "q040",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q041": {
+    "status": "imported",
+    "scene_note": "第18話の生い立ちの説明。「正室」を学習語「正妻」に言い換えた。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-022"
+    ],
+    "migration_checks": {
+      "id": "q041",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q042": {
+    "status": "imported",
+    "scene_note": "母が家で冷遇され、幼い加茂のもとを去る回想。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-022"
+    ],
+    "migration_checks": {
+      "id": "q042",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q043": {
+    "status": "imported",
+    "scene_note": "地下ホームには一般人が取り残されていた。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-019",
+      "source-020"
+    ],
+    "migration_checks": {
+      "id": "q043",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q044": {
+    "status": "imported",
+    "scene_note": "閉じ込められた多数の一般人がいる渋谷。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-019"
+    ],
+    "migration_checks": {
+      "id": "q044",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q045": {
+    "status": "imported",
+    "scene_note": "虎杖と宿儺が一つの体に共存する状態。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-002",
+      "source-031"
+    ],
+    "migration_checks": {
+      "id": "q045",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q046": {
+    "status": "imported",
+    "scene_note": "二つの力を重ねる場面の学習用の言い換え。液体を混ぜる行為ではない。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-031"
+    ],
+    "migration_checks": {
+      "id": "q046",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q047": {
+    "status": "imported",
+    "scene_note": "人を不用意に呪わずに会話する設定から、言葉の意味を考える。",
+    "legacy_basis_type": "読み取り",
+    "source_ids": [
+      "source-002"
+    ],
+    "migration_checks": {
+      "id": "q047",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q048": {
+    "status": "imported",
+    "scene_note": "交流会の樹木がある会場を、花御の攻撃を避けて走る。場所の植生を厳密に分類したものではない。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-012"
+    ],
+    "migration_checks": {
+      "id": "q048",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q049": {
+    "status": "imported",
+    "scene_note": "花御の襲撃と並行して進められた呪物の強奪。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-014"
+    ],
+    "migration_checks": {
+      "id": "q049",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q050": {
+    "status": "imported",
+    "scene_note": "襲撃後、交流会が野球で続けられる。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-014"
+    ],
+    "migration_checks": {
+      "id": "q050",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q051": {
+    "status": "imported",
+    "scene_note": "術式を使って虎杖と連携する東堂。「採る」は方法を選んで用いる意味。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-013"
+    ],
+    "migration_checks": {
+      "id": "q051",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q052": {
+    "status": "imported",
+    "scene_note": "交流会の規則。虎杖を狙う京都校側の動きとは区別する。",
+    "legacy_basis_type": "設定",
+    "source_ids": [
+      "source-010",
+      "source-001"
+    ],
+    "migration_checks": {
+      "id": "q052",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  },
+  "q053": {
+    "status": "imported",
+    "scene_note": "交流会に侵入した花御との戦い。",
+    "legacy_basis_type": "場面",
+    "source_ids": [
+      "source-012",
+      "source-013"
+    ],
+    "migration_checks": {
+      "id": "q053",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  }
+}

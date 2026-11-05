@@ -1,0 +1,654 @@
+{
+  "date": "2026-11-05",
+  "backend": "builtin imagegen",
+  "entries": [
+    {
+      "question_id": "q001",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Retired gaunt All Might, in civilian white shirt and trousers, kneels and bows his head on the floor of the Midoriya apartment, sincerely promising to protect Izuku. Inko sits opposite listening tearfully; Izuku, casual T-shirt, watches beside his mother. Serious respectful conversation, no heroic muscular form here.\nCharacter design reference: オールマイト: blond two upright forelocks; heroic muscular or gaunt retired form according to period; 緑谷引子: short round-faced woman, green bob hair, civilian dress; 緑谷出久: dark green messy hair, green eyes, freckles.\nJapanese question being illustrated (context only; DO NOT render its text): オールマイトは、出久の母・引子を説得し、雄英に息子を任せてもらおうとした。",
+      "local_png": "originals/q001-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-d375d48d-1981-4541-b79d-d8ddae55184d.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q002",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: At the cleaned beach at dawn, muscular All Might offers ONE blond strand of his hair between fingers to an astonished teenage Izuku in plain training clothes. The strand symbolizes inheritance, not a glowing orb or a new object. Two large half-body figures.\nCharacter design reference: 緑谷出久: dark green messy hair, green eyes, freckles; オールマイト: blond two upright forelocks; heroic muscular or gaunt retired form according to period.\nJapanese question being illustrated (context only; DO NOT render its text): 出久は、オールマイトからワン・フォー・オールの力を得る。",
+      "local_png": "originals/q002-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-145a9082-fe30-44c0-827c-f1da7c490ffb.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q003",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Sports festival obstacle race setting: Kirishima and Tetsutetsu shown side by side comparing similar hardening quirks, Kirishima's angular hardened skin on one arm versus Tetsutetsu's shining steel arm. Both wear plain navy-white athletic tracksuits, no costume armor. This is a comparison of canon powers, not a fabricated duel.\nCharacter design reference: 切島鋭児郎: spiky red hair, sharp teeth, red eyes; 鉄哲徹鐵: spiky silver hair, black domino eye mask, steel-hardening body.\nJapanese question being illustrated (context only; DO NOT render its text): 体育祭では、切島の「硬化」と鉄哲の「スティール」を対比できる。",
+      "local_png": "originals/q003-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-a22aba83-c20f-487a-b6c4-df42983f7184.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q004",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: After the indoor battle exercise, Momo thoughtfully explains her analysis while bespectacled Iida listens and makes his theatrical villain hand gesture. Both wear modest gray school blazers with green trim and red ties; simple classroom background, not a new battle.\nCharacter design reference: 八百万百: long black high ponytail, dark eyes; 飯田天哉: short dark blue hair, rectangular glasses.\nJapanese question being illustrated (context only; DO NOT render its text): 八百万は、訓練での動きを比べると、飯田の役作りを高く評価した。",
+      "local_png": "originals/q004-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b28620f8-b4d1-42be-9f48-c8847a4b1841.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q005",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Trumpet / Koku Hanabata giving an emphatic political address in Deika during the Meta Liberation Army battle, one upraised open hand, small anonymous crowd silhouettes. His purple lenses, curled forelock and black coat must be prominent. No visible written banners.\nCharacter design reference: 花畑孔腔: black swept-back medium hair and single curled forelock, violet-tinted rectangular glasses with gold rims, faint moustache, black three-piece suit and long black overcoat.\nJapanese question being illustrated (context only; DO NOT render its text): 花畑は、異能解放軍の幹部で、政治団体の党首でもあった。",
+      "local_png": "originals/q005-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-764c110d-0781-4ca8-ae1a-1b6a4509afa5.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q006",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Sports festival arena: excited Mei Hatsume demonstrates a small support gadget worn on Iida's forearm; Iida looks baffled because she is advertising her inventions in their match. Both in plain navy-white athletic tracksuits. Mei has pink rope-like hair and goggles resting on forehead. No logos on gadgets.\nCharacter design reference: 発目明: pink dreadlock-like hair, round bronze goggles, yellow crosshair pupils; 飯田天哉: short dark blue hair, rectangular glasses.\nJapanese question being illustrated (context only; DO NOT render its text): 発目は、自分の発明に企業が興味を持つように、飯田との試合を利用した。",
+      "local_png": "originals/q006-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-0c0acdaa-9869-40e3-9b86-82d4f205d896.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q007",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Postwar Japanese street reconstruction: two anonymous adult foreign pro heroes, distinctly different original supporting silhouettes, cooperate to lift a damaged beam and clear rubble beside a partly repaired building. Bright hopeful atmosphere, no named hero impersonations, no flag lettering.\nCharacter design reference: .\nJapanese question being illustrated (context only; DO NOT render its text): 海外のヒーローも日本へ来て、町の復興を手伝った。",
+      "local_png": "originals/q007-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-d723b4ba-69c3-4856-b569-064a0e06a563.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q008",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: First-day quirk assessment on U.A. sports ground: teacher Aizawa, black jumpsuit and gray capture scarf, holds a small stopwatch and gestures to begin. Anonymous students in plain navy-white sportswear stand at a short distance. Large tired-eyed teacher face, simple open field.\nCharacter design reference: 相澤消太: long untidy black hair, tired eyes, dark stubble, gray capture scarf.\nJapanese question being illustrated (context only; DO NOT render its text): 相澤の指示で、A組の生徒は個性把握テストを受けた。",
+      "local_png": "originals/q008-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-42426e2c-284f-4a8f-8d67-48917fd2ea9e.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q009",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final war: Aoyama in silver hero armor fires a bright belly laser. Invisible Hagakure's FLOATING WHITE GLOVED HANDS redirect the laser through rainbow refraction toward hostile plants, showing their determined teamwork. Hagakure stays invisible; no exposed body, no visible nude figure, no extra visible green-haired girl. Dense attacking vines only at edges.\nCharacter design reference: 青山優雅: blond bob, purple eyes, silver naval-laser hero armor; 葉隠透: invisible girl, floating white gloves and boots; colored-light silhouette only in laser scene.\nJapanese question being illustrated (context only; DO NOT render its text): 青山と葉隠は、敵に立ち向かい、ヒーローになる決意を示す。",
+      "local_png": "originals/q009-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-80da10c0-c6ae-4455-b412-153c2ab06ed9.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q010",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Culture festival rehearsal room: Bakugo in a plain dark T-shirt, fierce determined face, holding two drumsticks over a compact drum kit. He has just insisted they will perform seriously. Energetic resolve, no exploding instruments, sparse classroom background.\nCharacter design reference: 爆豪勝己: spiky ash-blond hair, red eyes, black-orange hero suit.\nJapanese question being illustrated (context only; DO NOT render its text): 爆豪は、文化祭でも遠慮せず本気で演奏すると主張した。",
+      "local_png": "originals/q010-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-1cb117e3-ed57-4cad-943e-19596f449a1f.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q011",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: USJ invasion: black-clad Aizawa lunges between a few threatening anonymous villain silhouettes and the offscreen students, his gray capture scarf sweeping forward to restrain attackers. Eyes red from Erasure, messy dark hair raised. Protective action, not an assault on students, no blood.\nCharacter design reference: 相澤消太: long untidy black hair, tired eyes, dark stubble, gray capture scarf.\nJapanese question being illustrated (context only; DO NOT render its text): 皆を守るため、相澤は体を張る。",
+      "local_png": "originals/q011-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-81f73bbd-9592-4a6b-a091-c0629287bc19.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q012",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Forest camp gas battle: Kendo creates a wind gust with one enlarged hand to disperse purple poison mist while steel-bodied Tetsutetsu charges alongside her. Both have protective gas masks over mouth and nose, eyes visible. Nighttime trees, heroes coordinating against an offscreen enemy; green mist-free pocket around them.\nCharacter design reference: 拳藤一佳: orange side ponytail, teal green hero outfit; 鉄哲徹鐵: spiky silver hair, black domino eye mask, steel-hardening body.\nJapanese question being illustrated (context only; DO NOT render its text): 拳藤と鉄哲は、互いに支援しながら毒ガスを使う敵を倒した。",
+      "local_png": "originals/q012-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-950504f5-e371-41b6-9222-deaf850565c0.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q012",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Preserve exactly the faces, gas masks, enlarged hand, wind dispersing purple gas, forest, poses and clear composition. Correct ONLY the clothing to their canonical forest training camp night outfits, not hero suits: Kendo wears a plain pale cream/off-white SHORT-SLEEVED T-SHIRT with black collar trim, and plain dark shorts (mostly outside the frame). No teal qipao, yellow trim, waist belt or hero gauntlets. Tetsutetsu wears a plain DARK BLUE SHORT-SLEEVED T-SHIRT and dark trousers, with his EXPOSED forearms and face steel hardened; remove metal chest armor, straps and hero costume belt. Keep both gas masks, his silver hair and her orange side ponytail. No text or logos.",
+      "local_png": "originals/q012-v2.png",
+      "reference_png": "originals/q012-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-8a122f10-a167-436a-a6ed-c9e29595ddbe.png",
+      "reason": "合宿中なのに二人がヒーロースーツ姿。私服のシャツへ修正する。",
+      "adopted": false
+    },
+    {
+      "question_id": "q012",
+      "version": 3,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Preserve the whole illustration, Kendo's cream T-shirt, enlarged fanning hand, gas mask, wind and the purple gas, and Tetsutetsu's blue T-shirt, steel arms and forward movement. Correct ONLY Tetsutetsu (silver-haired boy on RIGHT): REMOVE his gas mask entirely because Mustard has already shot and destroyed it in this moment of chapter 79. Show his hardened STEEL-SILVER face and tightly CLOSED mouth holding his breath, alert narrowed eyes with his canonical dark eye markings. No breathing filter remains on his face, no mask necklace. Kendo on LEFT must KEEP her intact gas mask. No blood, holes or injuries needed. No new text or logos.",
+      "local_png": "originals/q012-v3.png",
+      "reference_png": "originals/q012-v2.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-07350588-c767-4b71-aca3-7386a4b35f6f.png",
+      "reason": "風でガスを払う場面では鉄哲のガスマスクは銃撃で壊れているため、息を止めた鋼鉄の顔へ修正。",
+      "adopted": true
+    },
+    {
+      "question_id": "q013",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Joint training: raven-headed Tokoyami rises off the ground supported by his own large black bird-shaped shadow quirk, Dark Shadow, its arms visibly lifting beneath his body. Tokoyami wears dark hero cloak. Clear feet suspended above ground, pale sky, not independent mechanical wings.\nCharacter design reference: 常闇踏陰: black raven head, red eyes, dark cloak.\nJapanese question being illustrated (context only; DO NOT render its text): 常闇は、黒影に体を支えるように持ち上げてもらい、空を飛んだ。",
+      "local_png": "originals/q013-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-677e9046-4a41-43b1-9817-6f82149dc470.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q014",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Provisional license battle: focus on Kaminari holding ONE small green grenade-shaped support canister, looking alert; behind him Bakugo has been compressed by Seiji Shishikura's quirk into a small non-graphic rounded flesh-colored lump with unmistakable blond hair, no gore. Seiji in Shiketsu cap is a small threatening background figure. No free standing human Bakugo or extra grenades.\nCharacter design reference: 上鳴電気: yellow hair with black lightning streak, black-white jacket; 爆豪勝己: spiky ash-blond hair, red eyes, black-orange hero suit; 肉倉精児: brown swept hair, Shiketsu military cap and uniform.\nJapanese question being illustrated (context only; DO NOT render its text): 肉倉に勝つため、上鳴は爆豪から渡された手りゅう弾を一個使った。",
+      "local_png": "originals/q014-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-8fff1f39-c686-4a5d-84e4-fd2abd169775.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q015",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final practical exam: Momo in her red-white hero costume, framed modestly chest-up, hesitates behind a concrete corner while looking toward captured Shoto in dark blue hero suit, restrained by Aizawa's gray binding cloth in background. Her worried face and divided choice read clearly. No dialogue or question marks.\nCharacter design reference: 八百万百: long black high ponytail, dark eyes; 轟焦凍: white hair on his right, red hair and scar on his left, heterochromia.\nJapanese question being illustrated (context only; DO NOT render its text): 八百万は、相澤から逃げ続けるか、轟を助けるかで迷う。",
+      "local_png": "originals/q015-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-6d7e8aa4-1a46-49b5-8004-4157eaf56dfc.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q016",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Sir Nighteye in white suit, yellow glasses and green hair with yellow streak, calmly touches an opponent's shoulder while making eye contact. A small translucent clock-like arc and ghosted next movement symbolize seeing future actions, without text, digits or an actual time machine. Office setting.\nCharacter design reference: サー・ナイトアイ: green hair with yellow streak, yellow glasses, white suit.\nJapanese question being illustrated (context only; DO NOT render its text): ナイトアイの「予知」は、現在より先に起こることを見通す。",
+      "local_png": "originals/q016-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-6c81ee5e-e144-4dd7-bd85-f5a3c3095cb5.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q017",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: At the hospital gate during the final war, six-armed Shoji in his navy face covering raises broad open hands to stop an angry crowd from harming vulnerable patients behind him. Compassionate but firm protective posture, not attacking civilians. Main masked face and two prominent protective hands large.\nCharacter design reference: 障子目蔵: silver hair, navy mouth mask, six muscular arms.\nJapanese question being illustrated (context only; DO NOT render its text): 障子は、差別に怒る人々に、社会の在り方を変えるためにも患者を傷つけないよう訴えた。",
+      "local_png": "originals/q017-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-3661e8e9-2fd5-4ec4-bb64-c66da0b48d9e.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q018",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Gran Torino's training room: small elderly yellow-suited Gran Torino observes as Izuku in early green hero suit distributes green electrical Full Cowl energy around his arms, torso and legs evenly, one low agile stance. No red injury, no single gigantic muscular arm.\nCharacter design reference: 緑谷出久: dark green messy hair, green eyes, freckles; グラントリノ: small elderly man, gray moustache, yellow suit, white cape.\nJapanese question being illustrated (context only; DO NOT render its text): グラントリノの助言で、出久は全身に力を通す独自の戦い方を身につける。",
+      "local_png": "originals/q018-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-3b944417-002d-473d-a355-2d56f65d91cf.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q019",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Nighttime Ground Beta confrontation: Bakugo, plain dark training T-shirt, tearfully grips his own shirt while confessing his guilt; Izuku in plain light training shirt listens seriously opposite. Two large faces in tense conversation, not smiling or posing, no All Might physically present.\nCharacter design reference: 緑谷出久: dark green messy hair, green eyes, freckles; 爆豪勝己: spiky ash-blond hair, red eyes, black-orange hero suit.\nJapanese question being illustrated (context only; DO NOT render its text): 出久は、爆豪がオールマイトの引退を自分のせいだと、独りで抱えこんでいたことを知った。",
+      "local_png": "originals/q019-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b291d40e-877c-42a7-82f1-aabbf1e76f04.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q020",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: After the school festival confrontation, Gentle in purple coat steps protectively in front of short adult La Brava and addresses an offscreen police officer, taking the blame. La Brava looks distressed behind his shoulder. Gentle's swept white hair and moustache visible, no handcuffs on the childlike-looking adult woman.\nCharacter design reference: ジェントル・クリミナル: swept gray-white hair, curled moustache, purple coat; ラブラバ: short young adult woman, pink-red twin tails, heart-shaped eye makeup.\nJapanese question being illustrated (context only; DO NOT render its text): ジェントルは、ラブラバを弁護するように、自分一人の責任だと話した。",
+      "local_png": "originals/q020-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-c3015f1d-7544-450b-859a-290f370e9c5a.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q021",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: An evidence examination illustration at the yakuza investigation briefing: hooded Suneater/Tamaki Amajiki observes a tiny quirk-suppressing dart in a clear sealed dish beside a microscope. A small pale hand pointing from the margin represents an analyst. No blood or biological tissue shown; this visualizes the actual investigation, not Amajiki doing a new experiment.\nCharacter design reference: 天喰環: indigo pointed hair, pointed ears, white hooded cape.\nJapanese question being illustrated (context only; DO NOT render its text): 天喰を撃った弾丸の検査で、人の血や細胞が含まれることが分かった。",
+      "local_png": "originals/q021-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-957c7406-83da-4caf-a03b-9e5930d4ec15.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q022",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final practical exam strategy discussion: Momo modestly framed in red-white hero outfit points at the gray binding cloth and offers Shoto her plan, he listens attentively. A small unmarked metal capture cuff rests in her hand; plain industrial training wall. No teacher sitting with them, no text diagram.\nCharacter design reference: 八百万百: long black high ponytail, dark eyes; 轟焦凍: white hair on his right, red hair and scar on his left, heterochromia.\nJapanese question being illustrated (context only; DO NOT render its text): 八百万は、相澤を捕らえるため、轟に自分の作戦を提案した。",
+      "local_png": "originals/q022-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-f46c90e7-e25d-4fa6-af28-ac5d994101dd.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q023",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Yakuza raid: Ryukyu in her large golden dragon form breaks through the underground ceiling to open the rescue route; safely framed in foreground, small white-haired horned Eri reaches toward rescue from behind the edge of Mirio's abandoned white cape. Dragon's head large but clearly friendly, no crushing of the child, rubble kept sparse.\nCharacter design reference: リューキュウ: blonde hair, red dress and black dragon scale motifs; golden dragon form; 壊理: small girl, long pale blue-white hair, red eyes, small single forehead horn.\nJapanese question being illustrated (context only; DO NOT render its text): リューキュウたちの突入は、壊理を救い出すことに寄与した。",
+      "local_png": "originals/q023-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-07ca0a67-97fe-4d08-bc5f-c11caa6168c1.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q023",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Correct the dragon on the left to RYUKYU'S CANONICAL TRANSFORMED DRAGON FORM from My Hero Academia: PALE GRAY-WHITE reptilian scales, a clearly projecting DRACONIC BEAK-LIKE SNOUT with small pointed teeth and broad reptilian jaw, large dragon head and muscular scaled neck, blonde hair fringe over one eye and her dark claw-shaped face accessory. A visible pale-gray dragon wing can frame the upper left. Do NOT use a normal human woman's face grafted on a golden serpent; remove ALL gold scales. Keep the broken underground ceiling, sparse rubble, Mirio's abandoned white cape in foreground, and small pale-haired horned Eri reaching safely toward rescue exactly as before. Friendly protective dragon expression, not threatening Eri. Preserve square clean chibi style, no text or gore.",
+      "local_png": "originals/q023-v2.png",
+      "reference_png": "originals/q023-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-9e57f97f-18e0-40ae-9023-0b791eb3977b.png",
+      "reason": "リューキュウの竜形態が金色で人間の顔になっている。原作の灰白色の竜の顔へ修正。",
+      "adopted": true
+    },
+    {
+      "question_id": "q024",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: On the street after a villain arrest, Hawks discreetly hands a closed dark unlettered book to Endeavor. Hawks has red wings and tan hero jacket; Endeavor in blue hero suit with flame beard looks carefully at the book. A serious covert warning between colleagues, not a bookstore or office.\nCharacter design reference: ホークス: blond tousled hair, gold eyes, red wings, tan jacket, orange visor; エンデヴァー: tall muscular man, short red hair, blue eyes, flame beard in hero costume.\nJapanese question being illustrated (context only; DO NOT render its text): ホークスはエンデヴァーのそばへ寄ると、本にかくした警告を届けた。",
+      "local_png": "originals/q024-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-67fc2aca-b02f-49fb-b813-f84d08922c4d.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q024",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep the whole scene and all other details unchanged. Add Endeavor's canonical post-High-End healed burn scar around HIS LEFT eye (viewer RIGHT), a clearly visible irregular pinkish-red vertical scar from left forehead down past the left eye toward left cheek. Leave both eyes and the existing flame beard intact. This scene is chapter 244, after that injury. Do not add text or change Hawks or the unlettered book.",
+      "local_png": "originals/q024-v2.png",
+      "reference_png": "originals/q024-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-85ec04dd-91e0-4695-8777-a49cb748ac60.png",
+      "reason": "第244話はハイエンド戦後。エンデヴァー本人の左目周辺に縦の傷が必要。",
+      "adopted": true
+    },
+    {
+      "question_id": "q025",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Underground yakuza base: Mirio crouches protectively and draws young Eri close against his side, white cape draped around her shoulders, his own face determined and reassuring. Blond swept hair, heroic white-red costume, Eri pale hair and small horn. Their faces and protective arm fill the square. No villain needed.\nCharacter design reference: 通形ミリオ: blond swept-back pompadour, small oval eyes, white cape and red-white hero suit; 壊理: small girl, long pale blue-white hair, red eyes, small single forehead horn.\nJapanese question being illustrated (context only; DO NOT render its text): ルミリオンは、壊理を自分の方へ寄せると、必ず助けると伝えた。",
+      "local_png": "originals/q025-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-201427d2-f48d-4df2-9522-f740e1f63079.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q026",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final war: All For One as a young adult with white hair, sharp red eyes and intact face, no respirator, in torn dark suit. He looks urgently toward the battlefield as green rewind sparks erode the edge of his silhouette. A fading hourglass-shaped light in background symbolizes his shrinking time; no actual time device and no numbers.\nCharacter design reference: オール・フォー・ワン: white hair; face obscured by black respirator before rewind; young unmasked during rewind.\nJapanese question being illustrated (context only; DO NOT render its text): オール・フォー・ワンは、若返りが進むため、時間の余裕を失っていった。",
+      "local_png": "originals/q026-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-a3f1d45b-2a81-4317-ae1f-e31f1ac889e3.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q027",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Deika battle: several black-gray fully masked Twice duplicates surge forward and surround two startled anonymous liberation soldiers. Only five large readable Twice bodies rather than tiny hundreds, white angular mask-eye marks, no bare face or other hero costumes. Threatening but non-graphic action.\nCharacter design reference: トゥワイス: black-gray full bodysuit, fully covered face with white angular eye markings.\nJapanese question being illustrated (context only; DO NOT render its text): 異能解放軍の兵士たちは、手に余るほど増えたトゥワイスの分身に囲まれた。",
+      "local_png": "originals/q027-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-205932df-7af8-4035-ae93-1f6cdc38ee50.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q028",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Twice's past crisis: one seated blond adult Jin Bubaigawara in a plain dark undershirt holds his head in distress while three of his own black-gray masked doubles argue and point at each other around him. Clearly a memory of losing control of his duplicates, no gore, no celebration.\nCharacter design reference: トゥワイス: black-gray full bodysuit, fully covered face with white angular eye markings.\nJapanese question being illustrated (context only; DO NOT render its text): トゥワイスには、増やした分身が争い始め、その力を持て余すことになった過去がある。",
+      "local_png": "originals/q028-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b877184c-9bfd-4efd-a062-762ddb2161ce.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q028",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this My Hero Academia illustration of Jin Bubaigawara's PAST clone crisis. Keep the distressed seated blond man in front, hands holding his head, and keep the three arguing duplicates' poses and positions. Correct the THREE STANDING DUPLICATES only: each is an EXACT ordinary civilian copy of the central Jin, with the SAME short messy BLOND hair, adult masculine face, small chin stubble, and the SAME plain dark long-sleeved casual shirt and dark trousers as him. Remove ALL three black-gray superhero bodysuits, face coverings, masks, red wrist bands and chest X designs. Their uncovered adult faces look angry and argue at each other; central Jin remains distressed. All four are the SAME person duplicated, not separate cast members. This flashback happened before he wore his later Twice costume. Fully clothed, non-graphic, no knives, injuries, blood, lettering, logos or speech text. Preserve square clean chibi style and simple background.",
+      "local_png": "originals/q028-v2.png",
+      "reference_png": "originals/q028-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-43224421-1ebd-4479-98c9-0e66bed3cd02.png",
+      "reason": "過去の分身は後年のヒーロー／ヴィラン用覆面服ではなく本人と同じ私服。",
+      "adopted": true
+    },
+    {
+      "question_id": "q029",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Adult Shoto Todoroki, about age 24, mature face and slightly shorter red-white hair, scar over his own left eye, wearing civilian dark jacket, quietly recalls praying at Toya's memorial altar. Main adult Shoto speaks thoughtfully; a soft-edged memory vignette shows his hands together before a small wooden altar with flowers and a tiny portrait of white-haired scarred Toya. No kanji on altar or tablets. This is a recalled event, not Toya alive beside him.\nCharacter design reference: 轟焦凍: white hair on his right, red hair and scar on his left, heterochromia.\nJapanese question being illustrated (context only; DO NOT render its text): 大人になった轟は、燈矢の仏壇に手を合わせた時のことを語った。",
+      "local_png": "originals/q029-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-eaf0679b-5cd0-4d71-aee5-453316ac89d1.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q030",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: After the war, red-haired Kirishima kneels in rubble and cries in grief. A broken red eye mask lies nearby; a soft faded memory portrait of smiling long-purple-haired Midnight in a high-collared fully covered costume appears above, clearly not physically alive beside him. No corpse, funeral ceremony, Buddha statue or blood.\nCharacter design reference: 切島鋭児郎: spiky red hair, sharp teeth, red eyes; ミッドナイト: long dark purple hair, red mask, white-black full bodysuit.\nJapanese question being illustrated (context only; DO NOT render its text): 切島たちは、仏となったミッドナイトを思い、涙を流した。",
+      "local_png": "originals/q030-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-59a070d4-2e92-4dee-9815-d03d31beab22.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q030",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep the grieving kneeling red-haired Kirishima, tears, rubble, broken red eye mask and faded memory portrait of Midnight exactly unchanged. Remove ONLY the red capital letter R on Kirishima's chest, replacing that small area with plain dark costume fabric and the existing red seam lines. No new symbols, letters or logos. Do not change expressions, characters or colors.",
+      "local_png": "originals/q030-v2.png",
+      "reference_png": "originals/q030-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-cc7aad4f-2da7-4b49-b0c6-9f5379514d71.png",
+      "reason": "胸のR字が残ったため、文字なしの教材画像に整える。",
+      "adopted": true
+    },
+    {
+      "question_id": "q031",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: La Brava in police emergency control room, pink-red twin tails and heart-shaped eye makeup, urgently typing on a laptop to restore the falling floating U.A.'s systems. Large determined face and keyboard hands; window or small screen shows U.A. airborne platform tilting. Screens have only abstract blocks, no readable letters or code.\nCharacter design reference: ラブラバ: short young adult woman, pink-red twin tails, heart-shaped eye makeup.\nJapanese question being illustrated (context only; DO NOT render its text): ラブラバは、落ちそうな雄英を救うため、警察に力を貸す。",
+      "local_png": "originals/q031-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-92a8a2f3-66e0-49b9-86b2-58b499696597.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q032",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Sports festival: purple-haired Shinso in plain navy-white sports uniform calmly speaks toward Izuku; Izuku has unfocused blank eyes and a halted stance after replying. Nonphysical brainwashing effect shown as faint purple arc, no puppet strings, no body possession or hypnotic gadget.\nCharacter design reference: 心操人使: messy purple hair, tired purple eyes; later gray capture scarf and voice modulator; 緑谷出久: dark green messy hair, green eyes, freckles.\nJapanese question being illustrated (context only; DO NOT render its text): 心操の「洗脳」には、返事をした相手を操る効果がある。",
+      "local_png": "originals/q032-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-fdfc178a-97bd-4de9-9d83-ed1fa3edfbc9.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q032",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep this exact sports festival brainwashing scene, faces, Shinso's speaking hand, Izuku's blank eyes, stadium and plain navy-white athletic tracksuits. This is chapter 33, the EARLY SPORTS FESTIVAL. Remove ALL of Shinso's gray capture scarf and ALL mechanical voice-changer mask/chin hardware; he had neither yet at this time. Replace only that neck area with the simple collar of his navy athletic T-shirt. His mouth must be fully unobstructed and neck has no scarf, no mask, no gadget. No text or logos.",
+      "local_png": "originals/q032-v2.png",
+      "reference_png": "originals/q032-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-595d6726-f5f9-4b7c-ac02-cca5d27f77f2.png",
+      "reason": "体育祭の心操に、後の合同訓練で使う捕縛布と変声マスクが描かれている。",
+      "adopted": true
+    },
+    {
+      "question_id": "q033",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Yakuza rescue climax: Izuku, torn green hero suit but no blood, carries Eri safely on his back; she has white hair, red eyes and one glowing small horn. Green Full Cowl arcs around Izuku and soft blue-white Rewind light from Eri overlap. Both faces large, resolute and reassured, no invented medical tool.\nCharacter design reference: 緑谷出久: dark green messy hair, green eyes, freckles; 壊理: small girl, long pale blue-white hair, red eyes, small single forehead horn.\nJapanese question being illustrated (context only; DO NOT render its text): 壊理の「巻き戻し」は、傷ついた出久の体にも効く。",
+      "local_png": "originals/q033-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-c2e4048f-8c39-4ec4-a1ab-3db180a22663.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q034",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Joint training: Shinso in dark training outfit with gray capture scarf and his mechanical voice-changer mask around mouth; he addresses an unseen opponent, making the reply condition of Brainwashing evident through attentive eyes and a listening gesture. No eye-beam attack, sports festival shirt or written speech bubble.\nCharacter design reference: 心操人使: messy purple hair, tired purple eyes; later gray capture scarf and voice modulator.\nJapanese question being illustrated (context only; DO NOT render its text): 心操の「洗脳」は、相手が返事をすることが発動の条件だ。",
+      "local_png": "originals/q034-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b153329c-c1ea-48a1-9977-c35a99d7af20.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q035",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Before the High-End incident, Hawks and Endeavor sit across a modest restaurant table. Hawks seriously gestures as he asks for cooperation investigating Nomu sightings; Endeavor listens sternly. Hawks tan jacket and red wings, Endeavor hero suit and small flame beard. No Nomu actually in restaurant, no dossier text.\nCharacter design reference: ホークス: blond tousled hair, gold eyes, red wings, tan jacket, orange visor; エンデヴァー: tall muscular man, short red hair, blue eyes, flame beard in hero costume.\nJapanese question being illustrated (context only; DO NOT render its text): ホークスがエンデヴァーに持ちかけた用件は、脳無の目撃情報の調査だった。",
+      "local_png": "originals/q035-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-a72e8af9-d7d6-4683-b23e-213ae93a0e48.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q036",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Inside the underground laboratory, the small bald Doctor Garaki with enormous white moustache, round goggles and white lab coat stands beside a glass cabinet containing several small sealed vials with softly glowing contents. They represent stored quirks, not human organs or monsters. Simple readable cabinets, no labels or letters.\nCharacter design reference: 殻木球大: short bald elderly man, round goggles, huge white moustache, white lab coat.\nJapanese question being illustrated (context only; DO NOT render its text): ドクターの研究所には、いくつもの個性が保管されていた。",
+      "local_png": "originals/q036-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-e8332ebf-87e3-40c8-9173-c2098fc0272c.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q037",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: During the war, Manual gently directs a small floating ribbon of clear water from his yellow-gloved hand to Aizawa's open red eyes to keep them moist. Manual wears LIGHT BLUE sleeves and WHITE torso, dark pants, blue-white FIN-CRESTED HELMET with raised forehead visor; mouth and eyes visible. Aizawa has long dark hair and gray capture scarf, concentrated expression. Water is gentle eye hydration, not a forceful attack or face-covering flood.\nCharacter design reference: マニュアル: light blue sleeves and white torso, dark trousers, mustard-yellow gloves, blue-white fin-crested helmet with forehead visor above visible eyes; 相澤消太: long untidy black hair, tired eyes, dark stubble, gray capture scarf.\nJapanese question being illustrated (context only; DO NOT render its text): マニュアルは、相澤の目を水でうるおし、敵の個性を消す力を保つ手助けをした。",
+      "local_png": "originals/q037-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-ea421fac-d29a-4ad0-9ef3-592658f4e740.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q038",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Remedial licensing class: smiling children enjoy a broad ice slide created by Shoto while Camie in black Shiketsu hero cap makes soft playful illusion lights nearby. Shoto's red-white hair and Camie's blond hair distinguish them. The children slide safely; cheerful sparse play area, no violent flames.\nCharacter design reference: 現見ケミィ: long honey-blond hair, black peaked cap and black hero bodysuit; 轟焦凍: white hair on his right, red hair and scar on his left, heterochromia.\nJapanese question being illustrated (context only; DO NOT render its text): 現見と轟たちが個性で作った遊び場は、子どもたちに好評だった。",
+      "local_png": "originals/q038-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-0409c8ad-3027-49d7-8f7a-a40bfdc7cfd9.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q039",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: At the mansion raid, winged Hawks faces Twice in a private room and speaks seriously, recognizing his dangerous power; Twice in black-gray full mask looks conflicted. Hawks's single red feather blade is held low, no stabbing or blood. Tense negotiation with distance between them, not friendly portrait.\nCharacter design reference: ホークス: blond tousled hair, gold eyes, red wings, tan jacket, orange visor; トゥワイス: black-gray full bodysuit, fully covered face with white angular eye markings.\nJapanese question being illustrated (context only; DO NOT render its text): ホークスは、トゥワイスの力が仲間にとって大きな価値を持つと考えた。",
+      "local_png": "originals/q039-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-67c4760c-77da-40a3-92ba-39dcbb2786ca.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q040",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Before the final battle, Iida in gray school uniform with glasses reaches out an open supportive hand toward distressed blond Aoyama, also in school clothes. Iida's firm kind expression shows the class agreeing to give Aoyama a role in their plan; Aoyama tearful but hopeful. Simple school hallway, no victory party.\nCharacter design reference: 飯田天哉: short dark blue hair, rectangular glasses; 青山優雅: blond bob, purple eyes, silver naval-laser hero armor.\nJapanese question being illustrated (context only; DO NOT render its text): 飯田たちは、青山の力をもう一度借りる作戦に賛成した。",
+      "local_png": "originals/q040-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-f2d39f15-5902-454f-86b0-1ad029ba99f9.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q040",
+      "version": 3,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE square 1:1 chibi anime educational illustration based on My Hero Academia chapter 338, for display at 200 x 200 pixels. Bold clean lines, flat cel colors, large expressive faces and simple neutral school meeting room background. Iida Tenya (short dark navy hair, rectangular glasses, gray school blazer with green trim and red tie) speaks firmly and kindly in support of the plan to let Aoyama help the class. Iida is the large main figure on the LEFT, facing right, one open hand raised while explaining his agreement. On the RIGHT foreground show ONLY the BACK of blond Aoyama Yuga's head and the top of a plain navy shirt shoulder; he is seated listening and turned toward Iida, so Aoyama's FACE and chest are outside our view. Aoyama's distinctive swept blond bob is clear. This limited camera angle is intentional. A serious class discussion about trusting a friend again, without a handshake or celebration. Fully clothed normal school scene. Plain walls, no sunny corridor. No captions, speech bubbles, letters, numbers, written signs, logos or watermarks. Japanese context only, never draw the words: 飯田たちは、青山の力をもう一度借りる作戦に賛成した。",
+      "local_png": "originals/q040-v3.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-e13e3808-39c3-4284-b79e-91e46d1d638d.png",
+      "reason": "衣装の誤りを避け、飯田の賛同と青山が聞く関係に焦点を絞った新しい構図。",
+      "adopted": true
+    },
+    {
+      "question_id": "q040",
+      "version": 2,
+      "error": "Imagegen output safety filter rejected the restrained-character version; no output was saved. Replaced by a normal conversation composition without restrictive devices.",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep Iida's bespectacled face, gray school uniform and serious supportive speaking gesture. This is chapter 338, after Aoyama's arrest, not a hallway celebration. Replace Aoyama's silver hero armor, gloves and cape with a plain NAVY training top, largely hidden by a broad GRAY non-graphic restraining strap over his upper arms as he sits on a simple chair. Add a small light-gray fabric restraint over Aoyama's MOUTH as in the official detained scene; his eyes are anxious and tearful, listening, not smiling. Keep his blond hair and purple eyes. Change background to a plain school interrogation/meeting room wall, not a sunny hallway. No written signs, no new officers needed. Iida is speaking in support, not releasing the restraints.",
+      "adopted": false
+    },
+    {
+      "question_id": "q041",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Hospital family reflection after the war: Endeavor sits bandaged in a white hospital gown, no flame beard while resting. His white-haired wife Rei in pale civilian clothes sits beside him, both soberly facing their responsibility for their son Toya. Small faded memory silhouette of a white-haired little boy with blue eyes, not an adult villain physically in the hospital. Quiet serious faces, no reconciliation celebration.\nCharacter design reference: エンデヴァー: tall muscular man, short red hair, blue eyes, flame beard in hero costume; 轟冷: white shoulder-length hair, gray-blue eyes, civilian pale clothing.\nJapanese question being illustrated (context only; DO NOT render its text): エンデヴァーと轟冷の夫妻は、燈矢が自分を見てほしいと願っていたことに向き合った。",
+      "local_png": "originals/q041-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-5bfad070-bebd-4e0e-87af-949942a6158e.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q041",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep all characters, sober expressions, hospital clothes, existing bandages, wife Rei and the faded white-haired boy memory unchanged. Add Endeavor's canonical HEALED pink-red burn scar vertically around HIS LEFT eye, viewer RIGHT, extending from left forehead around the eye onto left cheek. He is resting in hospital: keep his beard as ordinary dark red stubble, absolutely NO fire beard. No text.",
+      "local_png": "originals/q041-v2.png",
+      "reference_png": "originals/q041-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-055cea27-43d2-4bc6-85cf-6c1483d542f3.png",
+      "reason": "第301話のエンデヴァーの左目の古傷が欠けている。",
+      "adopted": true
+    },
+    {
+      "question_id": "q042",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Hospital family decision: Rei, white shoulder-length hair and pale civilian clothes, stands firmly beside bandaged Endeavor in hospital gown as they resolve to stop Dabi together. Their determined faces and hands resting on the bed rail fill the frame. Dabi is not physically in this room; no wedding clothes, no smiling couple portrait.\nCharacter design reference: エンデヴァー: tall muscular man, short red hair, blue eyes, flame beard in hero costume; 轟冷: white shoulder-length hair, gray-blue eyes, civilian pale clothing.\nJapanese question being illustrated (context only; DO NOT render its text): エンデヴァーは、妻の轟冷や子どもたちと、荼毘を止めることを決めた。",
+      "local_png": "originals/q042-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-c7375941-7dc7-4541-998f-813b38fdb4a0.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q042",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep this entire hospital family scene, clothing, bandages, existing LEFT eye burn scar, expressions, Rei and the bed rail unchanged. Remove ONLY Endeavor's orange flaming beard and ALL fire around his mouth/chin. Replace with his natural short DARK RED beard/stubble following the same chin contour. He is resting in a hospital gown, not using his flame quirk. No new text or objects.",
+      "local_png": "originals/q042-v2.png",
+      "reference_png": "originals/q042-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-a43fedd6-66f5-4b20-bdf3-13f7721c9b8c.png",
+      "reason": "病床のエンデヴァーに炎のひげが出ている。通常のひげへ修正。",
+      "adopted": true
+    },
+    {
+      "question_id": "q043",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final war portal pursuit: Ochaco in pink-black hero suit and Tsuyu in green frog suit leap through a dark-purple warp opening toward a battlefield crowded with five black-gray masked Twice duplicates. These duplicates are Toga transformed into Twice using blood; do NOT draw blond Toga as a separate person in front. Girls large in foreground, duplicate silhouettes in background, no unrelated villains.\nCharacter design reference: 麗日お茶子: brown bob, brown eyes, pink-black hero suit; 蛙吹梅雨: long dark green hair, large eyes, green-black frog-themed bodysuit; トゥワイス: black-gray full bodysuit, fully covered face with white angular eye markings.\nJapanese question being illustrated (context only; DO NOT render its text): トガの分身で混雑する戦場へ、麗日と蛙吹も追いかけていった。",
+      "local_png": "originals/q043-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-d0e746fa-ae67-408d-bd2b-a4aae5048a0f.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q044",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: At the crowded U.A. shelter, Ochaco in pink-black hero outfit stands on a high ledge and appeals through a simple megaphone to allow exhausted dark-hero Izuku to rest. Izuku below, torn green suit with yellow scarf, dirt but no gore, looks up emotionally. Small anonymous evacuee heads show the crowd, no angry attack, no text.\nCharacter design reference: 麗日お茶子: brown bob, brown eyes, pink-black hero suit; 緑谷出久: dark green messy hair, green eyes, freckles.\nJapanese question being illustrated (context only; DO NOT render its text): 避難者で混む雄英の校内で、麗日は出久を休ませてほしいと訴えた。",
+      "local_png": "originals/q044-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-45e9c61c-52dc-44c9-984d-e642bba8a2b7.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q044",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Preserve Ochaco's appeal, exhausted Izuku looking up, crowd, platform, poses and costumes. Replace Ochaco's large pink bullhorn/megaphone with ONE small ordinary HANDHELD MICROPHONE: a black slender handle with dark rounded mesh head, held near her mouth in the same hand. No bullhorn cone. This is the canonical U.A. shelter speech. Remove the large golden U A letter sign from the building background; replace that area with plain architectural blue-gray facade. No readable letters, numbers or new logos anywhere. Keep all expressions unchanged.",
+      "local_png": "originals/q044-v2.png",
+      "reference_png": "originals/q044-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-4482320c-6de3-4889-9f81-d35b925ef6d4.png",
+      "reason": "麗日の道具が拡声器。元の場面はマイク。校舎のUA字も消す。",
+      "adopted": true
+    },
+    {
+      "question_id": "q045",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Symbolic One For All inheritance setting: Izuku's large green-haired freckled face and green-suited upper body at center, with three differently colored translucent trails representing inherited quirks joining gently within a luminous core at his chest. Small indistinct predecessor silhouettes in the mist behind, no mistaken new extra body parts or device. Clearly a setting illustration, not a new on-screen event.\nCharacter design reference: 緑谷出久: dark green messy hair, green eyes, freckles.\nJapanese question being illustrated (context only; DO NOT render its text): 出久が使うワン・フォー・オールには、歴代継承者の個性が混ざるように受け継がれている。",
+      "local_png": "originals/q045-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-2ab76fc7-f856-40ab-90fd-bd66619ae580.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q046",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final war confrontation: Shoto in dark blue hero uniform holds one hand to chest and channels pale WHITE-BLUE cold Phosphor flames over BOTH sides of torso, combining heat and cold internally; his own right hair white, own left hair red with scar. White-haired scarred Dabi in torn dark coat is opposite him with vivid BLUE flames. Two brothers face each other tensely across space, not smiling or standing as friends. No red flames on Shoto's ice side.\nCharacter design reference: 轟焦凍: white hair on his right, red hair and scar on his left, heterochromia; 轟燈矢: adult white hair late story, purple burned skin and staples; earlier black dyed hair.\nJapanese question being illustrated (context only; DO NOT render its text): 轟は、熱と冷気を混ぜるように働かせる新しい技で、荼毘に立ち向かった。",
+      "local_png": "originals/q046-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-a12f34af-9859-405c-849b-f897ebcd7e12.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q046",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep this exact confrontation between brothers, Dabi's blue flames, Shoto's pale blue-white Phosphor on both sides of torso, hair side colors, pose, costumes and expressions unchanged. Add Shoto Todoroki's canonical PINK-RED BURN SCAR surrounding HIS LEFT eye, on the RED-HAIRED side, viewer RIGHT. The scar goes around the left brow and upper cheek, leaving the turquoise iris visible. Do not put it on his white-haired side. No text.",
+      "local_png": "originals/q046-v2.png",
+      "reference_png": "originals/q046-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-c33bacfc-6279-4177-ad45-f42a77bcacad.png",
+      "reason": "最終決戦の轟の左目の傷が欠けている。",
+      "adopted": true
+    },
+    {
+      "question_id": "q047",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Non-graphic rescue after Bakugo's collapse: silver-haired red-masked ninja Edgeshot leans beside unconscious blond Bakugo, who lies fully clothed in black-orange hero suit. Edgeshot's fingertip becomes a very thin white thread aimed toward a small closed chest tear, indicating his internal repair quirk WITHOUT showing organs, incisions or blood. Serious lifesaving teamwork, no magical healing wand.\nCharacter design reference: エッジショット: silver swept hair, red ninja mask, dark blue ninja suit; 爆豪勝己: spiky ash-blond hair, red eyes, black-orange hero suit.\nJapanese question being illustrated (context only; DO NOT render its text): エッジショットは、複雑な体の中に入り、爆豪の傷を直そうとした。",
+      "local_png": "originals/q047-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-db69c4fe-1206-4973-a3c8-19610adbd7d3.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q048",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Night forest: silver-haired six-armed Shoji in navy mouth covering and green-haired Izuku sprint together between dark tree trunks to help their classmate. Behind them, Tokoyami's raven-headed silhouette is partly surrounded by a larger uncontrolled black bird-shaped Dark Shadow. No smiling, no attacking each other; faces and running direction easy to read.\nCharacter design reference: 障子目蔵: silver hair, navy mouth mask, six muscular arms; 緑谷出久: dark green messy hair, green eyes, freckles; 常闇踏陰: black raven head, red eyes, dark cloak.\nJapanese question being illustrated (context only; DO NOT render its text): 障子と出久は、暴走した常闇を助けようと、雑木林を走った。",
+      "local_png": "originals/q048-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-3035857b-0c1f-4219-a050-2fb4c2157e9e.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q048",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Recompose this same nighttime forest scene accurately for chapter 78. SHOJI, silver hair, navy face covering and SIX arms, runs through the mixed tree forest CARRYING injured IZUKU ON HIS BACK. Izuku's head and shoulders are visible over Shoji's shoulder; green hair, freckles, worried expression, BOTH arms visibly resting limp and carefully supported, with non-graphic pale protective wraps, NO blood. Shoji uses two arms to support Izuku's legs and body while other arms balance as he runs. Neither wears hero costume: both wear SIMPLE NAVY camp athletic shirts with plain white geometric stripe details and dark trousers; Shoji's shirt is sleeveless to accommodate his arms. Remove Izuku's hero metal neck guard, red utility belt and hero gloves, and remove Shoji's hero chest harness and metal buttons. Keep Tokoyami and huge uncontrolled bird-shaped Dark Shadow in background, not attacking the boys as friends. Large readable Shoji and Izuku faces, clear piggyback pose. One square chibi image, no text or gore. Japanese correct question context, never render text: 障子は出久を背負い、暴走した常闇を助けようと、ぞうきばやしを走った。",
+      "local_png": "originals/q048-v2.png",
+      "reference_png": "originals/q048-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-d5c0a6c8-d935-4872-96a1-3474e1287a26.png",
+      "reason": "出久が自力で走り、二人ともヒーロースーツ。実際は負傷した出久を障子が背負う。",
+      "adopted": false
+    },
+    {
+      "question_id": "q048",
+      "version": 3,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia forest illustration. Preserve the piggyback pose, Shoji running while supporting Izuku, all faces, hair, arms and hands positions, athletic shirts, dark forest, Tokoyami and the large Dark Shadow behind them. Correct ONLY Izuku's TWO FOREARMS hanging over Shoji's shoulders: remove both pale bandage wraps entirely. Show bare skin of both forearms with only very subtle muted purple bruise shading and small scuffs, NO blood, open wounds, gore or exaggerated injury. Keep both arms hanging limp, because this is immediately after the fight and before medical treatment. His navy athletic T-shirt sleeves end just above the elbows; no white wraps or medical sling anywhere. Do not change Shoji's skin or costume. No text or logos.",
+      "local_png": "originals/q048-v3.png",
+      "reference_png": "originals/q048-v2.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b97186d1-7e12-4aef-8396-665a94573375.png",
+      "reason": "移動中には治療を受けていないため、出久の両腕の包帯を削除し、流血なしの負傷表現へ。",
+      "adopted": true
+    },
+    {
+      "question_id": "q049",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final battle plan: blond Monoma in dark blue hero suit extends an arm and opens a purple-black Warp Gate copied from Kurogiri. Small soft memory outline of Kurogiri's purple fog head, golden eyes and metal neck collar behind him indicates the copied source; Kurogiri is NOT fighting beside him as an ally. Gate separates two distant anonymous opposing silhouettes, no text.\nCharacter design reference: 物間寧人: short blond hair, blue eyes, blue-black hero uniform; 黒霧: dark purple fog body, golden eyes, metal collar; same physical identity as Shirakumo, not separately counted.\nJapanese question being illustrated (context only; DO NOT render its text): 物間は、敵を引き離す戦略を実行するため、黒霧の個性をコピーした。",
+      "local_png": "originals/q049-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-08b0afe3-06d7-4429-b0d3-5b654170b819.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q050",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Joint training arena: orange-side-ponytail Kendo in teal hero suit drives a broad enlarged palm into a simple concrete divider, keeping Momo separated from offscreen teammates; Momo in red-white hero suit modestly chest-up, alert behind the divider. Two rival students actively strategizing, no handshake, no team photo.\nCharacter design reference: 拳藤一佳: orange side ponytail, teal green hero outfit; 八百万百: long black high ponytail, dark eyes.\nJapanese question being illustrated (context only; DO NOT render its text): 拳藤の班は、八百万を仲間から切り離す作戦を採用した。",
+      "local_png": "originals/q050-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-f2a6691a-9a9e-4465-92d3-323b2eb71815.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q051",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Final war near the containment facility: purple-haired Shinso in gray capture scarf and mechanical voice-changer mask confidently gives a command; enormous Gigantomachia with spiky brown hair and rocky jaw responds with unfocused obedient eyes behind him. Shinso face foreground, giant upper body background, no tiny unreadable person atop head, no mind-control beam.\nCharacter design reference: 心操人使: messy purple hair, tired purple eyes; later gray capture scarf and voice modulator; ギガントマキア: enormous muscular tan humanoid, spiky brown hair, flat stone-like jaw.\nJapanese question being illustrated (context only; DO NOT render its text): 心操は、敵の声をまねてギガントマキアを操る方法を採る。",
+      "local_png": "originals/q051-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-da995201-3aca-4f24-b982-5c9aec82fd4e.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q052",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: After the Stain incident in hospital: bespectacled Iida in plain hospital shirt listens remorsefully to an adult police official with a BEAGLE DOG HEAD and dark police uniform, who raises an open palm while explaining the law. One bandaged Iida arm, calm firm warning rather than an arrest. No handcuffs or signage.\nCharacter design reference: 飯田天哉: short dark blue hair, rectangular glasses.\nJapanese question being illustrated (context only; DO NOT render its text): 飯田たちは、無許可で個性を使って敵を傷つける行為が禁止だと、警察に注意された。",
+      "local_png": "originals/q052-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-151d8deb-e211-4af8-b12b-f9b90a349bfa.png",
+      "adopted": true
+    },
+    {
+      "question_id": "q053",
+      "version": 1,
+      "backend": "builtin imagegen",
+      "prompt": "Create ONE original square educational illustration for a Japanese kanji workbook based on My Hero Academia. A single scene, not a collage of independent questions. Friendly compact chibi anime proportions, bold clean outlines, flat vivid cel colors and restrained highlights, simple light background. Composition specifically readable when mechanically reduced to 200 x 200 pixels: large faces and a clear principal action, at most 2-3 focal figures, keep important elements away from edges. Respect canonical hair colors, costumes, power rules and story period. Absolutely no captions, lettering, numerals, speech balloons, answer words, brand logos, signatures or watermarks. No gore, exposed organs or sexualization; fully covered costumes and modest framing. \nStory scene and exact constraints: Star and Stripe on the fuselage of a flying jet during her battle: muscular adult blonde woman in blue-red-white star-patterned hero suit, confident face, reaching one open hand forward to impose a rule. Hair swept upward in thick stripes, broad shoulders. Small single jet wing below and open sky, NO written rule, no giant disembodied muscular double.\nCharacter design reference: スターアンドストライプ: very muscular adult blonde woman, swept striped hair, blue-red-white stars-and-stripes hero suit.\nJapanese question being illustrated (context only; DO NOT render its text): スターアンドストライプは、触れたものの名を呼び、決まりを加える能力で戦った。",
+      "local_png": "originals/q053-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-7ef28de7-9eff-4516-a2e5-999e6031930f.png",
+      "adopted": false
+    },
+    {
+      "question_id": "q053",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this existing My Hero Academia kanji workbook illustration. Keep the heroine Star and Stripe's face, muscular build, reaching hand, costume, cape, jet, sky, pose and composition unchanged. Correct ONLY her hair: every lock must be BLONDE / GOLDEN YELLOW with amber-gold shadows, absolutely NO red, pink, white or blue colored hair streaks. Her swept blonde hair forms thick pointed locks inspired by All Might, but it is NOT literally colored like an American flag. The red-white stripes on her COSTUME and cape remain unchanged. No letters or numbers.",
+      "local_png": "originals/q053-v2.png",
+      "reference_png": "originals/q053-v1.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-90454d8f-2197-45f0-b508-99f5d1c89d65.png",
+      "reason": "スターアンドストライプの髪に赤い筋がある。金髪のみへ修正。",
+      "adopted": true
+    }
+  ]
+}

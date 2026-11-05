@@ -1,0 +1,4 @@
+interface:
+  display_name: "作品で学ぶ漢字・イラスト教材"
+  short_description: "読みの全件網羅・登場人物6割以上・全編調査から画像照合とPNG/WebP出力まで"
+  default_prompt: "$kanji-story-workbook を使い、この漢字教材の全読みを網羅する問題と画像を、指定作品の全編から場面を分散して作成してください。"

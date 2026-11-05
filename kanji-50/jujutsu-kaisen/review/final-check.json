@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "questions": 53,
+  "readings": 53,
+  "characters": 30,
+  "size": [
+    200,
+    200
+  ],
+  "files": {
+    "png": 53,
+    "webp": 53,
+    "originals": 53
+  },
+  "root_layout_matches_my_hero_academia": true,
+  "export_layout_matches_my_hero_academia": true,
+  "all_assets_byte_identical": true,
+  "all_png_webp_pixels_equal": true,
+  "selected_q043_legacy_file": "q43-v2.webp",
+  "legacy_paths_preserved": false,
+  "markdown_links_valid": true,
+  "gallery_questions": 53,
+  "gallery_answers": 53,
+  "removed_legacy_folders": [
+    "jujutsu-illustrations",
+    "jujutsu-illustrations-scenes"
+  ],
+  "current_lesson_files_verified_after_cleanup": true
+}

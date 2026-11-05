@@ -1,0 +1,611 @@
+{
+  "ok": true,
+  "stage": "layout-migration",
+  "checks": [
+    "question/source manifest alignment",
+    "53 readings preserved",
+    "selected revision q43-v2",
+    "PNG/WebP dimensions",
+    "PNG/WebP decoded pixel equality",
+    "source bytes preserved",
+    "gallery links",
+    "ZIP integrity"
+  ],
+  "coverage": {
+    "questions": 53,
+    "target_readings": 53,
+    "covered_readings": 53,
+    "kanji": 32,
+    "actual_characters": 30,
+    "source_images_checked": 53,
+    "research_scope": "アニメ第1期・第2期の場面と人物設定を中心に、漢字学習用に独自の文章で要約。読み取りと語句補足は作中の出来事と区別。第2期までの内容を含む。",
+    "content_review": "imported_existing_notes",
+    "layout_migration": true
+  },
+  "content_review": "既存記録の引継ぎ。新規の内容審査・全編調査の合格判定ではない。",
+  "images": [
+    {
+      "id": "q001",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q002",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q003",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q004",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q005",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q006",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q007",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q008",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q009",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q010",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q011",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q012",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q013",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q014",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q015",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q016",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q017",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q018",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q019",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q020",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q021",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q022",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q023",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q024",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q025",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q026",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q027",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q028",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q029",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q030",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q031",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q032",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q033",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q034",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q035",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q036",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q037",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q038",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q039",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q040",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q041",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q042",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q043",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q044",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q045",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q046",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q047",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q048",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q049",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q050",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q051",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q052",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "q053",
+      "dimensions": [
+        200,
+        200
+      ],
+      "png_webp_pixels_equal": true,
+      "png_bytes_preserved": true,
+      "webp_bytes_preserved": true,
+      "original_bytes_preserved": true
+    }
+  ]
+}

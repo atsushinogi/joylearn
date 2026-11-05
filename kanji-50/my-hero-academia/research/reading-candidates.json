@@ -1,0 +1,857 @@
+{
+  "source": "kanji-50/53の読み方_収録確認.csv",
+  "source_sha256": "13821b39ddb8bd8612b9c090300d056be9affc838859b4a69dcd8edef2ae08d7",
+  "confirmed": false,
+  "count": 53,
+  "notice": "Candidates only. Check all source readings; unannotated text and per-kanji readings require human/dictionary verification.",
+  "candidates": [
+    {
+      "id": "candidate-001",
+      "kind": "explicit_pair",
+      "kanji": "得",
+      "reading": "トク",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:2",
+          "original_values": {
+            "kanji": "得",
+            "reading": "トク"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-002",
+      "kind": "explicit_pair",
+      "kanji": "得",
+      "reading": "える",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:3",
+          "original_values": {
+            "kanji": "得",
+            "reading": "える"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-003",
+      "kind": "explicit_pair",
+      "kanji": "比",
+      "reading": "ヒ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:4",
+          "original_values": {
+            "kanji": "比",
+            "reading": "ヒ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-004",
+      "kind": "explicit_pair",
+      "kanji": "比",
+      "reading": "くらべる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:5",
+          "original_values": {
+            "kanji": "比",
+            "reading": "くらべる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-005",
+      "kind": "explicit_pair",
+      "kanji": "政",
+      "reading": "セイ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:6",
+          "original_values": {
+            "kanji": "政",
+            "reading": "セイ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-006",
+      "kind": "explicit_pair",
+      "kanji": "興",
+      "reading": "キョウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:7",
+          "original_values": {
+            "kanji": "興",
+            "reading": "キョウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-007",
+      "kind": "explicit_pair",
+      "kanji": "興",
+      "reading": "コウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:8",
+          "original_values": {
+            "kanji": "興",
+            "reading": "コウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-008",
+      "kind": "explicit_pair",
+      "kanji": "示",
+      "reading": "ジ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:9",
+          "original_values": {
+            "kanji": "示",
+            "reading": "ジ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-009",
+      "kind": "explicit_pair",
+      "kanji": "示",
+      "reading": "しめす",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:10",
+          "original_values": {
+            "kanji": "示",
+            "reading": "しめす"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-010",
+      "kind": "explicit_pair",
+      "kanji": "張",
+      "reading": "チョウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:11",
+          "original_values": {
+            "kanji": "張",
+            "reading": "チョウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-011",
+      "kind": "explicit_pair",
+      "kanji": "張",
+      "reading": "はる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:12",
+          "original_values": {
+            "kanji": "張",
+            "reading": "はる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-012",
+      "kind": "explicit_pair",
+      "kanji": "支",
+      "reading": "シ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:13",
+          "original_values": {
+            "kanji": "支",
+            "reading": "シ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-013",
+      "kind": "explicit_pair",
+      "kanji": "支",
+      "reading": "ささえる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:14",
+          "original_values": {
+            "kanji": "支",
+            "reading": "ささえる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-014",
+      "kind": "explicit_pair",
+      "kanji": "個",
+      "reading": "コ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:15",
+          "original_values": {
+            "kanji": "個",
+            "reading": "コ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-015",
+      "kind": "explicit_pair",
+      "kanji": "迷",
+      "reading": "まよう",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:16",
+          "original_values": {
+            "kanji": "迷",
+            "reading": "まよう"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-016",
+      "kind": "explicit_pair",
+      "kanji": "在",
+      "reading": "ザイ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:17",
+          "original_values": {
+            "kanji": "在",
+            "reading": "ザイ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-017",
+      "kind": "explicit_pair",
+      "kanji": "在",
+      "reading": "ある",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:18",
+          "original_values": {
+            "kanji": "在",
+            "reading": "ある"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-018",
+      "kind": "explicit_pair",
+      "kanji": "独",
+      "reading": "ドク",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:19",
+          "original_values": {
+            "kanji": "独",
+            "reading": "ドク"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-019",
+      "kind": "explicit_pair",
+      "kanji": "独",
+      "reading": "ひとり",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:20",
+          "original_values": {
+            "kanji": "独",
+            "reading": "ひとり"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-020",
+      "kind": "explicit_pair",
+      "kanji": "弁",
+      "reading": "ベン",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:21",
+          "original_values": {
+            "kanji": "弁",
+            "reading": "ベン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-021",
+      "kind": "explicit_pair",
+      "kanji": "検",
+      "reading": "ケン",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:22",
+          "original_values": {
+            "kanji": "検",
+            "reading": "ケン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-022",
+      "kind": "explicit_pair",
+      "kanji": "提",
+      "reading": "テイ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:23",
+          "original_values": {
+            "kanji": "提",
+            "reading": "テイ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-023",
+      "kind": "explicit_pair",
+      "kanji": "寄",
+      "reading": "キ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:24",
+          "original_values": {
+            "kanji": "寄",
+            "reading": "キ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-024",
+      "kind": "explicit_pair",
+      "kanji": "寄",
+      "reading": "よる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:25",
+          "original_values": {
+            "kanji": "寄",
+            "reading": "よる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-025",
+      "kind": "explicit_pair",
+      "kanji": "寄",
+      "reading": "よせる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:26",
+          "original_values": {
+            "kanji": "寄",
+            "reading": "よせる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-026",
+      "kind": "explicit_pair",
+      "kanji": "余",
+      "reading": "ヨ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:27",
+          "original_values": {
+            "kanji": "余",
+            "reading": "ヨ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-027",
+      "kind": "explicit_pair",
+      "kanji": "余",
+      "reading": "あまる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:28",
+          "original_values": {
+            "kanji": "余",
+            "reading": "あまる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-028",
+      "kind": "explicit_pair",
+      "kanji": "余",
+      "reading": "あます",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:29",
+          "original_values": {
+            "kanji": "余",
+            "reading": "あます"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-029",
+      "kind": "explicit_pair",
+      "kanji": "仏",
+      "reading": "ブツ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:30",
+          "original_values": {
+            "kanji": "仏",
+            "reading": "ブツ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-030",
+      "kind": "explicit_pair",
+      "kanji": "仏",
+      "reading": "ほとけ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:31",
+          "original_values": {
+            "kanji": "仏",
+            "reading": "ほとけ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-031",
+      "kind": "explicit_pair",
+      "kanji": "貸",
+      "reading": "かす",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:32",
+          "original_values": {
+            "kanji": "貸",
+            "reading": "かす"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-032",
+      "kind": "explicit_pair",
+      "kanji": "効",
+      "reading": "コウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:33",
+          "original_values": {
+            "kanji": "効",
+            "reading": "コウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-033",
+      "kind": "explicit_pair",
+      "kanji": "効",
+      "reading": "きく",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:34",
+          "original_values": {
+            "kanji": "効",
+            "reading": "きく"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-034",
+      "kind": "explicit_pair",
+      "kanji": "条",
+      "reading": "ジョウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:35",
+          "original_values": {
+            "kanji": "条",
+            "reading": "ジョウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-035",
+      "kind": "explicit_pair",
+      "kanji": "件",
+      "reading": "ケン",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:36",
+          "original_values": {
+            "kanji": "件",
+            "reading": "ケン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-036",
+      "kind": "explicit_pair",
+      "kanji": "保",
+      "reading": "ホ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:37",
+          "original_values": {
+            "kanji": "保",
+            "reading": "ホ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-037",
+      "kind": "explicit_pair",
+      "kanji": "保",
+      "reading": "たもつ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:38",
+          "original_values": {
+            "kanji": "保",
+            "reading": "たもつ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-038",
+      "kind": "explicit_pair",
+      "kanji": "評",
+      "reading": "ヒョウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:39",
+          "original_values": {
+            "kanji": "評",
+            "reading": "ヒョウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-039",
+      "kind": "explicit_pair",
+      "kanji": "価",
+      "reading": "カ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:40",
+          "original_values": {
+            "kanji": "価",
+            "reading": "カ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-040",
+      "kind": "explicit_pair",
+      "kanji": "賛",
+      "reading": "サン",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:41",
+          "original_values": {
+            "kanji": "賛",
+            "reading": "サン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-041",
+      "kind": "explicit_pair",
+      "kanji": "妻",
+      "reading": "サイ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:42",
+          "original_values": {
+            "kanji": "妻",
+            "reading": "サイ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-042",
+      "kind": "explicit_pair",
+      "kanji": "妻",
+      "reading": "つま",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:43",
+          "original_values": {
+            "kanji": "妻",
+            "reading": "つま"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-043",
+      "kind": "explicit_pair",
+      "kanji": "混",
+      "reading": "コン",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:44",
+          "original_values": {
+            "kanji": "混",
+            "reading": "コン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-044",
+      "kind": "explicit_pair",
+      "kanji": "混",
+      "reading": "こむ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:45",
+          "original_values": {
+            "kanji": "混",
+            "reading": "こむ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-045",
+      "kind": "explicit_pair",
+      "kanji": "混",
+      "reading": "まざる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:46",
+          "original_values": {
+            "kanji": "混",
+            "reading": "まざる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-046",
+      "kind": "explicit_pair",
+      "kanji": "混",
+      "reading": "まぜる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:47",
+          "original_values": {
+            "kanji": "混",
+            "reading": "まぜる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-047",
+      "kind": "explicit_pair",
+      "kanji": "雑",
+      "reading": "ザツ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:48",
+          "original_values": {
+            "kanji": "雑",
+            "reading": "ザツ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-048",
+      "kind": "explicit_pair",
+      "kanji": "雑",
+      "reading": "ゾウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:49",
+          "original_values": {
+            "kanji": "雑",
+            "reading": "ゾウ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-049",
+      "kind": "explicit_pair",
+      "kanji": "略",
+      "reading": "リャク",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:50",
+          "original_values": {
+            "kanji": "略",
+            "reading": "リャク"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-050",
+      "kind": "explicit_pair",
+      "kanji": "採",
+      "reading": "サイ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:51",
+          "original_values": {
+            "kanji": "採",
+            "reading": "サイ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-051",
+      "kind": "explicit_pair",
+      "kanji": "採",
+      "reading": "とる",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:52",
+          "original_values": {
+            "kanji": "採",
+            "reading": "とる"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-052",
+      "kind": "explicit_pair",
+      "kanji": "禁",
+      "reading": "キン",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:53",
+          "original_values": {
+            "kanji": "禁",
+            "reading": "キン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "candidate-053",
+      "kind": "explicit_pair",
+      "kanji": "能",
+      "reading": "ノウ",
+      "occurrences": [
+        {
+          "source": "kanji-50/53の読み方_収録確認.csv",
+          "location": "row:54",
+          "original_values": {
+            "kanji": "能",
+            "reading": "ノウ"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="呪術廻戦・ヒロアカから選ぶ、イラスト付きの漢字53問。指・ペン・マウスで手書きして、採点と復習ができます。">
+  <title>漢字のものがたり｜手書き53問</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="core.js"></script>
+  <script defer src="question-bank.js"></script>
+  <script defer src="vendor/kanji-canvas.js"></script>
+  <script defer src="vendor/ref-patterns.js"></script>
+  <script defer src="ink-pad.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">学習画面へ</a>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">漢</span><span>漢字のものがたり<small>手書きで学ぶ、53の読み。</small></span></a>
+      <a class="home-link" href="../index.html">アプリ一覧 <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main">
+      <p id="app-error" class="error" role="alert" hidden></p>
+      <noscript><p class="error">学習を始めるには、ブラウザーのJavaScriptを有効にしてください。</p></noscript>
+      <section id="setup" aria-labelledby="setup-title">
+        <div class="intro"><p class="eyebrow">好きな物語が、「書けた！」につながる。</p><h1 id="setup-title">物語をえらんで、<br>漢字<span class="title-number">53</span>問。</h1><p class="intro-copy">知っている場面を思い浮かべて、ひと文字ずつ。<br>指でも、ペンでも、マウスでも。</p><span class="intro-stamp" aria-hidden="true">書く<br><b>たのしさ</b></span></div>
+        <form id="settings" class="setup-card">
+          <fieldset class="course-fieldset"><legend><span class="step">01</span> どちらの物語で学ぶ？</legend>
+            <div class="course-grid">
+              <label class="course-option selected" data-theme="violet"><input type="radio" name="course" value="jujutsu-kaisen" checked><span class="course-copy"><span class="course-tag">呪術師たちの物語</span><strong>呪術廻戦</strong><span class="course-count">32漢字 · 53問</span><small class="course-progress" id="progress-jujutsu-kaisen"></small></span><img src="jujutsu-kaisen/exports/v1/webp/q001.webp" width="140" height="140" alt="呪術廻戦の教材イラスト"><span class="selection-mark" aria-hidden="true">✓</span></label>
+              <label class="course-option" data-theme="green"><input type="radio" name="course" value="my-hero-academia"><span class="course-copy"><span class="course-tag">ヒーローたちの物語</span><strong><small>僕のヒーローアカデミア</small>ヒロアカ</strong><span class="course-count">32漢字 · 53問</span><small class="course-progress" id="progress-my-hero-academia"></small></span><img src="my-hero-academia/exports/v1/webp/q002.webp" width="140" height="140" alt="ヒロアカの教材イラスト"><span class="selection-mark" aria-hidden="true">✓</span></label>
+            </div>
+          </fieldset>
+          <div class="start-row"><fieldset class="order-fieldset"><legend><span class="step">02</span> 問題のならび方</legend><div class="segmented"><label><input type="radio" name="order" value="ordered" checked><span>順番どおり</span></label><label><input type="radio" name="order" value="shuffle"><span>シャッフル</span></label></div></fieldset><div class="start-actions"><button id="start" class="primary" type="submit">呪術廻戦の53問をはじめる <span aria-hidden="true">→</span></button><button id="start-fresh" class="text-button" type="button" hidden>はじめから53問をやり直す</button><p id="resume-note" class="muted small" aria-live="polite">全53問を出題します。最後にまとめて採点。</p></div></div>
+        </form>
+        <ol class="how-to"><li><span>1</span><div><strong>イラストと問題を見る</strong><p>読みをヒントに、漢字を思い出そう。</p></div></li><li><span>2</span><div><strong>1文字ずつ書いて選ぶ</strong><p>手書きの候補から、書いた文字を確定。</p></div></li><li><span>3</span><div><strong>採点して、もう一度</strong><p>まちがえた問題だけの復習もできる。</p></div></li></ol>
+      </section>
+      <section id="test" aria-labelledby="position" hidden>
+        <div class="test-heading"><div><p class="eyebrow" id="session-label"></p><h1 id="position"></h1></div><button id="pause" class="outline small-button" type="button">保存して作品選択へ</button></div>
+        <div class="progress-row"><progress id="progress" max="53" value="0" aria-label="回答済みの問題数"></progress><span id="answered-count" class="small"></span></div>
+        <div class="test-grid">
+          <section class="card question-card" aria-label="問題と回答"><div class="question-meta"><span id="source-label" class="pill"></span><span class="muted small">読みを見て、漢字を書こう。</span></div><div class="question-scene"><img id="scene-image" width="200" height="200" alt=""><p id="question" class="question"></p></div><div class="answer-heading"><h2>あなたの回答</h2><button id="answer-delete" class="text-button" type="button">1文字消す</button><button id="answer-clear" class="text-button" type="button">回答を消す</button></div><div id="answer-fields" class="answer-fields"></div><p class="word-preview">ことばの形 <strong id="word-preview"></strong></p><p class="small muted">送りがなは表示済みです。漢字だけを書こう。<br>回答欄にはキーボードでも入力できます。</p></section>
+          <section class="card ink-card" aria-label="手書き入力"><div class="ink-heading"><h2>1文字ずつ、書いてみよう</h2><span class="pill">指・ペン・マウス</span></div><p id="active-hint" class="active-hint"></p><div class="paper"><canvas id="ink" width="768" height="768" tabindex="0" aria-label="漢字を1文字書く手書きエリア"></canvas></div><div class="ink-tools"><button id="ink-undo" type="button">↶ 1画もどす</button><button id="ink-clear" type="button">書き直す</button><button id="ink-recognize" class="outline" type="button">認識する</button></div><p id="ink-status" class="small muted" role="status" aria-live="polite"></p><div id="ink-candidates" class="candidates" aria-label="手書きの認識候補"></div></section>
+        </div>
+        <nav class="navigation" aria-label="問題の移動"><button id="previous" class="outline" type="button">← 前の問題</button><button id="finish" class="text-button" type="button">採点する</button><button id="next" class="primary" type="button">次の問題 →</button></nav>
+        <details class="question-map"><summary>問題一覧から移動する <span class="muted small">● 回答済み</span></summary><div id="question-map"></div></details>
+      </section>
+      <section id="results" aria-labelledby="result-title" hidden>
+        <div class="result-intro"><p id="result-course" class="eyebrow"></p><h1 id="result-title"></h1><div class="score-circle"><strong id="score"></strong><span>点 / 100</span></div><p id="score-summary"></p></div>
+        <div class="result-actions"><button id="retry-wrong" class="primary" type="button">まちがえた問題をもう一度</button><button id="retry-all" class="outline" type="button">同じ作品で53問</button><button id="back-setup" class="text-button" type="button">作品をえらび直す</button></div>
+        <div class="results-heading"><h2>答えをたしかめよう</h2><label class="filter"><input id="wrong-only" type="checkbox">復習する問題だけ</label></div><div id="result-list" class="result-list"></div>
+      </section>
+    </main>
+    <footer><p id="storage-status">回答はこの端末に自動保存されます。</p><p>手書きの候補で確定した文字を採点します。字形・書き順の採点は行いません。</p><p class="footer-links"><a href="jujutsu-kaisen/exports/v1/index.html">呪術廻戦の教材一覧</a><a href="my-hero-academia/exports/v1/index.html">ヒロアカの教材一覧</a><a href="vendor/LICENSE.txt">手書き認識：Kanji Canvas / MIT</a></p></footer>
+  </div>
+  <dialog id="grade-dialog" aria-labelledby="grade-dialog-title"><h2 id="grade-dialog-title">ここまでの回答を採点しますか？</h2><p id="grade-message"></p><p class="small muted">採点後は、まちがえた問題を復習できます。</p><div class="dialog-actions"><button id="cancel-grade" class="outline" type="button">回答にもどる</button><button id="confirm-grade" class="primary" type="button">採点する</button></div></dialog>
+  <dialog id="restart-dialog" aria-labelledby="restart-dialog-title"><h2 id="restart-dialog-title">はじめから53問に挑戦する？</h2><p>この作品の途中の回答を、新しいテストに置き換えます。</p><div class="dialog-actions"><button id="cancel-restart" class="outline" type="button">つづきを解く</button><button id="confirm-restart" class="primary" type="button">はじめから</button></div></dialog>
+</body>
+</html>
