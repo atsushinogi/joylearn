@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>アスキーアート工房</title>
+  <meta name="description" content="画像を読み込んで、指定した文字数のアスキーアートに変換します。画像は端末の外に送信されません。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F7F3EA;
+      --card: #FFFDF8;
+      --ink: #2B2722;
+      --ink-soft: #6B6358;
+      --line: #E6DDCB;
+      --accent: #2F6FA3;
+      --accent-tint: #DCEAF5;
+      --on-accent: #fff;
+      --error: #A8433D;
+      --shadow: 0 1px 2px rgb(40 30 20 / .06), 0 8px 24px rgb(40 30 20 / .08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #1C1A17;
+        --card: #26231F;
+        --ink: #EFE9DE;
+        --ink-soft: #ADA493;
+        --line: #3A352E;
+        --accent: #6FA8D6;
+        --accent-tint: #1F3346;
+        --on-accent: #1C1A17;
+        --error: #D9776F;
+        --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 24px rgb(0 0 0 / .3);
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #1C1A17;
+      --card: #26231F;
+      --ink: #EFE9DE;
+      --ink-soft: #ADA493;
+      --line: #3A352E;
+      --accent: #6FA8D6;
+      --accent-tint: #1F3346;
+      --on-accent: #1C1A17;
+      --error: #D9776F;
+      --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 8px 24px rgb(0 0 0 / .3);
+    }
+
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Zen Maru Gothic", system-ui, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 1280px; margin: 0 auto; padding: 24px 16px 40px; }
+    .back { color: var(--ink-soft); font-size: 14px; text-decoration: none; }
+    .back:hover { text-decoration: underline; }
+    h1 { margin: 4px 0 0; font-size: clamp(24px, 5vw, 32px); font-weight: 900; }
+    .lead { margin: 2px 0 20px; color: var(--ink-soft); font-size: 15px; }
+
+    .layout { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 20px; align-items: start; }
+    @media (max-width: 859px) {
+      .layout { grid-template-columns: minmax(0, 1fr); }
+      /* スマホでは、設定を変えながら結果を見られるよう結果を上に出す。 */
+      body.has-image .result { order: -1; }
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      padding: 16px;
+    }
+
+    fieldset { border: 0; margin: 0 0 18px; padding: 0; min-width: 0; }
+    fieldset:last-child { margin-bottom: 0; }
+    legend, .label { display: block; padding: 0; margin-bottom: 6px; font-size: 14px; font-weight: 700; }
+    .hint { margin: 6px 0 0; color: var(--ink-soft); font-size: 12px; }
+
+    button, .file-button {
+      min-height: 44px;
+      padding: 8px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--card);
+      color: var(--ink);
+      font: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button:disabled { opacity: .45; cursor: not-allowed; }
+    button.primary, .file-button { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+    button:focus-visible, .file-button:focus-within, input:focus-visible, select:focus-visible, #art:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .dropzone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 16px;
+      border: 2px dashed var(--line);
+      border-radius: 12px;
+      text-align: center;
+    }
+    body.dragging .dropzone { border-color: var(--accent); background: var(--accent-tint); }
+    .file-button { display: inline-flex; align-items: center; }
+    .file-button input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+    .link-button { min-height: 44px; padding: 4px 8px; border: 0; background: none; color: var(--accent); text-decoration: underline; font-weight: 500; }
+    #thumb { display: none; max-width: 100%; max-height: 120px; border-radius: 8px; }
+    #thumb.shown { display: block; }
+    body.dot-mode #thumb { image-rendering: pixelated; min-width: 96px; }
+    #fileName { font-size: 13px; color: var(--ink-soft); overflow-wrap: anywhere; }
+    #message { margin: 8px 0 0; color: var(--error); font-size: 13px; font-weight: 700; }
+    #message:empty { display: none; }
+
+    .size-row { display: flex; align-items: flex-end; gap: 8px; }
+    .size-row label { flex: 1; font-size: 13px; color: var(--ink-soft); }
+    .size-row span.times { padding-bottom: 10px; color: var(--ink-soft); }
+    input[type="number"], input[type="text"], select {
+      display: block;
+      width: 100%;
+      min-height: 44px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 16px;
+    }
+    input[type="text"] { font-family: ui-monospace, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .check { display: flex; align-items: center; gap: 8px; min-height: 36px; margin-top: 4px; font-size: 14px; cursor: pointer; }
+    .check input { width: 18px; height: 18px; accent-color: var(--accent); }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+    .chips button { flex: 1; padding: 6px 4px; font-weight: 500; }
+
+    .segmented { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+    .segmented label { display: block; cursor: pointer; }
+    .segmented input { position: absolute; opacity: 0; }
+    .segmented span {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 44px; padding: 4px 8px;
+      border: 1px solid var(--line); border-radius: 10px;
+      font-size: 14px; font-weight: 500; text-align: center;
+    }
+    .segmented input:checked + span { background: var(--accent-tint); border-color: var(--accent); font-weight: 700; }
+    .segmented input:focus-visible + span { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+    .slider { display: block; margin-bottom: 8px; font-size: 13px; color: var(--ink-soft); }
+    .slider output { float: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+    .slider input { display: block; width: 100%; min-height: 32px; margin: 0; accent-color: var(--accent); }
+
+    .output-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+    #dimensions { margin-right: auto; font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    #status { min-height: 20px; margin: 8px 0 0; color: var(--ink-soft); font-size: 13px; }
+    /* 出力の見た目は、選んだ背景に合わせてテーマとは独立に決める。 */
+    .stage { padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: #111; }
+    .stage.on-dark { background: #111; color: #f2f2f2; }
+    .fit { position: relative; overflow: hidden; min-height: 240px; }
+    body.has-image .fit { min-height: 0; }
+    #art, #ruler {
+      margin: 0;
+      font-family: ui-monospace, Menlo, Consolas, "DejaVu Sans Mono", monospace;
+      font-size: 12px;
+      white-space: pre;
+      font-variant-ligatures: none;
+    }
+    #art { position: absolute; top: 0; left: 0; width: max-content; transform-origin: 0 0; }
+    #ruler { position: absolute; visibility: hidden; }
+    #placeholder[hidden] { display: none; }
+    #placeholder { position: absolute; inset: 0; display: grid; place-items: center; padding: 16px; color: #777; font-size: 15px; text-align: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="../index.html">← トップへ</a>
+    <h1>アスキーアート工房</h1>
+    <p class="lead">画像を、指定した文字数のアスキーアートに変換します。画像は端末の外に送信されません。</p>
+
+    <div class="layout">
+      <section class="panel" aria-label="設定">
+        <fieldset>
+          <legend>画像</legend>
+          <div class="dropzone">
+            <img id="thumb" alt="読み込んだ画像">
+            <span id="fileName"></span>
+            <label class="file-button">画像をえらぶ<input id="file" type="file" accept="image/*"></label>
+            <span class="hint" style="margin:0">ドラッグ＆ドロップや貼り付けでもOK</span>
+            <button id="sample" class="link-button" type="button">サンプル画像でためす</button>
+          </div>
+          <p id="message" role="alert"></p>
+        </fieldset>
+
+        <fieldset>
+          <legend>画像の種類</legend>
+          <div class="segmented">
+            <label><input type="radio" name="mode" value="photo" checked><span>写真・イラスト</span></label>
+            <label><input type="radio" name="mode" value="dot"><span>ドット絵</span></label>
+          </div>
+          <div id="dotOptions" hidden style="margin-top:10px">
+            <div class="size-row">
+              <label>1ドットの大きさ（ピクセル）<input id="dotSize" type="number" inputmode="numeric" min="1" step="1" value="1"></label>
+            </div>
+            <button id="dotFit" type="button" style="width:100%;margin-top:8px">ドットにぴったり合わせる</button>
+            <p id="dotInfo" class="hint" role="status"></p>
+            <p class="hint">色を混ぜずに変換します。大きさは自動で検出します。JPEGなどで検出できないときは入力してください。</p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>サイズ（文字数）</legend>
+          <div class="size-row">
+            <label>よこ<input id="cols" type="number" inputmode="numeric" min="1" max="400" step="1" value="80"></label>
+            <span class="times">×</span>
+            <label>たて<input id="rows" type="number" inputmode="numeric" min="1" max="400" step="1" value="40"></label>
+          </div>
+          <label class="check"><input id="lock" type="checkbox" checked>画像の縦横比を保つ</label>
+          <div class="chips" role="group" aria-label="よこの文字数をえらぶ">
+            <button type="button" data-cols="40">40</button>
+            <button type="button" data-cols="80">80</button>
+            <button type="button" data-cols="120">120</button>
+            <button type="button" data-cols="200">200</button>
+          </div>
+          <p class="hint">1〜400文字。縦横比は、文字の幅:高さを1:2として計算します。</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>使う背景</legend>
+          <div class="segmented">
+            <label><input type="radio" name="background" value="light" checked><span>白い背景用</span></label>
+            <label><input type="radio" name="background" value="dark"><span>黒い背景用</span></label>
+          </div>
+          <p class="hint">貼り付け先の背景に合わせると、明暗が正しく見えます。</p>
+        </fieldset>
+
+        <fieldset>
+          <label class="label" for="preset">使う文字</label>
+          <select id="preset">
+            <option value=" .:-=+*#%@">標準（10段階）</option>
+            <option value=" .'`^&quot;,:;Il!i&gt;&lt;~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&amp;8%B@$">細かい（70段階）</option>
+            <option value=" .*#">シンプル（4段階）</option>
+            <option value=" #">白黒（2段階）</option>
+            <option value=" ░▒▓█">ブロック（ASCII外の文字）</option>
+            <option value="custom">自分で入力</option>
+          </select>
+          <div id="customWrap" hidden style="margin-top:8px">
+            <label class="label" for="custom" style="font-weight:500;font-size:13px">うすい文字 → こい文字 の順に入力</label>
+            <input id="custom" type="text" value=" .oO@" spellcheck="false" autocomplete="off">
+            <p class="hint">全角文字を混ぜると、列がそろわないことがあります。</p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>調整</legend>
+          <label class="slider">明るさ <output id="brightnessValue">0</output>
+            <input id="brightness" type="range" min="-100" max="100" step="5" value="0">
+          </label>
+          <label class="slider">コントラスト <output id="contrastValue">1.0</output>
+            <input id="contrast" type="range" min="0.2" max="3" step="0.1" value="1">
+          </label>
+        </fieldset>
+      </section>
+
+      <section class="panel result" aria-label="結果">
+        <div class="output-head">
+          <span id="dimensions"></span>
+          <button id="copy" class="primary" type="button" disabled>コピー</button>
+          <button id="download" type="button" disabled>.txtで保存</button>
+        </div>
+        <div id="stage" class="stage">
+          <div id="fit" class="fit">
+            <span id="ruler" aria-hidden="true"></span>
+            <pre id="art" tabindex="0" aria-label="生成されたアスキーアート"></pre>
+            <div id="placeholder">画像を読み込むと、ここに表示されます</div>
+          </div>
+        </div>
+        <p id="status" role="status"></p>
+      </section>
+    </div>
+  </main>
+
+  <script src="ascii-core.js"></script>
+  <script>
+    'use strict';
+    const { MIN_SIZE, MAX_SIZE, clampSize, sizeFromCols, sizeFromRows, detectDotSize, dotFitSize, imageToAscii } = window.AsciiCore;
+    const $ = (id) => document.getElementById(id);
+    // 1文字あたりこの数×この数のピクセルで平均を取り、細い線の取りこぼしを防ぐ。
+    const SAMPLES_PER_CELL = 4;
+    const MAX_PREVIEW_SCALE = 2;
+
+    const state = { source: null, baseName: 'ascii-art', cols: 80, rows: 40, dotSize: 1, text: '' };
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d', { willReadFrequently: true });
+    let thumbUrl = null;
+    let frame = 0;
+
+    const currentRamp = () => $('preset').value === 'custom' ? $('custom').value : $('preset').value;
+    const isDotMode = () => document.querySelector('input[name="mode"]:checked').value === 'dot';
+    const currentBackground = () => document.querySelector('input[name="background"]:checked').value;
+
+    /* 元の大きさのままのピクセル。ドット絵モードでは画像ごとに1回だけ取り出す。 */
+    function sourcePixels(source) {
+      if (!source.pixels) {
+        canvas.width = source.width;
+        canvas.height = source.height;
+        context.drawImage(source.element, 0, 0);
+        source.pixels = context.getImageData(0, 0, source.width, source.height);
+      }
+      return source.pixels;
+    }
+
+    /* 写真向け：なめらかに縮小してから、文字ごとに平均を取る。 */
+    function scaledPixels(source) {
+      canvas.width = state.cols * SAMPLES_PER_CELL;
+      canvas.height = state.rows * SAMPLES_PER_CELL;
+      context.imageSmoothingEnabled = true;
+      context.imageSmoothingQuality = 'high';
+      context.drawImage(source.element, 0, 0, canvas.width, canvas.height);
+      return context.getImageData(0, 0, canvas.width, canvas.height);
+    }
+
+    function updateDotInfo() {
+      if (!state.source || !isDotMode()) return;
+      const fit = dotFitSize(state.source.width, state.source.height, state.dotSize);
+      const aligned = fit.exact && state.cols === fit.cols && state.rows === fit.rows;
+      let note = '1ドット＝よこ2文字×たて1行';
+      if (!fit.exact) note = '上限の400文字をこえるため縮小しています（色の混ざらない間引き）';
+      else if (!aligned) note = '指定サイズのため、ドットと文字はそろっていません';
+      $('dotInfo').textContent = `${fit.dotsWide}×${fit.dotsHigh}ドット：${note}`;
+    }
+
+    function render() {
+      frame = 0;
+      if (!state.source) return;
+      const dotMode = isDotMode();
+      const { data, width, height } = dotMode ? sourcePixels(state.source) : scaledPixels(state.source);
+      state.text = imageToAscii(data, width, height, {
+        sampling: dotMode ? 'nearest' : 'average',
+        cols: state.cols,
+        rows: state.rows,
+        ramp: currentRamp(),
+        background: currentBackground(),
+        brightness: Number($('brightness').value),
+        contrast: Number($('contrast').value),
+      });
+      $('art').textContent = state.text;
+      $('placeholder').hidden = true;
+      document.body.classList.add('has-image');
+      $('dimensions').textContent = `${state.cols} × ${state.rows} 文字`;
+      $('copy').disabled = false;
+      $('download').disabled = false;
+      $('status').textContent = '';
+      updateDotInfo();
+      fitPreview();
+    }
+
+    function scheduleRender() {
+      if (!frame) frame = requestAnimationFrame(render);
+    }
+
+    /* 文字の大きさは固定したまま拡大縮小し、ブラウザーの最小フォントサイズの影響を避ける。 */
+    function fitPreview() {
+      const art = $('art');
+      const ruler = $('ruler');
+      ruler.textContent = 'M'.repeat(100);
+      const cellWidth = ruler.getBoundingClientRect().width / 100;
+      art.style.lineHeight = `${cellWidth * 2}px`;
+      const fit = $('fit');
+      if (!state.text) { fit.style.height = ''; return; }
+      const width = art.offsetWidth;
+      const height = art.offsetHeight;
+      const available = fit.clientWidth;
+      const maxHeight = Math.max(240, window.innerHeight * 0.8);
+      const scale = Math.min(available / width, maxHeight / height, MAX_PREVIEW_SCALE);
+      const left = (available - width * scale) / 2;
+      art.style.transform = `translate(${left}px, 0) scale(${scale})`;
+      fit.style.height = `${height * scale}px`;
+    }
+
+    function syncSizeFields() {
+      $('cols').value = state.cols;
+      $('rows').value = state.rows;
+    }
+
+    /* 入力中の欄は書きかえず、確定（change）のときに丸めた値を表示する。 */
+    function applySize(changed, value) {
+      const { source } = state;
+      if (!source || !$('lock').checked) {
+        state[changed] = clampSize(value);
+      } else if (changed === 'cols') {
+        Object.assign(state, sizeFromCols(value, source.width, source.height));
+      } else {
+        Object.assign(state, sizeFromRows(value, source.width, source.height));
+      }
+    }
+
+    function onSizeInput(event) {
+      const changed = event.target.id;
+      const value = Number(event.target.value);
+      const usable = event.target.value !== '' && Number.isInteger(value) && value >= MIN_SIZE && value <= MAX_SIZE;
+      if (!usable) return;
+      applySize(changed, value);
+      const other = changed === 'cols' ? 'rows' : 'cols';
+      $(other).value = state[other];
+      scheduleRender();
+    }
+
+    function onSizeCommit(event) {
+      const changed = event.target.id;
+      const raw = event.target.value;
+      // 空欄や数値でない入力は、直前の値に戻す。
+      const value = raw === '' || !Number.isFinite(Number(raw)) ? state[changed] : Number(raw);
+      applySize(changed, value);
+      syncSizeFields();
+      scheduleRender();
+    }
+
+    function fitToDots() {
+      const { cols, rows } = dotFitSize(state.source.width, state.source.height, state.dotSize);
+      state.cols = cols;
+      state.rows = rows;
+      syncSizeFields();
+    }
+
+    function setUpDots() {
+      const { source } = state;
+      const pixels = sourcePixels(source);
+      state.dotSize = detectDotSize(pixels.data, pixels.width, pixels.height);
+      $('dotSize').max = Math.max(source.width, source.height);
+      $('dotSize').value = state.dotSize;
+      fitToDots();
+    }
+
+    function useSource(source, baseName, thumbSrc, label) {
+      state.source = source;
+      state.baseName = baseName;
+      $('thumb').src = thumbSrc;
+      $('thumb').classList.add('shown');
+      $('fileName').textContent = label;
+      $('message').textContent = '';
+      if (isDotMode()) {
+        setUpDots();
+      } else if ($('lock').checked) {
+        Object.assign(state, sizeFromCols(state.cols, source.width, source.height));
+        syncSizeFields();
+      }
+      scheduleRender();
+    }
+
+    function loadFile(file) {
+      if (!file) return;
+      const url = URL.createObjectURL(file);
+      const image = new Image();
+      image.onload = () => {
+        if (!image.naturalWidth || !image.naturalHeight) {
+          URL.revokeObjectURL(url);
+          showLoadError();
+          return;
+        }
+        if (thumbUrl) URL.revokeObjectURL(thumbUrl);
+        thumbUrl = url;
+        const baseName = file.name ? file.name.replace(/\.[^.]+$/, '') : 'ascii-art';
+        const label = `${file.name || '貼り付けた画像'}（${image.naturalWidth}×${image.naturalHeight}）`;
+        useSource({ element: image, width: image.naturalWidth, height: image.naturalHeight }, baseName, url, label);
+      };
+      image.onerror = () => {
+        URL.revokeObjectURL(url);
+        showLoadError();
+      };
+      image.src = url;
+    }
+
+    function showLoadError() {
+      $('message').textContent = 'この画像は読み込めませんでした。PNG・JPEG・WebP・GIFなどをお試しください。';
+    }
+
+    /* 8倍に拡大したネコのドット絵（透明の背景つき）をその場で描く。 */
+    function loadDotSample() {
+      const dots = [
+        '..K..........K..',
+        '.KOK........KOK.',
+        '.KOOK......KOOK.',
+        '.KOOOKKKKKKOOOK.',
+        'KOOOOOOOOOOOOOOK',
+        'KOOOOOOOOOOOOOOK',
+        'KOOKKOOOOOOKKOOK',
+        'KOOKKOOOOOOKKOOK',
+        'KOOOOOOOOOOOOOOK',
+        'KPPOOOOKKOOOOPPK',
+        'KOOOOKOOOOKOOOOK',
+        '.KOOOOKKKKOOOOK.',
+        '..KOOOOOOOOOOK..',
+        '...KKKKKKKKKK...',
+      ];
+      const colors = { K: '#2b2722', O: '#e8a15c', P: '#f2b5b5' };
+      const scale = 8;
+      const sample = document.createElement('canvas');
+      sample.width = dots[0].length * scale;
+      sample.height = dots.length * scale;
+      const g = sample.getContext('2d');
+      dots.forEach((line, y) => Array.from(line).forEach((dot, x) => {
+        if (!colors[dot]) return;
+        g.fillStyle = colors[dot];
+        g.fillRect(x * scale, y * scale, scale, scale);
+      }));
+      useSource({ element: sample, width: sample.width, height: sample.height, isSample: true }, 'sample',
+        sample.toDataURL('image/png'), `サンプルのドット絵（${sample.width}×${sample.height}）`);
+    }
+
+    /* 外部ファイルなしで試せるよう、夕焼けと山の絵をその場で描く。 */
+    function loadSample() {
+      if (isDotMode()) {
+        loadDotSample();
+        return;
+      }
+      const sample = document.createElement('canvas');
+      sample.width = 640;
+      sample.height = 400;
+      const g = sample.getContext('2d');
+      const sky = g.createLinearGradient(0, 0, 0, 400);
+      sky.addColorStop(0, '#16263f');
+      sky.addColorStop(0.75, '#e8a15c');
+      g.fillStyle = sky;
+      g.fillRect(0, 0, 640, 400);
+      g.fillStyle = '#fff4d0';
+      g.beginPath();
+      g.arc(450, 170, 58, 0, Math.PI * 2);
+      g.fill();
+      g.fillStyle = '#4a4f63';
+      g.beginPath();
+      g.moveTo(0, 400); g.lineTo(0, 300); g.lineTo(150, 130); g.lineTo(300, 310); g.lineTo(390, 240); g.lineTo(640, 400);
+      g.fill();
+      g.fillStyle = '#f4f4f4';
+      g.beginPath();
+      g.moveTo(150, 130); g.lineTo(106, 181); g.lineTo(135, 170); g.lineTo(152, 190); g.lineTo(170, 168); g.lineTo(198, 188);
+      g.fill();
+      g.fillStyle = '#14161f';
+      g.beginPath();
+      g.moveTo(0, 400); g.lineTo(0, 350); g.lineTo(220, 300); g.lineTo(470, 360); g.lineTo(640, 320); g.lineTo(640, 400);
+      g.fill();
+      useSource({ element: sample, width: 640, height: 400, isSample: true }, 'sample', sample.toDataURL('image/png'), 'サンプル画像（640×400）');
+    }
+
+    async function copyText() {
+      try {
+        await navigator.clipboard.writeText(state.text);
+      } catch {
+        // http:// や file:// で Clipboard API が使えない場合の代替。
+        const area = document.createElement('textarea');
+        area.value = state.text;
+        area.style.position = 'fixed';
+        area.style.opacity = '0';
+        document.body.append(area);
+        area.select();
+        const copied = document.execCommand('copy');
+        area.remove();
+        if (!copied) {
+          $('status').textContent = 'コピーできませんでした。表示された文字を選択してコピーしてください。';
+          return;
+        }
+      }
+      $('status').textContent = 'コピーしました。等幅フォントの場所に貼り付けると形がそろいます。';
+    }
+
+    function downloadText() {
+      const url = URL.createObjectURL(new Blob([state.text + '\n'], { type: 'text/plain;charset=utf-8' }));
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `${state.baseName}-${state.cols}x${state.rows}.txt`;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    $('file').addEventListener('change', (event) => {
+      loadFile(event.target.files[0]);
+      event.target.value = ''; // 同じファイルをもう一度選べるようにする。
+    });
+    $('sample').addEventListener('click', loadSample);
+
+    document.querySelectorAll('input[name="mode"]').forEach((radio) => {
+      radio.addEventListener('change', () => {
+        const dotMode = isDotMode();
+        document.body.classList.toggle('dot-mode', dotMode);
+        $('dotOptions').hidden = !dotMode;
+        if (state.source?.isSample) {
+          loadSample(); // サンプルは種類に合った絵に入れかえる。
+        } else if (state.source) {
+          if (dotMode) {
+            setUpDots();
+          } else if ($('lock').checked) {
+            Object.assign(state, sizeFromCols(state.cols, state.source.width, state.source.height));
+            syncSizeFields();
+          }
+          scheduleRender();
+        }
+      });
+    });
+    $('dotSize').addEventListener('change', (event) => {
+      if (!state.source) return;
+      const value = Math.round(Number(event.target.value));
+      const limit = Math.max(state.source.width, state.source.height);
+      if (event.target.value !== '' && Number.isFinite(value)) state.dotSize = Math.min(limit, Math.max(1, value));
+      event.target.value = state.dotSize;
+      fitToDots();
+      scheduleRender();
+    });
+    $('dotFit').addEventListener('click', () => {
+      if (!state.source) return;
+      fitToDots();
+      scheduleRender();
+    });
+
+    let dragDepth = 0;
+    document.addEventListener('dragenter', (event) => {
+      event.preventDefault();
+      dragDepth++;
+      document.body.classList.add('dragging');
+    });
+    document.addEventListener('dragleave', () => {
+      dragDepth = Math.max(0, dragDepth - 1);
+      if (!dragDepth) document.body.classList.remove('dragging');
+    });
+    document.addEventListener('dragover', (event) => event.preventDefault());
+    document.addEventListener('drop', (event) => {
+      event.preventDefault();
+      dragDepth = 0;
+      document.body.classList.remove('dragging');
+      loadFile(event.dataTransfer.files[0]);
+    });
+    document.addEventListener('paste', (event) => {
+      const image = Array.from(event.clipboardData.files).find((file) => file.type.startsWith('image/'));
+      if (image) {
+        event.preventDefault();
+        loadFile(image);
+      }
+    });
+
+    for (const id of ['cols', 'rows']) {
+      $(id).addEventListener('input', onSizeInput);
+      $(id).addEventListener('change', onSizeCommit);
+    }
+    $('lock').addEventListener('change', () => {
+      if ($('lock').checked && state.source) {
+        Object.assign(state, sizeFromCols(state.cols, state.source.width, state.source.height));
+        syncSizeFields();
+        scheduleRender();
+      }
+    });
+    document.querySelectorAll('[data-cols]').forEach((button) => {
+      button.addEventListener('click', () => {
+        applySize('cols', Number(button.dataset.cols));
+        syncSizeFields();
+        scheduleRender();
+      });
+    });
+    document.querySelectorAll('input[name="background"]').forEach((radio) => {
+      radio.addEventListener('change', () => {
+        $('stage').classList.toggle('on-dark', currentBackground() === 'dark');
+        scheduleRender();
+      });
+    });
+    $('preset').addEventListener('change', () => {
+      $('customWrap').hidden = $('preset').value !== 'custom';
+      scheduleRender();
+    });
+    $('custom').addEventListener('input', scheduleRender);
+    $('brightness').addEventListener('input', (event) => {
+      $('brightnessValue').textContent = event.target.value;
+      scheduleRender();
+    });
+    $('contrast').addEventListener('input', (event) => {
+      $('contrastValue').textContent = Number(event.target.value).toFixed(1);
+      scheduleRender();
+    });
+    $('copy').addEventListener('click', copyText);
+    $('download').addEventListener('click', downloadText);
+    new ResizeObserver(fitPreview).observe($('fit'));
+    window.addEventListener('resize', fitPreview);
+  </script>
+</body>
+</html>
