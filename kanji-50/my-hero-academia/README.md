@@ -4,12 +4,12 @@ kanji-50 の32漢字・53通りの読みを、原作本編の人物・設定・�
 
 ## 開く・ダウンロードする
 
-- [画像付き一覧](exports/v1/index.html)：全53問、解答の開閉、PNG/WebPの個別保存。
+- [画像付き一覧](exports/v1/index.html)：全53問、解答の開閉、WebPの個別保存。
 - [問題](exports/v1/問題.md) ／ [解答](exports/v1/解答.md) ／ [対応CSV](exports/v1/問題と画像の対応.csv)
 - [PNG一括](exports/v1/images-png.zip) ／ [WebP一括](exports/v1/images-webp.zip)
 - [200px確認シート1](review/200px-sheet-1.png) ／ [2](review/200px-sheet-2.png) ／ [3](review/200px-sheet-3.png)
 
-配布用画像はPNG・可逆WebPとも各53枚、縦横200×200pxです。解凍後は対応CSVのIDと画像名を合わせて使います。一覧の画像を押すと生成原画を開けます。
+配布用画像はPNG・可逆WebPとも各53枚、縦横200×200pxです。解凍後は対応CSVのIDと画像名を合わせて使います。一覧の画像を押すと200×200pxのWebP画像を開けます。
 
 ## 対象範囲と資料の確認方法
 

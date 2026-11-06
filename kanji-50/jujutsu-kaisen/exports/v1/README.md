@@ -9,7 +9,7 @@
 
 ## ファイル
 
-`originals/` は採用原画、`png/` と `webp/` が配布画像です。一覧の画像を押すと原画を開けます。
+`originals/` は採用原画、`png/` と `webp/` が配布画像です。一覧の表示・保存はWebPを使い、画像を押すと200×200pxのWebP画像を開けます。
 
 [PNG一括](images-png.zip) ／ [WebP一括](images-webp.zip) ／ [対応CSV](問題と画像の対応.csv)
 

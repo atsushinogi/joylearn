@@ -101,7 +101,14 @@
   function sentence(container, q, mode = 'blank') {
     container.replaceChildren();
     for (const part of q.parts) {
-      if (part.text !== undefined) { container.append(document.createTextNode(part.text)); continue; }
+      if (part.text !== undefined) {
+        if (mode === 'blank' && part.reading) {
+          const ruby = document.createElement('ruby'), rt = document.createElement('rt');
+          rt.textContent = part.reading;
+          ruby.append(document.createTextNode(part.text), rt); container.append(ruby);
+        } else container.append(document.createTextNode(part.text));
+        continue;
+      }
       const j = part.blank, span = document.createElement('span');
       span.className = mode === 'answer' ? 'correct-answer' : 'blank';
       span.textContent = mode === 'answer' ? q.answers[j] : '□'.repeat(Array.from(q.answers[j]).length);

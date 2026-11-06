@@ -9,7 +9,8 @@ globalThis.KANJI_STORY_BANK = {
       "subtitle": "呪術師たちの物語で学ぼう",
       "cover": "jujutsu-kaisen/exports/v1/webp/q001.webp",
       "theme": "violet",
-      "revision": "e7ac5e8223e367f814fbb920efa2dcc2172dd16e08ea2a267d2fe6251507ad2d",
+      "revision": "59c8ac46cd15d52204c75cbebae29036a1acbaa206c5f6baef30322394ab336f",
+      "previousRevision": "e7ac5e8223e367f814fbb920efa2dcc2172dd16e08ea2a267d2fe6251507ad2d",
       "questions": [
         {
           "id": "q001",
@@ -23,6 +24,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "虎杖は、復讐に走る順平を"
             },
             {
+              "text": "説",
+              "reading": "せっ"
+            },
+            {
               "blank": 0
             },
             {
@@ -31,14 +36,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "説",
+              "reading": "せっ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "説得"
+            "得"
           ],
           "hints": [
-            "せっとく"
+            "とく"
           ]
         },
         {
@@ -89,6 +98,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "交流会で戦う真希と真依の、生き方の違いを"
             },
             {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
               "blank": 0
             },
             {
@@ -97,14 +110,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "対比"
+            "比"
           ],
           "hints": [
-            "たいひ"
+            "ひ"
           ]
         },
         {
@@ -158,19 +175,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "治",
+              "reading": "じ"
+            },
+            {
               "text": "の仕組みを考える。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "治",
+              "reading": "じ"
             }
           ],
           "answers": [
-            "政治"
+            "政"
           ],
           "hints": [
-            "せいじ"
+            "せい"
           ]
         },
         {
@@ -188,19 +213,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "味",
+              "reading": "み"
+            },
+            {
               "text": "を持ち、術式を試していた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "味",
+              "reading": "み"
             }
           ],
           "answers": [
-            "興味"
+            "興"
           ],
           "hints": [
-            "きょうみ"
+            "きょう"
           ]
         },
         {
@@ -218,19 +251,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "奮",
+              "reading": "ふん"
+            },
+            {
               "text": "していた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "奮",
+              "reading": "ふん"
             }
           ],
           "answers": [
-            "興奮"
+            "興"
           ],
           "hints": [
-            "こうふん"
+            "こう"
           ]
         },
         {
@@ -245,6 +286,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "虎杖は、順平を調べるため、伊地知から作戦の"
             },
             {
+              "text": "指",
+              "reading": "し"
+            },
+            {
               "blank": 0
             },
             {
@@ -253,14 +298,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "指",
+              "reading": "し"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "指示"
+            "示"
           ],
           "hints": [
-            "しじ"
+            "じ"
           ]
         },
         {
@@ -311,6 +360,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "漏瑚は、呪いこそが本当の人間だと"
             },
             {
+              "text": "主",
+              "reading": "しゅ"
+            },
+            {
               "blank": 0
             },
             {
@@ -319,14 +372,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "主",
+              "reading": "しゅ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "主張"
+            "張"
           ],
           "hints": [
-            "しゅちょう"
+            "ちょう"
           ]
         },
         {
@@ -380,19 +437,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "援",
+              "reading": "えん"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "援",
+              "reading": "えん"
             }
           ],
           "answers": [
-            "支援"
+            "支"
           ],
           "hints": [
-            "しえん"
+            "し"
           ]
         },
         {
@@ -443,6 +508,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "交流会のころの真依は、一日に弾丸を"
             },
             {
+              "text": "一",
+              "reading": "いっ"
+            },
+            {
               "blank": 0
             },
             {
@@ -451,14 +520,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "一",
+              "reading": "いっ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "一個"
+            "個"
           ],
           "hints": [
-            "いっこ"
+            "こ"
           ]
         },
         {
@@ -509,6 +582,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "渋谷事変の場面では、直毘人が禪院家の"
             },
             {
+              "text": "現",
+              "reading": "げん"
+            },
+            {
               "blank": 0
             },
             {
@@ -517,14 +594,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "現",
+              "reading": "げん"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "現在"
+            "在"
           ],
           "hints": [
-            "げんざい"
+            "ざい"
           ]
         },
         {
@@ -578,19 +659,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "自",
+              "reading": "じ"
+            },
+            {
               "text": "の準備をしていた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "自",
+              "reading": "じ"
             }
           ],
           "answers": [
-            "独自"
+            "独"
           ],
           "hints": [
-            "どくじ"
+            "どく"
           ]
         },
         {
@@ -644,19 +733,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "護",
+              "reading": "ご"
+            },
+            {
               "text": "するように釘崎に訴えた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "護",
+              "reading": "ご"
             }
           ],
           "answers": [
-            "弁護"
+            "弁"
           ],
           "hints": [
-            "べんご"
+            "べん"
           ]
         },
         {
@@ -674,19 +771,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "証",
+              "reading": "しょう"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "証",
+              "reading": "しょう"
             }
           ],
           "answers": [
-            "検証"
+            "検"
           ],
           "hints": [
-            "けんしょう"
+            "けん"
           ]
         },
         {
@@ -704,19 +809,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "案",
+              "reading": "あん"
             }
           ],
           "answers": [
-            "提案"
+            "提"
           ],
           "hints": [
-            "ていあん"
+            "てい"
           ]
         },
         {
@@ -734,19 +847,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "与",
+              "reading": "よ"
+            },
+            {
               "text": "する。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "与",
+              "reading": "よ"
             }
           ],
           "answers": [
-            "寄与"
+            "寄"
           ],
           "hints": [
-            "きよ"
+            "き"
           ]
         },
         {
@@ -836,19 +957,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "計",
+              "reading": "けい"
+            },
+            {
               "text": "に腹を立てた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "計",
+              "reading": "けい"
             }
           ],
           "answers": [
-            "余計"
+            "余"
           ],
           "hints": [
-            "よけい"
+            "よ"
           ]
         },
         {
@@ -899,13 +1028,14 @@ globalThis.KANJI_STORY_BANK = {
               "text": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を"
             },
             {
-              "blank": 0
+              "text": "持",
+              "reading": "も"
             },
             {
               "text": "て"
             },
             {
-              "blank": 1
+              "blank": 0
             },
             {
               "text": "す"
@@ -916,24 +1046,23 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
-              "blank": 0
+              "text": "持",
+              "reading": "も"
             },
             {
               "text": "て"
             },
             {
-              "blank": 1
+              "blank": 0
             },
             {
               "text": "す"
             }
           ],
           "answers": [
-            "持",
             "余"
           ],
           "hints": [
-            "も",
             "あま"
           ]
         },
@@ -952,19 +1081,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "教",
+              "reading": "きょう"
+            },
+            {
               "text": "に由来する言葉だ。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "教",
+              "reading": "きょう"
             }
           ],
           "answers": [
-            "仏教"
+            "仏"
           ],
           "hints": [
-            "ぶっきょう"
+            "ぶっ"
           ]
         },
         {
@@ -1048,19 +1185,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "果",
+              "reading": "か"
+            },
+            {
               "text": "があった。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "果",
+              "reading": "か"
             }
           ],
           "answers": [
-            "効果"
+            "効"
           ],
           "hints": [
-            "こうか"
+            "こう"
           ]
         },
         {
@@ -1114,19 +1259,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "件",
+              "reading": "けん"
+            },
+            {
               "text": "で、呪霊側と取引した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "件",
+              "reading": "けん"
             }
           ],
           "answers": [
-            "条件"
+            "条"
           ],
           "hints": [
-            "じょうけん"
+            "じょう"
           ]
         },
         {
@@ -1141,6 +1294,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "五条先生は、楽巌寺学長に伝えたい"
             },
             {
+              "text": "用",
+              "reading": "よう"
+            },
+            {
               "blank": 0
             },
             {
@@ -1149,14 +1306,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "用",
+              "reading": "よう"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "用件"
+            "件"
           ],
           "hints": [
-            "ようけん"
+            "けん"
           ]
         },
         {
@@ -1174,19 +1335,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "管",
+              "reading": "かん"
+            },
+            {
               "text": "していた宿儺の指と呪胎九相図が、真人に奪われた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "管",
+              "reading": "かん"
             }
           ],
           "answers": [
-            "保管"
+            "保"
           ],
           "hints": [
-            "ほかん"
+            "ほ"
           ]
         },
         {
@@ -1240,19 +1409,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "価",
+              "reading": "か"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "価",
+              "reading": "か"
             }
           ],
           "answers": [
-            "評価"
+            "評"
           ],
           "hints": [
-            "ひょうか"
+            "ひょう"
           ]
         },
         {
@@ -1270,19 +1447,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "値",
+              "reading": "ち"
+            },
+            {
               "text": "を重く見る。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "値",
+              "reading": "ち"
             }
           ],
           "answers": [
-            "価値"
+            "価"
           ],
           "hints": [
-            "かち"
+            "か"
           ]
         },
         {
@@ -1300,19 +1485,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "成",
+              "reading": "せい"
+            },
+            {
               "text": "する楽巌寺学長と、虎杖を守る五条先生が対立する。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "成",
+              "reading": "せい"
             }
           ],
           "answers": [
-            "賛成"
+            "賛"
           ],
           "hints": [
-            "さんせい"
+            "さん"
           ]
         },
         {
@@ -1327,6 +1520,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "加茂は、父の"
             },
             {
+              "text": "正",
+              "reading": "せい"
+            },
+            {
               "blank": 0
             },
             {
@@ -1335,14 +1532,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "正",
+              "reading": "せい"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "正妻"
+            "妻"
           ],
           "hints": [
-            "せいさい"
+            "さい"
           ]
         },
         {
@@ -1390,19 +1591,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "雑",
+              "reading": "ざつ"
+            },
+            {
               "text": "していた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "雑",
+              "reading": "ざつ"
             }
           ],
           "answers": [
-            "混雑"
+            "混"
           ],
           "hints": [
-            "こんざつ"
+            "こん"
           ]
         },
         {
@@ -1528,19 +1737,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "音",
+              "reading": "おん"
+            },
+            {
               "text": "ではない。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "音",
+              "reading": "おん"
             }
           ],
           "answers": [
-            "雑音"
+            "雑"
           ],
           "hints": [
-            "ざつおん"
+            "ざつ"
           ]
         },
         {
@@ -1558,19 +1775,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "木林",
+              "reading": "きばやし"
+            },
+            {
               "text": "を走って帳の外を目指した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "木林",
+              "reading": "きばやし"
             }
           ],
           "answers": [
-            "雑木林"
+            "雑"
           ],
           "hints": [
-            "ぞうきばやし"
+            "ぞう"
           ]
         },
         {
@@ -1588,19 +1813,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "奪",
+              "reading": "だつ"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "奪",
+              "reading": "だつ"
             }
           ],
           "answers": [
-            "略奪"
+            "略"
           ],
           "hints": [
-            "りゃくだつ"
+            "りゃく"
           ]
         },
         {
@@ -1618,19 +1851,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "用",
+              "reading": "よう"
+            },
+            {
               "text": "された。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "用",
+              "reading": "よう"
             }
           ],
           "answers": [
-            "採用"
+            "採"
           ],
           "hints": [
-            "さいよう"
+            "さい"
           ]
         },
         {
@@ -1684,19 +1925,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "止",
+              "reading": "し"
+            },
+            {
               "text": "されている。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "止",
+              "reading": "し"
             }
           ],
           "answers": [
-            "禁止"
+            "禁"
           ],
           "hints": [
-            "きんし"
+            "きん"
           ]
         },
         {
@@ -1714,19 +1963,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "力",
+              "reading": "りょく"
+            },
+            {
               "text": "で虎杖たちを攻めた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "力",
+              "reading": "りょく"
             }
           ],
           "answers": [
-            "能力"
+            "能"
           ],
           "hints": [
-            "のうりょく"
+            "のう"
           ]
         }
       ]
@@ -1738,7 +1995,8 @@ globalThis.KANJI_STORY_BANK = {
       "subtitle": "ヒーローたちの物語で学ぼう",
       "cover": "my-hero-academia/exports/v1/webp/q002.webp",
       "theme": "green",
-      "revision": "2986dc4507156e5cdbb9bfbd77c4acfd47293ae5e1be4ae6d5b8a6d1dadd4af0",
+      "revision": "7379f3d848edb1ab9bd989da11c2291e770982edacdc76a9bf5260f0c7c40160",
+      "previousRevision": "2986dc4507156e5cdbb9bfbd77c4acfd47293ae5e1be4ae6d5b8a6d1dadd4af0",
       "questions": [
         {
           "id": "q001",
@@ -1752,6 +2010,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "オールマイトは、出久の母・引子を"
             },
             {
+              "text": "説",
+              "reading": "せっ"
+            },
+            {
               "blank": 0
             },
             {
@@ -1760,14 +2022,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "説",
+              "reading": "せっ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "説得"
+            "得"
           ],
           "hints": [
-            "せっとく"
+            "とく"
           ]
         },
         {
@@ -1818,6 +2084,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "体育祭では、切島の「硬化」と鉄哲の「スティール」を"
             },
             {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
               "blank": 0
             },
             {
@@ -1826,14 +2096,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "対比"
+            "比"
           ],
           "hints": [
-            "たいひ"
+            "ひ"
           ]
         },
         {
@@ -1887,19 +2161,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "治",
+              "reading": "じ"
+            },
+            {
               "text": "団体の党首でもあった。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "治",
+              "reading": "じ"
             }
           ],
           "answers": [
-            "政治"
+            "政"
           ],
           "hints": [
-            "せいじ"
+            "せい"
           ]
         },
         {
@@ -1917,19 +2199,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "味",
+              "reading": "み"
+            },
+            {
               "text": "を持つように、飯田との試合を利用した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "味",
+              "reading": "み"
             }
           ],
           "answers": [
-            "興味"
+            "興"
           ],
           "hints": [
-            "きょうみ"
+            "きょう"
           ]
         },
         {
@@ -1944,6 +2234,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "海外のヒーローも日本へ来て、町の"
             },
             {
+              "text": "復",
+              "reading": "ふっ"
+            },
+            {
               "blank": 0
             },
             {
@@ -1952,14 +2246,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "復",
+              "reading": "ふっ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "復興"
+            "興"
           ],
           "hints": [
-            "ふっこう"
+            "こう"
           ]
         },
         {
@@ -1974,6 +2272,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "相澤の"
             },
             {
+              "text": "指",
+              "reading": "し"
+            },
+            {
               "blank": 0
             },
             {
@@ -1982,14 +2284,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "指",
+              "reading": "し"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "指示"
+            "示"
           ],
           "hints": [
-            "しじ"
+            "じ"
           ]
         },
         {
@@ -2040,6 +2346,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "爆豪は、文化祭でも遠慮せず本気で演奏すると"
             },
             {
+              "text": "主",
+              "reading": "しゅ"
+            },
+            {
               "blank": 0
             },
             {
@@ -2048,14 +2358,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "主",
+              "reading": "しゅ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "主張"
+            "張"
           ],
           "hints": [
-            "しゅちょう"
+            "ちょう"
           ]
         },
         {
@@ -2109,19 +2423,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "援",
+              "reading": "えん"
+            },
+            {
               "text": "しながら毒ガスを使う敵を倒した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "援",
+              "reading": "えん"
             }
           ],
           "answers": [
-            "支援"
+            "支"
           ],
           "hints": [
-            "しえん"
+            "し"
           ]
         },
         {
@@ -2172,6 +2494,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "肉倉に勝つため、上鳴は爆豪から渡された手りゅう弾を"
             },
             {
+              "text": "一",
+              "reading": "いっ"
+            },
+            {
               "blank": 0
             },
             {
@@ -2180,14 +2506,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "一",
+              "reading": "いっ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "一個"
+            "個"
           ],
           "hints": [
-            "いっこ"
+            "こ"
           ]
         },
         {
@@ -2238,6 +2568,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "ナイトアイの「予知」は、"
             },
             {
+              "text": "現",
+              "reading": "げん"
+            },
+            {
               "blank": 0
             },
             {
@@ -2246,14 +2580,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "現",
+              "reading": "げん"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "現在"
+            "在"
           ],
           "hints": [
-            "げんざい"
+            "ざい"
           ]
         },
         {
@@ -2307,19 +2645,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "自",
+              "reading": "じ"
+            },
+            {
               "text": "の戦い方を身につける。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "自",
+              "reading": "じ"
             }
           ],
           "answers": [
-            "独自"
+            "独"
           ],
           "hints": [
-            "どくじ"
+            "どく"
           ]
         },
         {
@@ -2373,19 +2719,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "護",
+              "reading": "ご"
+            },
+            {
               "text": "するように、自分一人の責任だと話した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "護",
+              "reading": "ご"
             }
           ],
           "answers": [
-            "弁護"
+            "弁"
           ],
           "hints": [
-            "べんご"
+            "べん"
           ]
         },
         {
@@ -2403,19 +2757,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "査",
+              "reading": "さ"
+            },
+            {
               "text": "で、人の血や細胞が含まれることが分かった。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "査",
+              "reading": "さ"
             }
           ],
           "answers": [
-            "検査"
+            "検"
           ],
           "hints": [
-            "けんさ"
+            "けん"
           ]
         },
         {
@@ -2433,19 +2795,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "案",
+              "reading": "あん"
             }
           ],
           "answers": [
-            "提案"
+            "提"
           ],
           "hints": [
-            "ていあん"
+            "てい"
           ]
         },
         {
@@ -2463,19 +2833,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "与",
+              "reading": "よ"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "与",
+              "reading": "よ"
             }
           ],
           "answers": [
-            "寄与"
+            "寄"
           ],
           "hints": [
-            "きよ"
+            "き"
           ]
         },
         {
@@ -2565,19 +2943,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "裕",
+              "reading": "ゆう"
+            },
+            {
               "text": "を失っていった。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "裕",
+              "reading": "ゆう"
             }
           ],
           "answers": [
-            "余裕"
+            "余"
           ],
           "hints": [
-            "よゆう"
+            "よ"
           ]
         },
         {
@@ -2628,13 +3014,14 @@ globalThis.KANJI_STORY_BANK = {
               "text": "トゥワイスには、増やした分身が争い始め、その力を"
             },
             {
-              "blank": 0
+              "text": "持",
+              "reading": "も"
             },
             {
               "text": "て"
             },
             {
-              "blank": 1
+              "blank": 0
             },
             {
               "text": "す"
@@ -2645,24 +3032,23 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
-              "blank": 0
+              "text": "持",
+              "reading": "も"
             },
             {
               "text": "て"
             },
             {
-              "blank": 1
+              "blank": 0
             },
             {
               "text": "す"
             }
           ],
           "answers": [
-            "持",
             "余"
           ],
           "hints": [
-            "も",
             "あま"
           ]
         },
@@ -2681,19 +3067,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "壇",
+              "reading": "だん"
+            },
+            {
               "text": "に手を合わせた時のことを語った。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "壇",
+              "reading": "だん"
             }
           ],
           "answers": [
-            "仏壇"
+            "仏"
           ],
           "hints": [
-            "ぶつだん"
+            "ぶつ"
           ]
         },
         {
@@ -2777,19 +3171,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "果",
+              "reading": "か"
+            },
+            {
               "text": "がある。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "果",
+              "reading": "か"
             }
           ],
           "answers": [
-            "効果"
+            "効"
           ],
           "hints": [
-            "こうか"
+            "こう"
           ]
         },
         {
@@ -2843,19 +3245,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "件",
+              "reading": "けん"
+            },
+            {
               "text": "だ。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "件",
+              "reading": "けん"
             }
           ],
           "answers": [
-            "条件"
+            "条"
           ],
           "hints": [
-            "じょうけん"
+            "じょう"
           ]
         },
         {
@@ -2870,6 +3280,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "ホークスがエンデヴァーに持ちかけた"
             },
             {
+              "text": "用",
+              "reading": "よう"
+            },
+            {
               "blank": 0
             },
             {
@@ -2878,14 +3292,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "用",
+              "reading": "よう"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "用件"
+            "件"
           ],
           "hints": [
-            "ようけん"
+            "けん"
           ]
         },
         {
@@ -2903,19 +3321,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "管",
+              "reading": "かん"
+            },
+            {
               "text": "されていた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "管",
+              "reading": "かん"
             }
           ],
           "answers": [
-            "保管"
+            "保"
           ],
           "hints": [
-            "ほかん"
+            "ほ"
           ]
         },
         {
@@ -2966,6 +3392,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "現見と轟たちが個性で作った遊び場は、子どもたちに"
             },
             {
+              "text": "好",
+              "reading": "こう"
+            },
+            {
               "blank": 0
             },
             {
@@ -2974,14 +3404,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "好",
+              "reading": "こう"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "好評"
+            "評"
           ],
           "hints": [
-            "こうひょう"
+            "ひょう"
           ]
         },
         {
@@ -2999,19 +3433,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "値",
+              "reading": "ち"
+            },
+            {
               "text": "を持つと考えた。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "値",
+              "reading": "ち"
             }
           ],
           "answers": [
-            "価値"
+            "価"
           ],
           "hints": [
-            "かち"
+            "か"
           ]
         },
         {
@@ -3029,19 +3471,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "成",
+              "reading": "せい"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "成",
+              "reading": "せい"
             }
           ],
           "answers": [
-            "賛成"
+            "賛"
           ],
           "hints": [
-            "さんせい"
+            "さん"
           ]
         },
         {
@@ -3056,6 +3506,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "エンデヴァーと轟冷の"
             },
             {
+              "text": "夫",
+              "reading": "ふ"
+            },
+            {
               "blank": 0
             },
             {
@@ -3064,14 +3518,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "夫",
+              "reading": "ふ"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "夫妻"
+            "妻"
           ],
           "hints": [
-            "ふさい"
+            "さい"
           ]
         },
         {
@@ -3119,19 +3577,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "雑",
+              "reading": "ざつ"
+            },
+            {
               "text": "する戦場へ、麗日と蛙吹も追いかけていった。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "雑",
+              "reading": "ざつ"
             }
           ],
           "answers": [
-            "混雑"
+            "混"
           ],
           "hints": [
-            "こんざつ"
+            "こん"
           ]
         },
         {
@@ -3254,6 +3720,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "エッジショットは、"
             },
             {
+              "text": "複",
+              "reading": "ふく"
+            },
+            {
               "blank": 0
             },
             {
@@ -3262,14 +3732,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "複",
+              "reading": "ふく"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "複雑"
+            "雑"
           ],
           "hints": [
-            "ふくざつ"
+            "ざつ"
           ]
         },
         {
@@ -3287,19 +3761,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "木林",
+              "reading": "きばやし"
+            },
+            {
               "text": "を走った。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "木林",
+              "reading": "きばやし"
             }
           ],
           "answers": [
-            "雑木林"
+            "雑"
           ],
           "hints": [
-            "ぞうきばやし"
+            "ぞう"
           ]
         },
         {
@@ -3314,6 +3796,10 @@ globalThis.KANJI_STORY_BANK = {
               "text": "物間は、敵を引き離す"
             },
             {
+              "text": "戦",
+              "reading": "せん"
+            },
+            {
               "blank": 0
             },
             {
@@ -3322,14 +3808,18 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "wordParts": [
             {
+              "text": "戦",
+              "reading": "せん"
+            },
+            {
               "blank": 0
             }
           ],
           "answers": [
-            "戦略"
+            "略"
           ],
           "hints": [
-            "せんりゃく"
+            "りゃく"
           ]
         },
         {
@@ -3347,19 +3837,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "用",
+              "reading": "よう"
+            },
+            {
               "text": "した。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "用",
+              "reading": "よう"
             }
           ],
           "answers": [
-            "採用"
+            "採"
           ],
           "hints": [
-            "さいよう"
+            "さい"
           ]
         },
         {
@@ -3413,19 +3911,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "止",
+              "reading": "し"
+            },
+            {
               "text": "だと、警察に注意された。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "止",
+              "reading": "し"
             }
           ],
           "answers": [
-            "禁止"
+            "禁"
           ],
           "hints": [
-            "きんし"
+            "きん"
           ]
         },
         {
@@ -3443,19 +3949,27 @@ globalThis.KANJI_STORY_BANK = {
               "blank": 0
             },
             {
+              "text": "力",
+              "reading": "りょく"
+            },
+            {
               "text": "で戦った。"
             }
           ],
           "wordParts": [
             {
               "blank": 0
+            },
+            {
+              "text": "力",
+              "reading": "りょく"
             }
           ],
           "answers": [
-            "能力"
+            "能"
           ],
           "hints": [
-            "のうりょく"
+            "のう"
           ]
         }
       ]

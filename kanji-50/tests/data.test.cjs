@@ -22,7 +22,9 @@ test('両作品の原教材53問と画像を一対一に保ち、読みと解答
       assert.equal(q.prompt, raw.prompt);
       assert.equal(q.answer, raw.answer);
       assert.equal(q.parts.map(p => p.text ?? q.answers[p.blank]).join(''), raw.filled_sentence);
-      assert.equal(q.wordParts.map(p => p.text ?? q.hints[p.blank]).join(''), raw.blank_reading);
+      assert.equal(q.wordParts.map(p => p.reading ?? p.text ?? q.hints[p.blank]).join(''), raw.blank_reading);
+      const targets = [...raw.targets].sort((a, b) => a.answer_span[0] - b.answer_span[0]);
+      assert.deepEqual(q.answers, targets.map(target => raw.answer.slice(...target.answer_span)), `${course.id}/${q.id}: 対象漢字だけを出題`);
       assert(fs.statSync(path.join(root, q.image)).isFile(), q.image);
     });
   }
