@@ -18,8 +18,8 @@
 - `rocks.js`：画像の8種類の名称・解説・ヒント
 - `quiz-core.js`：回答の配置、入れ替え、クリア、16問の採点
 - `app.js`：画面と操作
-- `assets/sample-01.jpg`〜`sample-08.jpg`：参考画像から名前が入らないよう切り出した8枚の写真
-- `assets/reference.jpg`：ブラウザー表示用の参考画像
+- `assets/sample-01.webp`〜`sample-08.webp`：参考画像から名前が入らないよう切り出した8枚の写真
+- `assets/reference.webp`：ブラウザー表示用の参考画像
 
 ```sh
 node --check app.js
@@ -40,4 +40,4 @@ python3 tests/browser.py
 
 ローカルサーバーを利用する場合は、このフォルダーで `python3 -m http.server 8000` を実行し、`http://localhost:8000/` を開きます。
 
-公開時はHTML・CSS・3つのJavaScript・`assets/` の9枚のJPEGが必要です。元のHEIC、README、テストは公開用ファイルではありません。写真のファイル名はデータ内に記載しているため、FTP転送前に9枚が含まれることを確認してください。
+公開時はHTML・CSS・3つのJavaScript・`assets/` の9枚のWebPが必要です。元のHEIC、README、テストは公開用ファイルではありません。写真のファイル名はデータ内に記載しているため、FTP転送前に9枚が含まれることを確認してください。

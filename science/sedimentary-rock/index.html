@@ -7,7 +7,7 @@
   <meta name="description" content="8種類の岩の写真に、名前と解説文を当てはめよう。堆積岩と変成岩を学ぶ、答え合わせ・ヒント付きの学習アプリ。">
   <title>岩の標本室 ─ 名前とできかたを学ぼう</title>
   <link rel="stylesheet" href="style.css?v=1">
-  <script src="rocks.js?v=1" defer></script>
+  <script src="rocks.js?v=2" defer></script>
   <script src="quiz-core.js?v=1" defer></script>
   <script src="app.js?v=1" defer></script>
 </head>
@@ -53,7 +53,7 @@
   </main>
   <div class="mobile-toolbar"><strong id="mobile-progress">0 <small>/ 16</small></strong><button id="mobile-pick">選択肢</button><button id="mobile-check">答え合わせ</button></div>
   <dialog id="choice-dialog" class="choice-dialog"><div class="dialog-heading"><div><p class="eyebrow" id="mobile-target">選択肢</p><h2 id="mobile-choice-title">名前を選ぼう</h2></div><button data-close="choice-dialog" class="close-button" aria-label="選択肢を閉じる">×</button></div><div class="bank-tabs mobile-kind-tabs" role="group" aria-label="選択肢の種類"><button data-bank-kind="name">名前</button><button data-bank-kind="description">解説文</button></div><div id="mobile-bank" class="choice-bank"></div><button id="mobile-clear" class="text-button" hidden>選んだ欄を空にする</button><p id="mobile-choice-help" class="dialog-help">選ぶと、タップした空欄に入ります。</p></dialog>
-  <dialog id="reference-dialog" class="image-dialog"><div class="dialog-heading"><h2>参考画像</h2><button data-close="reference-dialog" class="close-button" aria-label="参考画像を閉じる">×</button></div><img src="assets/reference.jpg" alt="堆積岩6種類と変成岩2種類の写真、名前、解説文が載った参考画像" loading="lazy"></dialog>
+  <dialog id="reference-dialog" class="image-dialog"><div class="dialog-heading"><h2>参考画像</h2><button data-close="reference-dialog" class="close-button" aria-label="参考画像を閉じる">×</button></div><img src="assets/reference.webp" alt="堆積岩6種類と変成岩2種類の写真、名前、解説文が載った参考画像" loading="lazy"></dialog>
   <dialog id="photo-dialog" class="photo-dialog"><div class="dialog-heading"><h2 id="photo-title">岩の写真</h2><button data-close="photo-dialog" class="close-button" aria-label="岩の写真を閉じる">×</button></div><img id="large-photo" alt=""></dialog>
   <dialog id="reset-dialog" class="reset-dialog"><h2>はじめから挑戦する？</h2><p>入れた名前と解説文を消して、選択肢を並べ替えます。</p><div class="dialog-actions"><button data-close="reset-dialog">続ける</button><button id="reset-confirm" class="primary-button">やり直す</button></div></dialog>
   <noscript><p class="noscript">この学習アプリを使うには、ブラウザーのJavaScriptを有効にしてください。</p></noscript>
