@@ -4,6 +4,7 @@
   const core = root.ConcentrationCore;
   const byId = id => document.getElementById(id);
   const palette = [0, 1, 2, 3].map(level => `var(--concentration-tone-${level})`);
+  const vesselWallColor = "#4f5b56";
   const appearanceKey = "joylearn.blood-flow.concentration-appearance.v1";
   const defaultAppearance = { color: "#245f42", contrast: 75 };
   let appearance = { ...defaultAppearance };
@@ -60,6 +61,7 @@
       <title id="${item.id}-title">図${number}の血液の濃淡</title><desc id="${item.id}-desc">${alt}。矢印は血液が流れる向きです。</desc>
       <defs>${gradients}</defs>
       <rect x="92" y="12" width="158" height="88" rx="14" fill="#f1f6f0"/><rect x="90" y="184" width="162" height="236" rx="14" fill="#f8f5ed"/>
+      <g fill="none" stroke="${vesselWallColor}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths.map(([key, path]) => `<path class="concentration-vessel-wall" data-wall-for="${key}" d="${path}"/>`).join("")}</g>
       <g fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">${paths.map(([key, path]) => `<path data-vessel="${key}" data-level="${item.levels[key]}" stroke="${palette[item.levels[key]]}" d="${path}"/>`).join("")}</g>
       <g stroke-width="1.2">
         <path d="M164 27C151 16 139 38 140 64L164 57ZM176 27C189 16 201 38 200 64L176 57Z" fill="#efddd1" stroke="#dbbdae"/>
@@ -68,7 +70,7 @@
         <path d="M155 265C172 254 192 265 176 276C155 286 189 287 179 296" fill="none" stroke="#d8c59a" stroke-width="13" stroke-linecap="round"/>
         <path d="M154 333C134 317 127 342 137 355C146 367 158 355 153 350Q145 344 154 333ZM186 333C206 317 213 342 203 355C194 367 182 355 187 350Q195 344 186 333Z" fill="#decfbd" stroke="#c8b59d"/>
       </g>
-      ${capillaries.map(([key, y]) => `<ellipse cx="170" cy="${y}" rx="22" ry="10" fill="url(#${item.id}-${key})" stroke="#a2b7a8" stroke-width=".7"/>`).join("")}
+      ${capillaries.map(([key, y]) => `<ellipse cx="170" cy="${y}" rx="22" ry="10" fill="url(#${item.id}-${key})" stroke="${vesselWallColor}" stroke-width="1.4"/>`).join("")}
       <g class="concentration-organ-names" text-anchor="middle"><text x="170" y="82">肺</text><text x="170" y="180">心臓</text><text x="194" y="242">肝臓</text><text x="171" y="311">小腸</text><text x="170" y="377">腎臓</text><text x="170" y="424">全身</text></g>
       <g class="concentration-vessel-names"><text x="5" y="49">肺動脈</text><text x="279" y="49">肺静脈</text><text x="5" y="137">大静脈</text><text x="279" y="158">大動脈</text><text x="5" y="214">肝静脈</text><text x="5" y="270">門脈</text><text x="5" y="348">腎静脈</text><text x="279" y="348">腎動脈</text></g>
       <g fill="none" stroke="#acb8ae" stroke-width=".8"><path d="M48 45H102M239 45H275M48 133H75M265 154H275M48 210H75M34 266H75L117 244M48 344H75M265 344H275"/></g>
