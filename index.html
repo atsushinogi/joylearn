@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>あそびと学びの部屋</title>
-  <meta name="description" content="地球儀、歴史クイズ、ポケモンタイピング、スティックマンバトル、ばねラボ。さわって楽しく学べるアプリへの入り口です。">
+  <meta name="description" content="地球儀、歴史クイズ、ポケモンタイピング、スティックマンバトル、ばねラボ、岩石。さわって楽しく学べるアプリへの入り口です。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -120,6 +120,7 @@
     .globe .art { background: var(--sea-tint); }
     .quiz .art { background: var(--quiz-tint); }
     .spring .art { background: var(--sea-tint); }
+    .sedimentary-rock .art { background: var(--pokemon-tint); }
     .pokemon .art { background: var(--pokemon-tint); }
     .stickman .art { background: var(--stickman-tint); }
     .art svg { width: 180px; height: 180px; }
@@ -135,6 +136,7 @@
     .globe .tag { color: var(--sea); }
     .quiz .tag { color: var(--vermillion); }
     .spring .tag { color: var(--land); }
+    .sedimentary-rock .tag { color: var(--land); }
     .pokemon .tag { color: var(--vermillion); }
     .stickman .tag { color: var(--stickman-accent); }
     h2 { margin: 10px 0 6px; font-size: 22px; font-weight: 900; }
@@ -152,6 +154,7 @@
     .globe .go { background: var(--sea); }
     .quiz .go { background: var(--vermillion); }
     .spring .go { background: var(--land); }
+    .sedimentary-rock .go { background: var(--land); }
     .pokemon .go { background: var(--vermillion); }
     .stickman .go { background: var(--stickman-accent); }
     @media (prefers-color-scheme: dark) {
@@ -344,6 +347,21 @@
             <li>グラフとミニ問題で理解をチェック</li>
           </ul>
           <span class="go">ばねを実験する →</span>
+        </div>
+      </a>
+      <a class="app sedimentary-rock" href="science/sedimentary-rock/index.html">
+        <div class="art" aria-hidden="true">
+          <img src="science/sedimentary-rock/assets/sample-03.webp" width="180" height="180" loading="lazy" decoding="async" alt="" style="border-radius:18px;box-shadow:var(--shadow);object-fit:cover">
+        </div>
+        <div class="body">
+          <span class="tag">りか・岩石</span>
+          <h2>岩の標本室</h2>
+          <p>泥岩・砂岩・礫岩など、写真を見て名前と解説文を当てはめよう。岩の材料やできかたを楽しくおさらい。</p>
+          <ul>
+            <li>堆積岩6種類と変成岩2種類の写真</li>
+            <li>名前と解説の全16問・ヒントと採点つき</li>
+          </ul>
+          <span class="go">岩の標本をしらべる →</span>
         </div>
       </a>
       <a class="app pokemon" href="poketyping/typing-game/index.html?v=color-256-final-n">
