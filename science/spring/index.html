@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b44">
+  <title>ばねと浮力の実験ノート｜4択クイズ</title>
+  <meta name="description" content="図を見て、暗算でチャレンジ。ばねと浮力の24種類の4択クイズ。数値は毎回変わり、1問ずつ答え合わせできます。">
+  <link rel="stylesheet" href="style.css">
+  <script src="questions.js" defer></script>
+  <script src="diagrams.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">〰</span><span>理科の実験ノート<small>SCIENCE PRACTICE</small></span></a><button class="text-button" id="open-library">図の一覧 <span aria-hidden="true">↗</span></button></header>
+  <main>
+    <section class="intro"><div class="eyebrow">LOOK · THINK · CHOOSE</div><h1>ばねと<span>浮力</span>の実験ノート</h1><p>図をよく見て、頭の中でひと計算。<br class="mobile-break">4つの答えから選んでみよう。</p></section>
+    <div class="toolbar"><div class="course-tabs" role="group" aria-label="出題コース"><button data-course="all" aria-pressed="true">すべて <span>24</span></button><button data-course="spring" aria-pressed="false">ばね <span>11</span></button><button data-course="buoyancy" aria-pressed="false">浮力 <span>13</span></button></div><div class="score"><span class="score-dot"></span> 正解 <strong id="score">0</strong><span id="score-denominator">/ 0 問</span></div></div>
+    <section id="quiz" aria-label="4択クイズ">
+      <div class="progress-heading"><span id="question-count">QUESTION 01 / 24</span><span id="coverage">すべての図をひとめぐり</span></div><div class="progress-track"><div id="progress-bar"></div></div>
+      <article class="question-card">
+        <div class="diagram-panel"><div class="diagram-top"><span class="tag" id="category-tag">ばね</span><span class="figure-number" id="figure-number">FIG. 01</span></div><h2 id="topic"></h2><div id="diagram"></div><p class="diagram-note" id="diagram-note"></p><button id="open-reference" class="reference-button">写真の図を見比べる <span aria-hidden="true">↗</span></button></div>
+        <div class="answer-panel"><div class="eyebrow">LET’S TRY</div><h3 id="question-text" tabindex="-1"></h3><p id="conditions"></p><div id="choices" class="choices" aria-label="答えの選択肢"></div><p id="answer-prompt" class="answer-prompt">答えを1つ選ぶと、その場で答え合わせ。</p><div id="feedback" role="status" aria-live="polite" hidden></div><button id="next" class="primary-button" hidden>次の問題へ <span aria-hidden="true">→</span></button></div>
+      </article>
+      <div class="below-card"><span>✧ 数字は毎回チェンジ · 暗算で解ける4択</span><button id="restart" class="text-button">はじめから</button></div>
+    </section>
+    <section id="results" class="results" hidden aria-label="学習結果"><div class="eyebrow">PRACTICE COMPLETE</div><h2>ひとめぐり、おつかれさま！</h2><p class="result-score" id="result-score"></p><p id="result-message"></p><div id="review-list"></div><div class="result-actions"><button id="retry-wrong" class="secondary-button">まちがえた問題を練習</button><button id="play-again" class="primary-button">新しい数字でもう一度 →</button></div></section>
+    <aside class="learning-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>このノートの約束</strong><br>力の大きさは、写真の教材に合わせて「g重」で表します。水は1 cm³で1 g。ばね・糸・棒の重さや滑車の摩擦は考えません。</p></aside>
+  </main>
+  <footer>ばねののびから、水の中のつり合いまで。<span>ひとつずつ、わかるを増やそう。</span></footer>
+  <dialog id="reference-dialog"><div class="dialog-heading"><div><span class="eyebrow">REFERENCE</span><h2 id="reference-title">写真の図</h2></div><button class="close-dialog" aria-label="閉じる">×</button></div><p>写真は元の教材です。<strong>クイズでは問題文と描き直した図の数値</strong>を使ってください。</p><img id="reference-image" alt="元の教材にある図"><p id="reference-caption"></p></dialog>
+  <dialog id="library-dialog"><div class="dialog-heading"><div><span class="eyebrow">FIGURE COLLECTION</span><h2>写真から学ぶ、すべての図</h2></div><button class="close-dialog" aria-label="閉じる">×</button></div><p>ばねと浮力の図を19組に整理。各図から、数字が変わる問題に挑戦できます。</p><div id="library-grid"></div></dialog>
+</body>
+</html>
