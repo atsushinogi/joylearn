@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>あそびと学びの部屋</title>
-  <meta name="description" content="地球儀、歴史クイズ、ポケモンタイピング、スティックマンバトル、ばねラボ、岩石。さわって楽しく学べるアプリへの入り口です。">
+  <meta name="description" content="地球儀、歴史クイズ、ポケモンタイピング、スティックマンバトル、ばねラボ、血液循環、岩石。さわって楽しく学べるアプリへの入り口です。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -121,6 +121,7 @@
     .quiz .art { background: var(--quiz-tint); }
     .spring .art { background: var(--sea-tint); }
     .sedimentary-rock .art { background: var(--pokemon-tint); }
+    .blood-flow .art { background: var(--quiz-tint); }
     .pokemon .art { background: var(--pokemon-tint); }
     .stickman .art { background: var(--stickman-tint); }
     .art svg { width: 180px; height: 180px; }
@@ -137,6 +138,7 @@
     .quiz .tag { color: var(--vermillion); }
     .spring .tag { color: var(--land); }
     .sedimentary-rock .tag { color: var(--land); }
+    .blood-flow .tag { color: var(--vermillion); }
     .pokemon .tag { color: var(--vermillion); }
     .stickman .tag { color: var(--stickman-accent); }
     h2 { margin: 10px 0 6px; font-size: 22px; font-weight: 900; }
@@ -155,6 +157,7 @@
     .quiz .go { background: var(--vermillion); }
     .spring .go { background: var(--land); }
     .sedimentary-rock .go { background: var(--land); }
+    .blood-flow .go { background: var(--vermillion); }
     .pokemon .go { background: var(--vermillion); }
     .stickman .go { background: var(--stickman-accent); }
     @media (prefers-color-scheme: dark) {
@@ -347,6 +350,32 @@
             <li>グラフとミニ問題で理解をチェック</li>
           </ul>
           <span class="go">ばねを実験する →</span>
+        </div>
+      </a>
+      <a class="app blood-flow" href="science/blood-flow/index.html">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 180 180">
+            <path d="M78 28C62 24 49 43 51 66L78 58Z M102 28C118 24 131 43 129 66L102 58Z" fill="var(--vermillion)" opacity=".35"/>
+            <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M84 85V74H43V47H76 M75 92H39v61h40 M39 126h38" stroke="var(--sea)"/>
+              <path d="M104 47h31v27h-31v12 M105 99h36v54h-40 M141 126h-37" stroke="var(--vermillion)"/>
+            </g>
+            <path class="bob" d="M90 87C75 67 52 89 90 116C128 89 105 67 90 87Z" fill="var(--vermillion)"/>
+            <ellipse cx="90" cy="47" rx="19" ry="10" fill="var(--sea)"/>
+            <ellipse cx="90" cy="126" rx="20" ry="10" fill="var(--land)"/>
+            <ellipse cx="90" cy="153" rx="20" ry="10" fill="var(--gold)"/>
+            <path d="m48 112-5-7-5 7 M132 114l5 7 5-7" fill="none" stroke="var(--ink-soft)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="body">
+          <span class="tag">りか・からだのしくみ</span>
+          <h2>血液の旅</h2>
+          <p>肺から心臓、そして全身へ。図の空欄に血管の名前を入れて、血液の通り道をおぼえよう。</p>
+          <ul>
+            <li>肺静脈・腎動脈など8つの血管名</li>
+            <li>答え合わせ・ヒント・血管ごとの解説つき</li>
+          </ul>
+          <span class="go">血管の名前にちょうせん →</span>
         </div>
       </a>
       <a class="app sedimentary-rock" href="science/sedimentary-rock/index.html">

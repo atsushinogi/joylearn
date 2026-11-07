@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f5">
+  <title>血液の旅 ─ 血液循環をおぼえよう</title>
+  <link rel="stylesheet" href="style.css?v=concentration-1">
+  <script src="concentration-core.js?v=1" defer></script>
+  <script src="concentration-quiz.js?v=1" defer></script>
+  <script src="app.js?v=concentration-1" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="血液の旅 ホーム"><span class="brand-mark" aria-hidden="true">♥</span> 血液の旅 <span class="brand-sub">からだのしくみラボ</span></a>
+    <button class="reference-button" id="reference-open"><span aria-hidden="true">▧</span> 参考画像を見る</button>
+  </header>
+  <main>
+    <div class="intro">
+      <div><p class="eyebrow">SCIENCE / 血液の循環</p><h1>血管の名前と特徴、わかるかな？</h1><p class="intro-copy">名前・解説・成分の濃淡から、からだをめぐる血液のしくみを学ぼう。</p></div>
+      <div class="mode-switch" role="group" aria-label="学習モード"><button id="quiz-mode" class="active" aria-pressed="true">名前をあてる</button><button id="description-mode" aria-pressed="false">解説をあてる</button><button id="concentration-mode" aria-pressed="false">濃淡クイズ</button><button id="learn-mode" aria-pressed="false">おぼえる</button></div>
+    </div>
+    <div class="workspace">
+      <section class="diagram-card" aria-labelledby="diagram-heading">
+        <div class="card-heading"><h2 id="diagram-heading">全身の血液循環</h2><div class="legend"><span><i class="red-dot"></i>酸素が多い</span><span><i class="blue-dot"></i>酸素が少ない</span></div></div>
+        <div class="diagram-wrap" id="diagram-wrap">
+          <div class="diagram-figure">
+          <svg id="circulation" viewBox="0 0 800 960" role="img" aria-labelledby="svg-title svg-desc">
+            <title id="svg-title">全身の血液循環の模式図</title><desc id="svg-desc">上から肺、心臓、肝臓、小腸、腎臓、全身。心臓から肺へ向かう肺動脈は青色、肺から心臓へ戻る肺静脈は赤色。小腸から肝臓へは門脈でつながる。血管名は図の周りの番号ボタンに入れます。</desc>
+            <defs>
+              <linearGradient id="capillary"><stop offset="0" stop-color="#4d91c4"/><stop offset=".5" stop-color="#bc8caa"/><stop offset="1" stop-color="#ec7779"/></linearGradient>
+              <pattern id="capillary-dots" width="15" height="14" patternUnits="userSpaceOnUse"><ellipse cx="7" cy="7" rx="3" ry="4" fill="#fff" opacity=".8"/></pattern>
+            </defs>
+            <rect x="214" y="40" width="374" height="206" rx="26" fill="#edf5f1"/>
+            <rect x="214" y="392" width="374" height="538" rx="26" fill="#f6f3ec"/>
+            <text class="region-label" x="236" y="72">肺循環</text><text class="region-label" x="236" y="426">体循環</text>
+            <g class="vessels" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="17">
+              <path class="blue-vessel" d="M 383 305 V 251 Q 383 236 365 236 H 316 Q 297 236 297 218 V 147 Q 297 130 315 130 H 367"/>
+              <path class="red-vessel" d="M 432 130 H 478 Q 493 130 493 149 V 254 Q 493 270 477 270 H 423 V 307"/>
+              <path class="red-vessel" d="M 423 344 H 507 Q 531 344 531 368 V 873 Q 531 893 511 893 H 441"/>
+              <path class="blue-vessel" d="M 360 893 H 304 Q 286 893 286 873 V 294 Q 286 278 306 278 H 340 Q 365 278 365 303 V 308"/>
+              <path class="red-vessel" d="M 531 489 H 435 M 531 650 H 435 M 531 797 H 435"/>
+              <path class="blue-vessel" d="M 364 489 H 286 M 364 797 H 286"/>
+              <path class="blue-vessel" d="M 366 650 H 356 Q 345 650 345 636 V 505"/>
+            </g>
+            <g class="organs" stroke-width="2">
+              <path d="M 389 91 C 377 75 354 88 343 111 C 333 128 330 159 336 180 Q 359 187 390 160 Z" fill="#f0c8b9" stroke="#d9a896"/>
+              <path d="M 408 91 C 420 75 443 88 454 111 C 464 128 467 159 461 180 Q 437 187 408 160 Z" fill="#f0c8b9" stroke="#d9a896"/>
+              <ellipse cx="399" cy="130" rx="39" ry="17" fill="url(#capillary)" stroke="none"/><ellipse cx="399" cy="130" rx="36" ry="14" fill="url(#capillary-dots)" stroke="none"/>
+              <path d="M 399 302 C 377 274 347 292 354 323 C 360 348 385 364 400 376 Z" fill="#669cc6" stroke="#fff"/>
+              <path d="M 399 302 C 421 274 453 292 446 323 C 441 348 415 364 400 376 Z" fill="#e98b8d" stroke="#fff"/>
+              <path d="M 342 469 Q 359 447 431 458 Q 471 461 453 481 Q 433 505 386 504 L 344 531 Q 331 521 342 469 Z" fill="#c0acc9" stroke="#a08caf"/>
+              <path d="M 372 625 C 399 597 443 619 417 634 C 383 653 442 657 419 678 C 405 694 367 677 378 692" fill="none" stroke="#d7b184" stroke-width="22" stroke-linecap="round"/>
+              <path d="M 373 772 C 338 745 328 787 344 813 C 354 830 376 825 379 809 Q 361 799 373 772 Z" fill="#d6b7a5" stroke="#bb9986"/>
+              <path d="M 424 772 C 459 745 469 787 453 813 C 443 830 421 825 418 809 Q 436 799 424 772 Z" fill="#d6b7a5" stroke="#bb9986"/>
+              <g fill="url(#capillary)" stroke="none"><ellipse cx="399" cy="489" rx="43" ry="19"/><ellipse cx="399" cy="650" rx="43" ry="19"/><ellipse cx="399" cy="797" rx="43" ry="19"/><ellipse cx="399" cy="893" rx="48" ry="20"/></g>
+              <g fill="url(#capillary-dots)" stroke="none"><ellipse cx="399" cy="489" rx="39" ry="16"/><ellipse cx="399" cy="650" rx="39" ry="16"/><ellipse cx="399" cy="797" rx="39" ry="16"/><ellipse cx="399" cy="893" rx="43" ry="17"/></g>
+            </g>
+            <g class="organ-label"><text x="399" y="210">肺</text><text x="399" y="402">心臓</text><text x="399" y="557">肝臓</text><text x="399" y="724">小腸</text><text x="399" y="851">腎臓</text><text x="399" y="940">全身</text></g>
+            <g class="flow-arrows" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="#347eaf" d="M 307 183 V 162 M 301 169 L 307 161 L 313 169 M 266 375 V 351 M 260 359 L 266 351 L 272 359 M 266 734 V 710 M 260 718 L 266 710 L 272 718 M 325 594 V 572 M 319 580 L 325 572 L 331 580"/>
+              <path stroke="#d96569" d="M 514 172 V 194 M 508 186 L 514 194 L 520 186 M 552 351 V 375 M 546 367 L 552 375 L 558 367 M 552 710 V 734 M 546 726 L 552 734 L 558 726 M 494 510 H 472 M 480 504 L 472 510 L 480 516 M 494 671 H 472 M 480 665 L 472 671 L 480 677"/>
+            </g>
+            <g class="leader-lines" fill="none" stroke="#a5afae" stroke-width="1.5"><path d="M 195 146 H 253 L 297 174"/><path d="M 605 146 H 552 L 493 174"/><path d="M 195 311 H 249 L 286 335"/><path d="M 605 338 H 568 L 531 394"/><path d="M 195 483 H 246 L 314 489"/><path d="M 195 625 H 251 L 345 590"/><path d="M 195 797 H 246 L 315 797"/><path d="M 605 797 H 565 L 482 797"/></g>
+          </svg>
+          <div id="slots" aria-label="血管名の空欄"></div>
+          </div>
+          <div id="description-slots" aria-label="血管ごとの解説文の空欄" hidden></div>
+        </div>
+        <div class="diagram-footer"><span class="tiny-heart" aria-hidden="true">♡</span><span>矢印は血液が流れる向き。図はしくみを表した模式図です。</span></div>
+      </section>
+      <aside class="answer-panel">
+        <section class="task-card" aria-labelledby="task-heading">
+          <div class="step-label" id="step-label">LET'S TRY</div><h2 id="task-heading">名前を選んで、図に入れよう</h2>
+          <p class="task-instruction" id="task-instruction">① 名前を選ぶ → ② 図の空欄をタップ<br>空欄を先に選んでもOK！</p>
+          <div class="progress-heading"><span id="progress-label">配置した名前</span><strong id="progress-count">0 <span>/ 8</span></strong></div>
+          <div class="progress-track" role="progressbar" aria-label="配置した名前" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0"><div id="progress-fill"></div></div>
+          <div class="name-bank" id="name-bank" aria-label="名前の選択肢"></div>
+          <div id="feedback" class="feedback" role="status" aria-live="polite">まずは、知っている名前から。</div>
+          <button id="check" class="primary-button">答え合わせ <span aria-hidden="true">→</span></button>
+          <div class="secondary-actions"><button id="hint"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 14v-2a5 5 0 1 1 6 0v2M7 14h6M8 17h4"/></svg>ヒント</button><button id="reset"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 8a6 6 0 1 1 0 5M4 3v5h5"/></svg>やり直す</button></div>
+          <button id="show-answers" class="text-button">答えをすべて見る</button>
+        </section>
+        <section class="memo-card" aria-labelledby="memo-heading"><span class="memo-icon" aria-hidden="true">!</span><div><h3 id="memo-heading">動脈と静脈の見分け方</h3><p>心臓から<strong>出ていく</strong>のが動脈、<br>心臓に<strong>戻ってくる</strong>のが静脈。<br>肺動脈は、酸素の少ない血液が流れるよ。</p></div></section>
+        <section class="detail-card" id="detail-card" hidden><p class="eyebrow" id="detail-number"></p><h3 id="detail-name"></h3><p id="detail-route" class="detail-route"></p><p id="detail-description"></p></section>
+      </aside>
+    </div>
+    <section id="concentration-quiz" aria-labelledby="concentration-title" hidden>
+      <div class="concentration-intro"><div><p class="eyebrow">CONCENTRATION / 血液の中の成分</p><h2 id="concentration-title">6枚の図から、正しい3枚を見つけよう</h2><p>濃いほど、その成分が多い図です。<strong>酸素・養分・不要物を1つずつ</strong>当てはめよう。残り3枚は空欄にします。</p></div><div class="density-legend" aria-label="うすい色ほど少なく、濃い色ほど多い"><span>少ない</span><i></i><span>多い</span></div></div>
+      <p class="concentration-note">食後の血液を想定しています。「養分」はブドウ糖など、「不要物」は尿素を表します。濃淡は実際の測定値ではなく、多い・少ないを比べる模式図です。</p>
+      <div class="concentration-layout"><div id="concentration-cards" class="concentration-cards"></div>
+        <aside class="concentration-panel"><div class="task-card"><p class="eyebrow">3 LABELS / 6 DIAGRAMS</p><h3>3つだけ、当てはめよう</h3><p class="concentration-help">① 成分を選ぶ → ② 図の空欄をタップ<br>空欄を先に選んでもOK！</p><div class="progress-heading"><span>当てはめた成分</span><strong id="concentration-count">0 <span>/ 3</span></strong></div><div class="progress-track" role="progressbar" aria-label="当てはめた成分" aria-valuemin="0" aria-valuemax="3" aria-valuenow="0" id="concentration-progress"><div id="concentration-fill"></div></div><div id="concentration-bank" class="concentration-bank" aria-label="成分の選択肢"></div><p class="concentration-selection" id="concentration-selection">各成分は1回ずつ使います。</p><div id="concentration-feedback" class="feedback" role="status" aria-live="polite">肺・小腸・肝臓・腎臓の前後に注目しよう。</div><button id="concentration-check" class="primary-button">答え合わせ <span aria-hidden="true">→</span></button><div class="secondary-actions"><button id="concentration-hint">ヒント</button><button id="concentration-reveal">答えを見る</button></div><button id="concentration-next" class="concentration-next">新しい6枚（並べ替え）</button></div><p class="concentration-small-note">色の種類はすべて同じ。血管が濃くなる場所、うすくなる場所を比べよう。</p></aside>
+      </div>
+    </section>
+    <footer class="page-footer">ひとつずつ、からだのしくみを発見しよう。 <span>血液の旅</span></footer>
+  </main>
+  <dialog id="reference-dialog"><div class="dialog-heading"><h2>参考画像</h2><button id="reference-close" aria-label="参考画像を閉じる">×</button></div><img src="assets/reference.jpg" alt="肺循環と体循環、8種類の血管名が示された参考画像" loading="lazy"></dialog>
+  <dialog id="reset-dialog"><h2>はじめから挑戦する？</h2><p>入れた名前を消して、選択肢を並べ替えます。</p><div class="dialog-actions"><button id="reset-cancel">続ける</button><button id="reset-confirm" class="primary-button">やり直す</button></div></dialog>
+  <div class="concentration-mobile-bar"><div id="concentration-mobile-bank" class="concentration-bank" aria-label="成分の選択肢"></div><div class="concentration-mobile-actions"><span id="concentration-mobile-feedback" role="status" aria-live="polite">配置 0 / 3</span><button id="concentration-mobile-next">新しい6枚</button><button id="concentration-mobile-check">答え合わせ</button></div></div>
+  <dialog id="concentration-zoom-dialog" class="concentration-zoom-dialog"><div class="dialog-heading"><h2 id="concentration-zoom-title">図を大きく見る</h2><button id="concentration-zoom-close" aria-label="拡大図を閉じる">×</button></div><div id="concentration-zoom-map"></div><p>うすいほど少なく、濃いほど多い模式図です。</p></dialog>
+</body>
+</html>
