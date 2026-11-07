@@ -114,3 +114,23 @@ test("grayscale remains neutral and contrast inputs stay in their supported rang
   assert.deepEqual(core.createPalette("#245f42", NaN), core.createPalette("#245f42", 75));
   assert.throws(() => core.createPalette("invalid", 75), /Invalid/);
 });
+
+test("brightness changes all blood tones without flattening their concentration order", () => {
+  for (const color of ["#245f42", "#245da0", "#aa3d42", "#754b9e", "#505050", "#000000", "#ffffff", "#ffff00"]) {
+    for (const contrast of [20, 75, 100]) {
+      for (const brightness of [50, 100, 150]) {
+        const palette = core.createPalette(color, contrast, brightness);
+        assert.equal(new Set(palette).size, 4);
+        const light = palette.map(luminance);
+        for (let i = 0; i < 3; i++) assert.ok(light[i] > light[i + 1]);
+      }
+      const dark = core.createPalette(color, contrast, 50).map(luminance);
+      const bright = core.createPalette(color, contrast, 150).map(luminance);
+      for (let i = 0; i < 4; i++) assert.ok(bright[i] > dark[i]);
+      assert.deepEqual(core.createPalette(color, contrast), core.createPalette(color, contrast, 100));
+    }
+  }
+  assert.deepEqual(core.createPalette("#245f42", 75, -1), core.createPalette("#245f42", 75, 50));
+  assert.deepEqual(core.createPalette("#245f42", 75, 500), core.createPalette("#245f42", 75, 150));
+  assert.deepEqual(core.createPalette("#245f42", 75, NaN), core.createPalette("#245f42", 75, 100));
+});

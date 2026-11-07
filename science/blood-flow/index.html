@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f7f5">
   <title>血液の旅 ─ 血液循環をおぼえよう</title>
-  <link rel="stylesheet" href="style.css?v=concentration-colors-1">
-  <script src="concentration-core.js?v=colors-1" defer></script>
-  <script src="concentration-quiz.js?v=vessel-walls-1" defer></script>
+  <link rel="stylesheet" href="style.css?v=brightness-1">
+  <script src="concentration-core.js?v=brightness-1" defer></script>
+  <script src="concentration-quiz.js?v=brightness-1" defer></script>
   <script src="app.js?v=concentration-1" defer></script>
 </head>
 <body>
@@ -87,9 +87,10 @@
     </div>
     <section id="concentration-quiz" aria-labelledby="concentration-title" hidden>
       <div class="concentration-intro"><div><p class="eyebrow">CONCENTRATION / 血液の中の成分</p><h2 id="concentration-title">6枚の図から、正しい3枚を見つけよう</h2><p>濃いほど、その成分が多い図です。<strong>酸素・養分・不要物を1つずつ</strong>当てはめよう。残り3枚は空欄にします。</p></div><div class="density-legend" aria-label="うすい色ほど少なく、濃い色ほど多い"><span>少ない</span><i></i><span>多い</span></div></div>
-      <div class="concentration-appearance" role="group" aria-label="血流の色とコントラスト">
+      <div class="concentration-appearance" role="group" aria-label="血流の色・コントラスト・明るさ">
         <div class="concentration-color-settings"><span class="appearance-label">血流の色</span><div class="concentration-color-presets" role="group" aria-label="血流の色のプリセット"><button type="button" data-flow-color="#245f42" style="--swatch:#245f42" aria-label="緑" aria-pressed="true"></button><button type="button" data-flow-color="#245da0" style="--swatch:#245da0" aria-label="青" aria-pressed="false"></button><button type="button" data-flow-color="#aa3d42" style="--swatch:#aa3d42" aria-label="赤" aria-pressed="false"></button><button type="button" data-flow-color="#754b9e" style="--swatch:#754b9e" aria-label="紫" aria-pressed="false"></button><button type="button" data-flow-color="#505050" style="--swatch:#505050" aria-label="グレー" aria-pressed="false"></button></div><label class="concentration-custom-color" for="concentration-color">好きな色<input id="concentration-color" type="color" value="#245f42" aria-label="好きな血流の色"></label></div>
         <div class="concentration-contrast-settings"><label class="appearance-label" for="concentration-contrast">コントラスト <output id="concentration-contrast-value" for="concentration-contrast">75%</output></label><div class="concentration-contrast-range"><span>弱く</span><input id="concentration-contrast" type="range" min="20" max="100" step="5" value="75" aria-label="濃淡のコントラスト"><span>強く</span></div></div>
+        <div class="concentration-brightness-settings"><label class="appearance-label" for="concentration-brightness">明るさ <output id="concentration-brightness-value" for="concentration-brightness">100%</output></label><div class="concentration-brightness-range"><span>暗く</span><input id="concentration-brightness" type="range" min="50" max="150" step="5" value="100" aria-label="血液の明るさ"><span>明るく</span></div></div>
         <button id="concentration-appearance-reset" type="button">標準に戻す</button>
       </div>
       <p class="concentration-note">食後の血液を想定しています。「養分」はブドウ糖など、「不要物」は尿素を表します。濃淡は実際の測定値ではなく、多い・少ないを比べる模式図です。</p>

@@ -85,7 +85,7 @@
     return { placed, correct, wrong: placed - correct, remaining: 3 - placed, solved: placed === 3 && correct === 3 };
   }
 
-  function createPalette(color, contrast = 75) {
+  function createPalette(color, contrast = 75, brightness = 100) {
     if (!/^#[0-9a-f]{6}$/i.test(color)) throw new Error("Invalid blood flow color");
     const rgb = [1, 3, 5].map(index => parseInt(color.slice(index, index + 2), 16) / 255);
     const max = Math.max(...rgb);
@@ -103,8 +103,11 @@
     const numericContrast = Number(contrast);
     const strength = Math.max(20, Math.min(100, Number.isFinite(numericContrast) ? numericContrast : 75));
     const span = 0.22 + strength / 100 * 0.6;
+    const numericBrightness = Number(brightness);
+    const brightnessLevel = Math.max(50, Math.min(150, Number.isFinite(numericBrightness) ? numericBrightness : 100));
     return [0, 1, 2, 3].map(level => {
-      const tone = 0.54 + span / 2 - span * level / 3;
+      // A monotonic curve changes brightness without clipping different levels together.
+      const tone = (0.54 + span / 2 - span * level / 3) ** (100 / brightnessLevel);
       const chroma = (1 - Math.abs(2 * tone - 1)) * saturation;
       const secondary = chroma * (1 - Math.abs(hue % 2 - 1));
       const offset = tone - chroma / 2;

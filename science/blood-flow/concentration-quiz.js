@@ -6,12 +6,15 @@
   const palette = [0, 1, 2, 3].map(level => `var(--concentration-tone-${level})`);
   const vesselWallColor = "#4f5b56";
   const appearanceKey = "joylearn.blood-flow.concentration-appearance.v1";
-  const defaultAppearance = { color: "#245f42", contrast: 75 };
+  const defaultAppearance = { color: "#245f42", contrast: 75, brightness: 100 };
   let appearance = { ...defaultAppearance };
   try {
     const saved = JSON.parse(root.localStorage.getItem(appearanceKey));
     if (saved && /^#[0-9a-f]{6}$/i.test(saved.color) && Number.isFinite(saved.contrast) && saved.contrast >= 20 && saved.contrast <= 100) {
-      appearance = { color: saved.color.toLowerCase(), contrast: saved.contrast };
+      appearance = {
+        color: saved.color.toLowerCase(), contrast: saved.contrast,
+        brightness: Number.isFinite(saved.brightness) && saved.brightness >= 50 && saved.brightness <= 150 ? saved.brightness : 100
+      };
     }
   } catch { /* The app also works when browser storage is unavailable. */ }
   const toneNames = ["とてもうすい", "うすい", "やや濃い", "濃い"];
@@ -22,12 +25,14 @@
   const visibleAnswers = () => state.revealed ? Object.fromEntries(core.diagrams.filter(item => item.answer).map(item => [item.id, item.answer])) : state.answers;
 
   function applyAppearance(save = false) {
-    core.createPalette(appearance.color, appearance.contrast).forEach((color, level) => {
+    core.createPalette(appearance.color, appearance.contrast, appearance.brightness).forEach((color, level) => {
       document.documentElement.style.setProperty(`--concentration-tone-${level}`, color);
     });
     byId("concentration-color").value = appearance.color;
     byId("concentration-contrast").value = appearance.contrast;
     byId("concentration-contrast-value").textContent = `${appearance.contrast}%`;
+    byId("concentration-brightness").value = appearance.brightness;
+    byId("concentration-brightness-value").textContent = `${appearance.brightness}%`;
     document.querySelectorAll("[data-flow-color]").forEach(button => {
       button.setAttribute("aria-pressed", String(button.dataset.flowColor === appearance.color));
     });
@@ -246,6 +251,10 @@
   });
   byId("concentration-contrast").addEventListener("input", event => {
     appearance.contrast = Number(event.target.value);
+    applyAppearance(true);
+  });
+  byId("concentration-brightness").addEventListener("input", event => {
+    appearance.brightness = Number(event.target.value);
     applyAppearance(true);
   });
   byId("concentration-appearance-reset").addEventListener("click", () => {

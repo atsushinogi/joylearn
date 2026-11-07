@@ -1124,7 +1124,7 @@ dialog p {
 }
 .concentration-appearance {
   display:grid;
-  grid-template-columns:minmax(0,1.5fr) minmax(200px,1fr) auto;
+  grid-template-columns:minmax(0,1.5fr) minmax(150px,1fr) minmax(150px,1fr) auto;
   align-items:center;
   gap:20px;
   margin-top:14px;
@@ -1187,22 +1187,22 @@ dialog p {
   background:#fff;
   cursor:pointer;
 }
-.concentration-contrast-settings {
+.concentration-contrast-settings,.concentration-brightness-settings {
   min-width:0;
 }
-.concentration-contrast-settings > label {
+.concentration-contrast-settings > label,.concentration-brightness-settings > label {
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:8px;
 }
-#concentration-contrast-value {
+#concentration-contrast-value,#concentration-brightness-value {
   color:#8b9d8a;
   font-size:11px;
   font-weight:400;
   font-variant-numeric:tabular-nums;
 }
-.concentration-contrast-range {
+.concentration-contrast-range,.concentration-brightness-range {
   display:flex;
   align-items:center;
   gap:9px;
@@ -1210,7 +1210,7 @@ dialog p {
   color:#9aaa96;
   font-size:10px;
 }
-#concentration-contrast {
+#concentration-contrast,#concentration-brightness {
   flex:1;
   min-width:0;
   width:100%;
@@ -1219,7 +1219,7 @@ dialog p {
   accent-color:#5d8a69;
   cursor:pointer;
 }
-#concentration-contrast:focus-visible,#concentration-color:focus-visible {
+#concentration-contrast:focus-visible,#concentration-brightness:focus-visible,#concentration-color:focus-visible {
   outline:3px solid #a38ab9;
   outline-offset:3px;
 }
@@ -1234,7 +1234,7 @@ dialog p {
 }
 @media(max-width:900px) {
   .concentration-appearance {
-    grid-template-columns:minmax(0,1fr) auto;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;
     gap:8px 20px;
   }
   .concentration-color-settings {
@@ -1246,6 +1246,7 @@ dialog p {
 }
 @media(max-width:600px) {
   .concentration-appearance {
+    grid-template-columns:minmax(0,1fr) auto;
     padding:15px;
     gap:12px;
   }
@@ -1260,6 +1261,18 @@ dialog p {
   }
   .concentration-custom-color {
     margin-left:auto;
+  }
+  .concentration-contrast-settings {
+    grid-column:1;
+    grid-row:2;
+  }
+  .concentration-brightness-settings {
+    grid-column:1 / -1;
+    grid-row:3;
+  }
+  #concentration-appearance-reset {
+    grid-column:2;
+    grid-row:2;
   }
 }
 .concentration-note {
