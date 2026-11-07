@@ -1,4 +1,8 @@
 :root {
+  --concentration-tone-0:#d8eee1;
+  --concentration-tone-1:#a3cbb4;
+  --concentration-tone-2:#5e9e7c;
+  --concentration-tone-3:#245f42;
   --ink:#293e3c;
   --muted:#75817e;
   --green:#307766;
@@ -1116,7 +1120,147 @@ dialog p {
   height:13px;
   border:1px solid #adc5b5;
   border-radius:4px;
-  background:linear-gradient(to right,#d8eee1,#a3cbb4,#5e9e7c,#245f42);
+  background:linear-gradient(to right,var(--concentration-tone-0),var(--concentration-tone-1),var(--concentration-tone-2),var(--concentration-tone-3));
+}
+.concentration-appearance {
+  display:grid;
+  grid-template-columns:minmax(0,1.5fr) minmax(200px,1fr) auto;
+  align-items:center;
+  gap:20px;
+  margin-top:14px;
+  padding:17px 20px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#fff;
+}
+.appearance-label {
+  color:#6e8271;
+  font-size:11px;
+  font-weight:600;
+}
+.concentration-color-settings {
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.concentration-color-presets {
+  display:flex;
+  gap:3px;
+}
+.concentration-color-presets button {
+  display:grid;
+  place-items:center;
+  width:44px;
+  height:44px;
+  padding:0;
+  border:1px solid transparent;
+  border-radius:8px;
+  background:transparent;
+}
+.concentration-color-presets button::before {
+  content:"";
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  background:var(--swatch);
+}
+.concentration-color-presets button[aria-pressed="true"] {
+  border-color:#9ab2a1;
+  background:#edf4ee;
+  box-shadow:inset 0 0 0 2px #fff;
+}
+.concentration-custom-color {
+  display:flex;
+  align-items:center;
+  gap:7px;
+  min-height:44px;
+  color:#849583;
+  font-size:10px;
+}
+#concentration-color {
+  width:40px;
+  height:36px;
+  padding:3px;
+  border:1px solid #d7e1d7;
+  border-radius:6px;
+  background:#fff;
+  cursor:pointer;
+}
+.concentration-contrast-settings {
+  min-width:0;
+}
+.concentration-contrast-settings > label {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+}
+#concentration-contrast-value {
+  color:#8b9d8a;
+  font-size:11px;
+  font-weight:400;
+  font-variant-numeric:tabular-nums;
+}
+.concentration-contrast-range {
+  display:flex;
+  align-items:center;
+  gap:9px;
+  min-height:39px;
+  color:#9aaa96;
+  font-size:10px;
+}
+#concentration-contrast {
+  flex:1;
+  min-width:0;
+  width:100%;
+  height:30px;
+  margin:0;
+  accent-color:#5d8a69;
+  cursor:pointer;
+}
+#concentration-contrast:focus-visible,#concentration-color:focus-visible {
+  outline:3px solid #a38ab9;
+  outline-offset:3px;
+}
+#concentration-appearance-reset {
+  min-height:44px;
+  padding:10px 12px;
+  border:1px solid #d9e3d8;
+  border-radius:7px;
+  background:#f8faf5;
+  color:#91a18a;
+  font-size:10px;
+}
+@media(max-width:900px) {
+  .concentration-appearance {
+    grid-template-columns:minmax(0,1fr) auto;
+    gap:8px 20px;
+  }
+  .concentration-color-settings {
+    grid-column:1 / -1;
+  }
+  .concentration-color-presets {
+    gap:2px;
+  }
+}
+@media(max-width:600px) {
+  .concentration-appearance {
+    padding:15px;
+    gap:12px;
+  }
+  .concentration-color-settings > .appearance-label {
+    width:100%;
+  }
+  .concentration-color-presets {
+    gap:2px;
+  }
+  .concentration-color-settings {
+    gap:6px;
+  }
+  .concentration-custom-color {
+    margin-left:auto;
+  }
 }
 .concentration-note {
   margin:13px 3px 23px;

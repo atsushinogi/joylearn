@@ -46,6 +46,33 @@ with sync_playwright() as p:
     assert len(set(order(page))) == 6
     expect(page.locator('#concentration-bank .concentration-chip')).to_have_count(3)
     expect(page.locator('#concentration-count')).to_have_text('0 / 3')
+    # Appearance updates every diagram, gradients, legend, and enlarged diagram.
+    original_order = order(page)
+    artery = page.locator('[data-diagram="pattern-a"] [data-vessel="aorta"]')
+    green = artery.evaluate('element => getComputedStyle(element).stroke')
+    page.get_by_role('button', name='青', exact=True).click()
+    blue = artery.evaluate('element => getComputedStyle(element).stroke')
+    assert blue != green
+    assert page.locator('.concentration-card [data-level="3"]').evaluate_all('paths => new Set(paths.map(path => getComputedStyle(path).stroke)).size') == 1
+    assert blue in page.locator('.density-legend i').evaluate('element => getComputedStyle(element).backgroundImage')
+    assert page.locator('#pattern-a-lung stop').last.evaluate('element => getComputedStyle(element).stopColor') == blue
+    contrast = page.locator('#concentration-contrast')
+    contrast.focus()
+    contrast.press('End')
+    expect(page.locator('#concentration-contrast-value')).to_have_text('100%')
+    strong = artery.evaluate('element => getComputedStyle(element).stroke')
+    contrast.press('Home')
+    expect(page.locator('#concentration-contrast-value')).to_have_text('20%')
+    assert artery.evaluate('element => getComputedStyle(element).stroke') != strong
+    page.locator('#concentration-color').evaluate("element => { element.value = '#df8b21'; element.dispatchEvent(new Event('input', {bubbles: true})); }")
+    expect(page.locator('#concentration-color')).to_have_value('#df8b21')
+    custom = artery.evaluate('element => getComputedStyle(element).stroke')
+    assert custom != blue
+    page.locator('[data-diagram="pattern-a"] .concentration-zoom').click()
+    assert page.locator('#concentration-zoom-map [data-vessel="aorta"]').evaluate('element => getComputedStyle(element).stroke') == custom
+    page.locator('#concentration-zoom-close').click()
+    assert order(page) == original_order
+    expect(page.locator('#concentration-count')).to_have_text('0 / 3')
     page.locator('#concentration-check').click()
     expect(page.locator('#concentration-feedback')).to_contain_text('0 / 3 正解')
     expect(page.locator('.concentration-card.correct')).to_have_count(0)
@@ -71,6 +98,11 @@ with sync_playwright() as p:
     for target in DISTRACTORS:
         expect(slot(page, target)).to_contain_text('ここに成分を入れる')
     page.locator('#concentration-check').click()
+    expect(page.locator('#concentration-feedback')).to_contain_text('3つとも正解')
+    before_appearance = page.locator('.concentration-slot-label').all_text_contents()
+    page.get_by_role('button', name='赤', exact=True).click()
+    assert page.locator('.concentration-slot-label').all_text_contents() == before_appearance
+    assert order(page) == original_order
     expect(page.locator('#concentration-feedback')).to_contain_text('3つとも正解')
     for target in DISTRACTORS:
         expect(slot(page, target)).to_contain_text('空欄で正解')
@@ -127,7 +159,19 @@ with sync_playwright() as p:
     chip(page, '酸素').drag_to(slot(page, 'pattern-a'))
     expect(slot(page, 'pattern-a')).to_contain_text('酸素')
     snapshot(page, 'concentration-desktop.png')
+    # Preferences persist across reloads and can be reset independently of a round.
+    page.get_by_role('button', name='青', exact=True).click()
+    page.locator('#concentration-contrast').focus()
+    page.locator('#concentration-contrast').press('End')
+    page.reload()
+    page.locator('#concentration-mode').click()
+    expect(page.locator('#concentration-color')).to_have_value('#245da0')
+    expect(page.locator('#concentration-contrast')).to_have_value('100')
+    page.locator('#concentration-appearance-reset').click()
+    expect(page.locator('#concentration-color')).to_have_value('#245f42')
+    expect(page.locator('#concentration-contrast')).to_have_value('75')
     print('PASS: six diagrams, three correct profiles and three distractors, partial/full grading, move/swap/remove, hints, zoom, reveal, shuffle, drag, independent modes')
+    print('PASS: preset/custom colors, contrast keyboard controls, legend and zoom synchronization, stable answers/order, saved preferences and reset')
 
     context = browser.new_context(viewport={'width': 390, 'height': 844}, is_mobile=True, has_touch=True, reduced_motion='reduce')
     phone = context.new_page()
@@ -135,6 +179,10 @@ with sync_playwright() as p:
     phone.goto(URL)
     phone.locator('#concentration-mode').tap()
     expect(phone.locator('.concentration-mobile-bar')).to_be_visible()
+    phone.get_by_role('button', name='グレー', exact=True).tap()
+    expect(phone.locator('#concentration-color')).to_have_value('#505050')
+    phone.locator('#concentration-contrast').focus()
+    phone.locator('#concentration-contrast').press('End')
     tap_slot(phone, 'pattern-a')
     chip(phone, '酸素', mobile=True).tap()
     chip(phone, '養分', mobile=True).tap()

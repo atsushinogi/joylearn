@@ -82,3 +82,35 @@ test("unknown diagrams and substances cannot create a placement", () => {
   assert.throws(() => core.assign({}, "pattern-a", "unknown"), /Unknown/);
   assert.equal(diagram("pattern-e").answer, null);
 });
+
+function luminance(hex) {
+  const channels = [1, 3, 5].map(index => parseInt(hex.slice(index, index + 2), 16) / 255)
+    .map(value => value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4);
+  return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+}
+
+test("all selectable colors preserve four distinct tones from light to dark", () => {
+  for (const color of ["#245f42", "#245da0", "#aa3d42", "#754b9e", "#505050", "#000000", "#ffffff", "#ffff00", "#00ffff", "#ff00ff"]) {
+    for (const contrast of [20, 50, 75, 100]) {
+      const palette = core.createPalette(color, contrast);
+      assert.equal(new Set(palette).size, 4);
+      assert.ok(palette.every(tone => /^#[0-9a-f]{6}$/i.test(tone)));
+      const brightness = palette.map(luminance);
+      for (let i = 0; i < 3; i++) assert.ok(brightness[i] > brightness[i + 1], `${color} at ${contrast}% must stay light-to-dark`);
+    }
+    const weak = core.createPalette(color, 20).map(luminance);
+    const strong = core.createPalette(color, 100).map(luminance);
+    assert.ok(strong[0] - strong[3] > weak[0] - weak[3]);
+  }
+});
+
+test("grayscale remains neutral and contrast inputs stay in their supported range", () => {
+  for (const tone of core.createPalette("#505050", 100)) {
+    const channels = [tone.slice(1, 3), tone.slice(3, 5), tone.slice(5, 7)];
+    assert.equal(new Set(channels).size, 1);
+  }
+  assert.deepEqual(core.createPalette("#245f42", 0), core.createPalette("#245f42", 20));
+  assert.deepEqual(core.createPalette("#245f42", 1000), core.createPalette("#245f42", 100));
+  assert.deepEqual(core.createPalette("#245f42", NaN), core.createPalette("#245f42", 75));
+  assert.throws(() => core.createPalette("invalid", 75), /Invalid/);
+});

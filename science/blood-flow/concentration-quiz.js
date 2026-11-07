@@ -3,13 +3,38 @@
 (function (root) {
   const core = root.ConcentrationCore;
   const byId = id => document.getElementById(id);
-  const palette = ["#d8eee1", "#a3cbb4", "#5e9e7c", "#245f42"];
+  const palette = [0, 1, 2, 3].map(level => `var(--concentration-tone-${level})`);
+  const appearanceKey = "joylearn.blood-flow.concentration-appearance.v1";
+  const defaultAppearance = { color: "#245f42", contrast: 75 };
+  let appearance = { ...defaultAppearance };
+  try {
+    const saved = JSON.parse(root.localStorage.getItem(appearanceKey));
+    if (saved && /^#[0-9a-f]{6}$/i.test(saved.color) && Number.isFinite(saved.contrast) && saved.contrast >= 20 && saved.contrast <= 100) {
+      appearance = { color: saved.color.toLowerCase(), contrast: saved.contrast };
+    }
+  } catch { /* The app also works when browser storage is unavailable. */ }
   const toneNames = ["とてもうすい", "うすい", "やや濃い", "濃い"];
   const state = { started: false, order: [], answers: {}, selected: null, target: null, checked: false, revealed: false, hints: {} };
   const cards = new Map();
   const component = id => core.components.find(item => item.id === id);
   const diagram = id => core.diagrams.find(item => item.id === id);
   const visibleAnswers = () => state.revealed ? Object.fromEntries(core.diagrams.filter(item => item.answer).map(item => [item.id, item.answer])) : state.answers;
+
+  function applyAppearance(save = false) {
+    core.createPalette(appearance.color, appearance.contrast).forEach((color, level) => {
+      document.documentElement.style.setProperty(`--concentration-tone-${level}`, color);
+    });
+    byId("concentration-color").value = appearance.color;
+    byId("concentration-contrast").value = appearance.contrast;
+    byId("concentration-contrast-value").textContent = `${appearance.contrast}%`;
+    document.querySelectorAll("[data-flow-color]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.dataset.flowColor === appearance.color));
+    });
+    if (save) {
+      try { root.localStorage.setItem(appearanceKey, JSON.stringify(appearance)); }
+      catch { /* Changing the display does not require persistent storage. */ }
+    }
+  }
 
   function drawDiagram(item, number) {
     const paths = [
@@ -210,6 +235,21 @@
   }
 
   byId("concentration-next").addEventListener("click", start);
+  document.querySelectorAll("[data-flow-color]").forEach(button => {
+    button.addEventListener("click", () => { appearance.color = button.dataset.flowColor; applyAppearance(true); });
+  });
+  byId("concentration-color").addEventListener("input", event => {
+    appearance.color = event.target.value;
+    applyAppearance(true);
+  });
+  byId("concentration-contrast").addEventListener("input", event => {
+    appearance.contrast = Number(event.target.value);
+    applyAppearance(true);
+  });
+  byId("concentration-appearance-reset").addEventListener("click", () => {
+    appearance = { ...defaultAppearance };
+    applyAppearance(true);
+  });
   byId("concentration-mobile-next").addEventListener("click", start);
   byId("concentration-check").addEventListener("click", check);
   byId("concentration-mobile-check").addEventListener("click", check);
@@ -235,5 +275,6 @@
       render();
     }
   });
+  applyAppearance();
   root.ConcentrationQuiz = { ensureStarted() { if (!state.started) start(); } };
 })(globalThis);

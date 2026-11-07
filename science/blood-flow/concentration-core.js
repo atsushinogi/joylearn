@@ -85,7 +85,35 @@
     return { placed, correct, wrong: placed - correct, remaining: 3 - placed, solved: placed === 3 && correct === 3 };
   }
 
-  const api = { components, diagrams, shuffleDiagrams, assign, grade };
+  function createPalette(color, contrast = 75) {
+    if (!/^#[0-9a-f]{6}$/i.test(color)) throw new Error("Invalid blood flow color");
+    const rgb = [1, 3, 5].map(index => parseInt(color.slice(index, index + 2), 16) / 255);
+    const max = Math.max(...rgb);
+    const min = Math.min(...rgb);
+    const delta = max - min;
+    const lightness = (max + min) / 2;
+    const saturation = delta ? delta / (1 - Math.abs(2 * lightness - 1)) : 0;
+    let hue = 0;
+    if (delta) {
+      if (max === rgb[0]) hue = ((rgb[1] - rgb[2]) / delta) % 6;
+      else if (max === rgb[1]) hue = (rgb[2] - rgb[0]) / delta + 2;
+      else hue = (rgb[0] - rgb[1]) / delta + 4;
+      hue = (hue + 6) % 6;
+    }
+    const numericContrast = Number(contrast);
+    const strength = Math.max(20, Math.min(100, Number.isFinite(numericContrast) ? numericContrast : 75));
+    const span = 0.22 + strength / 100 * 0.6;
+    return [0, 1, 2, 3].map(level => {
+      const tone = 0.54 + span / 2 - span * level / 3;
+      const chroma = (1 - Math.abs(2 * tone - 1)) * saturation;
+      const secondary = chroma * (1 - Math.abs(hue % 2 - 1));
+      const offset = tone - chroma / 2;
+      const sectors = [[chroma, secondary, 0], [secondary, chroma, 0], [0, chroma, secondary], [0, secondary, chroma], [secondary, 0, chroma], [chroma, 0, secondary]];
+      return "#" + sectors[Math.floor(hue)].map(channel => Math.round((channel + offset) * 255).toString(16).padStart(2, "0")).join("");
+    });
+  }
+
+  const api = { components, diagrams, shuffleDiagrams, assign, grade, createPalette };
   if (typeof module === "object" && module.exports) module.exports = api;
   else root.ConcentrationCore = api;
 })(globalThis);
