@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta name="description" content="8種類の岩の写真に、名前と解説文を当てはめよう。堆積岩と変成岩を学ぶ、答え合わせ・ヒント付きの学習アプリ。">
+  <title>岩の標本室 ─ 名前とできかたを学ぼう</title>
+  <link rel="stylesheet" href="style.css?v=1">
+  <script src="rocks.js?v=1" defer></script>
+  <script src="quiz-core.js?v=1" defer></script>
+  <script src="app.js?v=1" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="./" class="brand"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="m6 27 4-17 15-4 10 12-6 15-17 1Z" fill="#9b8061"/><path d="m9 18 23-4M7 25l25-4M12 32l18-4" stroke="#f1e9d9" stroke-width="2"/></svg><span>岩の標本室</span><span class="brand-note">地球のしくみラボ</span></a>
+    <button id="reference-open" class="quiet-button"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3" width="14" height="14" rx="2"/><path d="m4 14 4-4 3 3 2-2 4 4M12 7h1"/></svg>参考画像</button>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">EARTH SCIENCE / 地層と岩石</p><h1 id="page-title">岩の名前と、できかた。</h1><p class="intro-copy">写真をよく見て、名前と解説文をぴったり当てはめよう。</p><div class="lesson-tags"><span>堆積岩 6種類</span><span>変成岩 2種類</span><span>名前と解説、全16問</span></div></div>
+      <div class="mode-switch" role="group" aria-label="学習モード"><button id="quiz-mode" class="active" aria-pressed="true">当てはめる</button><button id="learn-mode" aria-pressed="false">おぼえる</button></div>
+    </section>
+    <div class="workspace">
+      <section class="collection" aria-labelledby="collection-heading">
+        <div class="collection-heading"><h2 id="collection-heading">8つの岩を観察しよう</h2><span>写真は参考画像の標本です</span></div>
+        <div id="specimens" class="specimen-grid"></div>
+        <div class="collection-note"><span aria-hidden="true">↗</span> 写真の拡大ボタンで、粒の大きさや模様をじっくり観察できます。</div>
+      </section>
+      <aside class="answer-panel">
+        <section class="task-card" aria-labelledby="task-title">
+          <p class="eyebrow">LET'S TRY</p><h2 id="task-title">選んで、当てはめよう</h2><p class="instruction" id="instruction">岩の空欄をタップして、名前や解説文を選ぼう。選択肢を先に選んでもOK！</p>
+          <div class="progress-heading"><span id="progress-label">配置した回答</span><strong id="progress-count">0 <small>/ 16</small></strong></div>
+          <div class="progress-track" role="progressbar" aria-label="配置した回答" aria-valuemin="0" aria-valuemax="16" aria-valuenow="0"><span id="progress-fill"></span></div>
+          <div id="quiz-controls">
+            <div class="bank-tabs" role="group" aria-label="選択肢の種類"><button data-bank-kind="name" class="active" aria-pressed="true">名前 <span>8</span></button><button data-bank-kind="description" aria-pressed="false">解説文 <span>8</span></button></div>
+            <p id="selection-heading" class="selection-heading">名前を選んで、写真の下の空欄へ</p>
+            <div id="choice-bank" class="choice-bank" aria-label="名前の選択肢"></div>
+            <button id="clear-answer" class="text-button" hidden>選んだ欄を空にする</button>
+            <div id="feedback" class="feedback" role="status" aria-live="polite">まずは、見たことのある岩から。</div>
+            <button id="check" class="primary-button">答え合わせ <span aria-hidden="true">→</span></button>
+            <button id="review" class="text-button" hidden>まだ正解していない欄へ</button>
+            <div class="secondary-actions"><button id="hint">ヒント</button><button id="reset">やり直す</button></div>
+            <button id="reveal" class="text-button">答えをすべて見る</button>
+          </div>
+          <div id="learning-guide" hidden><p class="learning-copy">名前と解説文を見ながら、材料やできかたを比べよう。</p><div class="origin-list"><p><i></i>流水のはたらきでできる</p><p><i></i>生物の死がいなどからできる</p><p><i></i>火山灰などからできる</p><p><i></i>熱や圧力で変化してできる</p></div><button id="return-to-quiz" class="primary-button">当てはめ問題に戻る</button></div>
+        </section>
+        <section class="memo-card"><span class="memo-icon" aria-hidden="true">!</span><div><h3>堆積岩と変成岩</h3><p>どろ・砂・小石や、生物の死がい、火山灰などが堆積して固まったものが<strong>堆積岩</strong>。<br>もとの岩石が熱や圧力で変化したものが<strong>変成岩</strong>です。</p></div></section>
+        <button id="mobile-choices-open" class="mobile-choices-open">選択肢を開く</button>
+      </aside>
+    </div>
+    <footer class="page-footer"><span>ひとつの岩から、地球の歴史を見つけよう。</span><span>岩の標本室</span></footer>
+  </main>
+  <div class="mobile-toolbar"><strong id="mobile-progress">0 <small>/ 16</small></strong><button id="mobile-pick">選択肢</button><button id="mobile-check">答え合わせ</button></div>
+  <dialog id="choice-dialog" class="choice-dialog"><div class="dialog-heading"><div><p class="eyebrow" id="mobile-target">選択肢</p><h2 id="mobile-choice-title">名前を選ぼう</h2></div><button data-close="choice-dialog" class="close-button" aria-label="選択肢を閉じる">×</button></div><div class="bank-tabs mobile-kind-tabs" role="group" aria-label="選択肢の種類"><button data-bank-kind="name">名前</button><button data-bank-kind="description">解説文</button></div><div id="mobile-bank" class="choice-bank"></div><button id="mobile-clear" class="text-button" hidden>選んだ欄を空にする</button><p id="mobile-choice-help" class="dialog-help">選ぶと、タップした空欄に入ります。</p></dialog>
+  <dialog id="reference-dialog" class="image-dialog"><div class="dialog-heading"><h2>参考画像</h2><button data-close="reference-dialog" class="close-button" aria-label="参考画像を閉じる">×</button></div><img src="assets/reference.jpg" alt="堆積岩6種類と変成岩2種類の写真、名前、解説文が載った参考画像" loading="lazy"></dialog>
+  <dialog id="photo-dialog" class="photo-dialog"><div class="dialog-heading"><h2 id="photo-title">岩の写真</h2><button data-close="photo-dialog" class="close-button" aria-label="岩の写真を閉じる">×</button></div><img id="large-photo" alt=""></dialog>
+  <dialog id="reset-dialog" class="reset-dialog"><h2>はじめから挑戦する？</h2><p>入れた名前と解説文を消して、選択肢を並べ替えます。</p><div class="dialog-actions"><button data-close="reset-dialog">続ける</button><button id="reset-confirm" class="primary-button">やり直す</button></div></dialog>
+  <noscript><p class="noscript">この学習アプリを使うには、ブラウザーのJavaScriptを有効にしてください。</p></noscript>
+</body>
+</html>
