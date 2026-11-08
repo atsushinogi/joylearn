@@ -3,6 +3,8 @@
 
   const $ = id => document.getElementById(id);
   const ratioText = ratio => ratio.join(' : ');
+  const sideName = side => RatioQuiz.SIDES[side].segments.join(' : ');
+  const areaNames = { a: '△PBC', b: '△PAC', c: '△PAB' };
   let level = 'basic';
   let questions = [];
   let questionIndex = 0;
@@ -12,6 +14,14 @@
   const previousKeys = { basic: [], advanced: [] };
 
   function currentQuestion() { return questions[questionIndex]; }
+
+  function questionAreas(question) {
+    const [common, first, second] = question.areaKeys;
+    return {
+      common: areaNames[common], first: areaNames[first], second: areaNames[second],
+      commonValue: question.weights[common], firstValue: question.weights[first], secondValue: question.weights[second]
+    };
+  }
 
   function startSession(nextLevel) {
     level = nextLevel;
@@ -41,7 +51,12 @@
       const state = index < answers.length ? (answers[index].correct ? 'correct' : 'incorrect') : index === questionIndex ? 'current' : '';
       return `<span class="${state}" aria-label="第${index + 1}問 ${index < answers.length ? (answers[index].correct ? '正解' : '不正解') : index === questionIndex ? '挑戦中' : '未回答'}"></span>`;
     }).join('');
-    $('known-ratios').innerHTML = `<span>BD : DC = ${ratioText(question.first)}</span><span>CE : EA = ${ratioText(question.second)}</span>`;
+    const targetName = sideName(question.target);
+    const [firstKnown, secondKnown] = question.known;
+    const areas = questionAreas(question);
+    $('question-title').textContent = `${targetName} はいくつ？`;
+    $('question-target').textContent = targetName;
+    $('known-ratios').innerHTML = question.known.map(known => `<span>${sideName(known.side)} = ${ratioText(known.ratio)}</span>`).join('');
     $('feedback').hidden = true;
     $('feedback').innerHTML = '';
     $('hint').hidden = true;
@@ -49,7 +64,8 @@
     $('hint-toggle').innerHTML = 'ヒントを見る <span aria-hidden="true">＋</span>';
     const [u, v] = question.first;
     const [s, t] = question.second;
-    $('hint').innerHTML = `面積の比は、△PAB : △PAC = <b>${u} : ${v}</b>、△PBC : △PAB = <b>${s} : ${t}</b>。<br>共通する△PABの「${u}」と「${t}」${level === 'basic' ? 'は同じ数。そのまま比べられるよ。' : `を、最小公倍数の<b>${question.common}</b>にそろえよう。`}`;
+    $('hint').innerHTML = `面積の比は、${areas.common} : ${areas.first} = <b>${u} : ${v}</b>、${areas.second} : ${areas.common} = <b>${s} : ${t}</b>。<br>共通する${areas.common}の「${u}」と「${t}」${level === 'basic' ? 'は同じ数。そのまま比べられるよ。' : `を、最小公倍数の<b>${question.common}</b>にそろえよう。`}`;
+    $('method-content').innerHTML = `<p>高さが同じ三角形は、面積の比と底辺の比が同じです。</p><p><b>${sideName(firstKnown.side)} = ${areas.common} : ${areas.first}</b>、<b>${sideName(secondKnown.side)} = ${areas.second} : ${areas.common}</b> となります。共通する${areas.common}の面積をそろえると、残る${areas.first}と${areas.second}の面積の比から <b>${targetName}</b> がわかります。</p><p class="muted">チェバの定理でも、(BD / DC) × (CE / EA) × (AF / FB) = 1 として確かめられます。</p>`;
     renderDiagram();
     $('choices').replaceChildren();
     question.choices.forEach((ratio, index) => {
@@ -81,6 +97,9 @@
     const question = currentQuestion();
     const { a, b, c } = question.weights;
     const A = { x: 270, y: 48 }, B = { x: 100, y: 342 }, C = { x: 460, y: 342 };
+    const vertices = { A, B, C };
+    const targetSide = RatioQuiz.SIDES[question.target];
+    const segmentRatios = Object.fromEntries(question.known.flatMap(known => RatioQuiz.SIDES[known.side].segments.map((segment, index) => [segment, known.ratio[index]])));
     function weighted(first, w1, second, w2) {
       return { x: (first.x * w1 + second.x * w2) / (w1 + w2), y: (first.y * w1 + second.y * w2) / (w1 + w2) };
     }
@@ -89,7 +108,9 @@
     const coords = point => `${point.x},${point.y}`;
     const line = (first, second, color, width = 1.8, extra = '') => `<line x1="${first.x}" y1="${first.y}" x2="${second.x}" y2="${second.y}" stroke="${color}" stroke-width="${width}" ${extra}/>`;
     const label = (point, name, dx, dy) => `<circle cx="${point.x}" cy="${point.y}" r="3.5" fill="#244f41"/><text x="${point.x + dx}" y="${point.y + dy}" fill="#244f41" font-size="17" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="#f4f7ef" stroke-width="5" stroke-linejoin="round">${name}</text>`;
-    function segmentValue(first, second, name, value, unknown = false) {
+    function segmentValue(first, second, name) {
+      const unknown = targetSide.segments.includes(name);
+      const value = unknown ? '?' : segmentRatios[name];
       const dx = second.x - first.x, dy = second.y - first.y;
       const length = Math.hypot(dx, dy);
       const offset = 28;
@@ -101,28 +122,30 @@
         <text ${unknown ? `id="segment-${id}-value"` : ''} x="0" y="1" dominant-baseline="middle" text-anchor="middle" fill="${unknown ? '#ab6036' : '#244f41'}" font-size="23" font-weight="800" aria-label="${name}の比の値 ${value}">${value}</text></g>`;
     }
     $('diagram').innerHTML = `<title id="diagram-title">三角形ABCの分割比</title>
-      <desc id="diagram-desc">Dは辺BC上、Eは辺CA上、Fは辺AB上。AD、BE、CFは点Pで交わります。BD対DCは${ratioText(question.first)}、CE対EAは${ratioText(question.second)}。AF対FBを求めます。</desc>
+      <desc id="diagram-desc">Dは辺BC上、Eは辺CA上、Fは辺AB上。AD、BE、CFは点Pで交わります。${question.known.map(known => `${sideName(known.side)}は${ratioText(known.ratio)}`).join('、')}。${sideName(question.target)}を求めます。</desc>
       <polygon points="${coords(A)} ${coords(B)} ${coords(P)}" fill="#e4eee0"/>
       <polygon points="${coords(A)} ${coords(C)} ${coords(P)}" fill="#e8efec"/>
       <polygon points="${coords(B)} ${coords(C)} ${coords(P)}" fill="#edf0df"/>
       ${line(A, D, '#819b7a')}${line(B, E, '#819b7a')}${line(C, F, '#819b7a')}
       <polygon points="${coords(A)} ${coords(B)} ${coords(C)}" fill="none" stroke="#295646" stroke-width="2.5" stroke-linejoin="round"/>
-      ${line(A, B, '#c8814e', 4, 'stroke-linecap="round"')}
+      ${line(vertices[targetSide.vertices[0]], vertices[targetSide.vertices[1]], '#c8814e', 4, 'stroke-linecap="round"')}
       ${label(A, 'A', 0, -15)}${label(B, 'B', -15, 22)}${label(C, 'C', 17, 22)}
       ${label(D, 'D', 0, 24)}${label(E, 'E', -18, -3)}${label(F, 'F', 18, -3)}
       <circle cx="${P.x}" cy="${P.y}" r="5.5" fill="#246c55" stroke="white" stroke-width="2"/>
       <text x="${P.x + 13}" y="${P.y + 17}" fill="#246c55" font-size="15" font-weight="800" paint-order="stroke" stroke="#f4f7ef" stroke-width="4">P</text>
-      ${segmentValue(B, D, 'BD', question.first[0])}
-      ${segmentValue(D, C, 'DC', question.first[1])}
-      ${segmentValue(C, E, 'CE', question.second[0])}
-      ${segmentValue(E, A, 'EA', question.second[1])}
-      ${segmentValue(A, F, 'AF', '?', true)}
-      ${segmentValue(F, B, 'FB', '?', true)}`;
+      ${segmentValue(B, D, 'BD')}
+      ${segmentValue(D, C, 'DC')}
+      ${segmentValue(C, E, 'CE')}
+      ${segmentValue(E, A, 'EA')}
+      ${segmentValue(A, F, 'AF')}
+      ${segmentValue(F, B, 'FB')}`;
     renderPreview(null);
   }
 
   function renderPreview(ratio, correct = false) {
-    ['af', 'fb'].forEach((segment, index) => {
+    const question = currentQuestion();
+    RatioQuiz.SIDES[question.target].segments.forEach((name, index) => {
+      const segment = name.toLowerCase();
       const value = ratio ? ratio[index] : '?';
       const text = $(`segment-${segment}-value`);
       const box = $(`segment-${segment}-box`);
@@ -133,8 +156,8 @@
       box.setAttribute('stroke', correct ? '#58926c' : ratio ? '#7a9cd5' : '#d7ae7e');
       box.setAttribute('stroke-dasharray', ratio ? 'none' : '4 3');
     });
-    $('preview-caption').textContent = correct ? `正しい比は AF : FB = ${ratioText(ratio)}` : ratio
-      ? `AF : FB = ${ratioText(ratio)} を仮表示中。クリックで回答します`
+    $('preview-caption').textContent = correct ? `正しい比は ${sideName(question.target)} = ${ratioText(ratio)}` : ratio
+      ? `${sideName(question.target)} = ${ratioText(ratio)} を仮表示中。クリックで回答します`
       : '選択肢にカーソルを置くと、図に比が表示されます';
   }
 
@@ -167,14 +190,16 @@
   function showFeedback(correct) {
     const question = currentQuestion();
     const [u, v] = question.first, [s, t] = question.second;
-    const { a, b, c } = question.weights;
+    const areas = questionAreas(question);
+    const { commonValue: c, firstValue: b, secondValue: a } = areas;
+    const targetName = sideName(question.target);
     const firstMultiplier = question.common / u, secondMultiplier = question.common / t;
     const simplifyNote = RatioQuiz.gcd(a, b) > 1 ? `。${RatioQuiz.gcd(a, b)}で割って簡単にすると <b>${ratioText(question.answer)}</b>` : '';
     $('feedback').className = `feedback${correct ? '' : ' wrong'}`;
-    $('feedback').innerHTML = `<div class="feedback-header"><span class="feedback-symbol" aria-hidden="true">${correct ? '○' : '↗'}</span><div><h3>${correct ? '正解！その調子。' : 'おしい！比をそろえて確かめよう。'}</h3><p>正しい答えは AF : FB = ${ratioText(question.answer)}</p></div></div>
-      <div class="explanation"><div class="explanation-step"><span class="step-label">01 / 面積の比にする</span><p>△PAB : △PAC = <b>${u} : ${v}</b><br>△PBC : △PAB = <b>${s} : ${t}</b><br>同じ高さの三角形は、底辺の比と面積の比が同じ。</p></div>
-      <div class="explanation-step"><span class="step-label">02 / 共通する数をそろえる</span><p>${level === 'basic' ? `△PABはどちらも<b>${c}</b>。<br>そのまま比をつなげられる！` : `${u}と${t}の最小公倍数は<b>${c}</b>。<br>1つ目を${firstMultiplier}倍 → <b>${c} : ${b}</b><br>2つ目を${secondMultiplier}倍 → <b>${a} : ${c}</b>`}<br>△PAB : △PAC : △PBC<br>= <b>${c} : ${b} : ${a}</b></p></div>
-      <div class="explanation-step"><span class="step-label">03 / 残りの比を読む</span><p>AF : FB = △PAC : △PBC<br>= <b>${b} : ${a}</b>${simplifyNote}<br>答えは <b>${ratioText(question.answer)}</b>。</p></div></div>
+    $('feedback').innerHTML = `<div class="feedback-header"><span class="feedback-symbol" aria-hidden="true">${correct ? '○' : '↗'}</span><div><h3>${correct ? '正解！その調子。' : 'おしい！比をそろえて確かめよう。'}</h3><p>正しい答えは ${targetName} = ${ratioText(question.answer)}</p></div></div>
+      <div class="explanation"><div class="explanation-step"><span class="step-label">01 / 面積の比にする</span><p>${areas.common} : ${areas.first} = <b>${u} : ${v}</b><br>${areas.second} : ${areas.common} = <b>${s} : ${t}</b><br>同じ高さの三角形は、底辺の比と面積の比が同じ。</p></div>
+      <div class="explanation-step"><span class="step-label">02 / 共通する数をそろえる</span><p>${level === 'basic' ? `${areas.common}はどちらも<b>${c}</b>。<br>そのまま比をつなげられる！` : `${u}と${t}の最小公倍数は<b>${c}</b>。<br>1つ目を${firstMultiplier}倍 → <b>${c} : ${b}</b><br>2つ目を${secondMultiplier}倍 → <b>${a} : ${c}</b>`}<br>${areas.common} : ${areas.first} : ${areas.second}<br>= <b>${c} : ${b} : ${a}</b></p></div>
+      <div class="explanation-step"><span class="step-label">03 / 残りの比を読む</span><p>${targetName} = ${areas.first} : ${areas.second}<br>= <b>${b} : ${a}</b>${simplifyNote}<br>答えは <b>${ratioText(question.answer)}</b>。</p></div></div>
       <div class="feedback-bottom"><p>コツ：共通する三角形の面積を、同じ数にそろえる。</p><button id="next-question" class="primary-button" type="button">${questionIndex === 4 ? '5問の結果を見る' : '次の問題へ'} <span aria-hidden="true">→</span></button></div>`;
     $('feedback').hidden = false;
     $('next-question').addEventListener('click', () => {
@@ -196,7 +221,7 @@
     $('quiz').hidden = true;
     $('results').hidden = false;
     $('results').innerHTML = `<p class="eyebrow">CHALLENGE COMPLETE / ${level === 'basic' ? '基本' : '応用'}</p><p class="result-emblem" aria-hidden="true">△</p><h2 id="result-title" tabindex="-1">${score === 5 ? '全問正解、おみごと！' : '5問チャレンジ、おつかれさま！'}</h2><div class="result-score">${score}<span> / 5 問正解</span></div><p class="result-message">${score === 5 ? '比をそろえる考え方が、しっかり身についているね。' : '共通する数をそろえるのがコツ。もう一度やってみよう。'}</p>
-      <div class="review-list">${answers.map((answer, index) => `<div class="review-row"><span class="review-status${answer.correct ? '' : ' incorrect'}">${answer.correct ? '○' : '×'} ${String(index + 1).padStart(2, '0')}</span><div>BD : DC = ${ratioText(answer.question.first)} ／ CE : EA = ${ratioText(answer.question.second)}<div class="review-detail">あなたの答え ${ratioText(answer.selected)}${answer.correct ? '' : ` → 正しくは ${ratioText(answer.question.answer)}`}</div></div><b>${ratioText(answer.question.answer)}</b></div>`).join('')}</div>
+      <div class="review-list">${answers.map((answer, index) => `<div class="review-row"><span class="review-status${answer.correct ? '' : ' incorrect'}">${answer.correct ? '○' : '×'} ${String(index + 1).padStart(2, '0')}</span><div>${answer.question.known.map(known => `${sideName(known.side)} = ${ratioText(known.ratio)}`).join(' ／ ')}<div class="review-detail">${sideName(answer.question.target)}：あなたの答え ${ratioText(answer.selected)}${answer.correct ? '' : ` → 正しくは ${ratioText(answer.question.answer)}`}</div></div><b>${ratioText(answer.question.answer)}</b></div>`).join('')}</div>
       <div class="result-actions"><button id="retry" type="button" class="primary-button">新しい5問に挑戦する ↗</button><button id="other-level" type="button" class="secondary-button">${level === 'basic' ? '応用' : '基本'}に挑戦する</button></div>`;
     $('retry').addEventListener('click', () => startSession(level));
     $('other-level').addEventListener('click', () => startSession(level === 'basic' ? 'advanced' : 'basic'));

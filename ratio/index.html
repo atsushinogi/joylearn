@@ -7,8 +7,8 @@
   <title>三角形の比ラボ｜5問チャレンジ</title>
   <meta name="description" content="三角形の3本の線と分割比を、基本・応用のランダムな5問で練習。4択にカーソルを合わせて図で確かめよう。">
   <link rel="stylesheet" href="./style.css">
-  <script src="./core.js" defer></script>
-  <script src="./app.js" defer></script>
+  <script src="./core.js?v=3" defer></script>
+  <script src="./app.js?v=3" defer></script>
 </head>
 <body>
   <header class="site-header"><a class="brand" href="./index.html"><span class="brand-icon" aria-hidden="true">△</span> 三角形の比ラボ</a><span class="header-note">考える、そろえる、見えてくる。</span></header>
@@ -28,7 +28,7 @@
         </section>
         <section class="answer-panel" aria-labelledby="question-title">
           <p class="eyebrow">LET’S THINK</p><h2 id="question-title">AF : FB はいくつ？</h2>
-          <p class="question-description">D・E・Fは各辺上の点です。<br>AD・BE・CFが1点Pで交わるとき、<br><strong>AF : FB</strong> を選ぼう。</p>
+          <p class="question-description">D・E・Fは各辺上の点です。<br>AD・BE・CFが1点Pで交わるとき、<br><strong id="question-target">AF : FB</strong> を選ぼう。</p>
           <div id="known-ratios" class="known-ratios"></div>
           <p class="choice-instruction">図で確かめて、クリックで回答</p>
           <div id="choices" class="choices" role="group" aria-label="答えの選択肢"></div>
@@ -39,7 +39,7 @@
       <section id="feedback" class="feedback" aria-live="polite" hidden></section>
     </section>
     <section id="results" class="results" hidden aria-labelledby="result-title"></section>
-    <details class="method"><summary><span>なぜ比をそろえると解けるの？</span><span class="method-plus" aria-hidden="true">＋</span></summary><div class="method-content"><p>高さが同じ三角形は、面積の比と底辺の比が同じです。</p><p><b>BD : DC = △PAB : △PAC</b>、<b>CE : EA = △PBC : △PAB</b> となります。共通する△PABの面積をそろえると、残る△PACと△PBCの面積の比から <b>AF : FB</b> がわかります。</p><p class="muted">チェバの定理でも、(BD / DC) × (CE / EA) × (AF / FB) = 1 として確かめられます。</p></div></details>
+    <details class="method"><summary><span>なぜ比をそろえると解けるの？</span><span class="method-plus" aria-hidden="true">＋</span></summary><div id="method-content" class="method-content"></div></details>
     <footer class="page-footer"><span>小さな気づきが、大きな理解に。</span><span>TRIANGLE RATIO LAB</span></footer>
   </main>
 </body>

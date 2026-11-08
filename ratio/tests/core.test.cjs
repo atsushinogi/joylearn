@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { createPool, createSession, gcd, simplify } = require('../core.js');
+const { createPool, createSession, gcd, simplify, orientQuestion, SIDES } = require('../core.js');
 
 for (const level of ['basic', 'advanced']) {
   test(`${level}: all generated questions satisfy Ceva and the level constraints`, () => {
@@ -29,6 +29,29 @@ for (const level of ['basic', 'advanced']) {
     }
   });
 
+  test(`${level}: every target side keeps the known ratios, answer and common area consistent`, () => {
+    for (const original of createPool(level)) {
+      for (const target of Object.keys(SIDES)) {
+        const question = orientQuestion(original, target);
+        const { a, b, c } = question.weights;
+        const actualRatios = { ab: [b, a], bc: [c, b], ca: [a, c] };
+        assert.deepEqual(simplify(...actualRatios[target]), question.answer);
+        assert.equal(question.known.length, 2);
+        assert.equal(new Set([target, ...question.known.map(known => known.side)]).size, 3);
+        for (const known of question.known) {
+          assert.deepEqual(simplify(...actualRatios[known.side]), known.ratio);
+        }
+        const [common, first, second] = question.areaKeys.map(key => question.weights[key]);
+        assert.equal(common, question.common);
+        assert.deepEqual(simplify(common, first), question.first);
+        assert.deepEqual(simplify(second, common), question.second);
+        assert.deepEqual(simplify(first, second), question.answer);
+        assert.equal(common / question.first[0], first / question.first[1]);
+        assert.equal(common / question.second[1], second / question.second[0]);
+      }
+    }
+  });
+
   test(`${level}: sessions have five different questions and four inequivalent choices`, () => {
     let seed = 12345;
     const random = () => { seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0; return seed / 4294967296; };
@@ -38,6 +61,11 @@ for (const level of ['basic', 'advanced']) {
       const questions = createSession(level, random, previousKeys);
       assert.equal(questions.length, 5);
       assert.equal(new Set(questions.map(question => question.key)).size, 5);
+      assert.equal(new Set(questions.map(question => question.target)).size, 3);
+      for (const side of Object.keys(SIDES)) {
+        const count = questions.filter(question => question.target === side).length;
+        assert.ok(count >= 1 && count <= 2);
+      }
       for (const question of questions) {
         assert.ok(!previousKeys.includes(question.key));
         assert.equal(question.choices.length, 4);

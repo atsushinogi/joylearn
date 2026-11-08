@@ -60,17 +60,42 @@
     return shuffle([answer, ...alternatives], random);
   }
 
+  const SIDES = {
+    ab: { segments: ['AF', 'FB'], vertices: ['A', 'B'] },
+    bc: { segments: ['BD', 'DC'], vertices: ['B', 'C'] },
+    ca: { segments: ['CE', 'EA'], vertices: ['C', 'A'] }
+  };
+
+  function orientQuestion(question, target) {
+    const { a, b, c } = question.weights;
+    const orientations = {
+      ab: { weights: { a, b, c }, knownSides: ['bc', 'ca'], areaKeys: ['c', 'b', 'a'] },
+      bc: { weights: { a: c, b: a, c: b }, knownSides: ['ca', 'ab'], areaKeys: ['a', 'c', 'b'] },
+      ca: { weights: { a: b, b: c, c: a }, knownSides: ['ab', 'bc'], areaKeys: ['b', 'a', 'c'] }
+    };
+    const orientation = orientations[target];
+    return {
+      ...question,
+      target,
+      weights: orientation.weights,
+      areaKeys: orientation.areaKeys,
+      known: orientation.knownSides.map((side, index) => ({ side, ratio: index === 0 ? question.first : question.second }))
+    };
+  }
+
   function createSession(level, random = Math.random, previousKeys = []) {
     const pool = createPool(level);
     const previous = new Set(previousKeys);
     const fresh = pool.filter(question => !previous.has(question.key));
-    return shuffle(fresh.length >= 5 ? fresh : pool, random).slice(0, 5).map(question => ({
-      ...question,
+    const sides = shuffle(Object.keys(SIDES), random);
+    const targets = shuffle([...sides, ...sides.slice(0, 2)], random);
+    return shuffle(fresh.length >= 5 ? fresh : pool, random).slice(0, 5).map((question, index) => ({
+      ...orientQuestion(question, targets[index]),
       choices: makeChoices(question.answer, random)
     }));
   }
 
-  const api = { gcd, simplify, shuffle, createPool, makeChoices, createSession };
+  const api = { gcd, simplify, shuffle, createPool, makeChoices, orientQuestion, SIDES, createSession };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.RatioQuiz = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
