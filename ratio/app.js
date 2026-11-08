@@ -89,6 +89,17 @@
     const coords = point => `${point.x},${point.y}`;
     const line = (first, second, color, width = 1.8, extra = '') => `<line x1="${first.x}" y1="${first.y}" x2="${second.x}" y2="${second.y}" stroke="${color}" stroke-width="${width}" ${extra}/>`;
     const label = (point, name, dx, dy) => `<circle cx="${point.x}" cy="${point.y}" r="3.5" fill="#244f41"/><text x="${point.x + dx}" y="${point.y + dy}" fill="#244f41" font-size="17" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="#f4f7ef" stroke-width="5" stroke-linejoin="round">${name}</text>`;
+    function segmentValue(first, second, name, value, unknown = false) {
+      const dx = second.x - first.x, dy = second.y - first.y;
+      const length = Math.hypot(dx, dy);
+      const offset = 28;
+      const x = (first.x + second.x) / 2 - dy / length * offset;
+      const y = (first.y + second.y) / 2 + dx / length * offset;
+      const id = name.toLowerCase();
+      return `<g data-segment="${name}" transform="translate(${x} ${y})"><title>${name}の比の値</title>
+        <rect ${unknown ? `id="segment-${id}-box"` : ''} x="-22" y="-18" width="44" height="36" rx="10" fill="${unknown ? '#fff8ed' : '#ffffff'}" stroke="${unknown ? '#d7ae7e' : '#dce4db'}" ${unknown ? 'stroke-dasharray="4 3"' : ''}/>
+        <text ${unknown ? `id="segment-${id}-value"` : ''} x="0" y="1" dominant-baseline="middle" text-anchor="middle" fill="${unknown ? '#ab6036' : '#244f41'}" font-size="23" font-weight="800" aria-label="${name}の比の値 ${value}">${value}</text></g>`;
+    }
     $('diagram').innerHTML = `<title id="diagram-title">三角形ABCの分割比</title>
       <desc id="diagram-desc">Dは辺BC上、Eは辺CA上、Fは辺AB上。AD、BE、CFは点Pで交わります。BD対DCは${ratioText(question.first)}、CE対EAは${ratioText(question.second)}。AF対FBを求めます。</desc>
       <polygon points="${coords(A)} ${coords(B)} ${coords(P)}" fill="#e4eee0"/>
@@ -98,21 +109,30 @@
       <polygon points="${coords(A)} ${coords(B)} ${coords(C)}" fill="none" stroke="#295646" stroke-width="2.5" stroke-linejoin="round"/>
       ${line(A, B, '#c8814e', 4, 'stroke-linecap="round"')}
       ${label(A, 'A', 0, -15)}${label(B, 'B', -15, 22)}${label(C, 'C', 17, 22)}
-      ${label(D, 'D', 0, 24)}${label(E, 'E', 18, 0)}${label(F, 'F', -18, 0)}
+      ${label(D, 'D', 0, 24)}${label(E, 'E', -18, -3)}${label(F, 'F', 18, -3)}
       <circle cx="${P.x}" cy="${P.y}" r="5.5" fill="#246c55" stroke="white" stroke-width="2"/>
       <text x="${P.x + 13}" y="${P.y + 17}" fill="#246c55" font-size="15" font-weight="800" paint-order="stroke" stroke="#f4f7ef" stroke-width="4">P</text>
-      <g transform="translate(5 133)"><rect id="unknown-box" width="139" height="68" rx="12" fill="#fff8ed" stroke="#d7ae7e" stroke-dasharray="4 3"/><text x="69.5" y="24" fill="#94603c" text-anchor="middle" font-size="12" font-weight="600">AF : FB</text><text id="diagram-answer" x="69.5" y="53" fill="#ab6036" text-anchor="middle" font-size="23" font-weight="800">? : ?</text></g>
-      <g transform="translate(414 143)"><rect width="140" height="63" rx="11" fill="#ffffff" stroke="#dce4db"/><text x="70" y="23" fill="#6c7e76" text-anchor="middle" font-size="12">CE : EA</text><text x="70" y="49" fill="#244f41" text-anchor="middle" font-size="22" font-weight="700">${ratioText(question.second)}</text></g>
-      <g transform="translate(210 380)"><rect width="140" height="48" rx="10" fill="#ffffff" stroke="#dce4db"/><text x="70" y="19" fill="#6c7e76" text-anchor="middle" font-size="11">BD : DC</text><text x="70" y="39" fill="#244f41" text-anchor="middle" font-size="19" font-weight="700">${ratioText(question.first)}</text></g>`;
+      ${segmentValue(B, D, 'BD', question.first[0])}
+      ${segmentValue(D, C, 'DC', question.first[1])}
+      ${segmentValue(C, E, 'CE', question.second[0])}
+      ${segmentValue(E, A, 'EA', question.second[1])}
+      ${segmentValue(A, F, 'AF', '?', true)}
+      ${segmentValue(F, B, 'FB', '?', true)}`;
     renderPreview(null);
   }
 
   function renderPreview(ratio, correct = false) {
-    $('diagram-answer').textContent = ratio ? ratioText(ratio) : '? : ?';
-    $('diagram-answer').setAttribute('fill', correct ? '#246c55' : ratio ? '#386dc5' : '#ab6036');
-    $('unknown-box').setAttribute('fill', correct ? '#edf7ef' : ratio ? '#edf3fe' : '#fff8ed');
-    $('unknown-box').setAttribute('stroke', correct ? '#58926c' : ratio ? '#7a9cd5' : '#d7ae7e');
-    $('unknown-box').setAttribute('stroke-dasharray', ratio ? 'none' : '4 3');
+    ['af', 'fb'].forEach((segment, index) => {
+      const value = ratio ? ratio[index] : '?';
+      const text = $(`segment-${segment}-value`);
+      const box = $(`segment-${segment}-box`);
+      text.textContent = value;
+      text.setAttribute('aria-label', `${segment.toUpperCase()}の比の値 ${value}`);
+      text.setAttribute('fill', correct ? '#246c55' : ratio ? '#386dc5' : '#ab6036');
+      box.setAttribute('fill', correct ? '#edf7ef' : ratio ? '#edf3fe' : '#fff8ed');
+      box.setAttribute('stroke', correct ? '#58926c' : ratio ? '#7a9cd5' : '#d7ae7e');
+      box.setAttribute('stroke-dasharray', ratio ? 'none' : '4 3');
+    });
     $('preview-caption').textContent = correct ? `正しい比は AF : FB = ${ratioText(ratio)}` : ratio
       ? `AF : FB = ${ratioText(ratio)} を仮表示中。クリックで回答します`
       : '選択肢にカーソルを置くと、図に比が表示されます';
