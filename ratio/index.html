@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#174e43">
+  <title>三角形の比ラボ｜5問チャレンジ</title>
+  <meta name="description" content="三角形の3本の線と分割比を、基本・応用のランダムな5問で練習。4択にカーソルを合わせて図で確かめよう。">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./core.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./index.html"><span class="brand-icon" aria-hidden="true">△</span> 三角形の比ラボ</a><span class="header-note">考える、そろえる、見えてくる。</span></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">GEOMETRY / RATIO</p><h1>あとひとつの比、いくつ？</h1><p class="intro-copy">2つの比を手がかりに、三角形のひみつを解こう。</p></div><span class="session-badge">1回 5問 <span>・</span> 4択チャレンジ</span></div>
+    <section class="level-bar" aria-label="レベル選択">
+      <div class="level-tabs"><button id="basic" class="level-tab selected" type="button" aria-pressed="true">基本 <span>そのままそろえる</span></button><button id="advanced" class="level-tab" type="button" aria-pressed="false">応用 <span>公倍数でそろえる</span></button></div>
+      <p id="level-note">共通する比の数が同じ。暗算で考えてみよう。</p>
+    </section>
+    <section id="quiz" class="quiz-shell" aria-label="5問チャレンジ">
+      <div class="quiz-top"><div class="question-count"><span id="question-number">01</span><span>/ 05 問</span></div><div id="progress" class="progress" aria-label="進み具合"></div><span id="score" class="score">正解 0 / 0</span></div>
+      <div class="quiz-grid">
+        <section class="diagram-panel" aria-label="問題の図">
+          <div class="diagram-heading"><span class="tiny-label">三角形 ABC</span><span class="intersection-note"><i></i> 3本の線は点Pで交わる</span></div>
+          <svg id="diagram" viewBox="0 0 560 432" role="img" aria-labelledby="diagram-title diagram-desc"></svg>
+          <div class="diagram-caption"><span class="preview-dot"></span><span id="preview-caption" aria-live="polite">選択肢にカーソルを置くと、図に比が表示されます</span></div>
+        </section>
+        <section class="answer-panel" aria-labelledby="question-title">
+          <p class="eyebrow">LET’S THINK</p><h2 id="question-title">AF : FB はいくつ？</h2>
+          <p class="question-description">D・E・Fは各辺上の点です。<br>AD・BE・CFが1点Pで交わるとき、<br><strong>AF : FB</strong> を選ぼう。</p>
+          <div id="known-ratios" class="known-ratios"></div>
+          <p class="choice-instruction">図で確かめて、クリックで回答</p>
+          <div id="choices" class="choices" role="group" aria-label="答えの選択肢"></div>
+          <div class="answer-footer"><button id="hint-toggle" class="text-button" type="button" aria-expanded="false" aria-controls="hint">ヒントを見る <span aria-hidden="true">＋</span></button><span>時間制限なし</span></div>
+          <div id="hint" class="hint" hidden></div>
+        </section>
+      </div>
+      <section id="feedback" class="feedback" aria-live="polite" hidden></section>
+    </section>
+    <section id="results" class="results" hidden aria-labelledby="result-title"></section>
+    <details class="method"><summary><span>なぜ比をそろえると解けるの？</span><span class="method-plus" aria-hidden="true">＋</span></summary><div class="method-content"><p>高さが同じ三角形は、面積の比と底辺の比が同じです。</p><p><b>BD : DC = △PAB : △PAC</b>、<b>CE : EA = △PBC : △PAB</b> となります。共通する△PABの面積をそろえると、残る△PACと△PBCの面積の比から <b>AF : FB</b> がわかります。</p><p class="muted">チェバの定理でも、(BD / DC) × (CE / EA) × (AF / FB) = 1 として確かめられます。</p></div></details>
+    <footer class="page-footer"><span>小さな気づきが、大きな理解に。</span><span>TRIANGLE RATIO LAB</span></footer>
+  </main>
+</body>
+</html>

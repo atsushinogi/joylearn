@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>あそびと学びの部屋</title>
-  <meta name="description" content="地球儀、歴史クイズ、ポケモンタイピング、スティックマンバトル、ばねラボ、ばねと浮力の4択クイズ、血液循環、岩石。さわって楽しく学べるアプリへの入り口です。">
+  <meta name="description" content="地球儀、歴史クイズ、ポケモンタイピング、スティックマンバトル、ばねラボ、ばねと浮力の4択クイズ、血液循環、岩石、三角形の比。さわって楽しく学べるアプリへの入り口です。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -120,6 +120,7 @@
     .globe .art { background: var(--sea-tint); }
     .quiz .art { background: var(--quiz-tint); }
     .spring .art { background: var(--sea-tint); }
+    .ratio .art { background: var(--sea-tint); }
     .sedimentary-rock .art { background: var(--pokemon-tint); }
     .blood-flow .art { background: var(--quiz-tint); }
     .pokemon .art { background: var(--pokemon-tint); }
@@ -137,6 +138,7 @@
     .globe .tag { color: var(--sea); }
     .quiz .tag { color: var(--vermillion); }
     .spring .tag { color: var(--land); }
+    .ratio .tag { color: var(--land); }
     .sedimentary-rock .tag { color: var(--land); }
     .blood-flow .tag { color: var(--vermillion); }
     .pokemon .tag { color: var(--vermillion); }
@@ -156,6 +158,7 @@
     .globe .go { background: var(--sea); }
     .quiz .go { background: var(--vermillion); }
     .spring .go { background: var(--land); }
+    .ratio .go { background: var(--land); }
     .sedimentary-rock .go { background: var(--land); }
     .blood-flow .go { background: var(--vermillion); }
     .pokemon .go { background: var(--vermillion); }
@@ -327,6 +330,29 @@
             <li>10問・20問・全問から選べる、解説と復習つき</li>
           </ul>
           <span class="go">クイズにちょうせん →</span>
+        </div>
+      </a>
+
+      <a class="app ratio" href="ratio/index.html">
+        <div class="art" aria-hidden="true">
+          <svg viewBox="0 0 180 180">
+            <path d="M90 24 L24 146 H156 Z" fill="var(--card)" stroke="var(--land)" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M90 24 V146 M24 146 L123 85 M156 146 L57 85" fill="none" stroke="var(--land)" stroke-width="2.5"/>
+            <circle cx="90" cy="105" r="5" fill="var(--sea)"/>
+            <path d="M90 24 L24 146" fill="none" stroke="var(--gold)" stroke-width="5" stroke-linecap="round"/>
+            <rect x="8" y="62" width="57" height="30" rx="8" fill="var(--card)" stroke="var(--gold)" stroke-width="2"/>
+            <text x="36" y="83" text-anchor="middle" font-size="20" font-weight="700" fill="var(--ink)">? : ?</text>
+          </svg>
+        </div>
+        <div class="body">
+          <span class="tag">さんすう・図形と比</span>
+          <h2>三角形の比ラボ</h2>
+          <p>2つの比を手がかりに、残りの比を見つけよう。選択肢にカーソルを合わせて、図で確かめながら考えられます。</p>
+          <ul>
+            <li>基本・応用の2レベル、ランダム5問の4択</li>
+            <li>暗算しやすい数字・ヒントと解説つき</li>
+          </ul>
+          <span class="go">比の問題にちょうせん →</span>
         </div>
       </a>
 
