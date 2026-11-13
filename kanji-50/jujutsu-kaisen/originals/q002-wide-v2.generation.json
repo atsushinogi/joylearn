@@ -1,0 +1,19 @@
+{
+  "id": "q002",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"まずは散歩したい。\" and \"ロボで行かないの？\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 与幸吉 and second 真人. NO WORKSHEET ANSWER TEXT.",
+  "source_png": "originals/q002-wide-v2.png",
+  "dialogue": [
+    [
+      "与幸吉",
+      "まずは散歩したい。"
+    ],
+    [
+      "真人",
+      "ロボで行かないの？"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-68fbc060-5447-48dc-95bd-00eb82e4545f.png",
+  "edit_reference": "originals/q002-wide-v2-initial.png"
+}

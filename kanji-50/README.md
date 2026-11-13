@@ -18,7 +18,7 @@
 - `node --test kanji-50/tests/*.cjs`：送りがなの分割、採点、出題・復習、保存データの復元と教材対応を検証。
 - `node --check kanji-50/app.js`：画面制御の構文チェック。
 
-教材を編集したらデータを再生成してください。公開時はアプリのJS・CSS・`vendor/` と、両作品の `exports/v1/webp/` 各53枚も配置します。生成したデータは直接編集しません。
+教材を編集したらデータを再生成してください。公開時はアプリのJS・CSS・`vendor/` と、呪術廻戦の `exports/v2/webp/` とヒロアカの `exports/v1/webp/` 各53枚も配置します。生成したデータは直接編集しません。
 
 `vendor/` の認識エンジンと参照データは既存の Kanji Canvas を改変せずコピーしています。[MITライセンス](vendor/LICENSE.txt)を同梱しています。
 
@@ -29,6 +29,6 @@
 - [呪術廻戦](jujutsu-kaisen/index.html) — [使い方・構成](jujutsu-kaisen/README.md)
 - [僕のヒーローアカデミア](my-hero-academia/index.html) — [使い方・構成](my-hero-academia/README.md)
 
-どちらも `originals/`・`research/`・`review/`・`exports/v1/` を持ち、配布版にPNG・WebP・問題・解答・対応CSV・一覧・ZIPを収録しています。作品ごとの出題範囲と確認方法は、それぞれのREADMEを参照してください。
+どちらも `originals/`・`research/`・`review/` を持ち、配布版にPNG・WebP・問題・解答・対応CSV・一覧・ZIPを収録しています。呪術廻戦の現行版は `exports/v2/`（600×400px、吹き出しなしの創作セリフ付き）、ヒロアカは `exports/v1/` です。作品ごとの出題範囲と確認方法は、それぞれのREADMEを参照してください。
 
 呪術廻戦の教材は `jujutsu-kaisen/` にまとめています。従来の問題ファイルからの案内リンクも、このフォルダーへ統一しています。

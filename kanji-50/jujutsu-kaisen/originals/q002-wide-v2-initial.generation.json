@@ -1,0 +1,22 @@
+{
+  "id": "q002",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Human Mechamaru operator Kokichi Muta, long black hair and plain modest light clothes, looks hopeful at his healed open hand while Mahito stands opposite. Show a subtle brown puppet silhouette as a background identity cue. No scars of injury, no exposed body, no medical horror. Character identity: Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Required Japanese dialogue captions, VERBATIM: Caption 1, 与幸吉: 「まずは散歩したい。」. Caption 2, 真人: 「ロボで行かないの？」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 得る, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+  "source_png": "originals/q002-wide-v2-initial.png",
+  "dialogue": [
+    [
+      "与幸吉",
+      "まずは散歩したい。"
+    ],
+    [
+      "真人",
+      "ロボで行かないの？"
+    ]
+  ],
+  "question_id": "q002",
+  "local_png": "originals/q002-wide-v2-initial.png",
+  "revision": "wide-dialogue-v2-initial",
+  "adopted": false,
+  "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+}

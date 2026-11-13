@@ -1,0 +1,4527 @@
+{
+  "schema_version": 1,
+  "schema_profile": "legacy-layout-import",
+  "migration": {
+    "kind": "existing-content-layout-migration",
+    "source": "../jujutsu-illustrations-scenes",
+    "question_source_sha256": "861c7204d897b69dc90c0979c38639f726fe60e4531963e4d2301dd91a44f4ed",
+    "content_review": "既存教材の場面メモと生成履歴を引き継ぐ。今回の作業は構成整理・ファイル照合であり、作品全編の再調査や画像内容の再審査ではない。"
+  },
+  "sources": {
+    "readings": {
+      "path": "research/原教材53読み.csv",
+      "access": "full",
+      "note": "既存の漢字・辞書形読み一覧53行を移行時に照合。"
+    },
+    "source-001": {
+      "url": "https://comicjiten.com/kyoutoshimaikoukouryuukai/",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-002": {
+      "url": "https://jujutsukaisen.jp/character/index_1st.php",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-003": {
+      "url": "https://jujutsukaisen.jp/episodes/02.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-004": {
+      "url": "https://jujutsukaisen.jp/episodes/03.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-005": {
+      "url": "https://jujutsukaisen.jp/episodes/07.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-006": {
+      "url": "https://jujutsukaisen.jp/episodes/08.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-007": {
+      "url": "https://jujutsukaisen.jp/episodes/10.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-008": {
+      "url": "https://jujutsukaisen.jp/episodes/11.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-009": {
+      "url": "https://jujutsukaisen.jp/episodes/12.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-010": {
+      "url": "https://jujutsukaisen.jp/episodes/15.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-011": {
+      "url": "https://jujutsukaisen.jp/episodes/17.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-012": {
+      "url": "https://jujutsukaisen.jp/episodes/19.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-013": {
+      "url": "https://jujutsukaisen.jp/episodes/20.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-014": {
+      "url": "https://jujutsukaisen.jp/episodes/21.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-015": {
+      "url": "https://jujutsukaisen.jp/episodes/24.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-016": {
+      "url": "https://jujutsukaisen.jp/episodes/25.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-017": {
+      "url": "https://jujutsukaisen.jp/episodes/29.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-018": {
+      "url": "https://jujutsukaisen.jp/episodes/31.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-019": {
+      "url": "https://jujutsukaisen.jp/episodes/32.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-020": {
+      "url": "https://jujutsukaisen.jp/episodes/33.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-021": {
+      "url": "https://jujutsukaisen.jp/episodes/38.php",
+      "access": "synopsis",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-022": {
+      "url": "https://times.abema.tv/articles/-/10001714",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-023": {
+      "url": "https://times.abema.tv/articles/-/10003062",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-024": {
+      "url": "https://times.abema.tv/articles/-/10005007",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-025": {
+      "url": "https://times.abema.tv/articles/-/10022703",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-026": {
+      "url": "https://times.abema.tv/articles/-/10089304?page=1",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-027": {
+      "url": "https://times.abema.tv/articles/-/10100528?page=1",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-028": {
+      "url": "https://times.abema.tv/articles/-/8638577",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-029": {
+      "url": "https://times.abema.tv/articles/-/8642173",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-030": {
+      "url": "https://times.abema.tv/articles/-/8670610",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-031": {
+      "url": "https://www.mbs.jp/jujutsukaisen/select/",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    },
+    "source-032": {
+      "url": "https://www.yutenji.or.jp/info/page-22650/page-22796/",
+      "access": "index",
+      "note": "既存教材の出典台帳から引継ぎ。今回の整理では再閲覧していない。"
+    }
+  },
+  "targets": [
+    {
+      "id": "t001",
+      "kanji": "得",
+      "reading": "トク",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t002",
+      "kanji": "得",
+      "reading": "える",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t003",
+      "kanji": "比",
+      "reading": "ヒ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t004",
+      "kanji": "比",
+      "reading": "くらべる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t005",
+      "kanji": "政",
+      "reading": "セイ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t006",
+      "kanji": "興",
+      "reading": "キョウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t007",
+      "kanji": "興",
+      "reading": "コウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t008",
+      "kanji": "示",
+      "reading": "ジ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t009",
+      "kanji": "示",
+      "reading": "しめす",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t010",
+      "kanji": "張",
+      "reading": "チョウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t011",
+      "kanji": "張",
+      "reading": "はる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t012",
+      "kanji": "支",
+      "reading": "シ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t013",
+      "kanji": "支",
+      "reading": "ささえる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t014",
+      "kanji": "個",
+      "reading": "コ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t015",
+      "kanji": "迷",
+      "reading": "まよう",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t016",
+      "kanji": "在",
+      "reading": "ザイ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t017",
+      "kanji": "在",
+      "reading": "ある",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t018",
+      "kanji": "独",
+      "reading": "ドク",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t019",
+      "kanji": "独",
+      "reading": "ひとり",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t020",
+      "kanji": "弁",
+      "reading": "ベン",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t021",
+      "kanji": "検",
+      "reading": "ケン",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t022",
+      "kanji": "提",
+      "reading": "テイ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t023",
+      "kanji": "寄",
+      "reading": "キ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t024",
+      "kanji": "寄",
+      "reading": "よる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t025",
+      "kanji": "寄",
+      "reading": "よせる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t026",
+      "kanji": "余",
+      "reading": "ヨ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t027",
+      "kanji": "余",
+      "reading": "あまる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t028",
+      "kanji": "余",
+      "reading": "あます",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t029",
+      "kanji": "仏",
+      "reading": "ブツ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t030",
+      "kanji": "仏",
+      "reading": "ほとけ",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t031",
+      "kanji": "貸",
+      "reading": "かす",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t032",
+      "kanji": "効",
+      "reading": "コウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t033",
+      "kanji": "効",
+      "reading": "きく",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t034",
+      "kanji": "条",
+      "reading": "ジョウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t035",
+      "kanji": "件",
+      "reading": "ケン",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t036",
+      "kanji": "保",
+      "reading": "ホ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t037",
+      "kanji": "保",
+      "reading": "たもつ",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t038",
+      "kanji": "評",
+      "reading": "ヒョウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t039",
+      "kanji": "価",
+      "reading": "カ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t040",
+      "kanji": "賛",
+      "reading": "サン",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t041",
+      "kanji": "妻",
+      "reading": "サイ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t042",
+      "kanji": "妻",
+      "reading": "つま",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t043",
+      "kanji": "混",
+      "reading": "コン",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t044",
+      "kanji": "混",
+      "reading": "こむ",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t045",
+      "kanji": "混",
+      "reading": "まざる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t046",
+      "kanji": "混",
+      "reading": "まぜる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t047",
+      "kanji": "雑",
+      "reading": "ザツ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t048",
+      "kanji": "雑",
+      "reading": "ゾウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t049",
+      "kanji": "略",
+      "reading": "リャク",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t050",
+      "kanji": "採",
+      "reading": "サイ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t051",
+      "kanji": "採",
+      "reading": "とる",
+      "reading_type": "訓読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t052",
+      "kanji": "禁",
+      "reading": "キン",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    },
+    {
+      "id": "t053",
+      "kanji": "能",
+      "reading": "ノウ",
+      "reading_type": "音読み",
+      "evidence_source_ids": [
+        "readings"
+      ],
+      "evidence_note": "既存の問題番号・対象漢字・辞書形の読みを保全。",
+      "confirmed": true
+    }
+  ],
+  "cast": [
+    {
+      "id": "person-001",
+      "identity_id": "person-001",
+      "name": "虎杖悠仁",
+      "aliases": [
+        "虎杖"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "いたどり ゆうじ"
+    },
+    {
+      "id": "person-002",
+      "identity_id": "person-002",
+      "name": "伏黒恵",
+      "aliases": [
+        "伏黒"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ふしぐろ めぐみ"
+    },
+    {
+      "id": "person-003",
+      "identity_id": "person-003",
+      "name": "釘崎野薔薇",
+      "aliases": [
+        "釘崎"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "くぎさき のばら"
+    },
+    {
+      "id": "person-004",
+      "identity_id": "person-004",
+      "name": "禪院真希",
+      "aliases": [
+        "真希"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ぜんいん まき"
+    },
+    {
+      "id": "person-005",
+      "identity_id": "person-005",
+      "name": "狗巻棘",
+      "aliases": [
+        "狗巻"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "いぬまき とげ"
+    },
+    {
+      "id": "person-006",
+      "identity_id": "person-006",
+      "name": "パンダ",
+      "aliases": [
+        "パンダ"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ぱんだ"
+    },
+    {
+      "id": "person-007",
+      "identity_id": "person-007",
+      "name": "五条悟",
+      "aliases": [
+        "五条先生"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ごじょう さとる"
+    },
+    {
+      "id": "person-008",
+      "identity_id": "person-008",
+      "name": "夜蛾正道",
+      "aliases": [
+        "夜蛾学長"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "やが まさみち"
+    },
+    {
+      "id": "person-009",
+      "identity_id": "person-009",
+      "name": "七海建人",
+      "aliases": [
+        "七海"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ななみ けんと"
+    },
+    {
+      "id": "person-010",
+      "identity_id": "person-010",
+      "name": "伊地知潔高",
+      "aliases": [
+        "伊地知"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "いじち きよたか"
+    },
+    {
+      "id": "person-011",
+      "identity_id": "person-011",
+      "name": "家入硝子",
+      "aliases": [
+        "家入"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "いえいり しょうこ"
+    },
+    {
+      "id": "person-012",
+      "identity_id": "person-012",
+      "name": "冥冥",
+      "aliases": [
+        "冥冥"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "めいめい"
+    },
+    {
+      "id": "person-013",
+      "identity_id": "person-013",
+      "name": "禪院直毘人",
+      "aliases": [
+        "直毘人"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ぜんいん なおびと"
+    },
+    {
+      "id": "person-014",
+      "identity_id": "person-014",
+      "name": "東堂葵",
+      "aliases": [
+        "東堂"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "とうどう あおい"
+    },
+    {
+      "id": "person-015",
+      "identity_id": "person-015",
+      "name": "加茂憲紀",
+      "aliases": [
+        "加茂"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "かも のりとし"
+    },
+    {
+      "id": "person-016",
+      "identity_id": "person-016",
+      "name": "西宮桃",
+      "aliases": [
+        "西宮"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "にしみや もも"
+    },
+    {
+      "id": "person-017",
+      "identity_id": "person-017",
+      "name": "禪院真依",
+      "aliases": [
+        "真依"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ぜんいん まい"
+    },
+    {
+      "id": "person-018",
+      "identity_id": "person-018",
+      "name": "三輪霞",
+      "aliases": [
+        "三輪"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "みわ かすみ"
+    },
+    {
+      "id": "person-019",
+      "identity_id": "person-019",
+      "name": "究極メカ丸",
+      "aliases": [
+        "メカ丸"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "あるてぃめっと めかまる"
+    },
+    {
+      "id": "person-020",
+      "identity_id": "person-020",
+      "name": "庵歌姫",
+      "aliases": [
+        "歌姫"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "いおり うたひめ"
+    },
+    {
+      "id": "person-021",
+      "identity_id": "person-021",
+      "name": "楽巌寺嘉伸",
+      "aliases": [
+        "楽巌寺学長"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "がくがんじ よしのぶ"
+    },
+    {
+      "id": "person-022",
+      "identity_id": "person-022",
+      "name": "夏油傑",
+      "aliases": [
+        "夏油"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "げとう すぐる"
+    },
+    {
+      "id": "person-023",
+      "identity_id": "person-023",
+      "name": "漏瑚",
+      "aliases": [
+        "漏瑚"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "じょうご"
+    },
+    {
+      "id": "person-024",
+      "identity_id": "person-024",
+      "name": "花御",
+      "aliases": [
+        "花御"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "はなみ"
+    },
+    {
+      "id": "person-025",
+      "identity_id": "person-025",
+      "name": "吉野順平",
+      "aliases": [
+        "順平"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "よしの じゅんぺい"
+    },
+    {
+      "id": "person-026",
+      "identity_id": "person-026",
+      "name": "真人",
+      "aliases": [
+        "真人"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "まひと"
+    },
+    {
+      "id": "person-027",
+      "identity_id": "person-027",
+      "name": "脹相",
+      "aliases": [
+        "脹相"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "ちょうそう"
+    },
+    {
+      "id": "person-028",
+      "identity_id": "person-028",
+      "name": "壊相",
+      "aliases": [
+        "壊相"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "えそう"
+    },
+    {
+      "id": "person-029",
+      "identity_id": "person-029",
+      "name": "血塗",
+      "aliases": [
+        "血塗"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "けちず"
+    },
+    {
+      "id": "person-030",
+      "identity_id": "person-030",
+      "name": "両面宿儺",
+      "aliases": [
+        "宿儺"
+      ],
+      "identity_note": "既存人物台帳の同一人物区分を引継ぎ。",
+      "countable": true,
+      "reading": "りょうめん すくな"
+    }
+  ],
+  "work": {
+    "title": "呪術廻戦",
+    "edition": "既存教材・アニメ第1期と第2期の場面・設定を中心とする版",
+    "scope": "アニメ第1期・第2期の場面と人物設定を中心に、漢字学習用に独自の文章で要約。読み取りと語句補足は作中の出来事と区別。第2期までの内容を含む。",
+    "research_status": "imported_existing_notes",
+    "index_source_ids": [
+      "source-002"
+    ],
+    "units": [],
+    "segments": []
+  },
+  "scenes": [
+    {
+      "id": "scene-001",
+      "basis_type": "場面",
+      "description": "順平の動機を聞き、戦いを止めようとする虎杖。",
+      "character_ids": [
+        "person-001",
+        "person-025"
+      ],
+      "source_ids": [
+        "source-009"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-002",
+      "basis_type": "場面",
+      "description": "肉体の回復を求めて情報を渡し、その後に真人と対決する。",
+      "character_ids": [
+        "person-019"
+      ],
+      "source_ids": [
+        "source-018",
+        "source-023"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-003",
+      "basis_type": "読み取り",
+      "description": "姉妹の対戦をもとにした比較。作中の台詞ではない。",
+      "character_ids": [
+        "person-004",
+        "person-017"
+      ],
+      "source_ids": [
+        "source-011",
+        "source-025"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-004",
+      "basis_type": "場面",
+      "description": "三輪は、真希の強さが等級に見合わないと感じる。",
+      "character_ids": [
+        "person-004",
+        "person-018"
+      ],
+      "source_ids": [
+        "source-011"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-005",
+      "basis_type": "読み取り",
+      "description": "保守派筆頭という人物設定から、組織の方針や権力について考える学習文。",
+      "character_ids": [
+        "person-021"
+      ],
+      "source_ids": [
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-006",
+      "basis_type": "設定",
+      "description": "魂に触れて人の姿を変える真人の性質。",
+      "character_ids": [
+        "person-026"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-007"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-007",
+      "basis_type": "場面",
+      "description": "五条との写真を望んで廊下を走る三輪の場面を言い換えた。",
+      "character_ids": [
+        "person-007",
+        "person-018"
+      ],
+      "source_ids": [
+        "source-031",
+        "source-029"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-008",
+      "basis_type": "場面",
+      "description": "低級の呪いを使って順平の反応を確かめようとする作戦。",
+      "character_ids": [
+        "person-001",
+        "person-010",
+        "person-025"
+      ],
+      "source_ids": [
+        "source-007"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-009",
+      "basis_type": "場面",
+      "description": "処刑の時期と宿儺の指をめぐる選択。",
+      "character_ids": [
+        "person-001",
+        "person-007"
+      ],
+      "source_ids": [
+        "source-003"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-010",
+      "basis_type": "設定",
+      "description": "人間と呪いの立場を逆転させようとする漏瑚の考え。",
+      "character_ids": [
+        "person-023"
+      ],
+      "source_ids": [
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-011",
+      "basis_type": "場面",
+      "description": "渋谷に結界が降り、一般人が外へ出られなくなる。",
+      "character_ids": [],
+      "source_ids": [
+        "source-019"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-012",
+      "basis_type": "場面",
+      "description": "呪言を使いながら、仲間と花御の攻撃を防ぐ。",
+      "character_ids": [
+        "person-005",
+        "person-024"
+      ],
+      "source_ids": [
+        "source-012",
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-013",
+      "basis_type": "設定",
+      "description": "夜蛾がパンダを生み出し育てた関係を学習語で説明。",
+      "character_ids": [
+        "person-006",
+        "person-008"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-031"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-014",
+      "basis_type": "設定",
+      "description": "構築術式で一日一発の弾丸を作るという第17話の説明。",
+      "character_ids": [
+        "person-017"
+      ],
+      "source_ids": [
+        "source-025"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-015",
+      "basis_type": "読み取り",
+      "description": "地方から上京するため高専を選んだ人物設定を言い換えた。心情は学習用の要約。",
+      "character_ids": [
+        "person-003"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-004"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-016",
+      "basis_type": "設定",
+      "description": "現在は現実の日付ではなく、渋谷事変の作中時点を指す。",
+      "character_ids": [
+        "person-013"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-021"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-017",
+      "basis_type": "読み取り",
+      "description": "第9話の職業観をもとにした要約。「在り方」は辞書形「ある」の活用。",
+      "character_ids": [
+        "person-001",
+        "person-009"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-024"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-018",
+      "basis_type": "場面",
+      "description": "密かに準備した究極メカ丸絶対形態で応戦する。",
+      "character_ids": [
+        "person-019",
+        "person-026"
+      ],
+      "source_ids": [
+        "source-018"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-019",
+      "basis_type": "場面",
+      "description": "2007年、二人が別々に任務へ向かうようになる。",
+      "character_ids": [
+        "person-007",
+        "person-022"
+      ],
+      "source_ids": [
+        "source-017"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-020",
+      "basis_type": "読み取り",
+      "description": "真依と女性呪術師の事情を語る西宮の発言を、弁護という語で説明。",
+      "character_ids": [
+        "person-003",
+        "person-016",
+        "person-017"
+      ],
+      "source_ids": [
+        "source-011"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-021",
+      "basis_type": "場面",
+      "description": "洋館に閉じ込められた二人が、結界を破る方法を探る。",
+      "character_ids": [
+        "person-012",
+        "person-020"
+      ],
+      "source_ids": [
+        "source-016"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-022",
+      "basis_type": "場面",
+      "description": "交流会前に虎杖の登場を演出しようとする場面。",
+      "character_ids": [
+        "person-001",
+        "person-007"
+      ],
+      "source_ids": [
+        "source-031"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-023",
+      "basis_type": "設定",
+      "description": "家入は反転術式で他人を治療できる医師。「寄与」は役立つという意味。",
+      "character_ids": [
+        "person-011"
+      ],
+      "source_ids": [
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-024",
+      "basis_type": "場面",
+      "description": "第13話の回想に登場する、行きつけのパン屋。",
+      "character_ids": [
+        "person-009"
+      ],
+      "source_ids": [
+        "source-024",
+        "source-027"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-025",
+      "basis_type": "読み取り",
+      "description": "順平の事情を聞いて説得を続ける姿への解釈。",
+      "character_ids": [
+        "person-001",
+        "person-025"
+      ],
+      "source_ids": [
+        "source-008",
+        "source-009"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-026",
+      "basis_type": "場面",
+      "description": "五条の余裕ある行動で漏瑚の怒りが強くなる。",
+      "character_ids": [
+        "person-001",
+        "person-007",
+        "person-023"
+      ],
+      "source_ids": [
+        "source-005"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-027",
+      "basis_type": "読み取り",
+      "description": "攻撃が当たらず圧倒される場面を、慣用句「手に余る」で説明。",
+      "character_ids": [
+        "person-007",
+        "person-023"
+      ],
+      "source_ids": [
+        "source-005"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-028",
+      "basis_type": "読み取り",
+      "description": "一般人を盾にされ、力の使い方を制限される状況への解釈。五条が無力だったという意味ではない。",
+      "character_ids": [
+        "person-007"
+      ],
+      "source_ids": [
+        "source-019",
+        "source-020"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-029",
+      "basis_type": "語句補足",
+      "description": "第28話の言葉を入口にした語源学習。語源は寺院の説明を参照。",
+      "character_ids": [
+        "person-007"
+      ],
+      "source_ids": [
+        "source-026",
+        "source-032"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-030",
+      "basis_type": "語句補足",
+      "description": "第29問と同じ言葉の背景を学ぶ。作中で誕生の場面が描かれたという意味ではない。",
+      "character_ids": [
+        "person-007"
+      ],
+      "source_ids": [
+        "source-026",
+        "source-032"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-031",
+      "basis_type": "場面",
+      "description": "勝敗が決まった後も、パンダはメカ丸を助けようとする。",
+      "character_ids": [
+        "person-006",
+        "person-019"
+      ],
+      "source_ids": [
+        "source-030"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-032",
+      "basis_type": "場面",
+      "description": "花御との戦闘で用いる呪言。",
+      "character_ids": [
+        "person-005",
+        "person-024"
+      ],
+      "source_ids": [
+        "source-012",
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-033",
+      "basis_type": "場面",
+      "description": "兄弟の血を介し、自分に釘を刺して反撃する。",
+      "character_ids": [
+        "person-003",
+        "person-028",
+        "person-029"
+      ],
+      "source_ids": [
+        "source-015"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-034",
+      "basis_type": "場面",
+      "description": "内通者としての取引には、京都校を傷つけないという縛りがある。",
+      "character_ids": [
+        "person-019"
+      ],
+      "source_ids": [
+        "source-023"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-035",
+      "basis_type": "場面",
+      "description": "第8話での、五条と保守派の楽巌寺の面会。",
+      "character_ids": [
+        "person-007",
+        "person-021"
+      ],
+      "source_ids": [
+        "source-006",
+        "source-031"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-036",
+      "basis_type": "場面",
+      "description": "交流会襲撃の裏で特級呪物が持ち出される。",
+      "character_ids": [
+        "person-026",
+        "person-030"
+      ],
+      "source_ids": [
+        "source-014"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-037",
+      "basis_type": "読み取り",
+      "description": "強敵と向き合う七海の冷静な態度を要約。",
+      "character_ids": [
+        "person-009",
+        "person-026"
+      ],
+      "source_ids": [
+        "source-007",
+        "source-008",
+        "source-031"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-038",
+      "basis_type": "場面",
+      "description": "渋谷事変で戦う虎杖を、一級相当と認める。",
+      "character_ids": [
+        "person-001",
+        "person-012"
+      ],
+      "source_ids": [
+        "source-028",
+        "source-019"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-039",
+      "basis_type": "設定",
+      "description": "金銭を基準とする人物像を言い換えた。",
+      "character_ids": [
+        "person-012"
+      ],
+      "source_ids": [
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-040",
+      "basis_type": "設定",
+      "description": "虎杖の存在を消したい保守派と、虎杖を育てる五条の立場。",
+      "character_ids": [
+        "person-001",
+        "person-007",
+        "person-021"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-003",
+        "source-006"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-041",
+      "basis_type": "場面",
+      "description": "第18話の生い立ちの説明。「正室」を学習語「正妻」に言い換えた。",
+      "character_ids": [
+        "person-015"
+      ],
+      "source_ids": [
+        "source-022"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-042",
+      "basis_type": "場面",
+      "description": "母が家で冷遇され、幼い加茂のもとを去る回想。",
+      "character_ids": [
+        "person-015"
+      ],
+      "source_ids": [
+        "source-022"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-043",
+      "basis_type": "場面",
+      "description": "地下ホームには一般人が取り残されていた。",
+      "character_ids": [
+        "person-007",
+        "person-023",
+        "person-024",
+        "person-027"
+      ],
+      "source_ids": [
+        "source-019",
+        "source-020"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-044",
+      "basis_type": "場面",
+      "description": "閉じ込められた多数の一般人がいる渋谷。",
+      "character_ids": [],
+      "source_ids": [
+        "source-019"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-045",
+      "basis_type": "設定",
+      "description": "虎杖と宿儺が一つの体に共存する状態。",
+      "character_ids": [
+        "person-001",
+        "person-030"
+      ],
+      "source_ids": [
+        "source-002",
+        "source-031"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-046",
+      "basis_type": "読み取り",
+      "description": "二つの力を重ねる場面の学習用の言い換え。液体を混ぜる行為ではない。",
+      "character_ids": [
+        "person-007"
+      ],
+      "source_ids": [
+        "source-031"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-047",
+      "basis_type": "読み取り",
+      "description": "人を不用意に呪わずに会話する設定から、言葉の意味を考える。",
+      "character_ids": [
+        "person-005"
+      ],
+      "source_ids": [
+        "source-002"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-048",
+      "basis_type": "場面",
+      "description": "交流会の樹木がある会場を、花御の攻撃を避けて走る。場所の植生を厳密に分類したものではない。",
+      "character_ids": [
+        "person-002",
+        "person-024"
+      ],
+      "source_ids": [
+        "source-012"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-049",
+      "basis_type": "場面",
+      "description": "花御の襲撃と並行して進められた呪物の強奪。",
+      "character_ids": [
+        "person-026",
+        "person-030"
+      ],
+      "source_ids": [
+        "source-014"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-050",
+      "basis_type": "場面",
+      "description": "襲撃後、交流会が野球で続けられる。",
+      "character_ids": [],
+      "source_ids": [
+        "source-014"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-051",
+      "basis_type": "場面",
+      "description": "術式を使って虎杖と連携する東堂。「採る」は方法を選んで用いる意味。",
+      "character_ids": [
+        "person-001",
+        "person-014",
+        "person-024"
+      ],
+      "source_ids": [
+        "source-013"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-052",
+      "basis_type": "設定",
+      "description": "交流会の規則。虎杖を狙う京都校側の動きとは区別する。",
+      "character_ids": [],
+      "source_ids": [
+        "source-010",
+        "source-001"
+      ],
+      "verification_status": "imported_existing_notes"
+    },
+    {
+      "id": "scene-053",
+      "basis_type": "場面",
+      "description": "交流会に侵入した花御との戦い。",
+      "character_ids": [
+        "person-001",
+        "person-024"
+      ],
+      "source_ids": [
+        "source-012",
+        "source-013"
+      ],
+      "verification_status": "imported_existing_notes"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "number": 1,
+      "prompt": "虎杖は、復讐に走る順平を〔せっとく〕しようとした。",
+      "blank_reading": "せっとく",
+      "answer": "説得",
+      "filled_sentence": "虎杖は、復讐に走る順平を説得しようとした。",
+      "targets": [
+        {
+          "target_id": "t001",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-025"
+      ],
+      "scene_id": "scene-001",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Create one landscape 3:2 illustration (1536x1024) for a Jujutsu Kaisen kanji learning app. Cute expressive chibi anime, bold clean dark outlines, simple flat cel shading, gentle saturated colors. Scene: in a school corridor, Yuji Itadori tries earnestly to calm Junpei Yoshino with an open hand. Yuji: short spiky pink hair, brown eyes, navy school jacket with red hood. Junpei: black chin-length asymmetrical hair covering one eye, dark school uniform. Large waist-up figures, Yuji at right leaning forward comically while Junpei at left looks a little surprised. Friendly gentle visual humor, no grief jokes. TWO short Japanese dialogue captions directly on the artwork, with NO speech balloons, no boxes, no tails: upper-right above Yuji「まずは落ち着こう！」 and upper-left above Junpei「君、前のめりすぎ。」. Render those texts exactly, in large bold readable Japanese lettering with thin white outline against pale simple background. Keep text clear of heads, within safe margins. This is an invented playful educational caption, not a quote from the original story. Single scene, no panels, no logo, no watermark. Do not include worksheet question or kanji answer 説得. Characters fill most of image. Opaque background.",
+        "source_png": "originals/q001-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "順平の動機を聞き、戦いを止めようとする虎杖。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "虎杖の前のめりな手と順平の反応。2つのセリフは正確、横長、吹き出しなし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q002",
+      "number": 2,
+      "prompt": "メカ丸は、自由に動く体を〔える〕ために呪霊側と取引した。",
+      "blank_reading": "える",
+      "answer": "得る",
+      "filled_sentence": "メカ丸は、自由に動く体を得るために呪霊側と取引した。",
+      "targets": [
+        {
+          "target_id": "t002",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-019"
+      ],
+      "scene_id": "scene-002",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"まずは散歩したい。\" and \"ロボで行かないの？\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 与幸吉 and second 真人. NO WORKSHEET ANSWER TEXT.",
+        "source_png": "originals/q002-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "肉体の回復を求めて情報を渡し、その後に真人と対決する。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "人間の与幸吉と縫い目のある真人。修正版で余分な説明を除去、散歩とロボの2セリフのみ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q003",
+      "number": 3,
+      "prompt": "交流会で戦う真希と真依の、生き方の違いを〔たいひ〕する。",
+      "blank_reading": "たいひ",
+      "answer": "対比",
+      "filled_sentence": "交流会で戦う真希と真依の、生き方の違いを対比する。",
+      "targets": [
+        {
+          "target_id": "t003",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-004",
+        "person-017"
+      ],
+      "scene_id": "scene-003",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"似てるの、顔だけだな。\" and \"そこは認めるのね。\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 真希 and second 真依. NO WORKSHEET ANSWER TEXT.",
+        "source_png": "originals/q003-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "姉妹の対戦をもとにした比較。作中の台詞ではない。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "眼鏡・長髪の真希と短髪の真依が対面。修正版で解答の対比を含む余分な解説を削除。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q004",
+      "number": 4,
+      "prompt": "三輪は、真希の実力を等級と〔くらべる〕と、その差に驚いた。",
+      "blank_reading": "くらべる",
+      "answer": "比べる",
+      "filled_sentence": "三輪は、真希の実力を等級と比べると、その差に驚いた。",
+      "targets": [
+        {
+          "target_id": "t004",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-004",
+        "person-018"
+      ],
+      "scene_id": "scene-004",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"等級、壊れてません？\" and \"私に聞くなよ。\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 三輪 and second 真希. NO WORKSHEET ANSWER TEXT.",
+        "source_png": "originals/q004-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "三輪は、真希の強さが等級に見合わないと感じる。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "青髪の三輪と眼鏡の真希、立てた練習用の棒。修正版は指定した2セリフのみ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q005",
+      "number": 5,
+      "prompt": "楽巌寺学長の保守的な立場から、呪術界の〔せいじ〕の仕組みを考える。",
+      "blank_reading": "せいじ",
+      "answer": "政治",
+      "filled_sentence": "楽巌寺学長の保守的な立場から、呪術界の政治の仕組みを考える。",
+      "targets": [
+        {
+          "target_id": "t005",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-021"
+      ],
+      "scene_id": "scene-005",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gakuganji sits sternly at the head of a simple traditional council table, framed by two empty chairs and one blank rolled scroll, conveying conservative authority. Only this named character, no written politics slogans. Character identity: Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. A plain electric guitar leans beside Gakuganji, a playful reminder of his musical technique. Required Japanese dialogue captions, VERBATIM: Caption 1, 楽巌寺: 「会議は厳かに。」. Caption 2, ツッコミ: 「ギターは持参なんだ。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 政治, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+        "source_png": "originals/q005-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "保守派筆頭という人物設定から、組織の方針や権力について考える学習文。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "楽巌寺が会議席に座り横にギター。厳かな会議とギター持参の掛け合い、吹き出しなし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q006",
+      "number": 6,
+      "prompt": "真人は、人の魂と体の関係に〔きょうみ〕を持ち、術式を試していた。",
+      "blank_reading": "きょうみ",
+      "answer": "興味",
+      "filled_sentence": "真人は、人の魂と体の関係に興味を持ち、術式を試していた。",
+      "targets": [
+        {
+          "target_id": "t006",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-026"
+      ],
+      "scene_id": "scene-006",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mahito curiously studies a single translucent glowing blue soul-shaped orb hovering above his palm, thoughtful expression, abstract backdrop. Symbolic visualization of his interest in souls; no human experimentation, victims or altered bodies. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"これ、ぷにぷにかな？\" and \"ゼリーの感想か。\". Speaker association (DO NOT PRINT speaker names): 真人 says \"これ、ぷにぷにかな？\"; ツッコミ says \"ゼリーの感想か。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q006-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "魂に触れて人の姿を変える真人の性質。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "縫い目のある真人が青い魂の象徴を観察。ゼリーへのツッコミが入り、追加の解説なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q007",
+      "number": 7,
+      "prompt": "三輪は、五条先生と写真を撮れることに〔こうふん〕していた。",
+      "blank_reading": "こうふん",
+      "answer": "興奮",
+      "filled_sentence": "三輪は、五条先生と写真を撮れることに興奮していた。",
+      "targets": [
+        {
+          "target_id": "t007",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007",
+        "person-018"
+      ],
+      "scene_id": "scene-007",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Miwa joyfully holds a smartphone for a selfie with smiling blindfolded Gojo. Both heads very large, plain light background. Phone screen blank and facing away, no text. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Kasumi Miwa: long straight light blue hair with bangs, kind wide eyes, navy businesslike school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"家宝にします！\" and \"まだ撮ってないよ。\". Speaker association (DO NOT PRINT speaker names): 三輪 says \"家宝にします！\"; 五条 says \"まだ撮ってないよ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q007-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "五条との写真を望んで廊下を走る三輪の場面を言い換えた。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "三輪のスマホと目隠しの五条。家宝と撮影前の掛け合いが明瞭。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q008",
+      "number": 8,
+      "prompt": "虎杖は、順平を調べるため、伊地知から作戦の〔しじ〕を受けた。",
+      "blank_reading": "しじ",
+      "answer": "指示",
+      "filled_sentence": "虎杖は、順平を調べるため、伊地知から作戦の指示を受けた。",
+      "targets": [
+        {
+          "target_id": "t008",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-010",
+        "person-025"
+      ],
+      "scene_id": "scene-008",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Ijichi in his suit calmly explains a simple investigation plan to attentive Yuji, pointing at one blank clipboard and one blue route arrow. Just two characters, no readable diagram text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Kiyotaka Ijichi: slim bespectacled young man with neatly side-parted black hair, black suit and tie. Junpei Yoshino: straight chin-length asymmetrical black hair covering one eye, dark Japanese school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"目立たずにお願いします。\" and \"この髪で！？\". Speaker association (DO NOT PRINT speaker names): 伊地知 says \"目立たずにお願いします。\"; 虎杖 says \"この髪で！？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q008-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "低級の呪いを使って順平の反応を確かめようとする作戦。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "スーツと眼鏡の伊地知が虎杖へ説明。髪色へのツッコミと作戦説明のセリフが対応。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q009",
+      "number": 9,
+      "prompt": "五条先生は、虎杖に二つの選択肢を〔しめす〕。",
+      "blank_reading": "しめす",
+      "answer": "示す",
+      "filled_sentence": "五条先生は、虎杖に二つの選択肢を示す。",
+      "targets": [
+        {
+          "target_id": "t009",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-007"
+      ],
+      "scene_id": "scene-009",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo presents two possible choices to attentive Yuji, raising two fingers beside two simple diverging colored arrows with no labels. Calm serious teaching scene, never show death or executions. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"選べるのは二つ。\" and \"おやつは入ります？\". Speaker association (DO NOT PRINT speaker names): 五条 says \"選べるのは二つ。\"; 虎杖 says \"おやつは入ります？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q009-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "処刑の時期と宿儺の指をめぐる選択。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "五条が2本指で二択を示し虎杖がおやつを尋ねる。文字と手が見切れず、吹き出しなし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q010",
+      "number": 10,
+      "prompt": "漏瑚は、呪いこそが本当の人間だと〔しゅちょう〕する。",
+      "blank_reading": "しゅちょう",
+      "answer": "主張",
+      "filled_sentence": "漏瑚は、呪いこそが本当の人間だと主張する。",
+      "targets": [
+        {
+          "target_id": "t010",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-023"
+      ],
+      "scene_id": "scene-010",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Jogo confidently points at himself while passionately explaining his beliefs, cyclops face and volcano crown large. A simple gray silhouette of an ordinary human at a distance may serve as a contrast; no fire harming anyone. Character identity: Jogo: short stocky gray-skinned cyclops curse, volcano-shaped crown, white scarf and mustard-colored cape. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"わしこそ本物じゃ！\" and \"頭の火力がすごい。\". Speaker association (DO NOT PRINT speaker names): 漏瑚 says \"わしこそ本物じゃ！\"; ツッコミ says \"頭の火力がすごい。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q010-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "人間と呪いの立場を逆転させようとする漏瑚の考え。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "一つ目・火山頭の漏瑚の主張と火力へのツッコミ。指定の2セリフのみ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q011",
+      "number": 11,
+      "prompt": "渋谷では、一般人を閉じ込めるために帳を〔はる〕。",
+      "blank_reading": "はる",
+      "answer": "張る",
+      "filled_sentence": "渋谷では、一般人を閉じ込めるために帳を張る。",
+      "targets": [
+        {
+          "target_id": "t011",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [],
+      "scene_id": "scene-011",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A simple Shibuya station entrance under one dark translucent curtain barrier, a small group of three faceless civilian silhouettes behind it, single large visual barrier as the focal object. No writing or signage. Character identity:  Add exactly 1 Japanese dialogue captions, text strings ONLY: \"駅なのに、出口どこ？\". Speaker association (DO NOT PRINT speaker names): 通行人 says \"駅なのに、出口どこ？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q011-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "渋谷に結界が降り、一般人が外へ出られなくなる。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "駅入口の暗い帳と閉じ込められた人影。通行人の出口へのひとこと、吹き出しなし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q012",
+      "number": 12,
+      "prompt": "狗巻は、花御の動きを止めて、仲間の戦いを〔しえん〕した。",
+      "blank_reading": "しえん",
+      "answer": "支援",
+      "filled_sentence": "狗巻は、花御の動きを止めて、仲間の戦いを支援した。",
+      "targets": [
+        {
+          "target_id": "t012",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-005",
+        "person-024"
+      ],
+      "scene_id": "scene-012",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki with collar slightly lowered, releases one broad blue sound-wave ring to stop a simplified Hanami reaching toward a small silhouette of a retreating teammate. Inumaki and Hanami are the only detailed characters. No letters around the mouth, no gore. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"動くな！\" and \"だるまさん方式！？\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"動くな！\"; ツッコミ says \"だるまさん方式！？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q012-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "呪言を使いながら、仲間と花御の攻撃を防ぐ。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "狗巻の呪言を青い輪で表し花御の動きを止め、仲間が離れる。2セリフが正確。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q013",
+      "number": 13,
+      "prompt": "夜蛾学長は、パンダを育て、その成長を〔ささえる〕。",
+      "blank_reading": "ささえる",
+      "answer": "支える",
+      "filled_sentence": "夜蛾学長は、パンダを育て、その成長を支える。",
+      "targets": [
+        {
+          "target_id": "t013",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-006",
+        "person-008"
+      ],
+      "scene_id": "scene-013",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Yaga warmly supports a small childlike Panda learning to stand, large caring faces and one simple soft toy in the background, showing their guardian-child bond. Character identity: Panda: the recognizable friendly large black-and-white anthropomorphic panda student, no human replacement. Masamichi Yaga: broad build, short black spiked hair, dark sunglasses and short chin beard, dark jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"大きく育てよ。\" and \"もう結構でかいぞ。\". Speaker association (DO NOT PRINT speaker names): 夜蛾 says \"大きく育てよ。\"; パンダ says \"もう結構でかいぞ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q013-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "夜蛾がパンダを生み出し育てた関係を学習語で説明。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "サングラスの夜蛾が小さいパンダを育てる。大きく育てる話とすでに大きい返し。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q014",
+      "number": 14,
+      "prompt": "交流会のころの真依は、一日に弾丸を〔いっこ〕作るのが限界だった。",
+      "blank_reading": "いっこ",
+      "answer": "一個",
+      "filled_sentence": "交流会のころの真依は、一日に弾丸を一個作るのが限界だった。",
+      "targets": [
+        {
+          "target_id": "t014",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-017"
+      ],
+      "scene_id": "scene-014",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mai holds her palm beneath exactly one shiny brass cartridge, concentrating. Close-up with large face and a single oversized readable bullet prop. No firing, guns pointed at people or wounds. Character identity: Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"本日の生産、終了。\" and \"工場より早じまい。\". Speaker association (DO NOT PRINT speaker names): 真依 says \"本日の生産、終了。\"; ツッコミ says \"工場より早じまい。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q014-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "構築術式で一日一発の弾丸を作るという第17話の説明。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "短髪の真依の手の上に弾丸が1つ。生産終了と早じまいの2セリフ、対象字の個なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q015",
+      "number": 15,
+      "prompt": "釘崎は、危険な仕事だと知っていても、東京へ出るための進学を〔まよう〕ことなく選んだ。",
+      "blank_reading": "まよう",
+      "answer": "迷う",
+      "filled_sentence": "釘崎は、危険な仕事だと知っていても、東京へ出るための進学を迷うことなく選んだ。",
+      "targets": [
+        {
+          "target_id": "t015",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-003"
+      ],
+      "scene_id": "scene-015",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nobara strides confidently toward a simple Tokyo skyline carrying one small travel bag, smiling determinedly. Single dominant character at large size, just two pale city shapes behind. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"東京、待ってなさい！\" and \"街のほうが待つの？\". Speaker association (DO NOT PRINT speaker names): 釘崎 says \"東京、待ってなさい！\"; ツッコミ says \"街のほうが待つの？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q015-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "地方から上京するため高専を選んだ人物設定を言い換えた。心情は学習用の要約。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "釘崎の旅行かばんと東京の遠景。街が待つというツッコミ、横長に大きい顔。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q016",
+      "number": 16,
+      "prompt": "渋谷事変の場面では、直毘人が禪院家の〔げんざい〕の当主として登場する。",
+      "blank_reading": "げんざい",
+      "answer": "現在",
+      "filled_sentence": "渋谷事変の場面では、直毘人が禪院家の現在の当主として登場する。",
+      "targets": [
+        {
+          "target_id": "t016",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-013"
+      ],
+      "scene_id": "scene-016",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Naobito sits confidently in front of a simple traditional Zenin estate doorway, white mustache and kimono clearly visible. Single central portrait expressing clan leadership, no written family names. Character identity: Naobito Zenin: older man with swept-back white hair, white mustache and small beard, dark blue kimono. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"当主のお通りじゃ。\" and \"座ってますけど。\". Speaker association (DO NOT PRINT speaker names): 直毘人 says \"当主のお通りじゃ。\"; ツッコミ says \"座ってますけど。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q016-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "現在は現実の日付ではなく、渋谷事変の作中時点を指す。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "白髪・口ひげ・和服の直毘人が椅子に座る。お通りへの座っているという返し。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q017",
+      "number": 17,
+      "prompt": "七海は、会社員を経験したうえで、呪術師の〔あり〕方について虎杖に話した。",
+      "blank_reading": "あり",
+      "answer": "在り",
+      "filled_sentence": "七海は、会社員を経験したうえで、呪術師の在り方について虎杖に話した。",
+      "targets": [
+        {
+          "target_id": "t017",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-009"
+      ],
+      "scene_id": "scene-017",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami thoughtfully explains his experience of work and sorcery to attentive Yuji. The beige suit, red hood, and a single briefcase clearly readable. Calm two-person half-length composition, no text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"仕事は仕事です。\" and \"名言っぽいの来た！\". Speaker association (DO NOT PRINT speaker names): 七海 says \"仕事は仕事です。\"; 虎杖 says \"名言っぽいの来た！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q017-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "第9話の職業観をもとにした要約。「在り方」は辞書形「ある」の活用。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "七海のベージュスーツと虎杖の赤い襟。仕事の言葉と名言への反応、2セリフが正確。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q018",
+      "number": 18,
+      "prompt": "メカ丸は、真人と戦うために、巨大な機体を使う〔どくじ〕の準備をしていた。",
+      "blank_reading": "どくじ",
+      "answer": "独自",
+      "filled_sentence": "メカ丸は、真人と戦うために、巨大な機体を使う独自の準備をしていた。",
+      "targets": [
+        {
+          "target_id": "t018",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-019",
+        "person-026"
+      ],
+      "scene_id": "scene-018",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Human Kokichi Muta looks determined inside the control cockpit of a large brown Mechamaru robot; show his face large beside one bold mechanical shoulder and one control lever. A tiny blue Mahito silhouette in distance, avoid busy machinery. Character identity: Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"準備は万全だ。\" and \"駐車場はある？\". Speaker association (DO NOT PRINT speaker names): 与幸吉 says \"準備は万全だ。\"; ツッコミ says \"駐車場はある？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q018-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "密かに準備した究極メカ丸絶対形態で応戦する。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "長髪の与幸吉が巨大な茶色の機体を操縦、遠くに真人。準備と駐車場の掛け合い。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q019",
+      "number": 19,
+      "prompt": "五条先生が単独で任務をこなすようになり、夏油も〔ひとり〕になることが増えた。",
+      "blank_reading": "ひとり",
+      "answer": "独り",
+      "filled_sentence": "五条先生が単独で任務をこなすようになり、夏油も独りになることが増えた。",
+      "targets": [
+        {
+          "target_id": "t019",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007",
+        "person-022"
+      ],
+      "scene_id": "scene-019",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: In the year 2007, student Gojo and student Geto walk away from one another on separate paths, two large upper bodies with a simple gap between them, bittersweet mood. Gojo wears round dark sunglasses, white hair and navy uniform; Geto black hair bun, navy uniform, no forehead stitches. Clearly youth, no blindfolded adult Gojo. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Suguru Geto: black hair tied in a high bun with one long side bang. In 2007 student scenes use navy school uniform, absolutely no forehead stitches. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"静かすぎるな。\" and \"いつもがにぎやかすぎ。\". Speaker association (DO NOT PRINT speaker names): 夏油 says \"静かすぎるな。\"; ツッコミ says \"いつもがにぎやかすぎ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q019-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "2007年、二人が別々に任務へ向かうようになる。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "学生服・丸眼鏡の五条と縫い目のない夏油が離れる構図。静かさとにぎやかさの2セリフ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q020",
+      "number": 20,
+      "prompt": "西宮は、真依の苦労を語り、真依を〔べんご〕するように釘崎に訴えた。",
+      "blank_reading": "べんご",
+      "answer": "弁護",
+      "filled_sentence": "西宮は、真依の苦労を語り、真依を弁護するように釘崎に訴えた。",
+      "targets": [
+        {
+          "target_id": "t020",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-003",
+        "person-016",
+        "person-017"
+      ],
+      "scene_id": "scene-020",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Momo earnestly defends Mai while speaking with Nobara. Momo and Nobara are large foreground half-length portraits, one small symbolic green-haired Mai portrait behind Momo to clarify who she supports; broom upright. No text or speech bubbles. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Momo Nishimiya: small young woman with blonde hair in two high round side buns, dark uniform, broom. Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"最後まで聞いて！\" and \"ほうきまで熱くなってる。\". Speaker association (DO NOT PRINT speaker names): 西宮 says \"最後まで聞いて！\"; 釘崎 says \"ほうきまで熱くなってる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q020-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "真依と女性呪術師の事情を語る西宮の発言を、弁護という語で説明。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "ほうきを持つ西宮が釘崎に話し、中央に真依の象徴的な小像。対象字の弁は画像にない。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q021",
+      "number": 21,
+      "prompt": "歌姫と冥冥は、洋館から出られない理由を考え、結界の仕組みを〔けんしょう〕した。",
+      "blank_reading": "けんしょう",
+      "answer": "検証",
+      "filled_sentence": "歌姫と冥冥は、洋館から出られない理由を考え、結界の仕組みを検証した。",
+      "targets": [
+        {
+          "target_id": "t021",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-012",
+        "person-020"
+      ],
+      "scene_id": "scene-021",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Utahime and Mei Mei investigate an eerie mansion corridor that loops back on itself; show two large expressive heads and a single broad curved return arrow in the background. Utahime has long hair and red-white shrine clothing; Mei Mei silver-blue braid. Subtle mystery, not horror. Character identity: Mei Mei: adult woman with very long pale silver-blue hair braided in front of one eye, dark purple outfit. Utahime Iori: long dark purple-black hair, scar crossing cheek and nose, white shrine-maiden top and red hakama. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"また同じ廊下！？\" and \"内見はもう十分ね。\". Speaker association (DO NOT PRINT speaker names): 歌姫 says \"また同じ廊下！？\"; 冥冥 says \"内見はもう十分ね。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q021-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "洋館に閉じ込められた二人が、結界を破る方法を探る。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "巫女装束の歌姫と銀髪の冥冥、曲がる矢印と洋館の廊下。2セリフが正確。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q022",
+      "number": 22,
+      "prompt": "五条先生は、虎杖の生還をみんなに知らせるため、サプライズを〔ていあん〕した。",
+      "blank_reading": "ていあん",
+      "answer": "提案",
+      "filled_sentence": "五条先生は、虎杖の生還をみんなに知らせるため、サプライズを提案した。",
+      "targets": [
+        {
+          "target_id": "t022",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-007"
+      ],
+      "scene_id": "scene-022",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo cheerfully gestures to Yuji peeking out of a large open plain brown box, as he plans the surprise return to school. Two large faces, box rim at lower edge, playful surprise, no lettering. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"登場は箱から！\" and \"配達される側！？\". Speaker association (DO NOT PRINT speaker names): 五条 says \"登場は箱から！\"; 虎杖 says \"配達される側！？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q022-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "交流会前に虎杖の登場を演出しようとする場面。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "箱から顔を出す虎杖と五条。配達へのツッコミ、2セリフが明瞭。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q023",
+      "number": 23,
+      "prompt": "家入の治療は、傷ついた呪術師の回復に〔きよ〕する。",
+      "blank_reading": "きよ",
+      "answer": "寄与",
+      "filled_sentence": "家入の治療は、傷ついた呪術師の回復に寄与する。",
+      "targets": [
+        {
+          "target_id": "t023",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-011"
+      ],
+      "scene_id": "scene-023",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Shoko in her white doctor coat calmly uses a soft blue-green healing glow on an anonymous sorcerer’s bandaged forearm. Her face and hands dominate, clean medical room suggested by one pale cross-shaped light reflection, no blood, pain or writing. Character identity: Shoko Ieiri: tired-eyed woman with shoulder-length brown hair, small beauty mark beneath right eye, white doctor coat. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"今日は早く寝て。\" and \"先生も寝てください。\". Speaker association (DO NOT PRINT speaker names): 家入 says \"今日は早く寝て。\"; ツッコミ says \"先生も寝てください。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q023-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "家入は反転術式で他人を治療できる医師。「寄与」は役立つという意味。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "白衣の家入が包帯をした学生の腕を治療。睡眠への掛け合い、明瞭な2セリフ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q024",
+      "number": 24,
+      "prompt": "会社員だった七海は、いつものパン屋へ〔よる〕のを習慣にしていた。",
+      "blank_reading": "よる",
+      "answer": "寄る",
+      "filled_sentence": "会社員だった七海は、いつものパン屋へ寄るのを習慣にしていた。",
+      "targets": [
+        {
+          "target_id": "t024",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-009"
+      ],
+      "scene_id": "scene-024",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami in his businessman beige suit pauses at a bakery counter with exactly one baguette sandwich and a small blank paper bag. Large half-length Nanami, warm simple bakery backdrop, no shop signs or prices. Character identity: Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"パンは別腹です。\" and \"急に親近感。\". Speaker association (DO NOT PRINT speaker names): 七海 says \"パンは別腹です。\"; ツッコミ says \"急に親近感。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q024-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "第13話の回想に登場する、行きつけのパン屋。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "パン屋の七海と虎杖、サンドイッチ。別腹と親近感の2セリフ、対象字の寄なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q025",
+      "number": 25,
+      "prompt": "虎杖は、母を失った順平の悲しみに心を〔よせる〕。",
+      "blank_reading": "よせる",
+      "answer": "寄せる",
+      "filled_sentence": "虎杖は、母を失った順平の悲しみに心を寄せる。",
+      "targets": [
+        {
+          "target_id": "t025",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-025"
+      ],
+      "scene_id": "scene-025",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Yuji listens compassionately to sad Junpei, gently placing one hand on his shoulder. Their two large faces carry the image, soft blue quiet school background. Do not depict Junpei’s mother, death or flashback violence. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Junpei Yoshino: straight chin-length asymmetrical black hair covering one eye, dark Japanese school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"話、聞くよ。\" and \"ゆっくりでいい？\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"話、聞くよ。\"; 順平 says \"ゆっくりでいい？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q025-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "順平の事情を聞いて説得を続ける姿への解釈。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "虎杖が順平の肩に手を置いて話を聞く。母を失った場面を笑いにせず穏やかな2セリフ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q026",
+      "number": 26,
+      "prompt": "虎杖まで連れてきた五条先生の余裕に、漏瑚は〔よけい〕に腹を立てた。",
+      "blank_reading": "よけい",
+      "answer": "余計",
+      "filled_sentence": "虎杖まで連れてきた五条先生の余裕に、漏瑚は余計に腹を立てた。",
+      "targets": [
+        {
+          "target_id": "t026",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-007",
+        "person-023"
+      ],
+      "scene_id": "scene-026",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo stands relaxed with one arm around the shoulders of calm Yuji while Jogo in foreground looks comically exasperated. Three bold faces forming a simple triangle, plain rocky outdoor background. No fighting injuries. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Jogo: short stocky gray-skinned cyclops curse, volcano-shaped crown, white scarf and mustard-colored cape. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"見学の生徒でーす。\" and \"遠足ではないわ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"見学の生徒でーす。\"; 漏瑚 says \"遠足ではないわ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q026-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "五条の余裕ある行動で漏瑚の怒りが強くなる。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "五条と虎杖に漏瑚が腹を立てる。見学と遠足の掛け合い、文字の欠けなし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q027",
+      "number": 27,
+      "prompt": "漏瑚にとって、五条先生は手に〔あまる〕ほど強い相手だった。",
+      "blank_reading": "あまる",
+      "answer": "余る",
+      "filled_sentence": "漏瑚にとって、五条先生は手に余るほど強い相手だった。",
+      "targets": [
+        {
+          "target_id": "t027",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007",
+        "person-023"
+      ],
+      "scene_id": "scene-027",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A visibly frustrated small Jogo looks up at relaxed, much stronger Gojo, whose raised open hand easily stops a small orange energy puff. The characters occupy most of the landscape; comic mismatch in power, no explosions harming people. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Jogo: short stocky gray-skinned cyclops curse, volcano-shaped crown, white scarf and mustard-colored cape. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"準備運動おわり？\" and \"もう本番じゃ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"準備運動おわり？\"; 漏瑚 says \"もう本番じゃ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q027-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "攻撃が当たらず圧倒される場面を、慣用句「手に余る」で説明。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "漏瑚の小さい炎を五条が受け止める。準備運動と本番の2セリフが正確。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q028",
+      "number": 28,
+      "prompt": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を〔もてあます〕ような状況に置かれた。",
+      "blank_reading": "もてあます",
+      "answer": "持て余す",
+      "filled_sentence": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を持て余すような状況に置かれた。",
+      "targets": [
+        {
+          "target_id": "t028",
+          "answer_span": [
+            2,
+            3
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007"
+      ],
+      "scene_id": "scene-028",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo in a black blindfold stands carefully in a narrow station space between three large faceless civilian silhouettes. His poised hand and cautious expression convey that civilians limit his powers. One faint blue energy ring kept compact, no attacks on people. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"最強でも通れない。\" and \"人の波には勝てない。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"最強でも通れない。\"; ツッコミ says \"人の波には勝てない。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q028-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "一般人を盾にされ、力の使い方を制限される状況への解釈。五条が無力だったという意味ではない。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "駅の人混みの中で五条が力を抑える構図。人の波への2セリフ、対象字の余なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q029",
+      "number": 29,
+      "prompt": "覚醒した五条先生が口にした「天上天下唯我独尊」は、〔ぶっきょう〕に由来する言葉だ。",
+      "blank_reading": "ぶっきょう",
+      "answer": "仏教",
+      "filled_sentence": "覚醒した五条先生が口にした「天上天下唯我独尊」は、仏教に由来する言葉だ。",
+      "targets": [
+        {
+          "target_id": "t029",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007"
+      ],
+      "scene_id": "scene-029",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Awakened teenage Gojo from the 2006 flashback, white hair, uncovered bright blue eyes, black fitted short-sleeved top and pale trousers, raises one hand toward the sky in his iconic serene enlightenment pose. One faint warm lotus-shaped glow only as an educational symbol of the phrase’s Buddhist connection, not a transformation into a deity. No religious writing. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"空、広いなあ。\" and \"感想が急に遠足。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"空、広いなあ。\"; ツッコミ says \"感想が急に遠足。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q029-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "第28話の言葉を入口にした語源学習。語源は寺院の説明を参照。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "青い目・半袖の若い五条が手を空へ上げ、蓮の象徴を添える。空と遠足の創作セリフ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q030",
+      "number": 30,
+      "prompt": "五条先生の言葉にある「唯我独尊」は、〔ほとけ〕の誕生にまつわる言い伝えに由来する。",
+      "blank_reading": "ほとけ",
+      "answer": "仏",
+      "filled_sentence": "五条先生の言葉にある「唯我独尊」は、仏の誕生にまつわる言い伝えに由来する。",
+      "targets": [
+        {
+          "target_id": "t030",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007"
+      ],
+      "scene_id": "scene-030",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Supplementary educational scene, NOT an event from canon. Adult Satoru Gojo, white spiky hair, black blindfold and black high-collar jacket, studies a small peaceful golden newborn Buddha statue on a lotus pedestal. Statue has one hand pointing upward and one downward. Gojo recognizes the pose. Gentle respectful curiosity. Plain warm study setting. Add exactly 1 Japanese dialogue captions, text strings ONLY: \"このポーズ、見覚えある！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"このポーズ、見覚えある！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q030-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "第29問と同じ言葉の背景を学ぶ。作中で誕生の場面が描かれたという意味ではない。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "五条が上下を指す誕生仏の像を眺める語句補足の創作場面。見覚えあるポーズのひとこと、対象字の仏なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q031",
+      "number": 31,
+      "prompt": "パンダは、戦いを終えたメカ丸に、願いをかなえるために力を〔かす〕と申し出た。",
+      "blank_reading": "かす",
+      "answer": "貸す",
+      "filled_sentence": "パンダは、戦いを終えたメカ丸に、願いをかなえるために力を貸すと申し出た。",
+      "targets": [
+        {
+          "target_id": "t031",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-006",
+        "person-019"
+      ],
+      "scene_id": "scene-031",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Panda extends a friendly helping paw toward a seated brown Mechamaru puppet after their match; Mechamaru looks surprised. Two large faces and the offered paw dominate; minimal forest, no damaged limbs or wounds. Character identity: Panda: the recognizable friendly large black-and-white anthropomorphic panda student, no human replacement. Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"手、かそうか？\" and \"それ、肉球だろ。\". Speaker association (DO NOT PRINT speaker names): パンダ says \"手、かそうか？\"; メカ丸 says \"それ、肉球だろ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q031-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "勝敗が決まった後も、パンダはメカ丸を助けようとする。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "パンダの差し出す肉球と茶色のメカ丸。貸の字をひらがなにした掛け合いが正確。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q032",
+      "number": 32,
+      "prompt": "狗巻の呪言には、花御の動きを止める〔こうか〕があった。",
+      "blank_reading": "こうか",
+      "answer": "効果",
+      "filled_sentence": "狗巻の呪言には、花御の動きを止める効果があった。",
+      "targets": [
+        {
+          "target_id": "t032",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-005",
+        "person-024"
+      ],
+      "scene_id": "scene-032",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki produces one large clear blue sound-wave arc that freezes simplified Hanami mid-step, collar slightly lowered and focused expression. Only two large characters, no Japanese sound effects, injuries or complex combat. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"動くな！\" and \"一時停止ボタンか。\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"動くな！\"; ツッコミ says \"一時停止ボタンか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q032-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "花御との戦闘で用いる呪言。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "狗巻が呪言で花御を止める。動くなと一時停止の2セリフ、対象字の効なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q033",
+      "number": 33,
+      "prompt": "釘崎の「共鳴り」は、血でつながった壊相と血塗の両方に〔きく〕。",
+      "blank_reading": "きく",
+      "answer": "効く",
+      "filled_sentence": "釘崎の「共鳴り」は、血でつながった壊相と血塗の両方に効く。",
+      "targets": [
+        {
+          "target_id": "t033",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-003",
+        "person-028",
+        "person-029"
+      ],
+      "scene_id": "scene-033",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nobara confidently holds a straw doll and small hammer, sending one harmless symbolic purple pulse along two broad strands toward separate chibi portraits of Eso and Kechizu. Three large faces in triangular composition, make both brothers distinct. Represent the shared blood connection symbolically with purple energy; no needles in skin, blood, wounds or gore. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Eso: purple swept-up hair, black angular facial markings, bold purple-black sleeveless outfit, fully covered child-friendly adaptation. Kechizu: round green-blue curse with dark markings and round eyes, simplified cute nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"そっちにも届くわよ！\" and \"電波よりつながる。\". Speaker association (DO NOT PRINT speaker names): 釘崎 says \"そっちにも届くわよ！\"; ツッコミ says \"電波よりつながる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q033-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "兄弟の血を介し、自分に釘を刺して反撃する。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "釘崎の金づちとわら人形から兄弟へつながる紫の象徴。2セリフが正確、対象字の効なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q034",
+      "number": 34,
+      "prompt": "メカ丸は、京都校の仲間に手を出さないという〔じょうけん〕で、呪霊側と取引した。",
+      "blank_reading": "じょうけん",
+      "answer": "条件",
+      "filled_sentence": "メカ丸は、京都校の仲間に手を出さないという条件で、呪霊側と取引した。",
+      "targets": [
+        {
+          "target_id": "t034",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-019"
+      ],
+      "scene_id": "scene-034",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Edit this landscape Jujutsu Kaisen teaching illustration. Keep the 3:2 layout, both exact captions, their positions, glowing cord and friendly chibi art. CRITICAL: left character is HUMAN Kokichi Muta (Mechamaru operator), NOT Mahito. He must have long black hair, a human face with NO stitched seams on face or neck, plain modest pale gray clothes, no school uniform. Remove ALL stitches and seam marks from the left human. Right character is Mahito: keep his pale gray-blue hair and stitched face. In the protective circle behind Kokichi, replace the recognizable Tokyo students with TWO very simple anonymous navy student silhouettes, no recognizable hairstyles, no facial details, no yellow buttons. Keep the two caption strings exactly: 「仲間には手を出すな。」and「注意書き、細かいね。」. No other text, labels, speech balloons, or boxes.",
+        "source_png": "originals/q034-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "内通者としての取引には、京都校を傷つけないという縛りがある。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "修正版で与幸吉の顔の縫い目を除去し真人と区別。後ろは匿名の学生影、条件の対象字は出さない。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q035",
+      "number": 35,
+      "prompt": "五条先生は、楽巌寺学長に伝えたい〔ようけん〕があって会いに行った。",
+      "blank_reading": "ようけん",
+      "answer": "用件",
+      "filled_sentence": "五条先生は、楽巌寺学長に伝えたい用件があって会いに行った。",
+      "targets": [
+        {
+          "target_id": "t035",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007",
+        "person-021"
+      ],
+      "scene_id": "scene-035",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo stands facing seated stern Gakuganji in a minimal traditional meeting room. Large opposing profiles and one low table convey an important visit and disagreement. No extra characters or text. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"ちょっとお話が。\" and \"ちょっとで済むのか。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"ちょっとお話が。\"; 楽巌寺 says \"ちょっとで済むのか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q035-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "第8話での、五条と保守派の楽巌寺の面会。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "五条と着席した楽巌寺が向き合う。ちょっとの長さへのツッコミ、指定の2セリフ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q036",
+      "number": 36,
+      "prompt": "高専で〔ほかん〕していた宿儺の指と呪胎九相図が、真人に奪われた。",
+      "blank_reading": "ほかん",
+      "answer": "保管",
+      "filled_sentence": "高専で保管していた宿儺の指と呪胎九相図が、真人に奪われた。",
+      "targets": [
+        {
+          "target_id": "t036",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-026",
+        "person-030"
+      ],
+      "scene_id": "scene-036",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A locked plain wooden storage chest stands open with two recognizable stylized wrapped Sukuna finger relics and three sealed small jars, while Mahito’s oversized gloved-looking simplified hand reaches toward the collection. Relics look like dry carved talismans, not severed bloody human fingers; no gore, written labels or busy inventory. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Ryomen Sukuna in Yuji vessel appearance: spiky pink hair with black facial tattoo markings and red eyes; make inner presence visually separate from Yuji where both appear. Add exactly 1 Japanese dialogue captions, text strings ONLY: \"そこ、おやつ棚じゃない！\". Speaker association (DO NOT PRINT speaker names): ツッコミ says \"そこ、おやつ棚じゃない！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q036-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "交流会襲撃の裏で特級呪物が持ち出される。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "木箱に呪物の象徴と封じた瓶があり真人が手を伸ばす。おやつ棚へのひとことのみ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q037",
+      "number": 37,
+      "prompt": "七海は、真人との戦いでも落ち着きを〔たもつ〕。",
+      "blank_reading": "たもつ",
+      "answer": "保つ",
+      "filled_sentence": "七海は、真人との戦いでも落ち着きを保つ。",
+      "targets": [
+        {
+          "target_id": "t037",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-009",
+        "person-026"
+      ],
+      "scene_id": "scene-037",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami adjusts his patterned tie calmly while Mahito grins opposite him, two large half-length characters, one faint blue motion streak conveying confrontation. Nanami remains composed. No injuries, weapons touching bodies or scary anatomy. Character identity: Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"定時に終えます。\" and \"時計が気になるの？\". Speaker association (DO NOT PRINT speaker names): 七海 says \"定時に終えます。\"; 真人 says \"時計が気になるの？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q037-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "強敵と向き合う七海の冷静な態度を要約。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "七海がネクタイを整え真人が向き合う。定時と時計の2セリフ、落ち着いた対面。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q038",
+      "number": 38,
+      "prompt": "冥冥は、虎杖の実力を高く〔ひょうか〕した。",
+      "blank_reading": "ひょうか",
+      "answer": "評価",
+      "filled_sentence": "冥冥は、虎杖の実力を高く評価した。",
+      "targets": [
+        {
+          "target_id": "t038",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-012"
+      ],
+      "scene_id": "scene-038",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mei Mei gives an approving nod to proud but modest Yuji, a single large gold star-shaped light beside them signifies praise. Two large faces, pale simple city backdrop, no rating numbers or words. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Mei Mei: adult woman with very long pale silver-blue hair braided in front of one eye, dark purple outfit. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"なかなかいいね。\" and \"ほめられると伸びます！\". Speaker association (DO NOT PRINT speaker names): 冥冥 says \"なかなかいいね。\"; 虎杖 says \"ほめられると伸びます！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q038-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "渋谷事変で戦う虎杖を、一級相当と認める。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "銀色の三つ編みの冥冥が虎杖をほめる。2セリフと大きな星、対象字の価なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q039",
+      "number": 39,
+      "prompt": "冥冥は、人とのしがらみより、お金の〔かち〕を重く見る。",
+      "blank_reading": "かち",
+      "answer": "価値",
+      "filled_sentence": "冥冥は、人とのしがらみより、お金の価値を重く見る。",
+      "targets": [
+        {
+          "target_id": "t039",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-012"
+      ],
+      "scene_id": "scene-039",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mei Mei thoughtfully weighs one shiny coin in her hand, her silver-blue braid and face dominate. Simple plum and cream backdrop with a subtle coin circle, no written prices, banknotes or numbers. Character identity: Mei Mei: adult woman with very long pale silver-blue hair braided in front of one eye, dark purple outfit. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"いい音がするね。\" and \"小銭の音だけど。\". Speaker association (DO NOT PRINT speaker names): 冥冥 says \"いい音がするね。\"; ツッコミ says \"小銭の音だけど。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q039-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "金銭を基準とする人物像を言い換えた。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "冥冥が硬貨を見て虎杖がツッコミ。画像の語尾は「するわね」で台詞台帳も実画像に合わせた。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q040",
+      "number": 40,
+      "prompt": "虎杖の処刑に〔さんせい〕する楽巌寺学長と、虎杖を守る五条先生が対立する。",
+      "blank_reading": "さんせい",
+      "answer": "賛成",
+      "filled_sentence": "虎杖の処刑に賛成する楽巌寺学長と、虎杖を守る五条先生が対立する。",
+      "targets": [
+        {
+          "target_id": "t040",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-007",
+        "person-021"
+      ],
+      "scene_id": "scene-040",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo stands protectively beside Yuji while Gakuganji faces them sternly. Three large expressive portraits in simple triangular composition express opposing views over Yuji’s fate. No execution scene, violence, written speech or signs. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"話し合おうよ。\" and \"まず座らんか。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"話し合おうよ。\"; 楽巌寺 says \"まず座らんか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q040-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "虎杖の存在を消したい保守派と、虎杖を育てる五条の立場。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "五条が虎杖の横に立ち楽巌寺と対立する構図。話し合いと着席の掛け合い。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q041",
+      "number": 41,
+      "prompt": "加茂は、父の〔せいさい〕の子ではなかったが、術式を受け継いで家に迎えられた。",
+      "blank_reading": "せいさい",
+      "answer": "正妻",
+      "filled_sentence": "加茂は、父の正妻の子ではなかったが、術式を受け継いで家に迎えられた。",
+      "targets": [
+        {
+          "target_id": "t041",
+          "answer_span": [
+            1,
+            2
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-015"
+      ],
+      "scene_id": "scene-041",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Child Noritoshi Kamo, black hair and pale traditional clothing, stands at a traditional house threshold with a small gentle mother silhouette behind him and an imposing empty doorway ahead. He holds a simple blue family-pattern cloth with no symbols or text. Express childhood separation and clan expectations, not violence, not an invented named father or wife. Character identity: Noritoshi Kamo: composed young man with straight black hair, narrow almost-closed eyes, traditional dark blue high-collar clothing. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"背すじ、ぴーん。\" and \"緊張まで伝わってくる。\". Speaker association (DO NOT PRINT speaker names): 加茂 says \"背すじ、ぴーん。\"; ツッコミ says \"緊張まで伝わってくる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q041-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "第18話の生い立ちの説明。「正室」を学習語「正妻」に言い換えた。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "幼い加茂が伝統的な家の入口で背筋を伸ばし母が背後にいる。セリフに正妻の字はない。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q042",
+      "number": 42,
+      "prompt": "加茂の母は、当主の正式な〔つま〕ではなかったため、家でつらい扱いを受けた。",
+      "blank_reading": "つま",
+      "answer": "妻",
+      "filled_sentence": "加茂の母は、当主の正式な妻ではなかったため、家でつらい扱いを受けた。",
+      "targets": [
+        {
+          "target_id": "t042",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-015"
+      ],
+      "scene_id": "scene-042",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Child Noritoshi Kamo reaches for his mother’s hand as she quietly walks away from a traditional doorway. Two large gentle emotional faces, minimal background, modest plain clothing. An illustration of the actual difficult family memory; no abuse shown and no extra named characters. Character identity: Noritoshi Kamo: composed young man with straight black hair, narrow almost-closed eyes, traditional dark blue high-collar clothing. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"手、離さないよ。\" and \"歩幅はゆっくりね。\". Speaker association (DO NOT PRINT speaker names): 加茂 says \"手、離さないよ。\"; 母 says \"歩幅はゆっくりね。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q042-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "母が家で冷遇され、幼い加茂のもとを去る回想。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "加茂と母が手をつないで歩く。無理なギャグを避けた穏やかな創作会話、対象字の妻なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q043",
+      "number": 43,
+      "prompt": "五条先生が漏瑚や花御、脹相と向き合った渋谷駅の地下は、大勢の人で〔こんざつ〕していた。",
+      "blank_reading": "こんざつ",
+      "answer": "混雑",
+      "filled_sentence": "五条先生が漏瑚や花御、脹相と向き合った渋谷駅の地下は、大勢の人で混雑していた。",
+      "targets": [
+        {
+          "target_id": "t043",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007",
+        "person-023",
+        "person-024",
+        "person-027"
+      ],
+      "scene_id": "scene-043",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Tense confrontation on a crowded Shibuya subway platform. Left: stern adult Satoru Gojo, spiky white hair, black blindfold and black high-collar uniform, in side/back profile facing right. Right: serious Jogo (gray one-eyed volcano head, white scarf, ochre cape), Hanami (pale woodlike body, branch eyes), Choso (dark hair in two spiky bunches, purple eyes, horizontal black nose marking, layered white robe). They look at each other across a narrow gap, not toward viewer. A few pale anonymous civilian silhouettes. No friendly group photo or peace signs. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"間合い、近すぎ。\" and \"駅が狭いんじゃ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"間合い、近すぎ。\"; 漏瑚 says \"駅が狭いんじゃ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q043-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "地下ホームには一般人が取り残されていた。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "駅で五条が漏瑚・花御・脹相と対面、人影もある。集合写真ではなく緊張ある対峙。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q044",
+      "number": 44,
+      "prompt": "帳の中に人々が閉じ込められ、渋谷の駅は〔こむ〕。",
+      "blank_reading": "こむ",
+      "answer": "混む",
+      "filled_sentence": "帳の中に人々が閉じ込められ、渋谷の駅は混む。",
+      "targets": [
+        {
+          "target_id": "t044",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [],
+      "scene_id": "scene-044",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A Shibuya station entrance packed with five large simple anonymous civilian silhouettes under a dark blue translucent curtain barrier. Bold overlapping shapes clearly convey congestion, friendly neutral expressions, no tiny crowds or readable station signage. Character identity:  Add exactly 1 Japanese dialogue captions, text strings ONLY: \"改札より先に進めない！\". Speaker association (DO NOT PRINT speaker names): 通行人 says \"改札より先に進めない！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q044-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "閉じ込められた多数の一般人がいる渋谷。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "改札前に5人の一般人が密集し暗い帳もある。進めないという1セリフ、対象字の混なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q045",
+      "number": 45,
+      "prompt": "宿儺の指を取り込んだ虎杖の体には、宿儺の呪いが〔まざる〕ことになった。",
+      "blank_reading": "まざる",
+      "answer": "混ざる",
+      "filled_sentence": "宿儺の指を取り込んだ虎杖の体には、宿儺の呪いが混ざることになった。",
+      "targets": [
+        {
+          "target_id": "t045",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-030"
+      ],
+      "scene_id": "scene-045",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A large close-up of Yuji’s face, pink hair and red hood, with a translucent symbolic Sukuna face with black markings behind one shoulder, illustrating two presences sharing one body. Clear distinction between Yuji and Sukuna, no literal fused flesh, horror, blood or text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Ryomen Sukuna in Yuji vessel appearance: spiky pink hair with black facial tattoo markings and red eyes; make inner presence visually separate from Yuji where both appear. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"ここは俺の席だ。\" and \"予約してないだろ！\". Speaker association (DO NOT PRINT speaker names): 宿儺 says \"ここは俺の席だ。\"; 虎杖 says \"予約してないだろ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q045-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "虎杖と宿儺が一つの体に共存する状態。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "虎杖と背後の半透明な宿儺を区別。席と予約の2セリフ、対象字の混なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q046",
+      "number": 46,
+      "prompt": "五条先生は、「蒼」と「赫」を〔まぜる〕ように組み合わせて「茈」を放った。",
+      "blank_reading": "まぜる",
+      "answer": "混ぜる",
+      "filled_sentence": "五条先生は、「蒼」と「赫」を混ぜるように組み合わせて「茈」を放った。",
+      "targets": [
+        {
+          "target_id": "t046",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-007"
+      ],
+      "scene_id": "scene-046",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo with white hair and black blindfold combines one bright blue energy orb and one bright red orb into a single large purple glow between his hands. His large upper body occupies the landscape; exactly three simple colored orbs form a triangle. No letters, equations or destructive background. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"青と赤で、むらさき。\" and \"図工の時間じゃない。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"青と赤で、むらさき。\"; ツッコミ says \"図工の時間じゃない。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q046-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "二つの力を重ねる場面の学習用の言い換え。液体を混ぜる行為ではない。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "五条が青・赤の球を紫へつなぐ。図工へのツッコミ、3色が明瞭で解答の混なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q047",
+      "number": 47,
+      "prompt": "狗巻のおにぎりの具の言葉は、仲間にとってただの〔ざつおん〕ではない。",
+      "blank_reading": "ざつおん",
+      "answer": "雑音",
+      "filled_sentence": "狗巻のおにぎりの具の言葉は、仲間にとってただの雑音ではない。",
+      "targets": [
+        {
+          "target_id": "t047",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-005"
+      ],
+      "scene_id": "scene-047",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki with high navy collar gestures reassuringly to a listening teammate shown as a plain navy shoulder silhouette. Two simple rice-ball ingredient icons float beside him: a salmon piece and one green leaf, representing meaningful safe communication. No letters, sound effects or speech bubbles. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"しゃけ！\" and \"献立の相談じゃないよね？\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"しゃけ！\"; 仲間 says \"献立の相談じゃないよね？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q047-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "人を不用意に呪わずに会話する設定から、言葉の意味を考える。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "狗巻の高い襟と具材の象徴、仲間が聞く構図。しゃけと献立の2セリフ、対象字の雑なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q048",
+      "number": 48,
+      "prompt": "花御に追われた伏黒たちは、〔ぞうきばやし〕を走って帳の外を目指した。",
+      "blank_reading": "ぞうきばやし",
+      "answer": "雑木林",
+      "filled_sentence": "花御に追われた伏黒たちは、雑木林を走って帳の外を目指した。",
+      "targets": [
+        {
+          "target_id": "t048",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-002",
+        "person-024"
+      ],
+      "scene_id": "scene-048",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Megumi runs urgently between two broad tree trunks while glancing back at a large simplified distant Hanami shape. Megumi’s spiky-haired face and upper body dominate. Simple green forest planes, no tiny branches, injuries or gore. Character identity: Megumi Fushiguro: spiky black hair, dark navy high-collar school uniform, serious expression. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"木が多すぎる！\" and \"近道のつもりだったのに。\". Speaker association (DO NOT PRINT speaker names): 伏黒 says \"木が多すぎる！\"; ツッコミ says \"近道のつもりだったのに。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q048-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "交流会の樹木がある会場を、花御の攻撃を避けて走る。場所の植生を厳密に分類したものではない。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "伏黒が木の間を走り後方に花御。木と近道へのツッコミ、対象字の雑なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q049",
+      "number": 49,
+      "prompt": "真人は、高専から宿儺の指と呪胎九相図を〔りゃくだつ〕した。",
+      "blank_reading": "りゃくだつ",
+      "answer": "略奪",
+      "filled_sentence": "真人は、高専から宿儺の指と呪胎九相図を略奪した。",
+      "targets": [
+        {
+          "target_id": "t049",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-026",
+        "person-030"
+      ],
+      "scene_id": "scene-049",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mahito sneaks away holding one plain small wooden case with a wrapped dry talisman and three sealed jars visible, minimal school storeroom doorway. Large mischievous face and stolen case, no bloody relics, writing or labels. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Ryomen Sukuna in Yuji vessel appearance: spiky pink hair with black facial tattoo markings and red eyes; make inner presence visually separate from Yuji where both appear. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"こっそり、こっそり。\" and \"顔がにやけすぎ。\". Speaker association (DO NOT PRINT speaker names): 真人 says \"こっそり、こっそり。\"; ツッコミ says \"顔がにやけすぎ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q049-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "花御の襲撃と並行して進められた呪物の強奪。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "真人が木箱の呪物を持ち去り虎杖がツッコミを入れる創作構図。2セリフが正確、対象字の略なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q050",
+      "number": 50,
+      "prompt": "交流会の二日目には、個人戦の代わりに野球が〔さいよう〕された。",
+      "blank_reading": "さいよう",
+      "answer": "採用",
+      "filled_sentence": "交流会の二日目には、個人戦の代わりに野球が採用された。",
+      "targets": [
+        {
+          "target_id": "t050",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [],
+      "scene_id": "scene-050",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A cheerful school baseball scene with Yuji holding a bat down safely and Panda wearing a plain baseball glove, one oversized ball between them. Two large upper bodies and one simple green field line. No text or team logos. Character identity:  Yuji has short spiky pink hair, brown eyes, navy uniform with red hood. Panda is a large black-and-white anthropomorphic panda student. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"今日は平和に野球！\" and \"球速は平和じゃないぞ。\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"今日は平和に野球！\"; パンダ says \"球速は平和じゃないぞ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q050-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "襲撃後、交流会が野球で続けられる。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "虎杖のバットとパンダのグローブ、中央に大きな野球ボール。平和と球速の2セリフ。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q051",
+      "number": 51,
+      "prompt": "東堂は、虎杖と立つ場所を入れ替えながら花御を攻める作戦を〔とる〕。",
+      "blank_reading": "とる",
+      "answer": "採る",
+      "filled_sentence": "東堂は、虎杖と立つ場所を入れ替えながら花御を攻める作戦を採る。",
+      "targets": [
+        {
+          "target_id": "t051",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-014",
+        "person-024"
+      ],
+      "scene_id": "scene-051",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Todo claps his two hands together confidently, while Yuji and a simplified Hanami appear on opposite sides of one broad looped blue arrow to show tactical swapping of positions. Todo’s and Yuji’s faces large, three figures total, no small diagrams, letters or combat impact injuries. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Aoi Todo: muscular broad-shouldered young man, dark hair tied up, distinctive scar along left forehead and cheek. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"こっちだ、ブラザー！\" and \"さっきはあっち！\". Speaker association (DO NOT PRINT speaker names): 東堂 says \"こっちだ、ブラザー！\"; 虎杖 says \"さっきはあっち！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q051-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "術式を使って虎杖と連携する東堂。「採る」は方法を選んで用いる意味。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "東堂が手を合わせ、虎杖と花御の間に入れ替えを示す矢印。2セリフが正確、対象字の採なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q052",
+      "number": 52,
+      "prompt": "交流会では、学生同士の殺し合いは〔きんし〕されている。",
+      "blank_reading": "きんし",
+      "answer": "禁止",
+      "filled_sentence": "交流会では、学生同士の殺し合いは禁止されている。",
+      "targets": [
+        {
+          "target_id": "t052",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [],
+      "scene_id": "scene-052",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Yaga explains exchange-event safety rules with a calm raised stop palm and a simple universal red prohibition circle over two crossed training sticks. His face and stop palm dominate. A clear educational symbol of banning lethal harm, no weapons aimed at people, no text, gore or actual killing. Character identity: Masamichi Yaga: broad build, short black spiked hair, dark sunglasses and short chin beard, dark jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"安全第一だ。\" and \"先生の圧が第一。\". Speaker association (DO NOT PRINT speaker names): 夜蛾 says \"安全第一だ。\"; ツッコミ says \"先生の圧が第一。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q052-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "交流会の規則。虎杖を狙う京都校側の動きとは区別する。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "夜蛾の止める手と訓練棒の禁止記号。安全第一と先生の圧の2セリフ、対象字の禁なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    },
+    {
+      "id": "q053",
+      "number": 53,
+      "prompt": "花御は、植物を操る〔のうりょく〕で虎杖たちを攻めた。",
+      "blank_reading": "のうりょく",
+      "answer": "能力",
+      "filled_sentence": "花御は、植物を操る能力で虎杖たちを攻めた。",
+      "targets": [
+        {
+          "target_id": "t053",
+          "answer_span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "character_ids": [
+        "person-001",
+        "person-024"
+      ],
+      "scene_id": "scene-053",
+      "image": {
+        "generation_backend": "imagegen",
+        "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Hanami uses one large flowing tree root to block focused Yuji and Todo, a simple dynamic triangular layout. Hanami pale face with branch eyes large, Yuji red hood and Todo hair topknot clearly visible. Stylized nature magic, no injuries, tangled tiny roots or gore. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Todo is muscular, with black hair tied up, a scar down his left forehead and cheek, dark trousers. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"根っこまで来た！\" and \"園芸の規模じゃないな。\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"根っこまで来た！\"; 東堂 says \"園芸の規模じゃないな。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+        "source_png": "originals/q053-wide-v2.png",
+        "selected_version": 2
+      },
+      "review": {
+        "text": {
+          "status": "imported",
+          "observations": "交流会に侵入した花御との戦い。"
+        },
+        "image": {
+          "status": "reviewed",
+          "observations": "花御の大きい根と虎杖・東堂。根っこと園芸の2セリフ、対象字の能なし。",
+          "record": "review/wide-image-check.json"
+        }
+      }
+    }
+  ],
+  "presentation": {
+    "export_directory": "exports/v2",
+    "width": 600,
+    "height": 400,
+    "dialogue_note": "学習用に創作したセリフ・ツッコミです。原作の引用ではありません。問題文と解答は従来どおりです。",
+    "dialogue": [
+      {
+        "id": "q001",
+        "lines": [
+          [
+            "順平",
+            "君、前のめりすぎ。"
+          ],
+          [
+            "虎杖",
+            "まずは落ち着こう！"
+          ]
+        ]
+      },
+      {
+        "id": "q002",
+        "lines": [
+          [
+            "与幸吉",
+            "まずは散歩したい。"
+          ],
+          [
+            "真人",
+            "ロボで行かないの？"
+          ]
+        ]
+      },
+      {
+        "id": "q003",
+        "lines": [
+          [
+            "真希",
+            "似てるの、顔だけだな。"
+          ],
+          [
+            "真依",
+            "そこは認めるのね。"
+          ]
+        ]
+      },
+      {
+        "id": "q004",
+        "lines": [
+          [
+            "三輪",
+            "等級、壊れてません？"
+          ],
+          [
+            "真希",
+            "私に聞くなよ。"
+          ]
+        ]
+      },
+      {
+        "id": "q005",
+        "lines": [
+          [
+            "楽巌寺",
+            "会議は厳かに。"
+          ],
+          [
+            "ツッコミ",
+            "ギターは持参なんだ。"
+          ]
+        ]
+      },
+      {
+        "id": "q006",
+        "lines": [
+          [
+            "真人",
+            "これ、ぷにぷにかな？"
+          ],
+          [
+            "ツッコミ",
+            "ゼリーの感想か。"
+          ]
+        ]
+      },
+      {
+        "id": "q007",
+        "lines": [
+          [
+            "三輪",
+            "家宝にします！"
+          ],
+          [
+            "五条",
+            "まだ撮ってないよ。"
+          ]
+        ]
+      },
+      {
+        "id": "q008",
+        "lines": [
+          [
+            "伊地知",
+            "目立たずにお願いします。"
+          ],
+          [
+            "虎杖",
+            "この髪で！？"
+          ]
+        ]
+      },
+      {
+        "id": "q009",
+        "lines": [
+          [
+            "五条",
+            "選べるのは二つ。"
+          ],
+          [
+            "虎杖",
+            "おやつは入ります？"
+          ]
+        ]
+      },
+      {
+        "id": "q010",
+        "lines": [
+          [
+            "漏瑚",
+            "わしこそ本物じゃ！"
+          ],
+          [
+            "ツッコミ",
+            "頭の火力がすごい。"
+          ]
+        ]
+      },
+      {
+        "id": "q011",
+        "lines": [
+          [
+            "通行人",
+            "駅なのに、出口どこ？"
+          ]
+        ]
+      },
+      {
+        "id": "q012",
+        "lines": [
+          [
+            "狗巻",
+            "動くな！"
+          ],
+          [
+            "ツッコミ",
+            "だるまさん方式！？"
+          ]
+        ]
+      },
+      {
+        "id": "q013",
+        "lines": [
+          [
+            "夜蛾",
+            "大きく育てよ。"
+          ],
+          [
+            "パンダ",
+            "もう結構でかいぞ。"
+          ]
+        ]
+      },
+      {
+        "id": "q014",
+        "lines": [
+          [
+            "真依",
+            "本日の生産、終了。"
+          ],
+          [
+            "ツッコミ",
+            "工場より早じまい。"
+          ]
+        ]
+      },
+      {
+        "id": "q015",
+        "lines": [
+          [
+            "釘崎",
+            "東京、待ってなさい！"
+          ],
+          [
+            "ツッコミ",
+            "街のほうが待つの？"
+          ]
+        ]
+      },
+      {
+        "id": "q016",
+        "lines": [
+          [
+            "直毘人",
+            "当主のお通りじゃ。"
+          ],
+          [
+            "ツッコミ",
+            "座ってますけど。"
+          ]
+        ]
+      },
+      {
+        "id": "q017",
+        "lines": [
+          [
+            "七海",
+            "仕事は仕事です。"
+          ],
+          [
+            "虎杖",
+            "名言っぽいの来た！"
+          ]
+        ]
+      },
+      {
+        "id": "q018",
+        "lines": [
+          [
+            "与幸吉",
+            "準備は万全だ。"
+          ],
+          [
+            "ツッコミ",
+            "駐車場はある？"
+          ]
+        ]
+      },
+      {
+        "id": "q019",
+        "lines": [
+          [
+            "夏油",
+            "静かすぎるな。"
+          ],
+          [
+            "ツッコミ",
+            "いつもがにぎやかすぎ。"
+          ]
+        ]
+      },
+      {
+        "id": "q020",
+        "lines": [
+          [
+            "西宮",
+            "最後まで聞いて！"
+          ],
+          [
+            "釘崎",
+            "ほうきまで熱くなってる。"
+          ]
+        ]
+      },
+      {
+        "id": "q021",
+        "lines": [
+          [
+            "歌姫",
+            "また同じ廊下！？"
+          ],
+          [
+            "冥冥",
+            "内見はもう十分ね。"
+          ]
+        ]
+      },
+      {
+        "id": "q022",
+        "lines": [
+          [
+            "五条",
+            "登場は箱から！"
+          ],
+          [
+            "虎杖",
+            "配達される側！？"
+          ]
+        ]
+      },
+      {
+        "id": "q023",
+        "lines": [
+          [
+            "家入",
+            "今日は早く寝て。"
+          ],
+          [
+            "ツッコミ",
+            "先生も寝てください。"
+          ]
+        ]
+      },
+      {
+        "id": "q024",
+        "lines": [
+          [
+            "七海",
+            "パンは別腹です。"
+          ],
+          [
+            "ツッコミ",
+            "急に親近感。"
+          ]
+        ]
+      },
+      {
+        "id": "q025",
+        "lines": [
+          [
+            "虎杖",
+            "話、聞くよ。"
+          ],
+          [
+            "順平",
+            "ゆっくりでいい？"
+          ]
+        ]
+      },
+      {
+        "id": "q026",
+        "lines": [
+          [
+            "五条",
+            "見学の生徒でーす。"
+          ],
+          [
+            "漏瑚",
+            "遠足ではないわ！"
+          ]
+        ]
+      },
+      {
+        "id": "q027",
+        "lines": [
+          [
+            "五条",
+            "準備運動おわり？"
+          ],
+          [
+            "漏瑚",
+            "もう本番じゃ！"
+          ]
+        ]
+      },
+      {
+        "id": "q028",
+        "lines": [
+          [
+            "五条",
+            "最強でも通れない。"
+          ],
+          [
+            "ツッコミ",
+            "人の波には勝てない。"
+          ]
+        ]
+      },
+      {
+        "id": "q029",
+        "lines": [
+          [
+            "五条",
+            "空、広いなあ。"
+          ],
+          [
+            "ツッコミ",
+            "感想が急に遠足。"
+          ]
+        ]
+      },
+      {
+        "id": "q030",
+        "lines": [
+          [
+            "五条",
+            "このポーズ、見覚えある！"
+          ]
+        ]
+      },
+      {
+        "id": "q031",
+        "lines": [
+          [
+            "パンダ",
+            "手、かそうか？"
+          ],
+          [
+            "メカ丸",
+            "それ、肉球だろ。"
+          ]
+        ]
+      },
+      {
+        "id": "q032",
+        "lines": [
+          [
+            "狗巻",
+            "動くな！"
+          ],
+          [
+            "ツッコミ",
+            "一時停止ボタンか。"
+          ]
+        ]
+      },
+      {
+        "id": "q033",
+        "lines": [
+          [
+            "釘崎",
+            "そっちにも届くわよ！"
+          ],
+          [
+            "ツッコミ",
+            "電波よりつながる。"
+          ]
+        ]
+      },
+      {
+        "id": "q034",
+        "lines": [
+          [
+            "与幸吉",
+            "仲間には手を出すな。"
+          ],
+          [
+            "真人",
+            "注意書き、細かいね。"
+          ]
+        ]
+      },
+      {
+        "id": "q035",
+        "lines": [
+          [
+            "五条",
+            "ちょっとお話が。"
+          ],
+          [
+            "楽巌寺",
+            "ちょっとで済むのか。"
+          ]
+        ]
+      },
+      {
+        "id": "q036",
+        "lines": [
+          [
+            "ツッコミ",
+            "そこ、おやつ棚じゃない！"
+          ]
+        ]
+      },
+      {
+        "id": "q037",
+        "lines": [
+          [
+            "七海",
+            "定時に終えます。"
+          ],
+          [
+            "真人",
+            "時計が気になるの？"
+          ]
+        ]
+      },
+      {
+        "id": "q038",
+        "lines": [
+          [
+            "冥冥",
+            "なかなかいいね。"
+          ],
+          [
+            "虎杖",
+            "ほめられると伸びます！"
+          ]
+        ]
+      },
+      {
+        "id": "q039",
+        "lines": [
+          [
+            "冥冥",
+            "いい音がするわね。"
+          ],
+          [
+            "ツッコミ",
+            "小銭の音だけど。"
+          ]
+        ]
+      },
+      {
+        "id": "q040",
+        "lines": [
+          [
+            "五条",
+            "話し合おうよ。"
+          ],
+          [
+            "楽巌寺",
+            "まず座らんか。"
+          ]
+        ]
+      },
+      {
+        "id": "q041",
+        "lines": [
+          [
+            "加茂",
+            "背すじ、ぴーん。"
+          ],
+          [
+            "ツッコミ",
+            "緊張まで伝わってくる。"
+          ]
+        ]
+      },
+      {
+        "id": "q042",
+        "lines": [
+          [
+            "加茂",
+            "手、離さないよ。"
+          ],
+          [
+            "母",
+            "歩幅はゆっくりね。"
+          ]
+        ]
+      },
+      {
+        "id": "q043",
+        "lines": [
+          [
+            "五条",
+            "間合い、近すぎ。"
+          ],
+          [
+            "漏瑚",
+            "駅が狭いんじゃ！"
+          ]
+        ]
+      },
+      {
+        "id": "q044",
+        "lines": [
+          [
+            "通行人",
+            "改札より先に進めない！"
+          ]
+        ]
+      },
+      {
+        "id": "q045",
+        "lines": [
+          [
+            "宿儺",
+            "ここは俺の席だ。"
+          ],
+          [
+            "虎杖",
+            "予約してないだろ！"
+          ]
+        ]
+      },
+      {
+        "id": "q046",
+        "lines": [
+          [
+            "五条",
+            "青と赤で、むらさき。"
+          ],
+          [
+            "ツッコミ",
+            "図工の時間じゃない。"
+          ]
+        ]
+      },
+      {
+        "id": "q047",
+        "lines": [
+          [
+            "狗巻",
+            "しゃけ！"
+          ],
+          [
+            "仲間",
+            "献立の相談じゃないよね？"
+          ]
+        ]
+      },
+      {
+        "id": "q048",
+        "lines": [
+          [
+            "伏黒",
+            "木が多すぎる！"
+          ],
+          [
+            "ツッコミ",
+            "近道のつもりだったのに。"
+          ]
+        ]
+      },
+      {
+        "id": "q049",
+        "lines": [
+          [
+            "真人",
+            "こっそり、こっそり。"
+          ],
+          [
+            "ツッコミ",
+            "顔がにやけすぎ。"
+          ]
+        ]
+      },
+      {
+        "id": "q050",
+        "lines": [
+          [
+            "虎杖",
+            "今日は平和に野球！"
+          ],
+          [
+            "パンダ",
+            "球速は平和じゃないぞ。"
+          ]
+        ]
+      },
+      {
+        "id": "q051",
+        "lines": [
+          [
+            "東堂",
+            "こっちだ、ブラザー！"
+          ],
+          [
+            "虎杖",
+            "さっきはあっち！"
+          ]
+        ]
+      },
+      {
+        "id": "q052",
+        "lines": [
+          [
+            "夜蛾",
+            "安全第一だ。"
+          ],
+          [
+            "ツッコミ",
+            "先生の圧が第一。"
+          ]
+        ]
+      },
+      {
+        "id": "q053",
+        "lines": [
+          [
+            "虎杖",
+            "根っこまで来た！"
+          ],
+          [
+            "東堂",
+            "園芸の規模じゃないな。"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "q031",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Panda extends a friendly helping paw toward a seated brown Mechamaru puppet after their match; Mechamaru looks surprised. Two large faces and the offered paw dominate; minimal forest, no damaged limbs or wounds. Character identity: Panda: the recognizable friendly large black-and-white anthropomorphic panda student, no human replacement. Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"手、かそうか？\" and \"それ、肉球だろ。\". Speaker association (DO NOT PRINT speaker names): パンダ says \"手、かそうか？\"; メカ丸 says \"それ、肉球だろ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q031-wide-v2.png",
+  "dialogue": [
+    [
+      "パンダ",
+      "手、かそうか？"
+    ],
+    [
+      "メカ丸",
+      "それ、肉球だろ。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-bdb09d3a-ec83-40ec-9f6d-a4e721e8e8c0.png"
+}

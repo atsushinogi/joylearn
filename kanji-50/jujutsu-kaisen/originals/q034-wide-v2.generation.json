@@ -1,0 +1,19 @@
+{
+  "id": "q034",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Edit this landscape Jujutsu Kaisen teaching illustration. Keep the 3:2 layout, both exact captions, their positions, glowing cord and friendly chibi art. CRITICAL: left character is HUMAN Kokichi Muta (Mechamaru operator), NOT Mahito. He must have long black hair, a human face with NO stitched seams on face or neck, plain modest pale gray clothes, no school uniform. Remove ALL stitches and seam marks from the left human. Right character is Mahito: keep his pale gray-blue hair and stitched face. In the protective circle behind Kokichi, replace the recognizable Tokyo students with TWO very simple anonymous navy student silhouettes, no recognizable hairstyles, no facial details, no yellow buttons. Keep the two caption strings exactly: 「仲間には手を出すな。」and「注意書き、細かいね。」. No other text, labels, speech balloons, or boxes.",
+  "source_png": "originals/q034-wide-v2.png",
+  "dialogue": [
+    [
+      "与幸吉",
+      "仲間には手を出すな。"
+    ],
+    [
+      "真人",
+      "注意書き、細かいね。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-15946358-3262-41fb-8e54-7e9200a756e3.png",
+  "edit_reference": "originals/q034-wide-v2-initial.png"
+}

@@ -7,7 +7,7 @@ globalThis.KANJI_STORY_BANK = {
       "title": "呪術廻戦",
       "shortTitle": "呪術廻戦",
       "subtitle": "呪術師たちの物語で学ぼう",
-      "cover": "jujutsu-kaisen/exports/v1/webp/q001.webp",
+      "cover": "jujutsu-kaisen/exports/v2/webp/q001.webp",
       "theme": "violet",
       "revision": "59c8ac46cd15d52204c75cbebae29036a1acbaa206c5f6baef30322394ab336f",
       "previousRevision": "e7ac5e8223e367f814fbb920efa2dcc2172dd16e08ea2a267d2fe6251507ad2d",
@@ -18,7 +18,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "虎杖は、復讐に走る順平を〔せっとく〕しようとした。",
           "answer": "説得",
           "reading": "せっとく",
-          "image": "jujutsu-kaisen/exports/v1/webp/q001.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q001.webp",
           "parts": [
             {
               "text": "虎杖は、復讐に走る順平を"
@@ -48,7 +48,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "とく"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "順平「君、前のめりすぎ。」 虎杖「まずは落ち着こう！」"
         },
         {
           "id": "q002",
@@ -56,7 +59,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "メカ丸は、自由に動く体を〔える〕ために呪霊側と取引した。",
           "answer": "得る",
           "reading": "える",
-          "image": "jujutsu-kaisen/exports/v1/webp/q002.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q002.webp",
           "parts": [
             {
               "text": "メカ丸は、自由に動く体を"
@@ -84,7 +87,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "え"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "与幸吉「まずは散歩したい。」 真人「ロボで行かないの？」"
         },
         {
           "id": "q003",
@@ -92,7 +98,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "交流会で戦う真希と真依の、生き方の違いを〔たいひ〕する。",
           "answer": "対比",
           "reading": "たいひ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q003.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q003.webp",
           "parts": [
             {
               "text": "交流会で戦う真希と真依の、生き方の違いを"
@@ -122,7 +128,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ひ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "真希「似てるの、顔だけだな。」 真依「そこは認めるのね。」"
         },
         {
           "id": "q004",
@@ -130,7 +139,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "三輪は、真希の実力を等級と〔くらべる〕と、その差に驚いた。",
           "answer": "比べる",
           "reading": "くらべる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q004.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q004.webp",
           "parts": [
             {
               "text": "三輪は、真希の実力を等級と"
@@ -158,7 +167,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "くら"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "三輪「等級、壊れてません？」 真希「私に聞くなよ。」"
         },
         {
           "id": "q005",
@@ -166,7 +178,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "楽巌寺学長の保守的な立場から、呪術界の〔せいじ〕の仕組みを考える。",
           "answer": "政治",
           "reading": "せいじ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q005.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q005.webp",
           "parts": [
             {
               "text": "楽巌寺学長の保守的な立場から、呪術界の"
@@ -196,7 +208,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "せい"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "楽巌寺「会議は厳かに。」 ツッコミ「ギターは持参なんだ。」"
         },
         {
           "id": "q006",
@@ -204,7 +219,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "真人は、人の魂と体の関係に〔きょうみ〕を持ち、術式を試していた。",
           "answer": "興味",
           "reading": "きょうみ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q006.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q006.webp",
           "parts": [
             {
               "text": "真人は、人の魂と体の関係に"
@@ -234,7 +249,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "きょう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "真人「これ、ぷにぷにかな？」 ツッコミ「ゼリーの感想か。」"
         },
         {
           "id": "q007",
@@ -242,7 +260,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "三輪は、五条先生と写真を撮れることに〔こうふん〕していた。",
           "answer": "興奮",
           "reading": "こうふん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q007.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q007.webp",
           "parts": [
             {
               "text": "三輪は、五条先生と写真を撮れることに"
@@ -272,7 +290,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "こう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "三輪「家宝にします！」 五条「まだ撮ってないよ。」"
         },
         {
           "id": "q008",
@@ -280,7 +301,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "虎杖は、順平を調べるため、伊地知から作戦の〔しじ〕を受けた。",
           "answer": "指示",
           "reading": "しじ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q008.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q008.webp",
           "parts": [
             {
               "text": "虎杖は、順平を調べるため、伊地知から作戦の"
@@ -310,7 +331,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "じ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "伊地知「目立たずにお願いします。」 虎杖「この髪で！？」"
         },
         {
           "id": "q009",
@@ -318,7 +342,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生は、虎杖に二つの選択肢を〔しめす〕。",
           "answer": "示す",
           "reading": "しめす",
-          "image": "jujutsu-kaisen/exports/v1/webp/q009.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q009.webp",
           "parts": [
             {
               "text": "五条先生は、虎杖に二つの選択肢を"
@@ -346,7 +370,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "しめ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「選べるのは二つ。」 虎杖「おやつは入ります？」"
         },
         {
           "id": "q010",
@@ -354,7 +381,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "漏瑚は、呪いこそが本当の人間だと〔しゅちょう〕する。",
           "answer": "主張",
           "reading": "しゅちょう",
-          "image": "jujutsu-kaisen/exports/v1/webp/q010.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q010.webp",
           "parts": [
             {
               "text": "漏瑚は、呪いこそが本当の人間だと"
@@ -384,7 +411,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ちょう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "漏瑚「わしこそ本物じゃ！」 ツッコミ「頭の火力がすごい。」"
         },
         {
           "id": "q011",
@@ -392,7 +422,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "渋谷では、一般人を閉じ込めるために帳を〔はる〕。",
           "answer": "張る",
           "reading": "はる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q011.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q011.webp",
           "parts": [
             {
               "text": "渋谷では、一般人を閉じ込めるために帳を"
@@ -420,7 +450,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "は"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "通行人「駅なのに、出口どこ？」"
         },
         {
           "id": "q012",
@@ -428,7 +461,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "狗巻は、花御の動きを止めて、仲間の戦いを〔しえん〕した。",
           "answer": "支援",
           "reading": "しえん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q012.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q012.webp",
           "parts": [
             {
               "text": "狗巻は、花御の動きを止めて、仲間の戦いを"
@@ -458,7 +491,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "し"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "狗巻「動くな！」 ツッコミ「だるまさん方式！？」"
         },
         {
           "id": "q013",
@@ -466,7 +502,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "夜蛾学長は、パンダを育て、その成長を〔ささえる〕。",
           "answer": "支える",
           "reading": "ささえる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q013.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q013.webp",
           "parts": [
             {
               "text": "夜蛾学長は、パンダを育て、その成長を"
@@ -494,7 +530,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ささ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "夜蛾「大きく育てよ。」 パンダ「もう結構でかいぞ。」"
         },
         {
           "id": "q014",
@@ -502,7 +541,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "交流会のころの真依は、一日に弾丸を〔いっこ〕作るのが限界だった。",
           "answer": "一個",
           "reading": "いっこ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q014.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q014.webp",
           "parts": [
             {
               "text": "交流会のころの真依は、一日に弾丸を"
@@ -532,7 +571,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "こ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "真依「本日の生産、終了。」 ツッコミ「工場より早じまい。」"
         },
         {
           "id": "q015",
@@ -540,7 +582,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "釘崎は、危険な仕事だと知っていても、東京へ出るための進学を〔まよう〕ことなく選んだ。",
           "answer": "迷う",
           "reading": "まよう",
-          "image": "jujutsu-kaisen/exports/v1/webp/q015.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q015.webp",
           "parts": [
             {
               "text": "釘崎は、危険な仕事だと知っていても、東京へ出るための進学を"
@@ -568,7 +610,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "まよ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "釘崎「東京、待ってなさい！」 ツッコミ「街のほうが待つの？」"
         },
         {
           "id": "q016",
@@ -576,7 +621,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "渋谷事変の場面では、直毘人が禪院家の〔げんざい〕の当主として登場する。",
           "answer": "現在",
           "reading": "げんざい",
-          "image": "jujutsu-kaisen/exports/v1/webp/q016.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q016.webp",
           "parts": [
             {
               "text": "渋谷事変の場面では、直毘人が禪院家の"
@@ -606,7 +651,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ざい"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "直毘人「当主のお通りじゃ。」 ツッコミ「座ってますけど。」"
         },
         {
           "id": "q017",
@@ -614,7 +662,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "七海は、会社員を経験したうえで、呪術師の〔あり〕方について虎杖に話した。",
           "answer": "在り",
           "reading": "あり",
-          "image": "jujutsu-kaisen/exports/v1/webp/q017.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q017.webp",
           "parts": [
             {
               "text": "七海は、会社員を経験したうえで、呪術師の"
@@ -642,7 +690,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "あ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "七海「仕事は仕事です。」 虎杖「名言っぽいの来た！」"
         },
         {
           "id": "q018",
@@ -650,7 +701,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "メカ丸は、真人と戦うために、巨大な機体を使う〔どくじ〕の準備をしていた。",
           "answer": "独自",
           "reading": "どくじ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q018.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q018.webp",
           "parts": [
             {
               "text": "メカ丸は、真人と戦うために、巨大な機体を使う"
@@ -680,7 +731,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "どく"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "与幸吉「準備は万全だ。」 ツッコミ「駐車場はある？」"
         },
         {
           "id": "q019",
@@ -688,7 +742,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生が単独で任務をこなすようになり、夏油も〔ひとり〕になることが増えた。",
           "answer": "独り",
           "reading": "ひとり",
-          "image": "jujutsu-kaisen/exports/v1/webp/q019.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q019.webp",
           "parts": [
             {
               "text": "五条先生が単独で任務をこなすようになり、夏油も"
@@ -716,7 +770,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ひと"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "夏油「静かすぎるな。」 ツッコミ「いつもがにぎやかすぎ。」"
         },
         {
           "id": "q020",
@@ -724,7 +781,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "西宮は、真依の苦労を語り、真依を〔べんご〕するように釘崎に訴えた。",
           "answer": "弁護",
           "reading": "べんご",
-          "image": "jujutsu-kaisen/exports/v1/webp/q020.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q020.webp",
           "parts": [
             {
               "text": "西宮は、真依の苦労を語り、真依を"
@@ -754,7 +811,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "べん"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "西宮「最後まで聞いて！」 釘崎「ほうきまで熱くなってる。」"
         },
         {
           "id": "q021",
@@ -762,7 +822,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "歌姫と冥冥は、洋館から出られない理由を考え、結界の仕組みを〔けんしょう〕した。",
           "answer": "検証",
           "reading": "けんしょう",
-          "image": "jujutsu-kaisen/exports/v1/webp/q021.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q021.webp",
           "parts": [
             {
               "text": "歌姫と冥冥は、洋館から出られない理由を考え、結界の仕組みを"
@@ -792,7 +852,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "けん"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "歌姫「また同じ廊下！？」 冥冥「内見はもう十分ね。」"
         },
         {
           "id": "q022",
@@ -800,7 +863,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生は、虎杖の生還をみんなに知らせるため、サプライズを〔ていあん〕した。",
           "answer": "提案",
           "reading": "ていあん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q022.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q022.webp",
           "parts": [
             {
               "text": "五条先生は、虎杖の生還をみんなに知らせるため、サプライズを"
@@ -830,7 +893,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "てい"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「登場は箱から！」 虎杖「配達される側！？」"
         },
         {
           "id": "q023",
@@ -838,7 +904,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "家入の治療は、傷ついた呪術師の回復に〔きよ〕する。",
           "answer": "寄与",
           "reading": "きよ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q023.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q023.webp",
           "parts": [
             {
               "text": "家入の治療は、傷ついた呪術師の回復に"
@@ -868,7 +934,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "き"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "家入「今日は早く寝て。」 ツッコミ「先生も寝てください。」"
         },
         {
           "id": "q024",
@@ -876,7 +945,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "会社員だった七海は、いつものパン屋へ〔よる〕のを習慣にしていた。",
           "answer": "寄る",
           "reading": "よる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q024.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q024.webp",
           "parts": [
             {
               "text": "会社員だった七海は、いつものパン屋へ"
@@ -904,7 +973,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "よ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "七海「パンは別腹です。」 ツッコミ「急に親近感。」"
         },
         {
           "id": "q025",
@@ -912,7 +984,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "虎杖は、母を失った順平の悲しみに心を〔よせる〕。",
           "answer": "寄せる",
           "reading": "よせる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q025.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q025.webp",
           "parts": [
             {
               "text": "虎杖は、母を失った順平の悲しみに心を"
@@ -940,7 +1012,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "よ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "虎杖「話、聞くよ。」 順平「ゆっくりでいい？」"
         },
         {
           "id": "q026",
@@ -948,7 +1023,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "虎杖まで連れてきた五条先生の余裕に、漏瑚は〔よけい〕に腹を立てた。",
           "answer": "余計",
           "reading": "よけい",
-          "image": "jujutsu-kaisen/exports/v1/webp/q026.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q026.webp",
           "parts": [
             {
               "text": "虎杖まで連れてきた五条先生の余裕に、漏瑚は"
@@ -978,7 +1053,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "よ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「見学の生徒でーす。」 漏瑚「遠足ではないわ！」"
         },
         {
           "id": "q027",
@@ -986,7 +1064,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "漏瑚にとって、五条先生は手に〔あまる〕ほど強い相手だった。",
           "answer": "余る",
           "reading": "あまる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q027.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q027.webp",
           "parts": [
             {
               "text": "漏瑚にとって、五条先生は手に"
@@ -1014,7 +1092,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "あま"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「準備運動おわり？」 漏瑚「もう本番じゃ！」"
         },
         {
           "id": "q028",
@@ -1022,7 +1103,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を〔もてあます〕ような状況に置かれた。",
           "answer": "持て余す",
           "reading": "もてあます",
-          "image": "jujutsu-kaisen/exports/v1/webp/q028.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q028.webp",
           "parts": [
             {
               "text": "一般人を巻き込めない渋谷駅では、五条先生も強大な力を"
@@ -1064,7 +1145,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "あま"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「最強でも通れない。」 ツッコミ「人の波には勝てない。」"
         },
         {
           "id": "q029",
@@ -1072,7 +1156,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "覚醒した五条先生が口にした「天上天下唯我独尊」は、〔ぶっきょう〕に由来する言葉だ。",
           "answer": "仏教",
           "reading": "ぶっきょう",
-          "image": "jujutsu-kaisen/exports/v1/webp/q029.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q029.webp",
           "parts": [
             {
               "text": "覚醒した五条先生が口にした「天上天下唯我独尊」は、"
@@ -1102,7 +1186,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ぶっ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「空、広いなあ。」 ツッコミ「感想が急に遠足。」"
         },
         {
           "id": "q030",
@@ -1110,7 +1197,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生の言葉にある「唯我独尊」は、〔ほとけ〕の誕生にまつわる言い伝えに由来する。",
           "answer": "仏",
           "reading": "ほとけ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q030.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q030.webp",
           "parts": [
             {
               "text": "五条先生の言葉にある「唯我独尊」は、"
@@ -1132,7 +1219,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ほとけ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「このポーズ、見覚えある！」"
         },
         {
           "id": "q031",
@@ -1140,7 +1230,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "パンダは、戦いを終えたメカ丸に、願いをかなえるために力を〔かす〕と申し出た。",
           "answer": "貸す",
           "reading": "かす",
-          "image": "jujutsu-kaisen/exports/v1/webp/q031.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q031.webp",
           "parts": [
             {
               "text": "パンダは、戦いを終えたメカ丸に、願いをかなえるために力を"
@@ -1168,7 +1258,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "か"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "パンダ「手、かそうか？」 メカ丸「それ、肉球だろ。」"
         },
         {
           "id": "q032",
@@ -1176,7 +1269,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "狗巻の呪言には、花御の動きを止める〔こうか〕があった。",
           "answer": "効果",
           "reading": "こうか",
-          "image": "jujutsu-kaisen/exports/v1/webp/q032.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q032.webp",
           "parts": [
             {
               "text": "狗巻の呪言には、花御の動きを止める"
@@ -1206,7 +1299,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "こう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "狗巻「動くな！」 ツッコミ「一時停止ボタンか。」"
         },
         {
           "id": "q033",
@@ -1214,7 +1310,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "釘崎の「共鳴り」は、血でつながった壊相と血塗の両方に〔きく〕。",
           "answer": "効く",
           "reading": "きく",
-          "image": "jujutsu-kaisen/exports/v1/webp/q033.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q033.webp",
           "parts": [
             {
               "text": "釘崎の「共鳴り」は、血でつながった壊相と血塗の両方に"
@@ -1242,7 +1338,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "き"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "釘崎「そっちにも届くわよ！」 ツッコミ「電波よりつながる。」"
         },
         {
           "id": "q034",
@@ -1250,7 +1349,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "メカ丸は、京都校の仲間に手を出さないという〔じょうけん〕で、呪霊側と取引した。",
           "answer": "条件",
           "reading": "じょうけん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q034.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q034.webp",
           "parts": [
             {
               "text": "メカ丸は、京都校の仲間に手を出さないという"
@@ -1280,7 +1379,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "じょう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "与幸吉「仲間には手を出すな。」 真人「注意書き、細かいね。」"
         },
         {
           "id": "q035",
@@ -1288,7 +1390,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生は、楽巌寺学長に伝えたい〔ようけん〕があって会いに行った。",
           "answer": "用件",
           "reading": "ようけん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q035.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q035.webp",
           "parts": [
             {
               "text": "五条先生は、楽巌寺学長に伝えたい"
@@ -1318,7 +1420,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "けん"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「ちょっとお話が。」 楽巌寺「ちょっとで済むのか。」"
         },
         {
           "id": "q036",
@@ -1326,7 +1431,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "高専で〔ほかん〕していた宿儺の指と呪胎九相図が、真人に奪われた。",
           "answer": "保管",
           "reading": "ほかん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q036.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q036.webp",
           "parts": [
             {
               "text": "高専で"
@@ -1356,7 +1461,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ほ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "ツッコミ「そこ、おやつ棚じゃない！」"
         },
         {
           "id": "q037",
@@ -1364,7 +1472,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "七海は、真人との戦いでも落ち着きを〔たもつ〕。",
           "answer": "保つ",
           "reading": "たもつ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q037.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q037.webp",
           "parts": [
             {
               "text": "七海は、真人との戦いでも落ち着きを"
@@ -1392,7 +1500,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "たも"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "七海「定時に終えます。」 真人「時計が気になるの？」"
         },
         {
           "id": "q038",
@@ -1400,7 +1511,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "冥冥は、虎杖の実力を高く〔ひょうか〕した。",
           "answer": "評価",
           "reading": "ひょうか",
-          "image": "jujutsu-kaisen/exports/v1/webp/q038.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q038.webp",
           "parts": [
             {
               "text": "冥冥は、虎杖の実力を高く"
@@ -1430,7 +1541,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ひょう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "冥冥「なかなかいいね。」 虎杖「ほめられると伸びます！」"
         },
         {
           "id": "q039",
@@ -1438,7 +1552,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "冥冥は、人とのしがらみより、お金の〔かち〕を重く見る。",
           "answer": "価値",
           "reading": "かち",
-          "image": "jujutsu-kaisen/exports/v1/webp/q039.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q039.webp",
           "parts": [
             {
               "text": "冥冥は、人とのしがらみより、お金の"
@@ -1468,7 +1582,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "か"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "冥冥「いい音がするわね。」 ツッコミ「小銭の音だけど。」"
         },
         {
           "id": "q040",
@@ -1476,7 +1593,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "虎杖の処刑に〔さんせい〕する楽巌寺学長と、虎杖を守る五条先生が対立する。",
           "answer": "賛成",
           "reading": "さんせい",
-          "image": "jujutsu-kaisen/exports/v1/webp/q040.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q040.webp",
           "parts": [
             {
               "text": "虎杖の処刑に"
@@ -1506,7 +1623,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "さん"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「話し合おうよ。」 楽巌寺「まず座らんか。」"
         },
         {
           "id": "q041",
@@ -1514,7 +1634,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "加茂は、父の〔せいさい〕の子ではなかったが、術式を受け継いで家に迎えられた。",
           "answer": "正妻",
           "reading": "せいさい",
-          "image": "jujutsu-kaisen/exports/v1/webp/q041.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q041.webp",
           "parts": [
             {
               "text": "加茂は、父の"
@@ -1544,7 +1664,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "さい"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "加茂「背すじ、ぴーん。」 ツッコミ「緊張まで伝わってくる。」"
         },
         {
           "id": "q042",
@@ -1552,7 +1675,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "加茂の母は、当主の正式な〔つま〕ではなかったため、家でつらい扱いを受けた。",
           "answer": "妻",
           "reading": "つま",
-          "image": "jujutsu-kaisen/exports/v1/webp/q042.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q042.webp",
           "parts": [
             {
               "text": "加茂の母は、当主の正式な"
@@ -1574,7 +1697,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "つま"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "加茂「手、離さないよ。」 母「歩幅はゆっくりね。」"
         },
         {
           "id": "q043",
@@ -1582,7 +1708,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生が漏瑚や花御、脹相と向き合った渋谷駅の地下は、大勢の人で〔こんざつ〕していた。",
           "answer": "混雑",
           "reading": "こんざつ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q043.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q043.webp",
           "parts": [
             {
               "text": "五条先生が漏瑚や花御、脹相と向き合った渋谷駅の地下は、大勢の人で"
@@ -1612,7 +1738,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "こん"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「間合い、近すぎ。」 漏瑚「駅が狭いんじゃ！」"
         },
         {
           "id": "q044",
@@ -1620,7 +1749,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "帳の中に人々が閉じ込められ、渋谷の駅は〔こむ〕。",
           "answer": "混む",
           "reading": "こむ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q044.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q044.webp",
           "parts": [
             {
               "text": "帳の中に人々が閉じ込められ、渋谷の駅は"
@@ -1648,7 +1777,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "こ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "通行人「改札より先に進めない！」"
         },
         {
           "id": "q045",
@@ -1656,7 +1788,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "宿儺の指を取り込んだ虎杖の体には、宿儺の呪いが〔まざる〕ことになった。",
           "answer": "混ざる",
           "reading": "まざる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q045.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q045.webp",
           "parts": [
             {
               "text": "宿儺の指を取り込んだ虎杖の体には、宿儺の呪いが"
@@ -1684,7 +1816,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ま"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "宿儺「ここは俺の席だ。」 虎杖「予約してないだろ！」"
         },
         {
           "id": "q046",
@@ -1692,7 +1827,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "五条先生は、「蒼」と「赫」を〔まぜる〕ように組み合わせて「茈」を放った。",
           "answer": "混ぜる",
           "reading": "まぜる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q046.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q046.webp",
           "parts": [
             {
               "text": "五条先生は、「蒼」と「赫」を"
@@ -1720,7 +1855,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ま"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "五条「青と赤で、むらさき。」 ツッコミ「図工の時間じゃない。」"
         },
         {
           "id": "q047",
@@ -1728,7 +1866,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "狗巻のおにぎりの具の言葉は、仲間にとってただの〔ざつおん〕ではない。",
           "answer": "雑音",
           "reading": "ざつおん",
-          "image": "jujutsu-kaisen/exports/v1/webp/q047.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q047.webp",
           "parts": [
             {
               "text": "狗巻のおにぎりの具の言葉は、仲間にとってただの"
@@ -1758,7 +1896,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ざつ"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "狗巻「しゃけ！」 仲間「献立の相談じゃないよね？」"
         },
         {
           "id": "q048",
@@ -1766,7 +1907,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "花御に追われた伏黒たちは、〔ぞうきばやし〕を走って帳の外を目指した。",
           "answer": "雑木林",
           "reading": "ぞうきばやし",
-          "image": "jujutsu-kaisen/exports/v1/webp/q048.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q048.webp",
           "parts": [
             {
               "text": "花御に追われた伏黒たちは、"
@@ -1796,7 +1937,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "ぞう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "伏黒「木が多すぎる！」 ツッコミ「近道のつもりだったのに。」"
         },
         {
           "id": "q049",
@@ -1804,7 +1948,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "真人は、高専から宿儺の指と呪胎九相図を〔りゃくだつ〕した。",
           "answer": "略奪",
           "reading": "りゃくだつ",
-          "image": "jujutsu-kaisen/exports/v1/webp/q049.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q049.webp",
           "parts": [
             {
               "text": "真人は、高専から宿儺の指と呪胎九相図を"
@@ -1834,7 +1978,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "りゃく"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "真人「こっそり、こっそり。」 ツッコミ「顔がにやけすぎ。」"
         },
         {
           "id": "q050",
@@ -1842,7 +1989,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "交流会の二日目には、個人戦の代わりに野球が〔さいよう〕された。",
           "answer": "採用",
           "reading": "さいよう",
-          "image": "jujutsu-kaisen/exports/v1/webp/q050.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q050.webp",
           "parts": [
             {
               "text": "交流会の二日目には、個人戦の代わりに野球が"
@@ -1872,7 +2019,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "さい"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "虎杖「今日は平和に野球！」 パンダ「球速は平和じゃないぞ。」"
         },
         {
           "id": "q051",
@@ -1880,7 +2030,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "東堂は、虎杖と立つ場所を入れ替えながら花御を攻める作戦を〔とる〕。",
           "answer": "採る",
           "reading": "とる",
-          "image": "jujutsu-kaisen/exports/v1/webp/q051.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q051.webp",
           "parts": [
             {
               "text": "東堂は、虎杖と立つ場所を入れ替えながら花御を攻める作戦を"
@@ -1908,7 +2058,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "と"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "東堂「こっちだ、ブラザー！」 虎杖「さっきはあっち！」"
         },
         {
           "id": "q052",
@@ -1916,7 +2069,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "交流会では、学生同士の殺し合いは〔きんし〕されている。",
           "answer": "禁止",
           "reading": "きんし",
-          "image": "jujutsu-kaisen/exports/v1/webp/q052.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q052.webp",
           "parts": [
             {
               "text": "交流会では、学生同士の殺し合いは"
@@ -1946,7 +2099,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "きん"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "夜蛾「安全第一だ。」 ツッコミ「先生の圧が第一。」"
         },
         {
           "id": "q053",
@@ -1954,7 +2110,7 @@ globalThis.KANJI_STORY_BANK = {
           "prompt": "花御は、植物を操る〔のうりょく〕で虎杖たちを攻めた。",
           "answer": "能力",
           "reading": "のうりょく",
-          "image": "jujutsu-kaisen/exports/v1/webp/q053.webp",
+          "image": "jujutsu-kaisen/exports/v2/webp/q053.webp",
           "parts": [
             {
               "text": "花御は、植物を操る"
@@ -1984,7 +2140,10 @@ globalThis.KANJI_STORY_BANK = {
           ],
           "hints": [
             "のう"
-          ]
+          ],
+          "imageWidth": 600,
+          "imageHeight": 400,
+          "imageDialogue": "虎杖「根っこまで来た！」 東堂「園芸の規模じゃないな。」"
         }
       ]
     },

@@ -1,0 +1,18 @@
+{
+  "id": "q005",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gakuganji sits sternly at the head of a simple traditional council table, framed by two empty chairs and one blank rolled scroll, conveying conservative authority. Only this named character, no written politics slogans. Character identity: Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. A plain electric guitar leans beside Gakuganji, a playful reminder of his musical technique. Required Japanese dialogue captions, VERBATIM: Caption 1, 楽巌寺: 「会議は厳かに。」. Caption 2, ツッコミ: 「ギターは持参なんだ。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 政治, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+  "source_png": "originals/q005-wide-v2.png",
+  "dialogue": [
+    [
+      "楽巌寺",
+      "会議は厳かに。"
+    ],
+    [
+      "ツッコミ",
+      "ギターは持参なんだ。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-ce996f60-be72-4411-9960-ac352f31137c.png"
+}

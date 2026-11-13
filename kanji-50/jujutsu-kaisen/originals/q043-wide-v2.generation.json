@@ -1,0 +1,18 @@
+{
+  "id": "q043",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Tense confrontation on a crowded Shibuya subway platform. Left: stern adult Satoru Gojo, spiky white hair, black blindfold and black high-collar uniform, in side/back profile facing right. Right: serious Jogo (gray one-eyed volcano head, white scarf, ochre cape), Hanami (pale woodlike body, branch eyes), Choso (dark hair in two spiky bunches, purple eyes, horizontal black nose marking, layered white robe). They look at each other across a narrow gap, not toward viewer. A few pale anonymous civilian silhouettes. No friendly group photo or peace signs. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"間合い、近すぎ。\" and \"駅が狭いんじゃ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"間合い、近すぎ。\"; 漏瑚 says \"駅が狭いんじゃ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q043-wide-v2.png",
+  "dialogue": [
+    [
+      "五条",
+      "間合い、近すぎ。"
+    ],
+    [
+      "漏瑚",
+      "駅が狭いんじゃ！"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-4a1c978d-b09e-4afc-b9eb-2ac03fae72d9.png"
+}

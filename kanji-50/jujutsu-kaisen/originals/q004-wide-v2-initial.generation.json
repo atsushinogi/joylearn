@@ -1,0 +1,22 @@
+{
+  "id": "q004",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Miwa looks astonished at confident Maki, whose practice pole is held safely upright. Show two large faces and one simple sparkle of realization; the contrast is hidden strength, not literal measuring or labels. Character identity: Maki Zenin in first-season appearance: dark green ponytail, rectangular glasses, navy school uniform. Kasumi Miwa: long straight light blue hair with bangs, kind wide eyes, navy businesslike school uniform. Required Japanese dialogue captions, VERBATIM: Caption 1, 三輪: 「等級、壊れてません？」. Caption 2, 真希: 「私に聞くなよ。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 比べる, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+  "source_png": "originals/q004-wide-v2-initial.png",
+  "dialogue": [
+    [
+      "三輪",
+      "等級、壊れてません？"
+    ],
+    [
+      "真希",
+      "私に聞くなよ。"
+    ]
+  ],
+  "question_id": "q004",
+  "local_png": "originals/q004-wide-v2-initial.png",
+  "revision": "wide-dialogue-v2-initial",
+  "adopted": false,
+  "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+}

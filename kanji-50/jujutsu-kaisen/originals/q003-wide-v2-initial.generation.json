@@ -1,0 +1,22 @@
+{
+  "id": "q003",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Maki and Mai face one another in a tense but nonviolent sisterly confrontation during the exchange event. Waist-up two-character composition, Maki ponytail and glasses clearly contrast Mai short hair. One softly drawn forest shape. Character identity: Maki Zenin in first-season appearance: dark green ponytail, rectangular glasses, navy school uniform. Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Required Japanese dialogue captions, VERBATIM: Caption 1, 真希: 「似てるの、顔だけだな。」. Caption 2, 真依: 「そこは認めるのね。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 対比, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+  "source_png": "originals/q003-wide-v2-initial.png",
+  "dialogue": [
+    [
+      "真希",
+      "似てるの、顔だけだな。"
+    ],
+    [
+      "真依",
+      "そこは認めるのね。"
+    ]
+  ],
+  "question_id": "q003",
+  "local_png": "originals/q003-wide-v2-initial.png",
+  "revision": "wide-dialogue-v2-initial",
+  "adopted": false,
+  "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+}

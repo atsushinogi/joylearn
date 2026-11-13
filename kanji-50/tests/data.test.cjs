@@ -5,6 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const crypto = require('node:crypto');
+const core = require('../core.js');
 const root = path.resolve(__dirname, '..');
 const context = {};
 vm.runInNewContext(fs.readFileSync(path.join(root, 'question-bank.js'), 'utf8'), context);
@@ -40,5 +41,36 @@ test('全解答の漢字が同梱の手書き認識データにあり、エン�
   for (const name of ['kanji-canvas.js', 'ref-patterns.js', 'LICENSE.txt']) {
     const hash = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
     assert.equal(hash(path.join(root, 'vendor', name)), hash(path.join(root, '../kanji-test/dist/vendor', name)));
+  }
+});
+
+test('横長イラストへの更新後も保存済みの回答と現在位置を復元する', () => {
+  const course = bank.courses.find(c => c.id === 'jujutsu-kaisen');
+  const source = JSON.parse(fs.readFileSync(path.join(root, course.id, 'workbook.json')));
+  const originalQuestions = source.questions.map((q, i) => core.compileQuestion(
+    { ...q, number: i + 1 }, `${course.id}/exports/v1/webp/${q.id}.webp`, source.targets
+  ));
+  const revision = crypto.createHash('sha256').update(JSON.stringify(originalQuestions)).digest('hex');
+  const saved = core.makeSession({ ...course, questions: originalQuestions, revision });
+  saved.current = 7;
+  saved.responses[0] = ['得'];
+  const restored = core.restoreSession(course, saved);
+  assert(restored);
+  assert.equal(restored.current, 7);
+  assert.deepEqual(restored.responses[0], ['得']);
+});
+
+test('呪術廻戦53枚のセリフは対象漢字を含まず、横長配布版と対応する', () => {
+  const course = bank.courses.find(c => c.id === 'jujutsu-kaisen');
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, course.id, 'exports/v2/manifest.json')));
+  assert.equal(manifest.images.length, 53);
+  for (const q of course.questions) {
+    const row = manifest.images.find(row => row.id === q.id);
+    assert.equal(q.image, `${course.id}/exports/v2/${row.webp}`);
+    assert.equal(q.imageWidth / q.imageHeight, 1.5);
+    assert(q.imageDialogue);
+    for (const char of q.answers.join('')) {
+      assert(!row.dialogue.some(([, line]) => line.includes(char)), `${q.id}: セリフに対象字 ${char}`);
+    }
   }
 });

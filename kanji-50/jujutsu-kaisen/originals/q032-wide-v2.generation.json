@@ -1,0 +1,18 @@
+{
+  "id": "q032",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki produces one large clear blue sound-wave arc that freezes simplified Hanami mid-step, collar slightly lowered and focused expression. Only two large characters, no Japanese sound effects, injuries or complex combat. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"動くな！\" and \"一時停止ボタンか。\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"動くな！\"; ツッコミ says \"一時停止ボタンか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q032-wide-v2.png",
+  "dialogue": [
+    [
+      "狗巻",
+      "動くな！"
+    ],
+    [
+      "ツッコミ",
+      "一時停止ボタンか。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-e3b08264-e837-44e9-9a12-79c0f2a69edd.png"
+}

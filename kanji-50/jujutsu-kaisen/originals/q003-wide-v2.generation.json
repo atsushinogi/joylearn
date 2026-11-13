@@ -1,0 +1,19 @@
+{
+  "id": "q003",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"似てるの、顔だけだな。\" and \"そこは認めるのね。\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 真希 and second 真依. NO WORKSHEET ANSWER TEXT.",
+  "source_png": "originals/q003-wide-v2.png",
+  "dialogue": [
+    [
+      "真希",
+      "似てるの、顔だけだな。"
+    ],
+    [
+      "真依",
+      "そこは認めるのね。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-f7757f20-b941-44a3-b47e-c226dc61aaaa.png",
+  "edit_reference": "originals/q003-wide-v2-initial.png"
+}

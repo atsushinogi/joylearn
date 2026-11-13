@@ -1,0 +1,324 @@
+{
+  "scope": "landscape-dialogue-revision",
+  "images": [
+    {
+      "id": "q001",
+      "status": "reviewed",
+      "observations": "虎杖の前のめりな手と順平の反応。2つのセリフは正確、横長、吹き出しなし。",
+      "source_sha256": "384f4b4476fffe4ff4178c6e9ca4681cc67ee0ff1c7c0909de1b8a87637bfb29"
+    },
+    {
+      "id": "q002",
+      "status": "reviewed",
+      "observations": "人間の与幸吉と縫い目のある真人。修正版で余分な説明を除去、散歩とロボの2セリフのみ。",
+      "source_sha256": "851a066ae763f3b912564430a1ddfd896809f33771f264c2c56a00c61ec72ff1"
+    },
+    {
+      "id": "q003",
+      "status": "reviewed",
+      "observations": "眼鏡・長髪の真希と短髪の真依が対面。修正版で解答の対比を含む余分な解説を削除。",
+      "source_sha256": "f87b578bb06199f67369eafc6a6c2582aa5811de022d6fd7bc523cd3010c15fa"
+    },
+    {
+      "id": "q004",
+      "status": "reviewed",
+      "observations": "青髪の三輪と眼鏡の真希、立てた練習用の棒。修正版は指定した2セリフのみ。",
+      "source_sha256": "f872f14ca12b333358271f57f2edd47d29e9972eb3cd6fb30fe4d7c9ac553703"
+    },
+    {
+      "id": "q005",
+      "status": "reviewed",
+      "observations": "楽巌寺が会議席に座り横にギター。厳かな会議とギター持参の掛け合い、吹き出しなし。",
+      "source_sha256": "ac82203a088aee91177895ad3cc44a8abd3ee6f2da6348993e0152eb81cb8c0f"
+    },
+    {
+      "id": "q006",
+      "status": "reviewed",
+      "observations": "縫い目のある真人が青い魂の象徴を観察。ゼリーへのツッコミが入り、追加の解説なし。",
+      "source_sha256": "041986b0a467ae9939736dafacde83b3cef314b5574bdc3a776438f2a783a806"
+    },
+    {
+      "id": "q007",
+      "status": "reviewed",
+      "observations": "三輪のスマホと目隠しの五条。家宝と撮影前の掛け合いが明瞭。",
+      "source_sha256": "5bd645fb36b161e36663d9b9281bce6f1c60b4aa0f3369e4feae6bead538f0e9"
+    },
+    {
+      "id": "q008",
+      "status": "reviewed",
+      "observations": "スーツと眼鏡の伊地知が虎杖へ説明。髪色へのツッコミと作戦説明のセリフが対応。",
+      "source_sha256": "5609f4fb6123c89b14ecbae5182286f238c3dcec12d3706477008a245e000471"
+    },
+    {
+      "id": "q009",
+      "status": "reviewed",
+      "observations": "五条が2本指で二択を示し虎杖がおやつを尋ねる。文字と手が見切れず、吹き出しなし。",
+      "source_sha256": "d3e78182a7fab86ca361244c5f9900fe5caa0585eb0e360f0bca9eeba62ed791"
+    },
+    {
+      "id": "q010",
+      "status": "reviewed",
+      "observations": "一つ目・火山頭の漏瑚の主張と火力へのツッコミ。指定の2セリフのみ。",
+      "source_sha256": "7bd3fe9ef2dcad71d3998f23a12880dbc1134ddf50830f940e96b78115ab674a"
+    },
+    {
+      "id": "q011",
+      "status": "reviewed",
+      "observations": "駅入口の暗い帳と閉じ込められた人影。通行人の出口へのひとこと、吹き出しなし。",
+      "source_sha256": "f17659adad4bf7617e58ed14bce071202dfebfeb6bbd92ec7b7a4461e436de2b"
+    },
+    {
+      "id": "q012",
+      "status": "reviewed",
+      "observations": "狗巻の呪言を青い輪で表し花御の動きを止め、仲間が離れる。2セリフが正確。",
+      "source_sha256": "9394035c1aae5b6c6b72826c081812e3371c75b64f0737074851d7322bc1bf26"
+    },
+    {
+      "id": "q013",
+      "status": "reviewed",
+      "observations": "サングラスの夜蛾が小さいパンダを育てる。大きく育てる話とすでに大きい返し。",
+      "source_sha256": "5531d47e3ef43aea6c222729583cd7169d61382f3f8b960288c239c07d5fea21"
+    },
+    {
+      "id": "q014",
+      "status": "reviewed",
+      "observations": "短髪の真依の手の上に弾丸が1つ。生産終了と早じまいの2セリフ、対象字の個なし。",
+      "source_sha256": "12a9888be30ff1c91f78fc429ac0da12c369e100f270ca8bb8e1d6531ff48031"
+    },
+    {
+      "id": "q015",
+      "status": "reviewed",
+      "observations": "釘崎の旅行かばんと東京の遠景。街が待つというツッコミ、横長に大きい顔。",
+      "source_sha256": "354024b7319b97fdb7f379ec802040092af56f69bb499609bdf285ccdfacfdb8"
+    },
+    {
+      "id": "q016",
+      "status": "reviewed",
+      "observations": "白髪・口ひげ・和服の直毘人が椅子に座る。お通りへの座っているという返し。",
+      "source_sha256": "a588de9ea139d7546a3c365856b18f73882d9ec0fe002fa11813ec1ed98266b3"
+    },
+    {
+      "id": "q017",
+      "status": "reviewed",
+      "observations": "七海のベージュスーツと虎杖の赤い襟。仕事の言葉と名言への反応、2セリフが正確。",
+      "source_sha256": "f52c0b03b22fd034bc1fc24bd096f89a06bbefef56781fd2bae256985b46e056"
+    },
+    {
+      "id": "q018",
+      "status": "reviewed",
+      "observations": "長髪の与幸吉が巨大な茶色の機体を操縦、遠くに真人。準備と駐車場の掛け合い。",
+      "source_sha256": "188902d3e81d62e6db54e38cb5da3e8a122427ac3540e643f71bfdce6d4e9287"
+    },
+    {
+      "id": "q019",
+      "status": "reviewed",
+      "observations": "学生服・丸眼鏡の五条と縫い目のない夏油が離れる構図。静かさとにぎやかさの2セリフ。",
+      "source_sha256": "9552c3070de46b6be323a776831a4c32619eaabfed2592580564cb0b59fca5cd"
+    },
+    {
+      "id": "q020",
+      "status": "reviewed",
+      "observations": "ほうきを持つ西宮が釘崎に話し、中央に真依の象徴的な小像。対象字の弁は画像にない。",
+      "source_sha256": "f00278731ea30e87ce6b23f259759eb986638aa1e542e7c0e3c9efacc0ccee5d"
+    },
+    {
+      "id": "q021",
+      "status": "reviewed",
+      "observations": "巫女装束の歌姫と銀髪の冥冥、曲がる矢印と洋館の廊下。2セリフが正確。",
+      "source_sha256": "42b16b92484c64f26a996eac222d73197baf2a4e165b27725ca1ac7c15e673f4"
+    },
+    {
+      "id": "q022",
+      "status": "reviewed",
+      "observations": "箱から顔を出す虎杖と五条。配達へのツッコミ、2セリフが明瞭。",
+      "source_sha256": "fe33d92d2b56db429711ec5a448a63ff2ce690015532366ffea70f15f3ebbc20"
+    },
+    {
+      "id": "q023",
+      "status": "reviewed",
+      "observations": "白衣の家入が包帯をした学生の腕を治療。睡眠への掛け合い、明瞭な2セリフ。",
+      "source_sha256": "59dcdff722df8bc88dac9ead9218c3db9244d33405aca7b60cf0a93403e35112"
+    },
+    {
+      "id": "q024",
+      "status": "reviewed",
+      "observations": "パン屋の七海と虎杖、サンドイッチ。別腹と親近感の2セリフ、対象字の寄なし。",
+      "source_sha256": "cb8543a6de04c4da8671cb6586eb2309db02dd32754fb7ac62879487aed56990"
+    },
+    {
+      "id": "q025",
+      "status": "reviewed",
+      "observations": "虎杖が順平の肩に手を置いて話を聞く。母を失った場面を笑いにせず穏やかな2セリフ。",
+      "source_sha256": "4edc2cbe2aa028b8368875e239646395f06e8f04c6077b187178041b77887228"
+    },
+    {
+      "id": "q026",
+      "status": "reviewed",
+      "observations": "五条と虎杖に漏瑚が腹を立てる。見学と遠足の掛け合い、文字の欠けなし。",
+      "source_sha256": "86f7c7e4dde6b48f01dab7abb48d86f382c1a777f981f83d3dec1e63a098a037"
+    },
+    {
+      "id": "q027",
+      "status": "reviewed",
+      "observations": "漏瑚の小さい炎を五条が受け止める。準備運動と本番の2セリフが正確。",
+      "source_sha256": "e21c2ffa32d6f93672150b61252ea02d48b327b76dae81a075625d5f4341ace0"
+    },
+    {
+      "id": "q028",
+      "status": "reviewed",
+      "observations": "駅の人混みの中で五条が力を抑える構図。人の波への2セリフ、対象字の余なし。",
+      "source_sha256": "ede240cf3b3ff6dfa7da4b03797f6b6a7c34177867db58a3702c8a67000cb4aa"
+    },
+    {
+      "id": "q029",
+      "status": "reviewed",
+      "observations": "青い目・半袖の若い五条が手を空へ上げ、蓮の象徴を添える。空と遠足の創作セリフ。",
+      "source_sha256": "d41794e9fc4a3aa88dff190d7129036a162714aa5dc8c40e5ad25952ad0daf0b"
+    },
+    {
+      "id": "q030",
+      "status": "reviewed",
+      "observations": "五条が上下を指す誕生仏の像を眺める語句補足の創作場面。見覚えあるポーズのひとこと、対象字の仏なし。",
+      "source_sha256": "4cd298c7020ec4005466d7d8c8448969ef9f0a61c30bee820ae2c1a4f1fc903d"
+    },
+    {
+      "id": "q031",
+      "status": "reviewed",
+      "observations": "パンダの差し出す肉球と茶色のメカ丸。貸の字をひらがなにした掛け合いが正確。",
+      "source_sha256": "c8780bb7f42bee7d7a312d42619b03f23cd3e54c5d26a47e583908aacb365648"
+    },
+    {
+      "id": "q032",
+      "status": "reviewed",
+      "observations": "狗巻が呪言で花御を止める。動くなと一時停止の2セリフ、対象字の効なし。",
+      "source_sha256": "7ed66653241a4e683b4a76535aefff9d4aa3ef2d1ac410be7f49caa3e4870221"
+    },
+    {
+      "id": "q033",
+      "status": "reviewed",
+      "observations": "釘崎の金づちとわら人形から兄弟へつながる紫の象徴。2セリフが正確、対象字の効なし。",
+      "source_sha256": "8195f835dce32c3edebca6c01c3efd723468cdf8efb6df6c936f477d90b4ff4b"
+    },
+    {
+      "id": "q034",
+      "status": "reviewed",
+      "observations": "修正版で与幸吉の顔の縫い目を除去し真人と区別。後ろは匿名の学生影、条件の対象字は出さない。",
+      "source_sha256": "6b9b04a9d07fc87fabd1d07a3d72102a2bd0aabe221ffe5693cce88a78cd421d"
+    },
+    {
+      "id": "q035",
+      "status": "reviewed",
+      "observations": "五条と着席した楽巌寺が向き合う。ちょっとの長さへのツッコミ、指定の2セリフ。",
+      "source_sha256": "bd1df672d1fdefe0c2adc667f208a789916f836c92a98a47fbedd70a82cd2a65"
+    },
+    {
+      "id": "q036",
+      "status": "reviewed",
+      "observations": "木箱に呪物の象徴と封じた瓶があり真人が手を伸ばす。おやつ棚へのひとことのみ。",
+      "source_sha256": "e55d4248acd07d419bc07c9074c23f2481c5a1f4b5636648308488973404f314"
+    },
+    {
+      "id": "q037",
+      "status": "reviewed",
+      "observations": "七海がネクタイを整え真人が向き合う。定時と時計の2セリフ、落ち着いた対面。",
+      "source_sha256": "1f25e83ccc1613e0eb718b4e5ac3bb77829de59b373ba08cdea204726c50d5b8"
+    },
+    {
+      "id": "q038",
+      "status": "reviewed",
+      "observations": "銀色の三つ編みの冥冥が虎杖をほめる。2セリフと大きな星、対象字の価なし。",
+      "source_sha256": "e591915ae7240546689f0d044e3902b2bb4a9744d823501acc5fd77917007d11"
+    },
+    {
+      "id": "q039",
+      "status": "reviewed",
+      "observations": "冥冥が硬貨を見て虎杖がツッコミ。画像の語尾は「するわね」で台詞台帳も実画像に合わせた。",
+      "source_sha256": "a685e5c5c400249013992773a03058b078a35560a472e3efc411e6a6db494c77"
+    },
+    {
+      "id": "q040",
+      "status": "reviewed",
+      "observations": "五条が虎杖の横に立ち楽巌寺と対立する構図。話し合いと着席の掛け合い。",
+      "source_sha256": "0d48c7ebda1824178ee692d4d3a9ab033c9abe70bf05ef998ea3ce3e6d3827e4"
+    },
+    {
+      "id": "q041",
+      "status": "reviewed",
+      "observations": "幼い加茂が伝統的な家の入口で背筋を伸ばし母が背後にいる。セリフに正妻の字はない。",
+      "source_sha256": "7e765d24be0c914bc15ec40f18065b3b7526e4ab3fb5486804866e545409a071"
+    },
+    {
+      "id": "q042",
+      "status": "reviewed",
+      "observations": "加茂と母が手をつないで歩く。無理なギャグを避けた穏やかな創作会話、対象字の妻なし。",
+      "source_sha256": "bb143f58bb188696aa10d37bf51398326a6fd58bb018dc9e154b15ab44a66c7a"
+    },
+    {
+      "id": "q043",
+      "status": "reviewed",
+      "observations": "駅で五条が漏瑚・花御・脹相と対面、人影もある。集合写真ではなく緊張ある対峙。",
+      "source_sha256": "60f11c68943c32fe01de445e44606ae28b1b9bd981fc8de099ec893073543893"
+    },
+    {
+      "id": "q044",
+      "status": "reviewed",
+      "observations": "改札前に5人の一般人が密集し暗い帳もある。進めないという1セリフ、対象字の混なし。",
+      "source_sha256": "2469f868ee8d7d2e2ff2902c355dac17b6b3dde992bf00af0fd1d09bcc39f4ef"
+    },
+    {
+      "id": "q045",
+      "status": "reviewed",
+      "observations": "虎杖と背後の半透明な宿儺を区別。席と予約の2セリフ、対象字の混なし。",
+      "source_sha256": "78a7e35132c0a5dc7717521533d50f1f6a61f3b0e295dd08205d05ce3619d125"
+    },
+    {
+      "id": "q046",
+      "status": "reviewed",
+      "observations": "五条が青・赤の球を紫へつなぐ。図工へのツッコミ、3色が明瞭で解答の混なし。",
+      "source_sha256": "575d145ab9fc6da265634732a0ba61a71dd3397d239068e8aa0acb84f0b18a45"
+    },
+    {
+      "id": "q047",
+      "status": "reviewed",
+      "observations": "狗巻の高い襟と具材の象徴、仲間が聞く構図。しゃけと献立の2セリフ、対象字の雑なし。",
+      "source_sha256": "d9aa72ff028db0b476b8b7121375f3b969a97286cd0fbcb3be54ffa605189b76"
+    },
+    {
+      "id": "q048",
+      "status": "reviewed",
+      "observations": "伏黒が木の間を走り後方に花御。木と近道へのツッコミ、対象字の雑なし。",
+      "source_sha256": "655705394c7f8c2f85fccdb0af1ba41db788cd154997c3ae2cf1af77afb55e50"
+    },
+    {
+      "id": "q049",
+      "status": "reviewed",
+      "observations": "真人が木箱の呪物を持ち去り虎杖がツッコミを入れる創作構図。2セリフが正確、対象字の略なし。",
+      "source_sha256": "10899de91bd80d7caeffee7b0b2b4edfa9090ad87911f36cca415a086c966949"
+    },
+    {
+      "id": "q050",
+      "status": "reviewed",
+      "observations": "虎杖のバットとパンダのグローブ、中央に大きな野球ボール。平和と球速の2セリフ。",
+      "source_sha256": "6dd692db96a47e291f062e168cb246346c57176d0d99f7a4736304b4ad682cfe"
+    },
+    {
+      "id": "q051",
+      "status": "reviewed",
+      "observations": "東堂が手を合わせ、虎杖と花御の間に入れ替えを示す矢印。2セリフが正確、対象字の採なし。",
+      "source_sha256": "ab422a5c4293f469f0e4541bc89e6660a640fa042c81e0d3f6b9288393b49a61"
+    },
+    {
+      "id": "q052",
+      "status": "reviewed",
+      "observations": "夜蛾の止める手と訓練棒の禁止記号。安全第一と先生の圧の2セリフ、対象字の禁なし。",
+      "source_sha256": "87eea7b8ed51185b481f8dac3ef5c909ace27821bc46e9f2ee098238d1b1273b"
+    },
+    {
+      "id": "q053",
+      "status": "reviewed",
+      "observations": "花御の大きい根と虎杖・東堂。根っこと園芸の2セリフ、対象字の能なし。",
+      "source_sha256": "ec9e199d0f1857bdb4cef2f55a70ff9b6a7e1f2d123fdbb942b64a9f8aabdd65"
+    }
+  ],
+  "count": 53
+}

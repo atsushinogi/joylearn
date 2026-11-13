@@ -6,3 +6,8 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .course-progress:empty{display:none}
+.question-scene.has-wide-image{flex-direction:column;align-items:stretch;gap:18px;padding:22px 0}
+.question-scene.has-wide-image img{width:min(100%,360px);height:auto;aspect-ratio:3/2;object-fit:contain;align-self:center;flex-shrink:1}
+.question-scene.has-wide-image .question{align-self:stretch}
+.course-option[data-theme=violet] img{width:150px;height:100px;object-fit:contain}
+@media(max-width:760px){.course-option[data-theme=violet] img{width:min(108px,100%);height:auto;aspect-ratio:3/2}}

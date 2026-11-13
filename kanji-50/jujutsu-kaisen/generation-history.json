@@ -9,7 +9,7 @@
       "local_png": "originals/q001.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-556b18c6-18ad-4023-8ca0-5c799476613f.png",
       "legacy_record": "jujutsu-illustrations-scenes/q01.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -20,7 +20,7 @@
       "local_png": "originals/q002.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-4e9b72e0-8685-4c4c-9207-f2187ea3db92.png",
       "legacy_record": "jujutsu-illustrations-scenes/q02.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -31,7 +31,7 @@
       "local_png": "originals/q003.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-3ad0e3c1-00cd-4592-a1aa-623401627cf6.png",
       "legacy_record": "jujutsu-illustrations-scenes/q03.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -42,7 +42,7 @@
       "local_png": "originals/q004.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-f3f0b99a-ac98-4a44-b20e-075adc12ec1c.png",
       "legacy_record": "jujutsu-illustrations-scenes/q04.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -53,7 +53,7 @@
       "local_png": "originals/q005.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-53507d61-5f21-4c7a-8c2b-b79e6400e963.png",
       "legacy_record": "jujutsu-illustrations-scenes/q05.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -64,7 +64,7 @@
       "local_png": "originals/q006.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-1561d574-0d28-40e8-be5a-c0c0a5b01123.png",
       "legacy_record": "jujutsu-illustrations-scenes/q06.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -75,7 +75,7 @@
       "local_png": "originals/q007.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-d6f5dc35-41da-49eb-a60f-4536c691e0a4.png",
       "legacy_record": "jujutsu-illustrations-scenes/q07.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -86,7 +86,7 @@
       "local_png": "originals/q008.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-e2973953-3b6c-4d86-9fea-8cb996b30a15.png",
       "legacy_record": "jujutsu-illustrations-scenes/q08.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -97,7 +97,7 @@
       "local_png": "originals/q009.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-4325fa32-581c-4dbf-b762-be3331c7e278.png",
       "legacy_record": "jujutsu-illustrations-scenes/q09.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -108,7 +108,7 @@
       "local_png": "originals/q010.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-ba4991dd-3e4a-47af-af67-ce83e2c323f6.png",
       "legacy_record": "jujutsu-illustrations-scenes/q10.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -119,7 +119,7 @@
       "local_png": "originals/q011.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-13f3879e-b15e-436a-8911-0dc883c932b2.png",
       "legacy_record": "jujutsu-illustrations-scenes/q11.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -130,7 +130,7 @@
       "local_png": "originals/q012.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-374824a1-5b57-4aa1-bf96-104b0e18280b.png",
       "legacy_record": "jujutsu-illustrations-scenes/q12.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -141,7 +141,7 @@
       "local_png": "originals/q013.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b200de34-14bb-4c7b-9066-d8138a5af878.png",
       "legacy_record": "jujutsu-illustrations-scenes/q13.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -152,7 +152,7 @@
       "local_png": "originals/q014.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-69f90bab-d34d-4a1c-8c2d-65195e56ad98.png",
       "legacy_record": "jujutsu-illustrations-scenes/q14.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -163,7 +163,7 @@
       "local_png": "originals/q015.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-9b2be47b-eadf-425f-ab2a-9cd6cc623bbc.png",
       "legacy_record": "jujutsu-illustrations-scenes/q15.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -174,7 +174,7 @@
       "local_png": "originals/q016.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-26c0234f-141e-4761-9aea-eb0a09d4aa01.png",
       "legacy_record": "jujutsu-illustrations-scenes/q16.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -185,7 +185,7 @@
       "local_png": "originals/q017.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-8b68483a-cf73-426d-8fc7-e0ab8f3f0c66.png",
       "legacy_record": "jujutsu-illustrations-scenes/q17.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -196,7 +196,7 @@
       "local_png": "originals/q018.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b0a7c657-cbf8-43c6-ac95-9949e1de4fa4.png",
       "legacy_record": "jujutsu-illustrations-scenes/q18.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -207,7 +207,7 @@
       "local_png": "originals/q019.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-474a30df-26c5-47df-b0da-dfa2ca2f7aae.png",
       "legacy_record": "jujutsu-illustrations-scenes/q19.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -218,7 +218,7 @@
       "local_png": "originals/q020.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-ed6a33c5-2a7e-494b-af8b-8da553089126.png",
       "legacy_record": "jujutsu-illustrations-scenes/q20.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -229,7 +229,7 @@
       "local_png": "originals/q021.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-35b2c41c-3baa-4640-8103-d975a071e8fd.png",
       "legacy_record": "jujutsu-illustrations-scenes/q21.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -240,7 +240,7 @@
       "local_png": "originals/q022.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-9a612006-676e-417d-9747-a1823f19f071.png",
       "legacy_record": "jujutsu-illustrations-scenes/q22.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -251,7 +251,7 @@
       "local_png": "originals/q023.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-82de3fa9-7b43-4418-98e0-36e37b17ccdd.png",
       "legacy_record": "jujutsu-illustrations-scenes/q23.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -262,7 +262,7 @@
       "local_png": "originals/q024.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-cee6c8ff-eed4-4fe8-9c3c-b4f6c4909a5a.png",
       "legacy_record": "jujutsu-illustrations-scenes/q24.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -273,7 +273,7 @@
       "local_png": "originals/q025.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-2126de53-0f9c-4f07-a30a-0dcd2c54d073.png",
       "legacy_record": "jujutsu-illustrations-scenes/q25.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -284,7 +284,7 @@
       "local_png": "originals/q026.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-43043abb-9304-4e47-b133-c13b036789b8.png",
       "legacy_record": "jujutsu-illustrations-scenes/q26.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -295,7 +295,7 @@
       "local_png": "originals/q027.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-3b9fdea1-4e17-41bb-98b0-9982777ecb00.png",
       "legacy_record": "jujutsu-illustrations-scenes/q27.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -306,7 +306,7 @@
       "local_png": "originals/q028.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-16ad1e53-86a9-43f5-92c4-b7246763b1fb.png",
       "legacy_record": "jujutsu-illustrations-scenes/q28.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -317,7 +317,7 @@
       "local_png": "originals/q029.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-5eb10e39-461f-447a-969e-7f9c56f007c6.png",
       "legacy_record": "jujutsu-illustrations-scenes/q29.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -328,7 +328,7 @@
       "local_png": "originals/q030.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-9a86b828-1cf2-4bd8-8a74-c898502415fb.png",
       "legacy_record": "jujutsu-illustrations-scenes/q30.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -339,7 +339,7 @@
       "local_png": "originals/q031.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-b17a33d0-6bc5-4cb0-b38a-854efe7857b0.png",
       "legacy_record": "jujutsu-illustrations-scenes/q31.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -350,7 +350,7 @@
       "local_png": "originals/q032.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-5dd5b58f-4638-45bf-a68c-1f4581633ed9.png",
       "legacy_record": "jujutsu-illustrations-scenes/q32.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -361,7 +361,7 @@
       "local_png": "originals/q033.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-4d94d45b-0c82-4526-9724-45e52ccac9a5.png",
       "legacy_record": "jujutsu-illustrations-scenes/q33.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -372,7 +372,7 @@
       "local_png": "originals/q034.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-d59e6d4f-3170-44b4-b239-49ff03bd0bab.png",
       "legacy_record": "jujutsu-illustrations-scenes/q34.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -383,7 +383,7 @@
       "local_png": "originals/q035.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-2895b38e-fd2f-442a-bd29-443e7f003462.png",
       "legacy_record": "jujutsu-illustrations-scenes/q35.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -394,7 +394,7 @@
       "local_png": "originals/q036.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-8f24a5b1-f74e-4a5e-8a9b-368b833f585c.png",
       "legacy_record": "jujutsu-illustrations-scenes/q36.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -405,7 +405,7 @@
       "local_png": "originals/q037.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-f748cf4c-8de6-4a19-a84c-8edbb1d4cfa7.png",
       "legacy_record": "jujutsu-illustrations-scenes/q37.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -416,7 +416,7 @@
       "local_png": "originals/q038.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-0defe062-5d50-441c-8f0b-807769bf27af.png",
       "legacy_record": "jujutsu-illustrations-scenes/q38.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -427,7 +427,7 @@
       "local_png": "originals/q039.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-112dc182-3d06-43f9-8f4d-b478957b961e.png",
       "legacy_record": "jujutsu-illustrations-scenes/q39.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -438,7 +438,7 @@
       "local_png": "originals/q040.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-0e51af73-bf32-4662-b11a-a642ed80a2d7.png",
       "legacy_record": "jujutsu-illustrations-scenes/q40.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -449,7 +449,7 @@
       "local_png": "originals/q041.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-1dc05f41-ba7b-4a95-a60a-822d02d17769.png",
       "legacy_record": "jujutsu-illustrations-scenes/q41.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -460,7 +460,7 @@
       "local_png": "originals/q042.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-198f51cc-7e69-4e16-bd04-cfe5e58e495f.png",
       "legacy_record": "jujutsu-illustrations-scenes/q42.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -471,7 +471,7 @@
       "local_png": "originals/q043.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-4cd04e2e-a357-4889-a48c-1d8ec6e7e6d9.png",
       "legacy_record": "jujutsu-illustrations-scenes/q43-v2.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -482,7 +482,7 @@
       "local_png": "originals/q044.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-01d50126-6809-47bd-86f1-3563f35850a2.png",
       "legacy_record": "jujutsu-illustrations-scenes/q44.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -493,7 +493,7 @@
       "local_png": "originals/q045.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-2e82a0b6-91e0-4aef-b47b-eb74887eecea.png",
       "legacy_record": "jujutsu-illustrations-scenes/q45.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -504,7 +504,7 @@
       "local_png": "originals/q046.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-5988386d-556c-475e-9b66-3b7c5d3e2c39.png",
       "legacy_record": "jujutsu-illustrations-scenes/q46.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -515,7 +515,7 @@
       "local_png": "originals/q047.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-ed464b1e-7392-48dd-b360-7fe7b5ae3feb.png",
       "legacy_record": "jujutsu-illustrations-scenes/q47.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -526,7 +526,7 @@
       "local_png": "originals/q048.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-3cf0bf96-e232-4681-999e-4c182b086ce3.png",
       "legacy_record": "jujutsu-illustrations-scenes/q48.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -537,7 +537,7 @@
       "local_png": "originals/q049.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-23a7d0e0-bd24-4406-bb63-6849483c8414.png",
       "legacy_record": "jujutsu-illustrations-scenes/q49.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -548,7 +548,7 @@
       "local_png": "originals/q050.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-0017c2c8-95d3-4eee-a62c-6fbd1cd935eb.png",
       "legacy_record": "jujutsu-illustrations-scenes/q50.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -559,7 +559,7 @@
       "local_png": "originals/q051.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-f61c5fdc-4acb-4e3f-8291-3b709c7b2e65.png",
       "legacy_record": "jujutsu-illustrations-scenes/q51.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -570,7 +570,7 @@
       "local_png": "originals/q052.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-7df42307-4886-47f8-a806-966a757836a6.png",
       "legacy_record": "jujutsu-illustrations-scenes/q52.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -581,7 +581,7 @@
       "local_png": "originals/q053.png",
       "tool_original_png": "/root/.codex/generated_images/01a1a99f-4b1f-7ae3-b8cc-4f18fc75d256/exec-5dbe33b2-e029-42b0-94f3-1d2d50a97f1f.png",
       "legacy_record": "jujutsu-illustrations-scenes/q53.generation.json",
-      "adopted": true,
+      "adopted": false,
       "record_status": "imported"
     },
     {
@@ -594,6 +594,1248 @@
       "adopted": false,
       "record_status": "imported",
       "reason": "旧台帳で対峙の構図を修正するため不採用とされた初稿。"
+    },
+    {
+      "id": "q002",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Human Mechamaru operator Kokichi Muta, long black hair and plain modest light clothes, looks hopeful at his healed open hand while Mahito stands opposite. Show a subtle brown puppet silhouette as a background identity cue. No scars of injury, no exposed body, no medical horror. Character identity: Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Required Japanese dialogue captions, VERBATIM: Caption 1, 与幸吉: 「まずは散歩したい。」. Caption 2, 真人: 「ロボで行かないの？」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 得る, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+      "source_png": "originals/q002-wide-v2-initial.png",
+      "dialogue": [
+        [
+          "与幸吉",
+          "まずは散歩したい。"
+        ],
+        [
+          "真人",
+          "ロボで行かないの？"
+        ]
+      ],
+      "question_id": "q002",
+      "local_png": "originals/q002-wide-v2-initial.png",
+      "revision": "wide-dialogue-v2-initial",
+      "adopted": false,
+      "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+    },
+    {
+      "id": "q003",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Maki and Mai face one another in a tense but nonviolent sisterly confrontation during the exchange event. Waist-up two-character composition, Maki ponytail and glasses clearly contrast Mai short hair. One softly drawn forest shape. Character identity: Maki Zenin in first-season appearance: dark green ponytail, rectangular glasses, navy school uniform. Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Required Japanese dialogue captions, VERBATIM: Caption 1, 真希: 「似てるの、顔だけだな。」. Caption 2, 真依: 「そこは認めるのね。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 対比, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+      "source_png": "originals/q003-wide-v2-initial.png",
+      "dialogue": [
+        [
+          "真希",
+          "似てるの、顔だけだな。"
+        ],
+        [
+          "真依",
+          "そこは認めるのね。"
+        ]
+      ],
+      "question_id": "q003",
+      "local_png": "originals/q003-wide-v2-initial.png",
+      "revision": "wide-dialogue-v2-initial",
+      "adopted": false,
+      "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+    },
+    {
+      "id": "q004",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Miwa looks astonished at confident Maki, whose practice pole is held safely upright. Show two large faces and one simple sparkle of realization; the contrast is hidden strength, not literal measuring or labels. Character identity: Maki Zenin in first-season appearance: dark green ponytail, rectangular glasses, navy school uniform. Kasumi Miwa: long straight light blue hair with bangs, kind wide eyes, navy businesslike school uniform. Required Japanese dialogue captions, VERBATIM: Caption 1, 三輪: 「等級、壊れてません？」. Caption 2, 真希: 「私に聞くなよ。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 比べる, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+      "source_png": "originals/q004-wide-v2-initial.png",
+      "dialogue": [
+        [
+          "三輪",
+          "等級、壊れてません？"
+        ],
+        [
+          "真希",
+          "私に聞くなよ。"
+        ]
+      ],
+      "question_id": "q004",
+      "local_png": "originals/q004-wide-v2-initial.png",
+      "revision": "wide-dialogue-v2-initial",
+      "adopted": false,
+      "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+    },
+    {
+      "id": "q034",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Human Kokichi Muta and Mahito make a tense agreement across one simple horizontal glowing cord, while two small blue school-uniform silhouettes are enclosed in one protective circle behind Kokichi. His open palm signals protection for his friends. No contracts with writing, no gore. Character identity: Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"仲間には手を出すな。\" and \"注意書き、細かいね。\". Speaker association (DO NOT PRINT speaker names): 与幸吉 says \"仲間には手を出すな。\"; 真人 says \"注意書き、細かいね。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q034-wide-v2-initial.png",
+      "dialogue": [
+        [
+          "与幸吉",
+          "仲間には手を出すな。"
+        ],
+        [
+          "真人",
+          "注意書き、細かいね。"
+        ]
+      ],
+      "question_id": "q034",
+      "local_png": "originals/q034-wide-v2-initial.png",
+      "revision": "wide-dialogue-v2-initial",
+      "adopted": false,
+      "review_note": "修正前。余分な解説の除去、または人物の描き分けの修正。"
+    },
+    {
+      "id": "q001",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Create one landscape 3:2 illustration (1536x1024) for a Jujutsu Kaisen kanji learning app. Cute expressive chibi anime, bold clean dark outlines, simple flat cel shading, gentle saturated colors. Scene: in a school corridor, Yuji Itadori tries earnestly to calm Junpei Yoshino with an open hand. Yuji: short spiky pink hair, brown eyes, navy school jacket with red hood. Junpei: black chin-length asymmetrical hair covering one eye, dark school uniform. Large waist-up figures, Yuji at right leaning forward comically while Junpei at left looks a little surprised. Friendly gentle visual humor, no grief jokes. TWO short Japanese dialogue captions directly on the artwork, with NO speech balloons, no boxes, no tails: upper-right above Yuji「まずは落ち着こう！」 and upper-left above Junpei「君、前のめりすぎ。」. Render those texts exactly, in large bold readable Japanese lettering with thin white outline against pale simple background. Keep text clear of heads, within safe margins. This is an invented playful educational caption, not a quote from the original story. Single scene, no panels, no logo, no watermark. Do not include worksheet question or kanji answer 説得. Characters fill most of image. Opaque background.",
+      "source_png": "originals/q001-wide-v2.png",
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-41cc337a-a752-4aa8-9e21-61b8b6681e3f.png",
+      "dialogue": [
+        [
+          "順平",
+          "君、前のめりすぎ。"
+        ],
+        [
+          "虎杖",
+          "まずは落ち着こう！"
+        ]
+      ],
+      "question_id": "q001",
+      "local_png": "originals/q001-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q002",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"まずは散歩したい。\" and \"ロボで行かないの？\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 与幸吉 and second 真人. NO WORKSHEET ANSWER TEXT.",
+      "source_png": "originals/q002-wide-v2.png",
+      "dialogue": [
+        [
+          "与幸吉",
+          "まずは散歩したい。"
+        ],
+        [
+          "真人",
+          "ロボで行かないの？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-68fbc060-5447-48dc-95bd-00eb82e4545f.png",
+      "edit_reference": "originals/q002-wide-v2-initial.png",
+      "question_id": "q002",
+      "local_png": "originals/q002-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q003",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"似てるの、顔だけだな。\" and \"そこは認めるのね。\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 真希 and second 真依. NO WORKSHEET ANSWER TEXT.",
+      "source_png": "originals/q003-wide-v2.png",
+      "dialogue": [
+        [
+          "真希",
+          "似てるの、顔だけだな。"
+        ],
+        [
+          "真依",
+          "そこは認めるのね。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-f7757f20-b941-44a3-b47e-c226dc61aaaa.png",
+      "edit_reference": "originals/q003-wide-v2-initial.png",
+      "question_id": "q003",
+      "local_png": "originals/q003-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q004",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"等級、壊れてません？\" and \"私に聞くなよ。\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 三輪 and second 真希. NO WORKSHEET ANSWER TEXT.",
+      "source_png": "originals/q004-wide-v2.png",
+      "dialogue": [
+        [
+          "三輪",
+          "等級、壊れてません？"
+        ],
+        [
+          "真希",
+          "私に聞くなよ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-06de27bb-0180-47bc-9fe1-79fb08881eec.png",
+      "edit_reference": "originals/q004-wide-v2-initial.png",
+      "question_id": "q004",
+      "local_png": "originals/q004-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q005",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gakuganji sits sternly at the head of a simple traditional council table, framed by two empty chairs and one blank rolled scroll, conveying conservative authority. Only this named character, no written politics slogans. Character identity: Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. A plain electric guitar leans beside Gakuganji, a playful reminder of his musical technique. Required Japanese dialogue captions, VERBATIM: Caption 1, 楽巌寺: 「会議は厳かに。」. Caption 2, ツッコミ: 「ギターは持参なんだ。」. These invented playful educational captions are NOT original canon quotes. Put each caption directly on artwork near its speaking character; for ツッコミ use a narrator aside near the lower edge. NO speech balloons, NO caption boxes, NO tails, NO borders. Use LARGE bold Japanese lettering with thin white outline for contrast, safe margins, on clear background areas, never cover faces. Keep caption order and speaker association clear. The supplied dialogue overrides any old no-text instruction in scene description. No other text, worksheet question, answer 政治, logos, watermark, extra panels, gore or injuries. Single coherent landscape scene, opaque background.",
+      "source_png": "originals/q005-wide-v2.png",
+      "dialogue": [
+        [
+          "楽巌寺",
+          "会議は厳かに。"
+        ],
+        [
+          "ツッコミ",
+          "ギターは持参なんだ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-ce996f60-be72-4411-9960-ac352f31137c.png",
+      "question_id": "q005",
+      "local_png": "originals/q005-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q006",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mahito curiously studies a single translucent glowing blue soul-shaped orb hovering above his palm, thoughtful expression, abstract backdrop. Symbolic visualization of his interest in souls; no human experimentation, victims or altered bodies. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"これ、ぷにぷにかな？\" and \"ゼリーの感想か。\". Speaker association (DO NOT PRINT speaker names): 真人 says \"これ、ぷにぷにかな？\"; ツッコミ says \"ゼリーの感想か。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q006-wide-v2.png",
+      "dialogue": [
+        [
+          "真人",
+          "これ、ぷにぷにかな？"
+        ],
+        [
+          "ツッコミ",
+          "ゼリーの感想か。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-c77434e2-c45f-4873-b6a8-d7a931320de9.png",
+      "question_id": "q006",
+      "local_png": "originals/q006-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q007",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Miwa joyfully holds a smartphone for a selfie with smiling blindfolded Gojo. Both heads very large, plain light background. Phone screen blank and facing away, no text. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Kasumi Miwa: long straight light blue hair with bangs, kind wide eyes, navy businesslike school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"家宝にします！\" and \"まだ撮ってないよ。\". Speaker association (DO NOT PRINT speaker names): 三輪 says \"家宝にします！\"; 五条 says \"まだ撮ってないよ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q007-wide-v2.png",
+      "dialogue": [
+        [
+          "三輪",
+          "家宝にします！"
+        ],
+        [
+          "五条",
+          "まだ撮ってないよ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-7ed8e36b-cc95-4260-a7cb-b14e6f1597d7.png",
+      "question_id": "q007",
+      "local_png": "originals/q007-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q008",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Ijichi in his suit calmly explains a simple investigation plan to attentive Yuji, pointing at one blank clipboard and one blue route arrow. Just two characters, no readable diagram text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Kiyotaka Ijichi: slim bespectacled young man with neatly side-parted black hair, black suit and tie. Junpei Yoshino: straight chin-length asymmetrical black hair covering one eye, dark Japanese school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"目立たずにお願いします。\" and \"この髪で！？\". Speaker association (DO NOT PRINT speaker names): 伊地知 says \"目立たずにお願いします。\"; 虎杖 says \"この髪で！？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q008-wide-v2.png",
+      "dialogue": [
+        [
+          "伊地知",
+          "目立たずにお願いします。"
+        ],
+        [
+          "虎杖",
+          "この髪で！？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-b62a836d-18f6-44fa-ade3-995dc699150c.png",
+      "question_id": "q008",
+      "local_png": "originals/q008-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q009",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo presents two possible choices to attentive Yuji, raising two fingers beside two simple diverging colored arrows with no labels. Calm serious teaching scene, never show death or executions. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"選べるのは二つ。\" and \"おやつは入ります？\". Speaker association (DO NOT PRINT speaker names): 五条 says \"選べるのは二つ。\"; 虎杖 says \"おやつは入ります？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q009-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "選べるのは二つ。"
+        ],
+        [
+          "虎杖",
+          "おやつは入ります？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-9d30dada-d937-4190-8a88-16dfc92e0df6.png",
+      "question_id": "q009",
+      "local_png": "originals/q009-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q010",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Jogo confidently points at himself while passionately explaining his beliefs, cyclops face and volcano crown large. A simple gray silhouette of an ordinary human at a distance may serve as a contrast; no fire harming anyone. Character identity: Jogo: short stocky gray-skinned cyclops curse, volcano-shaped crown, white scarf and mustard-colored cape. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"わしこそ本物じゃ！\" and \"頭の火力がすごい。\". Speaker association (DO NOT PRINT speaker names): 漏瑚 says \"わしこそ本物じゃ！\"; ツッコミ says \"頭の火力がすごい。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q010-wide-v2.png",
+      "dialogue": [
+        [
+          "漏瑚",
+          "わしこそ本物じゃ！"
+        ],
+        [
+          "ツッコミ",
+          "頭の火力がすごい。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-160740b6-ac60-46bf-b5bc-c6843536ce06.png",
+      "question_id": "q010",
+      "local_png": "originals/q010-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q011",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A simple Shibuya station entrance under one dark translucent curtain barrier, a small group of three faceless civilian silhouettes behind it, single large visual barrier as the focal object. No writing or signage. Character identity:  Add exactly 1 Japanese dialogue captions, text strings ONLY: \"駅なのに、出口どこ？\". Speaker association (DO NOT PRINT speaker names): 通行人 says \"駅なのに、出口どこ？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q011-wide-v2.png",
+      "dialogue": [
+        [
+          "通行人",
+          "駅なのに、出口どこ？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-179b98f7-d2aa-4e2d-aa92-44279c1d2e25.png",
+      "question_id": "q011",
+      "local_png": "originals/q011-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q012",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki with collar slightly lowered, releases one broad blue sound-wave ring to stop a simplified Hanami reaching toward a small silhouette of a retreating teammate. Inumaki and Hanami are the only detailed characters. No letters around the mouth, no gore. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"動くな！\" and \"だるまさん方式！？\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"動くな！\"; ツッコミ says \"だるまさん方式！？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q012-wide-v2.png",
+      "dialogue": [
+        [
+          "狗巻",
+          "動くな！"
+        ],
+        [
+          "ツッコミ",
+          "だるまさん方式！？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-8203936e-23bf-456c-899b-eb153365260f.png",
+      "question_id": "q012",
+      "local_png": "originals/q012-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q013",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Yaga warmly supports a small childlike Panda learning to stand, large caring faces and one simple soft toy in the background, showing their guardian-child bond. Character identity: Panda: the recognizable friendly large black-and-white anthropomorphic panda student, no human replacement. Masamichi Yaga: broad build, short black spiked hair, dark sunglasses and short chin beard, dark jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"大きく育てよ。\" and \"もう結構でかいぞ。\". Speaker association (DO NOT PRINT speaker names): 夜蛾 says \"大きく育てよ。\"; パンダ says \"もう結構でかいぞ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q013-wide-v2.png",
+      "dialogue": [
+        [
+          "夜蛾",
+          "大きく育てよ。"
+        ],
+        [
+          "パンダ",
+          "もう結構でかいぞ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-0d345d99-a094-4ec2-8c08-c71eb81c4684.png",
+      "question_id": "q013",
+      "local_png": "originals/q013-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q014",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mai holds her palm beneath exactly one shiny brass cartridge, concentrating. Close-up with large face and a single oversized readable bullet prop. No firing, guns pointed at people or wounds. Character identity: Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"本日の生産、終了。\" and \"工場より早じまい。\". Speaker association (DO NOT PRINT speaker names): 真依 says \"本日の生産、終了。\"; ツッコミ says \"工場より早じまい。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q014-wide-v2.png",
+      "dialogue": [
+        [
+          "真依",
+          "本日の生産、終了。"
+        ],
+        [
+          "ツッコミ",
+          "工場より早じまい。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-4c7eec64-cf7f-47be-8584-73a33c68564a.png",
+      "question_id": "q014",
+      "local_png": "originals/q014-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q015",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nobara strides confidently toward a simple Tokyo skyline carrying one small travel bag, smiling determinedly. Single dominant character at large size, just two pale city shapes behind. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"東京、待ってなさい！\" and \"街のほうが待つの？\". Speaker association (DO NOT PRINT speaker names): 釘崎 says \"東京、待ってなさい！\"; ツッコミ says \"街のほうが待つの？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q015-wide-v2.png",
+      "dialogue": [
+        [
+          "釘崎",
+          "東京、待ってなさい！"
+        ],
+        [
+          "ツッコミ",
+          "街のほうが待つの？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-0048c78c-9fa6-498c-a4dc-807251a95611.png",
+      "question_id": "q015",
+      "local_png": "originals/q015-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q016",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Naobito sits confidently in front of a simple traditional Zenin estate doorway, white mustache and kimono clearly visible. Single central portrait expressing clan leadership, no written family names. Character identity: Naobito Zenin: older man with swept-back white hair, white mustache and small beard, dark blue kimono. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"当主のお通りじゃ。\" and \"座ってますけど。\". Speaker association (DO NOT PRINT speaker names): 直毘人 says \"当主のお通りじゃ。\"; ツッコミ says \"座ってますけど。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q016-wide-v2.png",
+      "dialogue": [
+        [
+          "直毘人",
+          "当主のお通りじゃ。"
+        ],
+        [
+          "ツッコミ",
+          "座ってますけど。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-f423290a-da14-4565-9754-d3e2f77cde3a.png",
+      "question_id": "q016",
+      "local_png": "originals/q016-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q017",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami thoughtfully explains his experience of work and sorcery to attentive Yuji. The beige suit, red hood, and a single briefcase clearly readable. Calm two-person half-length composition, no text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"仕事は仕事です。\" and \"名言っぽいの来た！\". Speaker association (DO NOT PRINT speaker names): 七海 says \"仕事は仕事です。\"; 虎杖 says \"名言っぽいの来た！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q017-wide-v2.png",
+      "dialogue": [
+        [
+          "七海",
+          "仕事は仕事です。"
+        ],
+        [
+          "虎杖",
+          "名言っぽいの来た！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-00cc14e4-31e2-4122-8f09-e7715516c2ba.png",
+      "question_id": "q017",
+      "local_png": "originals/q017-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q018",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Human Kokichi Muta looks determined inside the control cockpit of a large brown Mechamaru robot; show his face large beside one bold mechanical shoulder and one control lever. A tiny blue Mahito silhouette in distance, avoid busy machinery. Character identity: Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"準備は万全だ。\" and \"駐車場はある？\". Speaker association (DO NOT PRINT speaker names): 与幸吉 says \"準備は万全だ。\"; ツッコミ says \"駐車場はある？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q018-wide-v2.png",
+      "dialogue": [
+        [
+          "与幸吉",
+          "準備は万全だ。"
+        ],
+        [
+          "ツッコミ",
+          "駐車場はある？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-6e8234f9-d32a-4ded-bbb1-4cf612d97805.png",
+      "question_id": "q018",
+      "local_png": "originals/q018-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q019",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: In the year 2007, student Gojo and student Geto walk away from one another on separate paths, two large upper bodies with a simple gap between them, bittersweet mood. Gojo wears round dark sunglasses, white hair and navy uniform; Geto black hair bun, navy uniform, no forehead stitches. Clearly youth, no blindfolded adult Gojo. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Suguru Geto: black hair tied in a high bun with one long side bang. In 2007 student scenes use navy school uniform, absolutely no forehead stitches. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"静かすぎるな。\" and \"いつもがにぎやかすぎ。\". Speaker association (DO NOT PRINT speaker names): 夏油 says \"静かすぎるな。\"; ツッコミ says \"いつもがにぎやかすぎ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q019-wide-v2.png",
+      "dialogue": [
+        [
+          "夏油",
+          "静かすぎるな。"
+        ],
+        [
+          "ツッコミ",
+          "いつもがにぎやかすぎ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-d42da7b5-c85c-4a1f-b251-fc376ac187c6.png",
+      "question_id": "q019",
+      "local_png": "originals/q019-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q020",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Momo earnestly defends Mai while speaking with Nobara. Momo and Nobara are large foreground half-length portraits, one small symbolic green-haired Mai portrait behind Momo to clarify who she supports; broom upright. No text or speech bubbles. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Momo Nishimiya: small young woman with blonde hair in two high round side buns, dark uniform, broom. Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"最後まで聞いて！\" and \"ほうきまで熱くなってる。\". Speaker association (DO NOT PRINT speaker names): 西宮 says \"最後まで聞いて！\"; 釘崎 says \"ほうきまで熱くなってる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q020-wide-v2.png",
+      "dialogue": [
+        [
+          "西宮",
+          "最後まで聞いて！"
+        ],
+        [
+          "釘崎",
+          "ほうきまで熱くなってる。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-1a86f20b-ca39-4eb2-b7de-bda0a7da6f96.png",
+      "question_id": "q020",
+      "local_png": "originals/q020-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q021",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Utahime and Mei Mei investigate an eerie mansion corridor that loops back on itself; show two large expressive heads and a single broad curved return arrow in the background. Utahime has long hair and red-white shrine clothing; Mei Mei silver-blue braid. Subtle mystery, not horror. Character identity: Mei Mei: adult woman with very long pale silver-blue hair braided in front of one eye, dark purple outfit. Utahime Iori: long dark purple-black hair, scar crossing cheek and nose, white shrine-maiden top and red hakama. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"また同じ廊下！？\" and \"内見はもう十分ね。\". Speaker association (DO NOT PRINT speaker names): 歌姫 says \"また同じ廊下！？\"; 冥冥 says \"内見はもう十分ね。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q021-wide-v2.png",
+      "dialogue": [
+        [
+          "歌姫",
+          "また同じ廊下！？"
+        ],
+        [
+          "冥冥",
+          "内見はもう十分ね。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-295d6682-74a0-44ba-b4c2-4232b981f98d.png",
+      "question_id": "q021",
+      "local_png": "originals/q021-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q022",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo cheerfully gestures to Yuji peeking out of a large open plain brown box, as he plans the surprise return to school. Two large faces, box rim at lower edge, playful surprise, no lettering. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"登場は箱から！\" and \"配達される側！？\". Speaker association (DO NOT PRINT speaker names): 五条 says \"登場は箱から！\"; 虎杖 says \"配達される側！？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q022-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "登場は箱から！"
+        ],
+        [
+          "虎杖",
+          "配達される側！？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-4bf032dc-f2f5-47b5-a0b1-5bf81ae94603.png",
+      "question_id": "q022",
+      "local_png": "originals/q022-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q023",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Shoko in her white doctor coat calmly uses a soft blue-green healing glow on an anonymous sorcerer’s bandaged forearm. Her face and hands dominate, clean medical room suggested by one pale cross-shaped light reflection, no blood, pain or writing. Character identity: Shoko Ieiri: tired-eyed woman with shoulder-length brown hair, small beauty mark beneath right eye, white doctor coat. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"今日は早く寝て。\" and \"先生も寝てください。\". Speaker association (DO NOT PRINT speaker names): 家入 says \"今日は早く寝て。\"; ツッコミ says \"先生も寝てください。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q023-wide-v2.png",
+      "dialogue": [
+        [
+          "家入",
+          "今日は早く寝て。"
+        ],
+        [
+          "ツッコミ",
+          "先生も寝てください。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-ce59c902-503b-4ad4-b42c-f18161712860.png",
+      "question_id": "q023",
+      "local_png": "originals/q023-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q024",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami in his businessman beige suit pauses at a bakery counter with exactly one baguette sandwich and a small blank paper bag. Large half-length Nanami, warm simple bakery backdrop, no shop signs or prices. Character identity: Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"パンは別腹です。\" and \"急に親近感。\". Speaker association (DO NOT PRINT speaker names): 七海 says \"パンは別腹です。\"; ツッコミ says \"急に親近感。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q024-wide-v2.png",
+      "dialogue": [
+        [
+          "七海",
+          "パンは別腹です。"
+        ],
+        [
+          "ツッコミ",
+          "急に親近感。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-5063e833-80e9-4140-a9cf-f5d1226eec46.png",
+      "question_id": "q024",
+      "local_png": "originals/q024-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q025",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Yuji listens compassionately to sad Junpei, gently placing one hand on his shoulder. Their two large faces carry the image, soft blue quiet school background. Do not depict Junpei’s mother, death or flashback violence. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Junpei Yoshino: straight chin-length asymmetrical black hair covering one eye, dark Japanese school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"話、聞くよ。\" and \"ゆっくりでいい？\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"話、聞くよ。\"; 順平 says \"ゆっくりでいい？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q025-wide-v2.png",
+      "dialogue": [
+        [
+          "虎杖",
+          "話、聞くよ。"
+        ],
+        [
+          "順平",
+          "ゆっくりでいい？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-56cc5800-a00f-4359-8960-19df5a447d1a.png",
+      "question_id": "q025",
+      "local_png": "originals/q025-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q026",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo stands relaxed with one arm around the shoulders of calm Yuji while Jogo in foreground looks comically exasperated. Three bold faces forming a simple triangle, plain rocky outdoor background. No fighting injuries. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Jogo: short stocky gray-skinned cyclops curse, volcano-shaped crown, white scarf and mustard-colored cape. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"見学の生徒でーす。\" and \"遠足ではないわ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"見学の生徒でーす。\"; 漏瑚 says \"遠足ではないわ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q026-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "見学の生徒でーす。"
+        ],
+        [
+          "漏瑚",
+          "遠足ではないわ！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-0161ae64-8f77-4674-930e-f5bb79b7865d.png",
+      "question_id": "q026",
+      "local_png": "originals/q026-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q027",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A visibly frustrated small Jogo looks up at relaxed, much stronger Gojo, whose raised open hand easily stops a small orange energy puff. The characters occupy most of the landscape; comic mismatch in power, no explosions harming people. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Jogo: short stocky gray-skinned cyclops curse, volcano-shaped crown, white scarf and mustard-colored cape. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"準備運動おわり？\" and \"もう本番じゃ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"準備運動おわり？\"; 漏瑚 says \"もう本番じゃ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q027-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "準備運動おわり？"
+        ],
+        [
+          "漏瑚",
+          "もう本番じゃ！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-111aa6e2-a534-4bba-a030-cc92ac87a0c5.png",
+      "question_id": "q027",
+      "local_png": "originals/q027-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q028",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo in a black blindfold stands carefully in a narrow station space between three large faceless civilian silhouettes. His poised hand and cautious expression convey that civilians limit his powers. One faint blue energy ring kept compact, no attacks on people. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"最強でも通れない。\" and \"人の波には勝てない。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"最強でも通れない。\"; ツッコミ says \"人の波には勝てない。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q028-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "最強でも通れない。"
+        ],
+        [
+          "ツッコミ",
+          "人の波には勝てない。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-7fe0457c-57e4-4c01-9a36-ada476e7e465.png",
+      "question_id": "q028",
+      "local_png": "originals/q028-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q029",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Awakened teenage Gojo from the 2006 flashback, white hair, uncovered bright blue eyes, black fitted short-sleeved top and pale trousers, raises one hand toward the sky in his iconic serene enlightenment pose. One faint warm lotus-shaped glow only as an educational symbol of the phrase’s Buddhist connection, not a transformation into a deity. No religious writing. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"空、広いなあ。\" and \"感想が急に遠足。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"空、広いなあ。\"; ツッコミ says \"感想が急に遠足。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q029-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "空、広いなあ。"
+        ],
+        [
+          "ツッコミ",
+          "感想が急に遠足。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-3c760e8e-2d31-4b25-bcc5-35b981e04e2d.png",
+      "question_id": "q029",
+      "local_png": "originals/q029-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q030",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Supplementary educational scene, NOT an event from canon. Adult Satoru Gojo, white spiky hair, black blindfold and black high-collar jacket, studies a small peaceful golden newborn Buddha statue on a lotus pedestal. Statue has one hand pointing upward and one downward. Gojo recognizes the pose. Gentle respectful curiosity. Plain warm study setting. Add exactly 1 Japanese dialogue captions, text strings ONLY: \"このポーズ、見覚えある！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"このポーズ、見覚えある！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q030-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "このポーズ、見覚えある！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-5923424f-dfdc-4052-b053-1ac1e8030e19.png",
+      "question_id": "q030",
+      "local_png": "originals/q030-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q031",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Panda extends a friendly helping paw toward a seated brown Mechamaru puppet after their match; Mechamaru looks surprised. Two large faces and the offered paw dominate; minimal forest, no damaged limbs or wounds. Character identity: Panda: the recognizable friendly large black-and-white anthropomorphic panda student, no human replacement. Ultimate Mechamaru: brown wooden humanoid puppet with segmented jaw and round mechanical eyes. When the scene describes the human operator, depict Kokichi Muta with long black hair and no puppet face. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"手、かそうか？\" and \"それ、肉球だろ。\". Speaker association (DO NOT PRINT speaker names): パンダ says \"手、かそうか？\"; メカ丸 says \"それ、肉球だろ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q031-wide-v2.png",
+      "dialogue": [
+        [
+          "パンダ",
+          "手、かそうか？"
+        ],
+        [
+          "メカ丸",
+          "それ、肉球だろ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-bdb09d3a-ec83-40ec-9f6d-a4e721e8e8c0.png",
+      "question_id": "q031",
+      "local_png": "originals/q031-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q032",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki produces one large clear blue sound-wave arc that freezes simplified Hanami mid-step, collar slightly lowered and focused expression. Only two large characters, no Japanese sound effects, injuries or complex combat. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"動くな！\" and \"一時停止ボタンか。\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"動くな！\"; ツッコミ says \"一時停止ボタンか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q032-wide-v2.png",
+      "dialogue": [
+        [
+          "狗巻",
+          "動くな！"
+        ],
+        [
+          "ツッコミ",
+          "一時停止ボタンか。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-e3b08264-e837-44e9-9a12-79c0f2a69edd.png",
+      "question_id": "q032",
+      "local_png": "originals/q032-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q033",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nobara confidently holds a straw doll and small hammer, sending one harmless symbolic purple pulse along two broad strands toward separate chibi portraits of Eso and Kechizu. Three large faces in triangular composition, make both brothers distinct. Represent the shared blood connection symbolically with purple energy; no needles in skin, blood, wounds or gore. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Eso: purple swept-up hair, black angular facial markings, bold purple-black sleeveless outfit, fully covered child-friendly adaptation. Kechizu: round green-blue curse with dark markings and round eyes, simplified cute nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"そっちにも届くわよ！\" and \"電波よりつながる。\". Speaker association (DO NOT PRINT speaker names): 釘崎 says \"そっちにも届くわよ！\"; ツッコミ says \"電波よりつながる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q033-wide-v2.png",
+      "dialogue": [
+        [
+          "釘崎",
+          "そっちにも届くわよ！"
+        ],
+        [
+          "ツッコミ",
+          "電波よりつながる。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-1faf7aec-2570-4efb-af3e-95257076defe.png",
+      "question_id": "q033",
+      "local_png": "originals/q033-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q034",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Edit this landscape Jujutsu Kaisen teaching illustration. Keep the 3:2 layout, both exact captions, their positions, glowing cord and friendly chibi art. CRITICAL: left character is HUMAN Kokichi Muta (Mechamaru operator), NOT Mahito. He must have long black hair, a human face with NO stitched seams on face or neck, plain modest pale gray clothes, no school uniform. Remove ALL stitches and seam marks from the left human. Right character is Mahito: keep his pale gray-blue hair and stitched face. In the protective circle behind Kokichi, replace the recognizable Tokyo students with TWO very simple anonymous navy student silhouettes, no recognizable hairstyles, no facial details, no yellow buttons. Keep the two caption strings exactly: 「仲間には手を出すな。」and「注意書き、細かいね。」. No other text, labels, speech balloons, or boxes.",
+      "source_png": "originals/q034-wide-v2.png",
+      "dialogue": [
+        [
+          "与幸吉",
+          "仲間には手を出すな。"
+        ],
+        [
+          "真人",
+          "注意書き、細かいね。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-15946358-3262-41fb-8e54-7e9200a756e3.png",
+      "edit_reference": "originals/q034-wide-v2-initial.png",
+      "question_id": "q034",
+      "local_png": "originals/q034-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q035",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo stands facing seated stern Gakuganji in a minimal traditional meeting room. Large opposing profiles and one low table convey an important visit and disagreement. No extra characters or text. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"ちょっとお話が。\" and \"ちょっとで済むのか。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"ちょっとお話が。\"; 楽巌寺 says \"ちょっとで済むのか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q035-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "ちょっとお話が。"
+        ],
+        [
+          "楽巌寺",
+          "ちょっとで済むのか。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-957e35c3-0900-4b29-b0a9-7819104d8d5a.png",
+      "question_id": "q035",
+      "local_png": "originals/q035-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q036",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A locked plain wooden storage chest stands open with two recognizable stylized wrapped Sukuna finger relics and three sealed small jars, while Mahito’s oversized gloved-looking simplified hand reaches toward the collection. Relics look like dry carved talismans, not severed bloody human fingers; no gore, written labels or busy inventory. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Ryomen Sukuna in Yuji vessel appearance: spiky pink hair with black facial tattoo markings and red eyes; make inner presence visually separate from Yuji where both appear. Add exactly 1 Japanese dialogue captions, text strings ONLY: \"そこ、おやつ棚じゃない！\". Speaker association (DO NOT PRINT speaker names): ツッコミ says \"そこ、おやつ棚じゃない！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q036-wide-v2.png",
+      "dialogue": [
+        [
+          "ツッコミ",
+          "そこ、おやつ棚じゃない！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-6106c6f3-c876-4652-ab6e-5c200e327954.png",
+      "question_id": "q036",
+      "local_png": "originals/q036-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q037",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami adjusts his patterned tie calmly while Mahito grins opposite him, two large half-length characters, one faint blue motion streak conveying confrontation. Nanami remains composed. No injuries, weapons touching bodies or scary anatomy. Character identity: Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"定時に終えます。\" and \"時計が気になるの？\". Speaker association (DO NOT PRINT speaker names): 七海 says \"定時に終えます。\"; 真人 says \"時計が気になるの？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q037-wide-v2.png",
+      "dialogue": [
+        [
+          "七海",
+          "定時に終えます。"
+        ],
+        [
+          "真人",
+          "時計が気になるの？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-e151370a-9373-4453-b063-a8b83372b3b6.png",
+      "question_id": "q037",
+      "local_png": "originals/q037-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q038",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mei Mei gives an approving nod to proud but modest Yuji, a single large gold star-shaped light beside them signifies praise. Two large faces, pale simple city backdrop, no rating numbers or words. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Mei Mei: adult woman with very long pale silver-blue hair braided in front of one eye, dark purple outfit. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"なかなかいいね。\" and \"ほめられると伸びます！\". Speaker association (DO NOT PRINT speaker names): 冥冥 says \"なかなかいいね。\"; 虎杖 says \"ほめられると伸びます！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q038-wide-v2.png",
+      "dialogue": [
+        [
+          "冥冥",
+          "なかなかいいね。"
+        ],
+        [
+          "虎杖",
+          "ほめられると伸びます！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-0cdd2f73-062c-4daf-927f-a6937914c105.png",
+      "question_id": "q038",
+      "local_png": "originals/q038-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q039",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mei Mei thoughtfully weighs one shiny coin in her hand, her silver-blue braid and face dominate. Simple plum and cream backdrop with a subtle coin circle, no written prices, banknotes or numbers. Character identity: Mei Mei: adult woman with very long pale silver-blue hair braided in front of one eye, dark purple outfit. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"いい音がするね。\" and \"小銭の音だけど。\". Speaker association (DO NOT PRINT speaker names): 冥冥 says \"いい音がするね。\"; ツッコミ says \"小銭の音だけど。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q039-wide-v2.png",
+      "dialogue": [
+        [
+          "冥冥",
+          "いい音がするわね。"
+        ],
+        [
+          "ツッコミ",
+          "小銭の音だけど。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-eecc76df-0cfc-4500-8d12-82ebdcc1c347.png",
+      "question_id": "q039",
+      "local_png": "originals/q039-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q040",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo stands protectively beside Yuji while Gakuganji faces them sternly. Three large expressive portraits in simple triangular composition express opposing views over Yuji’s fate. No execution scene, violence, written speech or signs. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Yoshinobu Gakuganji: elderly bald man, long white beard, prominent brows and earlobe piercings, traditional dark robe. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"話し合おうよ。\" and \"まず座らんか。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"話し合おうよ。\"; 楽巌寺 says \"まず座らんか。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q040-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "話し合おうよ。"
+        ],
+        [
+          "楽巌寺",
+          "まず座らんか。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-658dc837-5dac-4f4c-855f-d607453ca558.png",
+      "question_id": "q040",
+      "local_png": "originals/q040-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q041",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Child Noritoshi Kamo, black hair and pale traditional clothing, stands at a traditional house threshold with a small gentle mother silhouette behind him and an imposing empty doorway ahead. He holds a simple blue family-pattern cloth with no symbols or text. Express childhood separation and clan expectations, not violence, not an invented named father or wife. Character identity: Noritoshi Kamo: composed young man with straight black hair, narrow almost-closed eyes, traditional dark blue high-collar clothing. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"背すじ、ぴーん。\" and \"緊張まで伝わってくる。\". Speaker association (DO NOT PRINT speaker names): 加茂 says \"背すじ、ぴーん。\"; ツッコミ says \"緊張まで伝わってくる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q041-wide-v2.png",
+      "dialogue": [
+        [
+          "加茂",
+          "背すじ、ぴーん。"
+        ],
+        [
+          "ツッコミ",
+          "緊張まで伝わってくる。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-bb190786-5bf7-48c5-ab1b-5274605e54a8.png",
+      "question_id": "q041",
+      "local_png": "originals/q041-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q042",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Child Noritoshi Kamo reaches for his mother’s hand as she quietly walks away from a traditional doorway. Two large gentle emotional faces, minimal background, modest plain clothing. An illustration of the actual difficult family memory; no abuse shown and no extra named characters. Character identity: Noritoshi Kamo: composed young man with straight black hair, narrow almost-closed eyes, traditional dark blue high-collar clothing. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"手、離さないよ。\" and \"歩幅はゆっくりね。\". Speaker association (DO NOT PRINT speaker names): 加茂 says \"手、離さないよ。\"; 母 says \"歩幅はゆっくりね。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q042-wide-v2.png",
+      "dialogue": [
+        [
+          "加茂",
+          "手、離さないよ。"
+        ],
+        [
+          "母",
+          "歩幅はゆっくりね。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-737d6245-6f5c-4a4b-864f-8bacabfc57d3.png",
+      "question_id": "q042",
+      "local_png": "originals/q042-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q043",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Tense confrontation on a crowded Shibuya subway platform. Left: stern adult Satoru Gojo, spiky white hair, black blindfold and black high-collar uniform, in side/back profile facing right. Right: serious Jogo (gray one-eyed volcano head, white scarf, ochre cape), Hanami (pale woodlike body, branch eyes), Choso (dark hair in two spiky bunches, purple eyes, horizontal black nose marking, layered white robe). They look at each other across a narrow gap, not toward viewer. A few pale anonymous civilian silhouettes. No friendly group photo or peace signs. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"間合い、近すぎ。\" and \"駅が狭いんじゃ！\". Speaker association (DO NOT PRINT speaker names): 五条 says \"間合い、近すぎ。\"; 漏瑚 says \"駅が狭いんじゃ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q043-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "間合い、近すぎ。"
+        ],
+        [
+          "漏瑚",
+          "駅が狭いんじゃ！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-4a1c978d-b09e-4afc-b9eb-2ac03fae72d9.png",
+      "question_id": "q043",
+      "local_png": "originals/q043-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q044",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A Shibuya station entrance packed with five large simple anonymous civilian silhouettes under a dark blue translucent curtain barrier. Bold overlapping shapes clearly convey congestion, friendly neutral expressions, no tiny crowds or readable station signage. Character identity:  Add exactly 1 Japanese dialogue captions, text strings ONLY: \"改札より先に進めない！\". Speaker association (DO NOT PRINT speaker names): 通行人 says \"改札より先に進めない！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q044-wide-v2.png",
+      "dialogue": [
+        [
+          "通行人",
+          "改札より先に進めない！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-2609c0a5-7f7f-468b-a7cf-87ac2104258c.png",
+      "question_id": "q044",
+      "local_png": "originals/q044-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q045",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A large close-up of Yuji’s face, pink hair and red hood, with a translucent symbolic Sukuna face with black markings behind one shoulder, illustrating two presences sharing one body. Clear distinction between Yuji and Sukuna, no literal fused flesh, horror, blood or text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Ryomen Sukuna in Yuji vessel appearance: spiky pink hair with black facial tattoo markings and red eyes; make inner presence visually separate from Yuji where both appear. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"ここは俺の席だ。\" and \"予約してないだろ！\". Speaker association (DO NOT PRINT speaker names): 宿儺 says \"ここは俺の席だ。\"; 虎杖 says \"予約してないだろ！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q045-wide-v2.png",
+      "dialogue": [
+        [
+          "宿儺",
+          "ここは俺の席だ。"
+        ],
+        [
+          "虎杖",
+          "予約してないだろ！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-3365fccb-f09f-4d53-9589-7ab3ccac2072.png",
+      "question_id": "q045",
+      "local_png": "originals/q045-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q046",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Gojo with white hair and black blindfold combines one bright blue energy orb and one bright red orb into a single large purple glow between his hands. His large upper body occupies the landscape; exactly three simple colored orbs form a triangle. No letters, equations or destructive background. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"青と赤で、むらさき。\" and \"図工の時間じゃない。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"青と赤で、むらさき。\"; ツッコミ says \"図工の時間じゃない。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q046-wide-v2.png",
+      "dialogue": [
+        [
+          "五条",
+          "青と赤で、むらさき。"
+        ],
+        [
+          "ツッコミ",
+          "図工の時間じゃない。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-6a2c7e22-e0d3-488e-b4e9-e7489cf234ea.png",
+      "question_id": "q046",
+      "local_png": "originals/q046-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q047",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Inumaki with high navy collar gestures reassuringly to a listening teammate shown as a plain navy shoulder silhouette. Two simple rice-ball ingredient icons float beside him: a salmon piece and one green leaf, representing meaningful safe communication. No letters, sound effects or speech bubbles. Character identity: Toge Inumaki: pale short spiky hair, very high zipped navy collar covering mouth, purple eyes. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"しゃけ！\" and \"献立の相談じゃないよね？\". Speaker association (DO NOT PRINT speaker names): 狗巻 says \"しゃけ！\"; 仲間 says \"献立の相談じゃないよね？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q047-wide-v2.png",
+      "dialogue": [
+        [
+          "狗巻",
+          "しゃけ！"
+        ],
+        [
+          "仲間",
+          "献立の相談じゃないよね？"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-b0ba4c9e-1fd3-48ba-b4eb-8c10eb7b96b2.png",
+      "question_id": "q047",
+      "local_png": "originals/q047-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q048",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Megumi runs urgently between two broad tree trunks while glancing back at a large simplified distant Hanami shape. Megumi’s spiky-haired face and upper body dominate. Simple green forest planes, no tiny branches, injuries or gore. Character identity: Megumi Fushiguro: spiky black hair, dark navy high-collar school uniform, serious expression. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"木が多すぎる！\" and \"近道のつもりだったのに。\". Speaker association (DO NOT PRINT speaker names): 伏黒 says \"木が多すぎる！\"; ツッコミ says \"近道のつもりだったのに。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q048-wide-v2.png",
+      "dialogue": [
+        [
+          "伏黒",
+          "木が多すぎる！"
+        ],
+        [
+          "ツッコミ",
+          "近道のつもりだったのに。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-22951225-1961-4092-8ed1-6e0957b3a2e7.png",
+      "question_id": "q048",
+      "local_png": "originals/q048-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q049",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mahito sneaks away holding one plain small wooden case with a wrapped dry talisman and three sealed jars visible, minimal school storeroom doorway. Large mischievous face and stolen case, no bloody relics, writing or labels. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Ryomen Sukuna in Yuji vessel appearance: spiky pink hair with black facial tattoo markings and red eyes; make inner presence visually separate from Yuji where both appear. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"こっそり、こっそり。\" and \"顔がにやけすぎ。\". Speaker association (DO NOT PRINT speaker names): 真人 says \"こっそり、こっそり。\"; ツッコミ says \"顔がにやけすぎ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q049-wide-v2.png",
+      "dialogue": [
+        [
+          "真人",
+          "こっそり、こっそり。"
+        ],
+        [
+          "ツッコミ",
+          "顔がにやけすぎ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-9644f984-039d-4842-ba3b-06101b4c6835.png",
+      "question_id": "q049",
+      "local_png": "originals/q049-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q050",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A cheerful school baseball scene with Yuji holding a bat down safely and Panda wearing a plain baseball glove, one oversized ball between them. Two large upper bodies and one simple green field line. No text or team logos. Character identity:  Yuji has short spiky pink hair, brown eyes, navy uniform with red hood. Panda is a large black-and-white anthropomorphic panda student. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"今日は平和に野球！\" and \"球速は平和じゃないぞ。\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"今日は平和に野球！\"; パンダ says \"球速は平和じゃないぞ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q050-wide-v2.png",
+      "dialogue": [
+        [
+          "虎杖",
+          "今日は平和に野球！"
+        ],
+        [
+          "パンダ",
+          "球速は平和じゃないぞ。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-2bb62d94-dadb-4f85-887c-6390ac253bae.png",
+      "question_id": "q050",
+      "local_png": "originals/q050-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q051",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Todo claps his two hands together confidently, while Yuji and a simplified Hanami appear on opposite sides of one broad looped blue arrow to show tactical swapping of positions. Todo’s and Yuji’s faces large, three figures total, no small diagrams, letters or combat impact injuries. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Aoi Todo: muscular broad-shouldered young man, dark hair tied up, distinctive scar along left forehead and cheek. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"こっちだ、ブラザー！\" and \"さっきはあっち！\". Speaker association (DO NOT PRINT speaker names): 東堂 says \"こっちだ、ブラザー！\"; 虎杖 says \"さっきはあっち！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q051-wide-v2.png",
+      "dialogue": [
+        [
+          "東堂",
+          "こっちだ、ブラザー！"
+        ],
+        [
+          "虎杖",
+          "さっきはあっち！"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-4d0ae292-2afc-4d96-b0de-8521bf239fee.png",
+      "question_id": "q051",
+      "local_png": "originals/q051-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q052",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Yaga explains exchange-event safety rules with a calm raised stop palm and a simple universal red prohibition circle over two crossed training sticks. His face and stop palm dominate. A clear educational symbol of banning lethal harm, no weapons aimed at people, no text, gore or actual killing. Character identity: Masamichi Yaga: broad build, short black spiked hair, dark sunglasses and short chin beard, dark jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"安全第一だ。\" and \"先生の圧が第一。\". Speaker association (DO NOT PRINT speaker names): 夜蛾 says \"安全第一だ。\"; ツッコミ says \"先生の圧が第一。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q052-wide-v2.png",
+      "dialogue": [
+        [
+          "夜蛾",
+          "安全第一だ。"
+        ],
+        [
+          "ツッコミ",
+          "先生の圧が第一。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-59e8f2a6-084a-4308-8969-f87a0551abce.png",
+      "question_id": "q052",
+      "local_png": "originals/q052-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
+    },
+    {
+      "id": "q053",
+      "version": 2,
+      "backend": "builtin imagegen",
+      "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Hanami uses one large flowing tree root to block focused Yuji and Todo, a simple dynamic triangular layout. Hanami pale face with branch eyes large, Yuji red hood and Todo hair topknot clearly visible. Stylized nature magic, no injuries, tangled tiny roots or gore. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Hanami: large pale beige nature curse with black markings and woody antler-like branches over eyes, simplified nonfrightening design. Todo is muscular, with black hair tied up, a scar down his left forehead and cheek, dark trousers. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"根っこまで来た！\" and \"園芸の規模じゃないな。\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"根っこまで来た！\"; 東堂 says \"園芸の規模じゃないな。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+      "source_png": "originals/q053-wide-v2.png",
+      "dialogue": [
+        [
+          "虎杖",
+          "根っこまで来た！"
+        ],
+        [
+          "東堂",
+          "園芸の規模じゃないな。"
+        ]
+      ],
+      "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-e2aeac3e-b6ec-4a30-ba1f-4302e9e61bd8.png",
+      "question_id": "q053",
+      "local_png": "originals/q053-wide-v2.png",
+      "revision": "wide-dialogue-v2",
+      "adopted": true
     }
   ],
   "migration": {

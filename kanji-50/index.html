@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="呪術廻戦・ヒロアカから選ぶ、イラスト付きの漢字53問。指・ペン・マウスで手書きして、採点と復習ができます。">
   <title>漢字のものがたり｜手書き53問</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=wide-dialogue-2">
   <script defer src="core.js?v=target-kanji-1"></script>
-  <script defer src="question-bank.js?v=target-kanji-1"></script>
+  <script defer src="question-bank.js?v=wide-dialogue-2"></script>
   <script defer src="vendor/kanji-canvas.js"></script>
   <script defer src="vendor/ref-patterns.js"></script>
   <script defer src="ink-pad.js"></script>
-  <script defer src="app.js?v=target-kanji-1"></script>
+  <script defer src="app.js?v=wide-dialogue-2"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">学習画面へ</a>
@@ -28,7 +28,7 @@
         <form id="settings" class="setup-card">
           <fieldset class="course-fieldset"><legend><span class="step">01</span> どちらの物語で学ぶ？</legend>
             <div class="course-grid">
-              <label class="course-option selected" data-theme="violet"><input type="radio" name="course" value="jujutsu-kaisen" checked><span class="course-copy"><span class="course-tag">呪術師たちの物語</span><strong>呪術廻戦</strong><span class="course-count">32漢字 · 53問</span><small class="course-progress" id="progress-jujutsu-kaisen"></small></span><img src="jujutsu-kaisen/exports/v1/webp/q001.webp" width="140" height="140" alt="呪術廻戦の教材イラスト"><span class="selection-mark" aria-hidden="true">✓</span></label>
+              <label class="course-option selected" data-theme="violet"><input type="radio" name="course" value="jujutsu-kaisen" checked><span class="course-copy"><span class="course-tag">呪術師たちの物語</span><strong>呪術廻戦</strong><span class="course-count">32漢字 · 53問</span><small class="course-progress" id="progress-jujutsu-kaisen"></small></span><img src="jujutsu-kaisen/exports/v2/webp/q001.webp" width="150" height="100" alt="呪術廻戦の教材イラスト"><span class="selection-mark" aria-hidden="true">✓</span></label>
               <label class="course-option" data-theme="green"><input type="radio" name="course" value="my-hero-academia"><span class="course-copy"><span class="course-tag">ヒーローたちの物語</span><strong><small>僕のヒーローアカデミア</small>ヒロアカ</strong><span class="course-count">32漢字 · 53問</span><small class="course-progress" id="progress-my-hero-academia"></small></span><img src="my-hero-academia/exports/v1/webp/q002.webp" width="140" height="140" alt="ヒロアカの教材イラスト"><span class="selection-mark" aria-hidden="true">✓</span></label>
             </div>
           </fieldset>
@@ -52,7 +52,7 @@
         <div class="results-heading"><h2>答えをたしかめよう</h2><label class="filter"><input id="wrong-only" type="checkbox">復習する問題だけ</label></div><div id="result-list" class="result-list"></div>
       </section>
     </main>
-    <footer><p id="storage-status">回答はこの端末に自動保存されます。</p><p>手書きの候補で確定した文字を採点します。字形・書き順の採点は行いません。</p><p class="footer-links"><a href="jujutsu-kaisen/exports/v1/index.html">呪術廻戦の教材一覧</a><a href="my-hero-academia/exports/v1/index.html">ヒロアカの教材一覧</a><a href="vendor/LICENSE.txt">手書き認識：Kanji Canvas / MIT</a></p></footer>
+    <footer><p id="storage-status">回答はこの端末に自動保存されます。</p><p>手書きの候補で確定した文字を採点します。字形・書き順の採点は行いません。</p><p class="footer-links"><a href="jujutsu-kaisen/exports/v2/index.html">呪術廻戦の教材一覧</a><a href="my-hero-academia/exports/v1/index.html">ヒロアカの教材一覧</a><a href="vendor/LICENSE.txt">手書き認識：Kanji Canvas / MIT</a></p></footer>
   </div>
   <dialog id="grade-dialog" aria-labelledby="grade-dialog-title"><h2 id="grade-dialog-title">ここまでの回答を採点しますか？</h2><p id="grade-message"></p><p class="small muted">採点後は、まちがえた問題を復習できます。</p><div class="dialog-actions"><button id="cancel-grade" class="outline" type="button">回答にもどる</button><button id="confirm-grade" class="primary" type="button">採点する</button></div></dialog>
   <dialog id="restart-dialog" aria-labelledby="restart-dialog-title"><h2 id="restart-dialog-title">はじめから53問に挑戦する？</h2><p>この作品の途中の回答を、新しいテストに置き換えます。</p><div class="dialog-actions"><button id="cancel-restart" class="outline" type="button">つづきを解く</button><button id="confirm-restart" class="primary" type="button">はじめから</button></div></dialog>

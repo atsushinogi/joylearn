@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "checks": [
+    "four viewport widths",
+    "53 app images",
+    "gallery and redirect",
+    "saved answer and position",
+    "course switch",
+    "root navigation",
+    "320px cover fits without cropping",
+    "touch stroke and clear"
+  ],
+  "results": [
+    {
+      "width": 1280,
+      "image": {
+        "width": 360,
+        "height": 240
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "image": {
+        "width": 308.5,
+        "height": 205.65625
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "image": {
+        "width": 308,
+        "height": 205.328125
+      },
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "image": {
+        "width": 250,
+        "height": 166.65625
+      },
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "coverAt320": {
+    "cardWidth": 123,
+    "imageWidth": 93,
+    "imageHeight": 62,
+    "inside": true
+  }
+}

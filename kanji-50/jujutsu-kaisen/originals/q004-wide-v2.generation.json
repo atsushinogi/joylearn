@@ -1,0 +1,19 @@
+{
+  "id": "q004",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Edit this image. Keep the entire illustration, characters, poses, colors, scene, and landscape 3:2 canvas. Remove ALL text currently in the image, especially the extra narrator explanation along the BOTTOM. Replace text with ONLY these TWO exact Japanese lines: \"等級、壊れてません？\" and \"私に聞くなよ。\". Use large bold Japanese text with white outline, one near each appropriate speaking character. DO NOT write speaker names or prefixes. DO NOT include any narrator commentary, explanation, other text, speech balloons or boxes. Keep the image bottom free of all extra text. For first line speaker is 三輪 and second 真希. NO WORKSHEET ANSWER TEXT.",
+  "source_png": "originals/q004-wide-v2.png",
+  "dialogue": [
+    [
+      "三輪",
+      "等級、壊れてません？"
+    ],
+    [
+      "真希",
+      "私に聞くなよ。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-06de27bb-0180-47bc-9fe1-79fb08881eec.png",
+  "edit_reference": "originals/q004-wide-v2-initial.png"
+}

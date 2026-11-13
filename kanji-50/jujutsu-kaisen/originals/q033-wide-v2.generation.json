@@ -1,0 +1,18 @@
+{
+  "id": "q033",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nobara confidently holds a straw doll and small hammer, sending one harmless symbolic purple pulse along two broad strands toward separate chibi portraits of Eso and Kechizu. Three large faces in triangular composition, make both brothers distinct. Represent the shared blood connection symbolically with purple energy; no needles in skin, blood, wounds or gore. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Eso: purple swept-up hair, black angular facial markings, bold purple-black sleeveless outfit, fully covered child-friendly adaptation. Kechizu: round green-blue curse with dark markings and round eyes, simplified cute nonfrightening design. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"そっちにも届くわよ！\" and \"電波よりつながる。\". Speaker association (DO NOT PRINT speaker names): 釘崎 says \"そっちにも届くわよ！\"; ツッコミ says \"電波よりつながる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q033-wide-v2.png",
+  "dialogue": [
+    [
+      "釘崎",
+      "そっちにも届くわよ！"
+    ],
+    [
+      "ツッコミ",
+      "電波よりつながる。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-1faf7aec-2570-4efb-af3e-95257076defe.png"
+}

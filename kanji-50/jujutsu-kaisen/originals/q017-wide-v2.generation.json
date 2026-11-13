@@ -1,0 +1,18 @@
+{
+  "id": "q017",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Nanami thoughtfully explains his experience of work and sorcery to attentive Yuji. The beige suit, red hood, and a single briefcase clearly readable. Calm two-person half-length composition, no text. Character identity: Yuji Itadori: short spiky pink hair, brown eyes, dark navy school jacket with red hood. Kento Nanami: neatly side-parted blond hair, tinted rectangular glasses, beige suit, blue shirt and spotted yellow tie. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"仕事は仕事です。\" and \"名言っぽいの来た！\". Speaker association (DO NOT PRINT speaker names): 七海 says \"仕事は仕事です。\"; 虎杖 says \"名言っぽいの来た！\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q017-wide-v2.png",
+  "dialogue": [
+    [
+      "七海",
+      "仕事は仕事です。"
+    ],
+    [
+      "虎杖",
+      "名言っぽいの来た！"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-00cc14e4-31e2-4122-8f09-e7715516c2ba.png"
+}

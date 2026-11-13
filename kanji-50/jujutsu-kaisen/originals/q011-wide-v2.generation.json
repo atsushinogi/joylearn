@@ -1,0 +1,14 @@
+{
+  "id": "q011",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A simple Shibuya station entrance under one dark translucent curtain barrier, a small group of three faceless civilian silhouettes behind it, single large visual barrier as the focal object. No writing or signage. Character identity:  Add exactly 1 Japanese dialogue captions, text strings ONLY: \"駅なのに、出口どこ？\". Speaker association (DO NOT PRINT speaker names): 通行人 says \"駅なのに、出口どこ？\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 1 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q011-wide-v2.png",
+  "dialogue": [
+    [
+      "通行人",
+      "駅なのに、出口どこ？"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-179b98f7-d2aa-4e2d-aa92-44279c1d2e25.png"
+}

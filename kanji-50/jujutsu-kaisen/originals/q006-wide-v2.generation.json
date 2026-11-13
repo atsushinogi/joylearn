@@ -1,0 +1,18 @@
+{
+  "id": "q006",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Mahito curiously studies a single translucent glowing blue soul-shaped orb hovering above his palm, thoughtful expression, abstract backdrop. Symbolic visualization of his interest in souls; no human experimentation, victims or altered bodies. Character identity: Mahito: long gray-blue hair with stitches across face, one pale blue and one gray eye, dark patchwork top, nonfrightening chibi. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"これ、ぷにぷにかな？\" and \"ゼリーの感想か。\". Speaker association (DO NOT PRINT speaker names): 真人 says \"これ、ぷにぷにかな？\"; ツッコミ says \"ゼリーの感想か。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q006-wide-v2.png",
+  "dialogue": [
+    [
+      "真人",
+      "これ、ぷにぷにかな？"
+    ],
+    [
+      "ツッコミ",
+      "ゼリーの感想か。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-c77434e2-c45f-4873-b6a8-d7a931320de9.png"
+}

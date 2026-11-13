@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "count": 53,
+  "dimensions": [
+    600,
+    400
+  ],
+  "checks": [
+    "53 image/question/dialogue associations",
+    "3:2 originals",
+    "PNG/WebP decoded pixel equality",
+    "dialogue excludes target kanji",
+    "ZIP contents and bytes",
+    "individual visual reviews"
+  ],
+  "visual_review": "../../review/wide-image-check.json"
+}

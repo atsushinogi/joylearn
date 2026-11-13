@@ -1,0 +1,18 @@
+{
+  "id": "q020",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Momo earnestly defends Mai while speaking with Nobara. Momo and Nobara are large foreground half-length portraits, one small symbolic green-haired Mai portrait behind Momo to clarify who she supports; broom upright. No text or speech bubbles. Character identity: Nobara Kugisaki: short orange-brown bob, dark navy buttoned school jacket, confident expression. Momo Nishimiya: small young woman with blonde hair in two high round side buns, dark uniform, broom. Mai Zenin: short straight dark green hair, no glasses, navy school uniform. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"最後まで聞いて！\" and \"ほうきまで熱くなってる。\". Speaker association (DO NOT PRINT speaker names): 西宮 says \"最後まで聞いて！\"; 釘崎 says \"ほうきまで熱くなってる。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q020-wide-v2.png",
+  "dialogue": [
+    [
+      "西宮",
+      "最後まで聞いて！"
+    ],
+    [
+      "釘崎",
+      "ほうきまで熱くなってる。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-1a86f20b-ca39-4eb2-b7de-bda0a7da6f96.png"
+}

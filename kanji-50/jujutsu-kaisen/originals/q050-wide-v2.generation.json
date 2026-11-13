@@ -1,0 +1,18 @@
+{
+  "id": "q050",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: A cheerful school baseball scene with Yuji holding a bat down safely and Panda wearing a plain baseball glove, one oversized ball between them. Two large upper bodies and one simple green field line. No text or team logos. Character identity:  Yuji has short spiky pink hair, brown eyes, navy uniform with red hood. Panda is a large black-and-white anthropomorphic panda student. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"今日は平和に野球！\" and \"球速は平和じゃないぞ。\". Speaker association (DO NOT PRINT speaker names): 虎杖 says \"今日は平和に野球！\"; パンダ says \"球速は平和じゃないぞ。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q050-wide-v2.png",
+  "dialogue": [
+    [
+      "虎杖",
+      "今日は平和に野球！"
+    ],
+    [
+      "パンダ",
+      "球速は平和じゃないぞ。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-2bb62d94-dadb-4f85-887c-6390ac253bae.png"
+}

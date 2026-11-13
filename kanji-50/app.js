@@ -148,7 +148,10 @@
     $('session-label').textContent = `${course.title} · ${session.mode === 'review' ? 'まちがえた問題の復習' : '漢字53問の書き取り'}`;
     $('position').textContent = `第${session.current + 1}問 / ${session.ids.length}問`;
     $('source-label').textContent = `教材の問${q.number}`;
-    $('scene-image').alt = `教材の問${q.number}に対応する場面イラスト`;
+    $('scene-image').alt = `教材の問${q.number}に対応する場面イラスト${q.imageDialogue ? '。' + q.imageDialogue : ''}`;
+    $('scene-image').width = q.imageWidth || 200;
+    $('scene-image').height = q.imageHeight || 200;
+    $('scene-image').parentElement.classList.toggle('has-wide-image', q.imageWidth > q.imageHeight);
     $('scene-image').hidden = false;
     $('scene-image').onerror = () => { $('scene-image').hidden = true; };
     $('scene-image').src = q.image;

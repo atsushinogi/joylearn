@@ -1,0 +1,18 @@
+{
+  "id": "q029",
+  "version": 2,
+  "backend": "builtin imagegen",
+  "prompt": "Use case: illustration-story. Asset type: ONE Jujutsu Kaisen kanji learning illustration. Create a LANDSCAPE 3:2 image, 1536x1024. Consistent cute expressive chibi anime, bold dark contours, simple flat cel shading, gentle saturated colors. Large recognizable faces, waist-up framing, simple sparse background. Scene: Awakened teenage Gojo from the 2006 flashback, white hair, uncovered bright blue eyes, black fitted short-sleeved top and pale trousers, raises one hand toward the sky in his iconic serene enlightenment pose. One faint warm lotus-shaped glow only as an educational symbol of the phrase’s Buddhist connection, not a transformation into a deity. No religious writing. Character identity: Satoru Gojo as adult teacher unless the scene says student: spiky white hair, black blindfold, black high-collar jacket. Add exactly 2 Japanese dialogue captions, text strings ONLY: \"空、広いなあ。\" and \"感想が急に遠足。\". Speaker association (DO NOT PRINT speaker names): 五条 says \"空、広いなあ。\"; ツッコミ says \"感想が急に遠足。\". Render each text ONCE only, directly on the artwork beside the appropriate character in large bold Japanese lettering with a white outline, clear of faces, safe margins. NO speech balloons, boxes, tails, speaker labels, headings, explanations, extra commentary, narrator text, other text, numbers, logos or watermark. Only the exact supplied 2 strings may appear. The captions are invented educational parody dialogue, not original canon quotes. Dialogue requirements override old no-text notes in scene description. Landscape 3:2 composition, opaque background. Do not print the kanji worksheet question or answer. NO EXTRA TEXT AT BOTTOM.",
+  "source_png": "originals/q029-wide-v2.png",
+  "dialogue": [
+    [
+      "五条",
+      "空、広いなあ。"
+    ],
+    [
+      "ツッコミ",
+      "感想が急に遠足。"
+    ]
+  ],
+  "tool_original_png": "/root/.codex/generated_images/01a1bf5d-f2d1-7d03-9123-e979d5aa2840/exec-3c760e8e-2d31-4b25-bcc5-35b981e04e2d.png"
+}
