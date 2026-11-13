@@ -1,7 +1,7 @@
 {
  "host": "netftp.asahi-net.or.jp",
  "remote": "homepage",
- "updated": "2026-11-13T07:37:56+00:00",
+ "updated": "2026-11-13T09:44:31+00:00",
  "files": {
   "ascii-art/ascii-core.js": {
    "size": 6597,
@@ -48,8 +48,8 @@
    "sha256": "e1770a3f32ce18cc1c0eff67c539e663a3e2b0437172bde66abc3336aedf06c7"
   },
   "index.html": {
-   "size": 28021,
-   "sha256": "5cb892beecb9b1a743b5a4b6e7978043e531e9edd7614860fb0f365f8d86bec7"
+   "size": 26970,
+   "sha256": "7d83e9a8239ab9f29d3bc2bb3648471a30584d69955adf0316029c2b89b0a98a"
   },
   "kanji-50/app.js": {
    "size": 14863,
