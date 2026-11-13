@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Preview or upload website files, with optional Pokemon PNG cleanup."""
+"""Preview or upload website files changed since the last upload, with optional cleanup."""
 import argparse
+import datetime
 import ftplib
 import getpass
+import hashlib
+import json
 import re
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -11,6 +14,8 @@ ROOT = Path(__file__).resolve().parent
 HOST = "netftp.asahi-net.or.jp"
 USER = "fk5a-ng"
 REMOTE = "homepage"
+# Paths, sizes and SHA256 of the files last uploaded; the leading dot keeps it off the server.
+MANIFEST = ROOT / ".ftp-manifest.json"
 WEB_EXTENSIONS = {".html", ".htm", ".js", ".css"}
 ASSET_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".svg", ".ico",
@@ -73,33 +78,102 @@ def public_files(root):
     return sorted(selected)
 
 
+def file_record(path):
+    digest = hashlib.sha256()
+    with path.open("rb") as content:
+        for chunk in iter(lambda: content.read(1 << 20), b""):
+            digest.update(chunk)
+    return {"size": path.stat().st_size, "sha256": digest.hexdigest()}
+
+
+def load_manifest():
+    if not MANIFEST.exists():
+        return None
+    return json.loads(MANIFEST.read_text(encoding="utf-8"))["files"]
+
+
+def save_manifest(records):
+    data = {"host": HOST, "remote": REMOTE,
+            "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+            "files": dict(sorted(records.items()))}
+    temporary = MANIFEST.with_suffix(".tmp")
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    temporary.replace(MANIFEST)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--upload", action="store_true", help="connect and upload files")
+    parser.add_argument("--full", action="store_true",
+                        help="upload every public file instead of only files changed since the last upload")
+    parser.add_argument("--delete-removed", action="store_true",
+                        help="with --upload, delete remote files recorded in the manifest that are no longer public")
+    parser.add_argument("--record-only", action="store_true",
+                        help="write the manifest from the current files without connecting (server already matches)")
+    parser.add_argument("--list", action="store_true", help="print every selected file")
     parser.add_argument("--tls", action="store_true", help="use explicit FTPS if supported")
     parser.add_argument("--delete-obsolete-pokemon-png", action="store_true",
-                        help="after upload, delete old Pokemon PNGs replaced by local WebP files")
+                        help="after upload, delete old Pokemon PNGs replaced by local WebP files (implies --full)")
     parser.add_argument("--delete-obsolete-pokemon-raster", action="store_true",
-                        help="after SVG upload, delete matching old Pokemon PNG and WebP files")
+                        help="after SVG upload, delete matching old Pokemon PNG and WebP files (implies --full)")
     args = parser.parse_args()
-    if (args.delete_obsolete_pokemon_png or args.delete_obsolete_pokemon_raster) and not args.upload:
+    pokemon_cleanup = args.delete_obsolete_pokemon_png or args.delete_obsolete_pokemon_raster
+    if pokemon_cleanup and not args.upload:
         parser.error("Pokemon image cleanup requires --upload")
+    if args.delete_removed and not args.upload:
+        parser.error("--delete-removed requires --upload")
+    if args.record_only and args.upload:
+        parser.error("--record-only cannot be combined with --upload")
+    if pokemon_cleanup:
+        args.full = True  # Cleanup runs per uploaded file, so every file must be sent.
+
     files = public_files(ROOT)
+    records = {path.relative_to(ROOT).as_posix(): file_record(path) for path in files}
+    previous = load_manifest()
     print(f"Destination: {HOST}/{REMOTE}/")
-    for path in files:
+    if args.record_only:
+        save_manifest(records)
+        print(f"Recorded {len(records)} files in {MANIFEST.name}. Nothing was uploaded.")
+        return
+    if args.full or previous is None:
+        if previous is None and not args.full:
+            print(f"No {MANIFEST.name} yet: every file will be uploaded.")
+        changed = list(files)
+    else:
+        changed = [path for path in files
+                   if previous.get(path.relative_to(ROOT).as_posix()) != records[path.relative_to(ROOT).as_posix()]]
+    removed = sorted(set(previous or {}) - set(records))
+    for path in (files if args.list else changed):
         print(f"  {path.relative_to(ROOT).as_posix()} ({path.stat().st_size} bytes)")
-    print(f"{len(files)} files. Remote files will not be deleted by default.")
+    print(f"{len(files)} public files; {len(changed)} to upload.")
+    if removed:
+        action = "will be deleted" if args.delete_removed else "are no longer public (add --delete-removed to delete them)"
+        print(f"{len(removed)} previously uploaded files {action}:")
+        for name in removed:
+            print(f"  - {name}")
     if not args.upload:
         print("Preview only. Run with --upload to transfer these files.")
         return
+    if not changed and not (args.delete_removed and removed):
+        print("Nothing to upload.")
+        return
     password = getpass.getpass(f"FTP password for {USER}: ")
     client_type = ftplib.FTP_TLS if args.tls else ftplib.FTP
-    with client_type(timeout=30) as ftp:
-        ftp.connect(HOST, 21)
-        ftp.login(USER, password)
+
+    def connect():
+        client = client_type(timeout=60)
+        client.connect(HOST, 21)
+        client.login(USER, password)
         if args.tls:
-            ftp.prot_p()
-        ftp.cwd(REMOTE)
+            client.prot_p()
+        client.cwd(REMOTE)
+        return client
+
+    # Start from the last manifest and record each confirmed upload, so an
+    # interrupted run resumes with only the files that were not sent yet.
+    uploaded = dict(previous or {})
+    ftp = connect()
+    try:
         base = ftp.pwd()
         old_pokemon_rasters = set()
         if args.delete_obsolete_pokemon_png or args.delete_obsolete_pokemon_raster:
@@ -113,18 +187,36 @@ def main():
                     if name.lower().endswith((".png", ".webp"))
                 }
                 ftp.cwd(base)
-        for path in files:
+        for number, path in enumerate(changed, 1):
             relative = path.relative_to(ROOT)
-            ftp.cwd(base)
-            for part in relative.parts[:-1]:
+            key = relative.as_posix()
+            for attempt in range(5):
                 try:
-                    ftp.cwd(part)
-                except ftplib.error_perm:
-                    ftp.mkd(part)
-                    ftp.cwd(part)
-            with path.open("rb") as source:
-                ftp.storbinary(f"STOR {relative.name}", source)
-            print(f"Uploaded: {relative.as_posix()}")
+                    ftp.cwd(base)
+                    for part in relative.parts[:-1]:
+                        try:
+                            ftp.cwd(part)
+                        except ftplib.error_perm:
+                            ftp.mkd(part)
+                            ftp.cwd(part)
+                    with path.open("rb") as source:
+                        ftp.storbinary(f"STOR {relative.name}", source)
+                    if ftp.size(relative.name) != records[key]["size"]:
+                        raise SystemExit(f"Size mismatch after upload: {key}")
+                    break
+                except (OSError, EOFError, ftplib.error_temp) as error:
+                    if attempt == 4:
+                        raise
+                    print(f"Retrying {key} after {type(error).__name__}")
+                    try:
+                        ftp.close()
+                    except OSError:
+                        pass
+                    ftp = connect()
+            uploaded[key] = records[key]
+            if number % 50 == 0:
+                save_manifest(uploaded)
+            print(f"Uploaded ({number}/{len(changed)}): {key}")
             if (args.delete_obsolete_pokemon_png
                     and path.parent == ROOT / "poketyping/pokemon_images"
                     and path.suffix == ".webp"):
@@ -144,6 +236,30 @@ def main():
                             ftp.delete(old_name)
                             print(f"Deleted obsolete: poketyping/pokemon_images/{old_name}")
                     ftp.cwd(base)
+        if args.delete_removed:
+            emptied = set()
+            for name in removed:
+                try:
+                    ftp.delete(f"{base}/{name}")
+                    print(f"Deleted removed file: {name}")
+                except ftplib.error_perm as error:
+                    print(f"Could not delete {name}: {error}")
+                    continue
+                uploaded.pop(name, None)
+                emptied.update(str(parent) for parent in Path(name).parents if str(parent) != ".")
+            for folder in sorted(emptied, key=lambda name: name.count("/"), reverse=True):
+                try:
+                    ftp.rmd(f"{base}/{folder}")
+                    print(f"Removed empty folder: {folder}")
+                except ftplib.error_perm:
+                    pass  # The folder still holds other files.
+    finally:
+        save_manifest(uploaded)
+        try:
+            ftp.quit()
+        except (OSError, EOFError, ftplib.Error):
+            ftp.close()
+    print(f"Done. {MANIFEST.name} records {len(uploaded)} uploaded files.")
 
 
 if __name__ == "__main__":

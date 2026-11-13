@@ -28,11 +28,13 @@ python3 poketyping/deploy_pokemon_svg_ftp.py --cleanup-old
 python3 ftp-sync.py --upload
 ```
 
-毎回対象ファイルをすべて転送し、同名のファイルを上書きします。サーバー側だけにあるファイルは削除しません。サーバーからの取り込みは行いません。
+前回のアップロード以降に追加・変更されたファイルだけを転送し、同名のファイルを上書きします。前回転送したファイルのパス・サイズ・SHA256は `.ftp-manifest.json` に記録します（ドットで始まるため転送されません）。全件を送る場合は `--full`、公開対象から外れたファイルをサーバーから削除する場合は `--delete-removed` を付けます。`--delete-removed` がなければサーバー側のファイルは削除しません。サーバーからの取り込みは行いません。オプションの一覧は README.md を参照してください。
+
+`ftp-sync.py` 以外でサーバーを変更した後は、記録と実際がずれるため `--upload --full` で転送してください。
 
 ## トップページだけをアップロードする
 
-`ftp-sync.py --upload` は全対象ファイルを転送します。`index.html` だけを更新する場合は、リポジトリのルートで次を実行します。パスワードは端末で入力し、コマンドやファイルには書き込みません。
+`ftp-sync.py --upload` でも、変更が `index.html` だけならその1ファイルだけを転送します。スクリプトを使わずに `index.html` だけを更新する場合は、リポジトリのルートで次を実行します。パスワードは端末で入力し、コマンドやファイルには書き込みません。
 
 ```sh
 python3 - <<'PY'
@@ -82,7 +84,7 @@ python3 ftp-sync.py --upload --delete-obsolete-pokemon-raster
 
 lesson 4の制作記録（`icon-production/`）、旧版（`icon-assets/backups/`）、形式比較ページ（`icon-assets/comparison.html`）はFTP同期の対象外です。PNGやZIPの転送は不要です。これらのローカルファイルは保存したままです。
 
-`ftp-sync.py --upload` は、lesson 4だけでなくリポジトリ全体の公開対象を転送します。
+`ftp-sync.py --upload` は、lesson 4だけでなくリポジトリ全体で前回から変更された公開対象を転送します。
 
 ## 歴史クイズ lesson 6
 
@@ -90,4 +92,4 @@ lesson 4の制作記録（`icon-production/`）、旧版（`icon-assets/backups/
 
 lesson 6の制作記録（`icon-production/`）、旧版（`icon-assets/backups/`）、形式比較ページ（`icon-assets/comparison.html`）はFTP同期の対象外です。PNGとZIPはローカルの書き出しとして保存し、FTPへは転送しません。
 
-`ftp-sync.py --upload` は、lesson 6だけでなくリポジトリ全体の公開対象を転送します。lesson 6だけの転送には、制作記録の `deployments/` に保存された対象183ファイル限定の手順とマニフェストを使えます。画像を先に、参照データとページを最後に転送し、公開URLから全ファイルのSHA256を照合します。
+`ftp-sync.py --upload` は、lesson 6だけでなくリポジトリ全体で前回から変更された公開対象を転送します。lesson 6だけの転送には、制作記録の `deployments/` に保存された対象183ファイル限定の手順とマニフェストを使えます。画像を先に、参照データとページを最後に転送し、公開URLから全ファイルのSHA256を照合します。
