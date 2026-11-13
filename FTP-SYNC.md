@@ -71,3 +71,19 @@ python3 ftp-sync.py --upload --delete-obsolete-pokemon-raster
 転送対象はHTML・JavaScript（`.js`）・CSSと、そこから参照される画像・フォント・JSONなどの公開用ファイルです。動的に組み立てるパスは自動検出できません。README、Markdown・Word文書、開発用のPython・CommonJSスクリプト、未参照のJSONは転送しません。ドットで始まるファイル・ディレクトリ、`__pycache__`、シンボリックリンクも対象外です。詳細は README.md を参照してください。
 
 `ftp-sync.py` には `--tls` オプションがありますが、上記のとおり現在の接続先では明示的FTPSを利用できません。
+
+## 歴史クイズ lesson 4
+
+全45問×4択の画像は `quiz/social-studies-2-lesson4/icon-assets/webp-148/` の180枚のWebPを参照します。初回の切り替えでは、同じlesson 4配下の `index.html`、`quiz-data.js`、`icons.js` とWebP180枚を転送します。参照するファイル名が同じ画像の更新では、該当するWebPの上書きで更新できます。
+
+lesson 4の制作記録（`icon-production/`）、旧版（`icon-assets/backups/`）、形式比較ページ（`icon-assets/comparison.html`）はFTP同期の対象外です。PNGやZIPの転送は不要です。これらのローカルファイルは保存したままです。
+
+`ftp-sync.py --upload` は、lesson 4だけでなくリポジトリ全体の公開対象を転送します。
+
+## 歴史クイズ lesson 6
+
+全45問×4択の画像は `quiz/social-studies-2-lesson6/icon-assets/webp-148/` の180枚のWebPを参照します。初回の切り替えでは、同じlesson 6配下の `index.html`、`quiz-data.js`、`icons.js` とWebP180枚を転送します。同じファイル名で画像を更新する場合は、該当するWebPを上書きします。
+
+lesson 6の制作記録（`icon-production/`）、旧版（`icon-assets/backups/`）、形式比較ページ（`icon-assets/comparison.html`）はFTP同期の対象外です。PNGとZIPはローカルの書き出しとして保存し、FTPへは転送しません。
+
+`ftp-sync.py --upload` は、lesson 6だけでなくリポジトリ全体の公開対象を転送します。lesson 6だけの転送には、制作記録の `deployments/` に保存された対象183ファイル限定の手順とマニフェストを使えます。画像を先に、参照データとページを最後に転送し、公開URLから全ファイルのSHA256を照合します。

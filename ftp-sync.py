@@ -21,12 +21,22 @@ ASSET_EXTENSIONS = {
 
 def public_files(root):
     root = root.resolve()
+    # Lesson 4/6 production records, backups and format comparisons stay local.
+    local_only = {
+        root / "quiz/social-studies-2-lesson4/icon-production",
+        root / "quiz/social-studies-2-lesson4/icon-assets/backups",
+        root / "quiz/social-studies-2-lesson4/icon-assets/comparison.html",
+        root / "quiz/social-studies-2-lesson6/icon-production",
+        root / "quiz/social-studies-2-lesson6/icon-assets/backups",
+        root / "quiz/social-studies-2-lesson6/icon-assets/comparison.html",
+    }
     candidates = {
         p for p in root.rglob("*")
         if p.is_file()
         and not any(part.startswith(".") or part == "__pycache__"
                     for part in p.relative_to(root).parts)
         and not any(part.is_symlink() for part in (p, *p.parents))
+        and not any(path == p or path in p.parents for path in local_only)
     }
     selected = {p for p in candidates if p.suffix.lower() in WEB_EXTENSIONS}
     pending = list(selected)

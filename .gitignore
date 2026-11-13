@@ -238,6 +238,14 @@ __marimo__/
 # Lesson 10 icon production files
 /quiz/social-studies-2-lesson10/icon-production/
 
+# Lesson 4 local icon production records and previous exports
+/quiz/social-studies-2-lesson4/icon-production/
+/quiz/social-studies-2-lesson4/icon-assets/backups/
+
+# Lesson 6 local icon production records and previous exports
+/quiz/social-studies-2-lesson6/icon-production/
+/quiz/social-studies-2-lesson6/icon-assets/backups/
+
 # ZIP archives
 *.zip
 
@@ -252,3 +260,9 @@ __marimo__/
 
 # Track the WebP icons used by the lesson 10 quiz
 !/quiz/social-studies-2-lesson10/icon-assets/webp-148/*.webp
+
+# Track the WebP icons used by the lesson 4 quiz
+!/quiz/social-studies-2-lesson4/icon-assets/webp-148/*.webp
+
+# Track the WebP icons used by the lesson 6 quiz
+!/quiz/social-studies-2-lesson6/icon-assets/webp-148/*.webp
