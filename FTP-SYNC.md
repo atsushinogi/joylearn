@@ -72,6 +72,10 @@ python3 ftp-sync.py --upload --delete-obsolete-pokemon-raster
 
 `ftp-sync.py` には `--tls` オプションがありますが、上記のとおり現在の接続先では明示的FTPSを利用できません。
 
+## 漢字50 呪術廻戦
+
+`kanji-50/jujutsu-kaisen/exports/v2/png/` のPNG53枚はFTP同期の対象外です。問題画面と一覧ページの表示は同じフォルダの `webp/` を使います。一覧ページ（`exports/v2/index.html`）の「PNG」ダウンロードリンクは、公開先ではPNGがないため開けません。
+
 ## 歴史クイズ lesson 4
 
 全45問×4択の画像は `quiz/social-studies-2-lesson4/icon-assets/webp-148/` の180枚のWebPを参照します。初回の切り替えでは、同じlesson 4配下の `index.html`、`quiz-data.js`、`icons.js` とWebP180枚を転送します。参照するファイル名が同じ画像の更新では、該当するWebPの上書きで更新できます。

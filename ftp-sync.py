@@ -29,6 +29,8 @@ def public_files(root):
         root / "quiz/social-studies-2-lesson6/icon-production",
         root / "quiz/social-studies-2-lesson6/icon-assets/backups",
         root / "quiz/social-studies-2-lesson6/icon-assets/comparison.html",
+        # Download-only PNG copies of the Jujutsu Kaisen workbook images; pages display WebP.
+        root / "kanji-50/jujutsu-kaisen/exports/v2/png",
     }
     candidates = {
         p for p in root.rglob("*")
