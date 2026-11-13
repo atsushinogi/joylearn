@@ -266,3 +266,9 @@ __marimo__/
 
 # Track the WebP icons used by the lesson 6 quiz
 !/quiz/social-studies-2-lesson6/icon-assets/webp-148/*.webp
+
+# Track the WebP icons used by the lesson 7 quiz
+!/quiz/social-studies-2-lesson7/images*/*.webp
+
+# Track the WebP icons used by the lesson 9 quiz
+!/quiz/social-studies-2-lesson9/images/*.webp
