@@ -1,87 +1,190 @@
-# 鎌倉武士クイズ　アイコン生成プロンプト
+# lesson 6：採用したアイコン入力
 
-- サイズ: **256×256 px**（正方形・PNG）
-- 使い方: 各アイコンのプロンプトの後ろに「共通スタイル」を必ずつなげて生成する。ネガティブプロンプトが使えるツールでは「ネガティブ」も入れる。
-- 現在の icons.js（平安時代用のSVG）と雰囲気をそろえるため、太い焦げ茶の線・くすんだ和風の色・淡いクリーム色の背景にしている。
+全45問×4択をimagegenで個別生成しています。原画は1024px、配布用は148px PNG/WebPです。
 
-## 共通スタイル（全アイコンの末尾に付ける）
+実際に採用した最終入力は [icon-assets/manifest.jsonl](icon-assets/manifest.jsonl) の `prompt_en`、ツール引数は `icon-production/jobs/qNN_x.json`、生成結果は `qNN_x-result.json` にあります。修正履歴・原画・全件の目視記録も保存しています。
 
-```
-flat vector illustration icon, 256x256 pixels, square format, single subject centered and filling about 70% of the frame, thick dark brown outlines (#2E2620), muted traditional Japanese color palette (indigo #3C5A73, deep purple #4B3868, gold #D9B25C, vermilion #B5482F, moss green #6B7F4A), soft vertical gradient background from pale cream (#F3E6C4) to off-white (#F6EFDD), simple flat ground band at the bottom, cute friendly style for elementary school students, clean shapes, no shading noise, consistent icon set
-```
+旧256px汎用アイコン向けの指示は `icon-production/initial-source/icon-prompts.md` に保存しています。
 
-## ネガティブ（使えるツールのみ）
+## IDと選択肢
 
-```
-text, letters, kanji, numbers, watermark, signature, photorealistic, 3D render, blood, gore, scary face, cluttered background, multiple subjects, cropped subject, border frame
-```
-
----
-
-## 人物
-
-| キー | 使う場面 | プロンプト |
-|---|---|---|
-| `samurai` | 御家人・地頭・守護・武士全般 | `a Kamakura-period samurai in red-laced oyoroi armor and kabuto helmet, standing proudly with a bow, friendly face` |
-| `shogun` | 征夷大将軍・鎌倉幕府・御恩 | `a Kamakura shogun sitting formally on a tatami platform, wearing black eboshi hat and dark indigo hitatare robe, holding a fan, calm dignified expression` |
-| `hojo_regent` | 執権・北条氏・北条時宗/泰時/義時 | `a Kamakura regent official in formal robes and eboshi hat sitting beside a small folding screen, holding a scroll, wise serious face` |
-| `nun_shogun` | 尼将軍（北条政子） | `a Buddhist nun in a white head cloth and plain purple robe, standing and giving a powerful speech with one hand raised, determined but kind face` |
-| `mounted_archer` | 奉公・いざ鎌倉・流鏑馬 | `a samurai riding a galloping brown horse while drawing a bow, yabusame style, dynamic but cute` |
-| `retired_emperor` | 後鳥羽上皇などの上皇 | `a retired Japanese emperor in elegant white and purple court robes and a tall black court hat, seated on a raised mat behind bamboo blinds` |
-| `court_noble` | 公家・関白・摂政 | `a Heian-style court noble in layered pale purple robes and tall black court hat, holding a flat wooden shaku scepter, gentle smile` |
-| `judge` | 問注所・裁判 | `a Kamakura judge official sitting at a low desk reading a long paper scroll, two small figures kneeling in front of him presenting their case` |
-| `kublai` | フビライ＝ハン・元の皇帝 | `a Mongol emperor with a mustache and small beard, wearing a white robe and a round fur-trimmed hat, seated on a throne, stern expression` |
-| `biwa_hoshi` | 平家物語・琵琶法師 | `a blind Japanese storyteller monk with a shaved head sitting and playing a biwa lute, eyes closed, peaceful` |
-| `zen_monk` | 臨済宗・曹洞宗・禅宗 | `a Zen monk in a black robe sitting in zazen meditation on a round cushion, eyes closed, calm` |
-| `nembutsu_monk` | 浄土宗・浄土真宗・時宗 | `a Buddhist monk in a gray robe holding prayer beads with hands together, a soft glowing lotus flower floating behind him` |
-| `nichiren_monk` | 日蓮宗 | `a Buddhist monk standing on a street corner beating a round hand drum and chanting, energetic expression` |
-
-## 戦い・元寇
-
-| キー | 使う場面 | プロンプト |
-|---|---|---|
-| `genpei_flags` | 壇ノ浦・一ノ谷・屋島・承久の乱など合戦 | `two crossed battle banners, one white and one red, planted on a seaside hill with small waves below` |
-| `mongol_ship` | 文永の役・弘安の役 | `a large Mongol war ship with square sails tossed on stormy sea waves, dark clouds in the sky` |
-| `tetsuhau` | てつはう | `a round clay bomb with a lit fuse giving off small sparks, sitting on the ground, simple and not scary` |
-| `stone_wall` | 石塁 | `a long low stone defensive wall along a sandy beach with pine trees behind it` |
-| `kiridoshi` | 切通し | `a narrow mountain path cut between two tall mossy rock walls, only wide enough for one horse` |
-| `kamakura_road` | 鎌倉街道 | `a dirt road winding through green fields toward distant mountains, with a small wooden signpost (blank)` |
-
-## 政治・くらし・経済
-
-| キー | 使う場面 | プロンプト |
-|---|---|---|
-| `law_scroll` | 御成敗式目・法律・徳政令 | `an unrolled old Japanese paper scroll with abstract brush lines (no readable text) and a red seal stamp, on a wooden stand` |
-| `land_deed` | 御恩・領地・封建制度 | `a small map of rice fields and a farmhouse on a paper sheet with a red seal, held by two hands` |
-| `market` | 定期市・座 | `a small medieval Japanese open-air market stall with a wooden plank roof, selling cloth, rice bags and pottery` |
-| `song_coins` | 宋銭・年貢・お金 | `a stack of round copper coins with square holes in the middle, strung on a cord` |
-| `transport_boat` | 問（問丸）・運送業者 | `a small wooden cargo boat loaded with straw rice bales on a calm river` |
-| `ox_plow` | 牛馬の耕作・二毛作 | `an ox pulling a wooden plow through a muddy rice field, a farmer walking behind` |
-| `ash_fertilizer` | 草や木の灰（肥料） | `a wooden bucket full of gray ash next to a small pile of burned grass and twigs, with green sprouts growing nearby` |
-| `two_crops` | 二毛作・二期作 | `a field split in two halves, left half golden rice stalks, right half green wheat, with a small sun and arrow circle between them` |
-| `farmers_protest` | 農民の訴え・地頭の乱暴 | `a group of three farmers in straw hats kneeling and holding up a paper petition, determined faces` |
-
-## 文化・寺社
-
-| キー | 使う場面 | プロンプト |
-|---|---|---|
-| `nio_statue` | 金剛力士像・運慶・快慶 | `a muscular wooden Nio guardian statue in a fierce pose with one fist raised, carved wood texture, cute chibi proportions` |
-| `great_gate` | 東大寺南大門 | `a huge two-story wooden Buddhist temple gate with wide curved roofs, front view` |
-| `zen_hall` | 円覚寺舎利殿・禅寺 | `a small Zen temple hall with a steeply curved thatched-style roof surrounded by tall green cedar trees` |
-| `poem_book` | 新古今和歌集・方丈記・徒然草 | `an old Japanese bound book lying open next to a writing brush and ink stone` |
-| `golden_island` | ジパング | `a small island with a shining golden palace on it, floating in a blue sea, sparkles around` |
-
-## ネタ選択肢用（おふざけ）
-
-| キー | 使う場面 | プロンプト |
-|---|---|---|
-| `joke_hero` | マリオ・ドラえもん・勇者など | `a generic cartoon superhero kid with a red cape striking a heroic pose, funny face, original character` |
-| `joke_sweet` | ラーメン宗・お年玉・わたあめなど | `a giant bowl of ramen and a pink cotton candy side by side with happy cartoon faces` |
-| `joke_landmark` | 自由の女神像・交番・ハワイなど | `a funny tropical island with a palm tree and a tiny amusement park ferris wheel` |
-| `joke_fairytale` | 桃太郎・シンデレラ・金太郎など | `a giant peach split open with a sparkling fairy tale glow, storybook style` |
-| `joke_dragon` | ゴジラ・怪獣・宇宙人 | `a cute chubby green kaiju monster and a tiny UFO above it, both smiling` |
-| `joke_sparkle` | 雪合戦大会・枕投げなど | `a pillow and a snowball flying through the air with stars and sparkles, playful` |
-
----
-
-※ 実在のキャラクター名（マリオ、ドラえもん、ポケモンなど）はプロンプトに入れない。生成AIによっては拒否されたり、権利的に問題のある画像になったりするため、オリジナルの「それっぽい」絵にしている。
+- q01_a：草や木の灰
+- q01_b：干鰯
+- q01_c：化学肥料
+- q01_d：わたあめ
+- q02_a：一所懸命
+- q02_b：一騎当千
+- q02_c：一族郎党
+- q02_d：一発逆転
+- q03_a：浄土宗
+- q03_b：日蓮宗
+- q03_c：曹洞宗
+- q03_d：カレー宗
+- q04_a：浄土真宗
+- q04_b：時宗
+- q04_c：日蓮宗
+- q04_d：ラーメン宗
+- q05_a：執権政治
+- q05_b：摂関政治
+- q05_c：院政
+- q05_d：おやつ政治
+- q06_a：奉公
+- q06_b：御恩
+- q06_c：寄進
+- q06_d：かくれんぼ
+- q07_a：曹洞宗
+- q07_b：臨済宗
+- q07_c：浄土宗
+- q07_d：お昼寝宗
+- q08_a：六波羅探題
+- q08_b：問注所
+- q08_c：大宰府
+- q08_d：ひみつ基地
+- q09_a：鎌倉街道
+- q09_b：東海道
+- q09_c：シルクロード
+- q09_d：虹の橋
+- q10_a：問注所
+- q10_b：政所
+- q10_c：侍所
+- q10_d：交番
+- q11_a：地頭
+- q11_b：守護
+- q11_c：国司
+- q11_d：サンタクロース
+- q12_a：文永の役
+- q12_b：弘安の役
+- q12_c：承久の乱
+- q12_d：怪獣大決戦
+- q13_a：封建制度
+- q13_b：氏姓制度
+- q13_c：律令制度
+- q13_d：ポイントカード制度
+- q14_a：平家物語
+- q14_b：方丈記
+- q14_c：徒然草
+- q14_d：桃太郎
+- q15_a：二毛作
+- q15_b：二期作
+- q15_c：焼畑
+- q15_d：宇宙農業
+- q16_a：御恩
+- q16_b：奉公
+- q16_c：年貢
+- q16_d：お年玉
+- q17_a：フビライ＝ハン
+- q17_b：チンギス＝ハン
+- q17_c：マルコ＝ポーロ
+- q17_d：ウルトラマン
+- q18_a：臨済宗
+- q18_b：曹洞宗
+- q18_c：時宗
+- q18_d：抹茶パフェ宗
+- q19_a：侍所
+- q19_b：政所
+- q19_c：問注所
+- q19_d：忍者屋敷
+- q20_a：御成敗式目
+- q20_b：十七条の憲法
+- q20_c：大宝律令
+- q20_d：おやつは300円まで法
+- q21_a：執権
+- q21_b：関白
+- q21_c：摂政
+- q21_d：学級委員
+- q22_a：弘安の役
+- q22_b：文永の役
+- q22_c：白村江の戦い
+- q22_d：宇宙人の大侵略
+- q23_a：守護
+- q23_b：地頭
+- q23_c：郡司
+- q23_d：勇者
+- q24_a：後鳥羽上皇
+- q24_b：白河上皇
+- q24_c：後白河上皇
+- q24_d：巨大ロボット
+- q25_a：ジパング
+- q25_b：倭
+- q25_c：大和
+- q25_d：ネバーランド
+- q26_a：徳政令
+- q26_b：御成敗式目
+- q26_c：墾田永年私財法
+- q26_d：宿題ゼロ令
+- q27_a：切通し
+- q27_b：関所
+- q27_c：石塁
+- q27_d：ウォータースライダー
+- q28_a：北条時宗
+- q28_b：北条泰時
+- q28_c：北条義時
+- q28_d：ドラえもん
+- q29_a：定期市
+- q29_b：楽市
+- q29_c：朝市
+- q29_d：フリーマーケット・オン・ザ・ムーン
+- q30_a：鎌倉幕府
+- q30_b：室町幕府
+- q30_c：江戸幕府
+- q30_d：お菓子の家
+- q31_a：北条泰時
+- q31_b：北条時政
+- q31_c：北条義時
+- q31_d：消防士
+- q32_a：金剛力士像
+- q32_b：阿弥陀如来像
+- q32_c：大仏
+- q32_d：自由の女神像
+- q33_a：北条氏
+- q33_b：平氏
+- q33_c：藤原氏
+- q33_d：ちびまる子一家
+- q34_a：壇ノ浦の戦い
+- q34_b：一ノ谷の戦い
+- q34_c：屋島の戦い
+- q34_d：雪合戦大会
+- q35_a：承久の乱
+- q35_b：平治の乱
+- q35_c：壬申の乱
+- q35_d：枕投げの乱
+- q36_a：公家
+- q36_b：御家人
+- q36_c：豪族
+- q36_d：王子様
+- q37_a：石塁
+- q37_b：切通し
+- q37_c：水城
+- q37_d：万里の長城
+- q38_a：座
+- q38_b：惣
+- q38_c：株仲間
+- q38_d：ポケモンセンター
+- q39_a：御家人
+- q39_b：公家
+- q39_c：国司
+- q39_d：忍者ハットリくん
+- q40_a：伊豆
+- q40_b：平泉
+- q40_c：京都
+- q40_d：ハワイ
+- q41_a：源義経
+- q41_b：源義仲
+- q41_c：源実朝
+- q41_d：金太郎
+- q42_a：尼将軍
+- q42_b：女王
+- q42_c：執権
+- q42_d：パン職人
+- q43_a：てつはう
+- q43_b：鉄砲
+- q43_c：石弓
+- q43_d：水鉄砲
+- q44_a：征夷大将軍
+- q44_b：関白
+- q44_c：摂政
+- q44_d：ドラゴンクエストの勇者
+- q45_a：問（問丸）
+- q45_b：座
+- q45_c：馬借
+- q45_d：宅配ピザ

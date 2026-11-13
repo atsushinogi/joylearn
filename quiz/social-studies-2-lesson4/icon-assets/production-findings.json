@@ -1,0 +1,16 @@
+{
+  "source_question_note": {
+    "question_number": 10,
+    "source_text_year": 1052,
+    "phoenix_hall_construction_year": 1053,
+    "explanation": "元の問題は阿弥陀堂の建立を1052年としているが、平等院の開創は1052年、鳳凰堂の建立は1053年。画像制作では選択肢の鳳凰堂を描き、問題データは変更していない。",
+    "sources": ["https://www.byodoin.or.jp/learn/architecture/", "https://www.pref.kyoto.jp/kyotoyamashirokanko/treasure_1.html"]
+  },
+  "reference_sources": [
+    "https://www.byodoin.or.jp/learn/architecture/",
+    "https://www.chusonji.or.jp/download/pdf/kanzan_no29.pdf",
+    "https://www.koyasan.or.jp/kongobuji/jinai.html",
+    "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/bunka06.html"
+  ],
+  "limits": "歴史人物の容貌・失われた建物・紋章細部・合戦の正確な配置は厳密な復元ではない。地図は関東・近畿・九州の位置を確認するための概略図。QRコード画像は外形の説明用で読み取り可能性を保証しない。"
+}

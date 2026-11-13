@@ -1,0 +1,51 @@
+{
+  "revision_archive": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson4/icon-production/revisions/20261106T034133Z-replace-blocked-choices",
+  "old_source_sha256": "02c0268a3c86cb1b8662eca7c37c3864fb02a13957a6ebdea518e30cdaac645d",
+  "new_source_sha256": "66c4080637d8f4e6a0cb9a533e77ebc49f750aab9ac76484b0626108cbb11204",
+  "changes": [
+    {
+      "id": "q02_d",
+      "old_label": "マリオ",
+      "new_label": "消防士",
+      "furigana": "しょうぼうし"
+    },
+    {
+      "id": "q11_d",
+      "old_label": "スパイダーマン",
+      "new_label": "宇宙飛行士",
+      "furigana": "うちゅうひこうし"
+    },
+    {
+      "id": "q36_d",
+      "old_label": "ポケモン",
+      "new_label": "宇宙",
+      "furigana": "うちゅう"
+    },
+    {
+      "id": "q37_d",
+      "old_label": "ヨーダ",
+      "new_label": "大工",
+      "furigana": "だいく"
+    },
+    {
+      "id": "q38_d",
+      "old_label": "ハリーポッター",
+      "new_label": "手品師",
+      "furigana": "てじなし"
+    },
+    {
+      "id": "q42_d",
+      "old_label": "シンデレラ",
+      "new_label": "パン職人",
+      "furigana": "ぱんしょくにん"
+    },
+    {
+      "id": "q43_d",
+      "old_label": "白雪姫",
+      "new_label": "料理人",
+      "furigana": "りょうりにん"
+    }
+  ],
+  "questions_and_correct_answers_unchanged": true,
+  "unchanged_images_verified": 173
+}

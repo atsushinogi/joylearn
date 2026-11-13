@@ -1,0 +1,4046 @@
+[
+  {
+    "id": "q01_a",
+    "status": "aligned",
+    "spec_sha256": "be05e103d73432de5be2e95ac79cc7daeeebb502646747f187cfb7db3f25172d",
+    "reviewed_png_sha256": "2abdb79eb3b25674e13a8c03b0efa64acc43614f5829cf0e96747650e8a907b9",
+    "observation": "十二単の女性が開いた扇を持つ。木の縁側の向こうに日本庭園が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "十二単の女性が開いた扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "木の縁側の向こうに日本庭園が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q01_b",
+    "status": "aligned",
+    "spec_sha256": "3f3be93103ae3e360b495d39b91920e15dedf778ac93f46e903b9b35fe9170e5",
+    "reviewed_png_sha256": "93384686257bf58a5b25428103f44e5f99e4f470b5ca4b77f7e78d2597984182",
+    "observation": "高い結髪と長い袖の唐風衣装の女性。後方に赤い柱の宮殿がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "高い結髪と長い袖の唐風衣装の女性"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "後方に赤い柱の宮殿がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q01_c",
+    "status": "aligned",
+    "spec_sha256": "a1e3834374a17959ca783242d096af63b3327b4b3e63bd7f1e567a948f8eca8d",
+    "reviewed_png_sha256": "2179aeca6c1f4b7ae9ce83d956d7b23dffc2cd88b6cecf00fabc3fc6f5dbb05f",
+    "observation": "大きな仏の座像が正面を向く。木造仏堂の柱と右手の挙手が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな仏の座像が正面を向く"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "木造仏堂の柱と右手の挙手が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q01_d",
+    "status": "aligned",
+    "spec_sha256": "a6022255bcbb8b0badf5ea36fc75f225b4db32f9bd687b076c241041c2d17fb6",
+    "reviewed_png_sha256": "4c4efe0c2eb20f1d9c84a5d757ff6c6223d5a9f5051d7e9886fca0e2c18a36ab",
+    "observation": "丼に麺とスープが入る。チャーシューと半卵が手前に見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "丼に麺とスープが入る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "チャーシューと半卵が手前に見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q02_a",
+    "status": "limited",
+    "spec_sha256": "93dde307dfd6c2d34f8de01d673ac9c21d152d9af7baea5f1dfe018d7a93a27f",
+    "reviewed_png_sha256": "44b69f7c646a81b1bdfdf9913f4d190fad8ad886eade97e16a26ed8a6bc7ff0a",
+    "observation": "冠を着けた男性が笏を両手で持つ。赤褐色の束帯で背後に宮殿がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "冠を着けた男性が笏を両手で持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤褐色の束帯で背後に宮殿がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q02_b",
+    "status": "limited",
+    "spec_sha256": "72579b65446546052ee3d3c99536aeba225000a1c157aa8e3629ade7eb20de30",
+    "reviewed_png_sha256": "584528fa4eed2b3b64933c82552b1a0d8cb24688d38c1cc8cd64f678ce8f4993",
+    "observation": "冠の男性が笏を持つ。朱色の宮廷服で後方に奈良風の大仏がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "冠の男性が笏を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "朱色の宮廷服で後方に奈良風の大仏がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q02_c",
+    "status": "limited",
+    "spec_sha256": "5f9beb7324d50b521874880c5b6caa48863893278a618d3c6eac0638b9661917",
+    "reviewed_png_sha256": "d6248ea77f8bc0cf57ff46c870967d9acc7c36f6d7b7e3ea93142271508d029e",
+    "observation": "剃髪した年配の男性が指で指示する。巻物を持ち手前の従者に向き合う。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の男性が指で指示する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "巻物を持ち手前の従者に向き合う"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q02_d",
+    "status": "aligned",
+    "spec_sha256": "51de43f1195fe3af201899c4dae2463888a3d6438805c753158e202e4862e086",
+    "reviewed_png_sha256": "728304cfad904e91d4c490ef29f0b67538ffd8b6031f8126a6852d2af2c40a1c",
+    "observation": "防火ヘルメットと防火服を着た消防士がいる。手に放水ノズルを持ち肩に消防ホースを掛けている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "防火ヘルメットと防火服を着た消防士がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手に放水ノズルを持ち肩に消防ホースを掛けている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q03_a",
+    "status": "aligned",
+    "spec_sha256": "fd42ed0ad582306f56369b92af0d2540d7e50286777dbaf9211a08ca9a6e88d6",
+    "reviewed_png_sha256": "fb43d9ec4f88a28058dd02e1023515e1eb57c2589ab8a077b085f06b4f486964",
+    "observation": "切った竹の節に小さな姫が座る。緑の竹林と丸い月がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "切った竹の節に小さな姫が座る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "緑の竹林と丸い月がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q03_b",
+    "status": "limited",
+    "spec_sha256": "c98041e94e39dd96097c41240cb41c12f00f79e7872b6f40a8fc40b74ae3922e",
+    "reviewed_png_sha256": "811fd814b75be83015a25b7a186a68c9e9a704c715aa3acf6afd726b639ff0b1",
+    "observation": "左右の軸を持つ絵巻を広げている。御簾を隔てた平安装束の男女が描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "左右の軸を持つ絵巻を広げている"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "御簾を隔てた平安装束の男女が描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q03_c",
+    "status": "limited",
+    "spec_sha256": "ce27e607f5a0ba688d48d09eb16ce062536940db416723cab42eda38d0d2c45d",
+    "reviewed_png_sha256": "73062959be6f2ee76baf70940ed0f9d01cc8c003301fe2ca211defd4261fbc7f",
+    "observation": "開いた和綴じ冊子の前に筆と硯がある。右頁に山と朝日の景色が描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "開いた和綴じ冊子の前に筆と硯がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "右頁に山と朝日の景色が描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q03_d",
+    "status": "aligned",
+    "spec_sha256": "4938696cf8b65e140da0bb233142d57afeeeda761fc371ca5f083929e2f38943",
+    "reviewed_png_sha256": "53a1dad316a719b3a400fc4373d826963389b9c5a56e586882dff2bd3d1bcf19",
+    "observation": "七つの橙色の球が集まる。球の中に一つから七つの赤い星が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "七つの橙色の球が集まる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "球の中に一つから七つの赤い星が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q04_a",
+    "status": "aligned",
+    "spec_sha256": "d965462b916a5822bccaaf127f6d70721068d6bd8abfb79865db9d66af4e95f0",
+    "reviewed_png_sha256": "91b5727799a225060d6a7c20ad07c6036a6e3a838a923963aaf38cb1e63fdd65",
+    "observation": "馬上の鎧と兜の武人が指揮棒を掲げる。背後に武装した兵と山並みがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "馬上の鎧と兜の武人が指揮棒を掲げる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後に武装した兵と山並みがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q04_b",
+    "status": "aligned",
+    "spec_sha256": "a776ff5dcd1cfb5f0203ca2351e2229287864102a65aadd48462be331ef86e24",
+    "reviewed_png_sha256": "0455d6c16cf39436c062f4c291437bdf86d84cede41ea89cce20b6a55e7136b8",
+    "observation": "紫の装束と黒い冠の大臣が笏を持つ。左右手前に下位の官人が控える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫の装束と黒い冠の大臣が笏を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "左右手前に下位の官人が控える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q04_c",
+    "status": "aligned",
+    "spec_sha256": "9fe4d193ac0a183738299fa6083852fc460a77c64858a0104243bef13d06e574",
+    "reviewed_png_sha256": "6fba166a4b493b5ec9036e07fb0a00084661a68fc5dc8d1f94595a4582c78d8b",
+    "observation": "黒装束の補佐役が成人の朱色装束の天皇を補佐する。二人が同じ巻物を見ている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "黒装束の補佐役が成人の朱色装束の天皇を補佐する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "二人が同じ巻物を見ている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q04_d",
+    "status": "aligned",
+    "spec_sha256": "2f3859973a804a14771df4ad79de7f7390877ab54306cbe18c98ed2a0f8524df",
+    "reviewed_png_sha256": "53057a675ced6545fad0bc3e83c1c65e7f0cf3a8e893353ab986e277e5f685bd",
+    "observation": "銀と赤のスーツに頭のひれを持つヒーロー。楕円の眼と青い胸の発光部があり腕を交差している。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "銀と赤のスーツに頭のひれを持つヒーロー"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "楕円の眼と青い胸の発光部があり腕を交差している"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q05_a",
+    "status": "aligned",
+    "spec_sha256": "8f042565563eaf8cb272ed6d79f857bb61335e487056b11b2c2d1a87265839af",
+    "reviewed_png_sha256": "b10ec60f246c9a70a79d892a36a93c277fdd103780d1c6a2853899298b462b44",
+    "observation": "成人の黒装束の補佐役と幼い朱色装束の天皇が並ぶ。二人が机の巻物を見ており帽子の先まで画面内にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "成人の黒装束の補佐役と幼い朱色装束の天皇が並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "二人が机の巻物を見ており帽子の先まで画面内にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q05_b",
+    "status": "aligned",
+    "spec_sha256": "ea66a09f4cb44d5b836d561910a78b45f870b65c62befa4cea0cf3502ae79ed6",
+    "reviewed_png_sha256": "8c3e2820fd5d0694b971eb790e3bf06b952a66f767dba7e8fc7e39ef9067bb9b",
+    "observation": "黒装束の補佐役と若い成人の天皇が並ぶ。二人の間で巻物が開かれ補佐役が指さす。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "黒装束の補佐役と若い成人の天皇が並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "二人の間で巻物が開かれ補佐役が指さす"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q05_c",
+    "status": "aligned",
+    "spec_sha256": "64fdc175ad1ec4b5a974d7478e53c1f19f150bbb09d856e5c904f375978d7037",
+    "reviewed_png_sha256": "3edec349db2f203a842985ad33989620ad6a0a59770f2f3a0667482392731150",
+    "observation": "紫装束の大臣が笏を縦に持つ。左右にこちらを向く下位の役人がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫装束の大臣が笏を縦に持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "左右にこちらを向く下位の役人がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q05_d",
+    "status": "aligned",
+    "spec_sha256": "8849913c12c9d5ae6637d1d051808e1df5bb66d066e32b708b39b4692e33637c",
+    "reviewed_png_sha256": "36ef5af087dd13a04e62058ab256da994cfa678cd1406951faf838a6a9f8c7f1",
+    "observation": "紺の覆面装束の忍者が屋根にしゃがむ。手に手裏剣を持ち夜の瓦屋根と月が背景にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紺の覆面装束の忍者が屋根にしゃがむ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手に手裏剣を持ち夜の瓦屋根と月が背景にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q06_a",
+    "status": "aligned",
+    "spec_sha256": "debc493ab1690200ad888d4a77701d0b8cce97d74fbc8371e58c9eff4a85746e",
+    "reviewed_png_sha256": "cd517f3f02dfbe929e1041bd8e3771c352102b88e80b897619abdfcc5819dad9",
+    "observation": "中央の紫装束の大臣が笏を持つ。両脇手前に役人が控えている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "中央の紫装束の大臣が笏を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "両脇手前に役人が控えている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q06_b",
+    "status": "aligned",
+    "spec_sha256": "a7397e8f7b4977aa6d49ecb29206e4e9dd4a4e9c1120cb7a234c4c0bc67a190c",
+    "reviewed_png_sha256": "ef8339a69278817186109668587af4adddce29c76983b7d72162e883afea6d1f",
+    "observation": "兜と鎧の指揮官が馬に乗っている。山地に兵と旗が並び後ろへ続く。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "兜と鎧の指揮官が馬に乗っている"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "山地に兵と旗が並び後ろへ続く"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q06_c",
+    "status": "aligned",
+    "spec_sha256": "114abe6ea447881a6f599336a9d2544e40e663c39d93f55f23e975256591a567",
+    "reviewed_png_sha256": "c35aef4ef7d15bac6c4933fa4f5aac3d469e9ee841353b305b993c3b27790f44",
+    "observation": "成人の朱色の天皇と黒装束の補佐役が並ぶ。巻物を広げ補佐役が手で説明する。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "成人の朱色の天皇と黒装束の補佐役が並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "巻物を広げ補佐役が手で説明する"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q06_d",
+    "status": "aligned",
+    "spec_sha256": "c9de7a2173b4e5bd19e3e90706f93839dde9fb31e25052aabcdf55df098bf742",
+    "reviewed_png_sha256": "dd5db298587ef487f15519ed8a0cb7518a778b9ad53cf150e16e31da76f79967",
+    "observation": "白いコック帽の先まで収まった白い服の菓子職人。絞り袋を持ち苺ケーキにクリームを絞っている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白いコック帽の先まで収まった白い服の菓子職人"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "絞り袋を持ち苺ケーキにクリームを絞っている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q07_a",
+    "status": "aligned",
+    "spec_sha256": "3745bcb429bc8d74547254b5aa6d6ee365a5f59495a6660a04a96a66ebc536d1",
+    "reviewed_png_sha256": "ca5e15696520a8ff5ea4c0956ed036a52abeea0b0dd48da26a23cb791101d330",
+    "observation": "成人男性の天皇と成人男性の補佐役がいる。前の開いた巻物を見て話す。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "成人男性の天皇と成人男性の補佐役がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "前の開いた巻物を見て話す"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q07_b",
+    "status": "aligned",
+    "spec_sha256": "ddb0dbf27eddd6d9a66c8b8c864143a58d413b51eec3d5885911b044b542b5dc",
+    "reviewed_png_sha256": "73a1916b0157351cbace4235be619c7f14e66b2a2473813d62bf09f8aa2ad2f9",
+    "observation": "成人の補佐役と小さい幼帝が並ぶ。二人が巻物を広げて補佐役が指を差す。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "成人の補佐役と小さい幼帝が並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "二人が巻物を広げて補佐役が指を差す"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q07_c",
+    "status": "aligned",
+    "spec_sha256": "ec53dfe5fed9713c0968f588fd3ac75d8267aff1f3c79a36d640a18dc0630fe8",
+    "reviewed_png_sha256": "3e30bac94c8edf29f08f9d67b900bf0c4847378121b2a6832288eda8a7fff42a",
+    "observation": "鎧と兜の武人が馬に乗り指揮棒を持つ。背後に多数の兵と山並みがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鎧と兜の武人が馬に乗り指揮棒を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後に多数の兵と山並みがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q07_d",
+    "status": "aligned",
+    "spec_sha256": "8aa663b60166e47f045cbecaf3348686bcf22be708a79ea7a1c14a6e8e23366b",
+    "reviewed_png_sha256": "449c6937d2edbd72f53e24df355d55d2f180a82d2791986965c62f0433142361",
+    "observation": "青いとがり帽子とローブの魔法使い。杖の先から光の渦が出ている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "青いとがり帽子とローブの魔法使い"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "杖の先から光の渦が出ている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q08_a",
+    "status": "aligned",
+    "spec_sha256": "a8f2d0e13742f45c3f931225c2553752b9fcb7ee356608de029d7d1a2f87a3e6",
+    "reviewed_png_sha256": "9f82bffa341d5ef342cb8c88ca2854077a2f8aad6ef7ab19ef8ccc57efeb98f3",
+    "observation": "手前の成人の大臣と後方の幼帝・成人天皇の三人がいる。中央の大臣が笏を持って政治の主体として描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "手前の成人の大臣と後方の幼帝・成人天皇の三人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "中央の大臣が笏を持って政治の主体として描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q08_b",
+    "status": "aligned",
+    "spec_sha256": "da216afe7905515db4ab83cb98e6a85dcb67166a867093c52ef16ff0f0018bdc",
+    "reviewed_png_sha256": "4e95cfec5ead2ead20dc806915050e1ecd203e854200c192d6ca019cfec0b164",
+    "observation": "剃髪の年配の上皇が手を伸ばして指示する。後方に若い冠をつけた天皇が座る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪の年配の上皇が手を伸ばして指示する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "後方に若い冠をつけた天皇が座る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q08_c",
+    "status": "aligned",
+    "spec_sha256": "0f0d10052fc49870ecc8757f2f84be8d1761fcebda563cbf22d73e664f70e044",
+    "reviewed_png_sha256": "dfa1004bb2bb0c0b9c79cda8fd8a09d3ec4a289be1e2a657860ffd05e4e6ef80",
+    "observation": "古代装束の官人が束ねた木簡を読む。机の法令巻物と後方で働く官人がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "古代装束の官人が束ねた木簡を読む"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "机の法令巻物と後方で働く官人がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q08_d",
+    "status": "aligned",
+    "spec_sha256": "250a2ffbf62cb739b9a1242a249aa2b58ce6733498620e6747fe00a8d61d32a3",
+    "reviewed_png_sha256": "10c2c62d9f40809383538a2577dcf0f2debd12018483064c5aa2d3cfa8651f9e",
+    "observation": "ヘッドセットとマイクを着けた人物。コントローラーを持ちモニターと撮影カメラがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "ヘッドセットとマイクを着けた人物"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "コントローラーを持ちモニターと撮影カメラがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q09_a",
+    "status": "limited",
+    "spec_sha256": "82fedb98b5bbe0fcfc1d72a5940dafc9aa0c80ffbb63f34e64f52afdbddad88a",
+    "reviewed_png_sha256": "29e1f328c3e744368ba46f94b3df76e1ae7fcaa62277f3ab2c1aab43fb52e967",
+    "observation": "紫装束の男性貴族が扇を持つ。夜の宮廷の背景に丸い満月がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫装束の男性貴族が扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "夜の宮廷の背景に丸い満月がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q09_b",
+    "status": "limited",
+    "spec_sha256": "e9b3eb3373b0d623f6620a1c12ceab1914f06eac91b118ab0a8c2d72bf6ad71a",
+    "reviewed_png_sha256": "a54afd91a5e6884c0142131b744e1250179a7f1e6e0d30f9733aa20763bf8076",
+    "observation": "茶色の装束の男性貴族が笏を持つ。背後に池と赤い中央堂・翼廊が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "茶色の装束の男性貴族が笏を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後に池と赤い中央堂・翼廊が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q09_c",
+    "status": "limited",
+    "spec_sha256": "1ad269e0bb0f3195b1811f64fe1aa096822b65bd7d73be757ceeb725f7887512",
+    "reviewed_png_sha256": "e948e459711f53c9135ececa8a377ca54a7b58cd55c6d9de6e7c578ab200f277",
+    "observation": "青い装束の男性貴族が筆と巻物を持つ。右上に梅の花が咲く。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "青い装束の男性貴族が筆と巻物を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "右上に梅の花が咲く"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q09_d",
+    "status": "aligned",
+    "spec_sha256": "40f6035a511ae561eea1273d7f3df8185e285dce0493b02085244a747f8628a5",
+    "reviewed_png_sha256": "ac4f066194b5a3bded0a1dc942865152cec195296e6f1f11a68cf076f915f907",
+    "observation": "赤い帽子と服、白いひげのサンタが立つ。肩にプレゼントが入った袋を担ぐ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤い帽子と服、白いひげのサンタが立つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "肩にプレゼントが入った袋を担ぐ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q10_a",
+    "status": "limited",
+    "spec_sha256": "6655c63495f5ac7a804a366f2c9eddf7ab2aec79bf4e1627686cb65acfdc656c",
+    "reviewed_png_sha256": "638f8eecc2326a5f1f53d27bfe1c951037ad5a1a2df337c57676192912785e42",
+    "observation": "単層で四角い金色の小堂が見える。開いた正面奥に金色の仏像がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "単層で四角い金色の小堂が見える"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "開いた正面奥に金色の仏像がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q10_b",
+    "status": "limited",
+    "spec_sha256": "dfcce3f672379d8ffe92bcf715f724d62d51ff383285f78844430997776aad49",
+    "reviewed_png_sha256": "456e41c8519d81d2122ae0273bc7af5e661f25dda8c653e71473b951d5e3b474",
+    "observation": "大きな暗い屋根の下に赤い柱が並ぶ低い仏堂。背後を緑の杉林が囲む。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな暗い屋根の下に赤い柱が並ぶ低い仏堂"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後を緑の杉林が囲む"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q10_c",
+    "status": "limited",
+    "spec_sha256": "d5c3e1e1b2e6add095d5fa70d07adeeba6f43875a28a880cd4bffcd71f1ea924",
+    "reviewed_png_sha256": "43f4e6698858646a7cd42da2a6a2fd5d695e4d1a077bc1b97a72096435ea8ebc",
+    "observation": "赤い中央堂と左右の翼廊が完全に画面内にある。手前に池があり中央屋根の二羽の鳳凰も見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤い中央堂と左右の翼廊が完全に画面内にある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前に池があり中央屋根の二羽の鳳凰も見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q10_d",
+    "status": "aligned",
+    "spec_sha256": "f66abfa8b1f9431e2fc1752297e2388b5d9a314b0ac22f4a62c472243a63323e",
+    "reviewed_png_sha256": "e9d9bf8a85746bb53dfd69b991a2e5121751bf52544b45ce7dc0002757bb773e",
+    "observation": "白い格子の細長い塔が尖塔まで収まる。上部に大小二段の展望部がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白い格子の細長い塔が尖塔まで収まる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "上部に大小二段の展望部がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q11_a",
+    "status": "limited",
+    "spec_sha256": "06cebe2a5ce238abae0a871f6df75c64531fdeee52d0c57cc925ecb20f5d298d",
+    "reviewed_png_sha256": "b8750368f0d815fbe50d1d48d04e16bd0d260fa6128329e61f6755ee96029617",
+    "observation": "茶色の装束の男性貴族が笏を持つ。背後の池に赤い中央堂と翼廊が映る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "茶色の装束の男性貴族が笏を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後の池に赤い中央堂と翼廊が映る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q11_b",
+    "status": "limited",
+    "spec_sha256": "556a7d621ff9e97c825de276348d9540c373c30c5e82a0dc3b44dfd594d0e95e",
+    "reviewed_png_sha256": "6334af292a4ab10689c3e21f84cd77cdd589807ea895a885ead458415cdf57fb",
+    "observation": "紫装束の男性貴族が開いた扇を持つ。宮殿の夜空に満月がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫装束の男性貴族が開いた扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "宮殿の夜空に満月がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q11_c",
+    "status": "limited",
+    "spec_sha256": "a9093552ad55b6ee24476f065bcfe9a4766226ed9c249e7a03781ba14b8eb2c9",
+    "reviewed_png_sha256": "0a9122e5b37f0ec2b7c6248992053a6bf2bf49765313215e32ac104470369ce1",
+    "observation": "鉢巻と鎧姿の日本の武人が船上にいる。船の綱と木の舷、背後の海上に複数の木造帆船がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻と鎧姿の日本の武人が船上にいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "船の綱と木の舷、背後の海上に複数の木造帆船がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q11_d",
+    "status": "aligned",
+    "spec_sha256": "b7362f9e4cd810d6a11b77774c501a349356af2d77ef3b0d7c0603848ec6da73",
+    "reviewed_png_sha256": "b6b08ef790345e80d0f866a127ad6ad96937cf202ca4a34619d8b58803121f83",
+    "observation": "白い宇宙服と丸い反射バイザーのヘルメットの宇宙飛行士がいる。近くに宇宙船、背景に大きな地球が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白い宇宙服と丸い反射バイザーのヘルメットの宇宙飛行士がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "近くに宇宙船、背景に大きな地球が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q12_a",
+    "status": "limited",
+    "spec_sha256": "f0352688358bb8500dfacb6fdedf7b9873c9270e0f4de6e0831fc6d6047eb4a3",
+    "reviewed_png_sha256": "db0adb120ef4d3d7e066f48abe68c2a8982a296b6459c29dd277b41916d3f9a0",
+    "observation": "青い装束の男性が巻物に筆を持つ。右側に梅の枝と花がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "青い装束の男性が巻物に筆を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "右側に梅の枝と花がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q12_b",
+    "status": "limited",
+    "spec_sha256": "448d7e644f3120941baea8e8f6579dfadb61a3fa6b060d5ab9f89ae41a6784aa",
+    "reviewed_png_sha256": "f66f3c1d9461a952faf3db1aecd78a988cd731f38c2ad7ea46ca40f6ac27f9a4",
+    "observation": "紫装束の男性貴族が開いた扇を持つ。宮廷の縁側の背景に満月がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫装束の男性貴族が開いた扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "宮廷の縁側の背景に満月がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q12_c",
+    "status": "limited",
+    "spec_sha256": "5380ecdc3bd782b94ce7a9bc66db40fcafb83803c24415a3a5fe89e3834b302e",
+    "reviewed_png_sha256": "20555adb50e48e849716f891963bbfab9296d88b870d3d00125361f898310902",
+    "observation": "剃髪した茶色の僧衣の男性が経巻を持つ。杉の木と山寺が後方にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した茶色の僧衣の男性が経巻を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "杉の木と山寺が後方にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q12_d",
+    "status": "aligned",
+    "spec_sha256": "5a4a0308be895a843a892e337bc38d690fc9fc3a522750cc0fc703f2b254a53a",
+    "reviewed_png_sha256": "3d1bfc148fda167c2726298d35f90499f51b13cbbd8559772373c771b12aa482",
+    "observation": "青い丸い猫型ロボットで赤い鼻とひげがある。赤い首輪の黄色い鈴と白い腹のポケットがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "青い丸い猫型ロボットで赤い鼻とひげがある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤い首輪の黄色い鈴と白い腹のポケットがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q13_a",
+    "status": "limited",
+    "spec_sha256": "c1c36bd10d867c96ae8d5c17197ebc4c68b538ae2c9868441692a9e968471fe4",
+    "reviewed_png_sha256": "62d62436d4b492aebcbb7686072c655691b29ce6bed37e95cc2a8d12e6cf36b4",
+    "observation": "瓦屋根の低い左右対称の役所がある。手前に礎石群が並び背後に山がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "瓦屋根の低い左右対称の役所がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前に礎石群が並び背後に山がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q13_b",
+    "status": "limited",
+    "spec_sha256": "4b83c4aa9ea2e9fd952a210f464e49abb0a6e547ed2b0448980c6d8bc48cc11c",
+    "reviewed_png_sha256": "20c686c8a617c28a61eca5a91c65940c59afb129d4119ccc86594a99a66cbe27",
+    "observation": "曲線の池の岸に低い仏堂がある。山林に囲まれた浄土庭園として描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "曲線の池の岸に低い仏堂がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "山林に囲まれた浄土庭園として描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q13_c",
+    "status": "limited",
+    "spec_sha256": "7ad27ccc5b79c2256739344e9e80a53efd1a52c8943b0204b717480bff342efb",
+    "reviewed_png_sha256": "e716f96e32c4bb0fef888c82f3455e48ad3a1ea18aee498bf8793a93e82bd6cf",
+    "observation": "大きな直線の大路が奥へ伸びる。赤い宮殿門と左右の整った家並みがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな直線の大路が奥へ伸びる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤い宮殿門と左右の整った家並みがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q13_d",
+    "status": "aligned",
+    "spec_sha256": "20ffbf48e859f8ec104b01b196726add44041dd4144bdcd41e331f815b59fe99",
+    "reviewed_png_sha256": "145fb73c67d98027b2e547623dbb48c1322b7d99eb3f8596d22f95918e54f6c3",
+    "observation": "青い海と砂浜が広がる。左にヤシ、対岸に火山地形の山が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "青い海と砂浜が広がる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "左にヤシ、対岸に火山地形の山が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q14_a",
+    "status": "limited",
+    "spec_sha256": "e3a22a70f53f98d85440f9be6b0435d147cc9cba83ac7252ae16fd86e80f3247",
+    "reviewed_png_sha256": "d6f913e370406080b411fbd96128477f40e825fdac5f59e790264c5d509a54df",
+    "observation": "大きい暗色の屋根と赤い柱の仏堂。背後に杉の山林がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きい暗色の屋根と赤い柱の仏堂"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後に杉の山林がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q14_b",
+    "status": "limited",
+    "spec_sha256": "ff8737bcb33462a734165926f85f8aaf1b8de2261595d79ac2eea504e3149275",
+    "reviewed_png_sha256": "3e553db7858266e0ee82300a223ef15312b7ec120d3313bb5ebf5274a33833de",
+    "observation": "白壁と暗い木組みの低い本坊がある。大屋根の中央に曲線の唐破風がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白壁と暗い木組みの低い本坊がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "大屋根の中央に曲線の唐破風がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q14_c",
+    "status": "limited",
+    "spec_sha256": "e53f83adabd9208fea1c3cee9c8873d1bc8aec3d5d392be0bd63c4f5fe22db28",
+    "reviewed_png_sha256": "0d3f7b8635000964a46fdb51026fac4fc8631d620b475511ef3615849d376151",
+    "observation": "単層の小さな金色の堂がある。正面が開いて内側の金色仏像が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "単層の小さな金色の堂がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "正面が開いて内側の金色仏像が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q14_d",
+    "status": "aligned",
+    "spec_sha256": "9d39271550ca58c6c7f8dbec2f9377c02a7d02d99c7f5b904e510fa1511d8229",
+    "reviewed_png_sha256": "8794feb2281ed372785bf516eaaf23327c38937df91b129e51cfe5cb24b6b7d2",
+    "observation": "赤白の鉄骨塔が全体を見せる。四脚が下へ広がり上部に展望台がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤白の鉄骨塔が全体を見せる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "四脚が下へ広がり上部に展望台がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q15_a",
+    "status": "aligned",
+    "spec_sha256": "20c8fce4444983413afc6f9564038192c7d812623aae9c2a86cdc13882df491e",
+    "reviewed_png_sha256": "9c06299cc83a2a6e886317426c588daa7ff9005d42ae5f810c2b0cb092d23927",
+    "observation": "座った牛の像と冠の人物の像がある。梅の花と朱色の鳥居が背後にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "座った牛の像と冠の人物の像がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "梅の花と朱色の鳥居が背後にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q15_b",
+    "status": "aligned",
+    "spec_sha256": "8d2f85426b8e8e90863b2f02c048fa39962de250474168ec794df7be2f4810dd",
+    "reviewed_png_sha256": "efee9f630a0468787a747ec238cb3000bdf887247118445c211224c27de3ada4",
+    "observation": "朱色の大鳥居と神社がある。手前に大きな弓と白い鳩二羽がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "朱色の大鳥居と神社がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前に大きな弓と白い鳩二羽がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q15_c",
+    "status": "aligned",
+    "spec_sha256": "840eb829f965838262f40a96a537e417e1e482cc1e93e97ac85e604dc0e0bf91",
+    "reviewed_png_sha256": "2fdbb60c44d4a6f9518572fcc7af1b1446332a4e5a138bc2ebcd2dca7dedc003",
+    "observation": "地域の小さな石鳥居と木の社がある。注連縄が鳥居に掛かり周囲に村の家がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "地域の小さな石鳥居と木の社がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "注連縄が鳥居に掛かり周囲に村の家がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q15_d",
+    "status": "aligned",
+    "spec_sha256": "48338cde352a7e45bd51b818766f50c6cbf22f6432c2d5758de646c95be273e0",
+    "reviewed_png_sha256": "3a1531ffba1dc805866bc02f02287e5e8da684767ee237530b6ac0272f7f35ac",
+    "observation": "白ひげと白いトーガの神がいる。手に雷を持ち背後にギリシャ風の柱がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白ひげと白いトーガの神がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手に雷を持ち背後にギリシャ風の柱がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q16_a",
+    "status": "aligned",
+    "spec_sha256": "79ec772f21bfb305cd0f9ef788eeaf5f336b36ef8fee67a3b95ed46aa8256883",
+    "reviewed_png_sha256": "57f8debd2c4f77fd6d582fffbe7b48780cd1af2609c71ee47cdc91406050635b",
+    "observation": "地方の人物が座る貴族へ巻物を差し出す。巻物に田の区画の絵があり片方向の贈与になっている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "地方の人物が座る貴族へ巻物を差し出す"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "巻物に田の区画の絵があり片方向の贈与になっている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q16_b",
+    "status": "aligned",
+    "spec_sha256": "2cb162b19bd6d6727c8fdc2a74ea6e8d562d3266e0ef03fa026249dbebb10662",
+    "reviewed_png_sha256": "40167eff8dd0dbf173bafcf1306274a5799918826fd2181aa9dbe8d2fd3975af",
+    "observation": "古代装束の人物が役人へ盆を差し出す。盆に折り畳んだ色違いの絹布が載る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "古代装束の人物が役人へ盆を差し出す"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "盆に折り畳んだ色違いの絹布が載る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q16_c",
+    "status": "aligned",
+    "spec_sha256": "b75aa9c62568512cc191090c7ab02e675769e7e6c1277ef103eec64f54734d15",
+    "reviewed_png_sha256": "310aff10cabaa9dbbcd4287ec565b03d2481f05943c29b350576ef7c78397f86",
+    "observation": "農民と冠の役人が米俵を受け渡す。稲の田と高床の倉庫が後ろに見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "農民と冠の役人が米俵を受け渡す"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "稲の田と高床の倉庫が後ろに見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q16_d",
+    "status": "aligned",
+    "spec_sha256": "009edc9a7de506548d435190ce80f3de1e3dfd88586e5e0b39ea402ab079aec6",
+    "reviewed_png_sha256": "e2ece9f9574fda3e6f70a6e144f3fc7c43832c1de60b1905ea8f53f3ff89e1ce",
+    "observation": "二人の子供が向かい合っている。それぞれの手から別の色のリボン付きの箱を渡し合う。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "二人の子供が向かい合っている"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "それぞれの手から別の色のリボン付きの箱を渡し合う"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q17_a",
+    "status": "limited",
+    "spec_sha256": "248ff3f14e844bd2844470d50eb3861e37e3863cf123dc00185605951f9a5a22",
+    "reviewed_png_sha256": "82cf03a4b432af94a48b15eb7a7e89ce888dd64c8f75f2fe7efe3f9b8838c64a",
+    "observation": "白壁と木造の低い本坊がある。中央の唐破風と広い屋根が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白壁と木造の低い本坊がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "中央の唐破風と広い屋根が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q17_b",
+    "status": "limited",
+    "spec_sha256": "8a3cae768656f5d9702ec2b30714bfbc552f7e68df543b7999888298eea26e4a",
+    "reviewed_png_sha256": "e30cde92013db6fd3ebdc57bc39f4b6d6050218bc12d7add21310a22e0078f01",
+    "observation": "暗色の広い屋根と赤い柱が並ぶ堂がある。周囲と背後に杉の林がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "暗色の広い屋根と赤い柱が並ぶ堂がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "周囲と背後に杉の林がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q17_c",
+    "status": "limited",
+    "spec_sha256": "2b3793ff8b9afd0f5226501389e374f1200b754ff6033b131cd9072f40c10bd1",
+    "reviewed_png_sha256": "03c8e85dedd5335668552357be36e619142e63cc1c8c2e66c50bda3b9a90418a",
+    "observation": "赤い中央堂と長い左右の翼廊が原寸で完全に画面内に見える。手前に池と反射があり屋根上に二羽の鳳凰がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤い中央堂と長い左右の翼廊が原寸で完全に画面内に見える"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前に池と反射があり屋根上に二羽の鳳凰がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q17_d",
+    "status": "aligned",
+    "spec_sha256": "07f2904f6ce67a1db92646187cd1ea3af6b555535f172051ece48b14aca6ae08",
+    "reviewed_png_sha256": "938240232da6b7ccf036afa9223a5cfa93ddf3a4686cc72242f4cc2ae75bf703",
+    "observation": "青い尖塔屋根を持つ城が全体を見せる。テーマパークの広場と城の旗が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "青い尖塔屋根を持つ城が全体を見せる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "テーマパークの広場と城の旗が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q18_a",
+    "status": "limited",
+    "spec_sha256": "7bf291c0e6a1bc84acb7ab84fd347e5e0757446ad4d4fc0d62390cefb7591a82",
+    "reviewed_png_sha256": "eef8f1c7384333f53fb1f6bdab56bc37e04c792ac7af50df33870c99e989c4f5",
+    "observation": "茶色の上等な装束の国司が米俵に手を置く。後ろの疲れた二人の農民が巻物を広げて持つ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "茶色の上等な装束の国司が米俵に手を置く"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "後ろの疲れた二人の農民が巻物を広げて持つ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q18_b",
+    "status": "limited",
+    "spec_sha256": "947a904247fa8f630efee20f0fa77b5fbf78955ac4fef8c81c6d60eeb5ca02d6",
+    "reviewed_png_sha256": "5cb06169c14cfc1ea0559c35b8d70b9bdc9375bcd6986d35711390cbe09420f3",
+    "observation": "鉢巻と鎧姿の日本の武人がいる。船の綱と舷があり海上に木造帆船が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻と鎧姿の日本の武人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "船の綱と舷があり海上に木造帆船が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q18_c",
+    "status": "limited",
+    "spec_sha256": "487354ae38029e404f546bd96f8f9b32261a8230c613336e7102308b3d279921",
+    "reviewed_png_sha256": "b45afce3f63b53ddac1a1b9d837b9f692359e62f62eea289e4d3688bc1860627",
+    "observation": "兜と鎧をつけた武人が馬に乗り弓を持つ。背後は広い草原と低い山地で海はない。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "兜と鎧をつけた武人が馬に乗り弓を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後は広い草原と低い山地で海はない"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q18_d",
+    "status": "aligned",
+    "spec_sha256": "a6636abe967305e4a428abd43cb9b9f6818b978f0eeecf5292df02679189bef6",
+    "reviewed_png_sha256": "428b108e1b7b18f6896cd4a4367dc3496685618b3eb5b991e1a0eff6ed4c7f1b",
+    "observation": "橙色の服に黄色い帯の大柄な短髪少年。マイクを握って大きく口を開いて歌う。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "橙色の服に黄色い帯の大柄な短髪少年"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "マイクを握って大きく口を開いて歌う"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q19_a",
+    "status": "limited",
+    "spec_sha256": "ce5a218583d5aa6500e97bcffc5178bf274c92adeb7c8cc5be853af99176b53d",
+    "reviewed_png_sha256": "aa12a6ca0ab0a2eda0e2787e686a293b95a87f2e0047e9fc6e1f13b1582f5927",
+    "observation": "騎馬の鎧武者が上下の先端まで収まる弓を持つ。草原を背景に兜と馬の頭が収まり拡大では弓弦も確認できる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "騎馬の鎧武者が上下の先端まで収まる弓を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "草原を背景に兜と馬の頭が収まり拡大では弓弦も確認できる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q19_b",
+    "status": "limited",
+    "spec_sha256": "2ac7ca836d805b446ef723962a8970b3f50de3cdd50d2988c7abd0d3d33fcffa",
+    "reviewed_png_sha256": "44371430cebce2b33b94a393174ecdc9924aea26fbaab70207abaa4e60d8f221",
+    "observation": "鉢巻と鎧の武人が木造船上に立つ。舷と綱が見え背後の海に複数の帆船がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻と鎧の武人が木造船上に立つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "舷と綱が見え背後の海に複数の帆船がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q19_c",
+    "status": "limited",
+    "spec_sha256": "687d8cdaa1b0a61ba080d5a76091a3b2c9ab6968c862d0b248bfb99c3e0d48fd",
+    "reviewed_png_sha256": "ac3b71b639237534f56a7697e310cacb767192c87a3e3acae53bce286ce4b5c1",
+    "observation": "剃髪した年配の男性が扇を広げる。背後の港に大きな貿易帆船がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の男性が扇を広げる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後の港に大きな貿易帆船がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q19_d",
+    "status": "aligned",
+    "spec_sha256": "6e0b9d34bcb1fddcbbf8f7a7014662a34d1294472b65f5cfc2db22b8b4506957",
+    "reviewed_png_sha256": "3e76d027ca4e30850917e92bd6f927bf09daef75ed048f056f0af8b010af6793",
+    "observation": "白い人型メカの胴が青と赤である。頭に黄色いV字アンテナがあり格納庫に立つ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白い人型メカの胴が青と赤である"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "頭に黄色いV字アンテナがあり格納庫に立つ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q20_a",
+    "status": "limited",
+    "spec_sha256": "645da4d98c6944814b114df522c91000026d5e075f9eb1d6fdbfa82b49d5891f",
+    "reviewed_png_sha256": "54f7296cae7b32e7c64971803d3fc6dd8d0fe8ee46961ca78d315ae9522d7ed3",
+    "observation": "紫の十二単と長い黒髪の女性がいる。筆で絵巻に書き御簾と背景の月が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫の十二単と長い黒髪の女性がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "筆で絵巻に書き御簾と背景の月が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q20_b",
+    "status": "limited",
+    "spec_sha256": "31f84f4b728c8f36415f4d0b742b031fefc116be112edf6f602a9b7486e106df",
+    "reviewed_png_sha256": "330dfd9f7e02dfce04cabb1f66244e733b46469641e2dae83f7d879291c8d03b",
+    "observation": "緑と赤の十二単の女性が座る。冊子に筆を持ち後方に曙の山が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "緑と赤の十二単の女性が座る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "冊子に筆を持ち後方に曙の山が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q20_c",
+    "status": "limited",
+    "spec_sha256": "bfc23bd5531657f39e4c08710d6a18f1d9949f77d77b06444a0ac7a4bea4dd70",
+    "reviewed_png_sha256": "0264ffa7dd3fa085dfae2844e3b7ece843d7901c78834d192487889a1727e1d1",
+    "observation": "黒い烏帽子の男性貴族が筆を持つ。机の巻物と背景の海に小さな帆船がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "黒い烏帽子の男性貴族が筆を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "机の巻物と背景の海に小さな帆船がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q20_d",
+    "status": "aligned",
+    "spec_sha256": "17f1b4410b4c765a49c7b19877155e9476a7cd6c428ade5bcaac9ddd649b3089",
+    "reviewed_png_sha256": "f65fa29cfe3345258f66fa25829feed99641b32ca8f9cdbb16a6a02486350901",
+    "observation": "漁師風の青年が閉じた飾り箱を持つ。砂浜で隣に海亀がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "漁師風の青年が閉じた飾り箱を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "砂浜で隣に海亀がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q21_a",
+    "status": "limited",
+    "spec_sha256": "9c56b56f88e9b2c3d69e6a400781bc23c47c8212d087a7a016bdae5f5d496911",
+    "reviewed_png_sha256": "88c87f15697416b661c0fbdbf3187c890a7dfb7943d3b2682249c4013eea249f",
+    "observation": "鉢巻と鎧姿の日本の武人がいる。木造船の舷と海の船団が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻と鎧姿の日本の武人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "木造船の舷と海の船団が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q21_b",
+    "status": "limited",
+    "spec_sha256": "9a79055cbe438bc82510fca392dd36fa113f37a81c868e54166d52709b75fcbf",
+    "reviewed_png_sha256": "55206047790d4493a27954ec7580e858fc5f8d2acd4a02870f66c9ddbd2f668e",
+    "observation": "鎧と兜の武人が馬に乗り弓を持つ。背後は広い草原で海がない。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鎧と兜の武人が馬に乗り弓を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後は広い草原で海がない"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q21_c",
+    "status": "limited",
+    "spec_sha256": "f788a46344b009e5c6994ac70c1ba4acefcc147d13ade99d1c80277ab630844a",
+    "reviewed_png_sha256": "12e2c25d368d5c50d89191efb2f5992c158ec7fda09ec13e936e3155faaeff15",
+    "observation": "剃髪した年配の男性が扇を持つ。港の背景に赤い大型帆船がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の男性が扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "港の背景に赤い大型帆船がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q21_d",
+    "status": "aligned",
+    "spec_sha256": "f490a8c6e79fe06e65c366cb9838f7a4c77b78fe5a74061ff6b19982e0db0952",
+    "reviewed_png_sha256": "9e5bc4a96a1d22c637cc83f5065710d92853370867d9859561636f50927c6ca2",
+    "observation": "赤い帯の麦わら帽子と赤いベストの黒髪少年が笑う。船の舷と帆と綱が後方に見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤い帯の麦わら帽子と赤いベストの黒髪少年が笑う"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "船の舷と帆と綱が後方に見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q22_a",
+    "status": "aligned",
+    "spec_sha256": "abf8d2738ce353d19ebfe4b737b43c1cc1bcf894a9de1adcb0aa461746630c6f",
+    "reviewed_png_sha256": "7d7c9b1d6d4ff1712158d0565388a0c9fd756d9ba9b5a17cc5a37371281b7e50",
+    "observation": "農民の横に米俵が残っている。徴税役人が空の籠を背負い両手を空にして立ち去る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "農民の横に米俵が残っている"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "徴税役人が空の籠を背負い両手を空にして立ち去る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q22_b",
+    "status": "aligned",
+    "spec_sha256": "8d8b40af1826a620ec60d709ee0e623179f21a0160ae00b413e7126be4b334a7",
+    "reviewed_png_sha256": "a4b4e8f488c5b1401fc63cb132918a0ae14e305d61203c526cc4f19f8e5e124e",
+    "observation": "閉じた木戸の内側の管理人が手のひらで制止する。外側に冠の役人二人、内側に田がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "閉じた木戸の内側の管理人が手のひらで制止する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "外側に冠の役人二人、内側に田がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q22_c",
+    "status": "aligned",
+    "spec_sha256": "580da50179378f95c850937e62ad811dac495e87bbe0ae69bd2ce0919c85bb60",
+    "reviewed_png_sha256": "d866a9b5d1a68625b95cf2181a2c888cd8caac1762a3a5a9a5324b77dfefe711",
+    "observation": "無地の紙に赤い取り消し線がある。米籠を抱える喜ぶ農民と天秤・空の徴収皿がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "無地の紙に赤い取り消し線がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "米籠を抱える喜ぶ農民と天秤・空の徴収皿がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q22_d",
+    "status": "aligned",
+    "spec_sha256": "b7999119edb36ed5f1e4ffaef595995eba4d7f4826c52963fab2d620798c1759",
+    "reviewed_png_sha256": "b50e6a785ba1f21454f36cdbcad3a8ae15c4e66937d4dc03cd3dba2b3b9d4078",
+    "observation": "横顔を浮き彫りにした金メダルがある。青いビロードの開いたケースに収まる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "横顔を浮き彫りにした金メダルがある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "青いビロードの開いたケースに収まる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q23_a",
+    "status": "aligned",
+    "spec_sha256": "08ff37f3619b0531fabf5358cad1672e01578aeab7e6d94e451ce9aea81a2b62",
+    "reviewed_png_sha256": "8a78a296cecbf38acff52902d55707a59267ec751b97b92483f6b9a2fe181d32",
+    "observation": "閉じた門で管理人が手を出して役人を止める。冠の役人は門外にいて内側には田が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "閉じた門で管理人が手を出して役人を止める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "冠の役人は門外にいて内側には田が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q23_b",
+    "status": "aligned",
+    "spec_sha256": "e94edfaa3bb64fd5272a543a06ef110ef1124e3b5852eb169d04dca8837403dc",
+    "reviewed_png_sha256": "a7cf78c4d86de2b3b8fdb28e07e8787ff89e1b638f982556fc7129127561bef8",
+    "observation": "農民側に米俵が積んだままである。空の籠を背負う徴税役人が空の手を広げて立ち去る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "農民側に米俵が積んだままである"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "空の籠を背負う徴税役人が空の手を広げて立ち去る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q23_c",
+    "status": "aligned",
+    "spec_sha256": "8b6f459b918e5ed64affa649ed5af5508f0f3e541261cd00aa44bbf027fb7416",
+    "reviewed_png_sha256": "de093ef119fab5b3296722f5985319fd6a22ccd9b170031ce6277ca03cc43427",
+    "observation": "二人の測量者が田の区画に長い縄を張る。測量棒を持つ人と帳面に記す役人がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "二人の測量者が田の区画に長い縄を張る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "測量棒を持つ人と帳面に記す役人がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q23_d",
+    "status": "aligned",
+    "spec_sha256": "edc7e105d9fd4655a2e968e2113c76edf6581a3ddd41d37aecf9c94e3d2c0c38",
+    "reviewed_png_sha256": "8c774d0f49fe5bbfbbe88188b71c74fe08fdee3a1564011599273872277cf812",
+    "observation": "緑色の二人のゾンビが歩く。後ろに古い観覧車と遊園地がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "緑色の二人のゾンビが歩く"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "後ろに古い観覧車と遊園地がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q24_a",
+    "status": "limited",
+    "spec_sha256": "4e728f6664be906069d94b97f2b5cbd3ff337c341b086063ad5fbc642ae087fc",
+    "reviewed_png_sha256": "82c0a4e870d8b4cd701fe278d83ad452bee5d02c48b3a86761590a498c053201",
+    "observation": "北海道・本州・四国・九州の輪郭が見える。本州東部の関東一帯だけ赤く他の地域は灰色である。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "北海道・本州・四国・九州の輪郭が見える"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "本州東部の関東一帯だけ赤く他の地域は灰色である"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "地域の位置と強調範囲を確認した概略図であり、海岸線・県境の精密な地図ではない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q24_b",
+    "status": "limited",
+    "spec_sha256": "6ca1841cac2793dfda051ec9dd63146d026ba038048209df92f3330b34a22180",
+    "reviewed_png_sha256": "054cf3472933597e53dcd875fc8217a96542557149e0e4439906c3d6c81f39e0",
+    "observation": "灰色の日本列島の輪郭がある。本州中西部の近畿一帯が赤く四国や九州は灰色である。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "灰色の日本列島の輪郭がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "本州中西部の近畿一帯が赤く四国や九州は灰色である"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "地域の位置と強調範囲を確認した概略図であり、海岸線・県境の精密な地図ではない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q24_c",
+    "status": "limited",
+    "spec_sha256": "3520ff4f77c0bfb155d286a0441009a98644020f1a10365af38042bdc28a24b2",
+    "reviewed_png_sha256": "57b2bc688c0cfa28c13c8e232de6c362fd5cc332b52936564c6082997ac7b4af",
+    "observation": "灰色の日本列島が見える。南西の主島の九州だけが赤く本州・四国・北海道は灰色である。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "灰色の日本列島が見える"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "南西の主島の九州だけが赤く本州・四国・北海道は灰色である"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "地域の位置と強調範囲を確認した概略図であり、海岸線・県境の精密な地図ではない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q24_d",
+    "status": "aligned",
+    "spec_sha256": "e3f0125ad9b613b48b52a4a0547d1e609ca1b2cf6776635c50d41d81d68b65d2",
+    "reviewed_png_sha256": "9922e9e9fe4461504e9b38b3d4894a4665fd7512042fc704ebbc4d9367aefc64",
+    "observation": "空中の島にピンクの城が建つ。虹の橋と空飛ぶ小さな妖精がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "空中の島にピンクの城が建つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "虹の橋と空飛ぶ小さな妖精がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q25_a",
+    "status": "limited",
+    "spec_sha256": "f594d31270a48ff41723f12e1da38896e9e9d02b1a01e8226f7acedb7e176997",
+    "reviewed_png_sha256": "d96969bbe284e2c299436da2ad5a7dcce5cc660d9fde2c0ffcb76afb714eef48",
+    "observation": "三人の冠を着けた男性貴族が立つ。背後の山林に小さな金色の堂がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "三人の冠を着けた男性貴族が立つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後の山林に小さな金色の堂がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q25_b",
+    "status": "limited",
+    "spec_sha256": "0bbbf1a68196bb3117c4d2f5f7041138fd924e4770a3978bc2c65934690deca0",
+    "reviewed_png_sha256": "58c146c22e0f6dc304ed440e19c10c8b2ace59029c85c3d376f59f98aa933302",
+    "observation": "赤い鎧と赤旗の武家三人が並ぶ。手前の盾に赤い蝶の紋がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤い鎧と赤旗の武家三人が並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前の盾に赤い蝶の紋がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q25_c",
+    "status": "limited",
+    "spec_sha256": "9c8cc3cc7e0e2e47e26ac14088ab09262fdfda4ba65ed472369df7232024afcd",
+    "reviewed_png_sha256": "88cc405d51931738db18b05ec3d2d8b3ed832f9d68a75878f7f283bf7ef01d21",
+    "observation": "白旗を背にした武家三人が並ぶ。盾に竜胆風の花と葉の紋がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白旗を背にした武家三人が並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "盾に竜胆風の花と葉の紋がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q25_d",
+    "status": "aligned",
+    "spec_sha256": "bae4be698acfbb43eff6975a607ad8f771e2a587302b3ab25914bfb7870a9037",
+    "reviewed_png_sha256": "b83049397ae5c958f87679e3f71280a46164ea7c66b86d78047ebccdcd03d534",
+    "observation": "緑の鱗を持つ角のある竜がいる。背に翼、後ろに長い鱗の尾がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "緑の鱗を持つ角のある竜がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背に翼、後ろに長い鱗の尾がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q26_a",
+    "status": "limited",
+    "spec_sha256": "a11676ce47f9ba30bb687301fb86d677e658886699e4e364687633b86df31ecf",
+    "reviewed_png_sha256": "2a60620d3f4e7c0875cbddcf8378ae62c4957d56bb459502e4c93c6f90e9f599",
+    "observation": "単層の小さな金色の仏堂がある。開いた扉の奥に金色の仏像が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "単層の小さな金色の仏堂がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "開いた扉の奥に金色の仏像が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q26_b",
+    "status": "limited",
+    "spec_sha256": "150b5697a7745ed4960aabec770552b9ac3a4b2d3a4d33e01ac32890dbef1489",
+    "reviewed_png_sha256": "491a7e411401cf355e2259686516a5d799069fca9a014d04ba41072561ab7bd0",
+    "observation": "赤い中央堂と左右対称の翼廊がある。手前の池に建物が映り中央屋根の鳳凰も見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤い中央堂と左右対称の翼廊がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前の池に建物が映り中央屋根の鳳凰も見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q26_c",
+    "status": "limited",
+    "spec_sha256": "2b5b92e88eaaa77397338c0a8f684433b6c8ea27da14e9ad80e6bb50828dde45",
+    "reviewed_png_sha256": "193f5e94a92782e7f2afbd4b873ff6d49cb3c43d7be47a88ab4e2441999cfca1",
+    "observation": "三層で上二層が金色の楼閣がある。全体が画面内にあり手前の池に映る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "三層で上二層が金色の楼閣がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "全体が画面内にあり手前の池に映る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q26_d",
+    "status": "aligned",
+    "spec_sha256": "0afc5e19b396f49752d778a78b455afeb25384ae38002c31ab5f0096992361c6",
+    "reviewed_png_sha256": "7febc51c72bd684c1ce2a30c6b6bf5ddf21d149b01a1ad1d85c159cdea5abe7c",
+    "observation": "砂漠に石積みの巨大な四角錐がある。両脇に小さいピラミッドがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "砂漠に石積みの巨大な四角錐がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "両脇に小さいピラミッドがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q27_a",
+    "status": "limited",
+    "spec_sha256": "85f9956be4a41edc6021597216994dfcfbc6e71e946a0640ae6c2a684ddfd4d6",
+    "reviewed_png_sha256": "cdcb26be66ec85214a2e879c061a9b94ed41be7b79137ef8ed482d6f6a896528",
+    "observation": "鎧と兜の騎馬武者が弓全体を持つ。上下の弓端と弦が収まり草原を背景にする。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鎧と兜の騎馬武者が弓全体を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "上下の弓端と弦が収まり草原を背景にする"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q27_b",
+    "status": "limited",
+    "spec_sha256": "0454a3af14465aaed74392e2b45fa3a488c3bc826ad0a992468f797d5b4ad19f",
+    "reviewed_png_sha256": "2c354cdd6d4cd01de9a0fa38795d320719337f6b6f9a475cc52f95c647f60978",
+    "observation": "鉢巻と鎧姿の日本の武人がいる。木造船の綱と舷、背景の海上に木造帆船が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻と鎧姿の日本の武人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "木造船の綱と舷、背景の海上に木造帆船が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q27_c",
+    "status": "limited",
+    "spec_sha256": "0e9d48cd9394248eab57d866e7669f2870061282708ad01db53a11a9a12613ae",
+    "reviewed_png_sha256": "5ecbe63b9447896202966d7cb691524525b328a882ab4a28bed2e8e63330787b",
+    "observation": "剃髪した年配の男性が開いた扇を持つ。背景の港に大きな貿易帆船がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の男性が開いた扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背景の港に大きな貿易帆船がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q27_d",
+    "status": "aligned",
+    "spec_sha256": "03176df194d06eadbe66d79aa6b79597315df5dfdcdb95fd779fe64b68ea6e68",
+    "reviewed_png_sha256": "9d2f415a7dc2a7b39ab4432f484bab140d62b304170fb936dc5df238650f2c17",
+    "observation": "鉢巻の少年と桃が中央にある。周囲に犬・猿・雉の三匹がいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻の少年と桃が中央にある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "周囲に犬・猿・雉の三匹がいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q28_a",
+    "status": "limited",
+    "spec_sha256": "5a23e06cb132b4ff3fbb535fdb52c66e2d6a9c512444b3d0a0ce9211513e7f60",
+    "reviewed_png_sha256": "680f3cfb416f062a11312239f8407f46b0529f9854fd1ede12d6fc6125e3c3d5",
+    "observation": "剃髪した年配の上皇が指で指示する。巻物を持ち手前の従者を向く。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の上皇が指で指示する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "巻物を持ち手前の従者を向く"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q28_b",
+    "status": "limited",
+    "spec_sha256": "345cc3e52dee5e1703fd55e7ac42463f3c00efee9ffeb864eb43d36d575644ab",
+    "reviewed_png_sha256": "d4ad248a2d0a45e0faaee76f0e6a80b4e78a74f7e68ca15c6b0e7bfcc3c76137",
+    "observation": "若い成人の冠を着けた天皇がいる。橙色の束帯で笏を持つ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "若い成人の冠を着けた天皇がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "橙色の束帯で笏を持つ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q28_c",
+    "status": "limited",
+    "spec_sha256": "2037f5c59d1d3e97a0a4530225d1812c06ab9c34a19057721583b033893a8512",
+    "reviewed_png_sha256": "c947abc016355b2189f26dc13c6cb8e49b6009fd972dd7fdacb2b21190e7b547",
+    "observation": "冠を着けた天皇が笏を持つ。赤褐色の束帯で宮廷を背景に立つ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "冠を着けた天皇が笏を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤褐色の束帯で宮廷を背景に立つ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q28_d",
+    "status": "aligned",
+    "spec_sha256": "a5d7cc99021fb225a26fc718b7af74a86e9e0e0b57509174b625c84c2d2c6e2d",
+    "reviewed_png_sha256": "5cced03b8407449e08863cdaa18f2853c3dd12018f787f2d58d759d00744e33a",
+    "observation": "ひげの海神が三叉の鉾を持つ。海の波から姿を現し左右にイルカがいる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "ひげの海神が三叉の鉾を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "海の波から姿を現し左右にイルカがいる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q29_a",
+    "status": "aligned",
+    "spec_sha256": "e94c98220e8cd454a315d8cad20c80a4cf983b1b2559e90eeaf11086913389ba",
+    "reviewed_png_sha256": "6443aeafe87d1dbfdabfa9bde773e0f991927d0b519162f11320c783b3e85931",
+    "observation": "剃髪した年配の上皇が手を伸ばして指示する。後ろに若い冠の天皇が座る。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の上皇が手を伸ばして指示する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "後ろに若い冠の天皇が座る"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q29_b",
+    "status": "aligned",
+    "spec_sha256": "878f3adcce91ca4b2936e7bbf6b311f8d31051fa042edfc99cef8a1bb931a382",
+    "reviewed_png_sha256": "e26b678bdc29b6c546f4e6193f8cca9b572fa2d839c1de37aacc10789a8ee02a",
+    "observation": "中央の大臣と後方の幼帝・成人天皇の三人がいる。大臣が笏を持ち正面に大きく描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "中央の大臣と後方の幼帝・成人天皇の三人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "大臣が笏を持ち正面に大きく描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q29_c",
+    "status": "aligned",
+    "spec_sha256": "a77b7a0fd3240249d8c6e52ffca852bc4f63f1a28ce61870ae9ba8ba18d5942a",
+    "reviewed_png_sha256": "973674f83ae83c0a2dbc2d3ea178c6dc1a93b4301614a494f465e01dbafb70b4",
+    "observation": "古代装束の官人が木簡の束を読む。机に法令巻物があり後ろで他の官人が働く。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "古代装束の官人が木簡の束を読む"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "机に法令巻物があり後ろで他の官人が働く"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q29_d",
+    "status": "aligned",
+    "spec_sha256": "1c709c6e050e67a664d1c87f0c7bac41788f041076c9afd49d65865f4cfb9884",
+    "reviewed_png_sha256": "71fdf690e79cb7d5572be8cae050effd55fa74e9fbbeb421f78af113ad91b235",
+    "observation": "ヘッドセットとマイクを着けた人物がいる。ゲームコントローラーを持ちモニターと撮影カメラがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "ヘッドセットとマイクを着けた人物がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "ゲームコントローラーを持ちモニターと撮影カメラがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q30_a",
+    "status": "limited",
+    "spec_sha256": "6b73cc0822b368537ac67d1b262d69c189bfdadf1c63b5b84486311cc928364c",
+    "reviewed_png_sha256": "2b5199e45a6a103bf5cdcac48dacae9231fd0c78c58343dc85d30a686b73d3ea",
+    "observation": "鎧と兜の武将が上下の端まで収まる弓を持つ。馬と白旗、京都の宮殿門が後ろにある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鎧と兜の武将が上下の端まで収まる弓を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "馬と白旗、京都の宮殿門が後ろにある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q30_b",
+    "status": "limited",
+    "spec_sha256": "648d5938dc414ad86dffc45c73c4e7dd31ec0f3d600fa50a522b5d2270fdd212",
+    "reviewed_png_sha256": "7c6fb2a64c77b773a78525e4e84f0083d89fc66732de1b83f2a0289e03004601",
+    "observation": "剃髪した年配の男性が扇を持つ。港と大型の貿易帆船が背景にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の男性が扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "港と大型の貿易帆船が背景にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q30_c",
+    "status": "limited",
+    "spec_sha256": "2696eb744a33524947a525f2e18bbd0c3284eff8eb580e6dc17b5277eb769e28",
+    "reviewed_png_sha256": "0d6655ec53f0a8497fe3ba7e7ab1d4781e8612b40da79143ef6c7a4e8c3266d0",
+    "observation": "鎧と兜の武人が馬に乗り弓全体を持つ。上下の弓端と馬の頭が収まり草原を背景にする。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鎧と兜の武人が馬に乗り弓全体を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "上下の弓端と馬の頭が収まり草原を背景にする"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q30_d",
+    "status": "aligned",
+    "spec_sha256": "4b350b2cff8ad08524899a8917c0616695a02e97d811fd6dfc8590023ebf88a1",
+    "reviewed_png_sha256": "54b150f4565d2b94296ae0dc17d5ab1c00b02fc6a6a4939ba4068b0533a97a65",
+    "observation": "緑の昆虫型の仮面と大きな赤い眼がある。赤いマフラーを着け傍らにバイクがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "緑の昆虫型の仮面と大きな赤い眼がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤いマフラーを着け傍らにバイクがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q31_a",
+    "status": "aligned",
+    "spec_sha256": "5619b5134c71a246e028f3c9ce5d75284c31ce5cb74cc21d418e59957d0e62a7",
+    "reviewed_png_sha256": "b66b4d9c18115d5cc09396bd888279c6e4d75cc75b5f3158c10756820bbd7e2c",
+    "observation": "腰に鞘入りの刀を差した鎧姿の侍がいる。宮廷の縁側に座る貴族へひざまずいて仕える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "腰に鞘入りの刀を差した鎧姿の侍がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "宮廷の縁側に座る貴族へひざまずいて仕える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q31_b",
+    "status": "aligned",
+    "spec_sha256": "99813e04aaddf8dcb3c75167f493aa865482d037e8f615c9aeba908f22d02758",
+    "reviewed_png_sha256": "88722ab7079c06b852408229b90cd92993a1c12710517c640ee1b0f24df5aa76",
+    "observation": "大鎧と兜の騎馬武人がいる。弓の全長と弦が画面内にあり馬の頭も収まる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大鎧と兜の騎馬武人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "弓の全長と弦が画面内にあり馬の頭も収まる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q31_c",
+    "status": "aligned",
+    "spec_sha256": "deedec9434b547083918534d051823960bc64f2c0b1136a4055d32c88a7f3767",
+    "reviewed_png_sha256": "8133121b344953a01c09f4ab3084caa9ba1f96ea157f9794b16bcc1cb9d319b0",
+    "observation": "上等な衣装の地方の有力者が立つ。柵のある屋敷と左右の武装した従者、田がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "上等な衣装の地方の有力者が立つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "柵のある屋敷と左右の武装した従者、田がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q31_d",
+    "status": "aligned",
+    "spec_sha256": "9801e06b019903be36e8504a4397d1c1a831b558ee7452ae8afdd806ed275153",
+    "reviewed_png_sha256": "982a11bc078c31cc3295d77bc54029f9c20927deddf5cae66bdd92045b7d12d3",
+    "observation": "銀色の人型ロボットがいる。関節と光る丸い眼が見え実験室を背景にする。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "銀色の人型ロボットがいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "関節と光る丸い眼が見え実験室を背景にする"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q32_a",
+    "status": "limited",
+    "spec_sha256": "df62d99e145cdb62b3c098af017050bf76ab0c27f5906b2b5733dfa520819e7a",
+    "reviewed_png_sha256": "12d087b271b8596ac569331c32e763cdf18d8b987082db1bfe78d118f0759cf5",
+    "observation": "両側に多数の鎧武者がいて弓や槍で交戦する。夜明けの木造宮殿門と煙・燃える柵がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両側に多数の鎧武者がいて弓や槍で交戦する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "夜明けの木造宮殿門と煙・燃える柵がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q32_b",
+    "status": "limited",
+    "spec_sha256": "181feb7544e8a4867b176429e6f5e32ea7efd9db1e1fafc0ca46323ccd781b22",
+    "reviewed_png_sha256": "7a62fdd8dfb9075467eaaf87bf47c52e87d03802a3a699d859380a00535ea930",
+    "observation": "両軍の多数の武士が刀や弓で交戦し不要な見出しはない。中央に牛車が見え背後の木造宮殿門が燃える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両軍の多数の武士が刀や弓で交戦し不要な見出しはない"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "中央に牛車が見え背後の木造宮殿門が燃える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q32_c",
+    "status": "limited",
+    "spec_sha256": "68b4eb7df18244ad1cfb45571bc1c2aa901462911fd5630d3a697cd814bb771c",
+    "reviewed_png_sha256": "0595d2f72dba27db99fe72117b298a1ca017b99c08bb2ad2fcbba6b39e61727a",
+    "observation": "両側に古代風の簡素な鎧の兵が多数いて交戦する。直刀・槍・木の盾を持ち川沿いの草原で戦う。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両側に古代風の簡素な鎧の兵が多数いて交戦する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "直刀・槍・木の盾を持ち川沿いの草原で戦う"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q32_d",
+    "status": "aligned",
+    "spec_sha256": "a01cc5f2a4cdf384f64c0e7c491d3cc7cae7635650848898b2626c1c5a067e2f",
+    "reviewed_png_sha256": "b223f60f4c39333c12a383635617dc6c8166233a352ffef7fcb5ae5590ce96d5",
+    "observation": "両側の子供たちが雪玉を投げ合う。雪の低い壁があり冬の服と帽子を着ている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両側の子供たちが雪玉を投げ合う"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "雪の低い壁があり冬の服と帽子を着ている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q33_a",
+    "status": "limited",
+    "spec_sha256": "96138555ef7caf5e943a3e6bbe37af1f37d32c992a34e6099926189b9e912d56",
+    "reviewed_png_sha256": "7cae28c33a9404bcac507972414680a86ee205f8fef5ec09532ef5a9a40cdead",
+    "observation": "両軍の多数の武士が刀や弓で交戦する。中央に牛車と牛が見え背後に燃える宮殿門がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両軍の多数の武士が刀や弓で交戦する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "中央に牛車と牛が見え背後に燃える宮殿門がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q33_b",
+    "status": "limited",
+    "spec_sha256": "ac4f9a3577c6b1b7aca97e0cc2802110062e61fdfce69dbf37052a47be0b43c3",
+    "reviewed_png_sha256": "a3551ba2edce8739663506588fa398e2829d374fb0c2d259f8be66f7afb0cc40",
+    "observation": "両側の多数の武士が武器を向け交戦する。夜明けの宮殿門と煙、手前の燃える柵がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両側の多数の武士が武器を向け交戦する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "夜明けの宮殿門と煙、手前の燃える柵がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q33_c",
+    "status": "limited",
+    "spec_sha256": "1f1c6be521df08c00123d16971e1f10d175724781d12c56c459c8d4e0ad2ed7c",
+    "reviewed_png_sha256": "62c379ae25ad3818670dddb372cb45dae592d8c132718f1930d19f70c6ddaad0",
+    "observation": "川の両岸の多数の武士が弓を向け合い交戦する。壊れた木橋と騎馬があり空の不要な見出しはなくなった。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "川の両岸の多数の武士が弓を向け合い交戦する"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "壊れた木橋と騎馬があり空の不要な見出しはなくなった"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q33_d",
+    "status": "aligned",
+    "spec_sha256": "28c68f30d5541903926419f713ed1bbd27d763cd51ce303d4f62707abf43f93e",
+    "reviewed_png_sha256": "cb725efcf45de66ebf80e4044687b63f27a00d8b66672e1c1cc302713bd2be9a",
+    "observation": "両側の浴衣姿の子供たちがいる。畳の部屋で白い枕を空中へ投げ合っている。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "両側の浴衣姿の子供たちがいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "畳の部屋で白い枕を空中へ投げ合っている"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q34_a",
+    "status": "aligned",
+    "spec_sha256": "51fe61ebc5f018292da2dad0dc55abe23a85b11a645d18dde523fac899e7289d",
+    "reviewed_png_sha256": "ae79f56cf0de41afd197d2aa3a6a8fbd147c6798ba6724d19ffb31f512f86f69",
+    "observation": "大きな数字710を正しく読める。木の台の紙札の下に奈良風の宮殿の絵がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな数字710を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "木の台の紙札の下に奈良風の宮殿の絵がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q34_b",
+    "status": "aligned",
+    "spec_sha256": "d2e42c673af9d0881cf029b06fe46d57eb4b451840fbdbdd70bc9b8db7b6eea4",
+    "reviewed_png_sha256": "7158f4a8acf5a5b0e86689caa674572493c6f2693918e737f45f2ae474ee488d",
+    "observation": "大きな数字794を正しく読める。紙札の下に平安宮殿の小さな絵がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな数字794を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "紙札の下に平安宮殿の小さな絵がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q34_c",
+    "status": "aligned",
+    "spec_sha256": "8dce99e43be631227974ecdbbdef4a415ced4da69fa2f100a1ff24461f2b8bf8",
+    "reviewed_png_sha256": "4cc242501f462184e50a507efeb47b59ce671c18ad40629c9deede0f6f01c740",
+    "observation": "大きな数字1086を正しく読める。下に剃髪の上皇の小さな肖像がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな数字1086を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "下に剃髪の上皇の小さな肖像がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q34_d",
+    "status": "aligned",
+    "spec_sha256": "426b31f317f0ee0ab120000d52b3cd2b396525bf606ccc9ed7a16e62793499be",
+    "reviewed_png_sha256": "00ad3c366cdb00808b66db4f30835c4ce5dba4534b9dcbf059a25dcac8097c53",
+    "observation": "大きな数字2000を正しく読める。卓上カレンダーの下に色違いの花火がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな数字2000を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "卓上カレンダーの下に色違いの花火がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q35_a",
+    "status": "limited",
+    "spec_sha256": "46e209689e16ce6ca02fb61718a1011decaddbdda09f610d17b5835e9e881488",
+    "reviewed_png_sha256": "40d1f16740c6722f2b7ca158dd57695447b8257cd6d70af37cf4548ea740658a",
+    "observation": "剃髪した年配の男性が扇を持つ。背景に港と大型の貿易帆船がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した年配の男性が扇を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背景に港と大型の貿易帆船がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q35_b",
+    "status": "limited",
+    "spec_sha256": "c67702543935d1fe30db5181bb7ead4eabd3394a94f56464cc78bf29d55d4098",
+    "reviewed_png_sha256": "9a99ab452bb302d97187a7f202de600b215826b506471f937bf58e7b525e5a2f",
+    "observation": "鎧と兜の武将が全長の収まる弓を持つ。馬と白旗、京都の宮殿門がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鎧と兜の武将が全長の収まる弓を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "馬と白旗、京都の宮殿門がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q35_c",
+    "status": "limited",
+    "spec_sha256": "d56f6d8a005e714d786055a468947f31b1749c25ca53b9e0d93dbf252a05d073",
+    "reviewed_png_sha256": "f849352a7ac35a367809d1fa6d4927253273b55649013f4a176500e5575ea78f",
+    "observation": "鉢巻と鎧の日本の武人がいる。木造船の綱と舷、背景の海の船団がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "鉢巻と鎧の日本の武人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "木造船の綱と舷、背景の海の船団がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q35_d",
+    "status": "aligned",
+    "spec_sha256": "186b79b4bfac0ba11c80d78b5934775619e7aa2b708f3a926c9e0c1df5461243",
+    "reviewed_png_sha256": "3a4ccc9225b3ec486488ed37c11db385f006781b13266839e3b2ac6cc5322dae",
+    "observation": "丸いパンの顔に赤い鼻と赤い頬がある。赤い服・黄色い手袋と茶色のマントで飛ぶ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "丸いパンの顔に赤い鼻と赤い頬がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤い服・黄色い手袋と茶色のマントで飛ぶ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q36_a",
+    "status": "aligned",
+    "spec_sha256": "da8ca1324a0a1efdab75635d8b19eda9dd2a843320d7785723dc78223d66d020",
+    "reviewed_png_sha256": "5c96d145b901a34ccfced7893c0b6f2a5d2da64d8ef9f121a0577bbc93b78660",
+    "observation": "木造の中国風帆船が港に停まる。日本と中国の商人が白磁の壺と絹布を取引する。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "木造の中国風帆船が港に停まる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "日本と中国の商人が白磁の壺と絹布を取引する"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q36_b",
+    "status": "aligned",
+    "spec_sha256": "41c048569235d77e095869d5aa7f4ce1d83f5f82a286a24371ec6d708a798204",
+    "reviewed_png_sha256": "c678ba6a8c08817bcbfe91f9d550a4db6febeab2f1afc4670850ad8d269fec05",
+    "observation": "木造の中国風帆船と明風の官人がいる。僧の使節と官人が二つに割った木の割符を持ち白磁の荷がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "木造の中国風帆船と明風の官人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "僧の使節と官人が二つに割った木の割符を持ち白磁の荷がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q36_c",
+    "status": "aligned",
+    "spec_sha256": "2ac8b3b11b8fb34e4e6919b2a17a2ed0dee28fb89455cad4814033b5fe2e07c5",
+    "reviewed_png_sha256": "7c35515544e701767f1a653cca19f998f043ed5a8532d40687c774be0603e24b",
+    "observation": "古代装束の日本の使節と唐風の官人がいる。赤い木造船の舷梯で対面し手前に絹布がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "古代装束の日本の使節と唐風の官人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "赤い木造船の舷梯で対面し手前に絹布がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q36_d",
+    "status": "aligned",
+    "spec_sha256": "ae1d9b83baf2eccd15f66965d2c4162b422c25f507496b5f560cf1aaa8cfa5b6",
+    "reviewed_png_sha256": "b68a12e0499ca654059c82ac43ec18eb0234ba6609aaeb3061d99c7d7fbdb7f2",
+    "observation": "向かい合う二人の作業員が中央の貨物箱を受け渡す。宇宙港に貨物宇宙船が停泊し背景に惑星がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "向かい合う二人の作業員が中央の貨物箱を受け渡す"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "宇宙港に貨物宇宙船が停泊し背景に惑星がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q37_a",
+    "status": "limited",
+    "spec_sha256": "e3f2877543e1f7a7a993a7fdfa7eaa71af2d0d70dcb4455338dd576391676e5c",
+    "reviewed_png_sha256": "0c5350a0973bf65b7acaa5b96167439ff07fa58db9917d7ecd81ad13c3d54984",
+    "observation": "剃髪して茶色の僧衣を着た僧が経巻を持つ。杉の木と山寺が背景にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪して茶色の僧衣を着た僧が経巻を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "杉の木と山寺が背景にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q37_b",
+    "status": "limited",
+    "spec_sha256": "e4cd6c22236b769c2ac4f5ed69f7f1905679781c02743462b8217f17e2e02061",
+    "reviewed_png_sha256": "527001293bb49a952d296d86d398f9485b55e906b2ea0c9994ce5f83a1db886a",
+    "observation": "剃髪した赤褐色の僧衣の僧が座る。手に金剛杵と数珠を持つ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した赤褐色の僧衣の僧が座る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手に金剛杵と数珠を持つ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q37_c",
+    "status": "limited",
+    "spec_sha256": "045157f93c8432df485373f57cf8fea802ecafde431e0d0db32315f1936a5ffb",
+    "reviewed_png_sha256": "c3c63e9487e42bb7e74eb2193a77cec9100e6bc94ca928f471adf72a95731993",
+    "observation": "目を閉じた年配の剃髪の僧がいる。深いしわと暗い僧衣で奈良風の寺院が後方にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "目を閉じた年配の剃髪の僧がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "深いしわと暗い僧衣で奈良風の寺院が後方にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q37_d",
+    "status": "aligned",
+    "spec_sha256": "3ec3a2879428604d61fa9482da67cd5c558f3ec4678f18909d3a5488fcdff285",
+    "reviewed_png_sha256": "8b0afafa719817ce125b63fe683d7a81d5a2aee1bce6986245f3b35dbbe03957",
+    "observation": "作業着と革エプロンの大工が鉋で木の板を削る。積んだ木材と手前の巻いた削りくずがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "作業着と革エプロンの大工が鉋で木の板を削る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "積んだ木材と手前の巻いた削りくずがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q38_a",
+    "status": "limited",
+    "spec_sha256": "b29235cfb119ff09c15afe15ca8eea0dd41cca1cf4b788cc03da6afc9d6b9b4b",
+    "reviewed_png_sha256": "0b36e445909238949f43ed3697ac3968d0ca0c96c4e909ac459834240298fcfb",
+    "observation": "剃髪して赤褐色の僧衣を着た僧がいる。手に金剛杵と数珠がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪して赤褐色の僧衣を着た僧がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手に金剛杵と数珠がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q38_b",
+    "status": "limited",
+    "spec_sha256": "f9edab89b6567686fe7c98b6d92408f9a4d5f71002f814c7b23c8b97f3035bb5",
+    "reviewed_png_sha256": "a7a56fc5e8ff80c94d20e433041aec0454d69eafa20a005aec202f47899722c6",
+    "observation": "剃髪した茶色の僧衣の僧が経巻を持つ。背景に杉と山の寺が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した茶色の僧衣の僧が経巻を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背景に杉と山の寺が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q38_c",
+    "status": "limited",
+    "spec_sha256": "044a491f7a67cffaf6362017cb4329f5183e30ca6fa12124dc3f23436160496a",
+    "reviewed_png_sha256": "8e2a9bb0508f01921bed56d5c1d56c32cb3d10fbeba1b11527575628d6424fbd",
+    "observation": "目を閉じた年配の剃髪の僧が座る。深い顔のしわと暗い僧衣、奈良風の寺院が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "目を閉じた年配の剃髪の僧が座る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "深い顔のしわと暗い僧衣、奈良風の寺院が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q38_d",
+    "status": "aligned",
+    "spec_sha256": "160079e7414c28671ced71500d0e3fe60d808eb13a29c1741e2b85e06f9a53b5",
+    "reviewed_png_sha256": "fca1c595de4ded5377ec5edbfb261ca0928af7ebdb65b4e98425788f5069af7f",
+    "observation": "タキシードと蝶ネクタイの手品師がいる。机の黒いシルクハットから色つきの布を取り出している。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "タキシードと蝶ネクタイの手品師がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "机の黒いシルクハットから色つきの布を取り出している"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q39_a",
+    "status": "aligned",
+    "spec_sha256": "8214b3cfddf3a1f3dd1181cf9dbbd9db3285dc8d2da9b0471ebb45bffa34ebb2",
+    "reviewed_png_sha256": "a8bf05f550d13315891d4fbbb95c66354f2ece51afbe2ea403af8ec3699b738c",
+    "observation": "ひらがなの「あいう」を正しく読める。紙の脇に筆と硯がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "ひらがなの「あいう」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "紙の脇に筆と硯がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q39_b",
+    "status": "aligned",
+    "spec_sha256": "55311293b07d4ca75c428439dd7c17899948486e245a460812d0164ed707809d",
+    "reviewed_png_sha256": "9ce28b15b645376fe48de02444d660548aa4ab71a15680ba8d9d62e275404c19",
+    "observation": "カタカナの「アイウ」を正しく読める。紙の脇に筆と硯がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "カタカナの「アイウ」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "紙の脇に筆と硯がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q39_c",
+    "status": "aligned",
+    "spec_sha256": "d20546d61c7aee046167aae6dc02ab7234a46192255170dadfae0124828f41b1",
+    "reviewed_png_sha256": "9743341cffc30d53387c29ec7b22a3a38cc061309a0a670693b0176fe47177b3",
+    "observation": "漢字の「安以宇」が縦に正しく並ぶ。古代風の紙と筆、右側に木の札がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "漢字の「安以宇」が縦に正しく並ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "古代風の紙と筆、右側に木の札がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q39_d",
+    "status": "aligned",
+    "spec_sha256": "cc0ebe87df3793bc404f682345e647a2eeb208836a5076d0b9ae4ec8916bd6b7",
+    "reviewed_png_sha256": "c1ef855aaf41b11fa3054ab99c677b4343f7032d7e8ef25ae5be5b15cab930b1",
+    "observation": "スマートフォンの画面が見える。笑顔・赤いハート・黄色い星の絵文字が並ぶ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "スマートフォンの画面が見える"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "笑顔・赤いハート・黄色い星の絵文字が並ぶ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q40_a",
+    "status": "aligned",
+    "spec_sha256": "7497b5619ed2c117d080eae82e7028a2390de4d8ba778492751ecb9b66be3cd5",
+    "reviewed_png_sha256": "3542ae631f032da537e4e35ef1ec25995b59b3bf39a70af8f996bb5598fb05ec",
+    "observation": "カタカナの「アイウ」を正しく読める。紙の脇に筆と硯がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "カタカナの「アイウ」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "紙の脇に筆と硯がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q40_b",
+    "status": "aligned",
+    "spec_sha256": "4160db842e4739ff4a1708acac255367ceb314cb66766344b6c3b4f77b6a94f6",
+    "reviewed_png_sha256": "4689ad9fa7d4b748695542ac34f437d7f17c5710599eeea4ec3423c2f167867e",
+    "observation": "ひらがなの「あいう」を正しく読める。紙の脇に筆と硯がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "ひらがなの「あいう」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "紙の脇に筆と硯がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q40_c",
+    "status": "aligned",
+    "spec_sha256": "a8b92f9f388c314868b6a9f8893ff77dee9fc531c3da2977813edfcfed5d1c2b",
+    "reviewed_png_sha256": "ed065373b09a8f3fcfb598a1ef4e2da7a98e13a53ba63b48dc7cfa02c83ea5db",
+    "observation": "漢字の「安以宇」を正しく読める。古代風の紙と筆と木札がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "漢字の「安以宇」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "古代風の紙と筆と木札がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q40_d",
+    "status": "limited",
+    "spec_sha256": "6219c015a82158ccbc5644d58a51ec771a640d4e68f3b981ebb625c331154134",
+    "reviewed_png_sha256": "851416d52b108210c59f66916caec3d6dadc4f08e0b04b3fee6d7bd7cd82025c",
+    "observation": "白地に黒い二次元コードの模様がある。左上・右上・左下の三隅に大きい四角の検出模様がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白地に黒い二次元コードの模様がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "左上・右上・左下の三隅に大きい四角の検出模様がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "外形の説明用。実際のペイロードや読み取り可能性は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q41_a",
+    "status": "limited",
+    "spec_sha256": "51e29401f5bccf57c5e19c622ce07ff6549ce30e71f0e7723d8071c5553e0acf",
+    "reviewed_png_sha256": "f3e42f4a5690116f4e0c6646cdb907cb915d8a65f83031b0c5149b4bbe8c5ef2",
+    "observation": "和綴じ本の表題「古今和歌集」を正しく読める。紺色の本と梅の枝と筆がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "和綴じ本の表題「古今和歌集」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "紺色の本と梅の枝と筆がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q41_b",
+    "status": "limited",
+    "spec_sha256": "36fc7d74da407460655017dd40c377a8ab4b6eb96b3ef142b84aceef8476d4e2",
+    "reviewed_png_sha256": "91f2dfdcf2a76d0a6b54d9b9b7e16c170daa1d8ea8363e39fe70a6828e046bfa",
+    "observation": "和綴じ本の表題「万葉集」を正しく読める。茶色の本と草の穂と筆がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "和綴じ本の表題「万葉集」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "茶色の本と草の穂と筆がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q41_c",
+    "status": "limited",
+    "spec_sha256": "316a8ff0f485a7c8b0ffa94f0a873807c97e917d1ea329f83dd872fcb3b9aba9",
+    "reviewed_png_sha256": "c84152a12e8da7dc90087a448cd5708b2bb9fb849a3c8d6231e66b8b104841ef",
+    "observation": "開いた絵巻物が画面内にある。平安装束の男女が御簾を隔てて描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "開いた絵巻物が画面内にある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "平安装束の男女が御簾を隔てて描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q41_d",
+    "status": "aligned",
+    "spec_sha256": "d398197076ca14d38fe695ca0110f2125ec3c8682b4fc300591b43499e724b34",
+    "reviewed_png_sha256": "222818ecc53d0dfc8e9b87c0cc010cebd3fe3fe622354d7fe15bf27f4f5a1180",
+    "observation": "大きな見出し「少年ジャンプ」を正しく読める。漫画雑誌の表紙に複数の漫画のコマがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "大きな見出し「少年ジャンプ」を正しく読める"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "漫画雑誌の表紙に複数の漫画のコマがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q42_a",
+    "status": "limited",
+    "spec_sha256": "48f18f3c9ea5a9cdd5e00de989c0250fc0bc8fd113935eae68c5a735f5c6ce9a",
+    "reviewed_png_sha256": "24a07afc3a9c26bbfb0d609233c5daa937c04899bd18ab9d94f80f63da57d850",
+    "observation": "紫の十二単と長い黒髪の女性がいる。絵巻に筆で書き御簾と月が背景にある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫の十二単と長い黒髪の女性がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "絵巻に筆で書き御簾と月が背景にある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q42_b",
+    "status": "limited",
+    "spec_sha256": "3dfa2e2cb645c1cb7a5dbe9ec797831b14928e16596d6ec41ab0280cc3d5871b",
+    "reviewed_png_sha256": "aa65ac8c2d1b965efbadc7d77ed579ceb7a169b7b0ace8bafcfadf0e7a188a08",
+    "observation": "緑と赤の十二単の女性がいる。冊子に筆を持ち背景に曙の山がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "緑と赤の十二単の女性がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "冊子に筆を持ち背景に曙の山がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q42_c",
+    "status": "limited",
+    "spec_sha256": "82a8314d8c479759029e182ff43945c6e1f22bc4cd9405d67a2186bdc2be7174",
+    "reviewed_png_sha256": "570221634731bc168f5a31562372b1f591a64eb3c5ccd54748478a07d8ff8b27",
+    "observation": "冠を着けた男性貴族が筆を持つ。机に巻物、背景に海の小舟がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "冠を着けた男性貴族が筆を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "机に巻物、背景に海の小舟がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q42_d",
+    "status": "aligned",
+    "spec_sha256": "3b727d737f05ef3ee490f5d85df9394eaf2483404a8e8b401882a611facd8598",
+    "reviewed_png_sha256": "9d4c6bc2140e32bd6af6457e0cb753cae25a25772ed5b411d00058c3288804af",
+    "observation": "白い帽子とエプロンのパン職人が両手で生地をこねる。横に焼いたパンとバゲット、背景にオーブンがある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白い帽子とエプロンのパン職人が両手で生地をこねる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "横に焼いたパンとバゲット、背景にオーブンがある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q43_a",
+    "status": "limited",
+    "spec_sha256": "8ecf6fb75ace2b4156fb42436d17469604ae0164bd3b1faaf312a6301380f71b",
+    "reviewed_png_sha256": "e6bd25300f7c693b0649bd6ab7b3dba4daaa49da14e7a5d886500d778418dd32",
+    "observation": "緑と赤の十二単の女性が座る。筆と冊子があり背景に曙の山がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "緑と赤の十二単の女性が座る"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "筆と冊子があり背景に曙の山がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q43_b",
+    "status": "limited",
+    "spec_sha256": "ec80da955678b8a8a0cc7f4ce0d1d1997e3f471730ff768bb81af9fbdc00ec34",
+    "reviewed_png_sha256": "eabec765f0d86f5758ee9b5e603dba5111a705f73bb37f7b2bca519a2f1f3b71",
+    "observation": "紫の十二単と長い黒髪の女性がいる。筆と絵巻を使い背景に御簾と月がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "紫の十二単と長い黒髪の女性がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "筆と絵巻を使い背景に御簾と月がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q43_c",
+    "status": "limited",
+    "spec_sha256": "0449ebc802e1874e70b443b5dd844b71e32c22f18014d38076e164901bfe4967",
+    "reviewed_png_sha256": "68e6f727a69cda02e88933f110a66025dc84c6c01a8116e0d89de00b3f2cd3b3",
+    "observation": "冠を着けた男性貴族が筆を持つ。前に巻物、背景に海の小舟がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "冠を着けた男性貴族が筆を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "前に巻物、背景に海の小舟がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q43_d",
+    "status": "aligned",
+    "spec_sha256": "5150150cfce00aabe41f29408bc279ad8a5af98be7f6c08c65561cd154942565",
+    "reviewed_png_sha256": "c47115bdc4978949921d671de0f5fb03e225fc70f9770ad298e070f8b3db7a00",
+    "observation": "白いコック服と帽子の料理人がいる。包丁とまな板で人参を切り周囲に野菜がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "白いコック服と帽子の料理人がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "包丁とまな板で人参を切り周囲に野菜がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q44_a",
+    "status": "limited",
+    "spec_sha256": "c7a9f512cf68e26fc79681ad405613cf3024364d496487a624448f07d5fc6c8b",
+    "reviewed_png_sha256": "0dd407d4142fff06f0ef1017f0833dffc4c4cc825220d1cbb11b44a672b219d2",
+    "observation": "高床の中央の寝殿と左右へ続く回廊がある。開放的な縁側と池の庭が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "高床の中央の寝殿と左右へ続く回廊がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "開放的な縁側と池の庭が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q44_b",
+    "status": "limited",
+    "spec_sha256": "56931703a4571f0ad86bd124d23e79f6b1109c3642607aa2fcb4b9989056394f",
+    "reviewed_png_sha256": "2ae90cc39efa37f18c6818bb0ef7699d713dc3a6e1ea07b9de4a97d09c964de1",
+    "observation": "畳敷きの座敷に床の間がある。右に違い棚、左に障子がある。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "畳敷きの座敷に床の間がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "右に違い棚、左に障子がある"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q44_c",
+    "status": "limited",
+    "spec_sha256": "26288be61a286ffa48d6b21cff3670d5e1fca5fd89096055b84f9bc61fb3e6de",
+    "reviewed_png_sha256": "05c12a54aa493879ea52b9e86a31e54e839ae8db8b59c52c773e9f74aa1235c5",
+    "observation": "簡素な土壁と木の柱の小さな茶室。低いにじり口と竹の意匠があり中に茶釜が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "簡素な土壁と木の柱の小さな茶室"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "低いにじり口と竹の意匠があり中に茶釜が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "limitations": "学習用の再現画像。人物本人の容貌、史料・建築の細部、家紋や合戦の配置の厳密な復元は保証しない。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q44_d",
+    "status": "aligned",
+    "spec_sha256": "70c72166f89fffde3c48c53f042a85069d8baba3ad5050455bdd00ab442aa960",
+    "reviewed_png_sha256": "b2c24a26322f2586497ec1cd280e0714850e00660718e27a302359bef4121ed6",
+    "observation": "丸太を横積みした小屋がある。交差した角と背後の森林が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "丸太を横積みした小屋がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "交差した角と背後の森林が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q45_a",
+    "status": "aligned",
+    "spec_sha256": "f48a47ac8419801744bad9a3a5f4c8b3bd54cd819833c30278115c85bdeafccb",
+    "reviewed_png_sha256": "3d359beb9fd497f60b03bcd0e8e4ee61b50abe416ef9cf311ae15d6bb1f762d7",
+    "observation": "光背と蓮台を持つ金色の阿弥陀仏の座像がある。手前に合掌する人と手の数珠が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "光背と蓮台を持つ金色の阿弥陀仏の座像がある"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "手前に合掌する人と手の数珠が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q45_b",
+    "status": "aligned",
+    "spec_sha256": "0777c78dc717011ea0fd3be12889cee51286ce3ad78410e2be46656b515d0a92",
+    "reviewed_png_sha256": "ae484c5db83599b13ca6e23bd01186a8c0ce169b463597e51747126e99a9d4d6",
+    "observation": "剃髪した僧が机の経巻を学ぶ。背景に杉と山寺が見える。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "剃髪した僧が机の経巻を学ぶ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背景に杉と山寺が見える"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q45_c",
+    "status": "aligned",
+    "spec_sha256": "d1882f28e47ca56635cbbfda3c131232826f62e726a18951a00cb88712939874",
+    "reviewed_png_sha256": "bbdd2a75fff2bce26319ca598c3bafbeffa70b7170badcbb97d64636317322e0",
+    "observation": "赤褐色の僧衣の僧が金剛杵と鈴を持つ。背後に曼荼羅と大日如来の像が描かれる。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "赤褐色の僧衣の僧が金剛杵と鈴を持つ"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "背後に曼荼羅と大日如来の像が描かれる"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  },
+  {
+    "id": "q45_d",
+    "status": "aligned",
+    "spec_sha256": "0ecdb541c965b88b51833799da90728949f262b968b8c18801ad76b95d5a9330",
+    "reviewed_png_sha256": "65ee9d8679171b8ecd1510a3760bbafdaa53832dd20c30e8276da8f3557028af",
+    "observation": "ベージュの服と茶色のローブの人物がいる。両手で青く光るライトセーバーを持つ。",
+    "checked_features": [
+      {
+        "key": "subject",
+        "result": "pass",
+        "observation": "ベージュの服と茶色のローブの人物がいる"
+      },
+      {
+        "key": "context",
+        "result": "pass",
+        "observation": "両手で青く光るライトセーバーを持つ"
+      }
+    ],
+    "thumbnail_148_reviewed": true,
+    "review_method": "CodexがID付き一覧で問題・選択肢・実際の入力・必須特徴と目視照合。必要な画像は原寸でも確認。",
+    "source_mapping_revision": "Only display icon key and source file hash changed; image, question, option, actual input and visual evidence are unchanged."
+  }
+]

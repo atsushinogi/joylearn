@@ -1,0 +1,1131 @@
+{
+  "source_file": "/content/drive/MyDrive/joylearn/quiz/social-studies-2-lesson4/quiz-data.js",
+  "source_sha256": "b0ef08d44439c2ba13ed537980cced9027f37020bc89cd65c5655d0facb9dc0f",
+  "questions": [
+    {
+      "q": "唐の文化を土台にして、日本の風土や生活にあった文化を何文化といいますか。",
+      "options": [
+        {
+          "label": "国風",
+          "furigana": "こくふう",
+          "icon": "q01_a",
+          "correct": true
+        },
+        {
+          "label": "唐風",
+          "furigana": "とうふう",
+          "icon": "q01_b"
+        },
+        {
+          "label": "天平",
+          "furigana": "てんぴょう",
+          "icon": "q01_c"
+        },
+        {
+          "label": "ラーメン",
+          "icon": "q01_d"
+        }
+      ]
+    },
+    {
+      "q": "794年、都を平安京に移した天皇はだれですか。",
+      "options": [
+        {
+          "label": "桓武天皇",
+          "furigana": "かんむてんのう",
+          "icon": "q02_a",
+          "correct": true
+        },
+        {
+          "label": "聖武天皇",
+          "furigana": "しょうむてんのう",
+          "icon": "q02_b"
+        },
+        {
+          "label": "白河天皇",
+          "furigana": "しらかわてんのう",
+          "icon": "q02_c"
+        },
+        {
+          "label": "消防士",
+          "furigana": "しょうぼうし",
+          "icon": "q02_d"
+        }
+      ]
+    },
+    {
+      "q": "かぐや姫の伝説をもとにした物語はどれですか。",
+      "options": [
+        {
+          "label": "竹取物語",
+          "furigana": "たけとりものがたり",
+          "icon": "q03_a",
+          "correct": true
+        },
+        {
+          "label": "源氏物語",
+          "furigana": "げんじものがたり",
+          "icon": "q03_b"
+        },
+        {
+          "label": "枕草子",
+          "furigana": "まくらのそうし",
+          "icon": "q03_c"
+        },
+        {
+          "label": "ドラゴンボール",
+          "icon": "q03_d"
+        }
+      ]
+    },
+    {
+      "q": "桓武天皇が蝦夷を討つために坂上田村麻呂を任命した役職を何といいますか。",
+      "options": [
+        {
+          "label": "征夷大将軍",
+          "furigana": "せいいたいしょうぐん",
+          "icon": "q04_a",
+          "correct": true
+        },
+        {
+          "label": "太政大臣",
+          "furigana": "だいじょうだいじん",
+          "icon": "q04_b"
+        },
+        {
+          "label": "関白",
+          "furigana": "かんぱく",
+          "icon": "q04_c"
+        },
+        {
+          "label": "ウルトラマン",
+          "icon": "q04_d"
+        }
+      ]
+    },
+    {
+      "q": "天皇が幼いときに天皇をたすけて政治を行う役職を何といいますか。",
+      "options": [
+        {
+          "label": "摂政",
+          "furigana": "せっしょう",
+          "icon": "q05_a",
+          "correct": true
+        },
+        {
+          "label": "関白",
+          "furigana": "かんぱく",
+          "icon": "q05_b"
+        },
+        {
+          "label": "太政大臣",
+          "furigana": "だいじょうだいじん",
+          "icon": "q05_c"
+        },
+        {
+          "label": "忍者",
+          "icon": "q05_d"
+        }
+      ]
+    },
+    {
+      "q": "平清盛が1167年についた、武士として初めての役職はどれですか。",
+      "options": [
+        {
+          "label": "太政大臣",
+          "furigana": "だいじょうだいじん",
+          "icon": "q06_a",
+          "correct": true
+        },
+        {
+          "label": "征夷大将軍",
+          "furigana": "せいいたいしょうぐん",
+          "icon": "q06_b"
+        },
+        {
+          "label": "関白",
+          "furigana": "かんぱく",
+          "icon": "q06_c"
+        },
+        {
+          "label": "パティシエ",
+          "icon": "q06_d"
+        }
+      ]
+    },
+    {
+      "q": "天皇が成人した後に天皇をたすけて政治を行う役職を何といいますか。",
+      "options": [
+        {
+          "label": "関白",
+          "furigana": "かんぱく",
+          "icon": "q07_a",
+          "correct": true
+        },
+        {
+          "label": "摂政",
+          "furigana": "せっしょう",
+          "icon": "q07_b"
+        },
+        {
+          "label": "征夷大将軍",
+          "furigana": "せいいたいしょうぐん",
+          "icon": "q07_c"
+        },
+        {
+          "label": "魔法使い",
+          "icon": "q07_d"
+        }
+      ]
+    },
+    {
+      "q": "藤原氏が摂政・関白の地位を独占して行った政治を何政治といいますか。",
+      "options": [
+        {
+          "label": "摂関",
+          "furigana": "せっかん",
+          "icon": "q08_a",
+          "correct": true
+        },
+        {
+          "label": "院政",
+          "furigana": "いんせい",
+          "icon": "q08_b"
+        },
+        {
+          "label": "律令",
+          "furigana": "りつりょう",
+          "icon": "q08_c"
+        },
+        {
+          "label": "ゲーム実況",
+          "icon": "q08_d"
+        }
+      ]
+    },
+    {
+      "q": "「この世をば わが世とぞ思ふ 望月の 欠けたることもなしと思へば」とよんだ人物はだれですか。",
+      "options": [
+        {
+          "label": "藤原道長",
+          "furigana": "ふじわらのみちなが",
+          "icon": "q09_a",
+          "correct": true
+        },
+        {
+          "label": "藤原頼通",
+          "furigana": "ふじわらのよりみち",
+          "icon": "q09_b"
+        },
+        {
+          "label": "菅原道真",
+          "furigana": "すがわらのみちざね",
+          "icon": "q09_c"
+        },
+        {
+          "label": "サンタクロース",
+          "icon": "q09_d"
+        }
+      ]
+    },
+    {
+      "q": "藤原頼通が1052年に京都府宇治市に建てた阿弥陀堂はどれですか。",
+      "options": [
+        {
+          "label": "中尊寺金色堂",
+          "furigana": "ちゅうそんじこんじきどう",
+          "icon": "q10_a"
+        },
+        {
+          "label": "延暦寺",
+          "furigana": "えんりゃくじ",
+          "icon": "q10_b"
+        },
+        {
+          "label": "平等院鳳凰堂",
+          "furigana": "びょうどういんほうおうどう",
+          "icon": "q10_c",
+          "correct": true
+        },
+        {
+          "label": "東京スカイツリー",
+          "icon": "q10_d"
+        }
+      ]
+    },
+    {
+      "q": "藤原道長の子で、摂関政治の全盛期を築いた人物はだれですか。",
+      "options": [
+        {
+          "label": "藤原頼通",
+          "furigana": "ふじわらのよりみち",
+          "icon": "q11_a",
+          "correct": true
+        },
+        {
+          "label": "藤原道長",
+          "furigana": "ふじわらのみちなが",
+          "icon": "q11_b"
+        },
+        {
+          "label": "藤原純友",
+          "furigana": "ふじわらのすみとも",
+          "icon": "q11_c"
+        },
+        {
+          "label": "宇宙飛行士",
+          "furigana": "うちゅうひこうし",
+          "icon": "q11_d"
+        }
+      ]
+    },
+    {
+      "q": "894年、遣唐使の停止を朝廷に提案した人物はだれですか。",
+      "options": [
+        {
+          "label": "菅原道真",
+          "furigana": "すがわらのみちざね",
+          "icon": "q12_a",
+          "correct": true
+        },
+        {
+          "label": "藤原道長",
+          "furigana": "ふじわらのみちなが",
+          "icon": "q12_b"
+        },
+        {
+          "label": "最澄",
+          "furigana": "さいちょう",
+          "icon": "q12_c"
+        },
+        {
+          "label": "ドラえもん",
+          "icon": "q12_d"
+        }
+      ]
+    },
+    {
+      "q": "菅原道真が藤原氏によって左遷された、九州の地を何といいますか。",
+      "options": [
+        {
+          "label": "大宰府",
+          "furigana": "だざいふ",
+          "icon": "q13_a",
+          "correct": true
+        },
+        {
+          "label": "平泉",
+          "furigana": "ひらいずみ",
+          "icon": "q13_b"
+        },
+        {
+          "label": "京都",
+          "furigana": "きょうと",
+          "icon": "q13_c"
+        },
+        {
+          "label": "ハワイ",
+          "icon": "q13_d"
+        }
+      ]
+    },
+    {
+      "q": "空海が和歌山県の高野山に建てた、真言宗の寺院はどれですか。",
+      "options": [
+        {
+          "label": "延暦寺",
+          "furigana": "えんりゃくじ",
+          "icon": "q14_a"
+        },
+        {
+          "label": "金剛峯寺",
+          "furigana": "こんごうぶじ",
+          "icon": "q14_b",
+          "correct": true
+        },
+        {
+          "label": "中尊寺金色堂",
+          "furigana": "ちゅうそんじこんじきどう",
+          "icon": "q14_c"
+        },
+        {
+          "label": "東京タワー",
+          "icon": "q14_d"
+        }
+      ]
+    },
+    {
+      "q": "菅原道真をまつり、「学問の神様」として信仰されている神を何といいますか。",
+      "options": [
+        {
+          "label": "天神",
+          "furigana": "てんじん",
+          "icon": "q15_a",
+          "correct": true
+        },
+        {
+          "label": "八幡神",
+          "furigana": "はちまんしん",
+          "icon": "q15_b"
+        },
+        {
+          "label": "氏神",
+          "furigana": "うじがみ",
+          "icon": "q15_c"
+        },
+        {
+          "label": "ゼウス",
+          "icon": "q15_d"
+        }
+      ]
+    },
+    {
+      "q": "地方の豪族や貴族が、荘園の権利を守るために中央の有力者にささげることを何といいますか。",
+      "options": [
+        {
+          "label": "寄進",
+          "furigana": "きしん",
+          "icon": "q16_a",
+          "correct": true
+        },
+        {
+          "label": "貢納",
+          "furigana": "こうのう",
+          "icon": "q16_b"
+        },
+        {
+          "label": "年貢",
+          "furigana": "ねんぐ",
+          "icon": "q16_c"
+        },
+        {
+          "label": "プレゼント交換",
+          "icon": "q16_d"
+        }
+      ]
+    },
+    {
+      "q": "最澄が天台宗を伝え、滋賀県に建てた寺院はどれですか。",
+      "options": [
+        {
+          "label": "金剛峯寺",
+          "furigana": "こんごうぶじ",
+          "icon": "q17_a"
+        },
+        {
+          "label": "延暦寺",
+          "furigana": "えんりゃくじ",
+          "icon": "q17_b",
+          "correct": true
+        },
+        {
+          "label": "平等院鳳凰堂",
+          "furigana": "びょうどういんほうおうどう",
+          "icon": "q17_c"
+        },
+        {
+          "label": "ディズニーランド",
+          "icon": "q17_d"
+        }
+      ]
+    },
+    {
+      "q": "尾張国の人々が悪政31か条を朝廷に訴えた国司の名はだれですか。",
+      "options": [
+        {
+          "label": "藤原元命",
+          "furigana": "ふじわらのもとなが",
+          "icon": "q18_a",
+          "correct": true
+        },
+        {
+          "label": "藤原純友",
+          "furigana": "ふじわらのすみとも",
+          "icon": "q18_b"
+        },
+        {
+          "label": "平将門",
+          "furigana": "たいらのまさかど",
+          "icon": "q18_c"
+        },
+        {
+          "label": "ジャイアン",
+          "icon": "q18_d"
+        }
+      ]
+    },
+    {
+      "q": "939年、関東地方で新皇と名のって反乱を起こした人物はだれですか。",
+      "options": [
+        {
+          "label": "平将門",
+          "furigana": "たいらのまさかど",
+          "icon": "q19_a",
+          "correct": true
+        },
+        {
+          "label": "藤原純友",
+          "furigana": "ふじわらのすみとも",
+          "icon": "q19_b"
+        },
+        {
+          "label": "平清盛",
+          "furigana": "たいらのきよもり",
+          "icon": "q19_c"
+        },
+        {
+          "label": "ガンダム",
+          "icon": "q19_d"
+        }
+      ]
+    },
+    {
+      "q": "かな文字で書かれた最初の日記とされる『土佐日記』の作者はだれですか。",
+      "options": [
+        {
+          "label": "紫式部",
+          "furigana": "むらさきしきぶ",
+          "icon": "q20_a"
+        },
+        {
+          "label": "清少納言",
+          "furigana": "せいしょうなごん",
+          "icon": "q20_b"
+        },
+        {
+          "label": "紀貫之",
+          "furigana": "きのつらゆき",
+          "icon": "q20_c",
+          "correct": true
+        },
+        {
+          "label": "浦島太郎",
+          "icon": "q20_d"
+        }
+      ]
+    },
+    {
+      "q": "939年、瀬戸内海の海賊を率いて反乱を起こした伊予国の元役人はだれですか。",
+      "options": [
+        {
+          "label": "藤原純友",
+          "furigana": "ふじわらのすみとも",
+          "icon": "q21_a",
+          "correct": true
+        },
+        {
+          "label": "平将門",
+          "furigana": "たいらのまさかど",
+          "icon": "q21_b"
+        },
+        {
+          "label": "平清盛",
+          "furigana": "たいらのきよもり",
+          "icon": "q21_c"
+        },
+        {
+          "label": "ルフィ",
+          "icon": "q21_d"
+        }
+      ]
+    },
+    {
+      "q": "荘園が税を納めなくてよい権利を何の権といいますか。",
+      "options": [
+        {
+          "label": "不輸",
+          "furigana": "ふゆ",
+          "icon": "q22_a",
+          "correct": true
+        },
+        {
+          "label": "不入",
+          "furigana": "ふにゅう",
+          "icon": "q22_b"
+        },
+        {
+          "label": "免除",
+          "furigana": "めんじょ",
+          "icon": "q22_c"
+        },
+        {
+          "label": "ノーベル賞",
+          "icon": "q22_d"
+        }
+      ]
+    },
+    {
+      "q": "国司の役人が荘園への立ち入りを断ることができる権利を何の権といいますか。",
+      "options": [
+        {
+          "label": "不入",
+          "furigana": "ふにゅう",
+          "icon": "q23_a",
+          "correct": true
+        },
+        {
+          "label": "不輸",
+          "furigana": "ふゆ",
+          "icon": "q23_b"
+        },
+        {
+          "label": "検地",
+          "furigana": "けんち",
+          "icon": "q23_c"
+        },
+        {
+          "label": "ゾンビランド",
+          "icon": "q23_d"
+        }
+      ]
+    },
+    {
+      "q": "平将門が反乱を起こしたのはどこの地方ですか。",
+      "options": [
+        {
+          "label": "関東地方",
+          "furigana": "かんとうちほう",
+          "icon": "q24_a",
+          "correct": true
+        },
+        {
+          "label": "近畿地方",
+          "furigana": "きんきちほう",
+          "icon": "q24_b"
+        },
+        {
+          "label": "九州地方",
+          "furigana": "きゅうしゅうちほう",
+          "icon": "q24_c"
+        },
+        {
+          "label": "おとぎの国",
+          "icon": "q24_d"
+        }
+      ]
+    },
+    {
+      "q": "11世紀末ごろから、岩手県平泉を中心に3代にわたって栄えた一族を何氏といいますか。",
+      "options": [
+        {
+          "label": "奥州藤原",
+          "furigana": "おうしゅうふじわら",
+          "icon": "q25_a",
+          "correct": true
+        },
+        {
+          "label": "桓武平",
+          "furigana": "かんむへい",
+          "icon": "q25_b"
+        },
+        {
+          "label": "清和源",
+          "furigana": "せいわげん",
+          "icon": "q25_c"
+        },
+        {
+          "label": "ドラゴン",
+          "icon": "q25_d"
+        }
+      ]
+    },
+    {
+      "q": "奥州藤原氏が平泉に建てた、金箔でかざられたお堂を何といいますか。",
+      "options": [
+        {
+          "label": "中尊寺金色堂",
+          "furigana": "ちゅうそんじこんじきどう",
+          "icon": "q26_a",
+          "correct": true
+        },
+        {
+          "label": "平等院鳳凰堂",
+          "furigana": "びょうどういんほうおうどう",
+          "icon": "q26_b"
+        },
+        {
+          "label": "金閣寺",
+          "furigana": "きんかくじ",
+          "icon": "q26_c"
+        },
+        {
+          "label": "ピラミッド",
+          "icon": "q26_d"
+        }
+      ]
+    },
+    {
+      "q": "瀬戸内海の海賊を率いて反乱を起こしたのはだれですか。",
+      "options": [
+        {
+          "label": "平将門",
+          "furigana": "たいらのまさかど",
+          "icon": "q27_a"
+        },
+        {
+          "label": "藤原純友",
+          "furigana": "ふじわらのすみとも",
+          "icon": "q27_b",
+          "correct": true
+        },
+        {
+          "label": "平清盛",
+          "furigana": "たいらのきよもり",
+          "icon": "q27_c"
+        },
+        {
+          "label": "桃太郎",
+          "icon": "q27_d"
+        }
+      ]
+    },
+    {
+      "q": "1086年、位を子にゆずり、上皇となった後も政治を行った天皇はだれですか。",
+      "options": [
+        {
+          "label": "白河天皇",
+          "furigana": "しらかわてんのう",
+          "icon": "q28_a",
+          "correct": true
+        },
+        {
+          "label": "堀河天皇",
+          "furigana": "ほりかわてんのう",
+          "icon": "q28_b"
+        },
+        {
+          "label": "桓武天皇",
+          "furigana": "かんむてんのう",
+          "icon": "q28_c"
+        },
+        {
+          "label": "ネプチューン",
+          "icon": "q28_d"
+        }
+      ]
+    },
+    {
+      "q": "上皇（院）が行う政治を何といいますか。",
+      "options": [
+        {
+          "label": "院政",
+          "furigana": "いんせい",
+          "icon": "q29_a",
+          "correct": true
+        },
+        {
+          "label": "摂関政治",
+          "furigana": "せっかんせいじ",
+          "icon": "q29_b"
+        },
+        {
+          "label": "律令政治",
+          "furigana": "りつりょうせいじ",
+          "icon": "q29_c"
+        },
+        {
+          "label": "ゲーム実況",
+          "icon": "q29_d"
+        }
+      ]
+    },
+    {
+      "q": "保元の乱・平治の乱に勝利し、武士として初めて太政大臣となったのはだれですか。",
+      "options": [
+        {
+          "label": "源義朝",
+          "furigana": "みなもとのよしとも",
+          "icon": "q30_a"
+        },
+        {
+          "label": "平清盛",
+          "furigana": "たいらのきよもり",
+          "icon": "q30_b",
+          "correct": true
+        },
+        {
+          "label": "平将門",
+          "furigana": "たいらのまさかど",
+          "icon": "q30_c"
+        },
+        {
+          "label": "仮面ライダー",
+          "icon": "q30_d"
+        }
+      ]
+    },
+    {
+      "q": "天皇家や貴族に仕える者という意味で、武士のことを何ともよびますか。",
+      "options": [
+        {
+          "label": "侍",
+          "furigana": "さむらい",
+          "icon": "q31_a",
+          "correct": true
+        },
+        {
+          "label": "武者",
+          "furigana": "むしゃ",
+          "icon": "q31_b"
+        },
+        {
+          "label": "豪族",
+          "furigana": "ごうぞく",
+          "icon": "q31_c"
+        },
+        {
+          "label": "ロボット",
+          "icon": "q31_d"
+        }
+      ]
+    },
+    {
+      "q": "1156年、天皇方と上皇方が争った戦いを何の乱といいますか。",
+      "options": [
+        {
+          "label": "保元",
+          "furigana": "ほうげん",
+          "icon": "q32_a",
+          "correct": true
+        },
+        {
+          "label": "平治",
+          "furigana": "へいじ",
+          "icon": "q32_b"
+        },
+        {
+          "label": "壬申",
+          "furigana": "じんしん",
+          "icon": "q32_c"
+        },
+        {
+          "label": "雪合戦",
+          "icon": "q32_d"
+        }
+      ]
+    },
+    {
+      "q": "1159年、平清盛と源義朝が争った戦いを何の乱といいますか。",
+      "options": [
+        {
+          "label": "平治",
+          "furigana": "へいじ",
+          "icon": "q33_a",
+          "correct": true
+        },
+        {
+          "label": "保元",
+          "furigana": "ほうげん",
+          "icon": "q33_b"
+        },
+        {
+          "label": "承久",
+          "furigana": "じょうきゅう",
+          "icon": "q33_c"
+        },
+        {
+          "label": "枕投げ合戦",
+          "icon": "q33_d"
+        }
+      ]
+    },
+    {
+      "q": "桓武天皇が都を平安京に移したのは何年ですか。",
+      "options": [
+        {
+          "label": "710年",
+          "icon": "q34_a"
+        },
+        {
+          "label": "794年",
+          "icon": "q34_b",
+          "correct": true
+        },
+        {
+          "label": "1086年",
+          "icon": "q34_c"
+        },
+        {
+          "label": "西暦2000年",
+          "icon": "q34_d"
+        }
+      ]
+    },
+    {
+      "q": "平治の乱に勝利し、1167年に太政大臣となった人物はだれですか。",
+      "options": [
+        {
+          "label": "平清盛",
+          "furigana": "たいらのきよもり",
+          "icon": "q35_a",
+          "correct": true
+        },
+        {
+          "label": "源義朝",
+          "furigana": "みなもとのよしとも",
+          "icon": "q35_b"
+        },
+        {
+          "label": "藤原純友",
+          "furigana": "ふじわらのすみとも",
+          "icon": "q35_c"
+        },
+        {
+          "label": "アンパンマン",
+          "icon": "q35_d"
+        }
+      ]
+    },
+    {
+      "q": "平清盛が瀬戸内海の航路を整えて宋との間で行った貿易を何貿易といいますか。",
+      "options": [
+        {
+          "label": "日宋",
+          "furigana": "にっそう",
+          "icon": "q36_a",
+          "correct": true
+        },
+        {
+          "label": "日明",
+          "furigana": "にちみん",
+          "icon": "q36_b"
+        },
+        {
+          "label": "日唐",
+          "furigana": "にっとう",
+          "icon": "q36_c"
+        },
+        {
+          "label": "宇宙",
+          "furigana": "うちゅう",
+          "icon": "q36_d"
+        }
+      ]
+    },
+    {
+      "q": "9世紀初め、唐にわたって天台宗を伝え、延暦寺を建てた人物はだれですか。",
+      "options": [
+        {
+          "label": "最澄",
+          "furigana": "さいちょう",
+          "icon": "q37_a",
+          "correct": true
+        },
+        {
+          "label": "空海",
+          "furigana": "くうかい",
+          "icon": "q37_b"
+        },
+        {
+          "label": "鑑真",
+          "furigana": "がんじん",
+          "icon": "q37_c"
+        },
+        {
+          "label": "大工",
+          "furigana": "だいく",
+          "icon": "q37_d"
+        }
+      ]
+    },
+    {
+      "q": "9世紀初め、唐にわたって真言宗を伝え、金剛峯寺を建てた人物はだれですか。",
+      "options": [
+        {
+          "label": "空海",
+          "furigana": "くうかい",
+          "icon": "q38_a",
+          "correct": true
+        },
+        {
+          "label": "最澄",
+          "furigana": "さいちょう",
+          "icon": "q38_b"
+        },
+        {
+          "label": "鑑真",
+          "furigana": "がんじん",
+          "icon": "q38_c"
+        },
+        {
+          "label": "手品師",
+          "furigana": "てじなし",
+          "icon": "q38_d"
+        }
+      ]
+    },
+    {
+      "q": "漢字をくずした形からつくられたかな文字を何といいますか。",
+      "options": [
+        {
+          "label": "ひらがな",
+          "icon": "q39_a",
+          "correct": true
+        },
+        {
+          "label": "カタカナ",
+          "icon": "q39_b"
+        },
+        {
+          "label": "万葉仮名",
+          "furigana": "まんようがな",
+          "icon": "q39_c"
+        },
+        {
+          "label": "絵文字",
+          "icon": "q39_d"
+        }
+      ]
+    },
+    {
+      "q": "漢字のへんやつくりなどからつくられたかな文字を何といいますか。",
+      "options": [
+        {
+          "label": "カタカナ",
+          "icon": "q40_a",
+          "correct": true
+        },
+        {
+          "label": "ひらがな",
+          "icon": "q40_b"
+        },
+        {
+          "label": "万葉仮名",
+          "furigana": "まんようがな",
+          "icon": "q40_c"
+        },
+        {
+          "label": "QRコード",
+          "icon": "q40_d"
+        }
+      ]
+    },
+    {
+      "q": "紀貫之らが編集した和歌集を何といいますか。",
+      "options": [
+        {
+          "label": "古今和歌集",
+          "furigana": "こきんわかしゅう",
+          "icon": "q41_a",
+          "correct": true
+        },
+        {
+          "label": "万葉集",
+          "furigana": "まんようしゅう",
+          "icon": "q41_b"
+        },
+        {
+          "label": "源氏物語",
+          "furigana": "げんじものがたり",
+          "icon": "q41_c"
+        },
+        {
+          "label": "少年ジャンプ",
+          "icon": "q41_d"
+        }
+      ]
+    },
+    {
+      "q": "貴族の生活や感情をたくみにえがいた物語『源氏物語』の作者はだれですか。",
+      "options": [
+        {
+          "label": "紫式部",
+          "furigana": "むらさきしきぶ",
+          "icon": "q42_a",
+          "correct": true
+        },
+        {
+          "label": "清少納言",
+          "furigana": "せいしょうなごん",
+          "icon": "q42_b"
+        },
+        {
+          "label": "紀貫之",
+          "furigana": "きのつらゆき",
+          "icon": "q42_c"
+        },
+        {
+          "label": "パン職人",
+          "furigana": "ぱんしょくにん",
+          "icon": "q42_d"
+        }
+      ]
+    },
+    {
+      "q": "自然の変化などを鋭い感覚でえがいた随筆『枕草子』の作者はだれですか。",
+      "options": [
+        {
+          "label": "清少納言",
+          "furigana": "せいしょうなごん",
+          "icon": "q43_a",
+          "correct": true
+        },
+        {
+          "label": "紫式部",
+          "furigana": "むらさきしきぶ",
+          "icon": "q43_b"
+        },
+        {
+          "label": "紀貫之",
+          "furigana": "きのつらゆき",
+          "icon": "q43_c"
+        },
+        {
+          "label": "料理人",
+          "furigana": "りょうりにん",
+          "icon": "q43_d"
+        }
+      ]
+    },
+    {
+      "q": "貴族の住まいのつくりを何造といいますか。",
+      "options": [
+        {
+          "label": "寝殿",
+          "furigana": "しんでん",
+          "icon": "q44_a",
+          "correct": true
+        },
+        {
+          "label": "書院",
+          "furigana": "しょいん",
+          "icon": "q44_b"
+        },
+        {
+          "label": "数寄屋",
+          "furigana": "すきや",
+          "icon": "q44_c"
+        },
+        {
+          "label": "ログハウス",
+          "icon": "q44_d"
+        }
+      ]
+    },
+    {
+      "q": "念仏を唱えれば阿弥陀仏に救われるとする信仰を何教といいますか。",
+      "options": [
+        {
+          "label": "浄土",
+          "furigana": "じょうど",
+          "icon": "q45_a",
+          "correct": true
+        },
+        {
+          "label": "天台",
+          "furigana": "てんだい",
+          "icon": "q45_b"
+        },
+        {
+          "label": "真言",
+          "furigana": "しんごん",
+          "icon": "q45_c"
+        },
+        {
+          "label": "ジェダイ",
+          "icon": "q45_d"
+        }
+      ]
+    }
+  ]
+}

@@ -612,7 +612,8 @@
   <section id="galleryView" class="gallery" hidden></section>
 </div>
 
-<script src="quiz-data.js" charset="utf-8"></script>
+<script src="quiz-data.js?v=20261106-webp180" charset="utf-8"></script>
+<script src="icons.js?v=20261106-webp180" charset="utf-8"></script>
 <script>
 (function () {
   "use strict";
@@ -650,7 +651,7 @@
   const galleryView = document.getElementById("galleryView");
 
   function iconMarkup(key) {
-    return '<img src="icons/' + key + '.png" alt="" width="256" height="256" loading="lazy">';
+    return '<img src="' + ICONS[key] + '" alt="" width="148" height="148" loading="lazy">';
   }
 
   const CHECK_FLAG =

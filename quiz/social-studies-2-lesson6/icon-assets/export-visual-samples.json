@@ -1,0 +1,47 @@
+{
+  "method": "Codex manually viewed side-by-side actual 148px PNG and WebP export pairs",
+  "comparison_sheet": "../icon-production/review/export-pairs.png",
+  "observations": "8件すべてで主題・文字・紋・小道具の識別に新しい不一致なし。全180件の変換差分はexport-verification.jsonで別途検査。",
+  "files": [
+    {
+      "id": "q02_b",
+      "png_sha256": "3593ae14d72d644f9de3ff7f90dc3b214eb06e9a3e370378246aa23b5662d5ef",
+      "webp_sha256": "915826f288ad13a535f9c8b1a6c723852bd00ff0e0d4c1371be4cf917da02e40"
+    },
+    {
+      "id": "q14_a",
+      "png_sha256": "3ca3219aa41cbdb85099c8ad053b6512e70e280dd750d2473b35861fd1b81916",
+      "webp_sha256": "382f8bc0be514b1052237f9bde75b93df64f3da6b12310197fea099a0a9c383c"
+    },
+    {
+      "id": "q15_a",
+      "png_sha256": "f506ef12416319e2395072a155063b08c5c55e7910bad1d93f4a0476613c7689",
+      "webp_sha256": "619591ca0afc9e0d310052f762a8636fd47f6875fee379ed9c141ef3446672ab"
+    },
+    {
+      "id": "q20_a",
+      "png_sha256": "58ddbb7d995d728d317fbba007467f026b57de6f422840ccf1b47ef8c85de7ee",
+      "webp_sha256": "d035cf1e69c9360d6113937a32902efd1e42d52a5f1d971f2a8622230da34731"
+    },
+    {
+      "id": "q20_b",
+      "png_sha256": "dd1b8b5f8e793873b981a89a6f70b4c54eb616f29353c591972f43a210aa40cb",
+      "webp_sha256": "a88e8ba9cb852d05ae7c846051b46a8964f9356757ee7ea7a85247872943c10d"
+    },
+    {
+      "id": "q20_c",
+      "png_sha256": "4929b40d6a7bf59bfb7f0b4e90201639eb2b55254f7acdb512c84edc0535def3",
+      "webp_sha256": "d86912d19c9b1553aac52f8bbbef37af929e1163d51c2d669afdd3e93f469d48"
+    },
+    {
+      "id": "q33_a",
+      "png_sha256": "e425a8182b16690ec2532398ef022efdb76d56d1465d97c61fa94e3defe3beb7",
+      "webp_sha256": "8d7039672e7b8d2386a0facc4421a2d295ae1cd90f224c60198b4daf1abeb6af"
+    },
+    {
+      "id": "q43_a",
+      "png_sha256": "999b38291685b0d3e715de8939f3e8a62863397636de7577d95d3c9917fd7df9",
+      "webp_sha256": "412681eb7dc7daea0492c914d18a713364942c61feeb78c0ac076533673399f3"
+    }
+  ]
+}

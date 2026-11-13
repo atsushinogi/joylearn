@@ -1,0 +1,74 @@
+{
+  "questions": 45,
+  "choices": 4,
+  "requested": 180,
+  "imagegen_final_images": 180,
+  "generation_blocked": 0,
+  "repaired_ids": [
+    "q05_a",
+    "q06_d",
+    "q10_c",
+    "q19_a",
+    "q27_a",
+    "q30_a",
+    "q30_c",
+    "q31_b",
+    "q32_b",
+    "q33_c",
+    "q35_b"
+  ],
+  "repaired_count": 11,
+  "raw_generated_pngs_preserved": 191,
+  "raw_unique_sha256": 191,
+  "raw_default_generation_folder": "/root/.codex/generated_images/01a1aeaf-2189-7970-aa9a-c2bb48365e8d",
+  "final_png_folder": "accepted/",
+  "inputs": "jobs/",
+  "visual_evidence": "audit.json",
+  "complete": true,
+  "choice_replacements": [
+    {
+      "id": "q02_d",
+      "old_label": "マリオ",
+      "new_label": "消防士",
+      "furigana": "しょうぼうし"
+    },
+    {
+      "id": "q11_d",
+      "old_label": "スパイダーマン",
+      "new_label": "宇宙飛行士",
+      "furigana": "うちゅうひこうし"
+    },
+    {
+      "id": "q36_d",
+      "old_label": "ポケモン",
+      "new_label": "宇宙",
+      "furigana": "うちゅう"
+    },
+    {
+      "id": "q37_d",
+      "old_label": "ヨーダ",
+      "new_label": "大工",
+      "furigana": "だいく"
+    },
+    {
+      "id": "q38_d",
+      "old_label": "ハリーポッター",
+      "new_label": "手品師",
+      "furigana": "てじなし"
+    },
+    {
+      "id": "q42_d",
+      "old_label": "シンデレラ",
+      "new_label": "パン職人",
+      "furigana": "ぱんしょくにん"
+    },
+    {
+      "id": "q43_d",
+      "old_label": "白雪姫",
+      "new_label": "料理人",
+      "furigana": "りょうりにん"
+    }
+  ],
+  "previous_partial_export_backup": "quiz/social-studies-2-lesson4/icon-assets/backups/20261106T035041Z-ebc18c",
+  "unchanged_images_reused": 173
+}
